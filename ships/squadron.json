@@ -1,0 +1,58 @@
+{
+    "author": "UID",
+    "alias": "string",
+    "team": "string",
+    "release": "string",
+    "squadrons": {
+        "squadron_name": {
+            "UID": "[generate]",
+            "type": "squadron",
+            "faction": "faction_name",
+            "squadron_type": "squadron_uid",
+            "name": "squadron_name",
+            "ace-name": "string",
+            "irregular": boolean,
+            "hull": number,
+            "speed": number,
+            "tokens": {
+                "def_scatter": number,
+                "def_evade": number,
+                "def_brace": number,
+                "def_redirect": number,
+                "def_contain": number,
+                "def_salvo": number
+            },
+            "armament": {
+                "anti-squadron": [number, number, number],
+                "anti-ship": [number, number, number],
+            },
+            "abilities": {
+                "adept": number,
+                "ai-battery": number,
+                "ai-antisquadron": number,
+                "assault": boolean,
+                "bomber": boolean,
+                "cloak": boolean,
+                "counter": number,
+                "dodge": number,
+                "escort": boolean,
+                "grit": boolean,
+                "heavy": boolean,
+                "intel": boolean,
+                "relay": number,
+                "rogue": boolean,
+                "scout": boolean,
+                "screen": boolean,
+                "snipe": number,
+                "strategic": boolean,
+                "swarm": boolean
+            },
+            "ability": "string",
+            "unique": boolean,
+            "points": number,
+            "silhouette": "[link to image]",
+            "artwork": "[link to image]",
+            "cardimage": "[link to card image]"
+        }
+    }
+}
