@@ -1,5 +1,4 @@
-const Ship = require('../models/Ship');
-const UpgradeCard = require('../models/UpgradeCard');
+const Ship = require('../models/shipModel');
 
 exports.getAllShips = async (req, res, next) => {
   try {
@@ -45,25 +44,6 @@ exports.deleteShip = async (req, res, next) => {
     const deletedShip = await Ship.findByIdAndDelete(req.params.id);
     if (!deletedShip) return res.status(404).json({ message: 'Ship not found' });
     res.json({ message: 'Ship deleted successfully' });
-  } catch (error) {
-    next(error);
-  }
-};
-
-exports.getCompatibleUpgrades = async (req, res, next) => {
-  try {
-    const ship = await Ship.findById(req.params.id);
-    if (!ship) return res.status(404).json({ message: 'Ship not found' });
-
-    const compatibleUpgrades = await UpgradeCard.find({
-      $or: [
-        { faction: ship.faction },
-        { faction: 'Neutral' }
-      ],
-      type: { $in: ship.upgrades }
-    });
-
-    res.json(compatibleUpgrades);
   } catch (error) {
     next(error);
   }

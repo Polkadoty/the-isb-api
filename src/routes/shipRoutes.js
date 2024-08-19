@@ -7,6 +7,5 @@ router.get('/:id', shipController.getShipById);
 router.post('/', shipController.createShip);
 router.put('/:id', shipController.updateShip);
 router.delete('/:id', shipController.deleteShip);
-router.get('/:id/compatible-upgrades', shipController.getCompatibleUpgrades);
 
 module.exports = router;

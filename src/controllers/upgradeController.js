@@ -1,49 +1,49 @@
-const UpgradeCard = require('../models/Upgrade');
+const Upgrade = require('../models/upgradeModel');
 
-exports.getAllUpgradeCards = async (req, res, next) => {
+exports.getAllUpgrades = async (req, res, next) => {
   try {
-    const upgradeCards = await UpgradeCard.find();
-    res.json(upgradeCards);
+    const upgrades = await Upgrade.find();
+    res.json(upgrades);
   } catch (error) {
     next(error);
   }
 };
 
-exports.getUpgradeCardById = async (req, res, next) => {
+exports.getUpgradeById = async (req, res, next) => {
   try {
-    const upgradeCard = await UpgradeCard.findById(req.params.id);
-    if (!upgradeCard) return res.status(404).json({ message: 'Upgrade card not found' });
-    res.json(upgradeCard);
+    const upgrade = await Upgrade.findById(req.params.id);
+    if (!upgrade) return res.status(404).json({ message: 'Upgrade not found' });
+    res.json(upgrade);
   } catch (error) {
     next(error);
   }
 };
 
-exports.createUpgradeCard = async (req, res, next) => {
+exports.createUpgrade = async (req, res, next) => {
   try {
-    const newUpgradeCard = new UpgradeCard(req.body);
-    const savedUpgradeCard = await newUpgradeCard.save();
-    res.status(201).json(savedUpgradeCard);
+    const newUpgrade = new Upgrade(req.body);
+    const savedUpgrade = await newUpgrade.save();
+    res.status(201).json(savedUpgrade);
   } catch (error) {
     next(error);
   }
 };
 
-exports.updateUpgradeCard = async (req, res, next) => {
+exports.updateUpgrade = async (req, res, next) => {
   try {
-    const updatedUpgradeCard = await UpgradeCard.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    if (!updatedUpgradeCard) return res.status(404).json({ message: 'Upgrade card not found' });
-    res.json(updatedUpgradeCard);
+    const updatedUpgrade = await Upgrade.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    if (!updatedUpgrade) return res.status(404).json({ message: 'Upgrade not found' });
+    res.json(updatedUpgrade);
   } catch (error) {
     next(error);
   }
 };
 
-exports.deleteUpgradeCard = async (req, res, next) => {
+exports.deleteUpgrade = async (req, res, next) => {
   try {
-    const deletedUpgradeCard = await UpgradeCard.findByIdAndDelete(req.params.id);
-    if (!deletedUpgradeCard) return res.status(404).json({ message: 'Upgrade card not found' });
-    res.json({ message: 'Upgrade card deleted successfully' });
+    const deletedUpgrade = await Upgrade.findByIdAndDelete(req.params.id);
+    if (!deletedUpgrade) return res.status(404).json({ message: 'Upgrade not found' });
+    res.json({ message: 'Upgrade deleted successfully' });
   } catch (error) {
     next(error);
   }
