@@ -1,0 +1,77 @@
+{
+    "author": "UID",
+    "alias": "string",
+    "team": "string",
+    "release": "string",
+    "ships": {
+        "ship_name": {
+            "UID": "[generate]",
+            "type": "chassis",
+            "chassis_name": "string",
+            "size": "string",
+            "hull": number,
+            "tokens": {
+                "def_scatter": number,
+                "def_evade": number,
+                "def_brace": number,
+                "def_redirect": number,
+                "def_contain": number,
+                "def_salvo": number
+            },
+            "speed": {
+                "1": [number],
+                "2": [number, number],
+                "3": [number, number, number],
+                "4": [number, number, number, number]
+            },
+            "shields": {
+                "front": number,
+                "rear": number,
+                "left": number,
+                "right": number,
+                "left_aux": number,
+                "right_aux": number
+            },
+            "hull_zones": {
+                "frontoffset": number,
+                "centeroffset": number,
+                "rearoffset": number,
+                "frontangle": number,
+                "centerangle": number,
+                "rearangle": number
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "model_name": {
+                    "UID": "[generate]",
+                    "type": "ship",
+                    "chassis": "string",
+                    "name": "string",
+                    "faction": "string",
+                    "unique": boolean,
+                    "traits": ["string"],
+                    "points": number,
+                    "values": {
+                        "command": number,
+                        "squadron": number,
+                        "engineer": number
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "support-team", "fleet-command", "fleet-support", "offensive-retro", "defensive-retro", "experimental-retro", "turbolaser", "ion-cannon", "ordnance", "super-weapon", "title"],
+                    "armament": {
+                        "asa": [number, number, number],
+                        "front": [number, number, number],
+                        "rear": [number, number, number],
+                        "left": [number, number, number],
+                        "right": [number, number, number],
+                        "left_aux": [number, number, number],
+                        "right_aux": [number, number, number],
+                        "special": [number, number, number]
+                    },
+                    "artwork": "[link to image]",
+                    "cardimage": "[link to card image]"
+                }
+            }
+        }
+    }
+}

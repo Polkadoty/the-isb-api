@@ -11,16 +11,14 @@
             "squadron_type": "squadron_uid",
             "name": "squadron_name",
             "ace-name": "string",
+            "unique-class": ["string"],
             "irregular": boolean,
             "hull": number,
             "speed": number,
             "tokens": {
                 "def_scatter": number,
                 "def_evade": number,
-                "def_brace": number,
-                "def_redirect": number,
-                "def_contain": number,
-                "def_salvo": number
+                "def_brace": number
             },
             "armament": {
                 "anti-squadron": [number, number, number],

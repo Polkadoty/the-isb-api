@@ -1,0 +1,40 @@
+{
+    "author": "UID",
+    "alias": "string",
+    "team": "string",
+    "release": "string",
+    "upgrades": {
+        "upgrade_name": {
+            "UID": "[generate]",
+            "type": "upgrade_category/commander/title/etc",
+            "faction": "faction_name/neutral/multiple",
+            "name": "upgrade_name",
+            "unique-class": ["string"],
+            "ability": "string",
+            "unique": boolean,
+            "points": number,
+            "modification": boolean,
+            "bound_shiptype": "ship_type or NULL",
+            "restrictions": {
+                "traits": ["trait"],
+                "size": ["small","medium"],
+                "disqual_upgrades": ["NULL","upgrade_type"],
+                "disable_upgrades": ["NULL","upgrade_type"],
+                "flagship": boolean,
+                "unique_class": unique_class
+            },
+            "start_command": {
+                "type": ["NULL","token","dial"],
+                "start_icon": ["any", "squadron", "repair", "navigate", "confire"],
+                "start_amount": number
+            },
+            "exhaust": {
+                "type": ["NULL", "recur", "non-recur"],
+                "ready_token": ["any", "squadron", "repair", "navigate", "confire"],
+                "ready_amount": number
+            },
+            "artwork": "[link to image]",
+            "cardimage": "[link to card image]"
+        }
+    }
+}
