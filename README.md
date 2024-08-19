@@ -1,6 +1,6 @@
 # The ISB API
 
-The ISB API is a RESTful API for managing ship, squadron, and upgrade card data for an Armada-like game. Built with Node.js, Express, and MongoDB, this API provides a robust backend for game data management.
+The ISB API is a RESTful API for managing ship, squadron, and upgrade card data for Star Wars Armada. Built with Node.js, Express, and MongoDB, this API is the basis for which other applications will be built.
 
 ## Table of Contents
 
