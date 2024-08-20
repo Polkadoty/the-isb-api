@@ -1,0 +1,40 @@
+{
+  "upgrades": {
+    "upgrade_name": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "UID": "[generate]",
+      "type": "officer",
+      "faction": ["neutral"],
+      "name": "Expanded Hangar Bay",
+      "unique-class": ["NULL"],
+      "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :nav: or :repair: command.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": ["NULL"],
+        "size": ["NULL"],
+        "disqual_upgrades": ["NULL"],
+        "disable_upgrades": ["NULL"],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": ["NULL"],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": ["NULL"],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    }
+  }
+}

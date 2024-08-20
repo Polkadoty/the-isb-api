@@ -1,0 +1,40 @@
+{
+  "upgrades": {
+    "upgrade_name": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "UID": "[generate]",
+      "type": "weapons-team",
+      "faction": ["neutral"],
+      "name": "Gunnery Team",
+      "unique-class": ["NULL"],
+      "ability": ":confire:: The next attack you perform this activation can be performed from this hull zone. Each of your hull zones cannot target the same ship or squadron more than once during your activation.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": ["NULL"],
+        "size": ["NULL"],
+        "disqual_upgrades": ["NULL"],
+        "disable_upgrades": ["NULL"],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": ["NULL"],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": ["NULL"],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    }
+  }
+}
