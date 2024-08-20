@@ -48,6 +48,32 @@ If you prefer using Docker:
 
 The API will be available at `http://localhost:4000`.
 
+## Deploying on Railway
+
+You can easily deploy this API on Railway by clicking the button below:
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Polkadoty/the-isb-api&envs=MONGODB_URI&MONGODB_URIDesc=Your MongoDB connection string)
+
+### Steps after clicking the deploy button:
+
+1. Click on "Deploy Now"
+2. Connect your GitHub account if you haven't already
+3. Configure your MongoDB URI in the environment variables
+4. Click "Deploy"
+
+Railway will automatically build and deploy your API using the Dockerfile in your repository.
+
+### Connecting your domain
+
+After deploying on Railway:
+
+1. Go to your project settings in the Railway dashboard
+2. Navigate to the "Domains" section
+3. Add your custom domain: `api.swarmada.wiki`
+4. Update your DNS settings to point to the Railway-provided value
+
+Remember to update your client applications to use `https://api.swarmada.wiki` as the base URL for API requests.
+
 ## Usage
 
 The API provides endpoints for managing ships, squadrons, and upgrades. Here are some example requests using `curl`:
