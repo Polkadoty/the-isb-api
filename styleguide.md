@@ -1,4 +1,4 @@
-List of all of the wave names with releases under them:
+List of all of the release names with expansions under them:
 
 - Wave 0 Armada
     - Armada Core Set (SWM01)
