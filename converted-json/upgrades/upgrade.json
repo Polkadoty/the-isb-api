@@ -7,7 +7,7 @@
         "upgrade_name": {
             "UID": "[generate]",
             "type": "upgrade_category/commander/title/etc",
-            "faction": "faction_name/neutral/multiple",
+            "faction": ["rebel","empire","republic","separatist"],
             "name": "upgrade_name",
             "unique-class": ["string"],
             "ability": "string",

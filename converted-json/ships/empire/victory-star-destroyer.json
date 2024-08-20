@@ -1,0 +1,133 @@
+{
+    "author": "Fantasy Flight Games",
+    "alias": "FFG",
+    "team": "FFG",
+    "release": "Wave 0 Armada",
+    "ships": {
+        "victory-star-destroyer": {
+            "UID": "[generate]",
+            "type": "chassis",
+            "chassis_name": "victory-star-destroyer",
+            "size": "medium",
+            "hull": 8,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 1,
+                "def_redirect": 2,
+                "def_contain": 0,
+                "def_salvo": 0
+            },
+            "speed": {
+                "1": [1],
+                "2": [0, 1],
+                "3": [],
+                "4": []
+            },
+            "shields": {
+                "front": 3,
+                "rear": 1,
+                "left": 3,
+                "right": 3,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 5,
+                "centeroffset": 0,
+                "rearoffset": 5,
+                "frontangle": 100,
+                "centerangle": 0,
+                "rearangle": 80
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "victory-i-class-star-destroyer": {
+                    "UID": "[generate]",
+                    "type": "ship",
+                    "chassis": "victory-star-destroyer",
+                    "name": "Victory I-Class Star Destroyer",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": ["star-destroyer"],
+                    "points": 73,
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "turbolaser", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 1, 0],
+                        "front": [3, 0, 3],
+                        "rear": [2, 0, 0],
+                        "left": [2, 0, 1],
+                        "right": [2, 0, 1],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "[link to image]",
+                    "cardimage": "[link to card image]"
+                },
+                "victory-ii-class-star-destroyer": {
+                    "UID": "[generate]",
+                    "type": "ship",
+                    "chassis": "victory-star-destroyer",
+                    "name": "Victory II-Class Star Destroyer",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": ["star-destroyer"],
+                    "points": 85,
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "turbolaser", "ion-cannon", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 1, 0],
+                        "front": [3, 3, 0],
+                        "rear": [2, 0, 0],
+                        "left": [2, 1, 0],
+                        "right": [2, 1, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "[link to image]",
+                    "cardimage": "[link to card image]"
+                },
+                "republic-victory-i-class-star-destroyer": {
+                    "UID": "[generate]",
+                    "type": "ship",
+                    "chassis": "victory-star-destroyer",
+                    "name": "Victory I-Class Star Destroyer",
+                    "faction": "republic",
+                    "unique": false,
+                    "traits": ["star-destroyer", "clone"],
+                    "points": 75,
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "fleet-support", "offensive-retro", "weapons-team-offensive-retro",  "ordnance", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 1, 0],
+                        "front": [3, 0, 3],
+                        "rear": [2, 0, 0],
+                        "left": [2, 0, 1],
+                        "right": [2, 0, 1],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "[link to image]",
+                    "cardimage": "[link to card image]"
+                }
+            }
+        }
+    }
+}
