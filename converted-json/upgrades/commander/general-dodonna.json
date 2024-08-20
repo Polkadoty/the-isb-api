@@ -1,10 +1,11 @@
 {
-    "author": "Fantasy Flight Games",
-    "alias": "FFG",
-    "team": "FFG",
-    "release": "Wave 0 Armada",
     "upgrades": {
         "upgrade_name": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
             "UID": "[generate]",
             "type": "commander",
             "faction": "rebel",

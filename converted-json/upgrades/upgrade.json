@@ -1,10 +1,11 @@
 {
-    "author": "UID",
-    "alias": "string",
-    "team": "string",
-    "release": "string",
     "upgrades": {
         "upgrade_name": {
+            "author": "UID",
+            "alias": "string",
+            "team": "string",
+            "release": "string",
+            "expansion": "string",
             "UID": "[generate]",
             "type": "upgrade_category/commander/title/etc",
             "faction": ["rebel","empire","republic","separatist"],

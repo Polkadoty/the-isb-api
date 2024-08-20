@@ -5,6 +5,7 @@
             "alias": "string",
             "team": "string",
             "release": "string",
+            "expansion": "string",
             "UID": "[generate]",
             "type": "squadron",
             "faction": "faction_name",
@@ -22,7 +23,7 @@
             },
             "armament": {
                 "anti-squadron": [number, number, number],
-                "anti-ship": [number, number, number],
+                "anti-ship": [number, number, number]
             },
             "abilities": {
                 "adept": number,

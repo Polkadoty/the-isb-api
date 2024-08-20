@@ -1,0 +1,34 @@
+List of all of the wave names with releases under them:
+
+- Wave 0 Armada
+    - Armada Core Set (SWM01)
+- Accessories Expansion 1 Armada
+    - Armada Dice Pack (SWM09)
+- Wave 1 Armada
+    - Victory-class Star Destroyer Expansion Pack (SWM02)
+    - CR90 Corellian Corvette Expansion Pack (SWM03)
+    - Nebulon-B Frigate Expansion Pack (SWM04)
+    - Assault Frigate Mark II Expansion Pack (SWM05)
+    - Gladiator-class Star Destroyer Expansion Pack (SWM06)
+    - Rebel Fighter Squadrons Expansion Pack (SWM07)
+    - Imperial Fighter Squadrons Expansion Pack (SWM08)
+- Accessories Expansion 2 Armada
+    - Armada Maneuver Tool Accessory Pack (SWM10)
+- Wave 2 Armada
+    - Imperial-class Star Destroyer Expansion Pack (SWM11)
+    - MC30c Frigate Expansion Pack (SWM12)
+    - Home One Expansion Pack (SWM13)
+    - Rogues and Villains Expansion Pack (SWM14)
+    - Imperial Raider Expansion Pack (SWM15)
+- Wave 3 Armada
+- Wave 4 Armada
+- Wave 5 Armada
+- Wave 6 Armada
+- Wave 7 Armada
+- Wave 8 Armada
+- Wave 9 Armada
+- Wave 10 Armada
+- Campaign Expansion 1 Armada
+- Campaign Expansion 2 Armada
+- Super Star Destroyer Armada
+
