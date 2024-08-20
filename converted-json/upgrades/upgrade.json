@@ -15,21 +15,21 @@
             "unique": boolean,
             "points": number,
             "modification": boolean,
-            "bound_shiptype": "ship_type or NULL",
+            "bound_shiptype": "ship_type or blank",
             "restrictions": {
                 "traits": ["trait"],
-                "size": ["small","medium"],
-                "disqual_upgrades": ["NULL","upgrade_type"],
-                "disable_upgrades": ["NULL","upgrade_type"],
+                "size": ["small","medium", "large"],
+                "disqual_upgrades": ["","upgrade_type"],
+                "disable_upgrades": ["","upgrade_type"],
                 "flagship": boolean
             },
             "start_command": {
-                "type": ["NULL","token","dial"],
+                "type": "blank, token, or dial",
                 "start_icon": ["any", "squadron", "repair", "navigate", "confire"],
                 "start_amount": number
             },
             "exhaust": {
-                "type": ["NULL", "recur", "non-recur"],
+                "type": "blank, recur, nonrecur",
                 "ready_token": ["any", "squadron", "repair", "navigate", "confire"],
                 "ready_amount": number
             },

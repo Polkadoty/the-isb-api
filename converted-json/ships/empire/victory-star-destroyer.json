@@ -1,7 +1,7 @@
 {
     "ships": {
         "victory-star-destroyer": {
-            "UID": "[generate]",
+            "_id": null,
             "type": "chassis",
             "chassis_name": "victory-star-destroyer",
             "size": "medium",
@@ -45,7 +45,7 @@
                     "team": "FFG",
                     "release": "Wave 0 Armada",
                     "expansion": "Armada Core Set (SWM01)",
-                    "UID": "[generate]",
+                    "_id": null,
                     "type": "ship",
                     "chassis": "victory-star-destroyer",
                     "name": "Victory I-Class Star Destroyer",
@@ -78,7 +78,7 @@
                     "team": "FFG",
                     "release": "Wave 0 Armada",
                     "expansion": "Armada Core Set (SWM01)",
-                    "UID": "[generate]",
+                    "_id": null,
                     "type": "ship",
                     "chassis": "victory-star-destroyer",
                     "name": "Victory II-Class Star Destroyer",
@@ -111,7 +111,7 @@
                     "team": "AMG",
                     "release": "Rapid Reinforcements I",
                     "expansion": "Rapid Reinforcements I",
-                    "UID": "[generate]",
+                    "_id": null,
                     "type": "ship",
                     "chassis": "victory-star-destroyer",
                     "name": "Victory I-Class Star Destroyer",

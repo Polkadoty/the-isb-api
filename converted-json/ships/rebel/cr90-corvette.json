@@ -1,7 +1,7 @@
 {
     "ships": {
         "cr90-corvette": {
-            "UID": "[generate]",
+            "_id": null,
             "type": "chassis",
             "chassis_name": "cr90-corvette",
             "size": "small",
@@ -45,7 +45,7 @@
                     "team": "FFG",
                     "release": "Wave 0 Armada",
                     "expansion": "Armada Core Set (SWM01)",
-                    "UID": "[generate]",
+                    "_id": null,
                     "type": "ship",
                     "chassis": "cr90-corvette",
                     "name": "CR90 Corvette A",
@@ -78,7 +78,7 @@
                     "team": "FFG",
                     "release": "Wave 0 Armada",
                     "expansion": "Armada Core Set (SWM01)",
-                    "UID": "[generate]",
+                    "_id": null,
                     "type": "ship",
                     "chassis": "cr90-corvette",
                     "name": "CR90 Corvette B",

@@ -1,12 +1,12 @@
 {
   "upgrades": {
-    "upgrade_name": {
+    "enhanced-armaments": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "UID": "[generate]",
+      "_id": null,
       "type": "turbolaser",
       "faction": ["neutral"],
       "name": "Enhanced Armament",

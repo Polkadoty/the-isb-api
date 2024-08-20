@@ -1,15 +1,15 @@
 {
   "upgrades": {
-    "upgrade_name": {
+    "defense-liaison": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "UID": "[generate]",
+      "_id": null,
       "type": "officer",
       "faction": ["neutral"],
-      "name": "Expanded Hangar Bay",
+      "name": "Defense Liaison",
       "unique-class": ["NULL"],
       "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :nav: or :repair: command.",
       "unique": false,

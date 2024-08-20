@@ -1,12 +1,12 @@
 {
   "upgrades": {
-    "upgrade_name": {
+    "general-dodonna": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "UID": "[generate]",
+      "_id": null,
       "type": "commander",
       "faction": ["rebel"],
       "name": "General Dodonna",
@@ -15,22 +15,22 @@
       "unique": true,
       "points": 20,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
-        "traits": ["NULL"],
-        "size": ["NULL"],
-        "disqual_upgrades": ["NULL"],
-        "disable_upgrades": ["NULL"],
+        "traits": [""],
+        "size": [""],
+        "disqual_upgrades": [""],
+        "disable_upgrades": [""],
         "flagship": true
       },
       "start_command": {
-        "type": "NULL",
-        "start_icon": ["NULL"],
+        "type": "",
+        "start_icon": [""],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
-        "ready_token": ["NULL"],
+        "type": "",
+        "ready_token": [""],
         "ready_amount": 0
       },
       "artwork": "[link to image]",

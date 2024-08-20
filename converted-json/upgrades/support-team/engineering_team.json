@@ -1,12 +1,12 @@
 {
   "upgrades": {
-    "upgrade_name": {
+    "engineering-team": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "UID": "[generate]",
+      "_id": null,
       "type": "support-team",
       "faction": ["neutral"],
       "name": "Engineering Team",

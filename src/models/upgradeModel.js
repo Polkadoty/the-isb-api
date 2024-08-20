@@ -1,43 +1,43 @@
 const mongoose = require('mongoose');
 
 const UpgradeSchema = new mongoose.Schema({
-  author: { type: String, required: true },
-  alias: String,
-  team: String,
-  release: String,
   upgrades: {
     type: Map,
     of: new mongoose.Schema({
-      UID: { type: String, default: () => mongoose.Types.ObjectId().toString() },
-      type: String,
-      faction: String,
-      name: String,
-      'unique-class': [String],
-      ability: String,
+      author: { type: String, default: null },
+      alias: { type: String, default: null },
+      team: { type: String, default: null },
+      release: { type: String, default: null },
+      expansion: { type: String, default: null },
+      _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
+      type: { type: String, default: null },
+      faction: [{ type: String, default: null }],
+      name: { type: String, default: null },
+      'unique-class': [{ type: String, default: null }],
+      ability: { type: String, default: null },
       unique: Boolean,
       points: Number,
       modification: Boolean,
-      bound_shiptype: String,
+      bound_shiptype: { type: String, default: '' },
       restrictions: {
-        traits: [String],
-        size: [String],
-        disqual_upgrades: [String],
-        disable_upgrades: [String],
-        flagship: Boolean,
-        unique_class: String
+        traits: [{ type: String, default: '' }],
+        size: [{ type: String, default: '' }],
+        disqual_upgrades: [{ type: String, default: '' }],
+        disable_upgrades: [{ type: String, default: '' }],
+        flagship: Boolean
       },
       start_command: {
-        type: String,
-        start_icon: String,
-        start_amount: Number
+        type: { type: String, default: '' },
+        start_icon: [{ type: String, default: '' }],
+        start_amount: { type: Number, default: 0 }
       },
       exhaust: {
-        type: String,
-        ready_token: String,
-        ready_amount: Number
+        type: { type: String, default: '' },
+        ready_token: [{ type: String, default: '' }],
+        ready_amount: { type: Number, default: 0 }
       },
-      artwork: String,
-      cardimage: String
+      artwork: { type: String, default: null },
+      cardimage: { type: String, default: null }
     })
   }
 });

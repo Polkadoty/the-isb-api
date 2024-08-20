@@ -1,14 +1,15 @@
 const mongoose = require('mongoose');
 
 const SquadronSchema = new mongoose.Schema({
-  author: { type: String, required: true },
-  alias: String,
-  team: String,
-  release: String,
   squadrons: {
     type: Map,
     of: new mongoose.Schema({
-      UID: { type: String, default: () => mongoose.Types.ObjectId().toString() },
+      author: String,
+      alias: String,
+      team: String,
+      release: String,
+      expansion: String,
+      _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
       type: { type: String, enum: ['squadron'], required: true },
       faction: String,
       squadron_type: String,

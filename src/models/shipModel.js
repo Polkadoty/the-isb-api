@@ -1,14 +1,10 @@
 const mongoose = require('mongoose');
 
 const ShipSchema = new mongoose.Schema({
-  author: { type: String, required: true },
-  alias: String,
-  team: String,
-  release: String,
   ships: {
     type: Map,
     of: new mongoose.Schema({
-      UID: { type: String, default: () => mongoose.Types.ObjectId().toString() },
+      _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
       type: { type: String, enum: ['chassis'], required: true },
       chassis_name: String,
       size: String,
@@ -48,7 +44,12 @@ const ShipSchema = new mongoose.Schema({
       models: {
         type: Map,
         of: new mongoose.Schema({
-          UID: { type: String, default: () => mongoose.Types.ObjectId().toString() },
+          author: String,
+          alias: String,
+          team: String,
+          release: String,
+          expansion: String,
+          _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
           type: { type: String, enum: ['ship'], required: true },
           chassis: String,
           name: String,
@@ -79,5 +80,6 @@ const ShipSchema = new mongoose.Schema({
     })
   }
 });
+
 
 module.exports = mongoose.model('Ship', ShipSchema);

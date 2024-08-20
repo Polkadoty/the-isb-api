@@ -1,12 +1,12 @@
 {
   "upgrades": {
-    "upgrade_name": {
+    "electronic-countermeasures": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "UID": "[generate]",
+      "_id": null,
       "type": "defensive-retro",
       "faction": ["neutral"],
       "name": "Electronic Countermeasures",

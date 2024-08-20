@@ -3,10 +3,11 @@ import json
 
 BASE_URL = 'http://localhost:4000/api/ships'
 
-json_file = json.dump('converted-json\ships\empire\isd-ii.json')
+with open('converted-json/ships/empire/victory-star-destroyer.json') as json_file:
+    json_data = json.load(json_file)
 
 def test_create_ship():
-    response = requests.post(BASE_URL, json=json_file)
+    response = requests.post(BASE_URL, json=json_data)
     assert response.status_code == 201, f"Failed to create ship: {response.text}"
     print("Create ship test passed")
     return response.json()['_id']
