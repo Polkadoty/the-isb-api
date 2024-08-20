@@ -1,8 +1,4 @@
 {
-    "author": "UID",
-    "alias": "string",
-    "team": "string",
-    "release": "string",
     "ships": {
         "ship_name": {
             "UID": "[generate]",
@@ -44,6 +40,10 @@
             "blueprint": "[link to image]",
             "models": {
                 "model_name": {
+                    "author": "UID",
+                    "alias": "string",
+                    "team": "string",
+                    "release": "string",
                     "UID": "[generate]",
                     "type": "ship",
                     "chassis": "string",

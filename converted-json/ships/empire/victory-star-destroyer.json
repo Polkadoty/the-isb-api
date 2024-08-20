@@ -1,8 +1,4 @@
 {
-    "author": "Fantasy Flight Games",
-    "alias": "FFG",
-    "team": "FFG",
-    "release": "Wave 0 Armada",
     "ships": {
         "victory-star-destroyer": {
             "UID": "[generate]",
@@ -44,6 +40,10 @@
             "blueprint": "[link to image]",
             "models": {
                 "victory-i-class-star-destroyer": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 0 Armada",
                     "UID": "[generate]",
                     "type": "ship",
                     "chassis": "victory-star-destroyer",
@@ -72,6 +72,10 @@
                     "cardimage": "[link to card image]"
                 },
                 "victory-ii-class-star-destroyer": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 0 Armada",
                     "UID": "[generate]",
                     "type": "ship",
                     "chassis": "victory-star-destroyer",
@@ -100,6 +104,10 @@
                     "cardimage": "[link to card image]"
                 },
                 "republic-victory-i-class-star-destroyer": {
+                    "author": "Atomic Mass Games",
+                    "alias": "AMG",
+                    "team": "AMG",
+                    "release": "Rapid Reinforcements I",
                     "UID": "[generate]",
                     "type": "ship",
                     "chassis": "victory-star-destroyer",

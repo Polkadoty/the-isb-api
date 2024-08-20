@@ -20,8 +20,7 @@
                 "size": ["small","medium"],
                 "disqual_upgrades": ["NULL","upgrade_type"],
                 "disable_upgrades": ["NULL","upgrade_type"],
-                "flagship": boolean,
-                "unique_class": unique_class
+                "flagship": boolean
             },
             "start_command": {
                 "type": ["NULL","token","dial"],

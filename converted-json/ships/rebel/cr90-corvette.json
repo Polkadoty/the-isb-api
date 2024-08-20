@@ -1,8 +1,4 @@
 {
-    "author": "Fantasy Flight Games",
-    "alias": "FFG",
-    "team": "FFG",
-    "release": "Wave 0 Armada",
     "ships": {
         "cr90-corvette": {
             "UID": "[generate]",
@@ -44,6 +40,10 @@
             "blueprint": "[link to image]",
             "models": {
                 "cr90-corvette-a": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 0 Armada",
                     "UID": "[generate]",
                     "type": "ship",
                     "chassis": "cr90-corvette",
@@ -72,6 +72,10 @@
                     "cardimage": "[link to card image]"
                 },
                 "cr90-corvette-b": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 0 Armada",
                     "UID": "[generate]",
                     "type": "ship",
                     "chassis": "cr90-corvette",
