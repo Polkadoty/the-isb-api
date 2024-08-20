@@ -1,0 +1,40 @@
+{
+  "upgrades": {
+    "upgrade_name": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "UID": "[generate]",
+      "type": "title",
+      "faction": ["rebel"],
+      "name": "Dodonna's Pride",
+      "unique-class": ["Dodonna's Pride"],
+      "ability": "BLUE :critical: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "CR90",
+      "restrictions": {
+        "traits": ["NULL"],
+        "size": ["NULL"],
+        "disqual_upgrades": ["NULL"],
+        "disable_upgrades": ["NULL"],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": ["NULL"],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": ["NULL"],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    }
+  }
+}
