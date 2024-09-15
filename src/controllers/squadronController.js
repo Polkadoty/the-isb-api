@@ -1,4 +1,16 @@
+const mongoose = require('mongoose');
 const Squadron = require('../models/squadronModel');
+
+exports.createSquadron = async (req, res, next) => {
+  try {
+    const processedData = Squadron.processData(req.body);
+    const newSquadron = new Squadron(processedData);
+    const savedSquadron = await newSquadron.save();
+    res.status(201).json(savedSquadron);
+  } catch (error) {
+    next(error);
+  }
+};
 
 exports.getAllSquadrons = async (req, res, next) => {
   try {
@@ -19,19 +31,10 @@ exports.getSquadronById = async (req, res, next) => {
   }
 };
 
-exports.createSquadron = async (req, res, next) => {
-  try {
-    const newSquadron = new Squadron(req.body);
-    const savedSquadron = await newSquadron.save();
-    res.status(201).json(savedSquadron);
-  } catch (error) {
-    next(error);
-  }
-};
-
 exports.updateSquadron = async (req, res, next) => {
   try {
-    const updatedSquadron = await Squadron.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    const processedData = Squadron.processData(req.body);
+    const updatedSquadron = await Squadron.findByIdAndUpdate(req.params.id, processedData, { new: true });
     if (!updatedSquadron) return res.status(404).json({ message: 'Squadron not found' });
     res.json(updatedSquadron);
   } catch (error) {

@@ -4,7 +4,7 @@ const ShipSchema = new mongoose.Schema({
   ships: {
     type: Map,
     of: new mongoose.Schema({
-      _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
+      _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
       type: { type: String, enum: ['chassis'], required: true },
       chassis_name: String,
       size: String,
@@ -49,7 +49,7 @@ const ShipSchema = new mongoose.Schema({
           team: String,
           release: String,
           expansion: String,
-          _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
+          _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
           type: { type: String, enum: ['ship'], required: true },
           chassis: String,
           name: String,
@@ -75,11 +75,30 @@ const ShipSchema = new mongoose.Schema({
           },
           artwork: String,
           cardimage: String
-        })
+        }, { _id: false })
       }
-    })
+    }, { _id: false })
   }
 });
 
+ShipSchema.statics.processData = function(data) {
+  if (!data.ships) {
+    data = { ships: { [data.ships.chassis_name]: data.ships } };
+  }
+  
+  for (let [shipKey, ship] of Object.entries(data.ships)) {
+    if (!ship._id) {
+      ship._id = new mongoose.Types.ObjectId();
+    }
+    if (ship.models) {
+      for (let [modelKey, model] of Object.entries(ship.models)) {
+        if (!model._id) {
+          model._id = new mongoose.Types.ObjectId();
+        }
+      }
+    }
+  }
+  return data;
+};
 
 module.exports = mongoose.model('Ship', ShipSchema);

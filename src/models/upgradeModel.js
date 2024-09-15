@@ -9,7 +9,7 @@ const UpgradeSchema = new mongoose.Schema({
       team: { type: String, default: null },
       release: { type: String, default: null },
       expansion: { type: String, default: null },
-      _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
+      _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
       type: { type: String, default: null },
       faction: [{ type: String, default: null }],
       name: { type: String, default: null },
@@ -38,8 +38,21 @@ const UpgradeSchema = new mongoose.Schema({
       },
       artwork: { type: String, default: null },
       cardimage: { type: String, default: null }
-    })
+    }, { _id: false })
   }
 });
+
+UpgradeSchema.statics.processData = function(data) {
+  if (!data.upgrades) {
+    data = { upgrades: { [data.name]: data } };
+  }
+  
+  for (let [upgradeKey, upgrade] of Object.entries(data.upgrades)) {
+    if (!upgrade._id) {
+      upgrade._id = new mongoose.Types.ObjectId();
+    }
+  }
+  return data;
+};
 
 module.exports = mongoose.model('Upgrade', UpgradeSchema);

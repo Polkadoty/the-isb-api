@@ -1,4 +1,6 @@
+const mongoose = require('mongoose');
 const Ship = require('../models/shipModel');
+const { replaceNullIds } = require('../utils/dataProcessing');
 
 exports.getAllShips = async (req, res, next) => {
   try {
@@ -21,7 +23,8 @@ exports.getShipById = async (req, res, next) => {
 
 exports.createShip = async (req, res, next) => {
   try {
-    const newShip = new Ship(req.body);
+    const processedData = Ship.processData(req.body);
+    const newShip = new Ship(processedData);
     const savedShip = await newShip.save();
     res.status(201).json(savedShip);
   } catch (error) {

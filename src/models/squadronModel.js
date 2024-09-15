@@ -9,7 +9,7 @@ const SquadronSchema = new mongoose.Schema({
       team: String,
       release: String,
       expansion: String,
-      _id: { type: String, default: () => new mongoose.Types.ObjectId().toString() },
+      _id: { type: mongoose.Schema.Types.ObjectId, auto: true },
       type: { type: String, enum: ['squadron'], required: true },
       faction: String,
       squadron_type: String,
@@ -55,8 +55,22 @@ const SquadronSchema = new mongoose.Schema({
       silhouette: String,
       artwork: String,
       cardimage: String
-    })
+    }, { _id: false })
   }
 });
+
+
+SquadronSchema.statics.processData = function(data) {
+  if (!data.squadrons) {
+    data = { squadrons: { [data.name]: data } };
+  }
+  
+  for (let [squadronKey, squadron] of Object.entries(data.squadrons)) {
+    if (!squadron._id) {
+      squadron._id = new mongoose.Types.ObjectId();
+    }
+  }
+  return data;
+};
 
 module.exports = mongoose.model('Squadron', SquadronSchema);
