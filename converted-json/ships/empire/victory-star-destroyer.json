@@ -6,14 +6,6 @@
             "chassis_name": "victory-star-destroyer",
             "size": "medium",
             "hull": 8,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 1,
-                "def_redirect": 2,
-                "def_contain": 0,
-                "def_salvo": 0
-            },
             "speed": {
                 "1": [1],
                 "2": [0, 1],
@@ -53,6 +45,14 @@
                     "unique": false,
                     "traits": ["star-destroyer"],
                     "points": 73,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 2,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
                     "values": {
                         "command": 3,
                         "squadron": 3,
@@ -86,6 +86,14 @@
                     "unique": false,
                     "traits": ["star-destroyer"],
                     "points": 85,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 2,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
                     "values": {
                         "command": 3,
                         "squadron": 3,
@@ -119,6 +127,14 @@
                     "unique": false,
                     "traits": ["star-destroyer", "clone"],
                     "points": 75,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 0,
+                        "def_salvo": 1
+                    },
                     "values": {
                         "command": 3,
                         "squadron": 3,

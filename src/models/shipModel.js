@@ -9,14 +9,6 @@ const ShipSchema = new mongoose.Schema({
       chassis_name: String,
       size: String,
       hull: Number,
-      tokens: {
-        def_scatter: Number,
-        def_evade: Number,
-        def_brace: Number,
-        def_redirect: Number,
-        def_contain: Number,
-        def_salvo: Number
-      },
       speed: {
         1: [Number],
         2: [Number],
@@ -57,6 +49,14 @@ const ShipSchema = new mongoose.Schema({
           unique: Boolean,
           traits: [String],
           points: Number,
+          tokens: {
+            def_scatter: Number,
+            def_evade: Number,
+            def_brace: Number,
+            def_redirect: Number,
+            def_contain: Number,
+            def_salvo: Number
+          },
           values: {
             command: Number,
             squadron: Number,

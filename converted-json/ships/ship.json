@@ -6,14 +6,6 @@
             "chassis_name": "string",
             "size": "string",
             "hull": number,
-            "tokens": {
-                "def_scatter": number,
-                "def_evade": number,
-                "def_brace": number,
-                "def_redirect": number,
-                "def_contain": number,
-                "def_salvo": number
-            },
             "speed": {
                 "1": [number],
                 "2": [number, number],
@@ -53,6 +45,14 @@
                     "unique": boolean,
                     "traits": ["string"],
                     "points": number,
+                    "tokens": {
+                        "def_scatter": number,
+                        "def_evade": number,
+                        "def_brace": number,
+                        "def_redirect": number,
+                        "def_contain": number,
+                        "def_salvo": number
+                    },
                     "values": {
                         "command": number,
                         "squadron": number,
