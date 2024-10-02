@@ -1,1 +1,526 @@
-{}
+{
+  "upgrades": {
+    "general-dodonna": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "cd7ccccd-b4e1-40fa-9617-c9430765b5c7",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Dodonna",
+      "unique-class": [
+        "General Dodonna"
+      ],
+      "ability": "Before an enemy ship is dealt a faceup damage card, look at the top 4 cards of the damage deck, place 1 on top of the deck and discard the others.",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "electronic-countermeasures": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "22a7eb9f-2ca1-4a5e-8dbf-b95ab63f4d9d",
+      "type": "defensive-retro",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Electronic Countermeasures",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": "While defending you may exhaust this card to spend 1 defense token that your opponent targeted with an :accuracy: result.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "non-recur",
+        "ready_token": [
+          "repair"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "overload-pulse": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "71362840-5bd8-4301-81c5-e91586fcf72b",
+      "type": "ion-cannon",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Overload Pulse",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": "BLUE :critical:: Exhaust all of the defender's defense tokens.",
+      "unique": false,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "defense-liaison": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "26a2c9c5-b8c6-478d-b840-b487980d0e9f",
+      "type": "officer",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Defense Liaison",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :nav: or :repair: command.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "assault-concussion-missiles": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "6036f0a4-0033-4ed2-8360-acacc07a50c2",
+      "type": "ordnance",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Assault Concussion Missiles",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": "BLACK :critical:: Exhaust this card. Each hull zone adjacent to the defending hull zone suffers 1 damage.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "engineering-team": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "ed057265-7928-4690-a7f5-8db5788a3879",
+      "type": "support-team",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Engineering Team",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": ":repair:: Gain 1 additional engineering point.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "dodonnas-pride": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "5d41f403-dd3d-4113-a6bd-c70a00e317ca",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Dodonna's Pride",
+      "unique-class": [
+        "Dodonna's Pride"
+      ],
+      "ability": "BLUE :critical: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "CR90",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "enhanced-armaments": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "c25fb374-6222-4fce-9850-8ea0359fe6a3",
+      "type": "turbolaser",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Enhanced Armament",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": "Modification. The battery armaments for your left and right hull zones are increased by 1 red die.",
+      "unique": false,
+      "points": 10,
+      "modification": true,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
+    "gunnery-team": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "72ed6795-9ec3-4423-85d1-e5499a0b7abc",
+      "type": "weapons-team",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Gunnery Team",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": ":confire:: The next attack you perform this activation can be performed from this hull zone. Each of your hull zones cannot target the same ship or squadron more than once during your activation.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    }
+  },
+  "expanded-hangar-bay": {
+    "upgrade_name": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "39cdfa3a-f37f-4772-b9e1-41e76a30e56d",
+      "type": "offensive-retro",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Expanded Hangar Bay",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": "Your squadron value is increased by 1.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    }
+  }
+}

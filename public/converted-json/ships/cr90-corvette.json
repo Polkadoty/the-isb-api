@@ -6,14 +6,6 @@
             "chassis_name": "cr90-corvette",
             "size": "small",
             "hull": 4,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 2,
-                "def_brace": 0,
-                "def_redirect": 1,
-                "def_contain": 0,
-                "def_salvo": 0
-            },
             "speed": {
                 "1": [2],
                 "2": [1, 2],

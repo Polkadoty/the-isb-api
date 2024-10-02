@@ -8,27 +8,52 @@ const directories = {
   upgrades: path.join(__dirname, 'public/converted-json/upgrades')
 };
 
-function processFiles(directory, outputFileName) {
-  const files = fs.readdirSync(directory);
+function updateIdsAndCombine(directory, outputFileName) {
   const result = {};
 
-  files.forEach(file => {
-    if (file.endsWith('.json') && file !== outputFileName) {
-      const filePath = path.join(directory, file);
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  function processDirectory(dir) {
+    const files = fs.readdirSync(dir);
 
-      for (let key in data) {
-        if (data[key]._id === null) {
-          data[key]._id = uuidv4(); // Generate a unique ID
+    files.forEach(file => {
+      const filePath = path.join(dir, file);
+      const stat = fs.statSync(filePath);
+
+      if (stat.isDirectory()) {
+        processDirectory(filePath); // Recursively process subdirectories
+      } else if (file.endsWith('.json') && file !== outputFileName) {
+        const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+        // Recursively update _id fields
+        function updateIds(obj) {
+          if (obj && typeof obj === 'object') {
+            for (let key in obj) {
+              if (key === '_id' && (obj[key] === null || !obj[key])) {
+                obj[key] = uuidv4(); // Generate a unique ID
+              } else {
+                updateIds(obj[key]);
+              }
+            }
+          }
         }
-        result[key] = data[key];
+
+        updateIds(data);
+
+        // Combine data under the top-level key (e.g., "ships" or "squadrons")
+        for (let topKey in data) {
+          if (!result[topKey]) {
+            result[topKey] = {};
+          }
+          Object.assign(result[topKey], data[topKey]);
+        }
       }
-    }
-  });
+    });
+  }
+
+  processDirectory(directory);
 
   fs.writeFileSync(path.join(directory, outputFileName), JSON.stringify(result, null, 2));
 }
 
-processFiles(directories.ships, 'ships.json');
-processFiles(directories.squadrons, 'squadrons.json');
-processFiles(directories.upgrades, 'upgrades.json');
+updateIdsAndCombine(directories.ships, 'ships.json');
+updateIdsAndCombine(directories.squadrons, 'squadrons.json');
+updateIdsAndCombine(directories.upgrades, 'upgrades.json');
