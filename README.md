@@ -36,6 +36,9 @@ The ISB API is a RESTful API for managing ship, squadron, and upgrade card data 
 
 ## Endpoints
 
+### Status
+- **GET /**: Check the status of the API.
+
 ### Ships
 - **GET /ships**: Retrieve all ships.
 - **GET /ships?faction={factionName}**: Retrieve ships by faction.
