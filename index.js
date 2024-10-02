@@ -5,6 +5,8 @@ const shipRoutes = require('./routes/shipRoutes');
 const squadronRoutes = require('./routes/squadronRoutes');
 const upgradeRoutes = require('./routes/upgradeRoutes');
 const errorHandler = require('./middleware/errorHandler');
+const baseRoutes = require('./routes/baseRoutes');
+
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -12,6 +14,8 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(helmet());
 app.use(express.json());
+
+app.use('/', baseRoutes)
 
 app.use('/api/ships', shipRoutes);
 app.use('/api/squadrons', squadronRoutes);

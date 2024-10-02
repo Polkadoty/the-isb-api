@@ -32,8 +32,7 @@ The ISB API is a RESTful API for managing ship, squadron, and upgrade card data 
 
 
 ## Base URL
-- Production: `https://api.swarmada.wiki/v1`
-- Local: `https://localhost:4000`
+- Production: `https://api.swarmada.wiki`
 
 ## Endpoints
 
