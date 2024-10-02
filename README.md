@@ -28,48 +28,54 @@ The ISB API is a RESTful API for managing ship, squadron, and upgrade card data 
    npm start
    ```
 
-### Using Docker
 
-If you prefer using Docker:
 
-1. Make sure you have Docker and Docker Compose installed.
 
-2. Build and run the containers:
-   ```sh
-   docker-compose up --build
-   ```
+## Base URL
+- Production: `https://api.swarmada.wiki/v1`
+- Local: `https://localhost:4000`
 
-The API will be available at `http://localhost:4000`.
-
-## Usage
-
-The API provides endpoints for managing ships, squadrons, and upgrades. Here are some example requests using `curl`:
+## Endpoints
 
 ### Ships
+- **GET /ships**: Retrieve all ships.
+- **GET /ships?faction={factionName}**: Retrieve ships by faction.
+- **GET /ships/{shipId}**: Retrieve a specific ship by ID.
+- **GET /ships/search?{filters}**: Search ships with various filters (e.g., points, hull, chassis_name).
 
-1. Get all ships:
-   ```sh
-   curl http://localhost:4000/api/ships
-   ```
+### Squadrons
+- **GET /squadrons**: Retrieve all squadrons.
+- **GET /squadrons?faction={factionName}**: Retrieve squadrons by faction.
+- **GET /squadrons/{squadronId}**: Retrieve a specific squadron by ID.
+- **GET /squadrons/search?{filters}**: Search squadrons with various filters (e.g., points, hull, squadron_type).
 
-2. Get all squadrons:
-   ```sh
-   curl http://localhost:4000/api/squadrons
-   ```
+### Upgrades
+- **GET /upgrades**: Retrieve all upgrades.
+- **GET /upgrades?type={upgradeType}**: Retrieve upgrades by type.
+- **GET /upgrades?faction={factionName}**: Retrieve upgrades by faction.
+- **GET /upgrades/{upgradeId}**: Retrieve a specific upgrade by ID.
+- **GET /upgrades/search?{filters}**: Search upgrades with various filters (e.g., points, type).
 
-3. Get all upgrades:
-   ```sh
-   curl http://localhost:4000/api/upgrades
-   ```
+## Response Format
+All endpoints return JSON data structured according to the Mongoose schemas.
 
-## API Endpoints
+## Error Handling
+The API uses standard HTTP status codes. In case of an error, the response will include an error message in the following format:
+```json
+{
+   "error": {
+      "code": 404,
+      "message": "Resource not found"
+   }
+}
+```
 
-- `/api/ships`
-  - GET: Retrieve all ships
-- `/api/squadrons`
-  - GET: Retrieve all squadrons
-- `/api/upgrades`
-  - GET: Retrieve all upgrades
+
+## Rate Limiting
+The API has a rate limit of 100 requests per minute per IP address.
+
+## Authentication
+The API currently does not require authentication for read operations.
 
 ## Contributing
 
