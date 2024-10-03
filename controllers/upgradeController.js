@@ -31,27 +31,76 @@ exports.searchUpgrades = (req, res, next) => {
       console.error('Error reading upgrades.json:', err);
       return next(err);
     }
-    let upgrades = JSON.parse(data);
+    let upgradesData = JSON.parse(data);
     const filters = req.query;
+    console.log('Applying filters:', filters);
 
-    // Apply filters
-    upgrades = upgrades.filter(upgrade => {
+    const compareValues = (value, filterValue, operator = '=') => {
+      const numValue = Number(value);
+      const numFilterValue = Number(filterValue);
+      let result;
+      if (!isNaN(numValue) && !isNaN(numFilterValue)) {
+        switch(operator) {
+          case '>': result = numValue > numFilterValue; break;
+          case '<': result = numValue < numFilterValue; break;
+          case '>=': result = numValue >= numFilterValue; break;
+          case '<=': result = numValue <= numFilterValue; break;
+          case '!=': result = numValue !== numFilterValue; break;
+          default: result = numValue === numFilterValue;
+        }
+      } else {
+        switch(operator) {
+          case '!=': result = value !== filterValue; break;
+          case '>=': result = value >= filterValue; break;
+          case '<=': result = value <= filterValue; break;
+          default: result = value === filterValue;
+        }
+      }
+      console.log(`Comparing ${value} ${operator} ${filterValue}: ${result}`);
+      return result;
+    };
+
+    const getNestedValue = (obj, path) => {
+      const value = path.split('.').reduce((prev, curr) => {
+        if (prev && prev[curr] !== undefined) {
+          return prev[curr];
+        } else if (Array.isArray(prev) && !isNaN(parseInt(curr))) {
+          return prev[parseInt(curr)];
+        }
+        return undefined;
+      }, obj);
+      console.log(`Getting nested value for path ${path}: ${value}`);
+      return value;
+    };
+
+    const filterUpgrade = (upgrade, filters) => {
       for (let key in filters) {
-        if (key === 'points') {
-          if (upgrade.points !== parseInt(filters[key])) {
-            return false;
-          }
-        } else if (key === 'type') {
-          if (upgrade.type !== filters[key]) {
-            return false;
-          }
-        } else if (upgrade[key] === undefined || upgrade[key] != filters[key]) {
+        let [filterKey, operator] = key.split(/__(!=|>=|<=|>|<)/).filter(Boolean);
+        operator = operator || '=';
+        let filterValue = decodeURIComponent(filters[key]);
+        let value = getNestedValue(upgrade, filterKey);
+        console.log(`Filtering ${filterKey} with value ${value}, operator ${operator}, filter value ${filterValue}`);
+        if (value === undefined) {
+          console.log(`Skipping undefined value for ${filterKey}`);
+          continue;
+        }
+        if (!compareValues(value, filterValue, operator)) {
+          console.log(`Upgrade filtered out due to ${filterKey}`);
           return false;
         }
       }
       return true;
-    });
+    };
 
-    res.json(upgrades);
+    let filteredUpgrades = {};
+    for (let upgradeName in upgradesData.upgrades) {
+      let upgrade = upgradesData.upgrades[upgradeName];
+      if (filterUpgrade(upgrade, filters)) {
+        filteredUpgrades[upgradeName] = upgrade;
+      }
+    }
+
+    console.log(`Returning ${Object.keys(filteredUpgrades).length} upgrades after applying filters`);
+    res.json({ upgrades: filteredUpgrades });
   });
 };

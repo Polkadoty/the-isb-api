@@ -43,50 +43,104 @@ exports.getShipById = (req, res, next) => {
 };
 
 exports.searchShips = (req, res, next) => {
-    const filePath = path.join(__dirname, '../public/converted-json/ships/ships.json');
-    console.log('Attempting to read ships.json for search');
-    fs.readFile(filePath, 'utf8', (err, data) => {
+  const filePath = path.join(__dirname, '../public/converted-json/ships/ships.json');
+  console.log('Attempting to read ships.json for search');
+  fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
-        console.error('Error reading ships.json:', err);
-        return next(err);
+          console.error('Error reading ships.json:', err);
+          return next(err);
       }
       console.log('Successfully read ships.json for search');
-      let ships = JSON.parse(data);
+      let shipsData = JSON.parse(data);
       const filters = req.query;
       console.log('Applying filters:', filters);
-  
-      // Apply filters
-      ships = ships.filter(ship => {
-        for (let key in filters) {
-          if (key === 'points') {
-            if (ship.points !== parseInt(filters[key])) {
-              console.log(`Ship ${ship.name} filtered out due to points mismatch`);
-              return false;
-            }
-          } else if (key === 'hull') {
-            if (ship.hull !== parseInt(filters[key])) {
-              console.log(`Ship ${ship.name} filtered out due to hull mismatch`);
-              return false;
-            }
-          } else if (key === 'chassis_name') {
-            if (ship.chassis_name !== filters[key]) {
-              console.log(`Ship ${ship.name} filtered out due to chassis_name mismatch`);
-              return false;
-            }
-          } else if (key === 'faction') {
-            if (ship.faction !== filters[key]) {
-              console.log(`Ship ${ship.name} filtered out due to faction mismatch`);
-              return false;
-            }
-          } else if (ship[key] === undefined || ship[key] != filters[key]) {
-            console.log(`Ship ${ship.name} filtered out due to ${key} mismatch`);
-            return false;
+
+      const compareValues = (value, filterValue, operator = '=') => {
+          const numValue = Number(value);
+          const numFilterValue = Number(filterValue);
+          let result;
+          if (!isNaN(numValue) && !isNaN(numFilterValue)) {
+              switch(operator) {
+                  case '>': result = numValue > numFilterValue; break;
+                  case '<': result = numValue < numFilterValue; break;
+                  case '>=': result = numValue >= numFilterValue; break;
+                  case '<=': result = numValue <= numFilterValue; break;
+                  case '!=': result = numValue !== numFilterValue; break;
+                  default: result = numValue === numFilterValue;
+              }
+          } else {
+              switch(operator) {
+                  case '!=': result = value !== filterValue; break;
+                  case '>=': result = value >= filterValue; break;
+                  case '<=': result = value <= filterValue; break;
+                  default: result = value === filterValue;
+              }
           }
-        }
-        return true;
-      });
-  
-      console.log(`Returning ${ships.length} ships after applying filters`);
-      res.json(ships);
-    });
-  };
+          console.log(`Comparing ${value} ${operator} ${filterValue}: ${result}`);
+          return result;
+      };
+
+      const getNestedValue = (obj, path) => {
+          const value = path.split('.').reduce((prev, curr) => {
+              if (prev && prev[curr] !== undefined) {
+                  return prev[curr];
+              } else if (Array.isArray(prev) && !isNaN(parseInt(curr))) {
+                  return prev[parseInt(curr)];
+              }
+              return undefined;
+          }, obj);
+          console.log(`Getting nested value for path ${path}: ${value}`);
+          return value;
+      };
+
+      const filterShip = (ship, chassis, filters) => {
+          for (let key in filters) {
+              let [filterKey, operator] = key.split(/__(!?=|>=|<=|>|<)/);
+              operator = operator || '=';
+              let filterValue = decodeURIComponent(filters[key]);
+              let value;
+              if (filterKey === 'hull') {
+                  value = chassis.hull;
+              } else {
+                  value = getNestedValue(ship, filterKey);
+                  if (value === undefined) {
+                      value = getNestedValue(chassis, filterKey);
+                  }
+              }
+              console.log(`Filtering ${filterKey} with value ${value}, operator ${operator}, filter value ${filterValue}`);
+              if (value === undefined) {
+                  console.log(`Skipping undefined value for ${filterKey}`);
+                  continue;
+              }
+              if (!compareValues(value, filterValue, operator)) {
+                  console.log(`Ship filtered out due to ${filterKey}`);
+                  return false;
+              }
+          }
+          return true;
+      };
+
+      let filteredShips = {};
+      for (let chassisName in shipsData.ships) {
+          let chassis = shipsData.ships[chassisName];
+          let filteredModels = {};
+          for (let modelName in chassis.models) {
+              let model = chassis.models[modelName];
+              console.log(`Checking model: ${modelName}`);
+              if (filterShip(model, chassis, filters)) {
+                  console.log(`Model ${modelName} passed filters`);
+                  filteredModels[modelName] = model;
+              }
+          }
+          if (Object.keys(filteredModels).length > 0) {
+              filteredShips[chassisName] = {
+                  ...chassis,
+                  models: filteredModels
+              };
+          }
+      }
+
+      console.log(`Returning ${Object.keys(filteredShips).length} chassis after applying filters`);
+      res.json({ ships: filteredShips });
+  });
+};
