@@ -1,7 +1,7 @@
 {
   "ships": {
     "cr90-corvette": {
-      "_id": "2864e0f5-1c56-43da-8bb3-28b0f47311da",
+      "_id": "474dbc6a-539a-413f-b48f-faea42523fbf",
       "type": "chassis",
       "chassis_name": "cr90-corvette",
       "size": "small",
@@ -51,7 +51,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "cfcfdd1a-c329-4df4-90d6-5c768a4c1c15",
+          "_id": "88e1d723-a284-40e6-9307-f31aedfbd3f1",
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette A",
@@ -123,7 +123,7 @@
             ]
           },
           "artwork": "[link to image]",
-          "cardimage": "[link to card image]"
+          "cardimage": "https://b.l3n.co/i/zGzoi7.png"
         },
         "cr90-corvette-b": {
           "author": "Fantasy Flight Games",
@@ -131,7 +131,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "c647d6a8-b42b-4667-b16c-de8108bcb8f2",
+          "_id": "38aa17c1-85c3-4e6a-b2d4-09287ab79b6c",
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette B",
@@ -203,12 +203,12 @@
             ]
           },
           "artwork": "[link to image]",
-          "cardimage": "[link to card image]"
+          "cardimage": "https://a.l3n.co/i/zGSitK.png"
         }
       }
     },
     "victory-star-destroyer": {
-      "_id": "afe8d669-20eb-487e-aafa-ae625a3bcdd6",
+      "_id": "b2f9fc30-0f74-4f2a-be1f-e565a8bcc8c5",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -249,7 +249,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "e4b6f2de-d500-471f-a888-dfd095f32f6e",
+          "_id": "d3450786-4c81-4ad5-a03d-dacd1749e8c2",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
@@ -325,7 +325,7 @@
             ]
           },
           "artwork": "[link to image]",
-          "cardimage": "[link to card image]"
+          "cardimage": "https://b.l3n.co/i/zGehcc.png"
         },
         "victory-ii-class-star-destroyer": {
           "author": "Fantasy Flight Games",
@@ -333,7 +333,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "ddd45daf-484f-483e-98fa-f52c4eb79b94",
+          "_id": "fb1d0bf3-801b-45d4-abbe-ad45a1498f6b",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory II-Class Star Destroyer",
@@ -410,7 +410,7 @@
             ]
           },
           "artwork": "[link to image]",
-          "cardimage": "[link to card image]"
+          "cardimage": "https://a.l3n.co/i/zGn8gK.png"
         },
         "republic-victory-i-class-star-destroyer": {
           "author": "Atomic Mass Games",
@@ -418,7 +418,7 @@
           "team": "AMG",
           "release": "Rapid Reinforcements I",
           "expansion": "Rapid Reinforcements I",
-          "_id": "9dac2096-9362-4301-8965-2ed29e3c29c2",
+          "_id": "c4341eee-809e-429c-8442-59ef733d3e84",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
@@ -496,7 +496,7 @@
             ]
           },
           "artwork": "[link to image]",
-          "cardimage": "[link to card image]"
+          "cardimage": "https://c.l3n.co/i/zxgM4H.png"
         }
       }
     }
