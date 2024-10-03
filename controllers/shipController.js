@@ -2,12 +2,15 @@ const path = require('path');
 const fs = require('fs');
 
 exports.getAllShips = (req, res, next) => {
+  console.log('Attempting to read ships.json');
   const filePath = path.join(__dirname, '../public/converted-json/ships/ships.json');
+  console.log('File path:', filePath);
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading ships.json:', err);
       return next(err);
     }
+    console.log('Successfully read ships.json');
     res.json(JSON.parse(data));
   });
 };

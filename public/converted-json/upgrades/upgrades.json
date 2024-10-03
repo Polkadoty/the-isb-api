@@ -6,7 +6,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "1b10c180-232a-4922-8df3-836e52948ad5",
+      "_id": "4acd69b5-e3c2-4206-8188-78b4943f9178",
       "type": "commander",
       "faction": [
         "rebel"
@@ -58,7 +58,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "2123897e-020f-45d0-8e04-00ec806da68b",
+      "_id": "4ccfa545-5bac-4ed3-bc0a-4f3e694d79ce",
       "type": "defensive-retro",
       "faction": [
         "neutral"
@@ -110,7 +110,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "17118dcf-5868-4bcd-9746-d2a32a8a9f43",
+      "_id": "685f4ae9-39a4-4bf9-b898-712a96feaf9f",
       "type": "ion-cannon",
       "faction": [
         "neutral"
@@ -156,13 +156,65 @@
       "artwork": "[link to image]",
       "cardimage": "[link to card image]"
     },
+    "expanded-hangar-bay": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "fca02261-4ce9-42bd-a33f-34c0fff23d7f",
+      "type": "offensive-retro",
+      "faction": [
+        "neutral"
+      ],
+      "name": "Expanded Hangar Bay",
+      "unique-class": [
+        "NULL"
+      ],
+      "ability": "Your squadron value is increased by 1.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "NULL",
+      "restrictions": {
+        "traits": [
+          "NULL"
+        ],
+        "size": [
+          "NULL"
+        ],
+        "disqual_upgrades": [
+          "NULL"
+        ],
+        "disable_upgrades": [
+          "NULL"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "NULL",
+        "start_icon": [
+          "NULL"
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "NULL",
+        "ready_token": [
+          "NULL"
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "[link to card image]"
+    },
     "defense-liaison": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "41183eca-77d2-49f9-b964-dce0659652a7",
+      "_id": "3b737f27-bbae-4202-ade1-de5db96e7f9f",
       "type": "officer",
       "faction": [
         "neutral"
@@ -214,7 +266,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "0ef7c936-d07b-4551-8a99-cfee5e7cabcb",
+      "_id": "9fbb81f3-1fe4-4f97-9d21-8eb931a0048b",
       "type": "ordnance",
       "faction": [
         "neutral"
@@ -266,7 +318,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "0e9c5ef9-7363-4c18-b33c-801cc2c53799",
+      "_id": "3ccc31c0-bc3b-49d6-8c27-cd3d2e4d2b5b",
       "type": "support-team",
       "faction": [
         "neutral"
@@ -318,7 +370,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "35eb9aa5-6397-479b-89f3-96c12f736335",
+      "_id": "f9ec4cbf-27a8-4202-86df-f04453f6c75e",
       "type": "title",
       "faction": [
         "rebel"
@@ -370,7 +422,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a459a71f-260d-4a06-86ca-d634097caa7f",
+      "_id": "f9520607-a96a-4437-a8f6-f782ed57640e",
       "type": "turbolaser",
       "faction": [
         "neutral"
@@ -422,7 +474,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "100c07f6-4dbe-48c2-a02a-76f7e808df58",
+      "_id": "3ca30973-f119-4a16-a74e-53878e1f9982",
       "type": "weapons-team",
       "faction": [
         "neutral"
@@ -434,60 +486,6 @@
       "ability": ":confire:: The next attack you perform this activation can be performed from this hull zone. Each of your hull zones cannot target the same ship or squadron more than once during your activation.",
       "unique": false,
       "points": 7,
-      "modification": false,
-      "bound_shiptype": "NULL",
-      "restrictions": {
-        "traits": [
-          "NULL"
-        ],
-        "size": [
-          "NULL"
-        ],
-        "disqual_upgrades": [
-          "NULL"
-        ],
-        "disable_upgrades": [
-          "NULL"
-        ],
-        "flagship": false
-      },
-      "start_command": {
-        "type": "NULL",
-        "start_icon": [
-          "NULL"
-        ],
-        "start_amount": 0
-      },
-      "exhaust": {
-        "type": "NULL",
-        "ready_token": [
-          "NULL"
-        ],
-        "ready_amount": 0
-      },
-      "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
-    }
-  },
-  "expanded-hangar-bay": {
-    "upgrade_name": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "b57fb171-f2e6-4319-b52c-6fd5d8555545",
-      "type": "offensive-retro",
-      "faction": [
-        "neutral"
-      ],
-      "name": "Expanded Hangar Bay",
-      "unique-class": [
-        "NULL"
-      ],
-      "ability": "Your squadron value is increased by 1.",
-      "unique": false,
-      "points": 5,
       "modification": false,
       "bound_shiptype": "NULL",
       "restrictions": {
