@@ -17,9 +17,9 @@ app.use(express.json());
 
 app.use('/', baseRoutes)
 
-app.use('/ships', shipRoutes);
-app.use('/squadrons', squadronRoutes);
-app.use('/upgrades', upgradeRoutes);
+app.use('/api/ships', shipRoutes);
+app.use('/api/squadrons', squadronRoutes);
+app.use('/api/upgrades', upgradeRoutes);
 
 app.use(errorHandler);
 
