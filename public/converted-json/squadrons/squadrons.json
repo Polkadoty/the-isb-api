@@ -6,7 +6,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "1fd0b5e5-0f4b-4c3c-b72b-2c9c9b08b05d",
+      "_id": "4c2bc5ae-bb27-4017-9d3b-f78cf46e04d0",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter",
@@ -59,8 +59,8 @@
       "ability": "",
       "unique": false,
       "points": 8,
-      "silhouette": "[link to image]",
-      "artwork": "/mnt/data/tie-fighter.png",
+      "silhouette": "",
+      "artwork": "",
       "cardimage": "https://c.l3n.co/i/nmbX9Z.th.png"
     },
     "howlrunner": {
@@ -69,7 +69,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e7a84964-9684-4b9a-9951-12ef53237340",
+      "_id": "fdfd3fed-2f95-4469-a88e-393fea46856f",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter",
@@ -122,8 +122,8 @@
       "ability": "While another friendly squadron with SWARM at distance 1 is attacking a squadron, it may add 1 blue die to its attack pool.",
       "unique": true,
       "points": 16,
-      "silhouette": "[link to image]",
-      "artwork": "/mnt/data/howlrunner.png",
+      "silhouette": "",
+      "artwork": "",
       "cardimage": "https://c.l3n.co/i/nmbTQP.th.png"
     },
     "x-wing-squadron": {
@@ -132,7 +132,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e451fd06-8b2e-43a4-8bae-68366b4794d7",
+      "_id": "5b739fdd-dd16-46ee-bbf7-3ef3b670857d",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -185,8 +185,8 @@
       "ability": "",
       "unique": false,
       "points": 13,
-      "silhouette": "[link to image]",
-      "artwork": "[link to image]",
+      "silhouette": "",
+      "artwork": "",
       "cardimage": "https://b.l3n.co/i/nm5nKk.th.png"
     },
     "luke-skywalker-x-wing-squadron": {
@@ -195,7 +195,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "05f04702-8f60-49d6-8aeb-6b69ab289562",
+      "_id": "9326c24c-d55c-4da3-921f-76a8851e6dd7",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -248,8 +248,8 @@
       "ability": "When attacking a ship, treat the defender as having no shields.",
       "unique": true,
       "points": 20,
-      "silhouette": "[link to image]",
-      "artwork": "[link to image]",
+      "silhouette": "",
+      "artwork": "",
       "cardimage": "https://b.l3n.co/i/nm5glm.th.png"
     },
     "biggs-darklighter-x-wing-squadron": {
@@ -258,7 +258,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "fe9af54f-02d6-487d-86fb-a3bf08def3d5",
+      "_id": "4d9cbec0-7380-4c4e-912d-b39a97555251",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -311,8 +311,8 @@
       "ability": "Before a friendly squadron with ESCORT at distance 1 suffers damage during an attack, you may reduce the total damage by 1. If you do, choose a frienly squadron with ESCORT at distance 1. That squadron suffers 1 damage.",
       "unique": true,
       "points": 19,
-      "silhouette": "[link to image]",
-      "artwork": "[link to image]",
+      "silhouette": "",
+      "artwork": "",
       "cardimage": "https://c.l3n.co/i/nmxbTi.th.png"
     },
     "hera-syndulla-x-wing-squadron": {
@@ -321,7 +321,7 @@
       "team": "AMG",
       "release": "Rapid Reinforcements I",
       "expansion": "Rapid Reinforcements I",
-      "_id": "7a77e1cf-80bd-4ea9-bc44-f7e7a9d47b4c",
+      "_id": "d718b7ba-9675-451f-b12c-9f88a6110638",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -374,8 +374,8 @@
       "ability": "While a friendly squadron that has ESCORT is at distnace 1-2, it has ADEPT 1",
       "unique": false,
       "points": 23,
-      "silhouette": "[link to image]",
-      "artwork": "[link to image]",
+      "silhouette": "",
+      "artwork": "",
       "cardimage": "https://a.l3n.co/i/nmyX9q.th.png"
     }
   }
