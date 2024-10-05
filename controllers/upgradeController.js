@@ -85,8 +85,13 @@ exports.searchUpgrades = (req, res, next) => {
           continue;
         }
 
-        if (Array.isArray(value)) {
-          // For array values (like faction), check if the array includes the filter value
+        if (filterKey === 'faction') {
+          // Special handling for faction
+          if (!(value.includes(filterValue) || (value.length === 0 && filterValue !== ''))) {
+            return false;
+          }
+        } else if (Array.isArray(value)) {
+          // For other array values, check if the array includes the filter value
           if (!value.includes(filterValue)) {
             return false;
           }
