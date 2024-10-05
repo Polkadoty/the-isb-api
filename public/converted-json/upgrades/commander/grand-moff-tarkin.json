@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "grand-moff-tarkin": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 0 Armada",
+        "expansion": "Armada Core Set (SWM01)",
+        "_id": null,
+        "type": "commander",
+        "faction": ["empire"],
+        "name": "Grand Moff Tarkin",
+        "unique-class": ["Grand Moff Tarkin"],
+        "ability": "At the start of each Ship Phase, you may choose 1 command. Each friendly ship gains a command token matching that command.",
+        "unique": true,
+        "points": 28,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": true
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": "https://c.l3n.co/i/n3hdtM.md.webp"
+      }
+    }
+  }
+  

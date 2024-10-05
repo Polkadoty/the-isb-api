@@ -1,27 +1,27 @@
 {
   "upgrades": {
-    "engineering-team": {
+    "dominator": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
-      "type": "support-team",
-      "faction": [""],
-      "name": "Engineering Team",
-      "unique-class": [""],
-      "ability": ":repair: : Gain 1 additional engineering point.",
-      "unique": false,
-      "points": 5,
+      "type": "title",
+      "faction": ["empire"],
+      "name": "Dominator",
+      "unique-class": ["Dominator"],
+      "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+      "unique": true,
+      "points": 12,
       "modification": false,
-      "bound_shiptype": "",
+      "bound_shiptype": "victory-star-destroyer",
       "restrictions": {
         "traits": [""],
         "size": [""],
         "disqual_upgrades": [""],
         "disable_upgrades": [""],
-        "flagship": false
+        "flagship": true
       },
       "start_command": {
         "type": "",
@@ -34,7 +34,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+      "cardimage": "https://b.l3n.co/i/n3hOzc.md.webp"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "upgrades": {
-    "enhanced-armaments": {
+    "enhanced-armament": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
@@ -8,33 +8,33 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "turbolaser",
-      "faction": ["neutral"],
+      "faction": [""],
       "name": "Enhanced Armament",
-      "unique-class": ["NULL"],
-      "ability": "Modification. The battery armaments for your left and right hull zones are increased by 1 red die.",
+      "unique-class": [""],
+      "ability": "_Modification_. \nThe battery armaments for your left and right hull zones are increased by 1 red die.",
       "unique": false,
       "points": 10,
       "modification": true,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
-        "traits": ["NULL"],
-        "size": ["NULL"],
-        "disqual_upgrades": ["NULL"],
-        "disable_upgrades": ["NULL"],
+        "traits": [""],
+        "size": [""],
+        "disqual_upgrades": [""],
+        "disable_upgrades": [""],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
-        "start_icon": ["NULL"],
+        "type": "",
+        "start_icon": [""],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
-        "ready_token": ["NULL"],
+        "type": "",
+        "ready_token": [""],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://b.l3n.co/i/n3ho22.md.webp"
     }
   }
 }

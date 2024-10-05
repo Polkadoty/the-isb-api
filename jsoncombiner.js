@@ -5,7 +5,8 @@ const { v4: uuidv4 } = require('uuid');
 const directories = {
   ships: path.join(__dirname, 'public/converted-json/ships'),
   squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
-  upgrades: path.join(__dirname, 'public/converted-json/upgrades')
+  upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
+  objectives: path.join(__dirname, 'public/converted-json/objectives')
 };
 
 function updateIdsAndCombine(directory, outputFileName) {
@@ -57,3 +58,4 @@ function updateIdsAndCombine(directory, outputFileName) {
 updateIdsAndCombine(directories.ships, 'ships.json');
 updateIdsAndCombine(directories.squadrons, 'squadrons.json');
 updateIdsAndCombine(directories.upgrades, 'upgrades.json');
+updateIdsAndCombine(directories.objectives, 'objectives.json');

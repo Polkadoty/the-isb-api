@@ -1,19 +1,19 @@
 {
   "upgrades": {
-    "engineering-team": {
+    "leia-organa": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
-      "type": "support-team",
-      "faction": [""],
-      "name": "Engineering Team",
-      "unique-class": [""],
-      "ability": ":repair: : Gain 1 additional engineering point.",
-      "unique": false,
-      "points": 5,
+      "type": "officer",
+      "faction": ["rebel"],
+      "name": "Leia Organa",
+      "unique-class": ["Leia Organa"],
+      "ability": "When you reveal a command, you may choose another friendly ship at distance 1-5 and change that ship's top command to your revealed command.",
+      "unique": true,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -34,7 +34,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+      "cardimage": "https://c.l3n.co/i/n3hsje.md.webp"
     }
   }
 }

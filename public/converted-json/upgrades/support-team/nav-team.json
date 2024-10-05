@@ -1,6 +1,6 @@
 {
   "upgrades": {
-    "engineering-team": {
+    "nav-team": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
@@ -9,11 +9,11 @@
       "_id": null,
       "type": "support-team",
       "faction": [""],
-      "name": "Engineering Team",
+      "name": "Nav Team",
       "unique-class": [""],
-      "ability": ":repair: : Gain 1 additional engineering point.",
+      "ability": ":nav: : Your :nav: tokens can either change your speed or increase 1 yaw value by 1.",
       "unique": false,
-      "points": 5,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -34,7 +34,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+      "cardimage": "https://a.l3n.co/i/n3h4Mx.md.webp"
     }
   }
 }

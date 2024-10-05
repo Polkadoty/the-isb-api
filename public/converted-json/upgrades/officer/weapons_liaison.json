@@ -1,19 +1,19 @@
 {
   "upgrades": {
-    "engineering-team": {
+    "weapons-liaison": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
-      "type": "support-team",
+      "type": "officer",
       "faction": [""],
-      "name": "Engineering Team",
+      "name": "Weapons Liaison",
       "unique-class": [""],
-      "ability": ":repair: : Gain 1 additional engineering point.",
+      "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :confire: or :squadron: command.",
       "unique": false,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -34,7 +34,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+      "cardimage": "https://c.l3n.co/i/n3hHwK.md.webp"
     }
   }
 }

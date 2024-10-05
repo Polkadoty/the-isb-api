@@ -1,0 +1,31 @@
+{
+    "objectives": {
+        "objective_name": {
+            "author": "UID",
+            "alias": "string",
+            "team": "string",
+            "release": "string",
+            "expansion": "string",
+            "_id": "[generate]",
+            "type": "assault/defense/navigation/special",
+            "name": "objective_name",
+            "obstacles": ["string", "string", "etc."],
+            "setup": "string",
+            "special_rule": "string",
+            "end_of_round": "string",
+            "end_of_game": "string",
+            "victory_tokens": boolean,
+            "victory_tokens_points": number,
+            "objective_tokens": boolean,
+            "objective_tokens_type": "string",
+            "objective_tokens_count": [number],
+            "command_tokens": boolean,
+            "command_tokens_type": "string",
+            "command_tokens_value": "per ship, per player, per command, etc.",
+            "command_tokens_count": number,
+            "errata": "string",
+            "artwork": "[link to image]",
+            "cardimage": "[link to card image]"
+        }
+    }
+}

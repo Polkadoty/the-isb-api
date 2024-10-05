@@ -1,19 +1,19 @@
 {
   "upgrades": {
-    "engineering-team": {
+    "wullf-yularen": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
-      "type": "support-team",
-      "faction": [""],
-      "name": "Engineering Team",
-      "unique-class": [""],
-      "ability": ":repair: : Gain 1 additional engineering point.",
-      "unique": false,
-      "points": 5,
+      "type": "officer",
+      "faction": ["empire"],
+      "name": "Wullf Yularen",
+      "unique-class": ["Wullf Yularen"],
+      "ability": "When you spend a command token, you may exhaust this card to gain 1 command token of the same type",
+      "unique": true,
+      "points": 7,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -29,12 +29,12 @@
         "start_amount": 0
       },
       "exhaust": {
-        "type": "",
+        "type": "recur",
         "ready_token": [""],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+      "cardimage": "https://b.l3n.co/i/n3hz1Z.md.webp"
     }
   }
 }

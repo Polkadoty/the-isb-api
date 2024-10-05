@@ -6,7 +6,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "1f892cc1-4fd0-4a46-95d5-fdd09e9b96cd",
+      "_id": "41cfb01f-b426-415d-af54-59c7a4b4f3f9",
       "type": "commander",
       "faction": [
         "rebel"
@@ -50,7 +50,59 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://b.l3n.co/i/n3hVwA.md.webp"
+    },
+    "grand-moff-tarkin": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "ea0dde34-70e0-45d6-b747-6379f5d2abd4",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Grand Moff Tarkin",
+      "unique-class": [
+        "Grand Moff Tarkin"
+      ],
+      "ability": "At the start of each Ship Phase, you may choose 1 command. Each friendly ship gains a command token matching that command.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://c.l3n.co/i/n3hdtM.md.webp"
     },
     "electronic-countermeasures": {
       "author": "Fantasy Flight Games",
@@ -58,39 +110,39 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "2f745971-96c8-464f-9d71-3a0f145bba1f",
+      "_id": "3df70c69-cb36-4686-a38c-d9b4dc99d642",
       "type": "defensive-retro",
       "faction": [
-        "neutral"
+        ""
       ],
       "name": "Electronic Countermeasures",
       "unique-class": [
-        "NULL"
+        ""
       ],
       "ability": "While defending you may exhaust this card to spend 1 defense token that your opponent targeted with an :accuracy: result.",
       "unique": false,
       "points": 7,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
@@ -102,7 +154,7 @@
         "ready_amount": 1
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://c.l3n.co/i/n3hLqo.md.webp"
     },
     "overload-pulse": {
       "author": "Fantasy Flight Games",
@@ -110,51 +162,51 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "682154cb-e5b2-4f38-a272-8c62b5bc5caf",
+      "_id": "e162bb6b-830c-427d-9dda-429db38c694d",
       "type": "ion-cannon",
       "faction": [
-        "neutral"
+        ""
       ],
       "name": "Overload Pulse",
       "unique-class": [
-        "NULL"
+        ""
       ],
-      "ability": "BLUE :critical:: Exhaust all of the defender's defense tokens.",
+      "ability": "BLUE :crit: : Exhaust all of the defender's defense tokens.",
       "unique": false,
       "points": 8,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://c.l3n.co/i/n3hKhH.md.webp"
     },
     "expanded-hangar-bay": {
       "author": "Fantasy Flight Games",
@@ -162,51 +214,51 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "c50a2c0c-5c02-4dac-a418-d10c201fd580",
+      "_id": "9c2e316d-3d2d-4401-8355-e386ead2f509",
       "type": "offensive-retro",
       "faction": [
-        "neutral"
+        ""
       ],
       "name": "Expanded Hangar Bay",
       "unique-class": [
-        "NULL"
+        ""
       ],
       "ability": "Your squadron value is increased by 1.",
       "unique": false,
       "points": 5,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://a.l3n.co/i/n3huCv.md.webp"
     },
     "defense-liaison": {
       "author": "Fantasy Flight Games",
@@ -214,51 +266,207 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "8a9d6a8d-b20a-457a-ba07-5c148e5dea0b",
+      "_id": "73ee8277-d1f6-48d3-af5e-e23924094e05",
       "type": "officer",
       "faction": [
-        "neutral"
+        ""
       ],
       "name": "Defense Liaison",
       "unique-class": [
-        "NULL"
+        ""
       ],
       "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :nav: or :repair: command.",
       "unique": false,
       "points": 3,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://c.l3n.co/i/n3hefm.md.webp"
+    },
+    "leia-organa": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "d7a2d92a-49e2-4982-80f8-32bd4a985a11",
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Leia Organa",
+      "unique-class": [
+        "Leia Organa"
+      ],
+      "ability": "When you reveal a command, you may choose another friendly ship at distance 1-5 and change that ship's top command to your revealed command.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://c.l3n.co/i/n3hsje.md.webp"
+    },
+    "weapons-liaison": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "5ec1174e-b1fa-49ff-84e8-73cf53d65ddc",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Weapons Liaison",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :confire: or :squadron: command.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://c.l3n.co/i/n3hHwK.md.webp"
+    },
+    "wullf-yularen": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "a77733a0-2da9-4f30-af42-326031829244",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Wullf Yularen",
+      "unique-class": [
+        "Wullf Yularen"
+      ],
+      "ability": "When you spend a command token, you may exhaust this card to gain 1 command token of the same type",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://b.l3n.co/i/n3hz1Z.md.webp"
     },
     "assault-concussion-missiles": {
       "author": "Fantasy Flight Games",
@@ -266,51 +474,51 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "662e0ecd-1ab3-4310-a5a6-865a63f3f01e",
+      "_id": "bda2cdf1-e45b-4c56-99ed-d5adfb61fa88",
       "type": "ordnance",
       "faction": [
-        "neutral"
+        ""
       ],
       "name": "Assault Concussion Missiles",
       "unique-class": [
-        "NULL"
+        ""
       ],
-      "ability": "BLACK :critical:: Exhaust this card. Each hull zone adjacent to the defending hull zone suffers 1 damage.",
+      "ability": "BLACK :crit: : Exhaust this card. Each hull zone adjacent to the defending hull zone suffers 1 damage.",
       "unique": false,
       "points": 5,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "recur",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://a.l3n.co/i/n3hSKP.md.webp"
     },
     "engineering-team": {
       "author": "Fantasy Flight Games",
@@ -318,51 +526,103 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "312eeb54-fb71-4e29-bb93-1930697bf28e",
+      "_id": "8f534b16-c3d7-455b-8b18-dd5064cf74ca",
       "type": "support-team",
       "faction": [
-        "neutral"
+        ""
       ],
       "name": "Engineering Team",
       "unique-class": [
-        "NULL"
+        ""
       ],
-      "ability": ":repair:: Gain 1 additional engineering point.",
+      "ability": ":repair: : Gain 1 additional engineering point.",
       "unique": false,
       "points": 5,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+    },
+    "nav-team": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "2cbdf7af-b990-4726-812a-cbb832b883fb",
+      "type": "support-team",
+      "faction": [
+        ""
+      ],
+      "name": "Nav Team",
+      "unique-class": [
+        ""
+      ],
+      "ability": ":nav: : Your :nav: tokens can either change your speed or increase 1 yaw value by 1.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://a.l3n.co/i/n3h4Mx.md.webp"
     },
     "dodonnas-pride": {
       "author": "Fantasy Flight Games",
@@ -370,7 +630,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "9809c6e4-9514-44dc-85c9-e9c2982ca164",
+      "_id": "619c6f83-f386-49f6-931a-68e7dfe257fa",
       "type": "title",
       "faction": [
         "rebel"
@@ -379,94 +639,250 @@
       "unique-class": [
         "Dodonna's Pride"
       ],
-      "ability": "BLUE :critical: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+      "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
       "unique": true,
       "points": 6,
       "modification": false,
-      "bound_shiptype": "CR90",
+      "bound_shiptype": "cr90-corvette",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": true
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://b.l3n.co/i/n3hv0i.md.webp"
     },
-    "enhanced-armaments": {
+    "dominator": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "37aacc2e-abd9-485c-b6b3-38e8c101e8c9",
-      "type": "turbolaser",
+      "_id": "b7688400-2f79-4975-8612-5a22387620ae",
+      "type": "title",
       "faction": [
-        "neutral"
+        "empire"
       ],
-      "name": "Enhanced Armament",
+      "name": "Dominator",
       "unique-class": [
-        "NULL"
+        "Dominator"
       ],
-      "ability": "Modification. The battery armaments for your left and right hull zones are increased by 1 red die.",
-      "unique": false,
-      "points": 10,
-      "modification": true,
-      "bound_shiptype": "NULL",
+      "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+      "unique": true,
+      "points": 12,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
-        "flagship": false
+        "flagship": true
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://b.l3n.co/i/n3hOzc.md.webp"
+    },
+    "redemption": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "3cca5f30-d20f-4992-9716-fa228b05c927",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Redemption",
+      "unique-class": [
+        "Redemption"
+      ],
+      "ability": "When a friendly ship at distance 1-5 resolves a :repair: command, it gains 1 additional engineering point.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "nebulon-b",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://a.l3n.co/i/n3h7C1.md.webp"
+    },
+    "enhanced-armament": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "00da5318-6f49-4a94-9284-78aac2b4698b",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Enhanced Armament",
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nThe battery armaments for your left and right hull zones are increased by 1 red die.",
+      "unique": false,
+      "points": 10,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://b.l3n.co/i/n3ho22.md.webp"
+    },
+    "h9-turbolasers": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "4f6df11b-f015-43a3-9ea8-9e5989e0d0fb",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "H9 Turbolasers",
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nWhile attacking, you may change 1 die face with a :hit: or :crit: icon to a face with an :accuracy: icon.",
+      "unique": false,
+      "points": 8,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://b.l3n.co/i/n3hBPa.md.webp"
     },
     "gunnery-team": {
       "author": "Fantasy Flight Games",
@@ -474,51 +890,51 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "dd89735b-3729-4d74-9ff9-309d5d3aec64",
+      "_id": "a9234644-6d83-4edc-aa96-f3ec5fd24de6",
       "type": "weapons-team",
       "faction": [
-        "neutral"
+        ""
       ],
       "name": "Gunnery Team",
       "unique-class": [
-        "NULL"
+        ""
       ],
       "ability": ":confire:: The next attack you perform this activation can be performed from this hull zone. Each of your hull zones cannot target the same ship or squadron more than once during your activation.",
       "unique": false,
       "points": 7,
       "modification": false,
-      "bound_shiptype": "NULL",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "NULL"
+          ""
         ],
         "size": [
-          "NULL"
+          ""
         ],
         "disqual_upgrades": [
-          "NULL"
+          ""
         ],
         "disable_upgrades": [
-          "NULL"
+          ""
         ],
         "flagship": false
       },
       "start_command": {
-        "type": "NULL",
+        "type": "",
         "start_icon": [
-          "NULL"
+          ""
         ],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
+        "type": "",
         "ready_token": [
-          "NULL"
+          ""
         ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://a.l3n.co/i/n3hqKQ.md.webp"
     }
   }
 }

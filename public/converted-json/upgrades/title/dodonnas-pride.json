@@ -11,30 +11,30 @@
       "faction": ["rebel"],
       "name": "Dodonna's Pride",
       "unique-class": ["Dodonna's Pride"],
-      "ability": "BLUE :critical: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+      "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
       "unique": true,
       "points": 6,
       "modification": false,
-      "bound_shiptype": "CR90",
+      "bound_shiptype": "cr90-corvette",
       "restrictions": {
-        "traits": ["NULL"],
-        "size": ["NULL"],
-        "disqual_upgrades": ["NULL"],
-        "disable_upgrades": ["NULL"],
+        "traits": [""],
+        "size": [""],
+        "disqual_upgrades": [""],
+        "disable_upgrades": [""],
         "flagship": true
       },
       "start_command": {
-        "type": "NULL",
-        "start_icon": ["NULL"],
+        "type": "",
+        "start_icon": [""],
         "start_amount": 0
       },
       "exhaust": {
-        "type": "NULL",
-        "ready_token": ["NULL"],
+        "type": "",
+        "ready_token": [""],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "[link to card image]"
+      "cardimage": "https://b.l3n.co/i/n3hv0i.md.webp"
     }
   }
 }

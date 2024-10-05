@@ -1,20 +1,20 @@
 {
   "upgrades": {
-    "engineering-team": {
+    "h9-turbolasers": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
-      "type": "support-team",
+      "type": "turbolaser",
       "faction": [""],
-      "name": "Engineering Team",
+      "name": "H9 Turbolasers",
       "unique-class": [""],
-      "ability": ":repair: : Gain 1 additional engineering point.",
+      "ability": "_Modification_. \nWhile attacking, you may change 1 die face with a :hit: or :crit: icon to a face with an :accuracy: icon.",
       "unique": false,
-      "points": 5,
-      "modification": false,
+      "points": 8,
+      "modification": true,
       "bound_shiptype": "",
       "restrictions": {
         "traits": [""],
@@ -34,7 +34,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+      "cardimage": "https://b.l3n.co/i/n3hBPa.md.webp"
     }
   }
 }

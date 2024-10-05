@@ -1,27 +1,27 @@
 {
   "upgrades": {
-    "engineering-team": {
+    "redemption": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
-      "type": "support-team",
-      "faction": [""],
-      "name": "Engineering Team",
-      "unique-class": [""],
-      "ability": ":repair: : Gain 1 additional engineering point.",
-      "unique": false,
-      "points": 5,
+      "type": "title",
+      "faction": ["rebel"],
+      "name": "Redemption",
+      "unique-class": ["Redemption"],
+      "ability": "When a friendly ship at distance 1-5 resolves a :repair: command, it gains 1 additional engineering point.",
+      "unique": true,
+      "points": 8,
       "modification": false,
-      "bound_shiptype": "",
+      "bound_shiptype": "nebulon-b",
       "restrictions": {
         "traits": [""],
         "size": [""],
         "disqual_upgrades": [""],
         "disable_upgrades": [""],
-        "flagship": false
+        "flagship": true
       },
       "start_command": {
         "type": "",
@@ -34,7 +34,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hMY9.md.webp"
+      "cardimage": "https://a.l3n.co/i/n3h7C1.md.webp"
     }
   }
 }
