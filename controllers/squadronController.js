@@ -89,7 +89,13 @@ exports.searchSquadrons = (req, res, next) => {
                     console.log(`Skipping undefined value for ${filterKey}`);
                     continue;
                 }
-                if (!compareValues(value, filterValue, operator)) {
+                if (Array.isArray(value)) {
+                    // Handle array values (like faction)
+                    if (!value.includes(filterValue)) {
+                        console.log(`Squadron filtered out due to ${filterKey}`);
+                        return false;
+                    }
+                } else if (!compareValues(value, filterValue, operator)) {
                     console.log(`Squadron filtered out due to ${filterKey}`);
                     return false;
                 }
