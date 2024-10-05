@@ -79,25 +79,20 @@ exports.searchUpgrades = (req, res, next) => {
         operator = operator || '=';
         let filterValue = decodeURIComponent(filters[key]);
         
-        // Handle special cases for upgrades
-        if (filterKey === 'type') {
-          if (!compareValues(upgrade.type, filterValue, operator)) {
+        let value = upgrade[filterKey];
+        if (value === undefined) {
+          console.log(`Skipping undefined value for ${filterKey}`);
+          continue;
+        }
+
+        if (Array.isArray(value)) {
+          // For array values (like faction), check if the array includes the filter value
+          if (!value.includes(filterValue)) {
             return false;
           }
-        } else if (filterKey === 'faction') {
-          if (!upgrade.faction.some(f => compareValues(f, filterValue, operator))) {
-            return false;
-          }
-        } else {
-          let value = getNestedValue(upgrade, filterKey);
-          if (value === undefined) {
-            console.log(`Skipping undefined value for ${filterKey}`);
-            continue;
-          }
-          if (!compareValues(value, filterValue, operator)) {
-            console.log(`Upgrade filtered out due to ${filterKey}`);
-            return false;
-          }
+        } else if (!compareValues(value, filterValue, operator)) {
+          console.log(`Upgrade filtered out due to ${filterKey}`);
+          return false;
         }
       }
       return true;
