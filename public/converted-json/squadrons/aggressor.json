@@ -1,0 +1,110 @@
+{
+    "squadrons": {
+        "aggressor": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "aggressor",
+            "name": "Aggressor Assault Fighter",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": true,
+            "hull": 5,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [0, 0, 1]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 1,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://lensdump.com/i/nmXLR9"
+        },
+        "IG-88": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "aggressor",
+            "name": "Aggressor Assault Fighter",
+            "ace-name": "IG-88",
+            "unique-class": ["IG-2000"],
+            "irregular": true,
+            "hull": 5,
+            "speed": 5,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [0, 0, 1]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 2,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "You ignore the escort and counter keywords on enemy squadrons.",
+            "unique": true,
+            "points": 21,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://lensdump.com/i/nmbCTo"
+        }
+    }
+}
