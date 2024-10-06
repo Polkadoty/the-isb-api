@@ -162,7 +162,7 @@ Add placeholders for silhouette and artwork:
 "artwork": "",
 ```
 
-For the cardimages, follow the same process as described in the Ship Guide, using the link: https://lensdump.com/a/ezudC.
+For the cardimages, follow the same process as described in the Ship Guide, using the link: https://lensdump.com/a/ezudC/sub.
 
 - If no images appear in the album, don't panic. Head to the "sub-album" button and they should be sorted by faction.
 - Search for the squadron card you want, and left click on the open square in the top right of the card. This square is highlighted in the image below:
