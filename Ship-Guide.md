@@ -242,6 +242,7 @@ Add placeholders for artwork and card images:
 
 For the cardimages in particular, head to the following link: https://lensdump.com/a/e3fYm
 
+- If no images appear in the album, don't panic. Head to the "sub-album" button and they should be sorted by faction.
 - Search for the ship card you want, and left click on the open square in the top right of the card. This square is highlighted in the image below:
 
 ![Select upper right](templates\select_upper_right.png)
