@@ -87,7 +87,7 @@ exports.searchUpgrades = (req, res, next) => {
 
         if (filterKey === 'faction') {
           // Special handling for faction
-          if (!(value.includes(filterValue) || (value.length === 0 && filterValue !== ''))) {
+          if (!(value.includes(filterValue) || value.length === 0)) {
             return false;
           }
         } else if (Array.isArray(value)) {
