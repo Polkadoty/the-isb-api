@@ -1,12 +1,12 @@
 {
     "squadrons": {
         "squadron_name": {
-            "author": "UID",
+            "author": "string",
             "alias": "string",
             "team": "string",
             "release": "string",
             "expansion": "string",
-            "UID": "[generate]",
+            "_id": null,
             "type": "squadron",
             "faction": "faction_name",
             "squadron_type": "squadron_uid",
@@ -22,8 +22,8 @@
                 "def_brace": number
             },
             "armament": {
-                "anti-squadron": [number, number, number],
-                "anti-ship": [number, number, number]
+                "anti-squadron": [red, blue, black],
+                "anti-ship": [red, blue, black]
             },
             "abilities": {
                 "adept": number,
@@ -49,8 +49,8 @@
             "ability": "string",
             "unique": boolean,
             "points": number,
-            "silhouette": "[link to image]",
-            "artwork": "[link to image]",
+            "silhouette": "",
+            "artwork": "",
             "cardimage": "[link to card image]"
         }
     }

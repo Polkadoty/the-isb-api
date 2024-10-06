@@ -60,14 +60,14 @@
                     },
                     "upgrades": ["commander", "officer", "weapons-team", "support-team", "fleet-command", "fleet-support", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "experimental-retro", "turbolaser", "ion-cannon", "ordnance", "super-weapon", "title"],
                     "armament": {
-                        "asa": [number, number, number],
-                        "front": [number, number, number],
-                        "rear": [number, number, number],
-                        "left": [number, number, number],
-                        "right": [number, number, number],
-                        "left_aux": [number, number, number],
-                        "right_aux": [number, number, number],
-                        "special": [number, number, number]
+                        "asa": [red, blue, black],
+                        "front": [red, blue, black],
+                        "rear": [red, blue, black],
+                        "left": [red, blue, black],
+                        "right": [red, blue, black],
+                        "left_aux": [red, blue, black],
+                        "right_aux": [red, blue, black],
+                        "special": [red, blue, black]
                     },
                     "artwork": "[link to image]",
                     "cardimage": "[link to card image]"
