@@ -33,6 +33,7 @@ exports.searchUpgrades = (req, res, next) => {
     }
     let upgradesData = JSON.parse(data);
     const filters = req.query;
+    const includeNeutral = filters.include_neutral === 'true';
     console.log('Applying filters:', filters);
 
     const compareValues = (value, filterValue, operator = '=') => {
@@ -75,24 +76,29 @@ exports.searchUpgrades = (req, res, next) => {
 
     const filterUpgrade = (upgrade, filters) => {
       for (let key in filters) {
-        let [filterKey, operator] = key.split(/__(!=|>=|<=|>|<)/).filter(Boolean);
+        if (key === 'include_neutral') continue; // Skip this filter key
+        let [filterKey, operator] = key.split(/(!=|>=|<=|>|<)/).filter(Boolean);
         operator = operator || '=';
         let filterValue = decodeURIComponent(filters[key]);
-        
         let value = upgrade[filterKey];
         if (value === undefined) {
           console.log(`Skipping undefined value for ${filterKey}`);
           continue;
         }
-
         if (filterKey === 'faction') {
-          // Special handling for faction
-          if (!(value.includes(filterValue) || value.length === 0)) {
+          if (value.length === 0 || value.includes('')) {
+            // This is a neutral upgrade, include it if includeNeutral is true
+            if (!includeNeutral) {
+              console.log(`Neutral upgrade filtered out`);
+              return false;
+            }
+          } else if (!value.includes(filterValue)) {
+            console.log(`Upgrade filtered out due to faction mismatch`);
             return false;
           }
         } else if (Array.isArray(value)) {
-          // For other array values, check if the array includes the filter value
           if (!value.includes(filterValue)) {
+            console.log(`Upgrade filtered out due to array value mismatch`);
             return false;
           }
         } else if (!compareValues(value, filterValue, operator)) {
