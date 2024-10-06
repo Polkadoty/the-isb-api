@@ -343,12 +343,66 @@ The API has a rate limit of 100 requests per minute per IP address.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+### Detailed Steps for Adding New Content (With VSCode Example Commands)
 
-Follow the guides listed here to add upgrades, squadrons, or ships. I recommend making a branch with the specific expansion or ship that you want to add and then make a pull request to main.
+1. **Fork the repository** to your GitHub account:
+   - On GitHub, click the `Fork` button in the top-right corner of the repository page.
 
+2. **Clone your forked repository** to your local machine using the following command in your terminal:
+   ```bash
+   git clone https://github.com/your-username/repository-name.git
+   ```
+   - In VSCode, you can open the terminal with ``Ctrl+` `` or by navigating to `Terminal > New Terminal` from the menu.
 
-- [Ship Guide](Ship-Guide.md)
-- [Squadron Guide](Squadron-Guide.md)
-- [Upgrade Guide](Upgrade-Guide.md)
+3. **Create a new branch** with a descriptive name, e.g., `your-name-base-wavenumber`, by using the following command:
+   ```bash
+   git checkout -b your-name-base-wavenumber
+   ```
+   - In VSCode, use the `Source Control` tab (icon on the left panel) to view and manage branches.
+   - Alternatively, use the command palette (`Ctrl+Shift+P`) and type "Git: Create Branch" to initiate this process from the UI.
 
+4. **Navigate to the appropriate folder** for your changes:
+   - In the VSCode file explorer, click on the directory structure to navigate to the relevant path:
+     - For squadrons: `public/converted-json/squadrons/`
+     - For ships: `public/converted-json/ships/`
+     - For upgrades: `public/converted-json/upgrades/`
 
+5. **Create a new JSON file** for the item you're adding:
+   - Right-click the folder in VSCode and select `New File`, name it (e.g., `gauntlet.json` for a Gauntlet fighter).
+
+6. **Copy the appropriate template** from the `templates` folder:
+   - Open the `templates` folder, locate the correct template (e.g., `squadron-template.json`), right-click, and select `Copy`.
+   - Paste it into your newly created JSON file.
+
+7. **Fill in the details** according to the relevant guide:
+   - Follow the [Ship Guide](Ship-Guide.md), [Squadron Guide](Squadron-Guide.md), or [Upgrade Guide](Upgrade-Guide.md) to enter the correct values.
+   - You can use VSCode's built-in JSON formatting (`Alt+Shift+F`) to ensure proper structure and readability.
+
+8. **Commit your changes** with a descriptive commit message:
+   - In the terminal, use the following commands:
+     ```bash
+     git add .
+     git commit -m "Added Gauntlet fighter JSON file"
+     ```
+   - Alternatively, in the `Source Control` tab, stage changes with the `+` button next to the files and commit directly from the UI by typing a message and pressing `Ctrl+Enter`.
+
+9. **Push your changes** to your forked repository:
+   - In the terminal, run:
+     ```bash
+     git push origin your-name-base-wavenumber
+     ```
+   - Or use the `Source Control` tab, where VSCode will prompt you to push the branch after committing changes.
+
+10. **Create a pull request** to merge your changes:
+    - Go to your GitHub forked repository, and GitHub will display an option to create a `New Pull Request`. Follow the prompts to select the branch and target repository.
+
+### VSCode Command Palette Shortcuts
+
+- **Git Checkout Branch**: `Ctrl+Shift+P` → "Git: Checkout to..."
+- **Create a New File**: Right-click folder → "New File"
+- **Format JSON**: Select file → `Alt+Shift+F`
+- **View Git Changes**: `Ctrl+Shift+G` (Opens Source Control tab)
+
+### Additional Note
+
+You don't need to manually combine the new JSON file with the main `squadrons.json`, `ships.json`, or `upgrades.json` files. The repository uses a script, `jsoncombiner.js`, to automatically combine individual files after review and merging.
