@@ -1,0 +1,110 @@
+{
+    "squadrons": {
+        "yv-666": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "yv-666",
+            "name": "YV-666 Squadron",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": true,
+            "hull": 7,
+            "speed": 2,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 2, 2],
+                "anti-ship": [0, 1, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "points": 15,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://lensdump.com/i/nmwi9z"
+        },
+        "bossk": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "yv-666",
+            "name": "YV-666 Squadron",
+            "ace-name": "Bossk",
+            "unique-class": ["Hound's Tooth"],
+            "irregular": true,
+            "hull": 7,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [0, 0, 4],
+                "anti-ship": [0, 1, 1]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the accuracy icon to your attack pool.",
+            "unique": true,
+            "points": 23,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://lensdump.com/i/nmXf8T"
+        }
+    }
+}
