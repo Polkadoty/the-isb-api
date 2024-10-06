@@ -1,12 +1,266 @@
 {
   "squadrons": {
+    "firespray-31": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "86d2eb56-a3b4-4889-bd35-bcf1ce737ba8",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "firespray-31",
+      "name": "Firespray-31 Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://lensdump.com/i/nmXGmq"
+    },
+    "boba-fett": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "427e629c-05d8-4370-ab24-a88aae29b54b",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "firespray-31",
+      "name": "Firespray-31 Squadron",
+      "ace-name": "Boba Fett",
+      "unique-class": [
+        "Slave I",
+        "Boba Fett"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.",
+      "unique": true,
+      "points": 26,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://lensdump.com/i/nmXDB5"
+    },
+    "jumpmaster": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "7d0573dc-945d-4021-bb0b-ba0838e9e375",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "jumpmaster",
+      "name": "JumpMaster 5000",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": false,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://lensdump.com/i/nmbdsC"
+    },
+    "dengar": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "7cf39c41-3223-45fc-82bd-ab76b1451045",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "jumpmaster",
+      "name": "JumpMaster 5000",
+      "ace-name": "Dengar",
+      "unique-class": [
+        "Punishing One",
+        "Dengar"
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "While another friendly squadron is at distance 1–2, it has COUNTER 1 or increases its COUNTER value by 1.",
+      "unique": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://lensdump.com/i/nmXw73"
+    },
     "tie-fighter": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a40917b7-c6de-4b97-81eb-49e73d0a34ba",
+      "_id": "4e3abd6d-e59e-4890-9854-f1a7d0e6bc7c",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter",
@@ -69,7 +323,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "409e6614-c64b-4e7e-b021-eb18762a5aa9",
+      "_id": "df34fa09-5644-4718-a99a-dc29e7b75939",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter",
@@ -132,7 +386,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "34876cb0-be3d-4a50-bc48-770fab3974da",
+      "_id": "c16a4360-ccde-4ab6-82f8-92a39531beef",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -195,7 +449,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "879ddfaa-ccca-4d44-8e2e-f8e22565c044",
+      "_id": "511ae0ff-9fae-4e49-99fe-e5d662705f32",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -258,7 +512,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "92f8a4e1-6a9f-425b-9872-05d3c84e0301",
+      "_id": "b6f48089-7f2f-49fb-8f4c-ba9802d1b8cd",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -321,7 +575,7 @@
       "team": "AMG",
       "release": "Rapid Reinforcements I",
       "expansion": "Rapid Reinforcements I",
-      "_id": "7be162c6-11d5-49d9-a5ec-a0a237cd61f5",
+      "_id": "5978317e-70af-48ef-af50-874e960ca537",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -377,6 +631,132 @@
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://a.l3n.co/i/nmyX9q.md.png"
+    },
+    "yv-666": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "d712cdc3-6dae-4d6e-bc08-efdb3f047a21",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "yv-666",
+      "name": "YV-666 Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://lensdump.com/i/nmwi9z"
+    },
+    "bossk": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "f062efdc-3f58-41bc-82c6-ffcd31b604d0",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "yv-666",
+      "name": "YV-666 Squadron",
+      "ace-name": "Bossk",
+      "unique-class": [
+        "Hound's Tooth"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          4
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the accuracy icon to your attack pool.",
+      "unique": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://lensdump.com/i/nmXf8T"
     }
   }
 }

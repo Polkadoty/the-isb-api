@@ -65,7 +65,7 @@
             "squadron_type": "jumpmaster",
             "name": "JumpMaster 5000",
             "ace-name": "Dengar",
-            "unique-class": ["Punishing One"],
+            "unique-class": ["Punishing One", "Dengar"],
             "irregular": true,
             "hull": 4,
             "speed": 4,
@@ -99,7 +99,7 @@
                 "strategic": false,
                 "swarm": true
             },
-            "ability": "While another friendly squadron is at distance 1–2, it has counter 1 or increases its counter value by 1.",
+            "ability": "While another friendly squadron is at distance 1–2, it has COUNTER 1 or increases its COUNTER value by 1.",
             "unique": true,
             "points": 20,
             "silhouette": "",
