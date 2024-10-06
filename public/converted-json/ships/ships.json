@@ -1,7 +1,7 @@
 {
   "ships": {
     "cr90-corvette": {
-      "_id": "f524f82e-df91-4f47-a215-bfe950321f62",
+      "_id": "e073dc33-d093-40e1-98f6-7070e15ea590",
       "type": "chassis",
       "chassis_name": "cr90-corvette",
       "size": "small",
@@ -51,7 +51,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "bf5b3ab7-554e-458e-9153-7a437ed7dd72",
+          "_id": "04d256cb-4a1b-4100-81ef-65fb52384615",
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette A",
@@ -131,7 +131,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "e76c8bc2-4f9c-4d17-bca1-526ca8f0a45b",
+          "_id": "78bbfc75-3415-49df-9946-4f3dcf8317ad",
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette B",
@@ -207,8 +207,208 @@
         }
       }
     },
+    "nebulon-b-frigate": {
+      "_id": "4443ec2a-72fa-44eb-a399-382567fdfa27",
+      "type": "chassis",
+      "chassis_name": "nebulon-b-frigate",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 90,
+        "centerangle": 0,
+        "rearangle": 90
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "nebulon-b-escort-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "d8a0ba35-e09a-4fb8-b748-f67cb9278363",
+          "type": "ship",
+          "chassis": "nebulon-b-frigate",
+          "name": "Nebulon-B Escort Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 57,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://b.l3n.co/i/zGzf60.md.png"
+        },
+        "nebulon-b-support-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "e0eb6d7f-5fbb-4da3-b553-a49dc24cbbae",
+          "type": "ship",
+          "chassis": "nebulon-b-frigate",
+          "name": "Nebulon-B Support Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 51,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://a.l3n.co/i/zGSth9.md.png"
+        }
+      }
+    },
     "victory-star-destroyer": {
-      "_id": "0c70806e-0842-40ea-a217-b2ebcbbd9e51",
+      "_id": "26ffe61e-f6d1-461c-9f58-84f0ab953944",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -249,7 +449,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "4a564d37-bfed-49f9-a88d-58ad217c8e90",
+          "_id": "b758b5bb-22fe-4973-8f9b-4f5b1d78bb27",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
@@ -333,7 +533,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "64a41050-7072-4703-90ce-cac6552631e3",
+          "_id": "688f2bd7-3078-4be4-b975-f56d3cc590b5",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory II-Class Star Destroyer",
@@ -418,7 +618,7 @@
           "team": "AMG",
           "release": "Rapid Reinforcements I",
           "expansion": "Rapid Reinforcements I",
-          "_id": "ed4df15d-834f-4626-b25f-e54cc7dbc550",
+          "_id": "ddca0d55-dbcb-4e93-b748-2676ad51477e",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
