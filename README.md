@@ -152,17 +152,17 @@ Each entity has its own JSON schema. For detailed schema information, refer to t
                     },
                     "upgrades": ["commander", "officer", "weapons-team", "support-team", "fleet-command", "fleet-support", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "experimental-retro", "turbolaser", "ion-cannon", "ordnance", "super-weapon", "title"],
                     "armament": {
-                        "asa": [number, number, number],
-                        "front": [number, number, number],
-                        "rear": [number, number, number],
-                        "left": [number, number, number],
-                        "right": [number, number, number],
-                        "left_aux": [number, number, number],
-                        "right_aux": [number, number, number],
-                        "special": [number, number, number]
+                        "asa": [red, blue, black],
+                        "front": [red, blue, black],
+                        "rear": [red, blue, black],
+                        "left": [red, blue, black],
+                        "right": [red, blue, black],
+                        "left_aux": [red, blue, black],
+                        "right_aux": [red, blue, black],
+                        "special": [red, blue, black]
                     },
-                    "artwork": "[link to image]",
-                    "cardimage": "[link to card image]"
+                    "artwork": "",
+                    "cardimage": ""
                 }
             }
         }
@@ -176,12 +176,12 @@ Each entity has its own JSON schema. For detailed schema information, refer to t
 {
     "squadrons": {
         "squadron_name": {
-            "author": "UID",
+            "author": "string",
             "alias": "string",
             "team": "string",
             "release": "string",
             "expansion": "string",
-            "UID": "[generate]",
+            "_id": null,
             "type": "squadron",
             "faction": "faction_name",
             "squadron_type": "squadron_uid",
@@ -197,8 +197,8 @@ Each entity has its own JSON schema. For detailed schema information, refer to t
                 "def_brace": number
             },
             "armament": {
-                "anti-squadron": [number, number, number],
-                "anti-ship": [number, number, number]
+                "anti-squadron": [red, blue, black],
+                "anti-ship": [red, blue, black]
             },
             "abilities": {
                 "adept": number,
@@ -224,9 +224,9 @@ Each entity has its own JSON schema. For detailed schema information, refer to t
             "ability": "string",
             "unique": boolean,
             "points": number,
-            "silhouette": "[link to image]",
-            "artwork": "[link to image]",
-            "cardimage": "[link to card image]"
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
         }
     }
 }
@@ -270,8 +270,8 @@ Each entity has its own JSON schema. For detailed schema information, refer to t
                 "ready_token": ["any", "squadron", "repair", "navigate", "confire"],
                 "ready_amount": number
             },
-            "artwork": "[link to image]",
-            "cardimage": "[link to card image]"
+            "artwork": "",
+            "cardimage": ""
         }
     }
 }
