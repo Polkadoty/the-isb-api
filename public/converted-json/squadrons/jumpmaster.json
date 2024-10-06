@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "yv-666": {
+        "jumpmaster": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,20 +9,20 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "yv-666",
-            "name": "YV-666 Squadron",
+            "squadron_type": "jumpmaster",
+            "name": "JumpMaster 5000",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
-            "hull": 7,
-            "speed": 2,
+            "hull": 4,
+            "speed": 4,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 2, 2],
+                "anti-squadron": [0, 2, 0],
                 "anti-ship": [0, 1, 0]
             },
             "abilities": {
@@ -35,25 +35,25 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
-                "heavy": true,
-                "intel": false,
+                "grit": false,
+                "heavy": false,
+                "intel": true,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
             "ability": "",
             "unique": false,
-            "points": 15,
+            "points": 12,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmwi9z"
+            "cardimage": "https://lensdump.com/i/nmbdsC"
         },
-        "bossk": {
+        "dengar": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,21 +62,21 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "yv-666",
-            "name": "YV-666 Squadron",
-            "ace-name": "Bossk",
-            "unique-class": ["Hound's Tooth"],
+            "squadron_type": "jumpmaster",
+            "name": "JumpMaster 5000",
+            "ace-name": "Dengar",
+            "unique-class": ["Punishing One"],
             "irregular": true,
-            "hull": 7,
-            "speed": 3,
+            "hull": 4,
+            "speed": 4,
             "tokens": {
-                "def_scatter": 0,
+                "def_scatter": 1,
                 "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 0, 4],
-                "anti-ship": [0, 1, 1]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -88,23 +88,23 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
+                "grit": false,
                 "heavy": false,
-                "intel": false,
+                "intel": true,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
-            "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the accuracy icon to your attack pool.",
+            "ability": "While another friendly squadron is at distance 1–2, it has counter 1 or increases its counter value by 1.",
             "unique": true,
-            "points": 23,
+            "points": 20,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmXf8T"
+            "cardimage": "https://lensdump.com/i/nmXw73"
         }
     }
 }
