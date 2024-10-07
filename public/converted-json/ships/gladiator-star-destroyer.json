@@ -21,12 +21,12 @@
                 "right_aux": 0
             },
             "hull_zones": {
-                "frontoffset": number,
-                "centeroffset": number,
-                "rearoffset": number,
-                "frontangle": number,
-                "centerangle": number,
-                "rearangle": number
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
             },
             "silhouette": "[link to image]",
             "blueprint": "[link to image]",
