@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "scurrg-h6": {
+        "scurrg-h-6-bomber": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "scurrg-h6",
+            "squadron_type": "scurrg-h-6-bomber",
             "name": "Scurrg H-6 Bomber",
             "ace-name": "",
             "unique-class": [""],
@@ -62,7 +62,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "scurrg-h6",
+            "squadron_type": "scurrg-h-6-bomber",
             "name": "Scurrg H-6 Bomber",
             "ace-name": "Nym",
             "unique-class": ["Nym","Havoc"],
