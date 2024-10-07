@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "jumpmaster": {
+        "jumpmaster-5000": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "jumpmaster",
+            "squadron_type": "jumpmaster-5000",
             "name": "JumpMaster 5000",
             "ace-name": "",
             "unique-class": [""],
@@ -51,9 +51,9 @@
             "points": 12,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmbdsC"
+            "cardimage": "https://a.l3n.co/i/nmbdsC.md.png"
         },
-        "dengar": {
+        "dengar-jumpmaster-5000": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,7 +62,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "jumpmaster",
+            "squadron_type": "jumpmaster-5000",
             "name": "JumpMaster 5000",
             "ace-name": "Dengar",
             "unique-class": ["Punishing One", "Dengar"],
@@ -99,12 +99,12 @@
                 "strategic": false,
                 "swarm": true
             },
-            "ability": "While another friendly squadron is at distance 1–2, it has COUNTER 1 or increases its COUNTER value by 1.",
+            "ability": "While another friendly squadron is at distance 1-2, it has COUNTER 1 or increases its COUNTER value by 1.",
             "unique": true,
             "points": 20,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmXw73"
+            "cardimage": "https://a.l3n.co/i/nmXw73.md.png"
         }
     }
 }

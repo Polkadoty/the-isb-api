@@ -6,7 +6,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "86d2eb56-a3b4-4889-bd35-bcf1ce737ba8",
+      "_id": "dd665f26-19fd-4852-8d03-a4697eb8aa63",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
@@ -61,7 +61,7 @@
       "points": 18,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://lensdump.com/i/nmXGmq"
+      "cardimage": "https://b.l3n.co/i/nmXGmq.md.png"
     },
     "boba-fett": {
       "author": "Fantasy Flight Games",
@@ -69,7 +69,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "427e629c-05d8-4370-ab24-a88aae29b54b",
+      "_id": "6c185fdb-3bab-4c37-9ae5-d91c5b6544ed",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
@@ -125,18 +125,18 @@
       "points": 26,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://lensdump.com/i/nmXDB5"
+      "cardimage": "https://b.l3n.co/i/nmXDB5.md.png"
     },
-    "jumpmaster": {
+    "jumpmaster-5000": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "7d0573dc-945d-4021-bb0b-ba0838e9e375",
+      "_id": "365d7f4e-3687-4ed0-b82b-18b4b7153c33",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "jumpmaster",
+      "squadron_type": "jumpmaster-5000",
       "name": "JumpMaster 5000",
       "ace-name": "",
       "unique-class": [
@@ -188,18 +188,18 @@
       "points": 12,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://lensdump.com/i/nmbdsC"
+      "cardimage": "https://a.l3n.co/i/nmbdsC.md.png"
     },
-    "dengar": {
+    "dengar-jumpmaster-5000": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "7cf39c41-3223-45fc-82bd-ab76b1451045",
+      "_id": "72292199-3b2b-4bbe-b219-77cc0d1d7492",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "jumpmaster",
+      "squadron_type": "jumpmaster-5000",
       "name": "JumpMaster 5000",
       "ace-name": "Dengar",
       "unique-class": [
@@ -247,12 +247,12 @@
         "strategic": false,
         "swarm": true
       },
-      "ability": "While another friendly squadron is at distance 1–2, it has COUNTER 1 or increases its COUNTER value by 1.",
+      "ability": "While another friendly squadron is at distance 1-2, it has COUNTER 1 or increases its COUNTER value by 1.",
       "unique": true,
       "points": 20,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://lensdump.com/i/nmXw73"
+      "cardimage": "https://a.l3n.co/i/nmXw73.md.png"
     },
     "tie-fighter": {
       "author": "Fantasy Flight Games",
@@ -260,7 +260,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "4e3abd6d-e59e-4890-9854-f1a7d0e6bc7c",
+      "_id": "2afc866d-7ce1-43d4-b0f0-a76b1bd9753b",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter",
@@ -323,7 +323,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "df34fa09-5644-4718-a99a-dc29e7b75939",
+      "_id": "dcfe12aa-4a85-44dd-ae52-d9cb29bb4283",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter",
@@ -386,7 +386,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "c16a4360-ccde-4ab6-82f8-92a39531beef",
+      "_id": "fd2baa1a-0c36-44e5-9ea9-b36867079981",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -449,7 +449,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "511ae0ff-9fae-4e49-99fe-e5d662705f32",
+      "_id": "e95bf89f-fa75-4664-9914-fbb8a4f2cf5c",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -512,7 +512,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "b6f48089-7f2f-49fb-8f4c-ba9802d1b8cd",
+      "_id": "de9fc4c1-4600-42ec-8356-f56e7af695d9",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -575,7 +575,7 @@
       "team": "AMG",
       "release": "Rapid Reinforcements I",
       "expansion": "Rapid Reinforcements I",
-      "_id": "5978317e-70af-48ef-af50-874e960ca537",
+      "_id": "ef87da89-bd06-4fe1-bc9c-c26228ccb603",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -638,7 +638,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "d712cdc3-6dae-4d6e-bc08-efdb3f047a21",
+      "_id": "22fdad54-2c62-44b8-a938-6371fc6f238b",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "yv-666",
@@ -693,7 +693,7 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://lensdump.com/i/nmwi9z"
+      "cardimage": "https://b.l3n.co/i/nmwi9z.md.png"
     },
     "bossk": {
       "author": "Fantasy Flight Games",
@@ -701,14 +701,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "f062efdc-3f58-41bc-82c6-ffcd31b604d0",
+      "_id": "f56c489e-87b0-44de-9c9e-377fee25aaab",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "yv-666",
       "name": "YV-666 Squadron",
       "ace-name": "Bossk",
       "unique-class": [
-        "Hound's Tooth"
+        "Hound's Tooth",
+        "Bossk"
       ],
       "irregular": true,
       "hull": 7,
@@ -756,7 +757,7 @@
       "points": 23,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://lensdump.com/i/nmXf8T"
+      "cardimage": "https://c.l3n.co/i/nmXf8T.md.png"
     }
   }
 }
