@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "aggressor": {
+        "aggressor-assault-fighter": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "aggressor",
+            "squadron_type": "aggressor-assault-fighter",
             "name": "Aggressor Assault Fighter",
             "ace-name": "",
             "unique-class": [""],
@@ -62,7 +62,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "aggressor",
+            "squadron_type": "aggressor-assault-fighter",
             "name": "Aggressor Assault Fighter",
             "ace-name": "IG-88",
             "unique-class": ["IG-88","IG-2000"],
