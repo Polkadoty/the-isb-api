@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "jumpmaster-5000": {
+        "aggressor": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,73 +9,20 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "jumpmaster-5000",
-            "name": "JumpMaster 5000",
+            "squadron_type": "aggressor",
+            "name": "Aggressor Assault Fighter",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
-            "hull": 4,
-            "speed": 4,
+            "hull": 5,
+            "speed": 3,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": true,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": true
-            },
-            "ability": "",
-            "unique": false,
-            "points": 12,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmbdsC.md.png"
-        },
-        "dengar-jumpmaster-5000": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "jumpmaster-5000",
-            "name": "Punishing One",
-            "ace-name": "Dengar",
-            "unique-class": ["Dengar","Punishing One"],
-            "irregular": true,
-            "hull": 4,
-            "speed": 4,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
+                "anti-squadron": [0, 4, 0],
                 "anti-ship": [0, 0, 1]
             },
             "abilities": {
@@ -85,26 +32,79 @@
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
+                "counter": 1,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
                 "heavy": false,
-                "intel": true,
+                "intel": false,
                 "relay": 0,
-                "rogue": false,
+                "rogue": true,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
-            "ability": "While another friendly squadron is at distance 1-2, it has COUNTER 1 or increases its COUNTER value by 1.",
-            "unique": true,
-            "points": 20,
+            "ability": "",
+            "unique": false,
+            "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmXw73.md.png"
+            "cardimage": "https://lensdump.com/i/nmXLR9"
+        },
+        "IG-88": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "aggressor",
+            "name": "Aggressor Assault Fighter",
+            "ace-name": "IG-88",
+            "unique-class": ["IG-88","IG-2000"],
+            "irregular": true,
+            "hull": 5,
+            "speed": 5,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [0, 0, 1]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 2,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "You ignore the escort and counter keywords on enemy squadrons.",
+            "unique": true,
+            "points": 21,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://lensdump.com/i/nmbCTo"
         }
     }
 }

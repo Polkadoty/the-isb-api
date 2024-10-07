@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "jumpmaster-5000": {
+        "hwk-290": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -8,14 +8,14 @@
             "expansion": "Rogues and Villains Expansion Pack (SWM14)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "jumpmaster-5000",
-            "name": "JumpMaster 5000",
+            "faction": "rebel",
+            "squadron_type": "hwk-290",
+            "name": "HWK-290",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
             "hull": 4,
-            "speed": 4,
+            "speed": 3,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
@@ -32,8 +32,8 @@
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
-                "dodge": 0,
+                "counter": 2,
+                "dodge": false,
                 "escort": false,
                 "grit": false,
                 "heavy": false,
@@ -44,16 +44,16 @@
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
             "ability": "",
             "unique": false,
             "points": 12,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmbdsC.md.png"
+            "cardimage": "https://lensdump.com/a/LWMhr"
         },
-        "dengar-jumpmaster-5000": {
+        "jan-ors": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -61,18 +61,18 @@
             "expansion": "Rogues and Villains Expansion Pack (SWM14)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "jumpmaster-5000",
-            "name": "Punishing One",
-            "ace-name": "Dengar",
-            "unique-class": ["Dengar","Punishing One"],
+            "faction": "rebel",
+            "squadron_type": "hwk-290",
+            "name": "HWK-290",
+            "ace-name": "Jan Ors",
+            "unique-class": ["Jan Ors","Moldy Crow"],
             "irregular": true,
             "hull": 4,
-            "speed": 4,
+            "speed": 3,
             "tokens": {
-                "def_scatter": 1,
+                "def_scatter": 0,
                 "def_evade": 0,
-                "def_brace": 1
+                "def_brace": 2
             },
             "armament": {
                 "anti-squadron": [0, 3, 0],
@@ -85,8 +85,8 @@
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
-                "dodge": 0,
+                "counter": 2,
+                "dodge": false,
                 "escort": false,
                 "grit": false,
                 "heavy": false,
@@ -97,14 +97,14 @@
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
-            "ability": "While another friendly squadron is at distance 1-2, it has COUNTER 1 or increases its COUNTER value by 1.",
+            "ability": "While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens.",
             "unique": true,
-            "points": 20,
+            "points": 19,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmXw73.md.png"
+            "cardimage": "https://lensdump.com/a/LWMhr"
         }
     }
 }
