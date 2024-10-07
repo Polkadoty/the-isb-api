@@ -1,0 +1,119 @@
+{
+    "ships": {
+        "assault-frigate-mark-ii": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "Assault Frigate MkII",
+            "size": "medium",
+            "hull": 6,
+            "speed": {
+                "1": [1],
+                "2": [1, 1],
+                "3": [0, 1, 1],
+                "4": []
+            },
+            "shields": {
+                "front": 4,
+                "rear": 2,
+                "left": 3,
+                "right": 3,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": number,
+                "centeroffset": number,
+                "rearoffset": number,
+                "frontangle": number,
+                "centerangle": number,
+                "rearangle": number
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "assault-frigate-mark-ii-a": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 1 Armada",
+                    "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "Assault Frigate MkII",
+                    "name": "Assault Frigate Mark II A",
+                    "faction": "rebel",
+                    "unique": false,
+                    "traits": [],
+                    "points": 81,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 1,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 2,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "weapons-team-offensive-retro", "defensive-retro", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [0, 2, 0],
+                        "front": [2, 1, 0],
+                        "rear": [2, 1, 0],
+                        "left": [3, 1, 0],
+                        "right": [3, 1, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                },
+                "assault-frigate-mark-ii-b": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 1 Armada",
+                    "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "Assault Frigate MkII",
+                    "name": "Assault Frigate Mark II B",
+                    "faction": "rebel",
+                    "unique": false,
+                    "traits": [],
+                    "points": 72,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 1,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "weapons-team-offensive-retro", "defensive-retro", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [0, 1, 0],
+                        "front": [2, 0, 0],
+                        "rear": [2, 0, 0],
+                        "left": [3, 1, 0],
+                        "right": [3, 1, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                }
+            }
+        }
+    }
+}
