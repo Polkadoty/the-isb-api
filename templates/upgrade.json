@@ -6,7 +6,7 @@
             "team": "string",
             "release": "string",
             "expansion": "string",
-            "UID": "[generate]",
+            "_id": null,
             "type": "upgrade_category/commander/title/etc",
             "faction": ["rebel","empire","republic","separatist"],
             "name": "upgrade_name",
