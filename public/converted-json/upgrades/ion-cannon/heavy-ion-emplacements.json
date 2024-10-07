@@ -1,23 +1,23 @@
 {
     "upgrades": {
-      "executor": {
+      "heavy-ion-emplacements": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
         "release": "Super Star Destroyer",
         "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
         "_id": null,
-        "type": "title",
-        "faction": ["empire"],
-        "name": "Executor",
-        "unique-class": ["Executor"],
-        "ability": "You can be assigned any number of command tokens of any types, instead of a number of command tokens equal to your command value.",
-        "unique": true,
-        "points": 2,
+        "type": "ion-cannon",
+        "faction": [""],
+        "name": "Heavy Ion Emplacements",
+        "unique-class": [""],
+        "ability": "BLUE :crit: : You may exhaust this card. If you do, the defending hull zone and each adjacent hull zone loses 1 shield.",
+        "unique": false,
+        "points": 9,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
-          "traits": ["star-dreadnought"],
+          "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
@@ -29,7 +29,7 @@
           "start_amount": 0
         },
         "exhaust": {
-          "type": "",
+          "type": "recur",
           "ready_token": [""],
           "ready_amount": 0
         },

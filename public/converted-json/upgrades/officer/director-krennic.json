@@ -1,23 +1,23 @@
 {
     "upgrades": {
-      "executor": {
+      "director-krennic": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
         "release": "Super Star Destroyer",
         "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
         "_id": null,
-        "type": "title",
+        "type": "officer",
         "faction": ["empire"],
-        "name": "Executor",
-        "unique-class": ["Executor"],
-        "ability": "You can be assigned any number of command tokens of any types, instead of a number of command tokens equal to your command value.",
+        "name": "Director Krennic",
+        "unique-class": ["Director Krennic"],
+        "ability": ":confire:: While attacking at medium-long range, if you spent a :confire: dial, you may also reroll any number of red dice in your attack pool. If you spent a :confire: token, you may also reroll up to 2 red dice in your attack pool.",
         "unique": true,
-        "points": 2,
+        "points": 8,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
-          "traits": ["star-dreadnought"],
+          "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
@@ -37,5 +37,4 @@
         "cardimage": ""
       }
     }
-  }
-  
+}

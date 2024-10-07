@@ -1,6 +1,6 @@
 {
     "upgrades": {
-      "executor": {
+      "annihilator": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
@@ -9,11 +9,11 @@
         "_id": null,
         "type": "title",
         "faction": ["empire"],
-        "name": "Executor",
-        "unique-class": ["Executor"],
-        "ability": "You can be assigned any number of command tokens of any types, instead of a number of command tokens equal to your command value.",
+        "name": "Annihilator",
+        "unique-class": ["Annihilator"],
+        "ability": "While attacking a squadron, you may reroll 1 attack die.",
         "unique": true,
-        "points": 2,
+        "points": 8,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
