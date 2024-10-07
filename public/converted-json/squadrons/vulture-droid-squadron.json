@@ -105,6 +105,59 @@
             "silhouette": "",
             "artwork": "",
             "cardimage": ""
+        },
+        "dfs-311-vulture-droid-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "vulture-droid-squadron",
+            "name": "Vulture-class Droid Fighter Squadron",
+            "ace-name": "DFS-311",
+            "unique-class": ["DFS-311"],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [1, 0, 1],
+                "anti-ship": [1, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": true,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "While you are defending, if the attack is obstructed, you may force the attacker to reroll 1 die of your choice.",
+            "unique": true,
+            "points": 18,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
         }
     }
 }
