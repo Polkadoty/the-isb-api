@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "btl-b-ywing-squadron": {
+        "btl-b-y-wing-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "btl-b-ywing-squadron",
+            "squadron_type": "btl-b-y-wing-squadron",
             "name": "BTL-B Y-wing Squadron",
             "ace-name": "",
             "unique-class": [""],
@@ -51,9 +51,9 @@
             "points": 10,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nm55h5.md.png"
         },
-        "anakin-btl-b-ywing-squadron": {
+        "anakin-btl-b-y-wing-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -104,9 +104,9 @@
             "points": 19,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nm55h5.md.png"
         },
-        "matchstick-btl-b-ywing-squadron": {
+        "matchstick-btl-b-y-wing-squadron": {
             "author": "Atomic Mass Games",
             "alias": "AMG",
             "team": "AMG",
@@ -157,7 +157,7 @@
             "points": 14,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nmGWpr.md.png"
         }
     }
 }

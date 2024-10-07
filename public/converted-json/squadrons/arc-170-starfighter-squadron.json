@@ -1,36 +1,36 @@
 {
     "squadrons": {
-        "aggressor": {
+        "arc-170-starfighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 9 Armada",
+            "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "aggressor",
-            "name": "Aggressor Assault Fighter",
+            "faction": "republic",
+            "squadron_type": "arc-170-starfighter-squadron",
+            "name": "ARC-170 Starfighter Squadron",
             "ace-name": "",
             "unique-class": [""],
-            "irregular": true,
-            "hull": 5,
-            "speed": 3,
+            "irregular": false,
+            "hull": 7,
+            "speed": 2,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [0, 0, 1]
+                "anti-squadron": [1, 2, 0],
+                "anti-ship": [0, 2, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
                 "counter": 1,
                 "dodge": 0,
@@ -39,7 +39,7 @@
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
@@ -48,63 +48,63 @@
             },
             "ability": "",
             "unique": false,
-            "points": 16,
+            "points": 15,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmXLR9"
+            "cardimage": "https://c.l3n.co/i/nm5xqv.md.png"
         },
-        "IG-88": {
+        "oddball-arc170-starfighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 9 Armada",
+            "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "aggressor",
-            "name": "Aggressor Assault Fighter",
-            "ace-name": "IG-88",
-            "unique-class": ["IG-88","IG-2000"],
-            "irregular": true,
-            "hull": 5,
-            "speed": 5,
+            "faction": "republic",
+            "squadron_type": "arc-170-starfighter-squadron",
+            "name": "ARC-170 Starfighter Squadron",
+            "ace-name": "Odd Ball",
+            "unique-class": ["Odd Ball"],
+            "irregular": false,
+            "hull": 7,
+            "speed": 2,
             "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 0
+                "def_scatter": 0,
+                "def_evade": 1,
+                "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [0, 0, 1]
+                "anti-squadron": [0, 2, 1],
+                "anti-ship": [0, 2, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
-                "counter": 2,
+                "counter": 1,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "You ignore the escort and counter keywords on enemy squadrons.",
+            "ability": "While attacking, if you moved during this activation, you may reroll up to 2 dice.",
             "unique": true,
-            "points": 21,
+            "points": 23,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmbCTo"
+            "cardimage": "https://b.l3n.co/i/nmGifF.md.png"
         }
     }
 }

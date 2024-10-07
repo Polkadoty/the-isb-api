@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "v19-torrent-squadron": {
+        "v-19-torrent-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "v19-torrent-squadron",
+            "squadron_type": "v-19-torrent-squadron",
             "name": "V-19 Torrent Squadron",
             "ace-name": "",
             "unique-class": [""],
@@ -51,9 +51,9 @@
             "points": 12,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nmGIB0.md.png"
         },
-        "axe-v19-torrent-squadron": {
+        "axe-v-19-torrent-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,7 +62,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "v19-torrent-squadron",
+            "squadron_type": "v-19-torrent-squadron",
             "name": "V-19 Torrent Squadron",
             "ace-name": "Axe",
             "unique-class": ["Axe"],
@@ -104,9 +104,9 @@
             "points": 17,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nm5yYC.md.png"
         },
-        "kickback-v19-torrent-squadron": {
+        "kickback-v-19-torrent-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -115,7 +115,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "v19-torrent-squadron",
+            "squadron_type": "v-19-torrent-squadron",
             "name": "V-19 Torrent Squadron",
             "ace-name": "Kickback",
             "unique-class": ["Kickback"],
@@ -157,7 +157,7 @@
             "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://b.l3n.co/i/nm5hST.md.png"
         }
     }
 }
