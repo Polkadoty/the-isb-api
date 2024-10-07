@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "firespray-31": {
+        "yt-1300": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -8,14 +8,14 @@
             "expansion": "Rogues and Villains Expansion Pack (SWM14)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "firespray-31",
-            "name": "Firespray-31",
+            "faction": "rebel",
+            "squadron_type": "yt-1300",
+            "name": "YT-1300",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
-            "hull": 6,
-            "speed": 3,
+            "hull": 7,
+            "speed": 2,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
@@ -23,37 +23,37 @@
             },
             "armament": {
                 "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 2, 0]
+                "anti-ship": [0, 1, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": true,
+                "bomber": false,
                 "cloak": false,
-                "counter": 0,
+                "counter": 1,
                 "dodge": 0,
-                "escort": false,
+                "escort": true,
                 "grit": false,
                 "heavy": false,
                 "intel": false,
-                "relay": 0,
-                "rogue": true,
+                "relay": false,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": 0,
+                "snipe": false,
                 "strategic": false,
                 "swarm": false
             },
             "ability": "",
             "unique": false,
-            "points": 18,
+            "points": 13,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmXGmq"
+            "cardimage": "https://lensdump.com/a/LWMhr"
         },
-        "boba-fett": {
+        "han-solo": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -61,13 +61,13 @@
             "expansion": "Rogues and Villains Expansion Pack (SWM14)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "firespray-31",
-            "name": "Firespray-31",
-            "ace-name": "Boba Fett",
-            "unique-class": ["Slave I"],
+            "faction": "rebel",
+            "squadron_type": "yt-1300",
+            "name": "YT-1300",
+            "ace-name": "Han Solo",
+            "unique-class": ["Millennium Falcon"],
             "irregular": true,
-            "hull": 6,
+            "hull": 7,
             "speed": 3,
             "tokens": {
                 "def_scatter": 0,
@@ -75,7 +75,7 @@
                 "def_brace": 2
             },
             "armament": {
-                "anti-squadron": [0, 4, 0],
+                "anti-squadron": [0, 2, 2],
                 "anti-ship": [0, 1, 1]
             },
             "abilities": {
@@ -83,28 +83,28 @@
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": true,
+                "bomber": false,
                 "cloak": false,
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": false,
+                "grit": true,
                 "heavy": false,
                 "intel": false,
-                "relay": 0,
+                "relay": false,
                 "rogue": true,
                 "scout": false,
                 "screen": false,
-                "snipe": 0,
+                "snipe": false,
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.",
+            "ability": "",
             "unique": true,
             "points": 26,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nmXDB5"
+            "cardimage": "https://lensdump.com/a/LWMhr"
         }
     }
 }
