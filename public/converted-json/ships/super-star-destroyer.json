@@ -1,0 +1,235 @@
+{
+    "ships": {
+        "executor-super-star-destroyer": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "executor-super-star-destroyer",
+            "size": "huge",
+            "hull": 33,
+            "speed": {
+                "1": [0],
+                "2": [0, 0],
+                "3": [],
+                "4": []
+            },
+            "shields": {
+                "front": 6,
+                "rear": 3,
+                "left": 5,
+                "right": 5,
+                "left_aux": 5,
+                "right_aux": 5
+            },
+            "hull_zones": {
+                "frontoffset": -15,
+                "centeroffset": -20,
+                "rearoffset": -20,
+                "frontangle": 100,
+                "centerangle": 180,
+                "rearangle": 152
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "executor-i-class-star-dreadnought": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Super Star Destroyer",
+                    "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "executor-super-star-destroyer",
+                    "name": "Executor I-class Star Dreadnought",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 381,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 2,
+                        "def_contain": 2,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 4,
+                        "squadron": 6,
+                        "engineer": 5
+                    },
+                    "upgrades": ["commander", "officer", "officer", "officer", "officer", "weapons-team", "fleet-command", "fleet-command", "fleet-command", "fleet-command", "offensive-retro", "weapons-team-offensive-retro", "turbolaser", "ion-cannon", "title"],
+                    "armament": {
+                        "asa": [0, 2, 1],
+                        "front": [5, 4, 0],
+                        "rear": [2, 1, 1],
+                        "left": [3, 3, 1],
+                        "right": [3, 3, 1],
+                        "left_aux": [2, 3, 1],
+                        "right_aux": [2, 3, 1],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                },
+                "executor-ii-class-star-dreadnought": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Super Star Destroyer",
+                    "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "executor-super-star-destroyer",
+                    "name": "Executor II-class Star Dreadnought",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 411,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 2,
+                        "def_contain": 2,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 4,
+                        "squadron": 6,
+                        "engineer": 5
+                    },
+                    "upgrades": ["commander", "officer", "officer", "officer", "officer", "weapons-team", "fleet-command", "offensive-retro", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "ion-cannon", "turbolaser", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [1, 1, 1],
+                        "front": [5, 5, 0],
+                        "rear": [2, 1, 1],
+                        "left": [4, 3, 1],
+                        "right": [4, 3, 1],
+                        "left_aux": [3, 3, 1],
+                        "right_aux": [3, 3, 1],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                }
+            }
+        },
+        "prototype-super-star-destroyer": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "prototype-super-star-destroyer",
+            "size": "huge",
+            "hull": 22,
+            "speed": {
+                "1": [0],
+                "2": [0, 0],
+                "3": [],
+                "4": []
+            },
+            "shields": {
+                "front": 6,
+                "rear": 2,
+                "left": 3,
+                "right": 3,
+                "left_aux": 3,
+                "right_aux": 3
+            },
+            "hull_zones": {
+                "frontoffset": -15,
+                "centeroffset": -20,
+                "rearoffset": -20,
+                "frontangle": 100,
+                "centerangle": 180,
+                "rearangle": 152
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "star-dreadnought-assault-prototype": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Super Star Destroyer",
+                    "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "prototype-super-star-destroyer",
+                    "name": "Star Dreadnought Assault Prototype",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 250,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 2,
+                        "def_contain": 2,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 4,
+                        "squadron": 5,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "officer", "officer", "weapons-team", "offensive-retro", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "ion-cannon", "turbolaser", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [1, 1, 0],
+                        "front": [5, 4, 0],
+                        "rear": [1, 1, 1],
+                        "left": [3, 2, 1],
+                        "right": [3, 2, 1],
+                        "left_aux": [2, 2, 1],
+                        "right_aux": [2, 2, 1],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                },
+                "star-dreadnought-command-prototype": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Super Star Destroyer",
+                    "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "prototype-super-star-destroyer",
+                    "name": "Star Dreadnought Command Prototype",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 220,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 2,
+                        "def_contain": 2,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 4,
+                        "squadron": 5,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "officer", "officer", "weapons-team", "fleet-command", "fleet-command", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [0, 2, 0],
+                        "front": [4, 4, 0],
+                        "rear": [1, 1, 1],
+                        "left": [3, 1, 1],
+                        "right": [3, 1, 1],
+                        "left_aux": [2, 1, 1],
+                        "right_aux": [2, 1, 1],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                }
+            }
+        }
+    }
+
+}
