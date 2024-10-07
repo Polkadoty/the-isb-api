@@ -1,0 +1,110 @@
+{
+    "squadrons": {
+        "vulture-droid-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "vulture-droid-squadron",
+            "name": "Vulture-class Droid Fighter Squadron",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 1, 1],
+                "anti-ship": [1, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "",
+            "unique": false,
+            "points": 8,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        },
+        "haor-chall-vulture-droid-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "vulture-droid-squadron",
+            "name": "Vulture-class Droid Fighter Squadron",
+            "ace-name": "Haor Chall Prototypes",
+            "unique-class": ["Haor Chall Prototypes"],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [0, 1, 1],
+                "anti-ship": [1, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "Before an enemy ship or squadron at distance 1 moves, you may perform an attack against that ship or squadron even if you are engaged.",
+            "unique": true,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
