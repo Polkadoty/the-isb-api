@@ -160,27 +160,8 @@ Add placeholders for silhouette and artwork:
 ```json
 "silhouette": "",
 "artwork": "",
+"cardimage": ""
 ```
-
-For the cardimages, follow the same process as described in the Ship Guide, using the link: https://lensdump.com/a/ezudC/sub.
-
-- If no images appear in the album, don't panic. Head to the "sub-album" button and they should be sorted by faction.
-- Search for the squadron card you want, and left click on the open square in the top right of the card. This square is highlighted in the image below:
-
-![Select upper right](templates\select_upper_right.png)
-
-- The card should be selected. Then press K, this should open up an "embed codes" window. Click the drop down from viewer link, and change it to medium link.
-
-![Select medium link](templates\select_medium_link.png)
-
-- Then copy the code and paste it inside quotes like so:
-
-```json
-"cardimage": "https://c.l3n.co/i/zGn09i.md.png",
-```
-
-If the embed code window is not popping up, just use the image links in lensdump by left clicking the image, then right clicking copy and placing that into the list. A moderator will adjust it later.
-
 
 ## Example
 
