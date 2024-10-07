@@ -1,0 +1,78 @@
+{
+    "ships": {
+        "raider-corvette": {
+            "UID": "[generate]",
+            "type": "chassis",
+            "chassis_name": "raider-corvette",
+            "size": "small",
+            "hull": number,
+            "speed": {
+                "1": [number],
+                "2": [number, number],
+                "3": [number, number, number],
+                "4": [number, number, number, number]
+            },
+            "shields": {
+                "front": number,
+                "rear": number,
+                "left": number,
+                "right": number,
+                "left_aux": number,
+                "right_aux": number
+            },
+            "hull_zones": {
+                "frontoffset": number,
+                "centeroffset": number,
+                "rearoffset": number,
+                "frontangle": number,
+                "centerangle": number,
+                "rearangle": number
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "model_name": {
+                    "author": "UID",
+                    "alias": "string",
+                    "team": "string",
+                    "release": "string",
+                    "expansion": "string",
+                    "UID": "[generate]",
+                    "type": "ship",
+                    "chassis": "string",
+                    "name": "string",
+                    "faction": "string",
+                    "unique": boolean,
+                    "traits": ["string"],
+                    "points": number,
+                    "tokens": {
+                        "def_scatter": number,
+                        "def_evade": number,
+                        "def_brace": number,
+                        "def_redirect": number,
+                        "def_contain": number,
+                        "def_salvo": number
+                    },
+                    "values": {
+                        "command": number,
+                        "squadron": number,
+                        "engineer": number
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "support-team", "fleet-command", "fleet-support", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "experimental-retro", "turbolaser", "ion-cannon", "ordnance", "super-weapon", "title"],
+                    "armament": {
+                        "asa": [red, blue, black],
+                        "front": [red, blue, black],
+                        "rear": [red, blue, black],
+                        "left": [red, blue, black],
+                        "right": [red, blue, black],
+                        "left_aux": [red, blue, black],
+                        "right_aux": [red, blue, black],
+                        "special": [red, blue, black]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                }
+            }
+        }
+    }
+}
