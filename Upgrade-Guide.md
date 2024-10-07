@@ -140,8 +140,6 @@ Add placeholders for artwork and card images:
 "cardimage": ""
 ```
 
-The card images will be left blank for the moment because the upgrade cards have not been posted onto lensdump.
-
 ## Example
 
 For reference, you can look at the upgrades JSON template:
