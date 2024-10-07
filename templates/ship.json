@@ -1,7 +1,7 @@
 {
     "ships": {
         "ship_name": {
-            "UID": "[generate]",
+            "_id": null,
             "type": "chassis",
             "chassis_name": "string",
             "size": "string",
@@ -37,7 +37,7 @@
                     "team": "string",
                     "release": "string",
                     "expansion": "string",
-                    "UID": "[generate]",
+                    "_id": null,
                     "type": "ship",
                     "chassis": "string",
                     "name": "string",
