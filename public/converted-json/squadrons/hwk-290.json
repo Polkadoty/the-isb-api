@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "yt-1300": {
+        "hwk-290": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,20 +9,20 @@
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "yt-1300",
-            "name": "YT-1300",
+            "squadron_type": "hwk-290",
+            "name": "HWK-290",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
-            "hull": 7,
-            "speed": 2,
+            "hull": 4,
+            "speed": 3,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
+                "anti-squadron": [0, 2, 0],
                 "anti-ship": [0, 1, 0]
             },
             "abilities": {
@@ -32,28 +32,28 @@
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 1,
-                "dodge": 0,
-                "escort": true,
+                "counter": 2,
+                "dodge": false,
+                "escort": false,
                 "grit": false,
                 "heavy": false,
-                "intel": false,
-                "relay": false,
+                "intel": true,
+                "relay": 0,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": false,
+                "snipe": 0,
                 "strategic": false,
                 "swarm": false
             },
             "ability": "",
             "unique": false,
-            "points": 13,
+            "points": 12,
             "silhouette": "",
             "artwork": "",
             "cardimage": "https://lensdump.com/a/LWMhr"
         },
-        "han-solo": {
+        "jan-ors": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,12 +62,12 @@
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "yt-1300",
-            "name": "YT-1300",
-            "ace-name": "Han Solo",
-            "unique-class": ["Han Solo","Millennium Falcon"],
+            "squadron_type": "hwk-290",
+            "name": "HWK-290",
+            "ace-name": "Jan Ors",
+            "unique-class": ["Jan Ors","Moldy Crow"],
             "irregular": true,
-            "hull": 7,
+            "hull": 4,
             "speed": 3,
             "tokens": {
                 "def_scatter": 0,
@@ -75,8 +75,8 @@
                 "def_brace": 2
             },
             "armament": {
-                "anti-squadron": [0, 2, 2],
-                "anti-ship": [0, 1, 1]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -85,24 +85,24 @@
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
-                "dodge": 0,
+                "counter": 2,
+                "dodge": false,
                 "escort": false,
-                "grit": true,
+                "grit": false,
                 "heavy": false,
-                "intel": false,
-                "relay": false,
-                "rogue": true,
+                "intel": true,
+                "relay": 0,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": false,
+                "snipe": 0,
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "",
+            "ability": "While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens.",
             "unique": true,
-            "points": 26,
-            "silhouette": "At the start of the Ship Phase, you may activate as if you were activated by a :squadron: command.",
+            "points": 19,
+            "silhouette": "",
             "artwork": "",
             "cardimage": "https://lensdump.com/a/LWMhr"
         }

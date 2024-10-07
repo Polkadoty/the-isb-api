@@ -65,7 +65,7 @@
             "squadron_type": "yv-666",
             "name": "YV-666",
             "ace-name": "Bossk",
-            "unique-class": ["Hound's Tooth"],
+            "unique-class": ["Bossk","Hound's Tooth"],
             "irregular": true,
             "hull": 7,
             "speed": 3,
@@ -99,7 +99,7 @@
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the accuracy icon to your attack pool.",
+            "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the :accuracy: icon to your attack pool.",
             "unique": true,
             "points": 23,
             "silhouette": "",
