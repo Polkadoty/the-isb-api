@@ -1,12 +1,64 @@
 {
   "upgrades": {
+    "upgrade_name": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": "ae28a1e3-60e2-4d87-a404-8b57a6733dde",
+      "type": "commander",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Count Dooku",
+      "unique-class": [
+        "Count Dooku"
+      ],
+      "ability": "You must choose at least 2 types of command tokens for this card. At the start of each Ship Phase, you may discard 1 command token from this card. If you do, each enemy ship gains a raid token matching that command token.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 3
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nHWo2Z.md.webp"
+    },
     "general-dodonna": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "9f34f5d5-8f91-4513-a55b-069c8389c1e4",
+      "_id": "8bf8ab93-5fac-47a9-b9ce-cacb9a65aacc",
       "type": "commander",
       "faction": [
         "rebel"
@@ -58,7 +110,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "b5800e06-9aa5-4e6a-9b2a-e167505c85c3",
+      "_id": "c74a29b8-25d8-4e0c-8c56-a56dad0ad56d",
       "type": "commander",
       "faction": [
         "empire"
@@ -110,7 +162,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "fe993508-008f-4ce5-aff4-ff9f9f47c759",
+      "_id": "f07e3d5f-0c9b-4997-a417-0067ce8cb66e",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -162,7 +214,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "59128b01-98e2-4d01-989c-6f1813da3652",
+      "_id": "f20ff9cb-ac4c-4a4a-a927-b5c733af2f44",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -214,7 +266,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a0467485-c3cf-47cd-bb78-10243e45b208",
+      "_id": "4de7afb8-7aa9-4c7d-af9f-1d1723c88a3d",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -266,7 +318,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "713feb20-5ae7-4676-95b0-f267ef55be2f",
+      "_id": "2ee138f5-42e0-4782-a0d0-a34777b61ff7",
       "type": "officer",
       "faction": [
         ""
@@ -318,7 +370,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "461636d6-270e-40ba-a17f-1ba82d502799",
+      "_id": "f58246cb-ae7b-43f8-b218-871cb13fbb41",
       "type": "officer",
       "faction": [
         "rebel"
@@ -370,7 +422,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "d332a2e7-9aba-4407-a5df-44f1e1bf5364",
+      "_id": "5d3799b4-68fc-414e-a233-ff8a28e0a1b4",
       "type": "officer",
       "faction": [
         ""
@@ -422,7 +474,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "627cb68e-d6c7-41b2-a3d9-3c5e023ce701",
+      "_id": "9e057d08-0999-4b6b-b92e-3c463d835b97",
       "type": "officer",
       "faction": [
         "empire"
@@ -474,7 +526,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "69176634-90b8-4230-a635-062b23adc0a1",
+      "_id": "2ac3db26-b7cc-4a6e-b7ad-28cfec357952",
       "type": "ordnance",
       "faction": [
         ""
@@ -526,7 +578,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "12a86861-6fe4-495b-b867-ff8c01ebaf2e",
+      "_id": "ee800fae-16a5-4cf3-8e49-6e214f9263c4",
       "type": "support-team",
       "faction": [
         ""
@@ -578,7 +630,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e026b9b3-1b55-4598-8390-33f8c643a81a",
+      "_id": "dafbd12c-e716-4eef-be93-ee65dd5d744b",
       "type": "support-team",
       "faction": [
         ""
@@ -630,7 +682,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "25cced7c-157b-4d31-b03c-1b76dcc73be9",
+      "_id": "1946791a-a312-49e6-9d8f-9b1f2f98c96d",
       "type": "title",
       "faction": [
         "rebel"
@@ -657,7 +709,7 @@
         "disable_upgrades": [
           ""
         ],
-        "flagship": true
+        "flagship": false
       },
       "start_command": {
         "type": "",
@@ -680,25 +732,25 @@
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "be4a41cb-b38e-4bf4-909d-7a9dd6b150a5",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "9f65f6a2-d643-472d-9c0f-9a062c36da0b",
       "type": "title",
       "faction": [
         "empire"
       ],
-      "name": "Dominator",
+      "name": "Executor",
       "unique-class": [
-        "Dominator"
+        "Executor"
       ],
-      "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+      "ability": "You can be assigned any number of command tokens of any types, instead of a number of command tokens equal to your command value.",
       "unique": true,
-      "points": 12,
+      "points": 2,
       "modification": false,
-      "bound_shiptype": "victory-star-destroyer",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          ""
+          "super-star-destroyer"
         ],
         "size": [
           ""
@@ -709,7 +761,7 @@
         "disable_upgrades": [
           ""
         ],
-        "flagship": true
+        "flagship": false
       },
       "start_command": {
         "type": "",
@@ -726,7 +778,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://b.l3n.co/i/n3hOzc.md.webp"
+      "cardimage": ""
     },
     "redemption": {
       "author": "Fantasy Flight Games",
@@ -734,7 +786,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "947643bd-32b3-4641-943b-65e2a6fc12ef",
+      "_id": "c1059ee2-a8cf-42f7-a068-04957b8bbddf",
       "type": "title",
       "faction": [
         "rebel"
@@ -761,7 +813,7 @@
         "disable_upgrades": [
           ""
         ],
-        "flagship": true
+        "flagship": false
       },
       "start_command": {
         "type": "",
@@ -786,7 +838,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "4d8c5340-dc09-442c-a441-c2ad3ce6e8ea",
+      "_id": "ef44ea4a-2537-4038-b74f-267aee72ae53",
       "type": "turbolaser",
       "faction": [
         ""
@@ -838,7 +890,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "4a72ddd6-ab55-4775-948b-d2f68240f230",
+      "_id": "e8692303-40d6-4d2b-b9e3-e217d5408103",
       "type": "turbolaser",
       "faction": [
         ""
@@ -890,7 +942,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "db71a819-7e45-4423-b229-0e25a5d3e205",
+      "_id": "444ec318-7e16-40a4-b984-7e99eaa9c923",
       "type": "weapons-team",
       "faction": [
         ""

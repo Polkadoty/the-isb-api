@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "scurrg-h6": {
+        "scurrg-h6-bomber": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "scurrg-h6",
+            "squadron_type": "scurrg-h6-bomber",
             "name": "Scurrg H-6 Bomber",
             "ace-name": "",
             "unique-class": [""],
@@ -51,9 +51,9 @@
             "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/i/nm5Btr"
+            "cardimage": "https://c.l3n.co/i/nm5Btr.md.png"
         },
-        "nym": {
+        "nym-scurrg-h6-bomber": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,8 +62,8 @@
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "scurrg-h6",
-            "name": "Scurrg H-6 Bomber",
+            "squadron_type": "scurrg-h6-bomber",
+            "name": "Havoc",
             "ace-name": "Nym",
             "unique-class": ["Nym","Havoc"],
             "irregular": true,
@@ -99,12 +99,12 @@
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "Blue :critical: : If the defender is a ship, you may choose and discard 1 of its defense tokens.",
+            "ability": "Blue :crit: : If the defender is a ship, you may choose and discard 1 of its defense tokens.",
             "unique": true,
             "points": 21,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://lensdump.com/a/LWMhr"
+            "cardimage": "https://b.l3n.co/i/nm59lb.md.png"
         }
     }
 }

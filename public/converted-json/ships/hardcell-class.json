@@ -1,22 +1,22 @@
 {
     "ships": {
-        "munificent": {
+        "hardcell-class": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "munificent",
-            "size": "medium",
-            "hull": 6,
+            "chassis_name": "hardcell",
+            "size": "small",
+            "hull": 5,
             "speed": {
-                "1": [1],
-                "2": [1, 2],
-                "3": [],
+                "1": [2],
+                "2": [1, 1],
+                "3": [1, 1, 0],
                 "4": []
             },
             "shields": {
-                "front": 4,
+                "front": 3,
                 "rear": 2,
-                "left": 3,
-                "right": 3,
+                "left": 1,
+                "right": 1,
                 "left_aux": 0,
                 "right_aux": 0
             },
@@ -28,10 +28,10 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
-                "munificent-class-star-frigate": {
+                "hardcell-class-transport": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
@@ -39,40 +39,40 @@
                     "expansion": "Separatist Alliance Fleet Starter (SWM35)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "munificent-class-star-frigate",
-                    "name": "Munificent-class Star Frigate",
+                    "chassis": "hardcell-class",
+                    "name": "Hardcell-class Transport",
                     "faction": "separatist",
                     "unique": false,
-                    "traits": ["Droid","Bombard","Transport"],
-                    "points": 73,
+                    "traits": ["Droid","Transport"],
+                    "points": 47,
                     "tokens": {
                         "def_scatter": 0,
-                        "def_evade": 0,
+                        "def_evade": 1,
                         "def_brace": 1,
                         "def_redirect": 1,
                         "def_contain": 0,
-                        "def_salvo": 1
+                        "def_salvo": 0
                     },
                     "values": {
-                        "command": 2,
+                        "command": 1,
                         "squadron": 2,
-                        "engineer": 4
+                        "engineer": 3
                     },
-                    "upgrades": ["commander", "officer", "support-team", "defensive-retro", "turbolaser", "ion-cannon", "title"],
+                    "upgrades": ["commander", "officer", "officer", "support-team", "fleet-support", "title"],
                     "armament": {
-                        "asa": [1, 0, 1],
-                        "front": [2, 2, 0],
-                        "rear": [2, 0, 0],
-                        "left": [3, 0, 0],
-                        "right": [3, 0, 0],
+                        "asa": [0, 1, 0],
+                        "front": [2, 1, 0],
+                        "rear": [0, 0, 0],
+                        "left": [0, 1, 0],
+                        "right": [0, 1, 0],
                         "left_aux": [0, 0, 0],
                         "right_aux": [0, 0, 0],
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zxthH7.md.png"
                 },
-                "munificent-class-comms-frigate": {
+                "hardcell-class-battle-refit": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
@@ -80,38 +80,38 @@
                     "expansion": "Separatist Alliance Fleet Starter (SWM35)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "munificent-class-comms-frigate",
-                    "name": "Munificent-class Comms Frigate",
+                    "chassis": "hardcell-class",
+                    "name": "Hardcell-class Battle Refit",
                     "faction": "separatist",
                     "unique": false,
-                    "traits": ["Droid","Bombard","Comms"],
-                    "points": 70,
+                    "traits": ["Droid","Transport"],
+                    "points": 52,
                     "tokens": {
                         "def_scatter": 0,
-                        "def_evade": 0,
+                        "def_evade": 1,
                         "def_brace": 1,
                         "def_redirect": 1,
                         "def_contain": 0,
-                        "def_salvo": 1
+                        "def_salvo": 0
                     },
                     "values": {
-                        "command": 2,
-                        "squadron": 3,
-                        "engineer": 4
+                        "command": 1,
+                        "squadron": 1,
+                        "engineer": 3
                     },
-                    "upgrades": ["commander", "officer", "support-team", "offensive-retro", "turbolaser", "ion-cannon", "title"],
+                    "upgrades": ["commander", "officer", "offensive-retro", "defensive-retro", "turbolaser", "title"],
                     "armament": {
-                        "asa": [1, 0, 0],
-                        "front": [2, 2, 0],
-                        "rear": [2, 0, 0],
-                        "left": [3, 0, 0],
-                        "right": [3, 0, 0],
+                        "asa": [0, 1, 1],
+                        "front": [3, 0, 0],
+                        "rear": [0, 0, 0],
+                        "left": [1, 0, 0],
+                        "right": [1, 0, 0],
                         "left_aux": [0, 0, 0],
                         "right_aux": [0, 0, 0],
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zxtms0.md.png"
                 }
             }
         }
