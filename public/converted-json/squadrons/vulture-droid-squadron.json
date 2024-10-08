@@ -1,16 +1,16 @@
 {
     "squadrons": {
-        "tie-fighter-squadron": {
+        "vulture-droid-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
+            "faction": "separatist",
+            "squadron_type": "vulture-droid-squadron",
+            "name": "Vulture-class Droid Fighter Squadron",
             "ace-name": "",
             "unique-class": [""],
             "irregular": false,
@@ -22,13 +22,13 @@
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [0, 1, 1],
+                "anti-ship": [1, 0, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
-                "ai-antisquadron": 0,
+                "ai-antisquadron": 1,
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
@@ -51,21 +51,21 @@
             "points": 8,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbX9Z.md.png"
+            "cardimage": "https://c.l3n.co/i/zaVF1x.md.png"
         },
-        "howlrunner-tie-fighter-squadron": {
+        "haor-chall-vulture-droid-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Howlrunner",
-            "unique-class": ["Howlrunner"],
+            "faction": "separatist",
+            "squadron_type": "vulture-droid-squadron",
+            "name": "Vulture-class Droid Fighter Squadron",
+            "ace-name": "Haor Chall Prototypes",
+            "unique-class": ["Haor Chall Prototypes"],
             "irregular": false,
             "hull": 3,
             "speed": 4,
@@ -75,13 +75,13 @@
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [0, 1, 1],
+                "anti-ship": [1, 0, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
-                "ai-antisquadron": 0,
+                "ai-antisquadron": 1,
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
@@ -99,26 +99,26 @@
                 "strategic": false,
                 "swarm": true
             },
-            "ability": "While another friendly squadron with SWARM at distance 1 is attacking a squadron, it may add 1 blue die to its attack pool.",
+            "ability": "Before an enemy ship or squadron at distance 1 moves, you may perform an attack against that ship or squadron even if you are engaged.",
             "unique": true,
             "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://b.l3n.co/i/zaVUpH.md.png"
         },
-        "mauler-mithel": {
+        "dfs-311-vulture-droid-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Mauler Mithel",
-            "unique-class": ["Mauler Mithel"],
+            "faction": "separatist",
+            "squadron_type": "vulture-droid-squadron",
+            "name": "Vulture-class Droid Fighter Squadron",
+            "ace-name": "DFS-311",
+            "unique-class": ["DFS-311"],
             "irregular": false,
             "hull": 3,
             "speed": 4,
@@ -128,13 +128,13 @@
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [1, 0, 1],
+                "anti-ship": [1, 0, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
-                "ai-antisquadron": 0,
+                "ai-antisquadron": 1,
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
@@ -143,7 +143,7 @@
                 "escort": false,
                 "grit": false,
                 "heavy": false,
-                "intel": false,
+                "intel": true,
                 "relay": 0,
                 "rogue": false,
                 "scout": false,
@@ -152,14 +152,12 @@
                 "strategic": false,
                 "swarm": true
             },
-            "ability": "After you move, each squadron engaged with you suffers 1 damage.",
+            "ability": "While you are defending, if the attack is obstructed, you may force the attacker to reroll 1 die of your choice.",
             "unique": true,
-            "points": 15,
+            "points": 18,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://c.l3n.co/i/zaVcF1.md.png"
         }
     }
 }
-
-

@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+      "admiral-ozzel": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Super Star Destroyer",
+        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["empire"],
+        "name": "Admiral Ozzel",
+        "unique-class": ["Admiral Ozzel"],
+        "ability": "At the start of the first round, you may execute a speed-1 maneuver.",
+        "unique": true,
+        "points": 2,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+}

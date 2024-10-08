@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+      "commander-gherant": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Super Star Destroyer",
+        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["empire"],
+        "name": "Commander Gherant",
+        "unique-class": ["Commander Gherant"],
+        "ability": "While you are defending, the attacker cannot resolve critical effects. After you perform an attack against a ship, discard this card.",
+        "unique": true,
+        "points": 2,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+  }

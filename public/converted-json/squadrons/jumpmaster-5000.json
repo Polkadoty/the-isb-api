@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "yv-666": {
+        "jumpmaster-5000": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,20 +9,20 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "yv-666",
-            "name": "YV-666",
+            "squadron_type": "jumpmaster-5000",
+            "name": "JumpMaster 5000",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
-            "hull": 7,
-            "speed": 2,
+            "hull": 4,
+            "speed": 4,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 2, 2],
+                "anti-squadron": [0, 2, 0],
                 "anti-ship": [0, 1, 0]
             },
             "abilities": {
@@ -35,25 +35,25 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
-                "heavy": true,
-                "intel": false,
+                "grit": false,
+                "heavy": false,
+                "intel": true,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
             "ability": "",
             "unique": false,
-            "points": 15,
+            "points": 12,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nmwi9z.md.png"
+            "cardimage": "https://a.l3n.co/i/nmbdsC.md.png"
         },
-        "bossk": {
+        "dengar-jumpmaster-5000": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,21 +62,21 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "yv-666",
-            "name": "Hound's Tooth",
-            "ace-name": "Bossk",
-            "unique-class": ["Hound's Tooth", "Bossk"],
+            "squadron_type": "jumpmaster-5000",
+            "name": "Punishing One",
+            "ace-name": "Dengar",
+            "unique-class": ["Dengar","Punishing One"],
             "irregular": true,
-            "hull": 7,
-            "speed": 3,
+            "hull": 4,
+            "speed": 4,
             "tokens": {
-                "def_scatter": 0,
+                "def_scatter": 1,
                 "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 0, 4],
-                "anti-ship": [0, 1, 1]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -88,23 +88,23 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
+                "grit": false,
                 "heavy": false,
-                "intel": false,
+                "intel": true,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
-            "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the :accuracy: icon to your attack pool.",
+            "ability": "While another friendly squadron is at distance 1-2, it has COUNTER 1 or increases its COUNTER value by 1.",
             "unique": true,
-            "points": 23,
+            "points": 20,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmXf8T.md.png"
+            "cardimage": "https://a.l3n.co/i/nmXw73.md.png"
         }
     }
 }

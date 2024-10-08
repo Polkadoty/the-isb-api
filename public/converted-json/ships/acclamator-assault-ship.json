@@ -1,0 +1,119 @@
+{
+    "ships": {
+        "acclamator-assault-ship": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "acclamator-assault-ship",
+            "size": "medium",
+            "hull": 7,
+            "speed": {
+                "1": [1],
+                "2": [1, 0],
+                "3": [0, 1, 0],
+                "4": []
+            },
+            "shields": {
+                "front": 4,
+                "rear": 2,
+                "left": 2,
+                "right": 2,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "",
+            "blueprint": "",
+            "models": {
+                "acclamator-i-class-assault-ship": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 9 Armada",
+                    "expansion": "Galactic Republic Fleet Starter (SWM34)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "acclamator-assault-ship",
+                    "name": "Acclamator I-class Assault Ship",
+                    "faction": "republic",
+                    "unique": false,
+                    "traits": ["Clone","Transport"],
+                    "points": 66,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 0,
+                        "def_salvo": 1
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "offensive-retro", "weapons-team-offensive-retro", "turbolaser", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 0, 2],
+                        "front": [3, 0, 2],
+                        "rear": [1, 0, 1],
+                        "left": [2, 0, 1],
+                        "right": [2, 0, 1],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://a.l3n.co/i/zxgI9Z.md.png"
+                },
+                "acclamator-ii-class-assault-ship": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 9 Armada",
+                    "expansion": "Galactic Republic Fleet Starter (SWM34)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "acclamator-assault-ship",
+                    "name": "Acclamator II-class Assault Ship",
+                    "faction": "republic",
+                    "unique": false,
+                    "traits": ["Clone","Bombard","Transport"],
+                    "points": 71,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 0,
+                        "def_salvo": 1
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "defensive-retro", "turbolaser", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 1, 1],
+                        "front": [3, 1, 2],
+                        "rear": [1, 1, 0],
+                        "left": [2, 0, 1],
+                        "right": [2, 0, 1],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://a.l3n.co/i/zxggGm.md.png"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "eclipse": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Super Star Destroyer",
+        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "_id": null,
+        "type": "title",
+        "faction": ["empire"],
+        "name": "Eclipse",
+        "unique-class": ["Eclipse"],
+        "ability": "When an enemy ship overlaps you, the enemy ship suffers a faceup damage card instead of a facedown damage card.",
+        "unique": true,
+        "points": 3,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": ["star-dreadnought"],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+  }
+  

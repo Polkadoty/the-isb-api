@@ -1,38 +1,38 @@
 {
     "squadrons": {
-        "tie-fighter-squadron": {
+        "droid-tri-fighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
+            "faction": "separatist",
+            "squadron_type": "droid-tri-fighter-squadron",
+            "name": "Droid Tri-Fighter Squadron",
             "ace-name": "",
             "unique-class": [""],
             "irregular": false,
             "hull": 3,
-            "speed": 4,
+            "speed": 5,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [1, 2, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
-                "ai-antisquadron": 0,
+                "ai-antisquadron": 1,
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
+                "counter": 2,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
@@ -48,44 +48,44 @@
             },
             "ability": "",
             "unique": false,
-            "points": 8,
+            "points": 11,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbX9Z.md.png"
+            "cardimage": "https://b.l3n.co/i/zaVNSe.md.png"
         },
-        "howlrunner-tie-fighter-squadron": {
+        "phlac-arphocc-droid-tri-fighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Howlrunner",
-            "unique-class": ["Howlrunner"],
+            "faction": "separatist",
+            "squadron_type": "droid-tri-fighter-squadron",
+            "name": "Droid Tri-Fighter Squadron",
+            "ace-name": "Phlac-Arphocc Prototype ",
+            "unique-class": ["Phlac-Arphocc Prototype"],
             "irregular": false,
             "hull": 3,
-            "speed": 4,
+            "speed": 5,
             "tokens": {
                 "def_scatter": 1,
                 "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [1, 1, 1],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
-                "ai-antisquadron": 0,
+                "ai-antisquadron": 1,
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
+                "counter": 2,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
@@ -99,46 +99,46 @@
                 "strategic": false,
                 "swarm": true
             },
-            "ability": "While another friendly squadron with SWARM at distance 1 is attacking a squadron, it may add 1 blue die to its attack pool.",
+            "ability": "After an enemy squadron ends its activation at distance 1, that squadron suffers 1 damage.",
             "unique": true,
-            "points": 16,
+            "points": 19,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://c.l3n.co/i/zaVxoZ.md.png"
         },
-        "mauler-mithel": {
+        "dis-t81-droid-tri-fighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Mauler Mithel",
-            "unique-class": ["Mauler Mithel"],
+            "faction": "separatist",
+            "squadron_type": "droid-tri-fighter-squadron",
+            "name": "Droid Tri-Fighter Squadron",
+            "ace-name": "DIS-T81 ",
+            "unique-class": ["DIS-T81"],
             "irregular": false,
             "hull": 3,
-            "speed": 4,
+            "speed": 5,
             "tokens": {
                 "def_scatter": 1,
                 "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [1, 1, 1],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
-                "ai-antisquadron": 0,
+                "ai-antisquadron": 1,
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
+                "counter": 2,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
@@ -148,18 +148,16 @@
                 "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": 0,
+                "snipe": 3,
                 "strategic": false,
                 "swarm": true
             },
-            "ability": "After you move, each squadron engaged with you suffers 1 damage.",
+            "ability": "Your attacks cannot be obstructed.",
             "unique": true,
-            "points": 15,
+            "points": 17,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://a.l3n.co/i/zaVb0c.md.png"
         }
     }
 }
-
-

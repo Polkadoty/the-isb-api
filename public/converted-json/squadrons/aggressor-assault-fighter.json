@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "yv-666": {
+        "aggressor-assault-fighter": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,21 +9,21 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "yv-666",
-            "name": "YV-666",
+            "squadron_type": "aggressor-assault-fighter",
+            "name": "Aggressor Assault Fighter",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
-            "hull": 7,
-            "speed": 2,
+            "hull": 5,
+            "speed": 3,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 2, 2],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -32,11 +32,11 @@
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
+                "counter": 1,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
-                "heavy": true,
+                "grit": false,
+                "heavy": false,
                 "intel": false,
                 "relay": 0,
                 "rogue": true,
@@ -48,12 +48,12 @@
             },
             "ability": "",
             "unique": false,
-            "points": 15,
+            "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nmwi9z.md.png"
+            "cardimage": "https://a.l3n.co/i/nmXLR9.md.png"
         },
-        "bossk": {
+        "IG-88": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,21 +62,21 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "yv-666",
-            "name": "Hound's Tooth",
-            "ace-name": "Bossk",
-            "unique-class": ["Hound's Tooth", "Bossk"],
+            "squadron_type": "aggressor-assault-fighter",
+            "name": "Aggressor Assault Fighter",
+            "ace-name": "IG-88",
+            "unique-class": ["IG-88","IG-2000"],
             "irregular": true,
-            "hull": 7,
-            "speed": 3,
+            "hull": 5,
+            "speed": 5,
             "tokens": {
-                "def_scatter": 0,
+                "def_scatter": 1,
                 "def_evade": 0,
-                "def_brace": 1
+                "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 0, 4],
-                "anti-ship": [0, 1, 1]
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -85,10 +85,10 @@
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 0,
+                "counter": 2,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
+                "grit": false,
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
@@ -99,12 +99,12 @@
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the :accuracy: icon to your attack pool.",
+            "ability": "You ignore the escort and counter keywords on enemy squadrons.",
             "unique": true,
-            "points": 23,
+            "points": 21,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmXf8T.md.png"
+            "cardimage": "https://b.l3n.co/i/nmbCTo.md.png"
         }
     }
 }

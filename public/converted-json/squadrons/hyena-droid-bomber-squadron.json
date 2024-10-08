@@ -1,20 +1,20 @@
 {
     "squadrons": {
-        "tie-fighter-squadron": {
+        "hyena-droid-bomber-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
+            "faction": "separatist",
+            "squadron_type": "hyena-droid-bomber-squadron",
+            "name": "Hyena-class Droid Bomber Squadron",
             "ace-name": "",
             "unique-class": [""],
             "irregular": false,
-            "hull": 3,
+            "hull": 4,
             "speed": 4,
             "tokens": {
                 "def_scatter": 0,
@@ -22,21 +22,21 @@
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [0, 2, 0],
+                "anti-ship": [1, 0, 0]
             },
             "abilities": {
                 "adept": 0,
-                "ai-battery": 0,
+                "ai-battery": 1,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
-                "heavy": false,
+                "heavy": true,
                 "intel": false,
                 "relay": 0,
                 "rogue": false,
@@ -44,30 +44,30 @@
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
             "ability": "",
             "unique": false,
-            "points": 8,
+            "points": 11,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbX9Z.md.png"
+            "cardimage": "https://b.l3n.co/i/zaVwBK.md.png"
         },
-        "howlrunner-tie-fighter-squadron": {
+        "baktoid-hyena-droid-bomber-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Howlrunner",
-            "unique-class": ["Howlrunner"],
+            "faction": "separatist",
+            "squadron_type": "hyena-droid-bomber-squadron",
+            "name": "Hyena-class Droid Bomber Squadron",
+            "ace-name": "Baktoid Prototypes",
+            "unique-class": ["Baktoid Prototypes"],
             "irregular": false,
-            "hull": 3,
+            "hull": 4,
             "speed": 4,
             "tokens": {
                 "def_scatter": 1,
@@ -75,21 +75,21 @@
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [0, 2, 0],
+                "anti-ship": [1, 0, 0]
             },
             "abilities": {
                 "adept": 0,
-                "ai-battery": 0,
+                "ai-battery": 1,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
-                "heavy": false,
+                "heavy": true,
                 "intel": false,
                 "relay": 0,
                 "rogue": false,
@@ -97,30 +97,30 @@
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
-            "ability": "While another friendly squadron with SWARM at distance 1 is attacking a squadron, it may add 1 blue die to its attack pool.",
+            "ability": "While attacking a ship, if another friendly squadron with bomber is at distance 1 of the defender, you may change 1 die to a face with a Accuracy icon.",
             "unique": true,
             "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://a.l3n.co/i/zaVYYM.md.png"
         },
-        "mauler-mithel": {
+        "dbs-404-hyena-droid-bomber-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Mauler Mithel",
-            "unique-class": ["Mauler Mithel"],
+            "faction": "separatist",
+            "squadron_type": "hyena-droid-bomber-squadron",
+            "name": "Hyena-class Droid Bomber Squadron",
+            "ace-name": "DBS-404",
+            "unique-class": ["DBS-404"],
             "irregular": false,
-            "hull": 3,
+            "hull": 4,
             "speed": 4,
             "tokens": {
                 "def_scatter": 1,
@@ -128,21 +128,21 @@
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [0, 2, 0],
+                "anti-ship": [1, 0, 0]
             },
             "abilities": {
                 "adept": 0,
-                "ai-battery": 0,
+                "ai-battery": 1,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
-                "heavy": false,
+                "heavy": true,
                 "intel": false,
                 "relay": 0,
                 "rogue": false,
@@ -150,16 +150,14 @@
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
-            "ability": "After you move, each squadron engaged with you suffers 1 damage.",
+            "ability": "While attacking, if you are touching the defender, you may suffer 1 damage to add 1 die to your attack pool of a color that is already in your attack pool.",
             "unique": true,
-            "points": 15,
+            "points": 17,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://a.l3n.co/i/zaVDCa.md.png"
         }
     }
 }
-
-

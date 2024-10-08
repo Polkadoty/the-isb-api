@@ -1,110 +1,110 @@
 {
     "squadrons": {
-        "jumpmaster-5000": {
+        "arc-170-starfighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 9 Armada",
+            "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "jumpmaster-5000",
-            "name": "JumpMaster 5000",
+            "faction": "republic",
+            "squadron_type": "arc-170-starfighter-squadron",
+            "name": "ARC-170 Starfighter Squadron",
             "ace-name": "",
             "unique-class": [""],
-            "irregular": true,
-            "hull": 4,
-            "speed": 4,
+            "irregular": false,
+            "hull": 7,
+            "speed": 2,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [1, 2, 0],
+                "anti-ship": [0, 2, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
-                "counter": 0,
+                "counter": 1,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
                 "heavy": false,
-                "intel": true,
+                "intel": false,
                 "relay": 0,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
             "ability": "",
             "unique": false,
-            "points": 12,
+            "points": 15,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmbdsC.md.png"
+            "cardimage": "https://c.l3n.co/i/nm5xqv.md.png"
         },
-        "dengar-jumpmaster-5000": {
+        "oddball-arc170-starfighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 9 Armada",
+            "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "jumpmaster-5000",
-            "name": "Punishing One",
-            "ace-name": "Dengar",
-            "unique-class": ["Punishing One", "Dengar"],
-            "irregular": true,
-            "hull": 4,
-            "speed": 4,
+            "faction": "republic",
+            "squadron_type": "arc-170-starfighter-squadron",
+            "name": "ARC-170 Starfighter Squadron",
+            "ace-name": "Odd Ball",
+            "unique-class": ["Odd Ball"],
+            "irregular": false,
+            "hull": 7,
+            "speed": 2,
             "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
+                "def_scatter": 0,
+                "def_evade": 1,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 0, 1]
+                "anti-squadron": [0, 2, 1],
+                "anti-ship": [0, 2, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
-                "counter": 0,
+                "counter": 1,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
                 "heavy": false,
-                "intel": true,
+                "intel": false,
                 "relay": 0,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
-            "ability": "While another friendly squadron is at distance 1-2, it has COUNTER 1 or increases its COUNTER value by 1.",
+            "ability": "While attacking, if you moved during this activation, you may reroll up to 2 dice.",
             "unique": true,
-            "points": 20,
+            "points": 23,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmXw73.md.png"
+            "cardimage": "https://b.l3n.co/i/nmGifF.md.png"
         }
     }
 }

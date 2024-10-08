@@ -1,20 +1,20 @@
 {
     "ships": {
-        "cr90-corvette": {
-            "_id": null,
+        "raider-corvette": {
+            "UID": "[generate]",
             "type": "chassis",
-            "chassis_name": "cr90-corvette",
+            "chassis_name": "raider-corvette",
             "size": "small",
             "hull": 4,
             "speed": {
                 "1": [2],
-                "2": [1, 2],
-                "3": [0, 1, 2],
-                "4": [0, 1, 1, 2]
+                "2": [2, 2],
+                "3": [0, 1, 1],
+                "4": [0, 1, 1, 1]
             },
             "shields": {
                 "front": 2,
-                "rear": 1,
+                "rear": 2,
                 "left": 2,
                 "right": 2,
                 "left_aux": 0,
@@ -24,32 +24,32 @@
                 "frontoffset": 0,
                 "centeroffset": 0,
                 "rearoffset": 0,
-                "frontangle": 90,
+                "frontangle": 0,
                 "centerangle": 0,
-                "rearangle": 90
+                "rearangle": 0
             },
-            "silhouette": "",
-            "blueprint": "",
+            "silhouette": "[]",
+            "blueprint": "[]",
             "models": {
-                "cr90-corvette-a": {
+                "raider-i-class-corvette": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
-                    "release": "Wave 0 Armada",
-                    "expansion": "Armada Core Set (SWM01)",
+                    "release": "Wave 2 Armada",
+                    "expansion": "Imperial Raider Expansion Pack (SWM15)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "cr90-corvette",
-                    "name": "CR90 Corvette A",
-                    "faction": "rebel",
+                    "chassis": "raider-corvette",
+                    "name": "Raider I-class Corvette",
+                    "faction": "empire",
                     "unique": false,
-                    "traits": [],
+                    "traits": [""],
                     "points": 44,
                     "tokens": {
                         "def_scatter": 0,
                         "def_evade": 2,
-                        "def_brace": 0,
-                        "def_redirect": 1,
+                        "def_brace": 1,
+                        "def_redirect": 0,
                         "def_contain": 0,
                         "def_salvo": 0
                     },
@@ -58,39 +58,39 @@
                         "squadron": 1,
                         "engineer": 2
                     },
-                    "upgrades": ["commander", "officer", "support-team", "defensive-retro", "turbolaser", "title"],
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "ordnance", "title"],
                     "armament": {
-                        "asa": [0, 1, 0],
-                        "front": [2, 1, 0],
-                        "rear": [1, 0, 0],
-                        "left": [1, 1, 0],
-                        "right": [1, 1, 0],
+                        "asa": [0, 0, 2],
+                        "front": [0, 2, 2],
+                        "rear": [0, 1, 0],
+                        "left": [0, 1, 1],
+                        "right": [0, 1, 1],
                         "left_aux": [0, 0, 0],
                         "right_aux": [0, 0, 0],
                         "special": [0, 0, 0]
                     },
-                    "artwork": "[link to image]",
-                    "cardimage": "https://b.l3n.co/i/zGzoi7.md.png"
+                    "artwork": "",
+                    "cardimage": ""
                 },
-                "cr90-corvette-b": {
+                "raider-ii-class-corvette": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
-                    "release": "Wave 0 Armada",
-                    "expansion": "Armada Core Set (SWM01)",
+                    "release": "Wave 2 Armada",
+                    "expansion": "Imperial Raider Expansion Pack (SWM15)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "cr90-corvette",
-                    "name": "CR90 Corvette B",
-                    "faction": "rebel",
+                    "chassis": "raider-corvette",
+                    "name": "Raider II-class Corvette",
+                    "faction": "empire",
                     "unique": false,
-                    "traits": [],
-                    "points": 39,
+                    "traits": [""],
+                    "points": 48,
                     "tokens": {
                         "def_scatter": 0,
                         "def_evade": 2,
-                        "def_brace": 0,
-                        "def_redirect": 1,
+                        "def_brace": 1,
+                        "def_redirect": 0,
                         "def_contain": 0,
                         "def_salvo": 0
                     },
@@ -99,19 +99,19 @@
                         "squadron": 1,
                         "engineer": 2
                     },
-                    "upgrades": ["commander", "officer", "support-team", "defensive-retro", "ion-cannon", "title"],
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "title"],
                     "armament": {
-                        "asa": [0, 1, 0],
-                        "front": [0, 3, 0],
+                        "asa": [0, 1, 1],
+                        "front": [0, 3, 1],
                         "rear": [0, 1, 0],
-                        "left": [0, 2, 0],
-                        "right": [0, 2, 0],
+                        "left": [0, 1, 1],
+                        "right": [0, 1, 1],
                         "left_aux": [0, 0, 0],
                         "right_aux": [0, 0, 0],
                         "special": [0, 0, 0]
                     },
-                    "artwork": "[link to image]",
-                    "cardimage": "https://a.l3n.co/i/zGSitK.md.png"
+                    "artwork": "",
+                    "cardimage": ""
                 }
             }
         }

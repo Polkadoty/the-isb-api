@@ -1,20 +1,20 @@
 {
     "squadrons": {
-        "tie-fighter-squadron": {
+        "mandalorian-gauntlet-fighter": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
+            "squadron_type": "mandalorian-gauntlet-fighter",
+            "name": "Mandalorian Gauntlet Fighter",
             "ace-name": "",
             "unique-class": [""],
-            "irregular": false,
-            "hull": 3,
+            "irregular": true,
+            "hull": 7,
             "speed": 4,
             "tokens": {
                 "def_scatter": 0,
@@ -22,14 +22,14 @@
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [0, 2, 1],
+                "anti-ship": [0, 2, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
-                "assault": false,
+                "assault": true,
                 "bomber": false,
                 "cloak": false,
                 "counter": 0,
@@ -39,50 +39,50 @@
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
-                "rogue": false,
+                "rogue": true,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
             "ability": "",
             "unique": false,
-            "points": 8,
+            "points": 20,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbX9Z.md.png"
+            "cardimage": "https://c.l3n.co/i/nmbrmc.md.png"
         },
-        "howlrunner-tie-fighter-squadron": {
+        "gar-saxon-mandalorian-gauntlet-fighter": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Howlrunner",
-            "unique-class": ["Howlrunner"],
-            "irregular": false,
-            "hull": 3,
+            "squadron_type": "mandalorian-gauntlet-fighter",
+            "name": "Mandalorian Gauntlet Fighter",
+            "ace-name": "Gar Saxon",
+            "unique-class": ["Gar Saxon"],
+            "irregular": true,
+            "hull": 7,
             "speed": 4,
             "tokens": {
-                "def_scatter": 1,
+                "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [1, 2, 0],
+                "anti-ship": [0, 1, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
-                "assault": false,
+                "assault": true,
                 "bomber": false,
                 "cloak": false,
                 "counter": 0,
@@ -92,55 +92,55 @@
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
-                "rogue": false,
+                "rogue": true,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
-            "ability": "While another friendly squadron with SWARM at distance 1 is attacking a squadron, it may add 1 blue die to its attack pool.",
+            "ability": "When an enemy squadron with INTEL or RELAY at distance 1 activates, it suffers 1 damage.",
             "unique": true,
-            "points": 16,
+            "points": 23,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://b.l3n.co/i/nmbWye.md.png"
         },
-        "mauler-mithel": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
+        "fenn-rau-mandalorian-gauntlet-fighter": {
+            "author": "Atomic Mass Games",
+            "alias": "AMG",
+            "team": "AMG",
+            "release": "Rapid Reinforcements",
+            "expansion": "Rapid Reinforcements II (RR2)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "tie-fighter-squadron",
-            "name": "TIE Fighter Squadron",
-            "ace-name": "Mauler Mithel",
-            "unique-class": ["Mauler Mithel"],
-            "irregular": false,
-            "hull": 3,
+            "faction": "rebel",
+            "squadron_type": "mandalorian-gauntlet-fighter",
+            "name": "Mandalorian Gauntlet Fighter",
+            "ace-name": "Fenn Rau",
+            "unique-class": ["Fenn Rau"],
+            "irregular": true,
+            "hull": 7,
             "speed": 4,
             "tokens": {
-                "def_scatter": 1,
+                "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 1, 0]
+                "anti-squadron": [1, 2, 0],
+                "anti-ship": [0, 1, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
-                "assault": false,
+                "assault": true,
                 "bomber": false,
                 "cloak": false,
                 "counter": 0,
                 "dodge": 0,
-                "escort": false,
+                "escort": true,
                 "grit": false,
                 "heavy": false,
                 "intel": false,
@@ -150,16 +150,14 @@
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": true
+                "swarm": false
             },
-            "ability": "After you move, each squadron engaged with you suffers 1 damage.",
+            "ability": "When you are chosen to activate by a Squadron command, after the activation is resolved, choose up to 2 non-unique squadrons at Distance 1. The chosen squads may activate as if they were chosen by the Squadron command.",
             "unique": true,
-            "points": 15,
+            "points": 24,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://c.l3n.co/i/nmy45P.md.png"
         }
     }
 }
-
-
