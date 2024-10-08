@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "sw-7-ion-batteries": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 2 Armada",
+        "expansion": "Home One Expansion Pack (SWM13)",
+        "_id": null,
+        "type": "ion-cannon",
+        "faction": [""],
+        "name": "SW-7 Ion Batteries",
+        "unique-class": [""],
+        "ability": "While attacking a ship, each of your unspent blue :accuracy: icons adds 1 damage to the damage total.",
+        "unique": false,
+        "points": 5,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
