@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "aspiration": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Profundity Expansion Pack (SWM30)",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Aspiration",
+            "unique-class": ["Aspiration"],
+            "ability": "When you deploy this ship, you may move shields to up to 2 of your hull zones from your other hull zones. If you do, the number of shields in a zone cannot exceed a maximum of \"6\". You cannot recover shields while any zone is greater than its maximum shield value.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "mc75-cruiser",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

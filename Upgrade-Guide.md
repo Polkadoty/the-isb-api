@@ -100,8 +100,14 @@ Add any restrictions for the upgrade:
     "flagship": boolean
 },
 ```
+- `traits`: Set the specific trait that is required to be present on a ship for this upgrade to be equipped.
+- `size`: Set the allowed ship sizes; for example if the upgrade is "Large only", put large here.
+- `disqual_upgrades`: If this upgrade can not be present if another specific upgrade exists put the excluded upgrade type here. Example: Liberator is not allowed if Fleet Command is present, so put "fleet-com" here.
+- `disable_upgrades`: If this upgrade disables certain other upgrades, add them here. Example: Radiant VII can not equip turbolaser or ordnance upgrades, so those two need to be added.
+- `enable_upgrades`: If an upgrade enables another upgrade type, put the additional upgrade type here.
+- `flagship`: Set to true if the upgrade can only be used on a flagship. Commanders would set this to true.
 
-Fill in the arrays with appropriate values, or leave them empty if there are no restrictions. Set `flagship` to true if the upgrade can only be used on a flagship. Commanders would set `flagship` to true.
+Fill in the arrays with appropriate values, or leave them empty if there are no restrictions. 
 
 ## 5. Start Command
 
@@ -114,6 +120,7 @@ If the upgrade provides a starting command, add this information:
     "start_amount": number
 },
 ```
+If the upgrade has a starting command bar on the left side, include the type and amount. Dial or tokens look similar on the card, dials have a sort of black background behind them while tokens do not. If unsure on which is which check the ability description. If none exist, leave set "type": "".
 
 If the upgrade doesn't provide a starting command, use empty strings for `type` and `start_icon`, and 0 for `start_amount`.
 
@@ -128,7 +135,8 @@ If the upgrade has an exhaust ability, add this information:
     "ready_amount": number
 },
 ```
-
+If the upgrade has the spiral arrow recurring icon, set this to recur.
+If the upgrade has the single-arrow recur icon, set this to recur and include the ready cost token type and amount.
 If the upgrade doesn't have an exhaust ability, use empty strings for `type` and `ready_token`, and 0 for `ready_amount`.
 
 ## 7. Images

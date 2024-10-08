@@ -1,24 +1,24 @@
 {
     "upgrades": {
-      "emperor-palpatine": {
+      "ordnance-pods": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Wave 7 Armada",
+        "expansion": "Profundity Expansion Pack (SWM30)",
         "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Emperor Palpatine",
-        "unique-class": ["Emperor Palpatine"],
-        "ability": "When an enemy ship or unique squadron declares you as the target of an attack, it must spend 1 of its defense tokens (if able).",
-        "unique": true,
+        "type": "ordnance",
+        "faction": [""],
+        "name": "Ordnance Pods",
+        "unique-class": [""],
+        "ability": "Medium or large ship only.\nAt the end of your Attack Step, you may exhaust this card and choose 1 of your hull zones. Then perform an attack from that hull zone with an anti-squadron armament of 1 black die, even if you have already attacked from that zone this round.",
+        "unique": false,
         "points": 3,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
           "traits": [""],
-          "size": [""],
+          "size": ["medium","large"],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
           "flagship": false
@@ -37,4 +37,5 @@
         "cardimage": ""
       }
     }
-}
+  }
+  
