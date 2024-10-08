@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "assault-proton-torpedoes": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 2 Armada",
+        "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+        "_id": null,
+        "type": "ordnance",
+        "faction": [""],
+        "name": "Assault Proton Torpedoes",
+        "unique-class": [""],
+        "ability": "Black :critical: : Exhaust this card to deal 1 faceup damage card to the defender.",
+        "unique": false,
+        "points": 4,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "recur",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
