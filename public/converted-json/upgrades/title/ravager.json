@@ -1,6 +1,6 @@
 {
     "upgrades": {
-      "executor": {
+      "ravager": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
@@ -9,11 +9,11 @@
         "_id": null,
         "type": "title",
         "faction": ["empire"],
-        "name": "Executor",
-        "unique-class": ["Executor"],
-        "ability": "You can be assigned any number of command tokens of any types, instead of a number of command tokens equal to your command value.",
+        "name": "Ravager",
+        "unique-class": ["Ravager"],
+        "ability": ":confire:: Your :confire: tokens can either reroll 1 attack die or add 1 die to your attack pool. If you add a die, that die must be of a color already in your attack pool.",
         "unique": true,
-        "points": 2,
+        "points": 4,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
