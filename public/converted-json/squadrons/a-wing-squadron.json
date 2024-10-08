@@ -1,38 +1,38 @@
 {
     "squadrons": {
-        "arc170-starfighter-squadron": {
+        "a-wing-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+            "release": "Wave 1 Armada",
+            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
             "_id": null,
             "type": "squadron",
-            "faction": "republic",
-            "squadron_type": "arc170-starfighter-squadron",
-            "name": "ARC-170 Starfighter Squadron",
+            "faction": "rebel",
+            "squadron_type": "a-wing-squadron",
+            "name": "A-Wing Squadron",
             "ace-name": "",
             "unique-class": [""],
             "irregular": false,
-            "hull": 7,
-            "speed": 2,
+            "hull": 4,
+            "speed": 5,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [1, 2, 0],
-                "anti-ship": [0, 2, 0]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": true,
+                "bomber": false,
                 "cloak": false,
-                "counter": 1,
+                "counter": 2,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
@@ -48,44 +48,44 @@
             },
             "ability": "",
             "unique": false,
-            "points": 15,
+            "points": 11,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nmxFQZ.md.png"
         },
-        "oddball-arc170-starfighter-squadron": {
+        "tycho-celchu-a-wing-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+            "release": "Wave 1 Armada",
+            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
             "_id": null,
             "type": "squadron",
-            "faction": "republic",
-            "squadron_type": "arc170-starfighter-squadron",
-            "name": "ARC-170 Starfighter Squadron",
-            "ace-name": "Odd Ball",
-            "unique-class": ["Odd Ball"],
+            "faction": "rebel",
+            "squadron_type": "a-wing-squadron",
+            "name": "A-Wing Squadron",
+            "ace-name": "Tycho Celchu",
+            "unique-class": ["Tycho Celchu"],
             "irregular": false,
-            "hull": 7,
-            "speed": 2,
+            "hull": 4,
+            "speed": 5,
             "tokens": {
-                "def_scatter": 0,
-                "def_evade": 1,
+                "def_scatter": 1,
+                "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 2, 1],
-                "anti-ship": [0, 2, 0]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": true,
+                "bomber": false,
                 "cloak": false,
-                "counter": 1,
+                "counter": 2,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
@@ -99,12 +99,12 @@
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "While attacking, if you moved during this activation, you may reroll up to 2 dice.",
+            "ability": "You are not prevented from moving or attacking ships while you are engaged.",
             "unique": true,
-            "points": 23,
+            "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nm5pMq.md.png"
         }
     }
 }

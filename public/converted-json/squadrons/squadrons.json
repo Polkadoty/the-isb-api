@@ -1,12 +1,1210 @@
 {
   "squadrons": {
+    "aggressor-assault-fighter": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "d5a94340-92fe-40f1-a290-6d4d404d65ed",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "aggressor-assault-fighter",
+      "name": "Aggressor Assault Fighter",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nmXLR9.md.png"
+    },
+    "IG-88": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "8a3d8692-2da1-4cc0-8f3a-a9b82cecc97d",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "aggressor-assault-fighter",
+      "name": "Aggressor Assault Fighter",
+      "ace-name": "IG-88",
+      "unique-class": [
+        "IG-88",
+        "IG-2000"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "You ignore the escort and counter keywords on enemy squadrons.",
+      "unique": true,
+      "points": 21,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nmbCTo.md.png"
+    },
+    "arc-170-starfighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "b2251680-ee89-4250-96d1-9b0cd0cc8885",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "arc-170-starfighter-squadron",
+      "name": "ARC-170 Starfighter Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nm5xqv.md.png"
+    },
+    "oddball-arc170-starfighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "5e90d101-8026-4ad8-9ebd-305a43e21d41",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "arc-170-starfighter-squadron",
+      "name": "ARC-170 Starfighter Squadron",
+      "ace-name": "Odd Ball",
+      "unique-class": [
+        "Odd Ball"
+      ],
+      "irregular": false,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, if you moved during this activation, you may reroll up to 2 dice.",
+      "unique": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nmGifF.md.png"
+    },
+    "belbullab-22-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "b29c4266-531f-40c5-a3e7-bb483a2c57d9",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "belbullab-22-squadron",
+      "name": "Belbullab-22 Starfighter Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/zaVu2Q.md.png"
+    },
+    "general-grievous-belbullab-22-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "01d3b82f-7c06-43bf-b6da-b14211e17a96",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "belbullab-22-squadron",
+      "name": "Belbullab-22 Starfighter Squadron",
+      "ace-name": "General Grievous",
+      "unique-class": [
+        "General Grievous"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 2,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a ship or squadron with no readied defense tokens, each of your Crit adds 1 damage to the total.",
+      "unique": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/zaVPxk.md.png"
+    },
+    "watt-tambor-belbullab-22-squadron": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements",
+      "expansion": "Rapid Reinforcements II (RR2)",
+      "_id": "eaeda1f4-ef8b-425a-a40a-f7144ccb9cb0",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "belbullab-22-squadron",
+      "name": "Belbullab-22 Starfighter Squadron",
+      "ace-name": "Watt Tambor",
+      "unique-class": [
+        "Watt Tambor"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/zaVMBA.md.png"
+    },
+    "btl-b-y-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "96f244c0-c512-4ef3-ab50-2b7b5a2bdb6d",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "btl-b-y-wing-squadron",
+      "name": "BTL-B Y-wing Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 10,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nm55h5.md.png"
+    },
+    "anakin-btl-b-y-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "6ee33689-c609-4244-98b0-866763841fac",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "btl-b-y-wing-squadron",
+      "name": "BTL-B Y-wing Squadron",
+      "ace-name": "Anakin Skywalker",
+      "unique-class": [
+        "Anakin Skywalker"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "During your activation, you may spend 1 defense token to ignore engagement until the end of your activation.",
+      "unique": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nm5w02.md.png"
+    },
+    "matchstick-btl-b-y-wing-squadron": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements",
+      "expansion": "Rapid Reinforcements II (RR2)",
+      "_id": "0d633a0d-70fe-47b8-8fff-816aaf755bf3",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "btl-b-y-wing-squadron",
+      "name": "BTL-B Y-wing Squadron",
+      "ace-name": "Matchstick",
+      "unique-class": [
+        "Matchstick"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While you are unengaged, friendly squadrons with Bomber at Distance 1 gain Rogue.",
+      "unique": true,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nmGWpr.md.png"
+    },
+    "delta-7-aethersprite-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "4105973e-33aa-4ef0-985d-6f25139f01b6",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 1,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nm5aCz.md.png"
+    },
+    "ahsoka-delta7-aethersprite-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "d8dd6b8f-5e23-4f38-aecb-61c30f3880c7",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "ace-name": "Ahsoka Tano",
+      "unique-class": [
+        "Ahsoka Tano"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 1,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After you move, you may choose another friendly squadron at distance 1. That squadron performs an attack against an enemy squadron at distance 1 with an anti-squadron armament of 2 blue dice.",
+      "unique": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nm5cKo.md.png"
+    },
+    "kit-fisto-delta-7-aethersprite-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "ee6c8392-35a9-4411-b9a6-2cf827d61078",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "ace-name": "Kit Fisto",
+      "unique-class": [
+        "Kit Fisto"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you spend a defense token, you may discard it. If you do, reduce the total damage by 3 instead of resolving that token's effect.",
+      "unique": true,
+      "points": 26,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nmG2wb.md.png"
+    },
+    "luminara-delta-7-aethersprite-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "0f824e48-57a4-4f1e-99a0-d2b2c3a1747a",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "ace-name": "Luminara Unduli",
+      "unique-class": [
+        "Luminara Unduli"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 1,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While an enemy squadron at distance 1 is attacking an non-unique, friendly squadron, the attack is treated as obstructed.",
+      "unique": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nmGA17.md.png"
+    },
+    "plo-koon-delta-7-aethersprite-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "085093b4-f176-4715-baff-a826c7e995ff",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "ace-name": "Plo Koon",
+      "unique-class": [
+        "Plo Koon"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Non-unique, friendly squadrons without counter at distance 1 gain counter 1.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nmG003.md.png"
+    },
+    "anakin-delta-7-aethersprite-squadron": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements",
+      "expansion": "Rapid Reinforcements I (RR1)",
+      "_id": "1d6e7f01-977e-4b40-896c-24d0ca3978b5",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "ace-name": "Anakin Skywalker",
+      "unique-class": [
+        "Anakin Skywalker"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a squadron during your activation, at the end of the Resolve Damage step, you may choose up to 2 enemy squadrons at distance 1 of the defender. If the defender was damaged, the chosen squadrons suffer 1 damage.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nm5Xf9.md.png"
+    },
+    "droid-tri-fighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "1631f6b1-e864-4d77-b879-c01485d6b59c",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "droid-tri-fighter-squadron",
+      "name": "Droid Tri-Fighter Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": false,
+      "points": 11,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/zaVNSe.md.png"
+    },
+    "phlac-arphocc-droid-tri-fighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "33e3df77-e476-4078-bdac-8ea243e406de",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "droid-tri-fighter-squadron",
+      "name": "Droid Tri-Fighter Squadron",
+      "ace-name": "Phlac-Arphocc Prototype ",
+      "unique-class": [
+        "Phlac-Arphocc Prototype"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "After an enemy squadron ends its activation at distance 1, that squadron suffers 1 damage.",
+      "unique": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/zaVxoZ.md.png"
+    },
+    "dis-t81-droid-tri-fighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "1becc0a9-be71-4f1c-bad9-520a43ecd79b",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "droid-tri-fighter-squadron",
+      "name": "Droid Tri-Fighter Squadron",
+      "ace-name": "DIS-T81 ",
+      "unique-class": [
+        "DIS-T81"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 3,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "Your attacks cannot be obstructed.",
+      "unique": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/zaVb0c.md.png"
+    },
     "firespray-31": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "925154f5-77ae-4714-93cf-d209002f850e",
+      "_id": "3897456f-f7e1-4df7-ac62-815a02ace85f",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
@@ -69,7 +1267,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "803d7043-8749-4e04-9b1a-b354a6c0c7fa",
+      "_id": "bbbd63c6-4a6c-4a57-9683-6bd1ebb93990",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
@@ -127,23 +1325,150 @@
       "artwork": "",
       "cardimage": "https://b.l3n.co/i/nmXDB5.md.png"
     },
-    "gauntlet": {
+    "hwk-290": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
-      "release": "Wave 7 Armada",
-      "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "d5447ee0-6e8b-444e-90b5-f6084a13340a",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "fb01c6c2-cd85-4862-a012-2b068e39a8f5",
       "type": "squadron",
-      "faction": "empire",
-      "squadron_type": "gauntlet",
-      "name": "Mandalorian Gauntlet Fighter",
+      "faction": "rebel",
+      "squadron_type": "hwk-290",
+      "name": "HWK-290",
       "ace-name": "",
       "unique-class": [
         ""
       ],
       "irregular": true,
-      "hull": 7,
+      "hull": 4,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": false,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nmywGM.md.png"
+    },
+    "jan-ors": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "6fb8b7f0-6cb2-45ca-9786-620d412cd1e5",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "hwk-290",
+      "name": "Moldy Crow",
+      "ace-name": "Jan Ors",
+      "unique-class": [
+        "Jan Ors",
+        "Moldy Crow"
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": false,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While a friendly squadron at distance 1-2 is defending, it can spend your defense tokens.",
+      "unique": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nmy5Ha.md.png"
+    },
+    "hyena-droid-bomber-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "7e60360b-fe3c-4959-b5d4-2c56247f985c",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "hyena-droid-bomber-squadron",
+      "name": "Hyena-class Droid Bomber Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
       "speed": 4,
       "tokens": {
         "def_scatter": 0,
@@ -154,29 +1479,29 @@
         "anti-squadron": [
           0,
           2,
-          1
+          0
         ],
         "anti-ship": [
+          1,
           0,
-          2,
           0
         ]
       },
       "abilities": {
         "adept": 0,
-        "ai-battery": 0,
+        "ai-battery": 1,
         "ai-antisquadron": 0,
-        "assault": true,
-        "bomber": false,
+        "assault": false,
+        "bomber": true,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
         "escort": false,
         "grit": false,
-        "heavy": false,
+        "heavy": true,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 0,
@@ -185,73 +1510,136 @@
       },
       "ability": "",
       "unique": false,
-      "points": 20,
+      "points": 11,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://c.l3n.co/i/nmbrmc.md.png"
+      "cardimage": "https://b.l3n.co/i/zaVwBK.md.png"
     },
-    "gar-saxon": {
+    "baktoid-hyena-droid-bomber-squadron": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
-      "release": "Wave 7 Armada",
-      "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "b33340ed-5f3b-4371-88cf-0da26bd90923",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "b1f33937-af49-45ce-a6e7-6c70ebc552ca",
       "type": "squadron",
-      "faction": "empire",
-      "squadron_type": "gauntlet",
-      "name": "Mandalorian Gauntlet Fighter",
-      "ace-name": "Gar Saxon",
+      "faction": "separatist",
+      "squadron_type": "hyena-droid-bomber-squadron",
+      "name": "Hyena-class Droid Bomber Squadron",
+      "ace-name": "Baktoid Prototypes",
       "unique-class": [
-        "Gar Saxon"
+        "Baktoid Prototypes"
       ],
-      "irregular": true,
-      "hull": 7,
+      "irregular": false,
+      "hull": 4,
       "speed": 4,
       "tokens": {
-        "def_scatter": 0,
+        "def_scatter": 1,
         "def_evade": 0,
         "def_brace": 1
       },
       "armament": {
         "anti-squadron": [
-          1,
+          0,
           2,
           0
         ],
         "anti-ship": [
-          0,
           1,
-          1
+          0,
+          0
         ]
       },
       "abilities": {
         "adept": 0,
-        "ai-battery": 0,
+        "ai-battery": 1,
         "ai-antisquadron": 0,
-        "assault": true,
-        "bomber": false,
+        "assault": false,
+        "bomber": true,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
         "escort": false,
         "grit": false,
-        "heavy": false,
+        "heavy": true,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 0,
         "strategic": false,
         "swarm": false
       },
-      "ability": "When an enemy squadron with INTEL or RELAY at distance 1 activates, it suffers 1 damage.",
+      "ability": "While attacking a ship, if another friendly squadron with bomber is at distance 1 of the defender, you may change 1 die to a face with a Accuracy icon.",
       "unique": true,
-      "points": 23,
+      "points": 16,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://b.l3n.co/i/nmbWye.md.png"
+      "cardimage": "https://a.l3n.co/i/zaVYYM.md.png"
+    },
+    "dbs-404-hyena-droid-bomber-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "3673a44c-12ea-47d5-b498-798633a3ab2e",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "hyena-droid-bomber-squadron",
+      "name": "Hyena-class Droid Bomber Squadron",
+      "ace-name": "DBS-404",
+      "unique-class": [
+        "DBS-404"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 1,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, if you are touching the defender, you may suffer 1 damage to add 1 die to your attack pool of a color that is already in your attack pool.",
+      "unique": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/zaVDCa.md.png"
     },
     "jumpmaster-5000": {
       "author": "Fantasy Flight Games",
@@ -259,7 +1647,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "26ae2891-4af0-4d7b-a8eb-9e24a1931920",
+      "_id": "40e77cd3-e6a8-4042-9715-97da0a87ddbd",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "jumpmaster-5000",
@@ -322,15 +1710,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "bb6fa323-0878-4e96-9a72-3a4f128ac6b4",
+      "_id": "2fc0adc5-6f21-4726-93ba-ddd6b0945e81",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "jumpmaster-5000",
       "name": "Punishing One",
       "ace-name": "Dengar",
       "unique-class": [
-        "Punishing One",
-        "Dengar"
+        "Dengar",
+        "Punishing One"
       ],
       "irregular": true,
       "hull": 4,
@@ -380,16 +1768,332 @@
       "artwork": "",
       "cardimage": "https://a.l3n.co/i/nmXw73.md.png"
     },
-    "tie-fighter": {
+    "mandalorian-gauntlet-fighter": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 7 Armada",
+      "expansion": "Chimaera Expansion Pack (SWM29)",
+      "_id": "52af2e0f-2ba4-4b71-85bc-86adb045d68c",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nmbrmc.md.png"
+    },
+    "gar-saxon-mandalorian-gauntlet-fighter": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 7 Armada",
+      "expansion": "Chimaera Expansion Pack (SWM29)",
+      "_id": "5967816e-2536-49ec-b888-0cdabbb3ae49",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "ace-name": "Gar Saxon",
+      "unique-class": [
+        "Gar Saxon"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When an enemy squadron with INTEL or RELAY at distance 1 activates, it suffers 1 damage.",
+      "unique": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nmbWye.md.png"
+    },
+    "fenn-rau-mandalorian-gauntlet-fighter": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements",
+      "expansion": "Rapid Reinforcements II (RR2)",
+      "_id": "05f97aa0-4c5f-4b17-994c-0fbae06b4a72",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "ace-name": "Fenn Rau",
+      "unique-class": [
+        "Fenn Rau"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you are chosen to activate by a Squadron command, after the activation is resolved, choose up to 2 non-unique squadrons at Distance 1. The chosen squads may activate as if they were chosen by the Squadron command.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nmy45P.md.png"
+    },
+    "scurrg-h-6-bomber": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "d224f376-2320-476f-a2b2-74a50b35f58c",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "scurrg-h-6-bomber",
+      "name": "Scurrg H-6 Bomber",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": false,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nm5Btr.md.png"
+    },
+    "nym-scurrg-h6-bomber": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "8cb2cc13-65eb-445d-b4b1-3c3fb25b88f7",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "scurrg-h-6-bomber",
+      "name": "Havoc",
+      "ace-name": "Nym",
+      "unique-class": [
+        "Nym",
+        "Havoc"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": false,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Blue :crit: : If the defender is a ship, you may choose and discard 1 of its defense tokens.",
+      "unique": true,
+      "points": 21,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nm59lb.md.png"
+    },
+    "tie-fighter-squadron": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "95698603-4909-447c-b023-197fe55d3ebb",
+      "_id": "dfcfee18-ab5f-44de-ae40-1a4a19ab2726",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "tie-fighter",
+      "squadron_type": "tie-fighter-squadron",
       "name": "TIE Fighter Squadron",
       "ace-name": "",
       "unique-class": [
@@ -443,16 +2147,16 @@
       "artwork": "",
       "cardimage": "https://c.l3n.co/i/nmbX9Z.md.png"
     },
-    "howlrunner": {
+    "howlrunner-tie-fighter-squadron": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "7d810d89-6a7d-441f-a483-87e059cabcbe",
+      "_id": "36d13d2d-3049-44f7-a8ca-447b6d1b9e5c",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "tie-fighter",
+      "squadron_type": "tie-fighter-squadron",
       "name": "TIE Fighter Squadron",
       "ace-name": "Howlrunner",
       "unique-class": [
@@ -506,13 +2210,391 @@
       "artwork": "",
       "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
     },
+    "v-19-torrent-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "_id": "e59ec765-3487-4794-837b-f69416173ec3",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "v-19-torrent-squadron",
+      "name": "V-19 Torrent Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": false,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nmGIB0.md.png"
+    },
+    "axe-v-19-torrent-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "_id": "d0436825-26ec-4836-a677-2179ef9d36db",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "v-19-torrent-squadron",
+      "name": "V-19 Torrent Squadron",
+      "ace-name": "Axe",
+      "unique-class": [
+        "Axe"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "Before another friendly squadron at distance 1 suffers damage during an attack, you may spend 1 defense token to reduce the total damage by 1.",
+      "unique": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nm5yYC.md.png"
+    },
+    "kickback-v-19-torrent-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "_id": "79d64f56-b4b1-42dd-973a-7441c3a5a02a",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "v-19-torrent-squadron",
+      "name": "V-19 Torrent Squadron",
+      "ace-name": "Kickback",
+      "unique-class": [
+        "Kickback"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "After you perform an attack, you may move up to distance 1, even if you are engaged.",
+      "unique": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nm5hST.md.png"
+    },
+    "vulture-droid-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": "ff8e122d-c163-486c-a776-d9ee2d82104b",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "vulture-droid-squadron",
+      "name": "Vulture-class Droid Fighter Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": false,
+      "points": 8,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/zaVF1x.md.png"
+    },
+    "haor-chall-vulture-droid-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": "26c726ba-c34a-4619-8afe-f6147739e518",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "vulture-droid-squadron",
+      "name": "Vulture-class Droid Fighter Squadron",
+      "ace-name": "Haor Chall Prototypes",
+      "unique-class": [
+        "Haor Chall Prototypes"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "Before an enemy ship or squadron at distance 1 moves, you may perform an attack against that ship or squadron even if you are engaged.",
+      "unique": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/zaVUpH.md.png"
+    },
+    "dfs-311-vulture-droid-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": "6d6c8ac0-76bf-48e7-a5aa-2d570801e1ff",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "vulture-droid-squadron",
+      "name": "Vulture-class Droid Fighter Squadron",
+      "ace-name": "DFS-311",
+      "unique-class": [
+        "DFS-311"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          0,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "While you are defending, if the attack is obstructed, you may force the attacker to reroll 1 die of your choice.",
+      "unique": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/zaVcF1.md.png"
+    },
     "x-wing-squadron": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "bfdd53c2-1a9c-4842-837d-3f151b215eb3",
+      "_id": "fb3a1231-4a65-438a-8bec-38dd9521d69b",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -575,7 +2657,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "27d7ab27-250a-43b5-b9a8-98ae3d9cd00d",
+      "_id": "b1810528-77ee-4ba1-ae88-9d0385d0f9aa",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -638,7 +2720,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "77f16bfc-f119-4473-a71d-82cbd1d97258",
+      "_id": "8553ab0b-e181-48ee-8154-b3a601716ebc",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -701,7 +2783,7 @@
       "team": "AMG",
       "release": "Rapid Reinforcements I",
       "expansion": "Rapid Reinforcements I",
-      "_id": "a8d5363a-edfa-42c4-921f-756a23feeb9d",
+      "_id": "c40d49d5-8ac9-4dde-90d7-0c4148aa7e2a",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
@@ -758,13 +2840,267 @@
       "artwork": "",
       "cardimage": "https://a.l3n.co/i/nmyX9q.md.png"
     },
+    "yt-1300": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "fc24ccea-d96e-4a4e-a171-402aeab07e3c",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "yt-1300",
+      "name": "YT-1300",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": false,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": false,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 13,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nm5MjH.md.png"
+    },
+    "han-solo-millennium-falcon": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "7289216b-ad74-4258-870b-c691302d733c",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "yt-1300",
+      "name": "Millennium Falcon",
+      "ace-name": "Han Solo",
+      "unique-class": [
+        "Han Solo",
+        "Millennium Falcon"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": false,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": false,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "points": 26,
+      "silhouette": "At the start of the Ship Phase, you may activate as if you were activated by a :squadron: command.",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nmyDXr.md.png"
+    },
+    "yt-2400": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "669d8a6d-9fe3-46c4-bbec-a69a79c7e39c",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "yt-2400",
+      "name": "YT-2400",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nm5U1i.md.png"
+    },
+    "dash-rendar": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": "b8405df9-58a2-4c0e-87a1-e35c582fc296",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "yt-2400",
+      "name": "Outrider",
+      "ace-name": "Dash Rendar",
+      "unique-class": [
+        "Dash Rendar",
+        "Outrider"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, you may reroll 1 die for each enemy squadron or enemy ship at distance 1.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nmyJOe.md.png"
+    },
     "yv-666": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "926385df-6eff-444e-8254-7248c1cb2ea1",
+      "_id": "c051dbbd-01b6-45c7-9a15-39b25491cf58",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "yv-666",
@@ -827,7 +3163,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "00013047-7b74-4ccf-84b0-649c26e95db8",
+      "_id": "f0795e51-35dc-49cb-93d7-d89e3877ef16",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "yv-666",
@@ -878,7 +3214,7 @@
         "strategic": false,
         "swarm": false
       },
-      "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the accuracy icon to your attack pool.",
+      "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the :accuracy: icon to your attack pool.",
       "unique": true,
       "points": 23,
       "silhouette": "",

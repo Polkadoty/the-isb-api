@@ -1,9 +1,9 @@
 {
     "ships": {
-        "mc75": {
+        "mc75-cruiser": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "mc75",
+            "chassis_name": "mc75-cruiser",
             "size": "large",
             "hull": 9,
             "speed": {
@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 60
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "mc75-armored-cruiser": {
                     "author": "Fantasy Flight Games",
@@ -43,7 +43,7 @@
                     "name": "MC75 Armored Cruiser",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [],
+                    "traits": ["MC"],
                     "points": 104,
                     "tokens": {
                         "def_scatter": 0,
@@ -70,7 +70,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zGzHa2.md.png"
                 },
                 "mc75-ordnance-cruiser": {
                     "author": "Fantasy Flight Games",
@@ -80,11 +80,11 @@
                     "expansion": "Profundity Expansion Pack (SWM30)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "mc75",
+                    "chassis": "mc75-cruiser",
                     "name": "MC75 Ordnance Cruiser",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [],
+                    "traits": ["MC"],
                     "points": 100,
                     "tokens": {
                         "def_scatter": 0,
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zGKVGA.md.png"
                 }
             }
         }

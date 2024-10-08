@@ -1,29 +1,29 @@
 {
     "squadrons": {
-        "scurrg-h-6-bomber": {
+        "tie-bomber-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 1 Armada",
+            "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
             "_id": null,
             "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "scurrg-h-6-bomber",
-            "name": "Scurrg H-6 Bomber",
+            "faction": "empire",
+            "squadron_type": "tie-bomber",
+            "name": "tie-bomber-squadron",
             "ace-name": "",
             "unique-class": [""],
-            "irregular": true,
-            "hull": 6,
-            "speed": 3,
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 1, 1]
+                "anti-squadron": [0, 0, 1],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -35,48 +35,48 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
+                "grit": false,
                 "heavy": true,
                 "intel": false,
                 "relay": 0,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": false,
+                "snipe": 0,
                 "strategic": false,
                 "swarm": false
             },
             "ability": "",
             "unique": false,
-            "points": 16,
+            "points": 9,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nm5Btr.md.png"
+            "cardimage": ""
         },
-        "nym-scurrg-h6-bomber": {
+        "major-rhymer-tie-bomber-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 1 Armada",
+            "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
             "_id": null,
             "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "scurrg-h-6-bomber",
-            "name": "Havoc",
-            "ace-name": "Nym",
-            "unique-class": ["Nym","Havoc"],
-            "irregular": true,
-            "hull": 6,
-            "speed": 3,
+            "faction": "empire",
+            "squadron_type": "tie-bomber",
+            "name": "Major Rhymer TIE-Bomber-Squadron",
+            "ace-name": "Major Rhymer",
+            "unique-class": ["Major Rhymer"],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 2
             },
             "armament": {
-                "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 1, 1]
+                "anti-squadron": [0, 1, 1],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -88,23 +88,23 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
-                "heavy": false,
+                "grit": false,
+                "heavy": true,
                 "intel": false,
                 "relay": 0,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": false,
+                "snipe": 0,
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "Blue :crit: : If the defender is a ship, you may choose and discard 1 of its defense tokens.",
-            "unique": true,
-            "points": 21,
+            "ability": "Friendly squadrons at distance 1 can attack enemy ships at close range using all dice in their battery armament.",
+            "unique": false,
+            "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nm59lb.md.png"
+            "cardimage": ""
         }
     }
 }

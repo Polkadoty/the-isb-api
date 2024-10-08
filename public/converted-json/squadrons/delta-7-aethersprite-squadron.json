@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "delta7-aethersprite-squadron": {
+        "delta-7-aethersprite-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "delta7-aethersprite-squadron",
+            "squadron_type": "delta-7-aethersprite-squadron",
             "name": "Delta-7 Aethersprite Squadron",
             "ace-name": "",
             "unique-class": [""],
@@ -51,7 +51,7 @@
             "points": 17,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nm5aCz.md.png"
         },
         "ahsoka-delta7-aethersprite-squadron": {
             "author": "Fantasy Flight Games",
@@ -62,7 +62,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "delta7-aethersprite-squadron",
+            "squadron_type": "delta-7-aethersprite-squadron",
             "name": "Delta-7 Aethersprite Squadron",
             "ace-name": "Ahsoka Tano",
             "unique-class": ["Ahsoka Tano"],
@@ -104,9 +104,9 @@
             "points": 23,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nm5cKo.md.png"
         },
-        "kit-fisto-delta7-aethersprite-squadron": {
+        "kit-fisto-delta-7-aethersprite-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -115,7 +115,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "delta7-aethersprite-squadron",
+            "squadron_type": "delta-7-aethersprite-squadron",
             "name": "Delta-7 Aethersprite Squadron",
             "ace-name": "Kit Fisto",
             "unique-class": ["Kit Fisto"],
@@ -157,9 +157,9 @@
             "points": 26,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nmG2wb.md.png"
         },
-        "luminara-delta7-aethersprite-squadron": {
+        "luminara-delta-7-aethersprite-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -168,7 +168,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "delta7-aethersprite-squadron",
+            "squadron_type": "delta-7-aethersprite-squadron",
             "name": "Delta-7 Aethersprite Squadron",
             "ace-name": "Luminara Unduli",
             "unique-class": ["Luminara Unduli"],
@@ -210,9 +210,9 @@
             "points": 23,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://b.l3n.co/i/nmGA17.md.png"
         },
-        "plo-koon-delta7-aethersprite-squadron": {
+        "plo-koon-delta-7-aethersprite-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -221,7 +221,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "delta7-aethersprite-squadron",
+            "squadron_type": "delta-7-aethersprite-squadron",
             "name": "Delta-7 Aethersprite Squadron",
             "ace-name": "Plo Koon",
             "unique-class": ["Plo Koon"],
@@ -263,9 +263,9 @@
             "points": 24,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nmG003.md.png"
         },
-        "anakin-delta7-aethersprite-squadron": {
+        "anakin-delta-7-aethersprite-squadron": {
             "author": "Atomic Mass Games",
             "alias": "AMG",
             "team": "AMG",
@@ -274,7 +274,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "republic",
-            "squadron_type": "delta7-aethersprite-squadron",
+            "squadron_type": "delta-7-aethersprite-squadron",
             "name": "Delta-7 Aethersprite Squadron",
             "ace-name": "Anakin Skywalker",
             "unique-class": ["Anakin Skywalker"],
@@ -316,7 +316,7 @@
             "points": 24,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nm5Xf9.md.png"
         }
     }
 }

@@ -1,19 +1,19 @@
 {
     "squadrons": {
-        "scurrg-h-6-bomber": {
+        "y-wing-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 1 Armada",
+            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "scurrg-h-6-bomber",
-            "name": "Scurrg H-6 Bomber",
+            "squadron_type": "y-wing-squadron",
+            "name": "Y-Wing Squadron",
             "ace-name": "",
             "unique-class": [""],
-            "irregular": true,
+            "irregular": false,
             "hull": 6,
             "speed": 3,
             "tokens": {
@@ -23,7 +23,7 @@
             },
             "armament": {
                 "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 1, 1]
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -35,38 +35,38 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
+                "grit": false,
                 "heavy": true,
                 "intel": false,
                 "relay": 0,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": false,
+                "snipe": 0,
                 "strategic": false,
                 "swarm": false
             },
             "ability": "",
             "unique": false,
-            "points": 16,
+            "points": 10,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nm5Btr.md.png"
+            "cardimage": "https://b.l3n.co/i/nm5NCZ.md.png"
         },
-        "nym-scurrg-h6-bomber": {
+        "dutch-vander-y-wing-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+            "release": "Wave 1 Armada",
+            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
             "_id": null,
             "type": "squadron",
             "faction": "rebel",
-            "squadron_type": "scurrg-h-6-bomber",
-            "name": "Havoc",
-            "ace-name": "Nym",
-            "unique-class": ["Nym","Havoc"],
-            "irregular": true,
+            "squadron_type": "y-wing-squadron",
+            "name": "Y-Wing Squadron",
+            "ace-name": "Dutch Vander",
+            "unique-class": ["Dutch Vander"],
+            "irregular": false,
             "hull": 6,
             "speed": 3,
             "tokens": {
@@ -75,8 +75,8 @@
                 "def_brace": 2
             },
             "armament": {
-                "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 1, 1]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
@@ -88,23 +88,23 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
-                "heavy": false,
+                "grit": false,
+                "heavy": true,
                 "intel": false,
                 "relay": 0,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
-                "snipe": false,
+                "snipe": 0,
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "Blue :crit: : If the defender is a ship, you may choose and discard 1 of its defense tokens.",
-            "unique": true,
-            "points": 21,
+            "ability": "When a squadron you attack suffers at least 1 damage, you may toggle its activation slider to the activated side. If it was already activated, it suffers 1 additional damage instead.",
+            "unique": false,
+            "points": 10,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nm59lb.md.png"
+            "cardimage": "https://a.l3n.co/i/nmy9Zx.md.png"
         }
     }
 }

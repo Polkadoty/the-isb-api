@@ -1,9 +1,9 @@
 {
     "ships": {
-        "consular": {
+        "consular-class": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "consular",
+            "chassis_name": "consular-class",
             "size": "small",
             "hull": 4,
             "speed": {
@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "consular-class-armed-cruiser": {
                     "author": "Fantasy Flight Games",
@@ -39,7 +39,7 @@
                     "expansion": "Galactic Republic Fleet Starter (SWM34)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "consular",
+                    "chassis": "consular-class",
                     "name": "Consular-class Armed Cruiser",
                     "faction": "republic",
                     "unique": false,
@@ -70,7 +70,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zxgEr2.md.png"
                 },
                 "consular-class-charger-c70": {
                     "author": "Fantasy Flight Games",
@@ -80,7 +80,7 @@
                     "expansion": "Galactic Republic Fleet Starter (SWM34)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "consular",
+                    "chassis": "consular-class",
                     "name": "Consular-class Charger c70",
                     "faction": "republic",
                     "unique": false,
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://b.l3n.co/i/zxgJW5.md.png"
                 }
             }
         }

@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "shields-to-maximum": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "_id": null,
+            "type": "fleet-command",
+            "faction": [""],
+            "name": "Shields to Maximum!",
+            "unique-class": [""],
+            "ability": "At the start of the Ship Phase, you may discard this card or spend a :repair: token. If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
