@@ -18,29 +18,24 @@ function addEnableUpgradesToJson(directory) {
       } else if (file.endsWith('.json')) {
         console.log(`Processing file: ${filePath}`);
         try {
-          const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          const fileContent = fs.readFileSync(filePath, 'utf8');
+          const lines = fileContent.split('\n');
           let modified = false;
 
-          function processObject(obj) {
-            if (typeof obj === 'object' && obj !== null) {
-              if (obj.restrictions && Array.isArray(obj.restrictions.disable_upgrades)) {
-                if (!obj.restrictions.enable_upgrades) {
-                  obj.restrictions.enable_upgrades = [""];
-                  modified = true;
-                }
+          for (let i = 0; i < lines.length; i++) {
+            if (lines[i].includes('"disable_upgrades":')) {
+              const indentation = lines[i].match(/^\s*/)[0];
+              const nextLine = `${indentation}"enable_upgrades": [""],`;
+              if (!lines[i + 1].includes('"enable_upgrades":')) {
+                lines.splice(i + 1, 0, nextLine);
+                modified = true;
+                i++; // Skip the newly inserted line
               }
-              for (let key in obj) {
-                processObject(obj[key]);
-              }
-            } else if (Array.isArray(obj)) {
-              obj.forEach(item => processObject(item));
             }
           }
 
-          processObject(data);
-
           if (modified) {
-            fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+            fs.writeFileSync(filePath, lines.join('\n'));
             console.log(`Updated file: ${filePath}`);
           } else {
             console.log(`No changes needed for file: ${filePath}`);
