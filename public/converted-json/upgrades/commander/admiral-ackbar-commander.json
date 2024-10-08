@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-piett": {
+      "admiral-ackbar-commander": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Wave 2 Armada",
+        "expansion": "Home One Expansion Pack (SWM13)",
         "_id": null,
         "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Piett",
-        "unique-class": ["Admiral Piett"],
-        "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
+        "faction": ["rebel"],
+        "name": "Admiral Ackbar",
+        "unique-class": ["Admiral Ackbar"],
+        "ability": "Before a friendly ship’s Attack step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
         "unique": true,
-        "points": 22,
+        "points": 38,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {

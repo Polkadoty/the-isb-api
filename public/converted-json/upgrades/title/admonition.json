@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "admonition": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Admonition",
+            "unique-class": ["Admonition"],
+            "ability": "While defending, during the Spend Defense Tokens step, you may discard a readied defense token to cancel 1 attack die.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "mc30c-frigate",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

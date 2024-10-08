@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-piett": {
+      "general-rieekan": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Wave 2 Armada",
+        "expansion": "MC30c Frigate Expansion Pack (SWM12)",
         "_id": null,
         "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Piett",
-        "unique-class": ["Admiral Piett"],
-        "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
+        "faction": ["rebel"],
+        "name": "General Rieekan",
+        "unique-class": ["General Rieekan"],
+        "ability": "Once per round, when a friendly ship or friendly unique squadron is destroyed, it remains in the play area and is treated as if it was not destroyed until the end of the Status Phase.",
         "unique": true,
-        "points": 22,
+        "points": 34,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {

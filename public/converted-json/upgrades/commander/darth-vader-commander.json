@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-piett": {
+      "darth-vader-commander": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Wave 2 Armada",
+        "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
         "_id": null,
         "type": "commander",
         "faction": ["empire"],
-        "name": "Admiral Piett",
-        "unique-class": ["Admiral Piett"],
-        "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
+        "name": "Darth Vader",
+        "unique-class": ["Darth Vader"],
+        "ability": "While a friendly ship is attacking a ship, it may spend 1 defense token to reroll any number of dice in its attack pool.",
         "unique": true,
-        "points": 22,
+        "points": 36,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
