@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 60
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "mc75-armored-cruiser": {
                     "author": "Fantasy Flight Games",
@@ -43,7 +43,7 @@
                     "name": "MC75 Armored Cruiser",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [],
+                    "traits": ["MC"],
                     "points": 104,
                     "tokens": {
                         "def_scatter": 0,
@@ -84,7 +84,7 @@
                     "name": "MC75 Ordnance Cruiser",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [],
+                    "traits": ["MC"],
                     "points": 100,
                     "tokens": {
                         "def_scatter": 0,

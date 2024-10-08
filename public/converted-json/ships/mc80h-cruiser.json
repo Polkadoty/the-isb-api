@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[]",
-            "blueprint": "[]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "mc80-assault-cruiser": {
                     "author": "Fantasy Flight Games",
@@ -43,7 +43,7 @@
                     "name": "MC80 Assault Cruiser",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [""],
+                    "traits": ["MC"],
                     "points": 114,
                     "tokens": {
                         "def_scatter": 0,
@@ -70,7 +70,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zGzaax.md.png"
                 },
                 "mc80-command-cruiser": {
                     "author": "Fantasy Flight Games",
@@ -84,7 +84,7 @@
                     "name": "MC80 Command Cruiser",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [""],
+                    "traits": ["MC"],
                     "points": 106,
                     "tokens": {
                         "def_scatter": 0,
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://a.l3n.co/i/zGzGMk.md.png"
                 }
             }
         }
