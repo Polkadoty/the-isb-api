@@ -1,9 +1,9 @@
 {
     "ships": {
-        "gladiator-i-class-star-destroyer": {
+        "gladiator-class-star-destroyer": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "gladiator-star-destroyer",
+            "chassis_name": "gladiator-class-star-destroyer",
             "size": "small",
             "hull": 5,
             "speed": {
@@ -28,18 +28,18 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "gladiator-i-class-star-destroyer": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
                     "release": "Wave 1 Armada",
-                    "expansion": "Gladiator-class star Destroyer Expansion Pack (SWM06)",
+                    "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "gladiator-i-class-star-destroyer",
+                    "chassis": "gladiator-class-star-destroyer",
                     "name": "Gladiator I-Class Star Destroyer",
                     "faction": "empire",
                     "unique": false,
@@ -70,17 +70,17 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://a.l3n.co/i/zGecDQ.md.png"
                 },
                 "gladiator-ii-class-star-destroyer": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
                     "release": "Wave 1 Armada",
-                    "expansion": "Gladiator-class star Destroyer Expansion Pack (SWM06)",
+                    "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "gladiator-ii-class-star-destroyer",
+                    "chassis": "gladiator-class-star-destroyer",
                     "name": "Gladiator II-Class Star Destroyer",
                     "faction": "empire",
                     "unique": false,
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zGebAa.md.png"
                 }
             }
         }

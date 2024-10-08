@@ -3,7 +3,7 @@
         "assault-frigate-mark-ii": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "Assault Frigate MkII",
+            "chassis_name": "assault-frigate-mark-ii",
             "size": "medium",
             "hull": 6,
             "speed": {
@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "assault-frigate-mark-ii-a": {
                     "author": "Fantasy Flight Games",
@@ -39,7 +39,7 @@
                     "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "Assault Frigate MkII",
+                    "chassis": "assault-frigate-mark-ii",
                     "name": "Assault Frigate Mark II A",
                     "faction": "rebel",
                     "unique": false,
@@ -58,7 +58,7 @@
                         "squadron": 2,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "officer", "weapons-team", "weapons-team-offensive-retro", "defensive-retro", "turbolaser", "title"],
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "turbolaser", "title"],
                     "armament": {
                         "asa": [0, 2, 0],
                         "front": [2, 1, 0],
@@ -70,7 +70,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zGzDLF.md.png"
                 },
                 "assault-frigate-mark-ii-b": {
                     "author": "Fantasy Flight Games",
@@ -80,7 +80,7 @@
                     "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "Assault Frigate MkII",
+                    "chassis": "assault-frigate-mark-ii",
                     "name": "Assault Frigate Mark II B",
                     "faction": "rebel",
                     "unique": false,
@@ -99,7 +99,7 @@
                         "squadron": 3,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "officer", "weapons-team", "weapons-team-offensive-retro", "defensive-retro", "turbolaser", "title"],
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "turbolaser", "title"],
                     "armament": {
                         "asa": [0, 1, 0],
                         "front": [2, 0, 0],
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zGSjKZ.md.png"
                 }
             }
         }
