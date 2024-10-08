@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "foresight": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Home One Expansion Pack (SWM130)",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Foresight",
+            "unique-class": ["Foresight"],
+            "ability": "When you resolve the :evade: defense effect, you can affect 1 additional die. When you resolve the :redirect: defense effect, you can choose 1 additional adjacent hull zone to suffer damage.",
+            "unique": true,
+            "points": 8,
+            "modification": false,
+            "bound_shiptype": "mc30c-frigate",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
