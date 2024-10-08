@@ -100,8 +100,8 @@
                 "swarm": false
             },
             "ability": "When a squadron you attack suffers at least 1 damage, you may toggle its activation slider to the activated side. If it was already activated, it suffers 1 additional damage instead.",
-            "unique": false,
-            "points": 10,
+            "unique": true,
+            "points": 16,
             "silhouette": "",
             "artwork": "",
             "cardimage": "https://a.l3n.co/i/nmy9Zx.md.png"
