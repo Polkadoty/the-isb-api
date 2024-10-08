@@ -1,27 +1,27 @@
 {
     "upgrades": {
-      "executor": {
+      "admiral-piett": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
         "release": "Super Star Destroyer",
         "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
         "_id": null,
-        "type": "title",
+        "type": "commander",
         "faction": ["empire"],
-        "name": "Executor",
-        "unique-class": ["Executor"],
-        "ability": "You can be assigned any number of command tokens of any types, instead of a number of command tokens equal to your command value.",
+        "name": "Admiral Piett",
+        "unique-class": ["Admiral Piett"],
+        "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
         "unique": true,
-        "points": 2,
+        "points": 22,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
-          "traits": ["star-dreadnought"],
+          "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
-          "flagship": false
+          "flagship": true
         },
         "start_command": {
           "type": "",
