@@ -1,21 +1,21 @@
 {
     "upgrades": {
-        "foresight": {
+        "instigator": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
             "release": "Wave 2 Armada",
-            "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+            "expansion": "Imperial Raider Expansion Pack (SWM15)",
             "_id": null,
             "type": "title",
-            "faction": ["rebel"],
-            "name": "Foresight",
-            "unique-class": ["Foresight"],
-            "ability": "When you resolve the :evade: defense effect, you can affect 1 additional die. When you resolve the :redirect: defense effect, you can choose 1 additional adjacent hull zone to suffer damage.",
+            "faction": ["empire"],
+            "name": "Instigator",
+            "unique-class": ["Instigator"],
+            "ability": "Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged.",
             "unique": true,
-            "points": 8,
+            "points": 4,
             "modification": false,
-            "bound_shiptype": "mc30c-frigate",
+            "bound_shiptype": "raider-corvette",
             "restrictions": {
                 "traits": [""],
                 "size": [""],

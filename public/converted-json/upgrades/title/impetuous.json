@@ -1,21 +1,21 @@
 {
     "upgrades": {
-        "foresight": {
+        "impetuous": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
             "release": "Wave 2 Armada",
-            "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+            "expansion": "Imperial Raider Expansion Pack (SWM15)",
             "_id": null,
             "type": "title",
-            "faction": ["rebel"],
-            "name": "Foresight",
-            "unique-class": ["Foresight"],
-            "ability": "When you resolve the :evade: defense effect, you can affect 1 additional die. When you resolve the :redirect: defense effect, you can choose 1 additional adjacent hull zone to suffer damage.",
+            "faction": ["empire"],
+            "name": "Impetuous",
+            "unique-class": ["Impetuous"],
+            "ability": "At the end of your Attack Step, choose 1 of your hull zones. You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round.",
             "unique": true,
-            "points": 8,
+            "points": 4,
             "modification": false,
-            "bound_shiptype": "mc30c-frigate",
+            "bound_shiptype": "raider-corvette",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
