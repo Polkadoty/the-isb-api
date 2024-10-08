@@ -1,12 +1,177 @@
 {
   "upgrades": {
+    "admiral-ackbar-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM13)",
+      "_id": "759b7b47-b879-4ef3-863d-465cb2ecddf0",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Admiral Ackbar",
+      "unique-class": [
+        "Admiral Ackbar"
+      ],
+      "ability": "Before a friendly ship’s Attack step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
+      "unique": true,
+      "points": 38,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "admiral-ozzel-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial Raider Expansion Pack (SWM15)",
+      "_id": "ef5a2e57-dc31-4f34-983a-10dc02cd7e1f",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Ozzel",
+      "unique-class": [
+        "Admiral Ozzel"
+      ],
+      "ability": "During each friendly ship’s Determine Course step, it may change its speed by 1.",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "admiral-piett": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "3f20ed4f-82e2-4c18-8b9b-2255a643ca20",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Piett",
+      "unique-class": [
+        "Admiral Piett"
+      ],
+      "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
+      "unique": true,
+      "points": 22,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
     "anakin-skywalker": {
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "72bec69a-3975-4aaf-bce3-ea1e5d91b332",
+      "_id": "f237658b-e704-4490-9d63-780ff12ac9af",
       "type": "commander",
       "faction": [
         "republic"
@@ -31,7 +196,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": true
@@ -59,7 +226,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "38e02e51-547d-40be-bef8-a72741b21e31",
+      "_id": "436618ba-1a67-41cf-a6e4-11fd68fe2e7a",
       "type": "commander",
       "faction": [
         "separatist"
@@ -84,7 +251,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": true
@@ -106,13 +275,123 @@
       "artwork": "",
       "cardimage": "https://a.l3n.co/i/nHWo2Z.md.webp"
     },
+    "darth-vader-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "5a740c26-bc33-4a9e-9327-e351bbaf445c",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Darth Vader",
+      "unique-class": [
+        "Darth Vader"
+      ],
+      "ability": "While a friendly ship is attacking a ship, it may spend 1 defense token to reroll any number of dice in its attack pool.",
+      "unique": true,
+      "points": 36,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "emperor-palpatine": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "2a80d28d-14a7-4c32-a6af-79d2d2f1b3c9",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Emperor Palpatine",
+      "unique-class": [
+        "Emperor Palpatine"
+      ],
+      "ability": "When an enemy ship or unique squadron declares you as the target of an attack, it must spend 1 of its defense tokens (if able).",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
     "general-dodonna": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "15d1eb42-111f-4306-b361-fe70fa713b04",
+      "_id": "05c76997-0f32-41ce-944e-261af9991d3c",
       "type": "commander",
       "faction": [
         "rebel"
@@ -137,7 +416,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": true
@@ -159,13 +440,68 @@
       "artwork": "[link to image]",
       "cardimage": "https://b.l3n.co/i/n3hVwA.md.webp"
     },
+    "general-rieekan": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+      "_id": "fac9d7f8-aab3-4c7b-a139-6c03424d5f41",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Rieekan",
+      "unique-class": [
+        "General Rieekan"
+      ],
+      "ability": "Once per round, when a friendly ship or friendly unique squadron is destroyed, it remains in the play area and is treated as if it was not destroyed until the end of the Status Phase.",
+      "unique": true,
+      "points": 34,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
     "grand-moff-tarkin": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "19a0e2e2-e87c-4a84-a619-4184e3e0472a",
+      "_id": "2ce7a308-b1d4-43fa-823a-a1ab21ef29d6",
       "type": "commander",
       "faction": [
         "empire"
@@ -190,7 +526,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": true
@@ -218,7 +556,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e90e6dc2-3cf2-4ef6-8060-6c5982540abe",
+      "_id": "36fffe8e-f3ab-4d1a-a329-848fed2eaca5",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -243,7 +581,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -265,13 +605,288 @@
       "artwork": "[link to image]",
       "cardimage": "https://c.l3n.co/i/n3hLqo.md.webp"
     },
+    "all-fighters-follow-me": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Phoenix Home Expansion Pack (SWM21)",
+      "_id": "88ad4a88-6408-4b6f-9946-0017b8c26c47",
+      "type": "fleet-command",
+      "faction": [
+        ""
+      ],
+      "name": "All Fighters, Follow Me!",
+      "unique-class": [
+        ""
+      ],
+      "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "entrapment-formation": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Phoenix Home Expansion Pack (SWM21)",
+      "_id": "25733882-bedf-4d7f-8c55-465523d1cba6",
+      "type": "fleet-command",
+      "faction": [
+        ""
+      ],
+      "name": "Entrapment Formation!",
+      "unique-class": [
+        ""
+      ],
+      "ability": "At the start of the Ship Phase, you may discard this card or spend a :nav: token. If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "intensify-firepower": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "182328db-5160-4128-be20-9862cb060589",
+      "type": "fleet-command",
+      "faction": [
+        ""
+      ],
+      "name": "Intensify Firepower!",
+      "unique-class": [
+        ""
+      ],
+      "ability": "At the start of the Ship Phase, you may discard this card or spend a :confire: token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 :hit: icon and no other icons.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "shields-to-maximum": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Phoenix Home Expansion Pack (SWM21)",
+      "_id": "94e0843f-2a7a-4927-a005-598a150939eb",
+      "type": "fleet-command",
+      "faction": [
+        ""
+      ],
+      "name": "Shields to Maximum!",
+      "unique-class": [
+        ""
+      ],
+      "ability": "At the start of the Ship Phase, you may discard this card or spend a :repair: token. If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "heavy-ion-emplacements": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "95dbaeb2-8e25-4b8d-8c24-c43a88687525",
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Heavy Ion Emplacements",
+      "unique-class": [
+        ""
+      ],
+      "ability": "BLUE :crit: : You may exhaust this card. If you do, the defending hull zone and each adjacent hull zone loses 1 shield.",
+      "unique": false,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
     "overload-pulse": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "fec447a1-6671-4fca-8657-a514c05260e8",
+      "_id": "16ea11fe-1453-45b9-bfd7-9b81480e32c3",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -296,7 +911,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -324,7 +941,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e2b7ebf3-44c1-4a0c-b543-04f7439c999f",
+      "_id": "202b7358-0809-4818-b8c1-2d10533557b5",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -349,7 +966,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -371,13 +990,288 @@
       "artwork": "[link to image]",
       "cardimage": "https://a.l3n.co/i/n3huCv.md.webp"
     },
+    "admiral-montferrat": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial Raider Expansion Pack (SWM15)",
+      "_id": "4303090f-696e-4918-8fdb-ca54ee0c89d9",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Montferrat",
+      "unique-class": [
+        "Admiral Montferrat"
+      ],
+      "ability": "While defending against a ship, if your speed is 3 or higher, the attack is treated as obstructed. After you execute a maneuver, if you overlapped a ship, discard this card.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "admiral-ozzel": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "071d939f-3367-43ca-9445-52d83d0a91c4",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Ozzel",
+      "unique-class": [
+        "Admiral Ozzel"
+      ],
+      "ability": "At the start of the first round, you may execute a speed-1 maneuver.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
+    "captain-needa": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "947be32e-fbb1-4a43-a8b1-98edcffbda95",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Captain Needa",
+      "unique-class": [
+        "Captain Needa"
+      ],
+      "ability": "At the start of the first round, you may replace 1 of your defense tokens with an :evade: defense token.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "commander-gherant": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "fc68dcfb-df0b-44a4-8b87-9786bd2ec0cd",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Commander Gherant",
+      "unique-class": [
+        "Commander Gherant"
+      ],
+      "ability": "While you are defending, the attacker cannot resolve critical effects. After you perform an attack against a ship, discard this card.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
+    "darth-vader": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "a1c89f93-03cc-4930-88d5-3ff61e4f471d",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Darth Vader",
+      "unique-class": [
+        "Darth Vader"
+      ],
+      "ability": "While a friendly ship at distance 1-5 attacking a ship, it may discard 1 of its :commander: or :officer: cards (other than Darth Vader) to reroll any number of dice in its attack pool.",
+      "unique": true,
+      "points": 1,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
     "defense-liaison": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "28f0844d-d4be-4752-ac4a-1f8e32d19584",
+      "_id": "13f1cf7c-3c02-42f3-896f-45133ee5fc31",
       "type": "officer",
       "faction": [
         ""
@@ -402,7 +1296,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -424,13 +1320,178 @@
       "artwork": "[link to image]",
       "cardimage": "https://c.l3n.co/i/n3hefm.md.webp"
     },
+    "director-krennic": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "3e2d15d8-77dd-4e6d-a284-caf4edbf4bcb",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Director Krennic",
+      "unique-class": [
+        "Director Krennic"
+      ],
+      "ability": ":confire:: While attacking at medium-long range, if you spent a :confire: dial, you may also reroll any number of red dice in your attack pool. If you spent a :confire: token, you may also reroll up to 2 red dice in your attack pool.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
+    "engineering-captain": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "a0dffb34-5178-4226-835b-d81182575a5d",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Engineering Captain",
+      "unique-class": [
+        "Engineering Captain"
+      ],
+      "ability": "Before you reveal a command, you may change that command to a :repair: command.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "lando-calrissian-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+      "_id": "4940e98e-0174-4941-b761-72c876bd25c7",
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Lando Calrissian",
+      "unique-class": [
+        "Lando Calrissian"
+      ],
+      "ability": "While defending, during the Spend Defense Tokens Step, you may discard this card to force the attacker to reroll 1 or more dice of your choice.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
     "leia-organa": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "deb980fb-9b24-4bd6-a78f-8cb298702e87",
+      "_id": "b46eb4bf-2e26-4a02-888d-3a3beb1c8029",
       "type": "officer",
       "faction": [
         "rebel"
@@ -455,7 +1516,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -477,13 +1540,288 @@
       "artwork": "[link to image]",
       "cardimage": "https://c.l3n.co/i/n3hsje.md.webp"
     },
+    "lira-wessex": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "39b5c9ec-2cfa-492b-b795-e8c0e211f29a",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Lira Wessex",
+      "unique-class": [
+        "Lira Wessex"
+      ],
+      "ability": "When you are dealt a faceup damage card, you may spend 1 :repair: token to flip that card facedown (without resolving its effect).",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
+    "navigation-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM13)",
+      "_id": "bab99944-1206-4869-a2aa-40e54fc27268",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Navigation Officer",
+      "unique-class": [
+        "Navigation Officer"
+      ],
+      "ability": "Before you reveal a command, you may change that command to a :navigate: command.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "support-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "b66a27fb-942e-4e03-94ad-711b73489f0b",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Support Officer",
+      "unique-class": [
+        "Support Officer"
+      ],
+      "ability": "At the start of the Command Phase, you may discard this card to discard all of your command dials.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "tactical-expert": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "285b5a92-8066-4772-8da0-ab180634e268",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Tactical Expert",
+      "unique-class": [
+        "Tactical Expert"
+      ],
+      "ability": "Before you reveal a command, you may change that command to a :concentrate fire: command.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "walex-blissex": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM13)",
+      "_id": "f971d3ed-dcce-416b-a79a-9a9e26903967",
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Walex Blissex",
+      "unique-class": [
+        "Walex Blissex"
+      ],
+      "ability": "When you activate, you may discard this card to recover 1 of your discarded defense tokens.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
     "weapons-liaison": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "53b1bbdf-f3af-483f-a312-01d8479efdfc",
+      "_id": "10ba8a58-19fa-43cf-9bbd-607402e9b274",
       "type": "officer",
       "faction": [
         ""
@@ -508,7 +1846,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -530,13 +1870,68 @@
       "artwork": "[link to image]",
       "cardimage": "https://c.l3n.co/i/n3hHwK.md.webp"
     },
+    "wing-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "5788333b-0110-4f4a-9ce5-c6486feb8961",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Wing Commander",
+      "unique-class": [
+        "Wing Commander"
+      ],
+      "ability": "Before you reveal a command, you may change that command to a :squadron: command.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
     "wullf-yularen": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "ad4c9657-bd6e-44b0-a27e-f9e134dbc97e",
+      "_id": "7d6f9389-260c-469d-ae61-892781dbd9ee",
       "type": "officer",
       "faction": [
         "empire"
@@ -561,7 +1956,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -589,7 +1986,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "3f897a3d-365d-4b18-a077-cd24011a3f8f",
+      "_id": "2065ffa8-11be-44aa-81d6-8fc193b94671",
       "type": "ordnance",
       "faction": [
         ""
@@ -614,7 +2011,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -642,7 +2041,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "b580d9d9-dadc-4340-8a61-2b3fb668570b",
+      "_id": "8de4f3a5-ceba-47a9-8b95-b3c19095df25",
       "type": "support-team",
       "faction": [
         ""
@@ -667,7 +2066,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -695,7 +2096,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "9051344b-6332-4bd7-8c73-594c14b04841",
+      "_id": "75fc458c-33ab-4b01-a12a-226dd01a04fb",
       "type": "support-team",
       "faction": [
         ""
@@ -720,7 +2121,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -742,13 +2145,288 @@
       "artwork": "[link to image]",
       "cardimage": "https://a.l3n.co/i/n3h4Mx.md.webp"
     },
+    "admonition": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+      "_id": "fa7440bc-8b51-4681-ae5f-242fb993d5fa",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Admonition",
+      "unique-class": [
+        "Admonition"
+      ],
+      "ability": "While defending, during the Spend Defense Tokens step, you may discard a readied defense token to cancel 1 attack die.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "mc30c-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "annihilator": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "0009cf63-a223-42d1-996e-b13efd2d112c",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Annihilator",
+      "unique-class": [
+        "Annihilator"
+      ],
+      "ability": "While attacking a squadron, you may reroll 1 attack die.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-dreadnought"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
+    "avenger": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "405bc138-a515-4e62-bd90-95032cbaa8cd",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Avenger",
+      "unique-class": [
+        "Avenger"
+      ],
+      "ability": "While attacking, you may exhaust this card. If you do, the defender cannot spend more than 1 exhausted defense token during this attack.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "imperial-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "defiance": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM130)",
+      "_id": "0ae674cc-2142-4112-b45b-336558ac8b53",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Defiance",
+      "unique-class": [
+        "Defiance"
+      ],
+      "ability": "While attacking a ship that has already activated this round, add 1 die of any color to your attack pool.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc80h-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "devastator": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "3bda9e83-28f4-4213-8d7d-f99c68f34fbd",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Devastator",
+      "unique-class": [
+        "Devastator"
+      ],
+      "ability": "Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "imperial-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
     "dodonnas-pride": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "ae65f4cf-e2c4-45e5-a057-f70ebac1d607",
+      "_id": "e667193a-51ec-48be-8717-111362f80782",
       "type": "title",
       "faction": [
         "rebel"
@@ -773,7 +2451,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -799,9 +2479,119 @@
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "55736afa-8597-467c-aa07-15b9c4950000",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Dominator",
+      "unique-class": [
+        "Dominator"
+      ],
+      "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+      "unique": true,
+      "points": 12,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://b.l3n.co/i/n3hOzc.md.webp"
+    },
+    "eclipse": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "6f371b35-e8b2-4664-93be-d7bd7dad513a",
+      "_id": "cf8f8dd8-138c-43cf-9ce5-397950983dce",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Eclipse",
+      "unique-class": [
+        "Eclipse"
+      ],
+      "ability": "When an enemy ship overlaps you, the enemy ship suffers a faceup damage card instead of a facedown damage card.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-dreadnought"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
+    "executor": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "6277d4b7-5546-43de-844b-7bc141a88a30",
       "type": "title",
       "faction": [
         "empire"
@@ -817,7 +2607,7 @@
       "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "super-star-destroyer"
+          "star-dreadnought"
         ],
         "size": [
           ""
@@ -826,7 +2616,339 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
+    },
+    "foresight": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+      "_id": "e5e3a698-1e63-4662-8097-0c03a4a2ccdf",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Foresight",
+      "unique-class": [
+        "Foresight"
+      ],
+      "ability": "When you resolve the :evade: defense effect, you can affect 1 additional die. When you resolve the :redirect: defense effect, you can choose 1 additional adjacent hull zone to suffer damage.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "mc30c-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "home-one": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM130)",
+      "_id": "1fa2d437-15a6-4120-b4f7-1505e7df44b7",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Home One",
+      "unique-class": [
+        "Home One"
+      ],
+      "ability": "While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an :accuracy: icon.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "mc80h-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "impetuous": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial Raider Expansion Pack (SWM15)",
+      "_id": "8cc671f7-9c93-4017-8d4f-02f71ceb9252",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Impetuous",
+      "unique-class": [
+        "Impetuous"
+      ],
+      "ability": "At the end of your Attack Step, choose 1 of your hull zones. You may perform an attack against 1 enemy squadron from that hull zone, even if you have already attacked from that zone this round.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "raider-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "independence": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM130)",
+      "_id": "db1bc17b-9765-4031-a683-bf3fac4f8736",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Independence",
+      "unique-class": [
+        "Independence"
+      ],
+      "ability": " :squadron: Each squadron you activate may increase its speed to 4 until the end of its activation. Squadrons that change speed in this way cannot attack this activation.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "mc80h-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "instigator": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial Raider Expansion Pack (SWM15)",
+      "_id": "b17d6b60-55de-4f6f-958b-00c7f8e5c635",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Instigator",
+      "unique-class": [
+        "Instigator"
+      ],
+      "ability": "Enemy squadrons at distance 1 are treated as if they are engaged by 2 additional squadrons, even if they are not currently engaged.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "raider-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
+    "ravager": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": "4ced5322-31ae-4939-87a8-bffa24bc3b7a",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Ravager",
+      "unique-class": [
+        "Ravager"
+      ],
+      "ability": ":confire:: Your :confire: tokens can either reroll 1 attack die or add 1 die to your attack pool. If you add a die, that die must be of a color already in your attack pool.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-dreadnought"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -854,7 +2976,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "0e5c0bea-a3b2-47ee-aefc-1ee29b5f71ca",
+      "_id": "aa0c9d3e-17f2-424a-8666-3c38af9f89d9",
       "type": "title",
       "faction": [
         "rebel"
@@ -879,7 +3001,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -901,13 +3025,68 @@
       "artwork": "[link to image]",
       "cardimage": "https://a.l3n.co/i/n3h7C1.md.webp"
     },
+    "relentless": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": "44c56f65-ed19-4a4f-b109-79f75818c738",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Relentless",
+      "unique-class": [
+        "Relentless"
+      ],
+      "ability": "The total number of command dials that must be assigned to your ship during the Command Phase is reduced by 1.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "imperial-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
+    },
     "enhanced-armament": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a3747083-b02c-4e0f-b40a-d71b60c6707b",
+      "_id": "88410502-84a6-4637-9c80-2b3e30f43afa",
       "type": "turbolaser",
       "faction": [
         ""
@@ -932,7 +3111,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -960,7 +3141,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "74f90ffb-ccb2-4797-bc58-2bcb3093dd3c",
+      "_id": "cfbc6cf4-0bc2-4e79-a010-cc37d4489153",
       "type": "turbolaser",
       "faction": [
         ""
@@ -985,7 +3166,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -1013,7 +3196,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "8c2a9ed0-a11f-4024-8e82-25d538d81d6f",
+      "_id": "7817a396-db1d-4697-ae9b-2524545fc486",
       "type": "weapons-team",
       "faction": [
         ""
@@ -1038,7 +3221,9 @@
           ""
         ],
         "disable_upgrades": [
-        "enable_upgrades": [""],
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
