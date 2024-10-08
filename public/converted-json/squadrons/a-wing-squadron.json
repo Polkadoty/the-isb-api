@@ -1,0 +1,110 @@
+{
+    "squadrons": {
+        "a-wing-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 1 Armada",
+            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "a-wing-squadron",
+            "name": "A-Wing-Squadron",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": false,
+            "hull": 4,
+            "speed": 5,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 2,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "points": 11,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        },
+        "tycho-celchu-a-wing-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 1 Armada",
+            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "a-wing-squadron",
+            "name": "A-Wing-Squadron",
+            "ace-name": "Tycho Celchu",
+            "unique-class": ["Tycho Celchu"],
+            "irregular": false,
+            "hull": 4,
+            "speed": 5,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 2,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "You are not prevented from moving or attacking ships while you are engaged.",
+            "unique": true,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
