@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "lando-calrissian-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 2 Armada",
+        "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["rebel"],
+        "name": "Lando Calrissian",
+        "unique-class": ["Lando Calrissian"],
+        "ability": "While defending, during the Spend Defense Tokens Step, you may discard this card to force the attacker to reroll 1 or more dice of your choice.",
+        "unique": true,
+        "points": 4,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
