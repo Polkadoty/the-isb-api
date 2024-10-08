@@ -9,8 +9,8 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-bomber",
-            "name": "tie-bomber-squadron",
+            "squadron_type": "tie-bomber-squadron",
+            "name": "TIE Bomber Squadron",
             "ace-name": "",
             "unique-class": [""],
             "irregular": false,
@@ -51,7 +51,7 @@
             "points": 9,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nmbf31.md.png"
         },
         "major-rhymer-tie-bomber-squadron": {
             "author": "Fantasy Flight Games",
@@ -62,8 +62,8 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-bomber",
-            "name": "Major Rhymer TIE-Bomber-Squadron",
+            "squadron_type": "tie-bomber-squadron",
+            "name": "TIE Bomber Squadron",
             "ace-name": "Major Rhymer",
             "unique-class": ["Major Rhymer"],
             "irregular": false,
@@ -104,7 +104,7 @@
             "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://b.l3n.co/i/nmb457.md.png"
         }
     }
 }
