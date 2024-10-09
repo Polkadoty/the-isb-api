@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "emperor-palpatine": {
+      "emperor-palpatine-officer": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
         "release": "Super Star Destroyer",
         "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
         "_id": null,
-        "type": "commander",
+        "type": "officer",
         "faction": ["empire"],
         "name": "Emperor Palpatine",
         "unique-class": ["Emperor Palpatine"],
-        "ability": "After deploying fleets, place 1 defense token of each type on this card. At the start of each Ship Phase you may discard 1 of those tokens. If you do, until the end of the round, if an enemy ship or squadron spends a matching token during its Spend Defense Tokens step, discard that token.",
+        "ability": "When an enemy ship or unique squadron declares you as the target of an attack, it must spend 1 of its defense tokens (if able).",
         "unique": true,
-        "points": 35,
+        "points": 3,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -22,7 +22,7 @@
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
           "enable_upgrades": [""],
-          "flagship": true
+          "flagship": false
         },
         "start_command": {
           "type": "",
@@ -38,5 +38,4 @@
         "cardimage": ""
       }
     }
-  }
-  
+}
