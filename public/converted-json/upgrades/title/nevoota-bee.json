@@ -1,21 +1,21 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "nevoota-bee": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "title",
+            "faction": ["republic"],
+            "name": "Nevoota Bee",
+            "unique-class": ["Nevoota Bee"],
+            "ability": ":squadron:: Each non-unique squadron that you activate gains swarm until the end of its activation. Each squadron with swarm that you activate may reroll 1 die while attacking a ship.",
             "unique": true,
             "points": 5,
             "modification": false,
-            "bound_shiptype": "",
+            "bound_shiptype": "acclamator-assault-ship",
             "restrictions": {
                 "traits": [""],
                 "size": [""],

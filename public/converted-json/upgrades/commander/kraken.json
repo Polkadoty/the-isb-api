@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "kraken": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "commander",
+            "faction": ["separatist"],
+            "name": "Kraken",
+            "unique-class": ["Kraken"],
+            "ability": "Once per activation, while a friendly ship is attacking a ship, if another friendly ship is at close-medium range of the defender, the attacker may change 1 die to a face with any 1 icon (and no other icons).",
             "unique": true,
-            "points": 5,
+            "points": 30,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -22,7 +22,7 @@
                 "disqual_upgrades": [""],
                 "disable_upgrades": [""],
                 "enable_upgrades": [""],
-                "flagship": false
+                "flagship": true
             },
             "start_command": {
                 "type": "",

@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "obi-wan-kenobi-commander": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "commander",
+            "faction": ["republic"],
+            "name": "Obi-Wan Kenobi",
+            "unique-class": ["Obi-Wan Kenobi"],
+            "ability": "While a friendly ship is defending, when it spends a readied :redirect: token, it may reduce the total damage by 1 before it suffers damage.",
             "unique": true,
-            "points": 5,
+            "points": 28,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -22,7 +22,7 @@
                 "disqual_upgrades": [""],
                 "disable_upgrades": [""],
                 "enable_upgrades": [""],
-                "flagship": false
+                "flagship": true
             },
             "start_command": {
                 "type": "",

@@ -1,21 +1,21 @@
 {
     "upgrades": {
-        "entrapment-formation": {
+        "tide-of-progress-xii": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "Entrapment Formation!",
-            "unique-class": ["Entrapment Formation!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :nav: token. If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step.",
+            "type": "title",
+            "faction": ["separatist"],
+            "name": "Tide of Progress XII",
+            "unique-class": ["Tide of Progress XII"],
+            "ability": "Before you are dealt a faceup damage card with the SHIP trait, you may exhaust this card to discard that damage card (without resolving its effect).",
             "unique": true,
-            "points": 5,
+            "points": 2,
             "modification": false,
-            "bound_shiptype": "",
+            "bound_shiptype": "munificent-class-frigate",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
@@ -30,9 +30,9 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
+                "type": "nonrecur",
+                "ready_token": ["repair"],
+                "ready_amount": 1
             },
             "artwork": "",
             "cardimage": ""

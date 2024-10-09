@@ -1,21 +1,21 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "implacable": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "title",
+            "faction": ["republic"],
+            "name": "Implacable",
+            "unique-class": ["Implacable"],
+            "ability": "Before a friendly ship or squadron at distance 1-2 suffers damage from an attack, you may exhaust this card and spend up to 2 shields from your front hull zone to reduce the total damage by that amount.",
             "unique": true,
-            "points": 5,
+            "points": 4,
             "modification": false,
-            "bound_shiptype": "",
+            "bound_shiptype": "acclamator-assault-ship",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
@@ -30,7 +30,7 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "recur",
                 "ready_token": [""],
                 "ready_amount": 0
             },

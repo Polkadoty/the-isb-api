@@ -10,7 +10,7 @@
             "type": "fleet-command",
             "faction": [""],
             "name": "Shields to Maximum!",
-            "unique-class": [""],
+            "unique-class": ["Shields to Maximum!"],
             "ability": "At the start of the Ship Phase, you may discard this card or spend a :repair: token. If you do, until the end of the round, before a friendly ship reveals a command, it may recover 1 shield.",
             "unique": true,
             "points": 6,

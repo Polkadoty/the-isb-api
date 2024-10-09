@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "entrapment-formation": {
+        "bail-organa-commander": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "Entrapment Formation!",
-            "unique-class": ["Entrapment Formation!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :nav: token. If you do, until the end of the round, each friendly ship may change its speed by 1 during its Determine Course step.",
+            "type": "commander",
+            "faction": ["republic"],
+            "name": "Bail Organa",
+            "unique-class": ["Bail Organa"],
+            "ability": "When a friendly ship reveals a command, you may discard up to 1 token of each type from this card. For each token you discard, that ship gains 1 additional command dial matching that token's type.",
             "unique": true,
-            "points": 5,
+            "points": 28,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -22,12 +22,12 @@
                 "disqual_upgrades": [""],
                 "disable_upgrades": [""],
                 "enable_upgrades": [""],
-                "flagship": false
+                "flagship": true
             },
             "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
+                "type": "token",
+                "start_icon": ["nav","repair"],
+                "start_amount": 5
             },
             "exhaust": {
                 "type": "",

@@ -1,21 +1,21 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "foremans-labor": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "title",
+            "faction": ["separatist"],
+            "name": "Foreman's Labor",
+            "unique-class": ["Foreman's Labor"],
+            "ability": "Before you suffer damage from an attack, if the defending hull zone has at least 1 shield remaining, you may exhaust this card to reduce the total damage by 1.",
             "unique": true,
             "points": 5,
             "modification": false,
-            "bound_shiptype": "",
+            "bound_shiptype": "hardcell-class",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
@@ -30,7 +30,7 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "recur",
                 "ready_token": [""],
                 "ready_amount": 0
             },
