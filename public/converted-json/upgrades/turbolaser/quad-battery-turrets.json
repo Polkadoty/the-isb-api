@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "quad-battery-turrets": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 6 Armada",
+        "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
+        "_id": null,
+        "type": "turbolaser",
+        "faction": [""],
+        "name": "Quad Battery Turrets",
+        "unique-class": [""],
+        "ability": "_Modification_. \nWhile attacking a ship with a higher speed than yours, you may add 1 blue die to your attack pool.",
+        "unique": false,
+        "points": 5,
+        "modification": true,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
