@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "tie-advanced": {
+        "tie-advanced-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-advanced",
+            "squadron_type": "tie-advanced-squadron",
             "name": "TIE Advanced Squadron",
             "ace-name": "",
             "unique-class": [""],
@@ -51,9 +51,9 @@
             "points": 12,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nmbDcx.md.png"
         },
-        "darth-vader": {
+        "darth-vader-tie-advanced-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -62,7 +62,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-advanced",
+            "squadron_type": "tie-advanced-squadron",
             "name": "TIE Advanced Squadron",
             "ace-name": "Darth Vader",
             "unique-class": ["Darth Vader"],
@@ -99,12 +99,12 @@
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "While attacking, each of your CRITICAL icons adds 1 damage to the damage total.",
+            "ability": "While attacking, each of your :crit: icons adds 1 damage to the damage total.",
             "unique": true,
             "points": 21,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nmbyki.md.png"
         }
     }
 }

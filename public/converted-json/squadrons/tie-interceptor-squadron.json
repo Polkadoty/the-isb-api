@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "tie-interceptor": {
+        "tie-interceptor-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -9,7 +9,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-interceptor",
+            "squadron_type": "tie-interceptor-squadron",
             "name": "TIE Interceptor Squadron",
             "ace-name": "",
             "unique-class": [""],
@@ -51,7 +51,7 @@
             "points": 11,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nmbbvP.md.png"
         },
         "soontir-fel-tie-interceptor": {
             "author": "Fantasy Flight Games",
@@ -62,7 +62,7 @@
             "_id": null,
             "type": "squadron",
             "faction": "empire",
-            "squadron_type": "tie-interceptor",
+            "squadron_type": "tie-interceptor-squadron",
             "name": "TIE Interceptor Squadron",
             "ace-name": "Soontir Fel",
             "unique-class": ["Soontir Fel"],
@@ -99,12 +99,12 @@
                 "strategic": false,
                 "swarm": true
             },
-            "ability": "After na squadron you are engaged with performs a non-COUNTER attack, it suffers 1 damage if it did not attack you",
+            "ability": "After a squadron you are engaged with performs a non-COUNTER attack, it suffers 1 damage if it did not attack you",
             "unique": true,
             "points": 18,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://c.l3n.co/i/nmbvVM.md.png"
         }
     }
 }

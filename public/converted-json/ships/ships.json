@@ -1,7 +1,7 @@
 {
   "ships": {
     "acclamator-assault-ship": {
-      "_id": "65e37f91-bd55-406c-8171-a07fde38fcba",
+      "_id": "8a1af7ed-67df-41d4-99ed-d86401b6d1f2",
       "type": "chassis",
       "chassis_name": "acclamator-assault-ship",
       "size": "medium",
@@ -46,7 +46,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "c48fb076-e982-47ad-8b18-70f39683ced5",
+          "_id": "6ed503fa-7795-4cf8-81e3-56566e9ff7fe",
           "type": "ship",
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator I-class Assault Ship",
@@ -132,7 +132,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "aedb1ef6-74db-42ce-ab22-80a5f53b82f7",
+          "_id": "dfcb6e47-4669-4eda-8235-8214cbcf7b1e",
           "type": "ship",
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator II-class Assault Ship",
@@ -213,8 +213,214 @@
         }
       }
     },
+    "assault-frigate-mark-ii": {
+      "_id": "c90fa1fc-2cdd-4609-afeb-1089be659b8e",
+      "type": "chassis",
+      "chassis_name": "assault-frigate-mark-ii",
+      "size": "medium",
+      "hull": 6,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "assault-frigate-mark-ii-a": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 1 Armada",
+          "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+          "_id": "4a6118aa-6149-4c72-b4f3-611e4b78a54e",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-ii",
+          "name": "Assault Frigate Mark II A",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 81,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              1,
+              0
+            ],
+            "right": [
+              3,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://c.l3n.co/i/zGzDLF.md.png"
+        },
+        "assault-frigate-mark-ii-b": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 1 Armada",
+          "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+          "_id": "96c1577a-c0e9-42e9-a078-f9d93acc5966",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-ii",
+          "name": "Assault Frigate Mark II B",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 72,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              3,
+              1,
+              0
+            ],
+            "right": [
+              3,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://c.l3n.co/i/zGSjKZ.md.png"
+        }
+      }
+    },
     "consular-class": {
-      "_id": "1114480e-2e34-4934-a31f-4633e6a6bfab",
+      "_id": "1195e494-a7a9-4943-94f4-23ea96383bbf",
       "type": "chassis",
       "chassis_name": "consular-class",
       "size": "small",
@@ -264,7 +470,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "e8772dc9-4efc-4cfa-bc77-75b7d5c6790d",
+          "_id": "b352180e-f33c-4116-ba3a-5641d5da1444",
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Armed Cruiser",
@@ -347,7 +553,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "41377371-0576-48bb-954c-c59fe5a10be6",
+          "_id": "6f9ed8e9-d5b8-4b8c-ba84-5f0fb96da37c",
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Charger c70",
@@ -426,7 +632,7 @@
       }
     },
     "cr90-corvette": {
-      "_id": "91b16007-52e2-4805-8e62-d5dcd061083b",
+      "_id": "8d13de68-3dff-4377-a7b1-891bcc042005",
       "type": "chassis",
       "chassis_name": "cr90-corvette",
       "size": "small",
@@ -476,7 +682,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "f9ad9c23-2676-43d7-aa83-56365301c54c",
+          "_id": "e03af774-ec18-43af-b36f-67de308342c4",
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette A",
@@ -556,7 +762,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "10beaa46-7019-455f-822b-0160ff8649d6",
+          "_id": "44481e14-4100-4857-95d5-9b0ea248bce6",
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette B",
@@ -632,8 +838,214 @@
         }
       }
     },
+    "gladiator-class-star-destroyer": {
+      "_id": "08a5199b-b0c7-4766-b306-550d1e1855b3",
+      "type": "chassis",
+      "chassis_name": "gladiator-class-star-destroyer",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "gladiator-i-class-star-destroyer": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 1 Armada",
+          "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+          "_id": "c3189e3a-1044-4f43-9386-74521f110658",
+          "type": "ship",
+          "chassis": "gladiator-class-star-destroyer",
+          "name": "Gladiator I-Class Star Destroyer",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 56,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              0,
+              2
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              0,
+              0,
+              4
+            ],
+            "right": [
+              0,
+              0,
+              4
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://a.l3n.co/i/zGecDQ.md.png"
+        },
+        "gladiator-ii-class-star-destroyer": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 1 Armada",
+          "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+          "_id": "cbc07cbb-9e5a-42f0-ae53-f4f63f318333",
+          "type": "ship",
+          "chassis": "gladiator-class-star-destroyer",
+          "name": "Gladiator II-Class Star Destroyer",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 62,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              2,
+              0,
+              2
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              1,
+              0,
+              3
+            ],
+            "right": [
+              1,
+              0,
+              3
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://c.l3n.co/i/zGebAa.md.png"
+        }
+      }
+    },
     "hardcell-class": {
-      "_id": "570487bd-ed1b-49af-af67-69298be9c078",
+      "_id": "7ab551cf-4824-4b95-845c-effcf511fa39",
       "type": "chassis",
       "chassis_name": "hardcell-class",
       "size": "small",
@@ -678,7 +1090,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "7dfe3c62-0f84-4db0-bb62-39359b0343f8",
+          "_id": "0c917257-33fe-4702-9412-cbce7981fb7b",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Transport",
@@ -761,7 +1173,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "8b275984-5c3c-4eb1-80c4-f806e3dc2b9c",
+          "_id": "1c259481-f21d-4356-9926-3dfbe1fe8aa7",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Battle Refit",
@@ -841,7 +1253,7 @@
       }
     },
     "imperial-star-destroyer": {
-      "_id": "57ee315b-beb5-47ba-9b2a-be1aa05ff096",
+      "_id": "17869851-7cc4-4b5c-82fd-a9b063a97c1e",
       "type": "chassis",
       "chassis_name": "imperial-star-destroyer",
       "size": "large",
@@ -886,7 +1298,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-          "_id": "f545a1ab-d5b3-4077-b822-f3cc93b12091",
+          "_id": "e75eac4a-3cb4-41be-9819-91ce626431fb",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial I-class Star Destroyer",
@@ -971,7 +1383,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-          "_id": "68f5ffa6-0f03-4b66-8a75-e65af9f32300",
+          "_id": "17f4b49b-2b1a-4c70-9a41-065cb3827c96",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial II-class Star Destroyer",
@@ -1056,7 +1468,7 @@
           "team": "FFG",
           "release": "Wave 7 Armada",
           "expansion": "Chimaera Expansion Pack (SWM29)",
-          "_id": "55cbec74-c4b9-4cbc-948b-9894f2b83aa8",
+          "_id": "06c1e7c7-6d4c-482f-9bf6-66075ce8a6c9",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial Star Destroyer Cymoon 1 Refit",
@@ -1141,7 +1553,7 @@
           "team": "FFG",
           "release": "Wave 7 Armada",
           "expansion": "Chimaera Expansion Pack (SWM29)",
-          "_id": "0a21bbcc-bd1c-49bf-8bd3-eac823ee57ed",
+          "_id": "e417073c-924c-456e-80ec-6a892e082f31",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial Star Destroyer Kuat Refit",
@@ -1223,7 +1635,7 @@
       }
     },
     "mc30c-frigate": {
-      "_id": "1604bb09-e5bb-4828-a4c4-b3e0659e3b27",
+      "_id": "373f1bf0-a8ec-4063-9fd9-5ae4f5dc2398",
       "type": "chassis",
       "chassis_name": "mc30c-frigate",
       "size": "small",
@@ -1273,7 +1685,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-          "_id": "fc3cf1ce-ed1d-4677-8aa4-70e39020c614",
+          "_id": "f28a0368-2ba1-4bab-9f73-58aa2cb630f9",
           "type": "ship",
           "chassis": "mc30c-frigate",
           "name": "MC30c Scout Frigate",
@@ -1356,7 +1768,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-          "_id": "8a4fc7ff-2301-4fb6-9f61-5211e919a1d4",
+          "_id": "221447d9-d6eb-4976-b701-d1afc00e191c",
           "type": "ship",
           "chassis": "mc30c-frigate",
           "name": "MC30c Torpedo Frigate",
@@ -1436,7 +1848,7 @@
       }
     },
     "mc75-cruiser": {
-      "_id": "2794e8cb-d9ed-47f1-82ae-064bd3a84ff9",
+      "_id": "1197a40d-ee60-486d-aa0c-ab4115d29a88",
       "type": "chassis",
       "chassis_name": "mc75-cruiser",
       "size": "large",
@@ -1481,7 +1893,7 @@
           "team": "FFG",
           "release": "Wave 7 Armada",
           "expansion": "Profundity Expansion Pack (SWM30)",
-          "_id": "18aad91e-3803-49cf-92e5-a4cf7a6d8375",
+          "_id": "06ca03d9-5533-43e8-be6d-1d8187134846",
           "type": "ship",
           "chassis": "mc75",
           "name": "MC75 Armored Cruiser",
@@ -1567,7 +1979,7 @@
           "team": "FFG",
           "release": "Wave 7 Armada",
           "expansion": "Profundity Expansion Pack (SWM30)",
-          "_id": "885547f1-5f47-445a-bf92-1049920c7d33",
+          "_id": "228f779d-aa7b-4b29-b436-85392eda9e10",
           "type": "ship",
           "chassis": "mc75-cruiser",
           "name": "MC75 Ordnance Cruiser",
@@ -1649,7 +2061,7 @@
       }
     },
     "mc80h-cruiser": {
-      "_id": "c3346c78-dd49-43c6-95ed-901df936472d",
+      "_id": "39622dba-e62f-41b6-a02d-59f880119333",
       "type": "chassis",
       "chassis_name": "mc80h-cruiser",
       "size": "large",
@@ -1690,7 +2102,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Home One Expansion Pack (SWM13)",
-          "_id": "fa4abd37-a46c-4f16-8712-7f05c702e609",
+          "_id": "e05f1400-5f82-45b7-b057-814a58b48bc3",
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Assault Cruiser",
@@ -1774,7 +2186,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Home One Expansion Pack (SWM13)",
-          "_id": "87f1ef9b-fc94-418c-9a6e-8384a6d8fb11",
+          "_id": "7b233854-b764-465d-962a-f8ddd998e8dd",
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Command Cruiser",
@@ -1855,7 +2267,7 @@
       }
     },
     "munificent-class-frigate": {
-      "_id": "c9056b56-7b4d-4908-aa45-5dd5990143b9",
+      "_id": "69f28cd5-447c-4c3c-9289-3461a70435d6",
       "type": "chassis",
       "chassis_name": "munificent-class-frigate",
       "size": "medium",
@@ -1896,7 +2308,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "8fd59017-df4b-457f-9b96-ec482c9f23fa",
+          "_id": "93d88a59-4a6a-46ec-84c9-82e7a93c84a6",
           "type": "ship",
           "chassis": "munificent-class-frigate",
           "name": "Munificent-class Star Frigate",
@@ -1981,7 +2393,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "a4165a14-eb7d-435e-a0b1-050e1854bad8",
+          "_id": "e4095dee-ab3e-47ec-8c1c-5db3dc0060a6",
           "type": "ship",
           "chassis": "munificent-class-frigate",
           "name": "Munificent-class Comms Frigate",
@@ -2063,7 +2475,7 @@
       }
     },
     "nebulon-b-frigate": {
-      "_id": "2bb34678-5319-4c95-aeab-b534cff55fa5",
+      "_id": "ffd4b10a-5bf0-45dc-b15a-a3f07761ec47",
       "type": "chassis",
       "chassis_name": "nebulon-b-frigate",
       "size": "small",
@@ -2108,7 +2520,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "deac64eb-da04-4d18-9c0a-502eaeb9cd0e",
+          "_id": "355f004c-f202-4d7f-b161-a400b629cca3",
           "type": "ship",
           "chassis": "nebulon-b-frigate",
           "name": "Nebulon-B Escort Frigate",
@@ -2187,7 +2599,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "651c8278-85fa-44d9-a2d8-124eb21d548e",
+          "_id": "a02f182e-2076-482e-8b07-9c4ec1559212",
           "type": "ship",
           "chassis": "nebulon-b-frigate",
           "name": "Nebulon-B Support Frigate",
@@ -2263,7 +2675,7 @@
       }
     },
     "raider-class-corvette": {
-      "_id": "04372666-3628-417b-aebd-dcb85c71cd46",
+      "_id": "701da359-c7e9-40b1-b37c-d9c8019744b4",
       "type": "chassis",
       "chassis_name": "raider-class-corvette",
       "size": "small",
@@ -2313,7 +2725,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial Raider Expansion Pack (SWM15)",
-          "_id": "cc24c8bc-203a-4923-ac27-9064dbe277ac",
+          "_id": "f2a8367d-124d-4937-ad3b-96402775cb3d",
           "type": "ship",
           "chassis": "raider-class-corvette",
           "name": "Raider I-class Corvette",
@@ -2396,7 +2808,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial Raider Expansion Pack (SWM15)",
-          "_id": "b1b03bf5-a0b7-4c62-832e-e977a9e3049c",
+          "_id": "3a238005-7282-41b1-8939-614f0455f1da",
           "type": "ship",
           "chassis": "raider-class-corvette",
           "name": "Raider II-class Corvette",
@@ -2476,7 +2888,7 @@
       }
     },
     "victory-star-destroyer": {
-      "_id": "272e0d25-48da-48f9-9f2e-ecb7b35e047b",
+      "_id": "76973882-91b2-42aa-8e7d-38292c96269d",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -2517,7 +2929,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "0e267337-3afc-42ab-97c7-81a25714c19f",
+          "_id": "befd5273-02a5-4441-a101-6c08ab300e02",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
@@ -2601,7 +3013,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "c4f39323-6307-4870-973e-a1f9927abb2d",
+          "_id": "251d2577-73a8-4df9-8e9a-35b8a68cd8b2",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory II-Class Star Destroyer",
@@ -2686,7 +3098,7 @@
           "team": "AMG",
           "release": "Rapid Reinforcements",
           "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "fa5669b3-6a91-4002-8547-c96c6e0b3350",
+          "_id": "7a0ab870-c06e-447c-b221-c1514dba1913",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
