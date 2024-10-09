@@ -1,42 +1,42 @@
 {
     "squadrons": {
-        "vt-49-decimator": {
+        "lancer-class-pursuit-craft": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
             "release": "Wave 5 Armada",
-            "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+            "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "vt-49-decimator",
-            "name": "VT-49 Decimator",
+            "faction": "rebel",
+            "squadron_type": "lancer-class-pursuit-craft",
+            "name": "Lancer-class Pursuit Craft",
             "ace-name": "",
             "unique-class": [""],
             "irregular": true,
-            "hull": 8,
-            "speed": 3,
+            "hull": 4,
+            "speed": 4,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
                 "def_brace": 0
             },
             "armament": {
-                "anti-squadron": [0, 0, 3],
-                "anti-ship": [0, 3, 0]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 0, 1]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
+                "assault": 0,
+                "bomber": true,
                 "cloak": false,
-                "counter": 1,
+                "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": false,
-                "heavy": true,
+                "grit": true,
+                "heavy": false,
                 "intel": false,
                 "relay": 0,
                 "rogue": true,
@@ -48,47 +48,47 @@
             },
             "ability": "",
             "unique": false,
-            "points": 22,
+            "points": 15,
             "silhouette": "",
             "artwork": "",
             "cardimage": ""
         },
-        "morna-kee-decimator": {
+        "ketsu-onyo-lancer-class-pursuit-craft": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
             "release": "Wave 5 Armada",
-            "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+            "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
             "_id": null,
             "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "vt-49-decimator",
-            "name": "VT-49 Decimator",
-            "ace-name": "Morna Kee",
-            "unique-class": ["Morna Kee"],
+            "faction": "rebel",
+            "squadron_type": "lancer-class-pursuit-craft",
+            "name": "Shadow Caster",
+            "ace-name": "Ketsu Onyo",
+            "unique-class": ["Ketsu Onyo","Shadow Caster"],
             "irregular": true,
-            "hull": 8,
-            "speed": 3,
+            "hull": 4,
+            "speed": 4,
             "tokens": {
-                "def_scatter": 0,
+                "def_scatter": 1,
                 "def_evade": 0,
                 "def_brace": 1
             },
             "armament": {
-                "anti-squadron": [0, 0, 3],
-                "anti-ship": [0, 3, 0]
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 2, 0]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
                 "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
+                "assault": 0,
+                "bomber": true,
                 "cloak": false,
-                "counter": 1,
+                "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": false,
+                "grit": true,
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
@@ -99,14 +99,13 @@
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "While attacking, you may spend 1 defense token to reroll any number of dice in your attack pool. When you activate, you recover 1 of your discarded defense tokens.",
+            "ability": "While an enemy squadron is at distance 1, its speed is reduced by 2 to a minimum of 1.",
             "unique": true,
-            "points": 27,
+            "points": 22,
             "silhouette": "",
             "artwork": "",
             "cardimage": ""
         }
+        
     }
 }
-
-
