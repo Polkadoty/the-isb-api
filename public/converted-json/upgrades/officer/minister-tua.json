@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "minister-tua": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 2 Armada",
+        "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["empire"],
+        "name": "Minister Tua",
+        "unique-class": ["Minister Tua"],
+        "ability": "You gain an additional :defensive retrofit: icon in your upgrade bar. You cannot equip this card to a medium or large ship with a :Defensive Retrofit: icon in its upgrade bar.",
+        "unique": true,
+        "points": 2,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": ["medium","large"],
+          "disqual_upgrades": ["defensive-retro"],
+          "disable_upgrades": [""],
+          "enable_upgrades": ["defensive-retro"],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
