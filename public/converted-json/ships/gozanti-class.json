@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "gozanti-class-assault-carriers": {
                     "author": "Fantasy Flight Games",
@@ -70,7 +70,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://b.l3n.co/i/zGnA3Z.md.png"
                 },
                 "gozanti-class-cruisers": {
                     "author": "Fantasy Flight Games",
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://c.l3n.co/i/zGnWDP.md.png"
                 },
                 "gozanti-class-cruisers_cis": {
                     "author": "Atomic Mass Games",
@@ -122,7 +122,7 @@
                     "_id": null,
                     "type": "ship",
                     "chassis": "gozanti-class",
-                    "name": "Gozanti-class Cruiser",
+                    "name": "Gozanti-class Cruisers",
                     "faction": "separatist",
                     "unique": false,
                     "traits": ["flotilla"],
@@ -152,7 +152,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://a.l3n.co/i/zxtc32.md.png"
                 }
             }
         }
