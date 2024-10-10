@@ -1,0 +1,119 @@
+{
+    "ships": {
+        "gr75-rebel-transport": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "gr75-rebel-transport",
+            "size": "small",
+            "hull": 3,
+            "speed": {
+                "1": [2],
+                "2": [1, 2],
+                "3": [0, 1, 2],
+                "4": []
+            },
+            "shields": {
+                "front": 1,
+                "rear": 1,
+                "left": 1,
+                "right": 1,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "gr75-combat-retrofits": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 3 Armada",
+                    "expansion": "Rebel Transports Expansion Pack (SWM19)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "gr75-rebel-transport",
+                    "name": "GR-75 Combat Retrofits",
+                    "faction": "rebel",
+                    "unique": false,
+                    "traits": ["flotilla"],
+                    "points": 24,
+                    "tokens": {
+                        "def_scatter": 1,
+                        "def_evade": 1,
+                        "def_brace": 0,
+                        "def_redirect": 0,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 1,
+                        "squadron": 2,
+                        "engineer": 2
+                    },
+                    "upgrades": ["commander", "officer", "fleet-support", "offensive-retro", "title"],
+                    "armament": {
+                        "asa": [0, 1, 0],
+                        "front": [0, 1, 0],
+                        "rear": [0, 1, 0],
+                        "left": [0, 0, 0],
+                        "right": [0, 0, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                },
+                "gr75-medium-transports": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 3 Armada",
+                    "expansion": "Rebel Transports Expansion Pack (SWM19)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "gr75-rebel-transport",
+                    "name": "GR-75 Medium Transports",
+                    "faction": "rebel",
+                    "unique": false,
+                    "traits": ["flotilla"],
+                    "points": 18,
+                    "tokens": {
+                        "def_scatter": 1,
+                        "def_evade": 1,
+                        "def_brace": 0,
+                        "def_redirect": 0,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 1,
+                        "squadron": 2,
+                        "engineer": 2
+                    },
+                    "upgrades": ["commander", "officer", "fleet-support", "offensive-retro", "title"],
+                    "armament": {
+                        "asa": [0, 0, 1],
+                        "front": [0, 0, 0],
+                        "rear": [0, 0, 0],
+                        "left": [0, 0, 0],
+                        "right": [0, 0, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                }
+            }
+        }
+    }
+}

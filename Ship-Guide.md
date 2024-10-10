@@ -31,7 +31,7 @@ Fill in the chassis information:
 - `_id`: Leave as null, it will be generated later.
 - `type`: Always "chassis" for ships.
 - `chassis_name`: The ship's name in kebab-case (lowercase with hyphens).
-- `size`: "small", "medium", or "large".
+- `size`: "small", "medium", or "large". Flotilla are defined as a trait, not a size.
 - `hull`: The hull value from the card.
 
 ## 3. Speed
@@ -149,6 +149,7 @@ When putting the expansion name, use the release names mentioned in the Star War
 
 I just removed the "Print-and-play" from the names of Rapid Reinforcements I and II.
 
+`flotilla` are defined as a trait here.
 For the rest, see the following example for a victory star destroyer 1, for the empire:
 
 ```json
