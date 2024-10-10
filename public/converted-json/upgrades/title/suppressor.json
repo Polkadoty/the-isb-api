@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "suppressor": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 3 Armada",
+            "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
+            "_id": null,
+            "type": "title",
+            "faction": ["empire"],
+            "name": "Suppressor",
+            "unique-class": ["Suppressor"],
+            "ability": "After an enemy ship ends its activation, if it is at distance 1-3, you may choose and exhaust 1 of its defense tokens.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "gozanti-class",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
