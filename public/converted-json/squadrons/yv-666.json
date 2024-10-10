@@ -53,7 +53,7 @@
             "artwork": "",
             "cardimage": "https://b.l3n.co/i/nmwi9z.md.png"
         },
-        "bossk": {
+        "bossk-hounds-tooth": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -105,6 +105,59 @@
             "silhouette": "",
             "artwork": "",
             "cardimage": "https://c.l3n.co/i/nmXf8T.md.png"
+        },
+        "moralo-eval-yv-666": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Rebellion in the Rim Campaign Armada",
+            "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "yv-666",
+            "name": "YV-666",
+            "ace-name": "Moralo Eval",
+            "unique-class": ["Moralo Eval"],
+            "irregular": true,
+            "hull": 7,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [0, 2, 2],
+                "anti-ship": [0, 2, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "When an objective token at distance 1-2 and not on an obstacle is moved or removed from the play area, you may move up to distance 1 and attack as if you were activated.",
+            "unique": true,
+            "points": 22,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
         }
     }
 }
