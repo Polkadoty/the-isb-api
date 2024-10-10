@@ -1,0 +1,43 @@
+
+{
+    "upgrades": {
+      "repair-crews": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 3 Armada",
+        "expansion": "Rebel Transports Expansion Pack (SWM19)",
+        "_id": null,
+        "type": "fleet-support",
+        "faction": [""],
+        "name": "Repair Crews",
+        "unique-class": [""],
+        "ability": ":repair:: Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2.",
+        "unique": false,
+        "points": 4,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+  }
+  
