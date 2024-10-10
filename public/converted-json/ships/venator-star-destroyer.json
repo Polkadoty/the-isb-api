@@ -1,0 +1,160 @@
+{
+    "ships": {
+        "venator-star-destroyer": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "venator-star-destroyer",
+            "size": "large",
+            "hull": 9,
+            "speed": {
+                "1": [1],
+                "2": [1, 1],
+                "3": [0, 1, 0],
+                "4": []
+            },
+            "shields": {
+                "front": 4,
+                "rear": 3,
+                "left": 3,
+                "right": 2,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "",
+            "blueprint": "",
+            "models": {
+                "venator-i-class-star-destroyer": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 10 Armada",
+                    "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "venator-star-destroyer",
+                    "name": "Venator I-class Star Destroyer",
+                    "faction": "republic",
+                    "unique": false,
+                    "traits": ["Clone","Jedi","Comms","star-destroyer"],
+                    "points": 90,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 1,
+                        "def_salvo": 1
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "fleet-command", "offensive-retro", "weapons-team-offensive-retro", "turbolaser", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 2, 0],
+                        "front": [3, 0, 3],
+                        "rear": [1, 1, 1],
+                        "left": [1, 1, 2],
+                        "right": [1, 1, 2],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                },
+                "venator-ii-class-star-destroyer": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 10 Armada",
+                    "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "venator-star-destroyer",
+                    "name": "Venator II-class Star Destroyer",
+                    "faction": "republic",
+                    "unique": false,
+                    "traits": ["Clone","Bombard","star-destroyer"],
+                    "points": 100,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 1,
+                        "def_salvo": 1
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 5,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "turbolaser", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 1, 1],
+                        "front": [2, 2, 2],
+                        "rear": [1, 1, 1],
+                        "left": [2, 2, 0],
+                        "right": [2, 2, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                },
+                "venator-ii-class-star-destroyer-empire": {
+                    "author": "Atomic Mass Games",
+                    "alias": "AMG",
+                    "team": "AMG",
+                    "release": "Rapid Reinforcements",
+                    "expansion": "Rapid Reinforcements I (RR1)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "venator-star-destroyer",
+                    "name": "Venator II-class Star Destroyer",
+                    "faction": "empire",
+                    "unique": true,
+                    "traits": ["Bombard","star-destroyer"],
+                    "points": 100,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 1,
+                        "def_salvo": 1
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 3,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "defensive-retro", "turbolaser", "ordnance", "ordnance", "title"],
+                    "armament": {
+                        "asa": [0, 1, 1],
+                        "front": [2, 2, 2],
+                        "rear": [1, 1, 1],
+                        "left": [2, 2, 0],
+                        "right": [2, 2, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                }
+            }
+        }
+    }
+}
