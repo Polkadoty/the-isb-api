@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "general-draven": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Profundity Expansion Pack (SWM30)",
+            "_id": null,
+            "type": "officer",
+            "faction": ["rebel"],
+            "name": "General Draven",
+            "unique-class": ["General Draven"],
+            "ability": "While attacking a squadron with counter or intel, add 1 die of any color to your attack pool.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

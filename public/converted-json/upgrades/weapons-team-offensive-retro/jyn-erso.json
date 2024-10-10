@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "jyn-erso": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Profundity Expansion Pack (SWM30)",
+            "_id": null,
+            "type": "weapons-team-offensive-retro",
+            "faction": ["rebel"],
+            "name": "Jyn Erso",
+            "unique-class": ["Jyn Erso"],
+            "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If that ship has no raid tokens, it gains 2 raid tokens of your choice. If that ship has an objective token, you may also gain 1 victory token.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
