@@ -1,27 +1,26 @@
 {
     "upgrades": {
-        "radiant-vii": {
+        "seventh-fleet-star-destroyer": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
             "_id": null,
             "type": "title",
-            "faction": ["republic"],
-            "name": "Radiant VII",
-            "unique-class": ["Radiant VII"],
-            "ability": "You gain 1 :fleet-support: icon in your upgrade bar.\nYou cannot equip :turbolaser: or :ordnance: upgrades.",
-            "unique": true,
-            "points": 1,
+            "faction": ["empire"],
+            "name": "Seventh Fleet Star Destroyer",
+            "unique-class": [""],
+            "ability": "Star Destroyer only.\nWhile defending against an attack that targets your front hull zone, before you suffer damage, you may choose and exhaust a copy of this card on another friendly ship at distance 1-4 to reduce the total damage by 1.",
+            "unique": false,
+            "points": 5,
             "modification": false,
-            "bound_shiptype": "consular-class",
+            "bound_shiptype": "",
             "restrictions": {
-                "traits": [""],
+                "traits": ["star-destroyer"],
                 "size": [""],
                 "disqual_upgrades": [""],
-                "disable_upgrades": ["turbolaser","ordnance"],
-                "enable_upgrades": ["fleet-support"],
+                "disable_upgrades": [""],
                 "flagship": false
             },
             "start_command": {

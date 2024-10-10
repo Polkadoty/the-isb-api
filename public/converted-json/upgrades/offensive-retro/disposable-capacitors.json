@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "disposable-capacitors": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 6 Armada",
+        "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
+        "_id": null,
+        "type": "offensive-retro",
+        "faction": [""],
+        "name": "Disposable Capacitors",
+        "unique-class": [""],
+        "ability": "When you activate, you may discard this card. If you do, the blue dice in your battery armament can be used while attacking ships at close-long range until the end of the round.",
+        "unique": false,
+        "points": 3,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": ["small","medium"],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

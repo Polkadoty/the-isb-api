@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "cluster-bombs": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 2 Armada",
+        "expansion": "Home One Expansion Pack (SWM13)",
+        "_id": null,
+        "type": "defensive-retro",
+        "faction": [""],
+        "name": "Cluster Bombs",
+        "unique-class": [""],
+        "ability": "After a squadron performs an attack against you, even if you are destroyed, you may discard this card to roll 4 blue dice. That squadron suffers 1 damage for each :hit: or :critical: icon rolled.",
+        "unique": false,
+        "points": 5,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

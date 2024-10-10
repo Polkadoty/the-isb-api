@@ -1,27 +1,27 @@
 {
     "upgrades": {
-        "radiant-vii": {
+        "stronghold": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "release": "Wave 6 Armada",
+            "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
             "_id": null,
             "type": "title",
-            "faction": ["republic"],
-            "name": "Radiant VII",
-            "unique-class": ["Radiant VII"],
-            "ability": "You gain 1 :fleet-support: icon in your upgrade bar.\nYou cannot equip :turbolaser: or :ordnance: upgrades.",
+            "faction": ["empire"],
+            "name": "Stronghold",
+            "unique-class": ["Stronghold"],
+            "ability": "While a friendly squadron with Swarm at distance 1-2 is defending, the attack is treated as obstructed.",
             "unique": true,
-            "points": 1,
+            "points": 5,
             "modification": false,
-            "bound_shiptype": "consular-class",
+            "bound_shiptype": "quasar-fire-class-cruiser-carrier",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
                 "disqual_upgrades": [""],
-                "disable_upgrades": ["turbolaser","ordnance"],
-                "enable_upgrades": ["fleet-support"],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
                 "flagship": false
             },
             "start_command": {

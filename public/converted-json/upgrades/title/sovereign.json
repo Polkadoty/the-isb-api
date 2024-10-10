@@ -1,27 +1,26 @@
 {
     "upgrades": {
-        "radiant-vii": {
+        "sovereign": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
             "_id": null,
             "type": "title",
-            "faction": ["republic"],
-            "name": "Radiant VII",
-            "unique-class": ["Radiant VII"],
-            "ability": "You gain 1 :fleet-support: icon in your upgrade bar.\nYou cannot equip :turbolaser: or :ordnance: upgrades.",
+            "faction": ["empire"],
+            "name": "Sovereign",
+            "unique-class": ["Sovereign"],
+            "ability": "At the start of Ship Phase, you may exhaust this card to discard 1 command token from up to 3 friendly ships at distance 1-5. If you do, each of those ships may gain 1 command token of any type.",
             "unique": true,
-            "points": 1,
+            "points": 4,
             "modification": false,
-            "bound_shiptype": "consular-class",
+            "bound_shiptype": "imperial-star-destroyer",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
                 "disqual_upgrades": [""],
-                "disable_upgrades": ["turbolaser","ordnance"],
-                "enable_upgrades": ["fleet-support"],
+                "disable_upgrades": [""],
                 "flagship": false
             },
             "start_command": {

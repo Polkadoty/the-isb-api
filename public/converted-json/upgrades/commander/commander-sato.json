@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "commander-sato": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 5 Armada",
+        "expansion": "Phoenix Home Expansion Pack (SWM21)",
+        "_id": null,
+        "type": "commander",
+        "faction": ["rebel"],
+        "name": "Commander Sato",
+        "unique-class": ["Commander Sato"],
+        "ability": "While a friendly ship is attacking a ship at distance 1 of a friendly squadron, before rolling attack dice, the attacker may replace up to 2 dice in its attack pool with an equal number of dice of any color or colors.",
+        "unique": true,
+        "points": 27,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": true
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

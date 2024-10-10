@@ -1,27 +1,27 @@
 {
     "upgrades": {
-        "radiant-vii": {
+        "phoenix-home": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "release": "Wave 5 Armada",
+            "expansion": "Phoenix Home Expansion Pack (SWM21)",
             "_id": null,
             "type": "title",
-            "faction": ["republic"],
-            "name": "Radiant VII",
-            "unique-class": ["Radiant VII"],
-            "ability": "You gain 1 :fleet-support: icon in your upgrade bar.\nYou cannot equip :turbolaser: or :ordnance: upgrades.",
+            "faction": ["rebel"],
+            "name": "Phoenix Home",
+            "unique-class": ["Phoenix Home"],
+            "ability": "You gain 1 additional :officer: icon in your upgrade bar. You can be assigned up to 4 command tokens instead of a number of command tokens equal to your command value.",
             "unique": true,
-            "points": 1,
+            "points": 3,
             "modification": false,
-            "bound_shiptype": "consular-class",
+            "bound_shiptype": "modified-pelta-class",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
                 "disqual_upgrades": [""],
-                "disable_upgrades": ["turbolaser","ordnance"],
-                "enable_upgrades": ["fleet-support"],
+                "disable_upgrades": [""],
+                "enable_upgrades": ["officer"],
                 "flagship": false
             },
             "start_command": {

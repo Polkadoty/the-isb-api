@@ -1,0 +1,23 @@
+- name: Check for enable_upgrades key
+  test: |
+    (key, value, path, obj) => {
+      if (key === 'restrictions' && !obj.hasOwnProperty('enable_upgrades')) {
+        return "Missing 'enable_upgrades' key";
+      }
+    }
+
+- name: Check for flagship key
+  test: |
+    (key, value, path, obj) => {
+      if (key === 'restrictions' && !obj.hasOwnProperty('complex_restrictions')) {
+        return "Missing 'complex_restrictions' key";
+      }
+    }
+
+- name: Check cardimage
+  test: |
+    (key, value, path) => {
+      if (key === 'cardimage' && (!value || !value.startsWith('https://') || value.includes('lensdump'))) {
+        return "Invalid cardimage link";
+      }
+    }

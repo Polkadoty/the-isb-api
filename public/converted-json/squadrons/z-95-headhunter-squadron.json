@@ -1,0 +1,111 @@
+{
+    "squadrons": {
+        "z-95-headhunter-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "z-95-headhunter-squadron",
+            "name": "Z-95 Headhunter Squadron",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": false,
+            "hull": 3,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [3, 0, 0],
+                "anti-ship": [1, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": 0,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "",
+            "unique": false,
+            "points": 7,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        },
+        "blount-95-headhunter-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "z-95-headhunter-squadron",
+            "name": "Z-95 Headhunter Squadron",
+            "ace-name": "Lieutenant Blount",
+            "unique-class": ["Lieutenant Blount"],
+            "irregular": false,
+            "hull": 3,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [3, 0, 0],
+                "anti-ship": [1, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": 0,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "While another friendly squadron with swarm at distance 1 is attacking a squadron, it may reroll 1 die (in addition to any dice rerolled from swarm).",
+            "unique": true,
+            "points": 14,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        }
+        
+    }
+}

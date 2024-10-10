@@ -1,28 +1,27 @@
 {
     "upgrades": {
-        "radiant-vii": {
+        "admiral-raddus": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "release": "Wave 7 Armada",
+            "expansion": "Profundity Expansion Pack (SWM30)",
             "_id": null,
-            "type": "title",
-            "faction": ["republic"],
-            "name": "Radiant VII",
-            "unique-class": ["Radiant VII"],
-            "ability": "You gain 1 :fleet-support: icon in your upgrade bar.\nYou cannot equip :turbolaser: or :ordnance: upgrades.",
+            "type": "commander",
+            "faction": ["rebel"],
+            "name": "Admiral Raddus",
+            "unique-class": ["Admiral Raddus"],
+            "ability": "Before deploying fleets, you may set aside 1 other friendly ship. At the start of any round, you may deploy that ship at distance 1 of a friendly ship. That ship cannot be deployed overlapping squadrons and cannot be the first ship to activate that round. ",
             "unique": true,
-            "points": 1,
+            "points": 26,
             "modification": false,
-            "bound_shiptype": "consular-class",
+            "bound_shiptype": "",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
                 "disqual_upgrades": [""],
-                "disable_upgrades": ["turbolaser","ordnance"],
-                "enable_upgrades": ["fleet-support"],
-                "flagship": false
+                "disable_upgrades": [""],
+                "flagship": true
             },
             "start_command": {
                 "type": "",

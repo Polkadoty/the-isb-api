@@ -1,27 +1,26 @@
 {
     "upgrades": {
-        "radiant-vii": {
+        "jyn-erso": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "release": "Wave 7 Armada",
+            "expansion": "Profundity Expansion Pack (SWM30)",
             "_id": null,
-            "type": "title",
-            "faction": ["republic"],
-            "name": "Radiant VII",
-            "unique-class": ["Radiant VII"],
-            "ability": "You gain 1 :fleet-support: icon in your upgrade bar.\nYou cannot equip :turbolaser: or :ordnance: upgrades.",
+            "type": "weapons-team-offensive-retro",
+            "faction": ["rebel"],
+            "name": "Jyn Erso",
+            "unique-class": ["Jyn Erso"],
+            "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If that ship has no raid tokens, it gains 2 raid tokens of your choice. If that ship has an objective token, you may also gain 1 victory token.",
             "unique": true,
-            "points": 1,
+            "points": 4,
             "modification": false,
-            "bound_shiptype": "consular-class",
+            "bound_shiptype": "",
             "restrictions": {
                 "traits": [""],
                 "size": [""],
                 "disqual_upgrades": [""],
-                "disable_upgrades": ["turbolaser","ordnance"],
-                "enable_upgrades": ["fleet-support"],
+                "disable_upgrades": [""],
                 "flagship": false
             },
             "start_command": {
