@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "anakin-skywalker-commander": {
-            "author": "Atomic Mass Games",
-            "alias": "AMG",
-            "team": "AMG",
-            "release": "Rapid Reinforcements",
-            "expansion": "Rapid Reinforcements II (RR2)",
+        "obi-wan-kenobi-commander": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
             "_id": null,
             "type": "commander",
             "faction": ["republic"],
-            "name": "Anakin Skywalker",
-            "unique-class": ["Anakin Skywalker"],
-            "ability": "While a friendly ship is attacking a ship, if the defender is at distance 1-5 of at least 2 other friendly ships, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If it does, the attacker may reroll up to 3 dice.",
+            "name": "Obi-Wan Kenobi",
+            "unique-class": ["Obi-Wan Kenobi"],
+            "ability": "While a friendly ship is defending, when it spends a readied :redirect: token, it may reduce the total damage by 1 before it suffers damage.",
             "unique": true,
-            "points": 31,
+            "points": 28,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -35,7 +35,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nHW5JT.md.webp"
+            "cardimage": ""
         }
     }
 }

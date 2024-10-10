@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "anakin-skywalker-commander": {
-            "author": "Atomic Mass Games",
-            "alias": "AMG",
-            "team": "AMG",
-            "release": "Rapid Reinforcements",
-            "expansion": "Rapid Reinforcements II (RR2)",
+        "kraken": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
             "type": "commander",
-            "faction": ["republic"],
-            "name": "Anakin Skywalker",
-            "unique-class": ["Anakin Skywalker"],
-            "ability": "While a friendly ship is attacking a ship, if the defender is at distance 1-5 of at least 2 other friendly ships, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If it does, the attacker may reroll up to 3 dice.",
+            "faction": ["separatist"],
+            "name": "Kraken",
+            "unique-class": ["Kraken"],
+            "ability": "Once per activation, while a friendly ship is attacking a ship, if another friendly ship is at close-medium range of the defender, the attacker may change 1 die to a face with any 1 icon (and no other icons).",
             "unique": true,
-            "points": 31,
+            "points": 30,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -35,7 +35,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nHW5JT.md.webp"
+            "cardimage": ""
         }
     }
 }

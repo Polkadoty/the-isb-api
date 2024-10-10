@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "darth-vader-officer": {
+      "hyperspace-rings": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Wave 9 Armada",
+        "expansion": "Galactic Republic Fleet Starter (SWM34)",
         "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Darth Vader",
-        "unique-class": ["Darth Vader"],
-        "ability": "While a friendly ship at distance 1-5 attacking a ship, it may discard 1 of its :commander: or :officer: cards (other than Darth Vader) to reroll any number of dice in its attack pool.",
-        "unique": true,
-        "points": 1,
+        "type": "offensive-retro",
+        "faction": ["republic"],
+        "name": "Hyperspace Rings",
+        "unique-class": [""],
+        "ability": "Before deploying fleets, you may choose a number of friendly, non-rogue squadrons up to your squadron value. Those squadrons gain scout.",
+        "unique": false,
+        "points": 3,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -38,4 +38,4 @@
         "cardimage": ""
       }
     }
-}
+  }

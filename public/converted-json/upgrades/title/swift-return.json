@@ -1,21 +1,21 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "swift-return": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "title",
+            "faction": ["republic"],
+            "name": "Swift Return",
+            "unique-class": ["Swift Return"],
+            "ability": "During your Determine Course step, if you are at distance 1-2 of an obstacle, you may change your speed by 1 or increase 1 yaw value by 1.",
             "unique": true,
-            "points": 5,
+            "points": 3,
             "modification": false,
-            "bound_shiptype": "",
+            "bound_shiptype": "consular-class",
             "restrictions": {
                 "traits": [""],
                 "size": [""],

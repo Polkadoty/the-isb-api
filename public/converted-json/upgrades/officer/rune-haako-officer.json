@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "rune-haako-officer": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "officer",
+            "faction": ["separatist"],
+            "name": "Rune Haako",
+            "unique-class": ["Rune Haako"],
+            "ability": "When you reveal a command, you may choose another friendly ship at distance 1-5. If you do, discard any number of command tokens from that ship, this card, or both, to gain 1 matching command token for each discarded token.",
             "unique": true,
-            "points": 5,
+            "points": 4,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -25,9 +25,9 @@
                 "flagship": false
             },
             "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
+                "type": "token",
+                "start_icon": ["any"],
+                "start_amount": 2
             },
             "exhaust": {
                 "type": "",

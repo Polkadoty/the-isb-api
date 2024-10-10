@@ -1,17 +1,17 @@
 {
     "upgrades": {
-        "all-fighters-follow-me": {
+        "wat-tambor-officer": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+            "type": "officer",
+            "faction": ["separatist"],
+            "name": "Wat Tambor",
+            "unique-class": ["Wat Tambor"],
+            "ability": ":repair: : You may spend up to 2 shields from any of your hull zones or any 1 hull zone on another friendly ship at distance 1-5 to gain twice that many additional engineering points.",
             "unique": true,
             "points": 5,
             "modification": false,

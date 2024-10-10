@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "intensify-firepower": {
+        "t-series-tactical-droid": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Super Star Destroyer",
-            "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
             "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "Intensify Firepower!",
-            "unique-class": ["Intensify Firepower!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :confire: token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 :hit: icon and no other icons.",
-            "unique": true,
-            "points": 6,
+            "type": "officer",
+            "faction": ["separatist"],
+            "name": "T-series Tactical Droid",
+            "unique-class": [""],
+            "ability": "When you spend only a :repair:, :nav: or :squadron: command token to resolve a command, you may exhaust this card. If you do, resolve that command as if you had spent a dial of the same type instead.",
+            "unique": false,
+            "points": 4,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -30,9 +30,9 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
+                "type": "nonnrecur",
+                "ready_token": ["any"],
+                "ready_amount": 1
             },
             "artwork": "",
             "cardimage": ""
