@@ -1,6 +1,6 @@
 {
     "upgrades": {
-        "anakin-skywalker": {
+        "anakin-skywalker-commander": {
             "author": "Atomic Mass Games",
             "alias": "AMG",
             "team": "AMG",
@@ -21,7 +21,6 @@
                 "size": [""],
                 "disqual_upgrades": [""],
                 "disable_upgrades": [""],
-                "enable_upgrades": [""],
                 "flagship": true
             },
             "start_command": {

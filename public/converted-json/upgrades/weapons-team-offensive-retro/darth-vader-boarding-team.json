@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "darth-vader-boarding-team": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
+            "_id": null,
+            "type": "weapons-team-offensive-retro",
+            "faction": ["empire"],
+            "name": "Darth Vader",
+            "unique-class": ["Darth Vader"],
+            "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. Choose and discard 1 non-:commander: upgrade card equipped to that ship.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

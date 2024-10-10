@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "grand-admiral-thrawn": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
+            "_id": null,
+            "type": "commander",
+            "faction": ["empire"],
+            "name": "Grand Admiral Thrawn",
+            "unique-class": ["Grand Admiral Thrawn"],
+            "ability": "Choose command dials for this card after deploying fleets.\nAt the start of each Ship Phase, you may reveal and discard 1 dial from this card. If you do, until the end of the round, when each friendly ship activates, it gains 1 additional dial matching that discarded dial. ",
+            "unique": true,
+            "points": 32,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "dial",
+                "start_icon": ["any"],
+                "start_amount": 3
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
