@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "veteran-captain-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 1 Armada",
+        "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+        "_id": null,
+        "type": "officer",
+        "faction": ["rebel"],
+        "name": "Veteran Captain",
+        "unique-class": [""],
+        "ability": "When you reveal a command, you may discard this card to gain 1 command token of your choice.",
+        "unique": false,
+        "points": 3,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
