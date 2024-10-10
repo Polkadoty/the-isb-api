@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "general-cracken": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 3 Armada",
+            "expansion": "Rebel Transports Expansion Pack (SWM19)",
+            "_id": null,
+            "type": "commander",
+            "faction": ["rebel"],
+            "name": "General Cracken",
+            "unique-class": ["General Cracken"],
+            "ability": "While a friendly small or medium ship is defending against a ship, if the defender is at speed 3 or higher, the attack is treated as obstructed.",
+            "unique": true,
+            "points": 26,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
