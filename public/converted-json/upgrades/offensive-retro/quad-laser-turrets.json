@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "quad-laser-turrets": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 2 Armada",
+        "expansion": "Imperial Raider Expansion Pack (SWM15)",
+        "_id": null,
+        "type": "offensive-retro",
+        "faction": [""],
+        "name": "Quad Laser Turrets",
+        "unique-class": [""],
+        "ability": "While defending at distance 1, if the attacker is a squadron, you have Counter 1.",
+        "unique": false,
+        "points": 5,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
