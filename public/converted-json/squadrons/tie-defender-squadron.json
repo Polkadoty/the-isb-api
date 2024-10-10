@@ -51,7 +51,7 @@
             "points": 16,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://b.l3n.co/i/nmbcWK.md.png"
         },
         "maarek-stele-tie-defender-squadron": {
             "author": "Fantasy Flight Games",
@@ -88,7 +88,7 @@
                 "counter": 0,
                 "dodge": 0,
                 "escort": false,
-                "grit": false,
+                "grit": true,
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
@@ -99,12 +99,12 @@
                 "strategic": false,
                 "swarm": false
             },
-            "ability": "While attacking, you may change 1 die to a face with a :critical: icon.",
+            "ability": "While attacking, you may change 1 die to a face with a :crit: icon.",
             "unique": true,
             "points": 21,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://a.l3n.co/i/nmbmAz.md.png"
         }
     }
 }

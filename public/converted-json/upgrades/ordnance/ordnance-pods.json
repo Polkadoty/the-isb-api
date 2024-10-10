@@ -1,27 +1,26 @@
 {
     "upgrades": {
-      "darth-vader": {
+      "ordnance-pods": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Wave 7 Armada",
+        "expansion": "Profundity Expansion Pack (SWM30)",
         "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Darth Vader",
-        "unique-class": ["Darth Vader"],
-        "ability": "While a friendly ship at distance 1-5 attacking a ship, it may discard 1 of its :commander: or :officer: cards (other than Darth Vader) to reroll any number of dice in its attack pool.",
-        "unique": true,
-        "points": 1,
+        "type": "ordnance",
+        "faction": [""],
+        "name": "Ordnance Pods",
+        "unique-class": [""],
+        "ability": "Medium or large ship only.\nAt the end of your Attack Step, you may exhaust this card and choose 1 of your hull zones. Then perform an attack from that hull zone with an anti-squadron armament of 1 black die, even if you have already attacked from that zone this round.",
+        "unique": false,
+        "points": 3,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
           "traits": [""],
-          "size": [""],
+          "size": ["medium","large"],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
-          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {
@@ -38,4 +37,5 @@
         "cardimage": ""
       }
     }
-}
+  }
+  

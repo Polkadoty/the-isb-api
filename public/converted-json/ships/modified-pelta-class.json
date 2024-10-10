@@ -58,7 +58,7 @@
                         "squadron": 1,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "support-team", "fleet-command", "ordnance", "title"],
+                    "upgrades": ["commander", "officer", "support-team", "fleet-command", "ordnance", "title"],
                     "armament": {
                         "asa": [0, 1, 1],
                         "front": [2, 0, 2],
@@ -70,7 +70,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://b.l3n.co/i/zGSrMo.md.png"
                 },
                 "modified-pelta-class-command-ship": {
                     "author": "Fantasy Flight Games",
@@ -99,7 +99,7 @@
                         "squadron": 3,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "support-team", "fleet-command", "offensive-retro", "title"],
+                    "upgrades": ["commander", "officer", "support-team", "fleet-command", "offensive-retro", "title"],
                     "armament": {
                         "asa": [0, 1, 0],
                         "front": [2, 2, 0],
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://a.l3n.co/i/zGSgqi.md.png"
                 }
             }
         }

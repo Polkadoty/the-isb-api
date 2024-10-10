@@ -1,6 +1,6 @@
 {
   "upgrades": {
-    "wullf-yularen": {
+    "leia-organa-officer": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
@@ -8,12 +8,12 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "officer",
-      "faction": ["empire"],
-      "name": "Wullf Yularen",
-      "unique-class": ["Wullf Yularen"],
-      "ability": "When you spend a command token, you may exhaust this card to gain 1 command token of the same type",
+      "faction": ["rebel"],
+      "name": "Leia Organa",
+      "unique-class": ["Leia Organa"],
+      "ability": "When you reveal a command, you may choose another friendly ship at distance 1-5 and change that ship's top command to your revealed command.",
       "unique": true,
-      "points": 7,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -30,12 +30,12 @@
         "start_amount": 0
       },
       "exhaust": {
-        "type": "recur",
+        "type": "",
         "ready_token": [""],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://b.l3n.co/i/n3hz1Z.md.webp"
+      "cardimage": "https://c.l3n.co/i/n3hsje.md.webp"
     }
   }
 }

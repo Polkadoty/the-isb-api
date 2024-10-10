@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "swivel-mount-batteries": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 9 Armada",
+        "expansion": "Galactic Republic Fleet Starter (SWM34)",
+        "_id": null,
+        "type": "turbolaser",
+        "faction": ["republic","separatist"],
+        "name": "Swivel-Mount Batteries",
+        "unique-class": [""],
+        "ability": "_Modification_. \nWhen you reveal a command, you may exhaust this card to choose 1 of your hull zones and mark it with a focus token. While attacking a ship from that hull zone, add 1 die of any color from an adjacent hull zone's armament to your attack pool. While attacking from adjacent hull zones, remove 1 die from your attack pool. When you ready this card, remove that focus token.",
+        "unique": false,
+        "points": 8,
+        "modification": true,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "nonrecur",
+          "ready_token": ["confire"],
+          "ready_amount": 1
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+  }
+  

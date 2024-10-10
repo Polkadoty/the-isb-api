@@ -1,27 +1,26 @@
 {
     "upgrades": {
-      "emperor-palpatine": {
+      "hardened-bulkheads": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Wave 7 Armada",
+        "expansion": "Chimaera Expansion Pack (SWM29)",
         "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Emperor Palpatine",
-        "unique-class": ["Emperor Palpatine"],
-        "ability": "When an enemy ship or unique squadron declares you as the target of an attack, it must spend 1 of its defense tokens (if able).",
-        "unique": true,
-        "points": 3,
+        "type": "offensive-retro",
+        "faction": [""],
+        "name": "Hardened Bulkheads",
+        "unique-class": [""],
+        "ability": "Large ship only.\nWhen you overlap a ship of a smaller size class (or are overlapped by a ship of a smaller size class), deal 1 fewer facedown damage card to your ship.",
+        "unique": false,
+        "points": 5,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
           "traits": [""],
-          "size": [""],
+          "size": ["large"],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
-          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {
@@ -38,4 +37,5 @@
         "cardimage": ""
       }
     }
-}
+  }
+  

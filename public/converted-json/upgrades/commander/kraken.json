@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "kraken": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+            "_id": null,
+            "type": "commander",
+            "faction": ["separatist"],
+            "name": "Kraken",
+            "unique-class": ["Kraken"],
+            "ability": "Once per activation, while a friendly ship is attacking a ship, if another friendly ship is at close-medium range of the defender, the attacker may change 1 die to a face with any 1 icon (and no other icons).",
+            "unique": true,
+            "points": 30,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

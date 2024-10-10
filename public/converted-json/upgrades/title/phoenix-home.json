@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "phoenix-home": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Phoenix Home Expansion Pack (SWM21)",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Phoenix Home",
+            "unique-class": ["Phoenix Home"],
+            "ability": "You gain 1 additional :officer: icon in your upgrade bar. You can be assigned up to 4 command tokens instead of a number of command tokens equal to your command value.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "modified-pelta-class",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": ["officer"],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

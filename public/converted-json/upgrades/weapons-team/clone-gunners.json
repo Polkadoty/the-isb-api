@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "clone-gunners": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 9 Armada",
+        "expansion": "Galactic Republic Fleet Starter (SWM34)",
+        "_id": null,
+        "type": "weapons-team",
+        "faction": ["republic"],
+        "name": "Clone Gunners",
+        "unique-class": [""],
+        "ability": ":confire:: You may discard a :confire: token assigned to another friendly ship at distance 1-5 of the defender. If you do, add 1 blue die set to the :accuracy: to your attack pool.",
+        "unique": false,
+        "points": 4,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": ["Clone"],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+  }
+  

@@ -1,0 +1,40 @@
+{
+    "upgrades": {
+        "profundity": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Profundity Expansion Pack (SWM30)",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Profundity",
+            "unique-class": ["Profundity"],
+            "ability": "Before deploying fleets, you may set aside 1 small ship with a command value of 1.\nAt the start of any round, you may deploy the set-aside ship at distance 1. You may un-equip up to 1 :commander: and 1 :officer: upgrade cards and equip them to it (if able).",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "mc75-cruiser",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

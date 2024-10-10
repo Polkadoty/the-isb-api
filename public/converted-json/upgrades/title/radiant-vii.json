@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "radiant-vii": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "_id": null,
+            "type": "title",
+            "faction": ["republic"],
+            "name": "Radiant VII",
+            "unique-class": ["Radiant VII"],
+            "ability": "You gain 1 :fleet-support: icon in your upgrade bar.\nYou cannot equip :turbolaser: or :ordnance: upgrades.",
+            "unique": true,
+            "points": 1,
+            "modification": false,
+            "bound_shiptype": "consular-class",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": ["turbolaser","ordnance"],
+                "enable_upgrades": ["fleet-support"],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
