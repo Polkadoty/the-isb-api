@@ -1,19 +1,19 @@
 {
   "upgrades": {
-    "wullf-yularen": {
+    "assault-proton-torpedoes": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
+      "release": "Wave 2 Armada",
+      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
       "_id": null,
-      "type": "officer",
-      "faction": ["empire"],
-      "name": "Wullf Yularen",
-      "unique-class": ["Wullf Yularen"],
-      "ability": "When you spend a command token, you may exhaust this card to gain 1 command token of the same type",
-      "unique": true,
-      "points": 7,
+      "type": "ordnance",
+      "faction": [""],
+      "name": "Assault Proton Torpedoes",
+      "unique-class": [""],
+      "ability": "BLACK :crit: : Exhaust this card to deal 1 faceup damage card to the defender.",
+      "unique": false,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -35,7 +35,7 @@
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://b.l3n.co/i/n3hz1Z.md.webp"
+      "cardimage": "https://a.l3n.co/i/nSyoQP.md.png"
     }
   }
 }
