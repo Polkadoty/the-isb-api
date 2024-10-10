@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "boarding-engineers": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 6 Armada",
+        "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
+        "_id": null,
+        "type": "weapons-team-offensive-retro",
+        "faction": [""],
+        "name": "Boarding Troopers",
+        "unique-class": [""],
+        "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. Look at its facedown damage cards and flip a number of them faceup up to your engineering value (one at a time).",
+        "unique": false,
+        "points": 2,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
