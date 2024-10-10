@@ -7,6 +7,15 @@ const upgradeRoutes = require('./routes/upgradeRoutes');
 const errorHandler = require('./middleware/errorHandler');
 const baseRoutes = require('./routes/baseRoutes');
 const objectiveRoutes = require('./routes/objectiveRoutes');
+const customshipRoutes = require('./routes/customshipRoutes');
+const customsquadronRoutes = require('./routes/customsquadronRoutes');
+const customupgradeRoutes = require('./routes/customupgradeRoutes');
+const customobjectiveRoutes = require('./routes/customobjectiveRoutes');
+const connectDB = require('./config/database');
+require('dotenv').config();
+
+// Connect to MongoDB
+connectDB();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -21,6 +30,11 @@ app.use('/api/ships', shipRoutes);
 app.use('/api/squadrons', squadronRoutes);
 app.use('/api/upgrades', upgradeRoutes);
 app.use('/api/objectives', objectiveRoutes);
+
+app.use('/custom/ships', customshipRoutes);
+app.use('/custom/squadrons', customsquadronRoutes);
+app.use('/custom/upgrades', customupgradeRoutes);
+app.use('/custom/objectives', customobjectiveRoutes);
 
 app.use(errorHandler);
 
