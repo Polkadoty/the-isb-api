@@ -105,6 +105,59 @@
             "silhouette": "",
             "artwork": "",
             "cardimage": "https://b.l3n.co/i/nm59lb.md.png"
+        },
+        "malee-hurra-h6-bomber": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Rebellion in the Rim Campaign Armada",
+            "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "scurrg-h-6-bomber",
+            "name": "Scurrg H-6 Bomber",
+            "ace-name": "Malee Hurra",
+            "unique-class": ["Malee Hurra"],
+            "irregular": true,
+            "hull": 6,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [1, 1, 0],
+                "anti-ship": [0, 2, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": true,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": false,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "Once per activation, while a friendly ship is attacking a ship at distance 1 of you and you are engaged by 1 or fewer squadrons, the attacker may spend 1 die to change 1 die to a face with a :crit: icon.",
+            "unique": true,
+            "points": 26,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
         }
     }
 }
