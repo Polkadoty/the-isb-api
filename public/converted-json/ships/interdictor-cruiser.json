@@ -1,0 +1,119 @@
+{
+    "ships": {
+        "interdictor-cruiser": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "interdictor-cruiser",
+            "size": "medium",
+            "hull": 9,
+            "speed": {
+                "1": [1],
+                "2": [1, 1],
+                "3": [],
+                "4": []
+            },
+            "shields": {
+                "front": 3,
+                "rear": 2,
+                "left": 2,
+                "right": 2,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "interdictor-suppression-refit": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 4 Armada",
+                    "expansion": "Interdictor Expansion Pack (SWM16)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "interdictor-cruiser",
+                    "name": "Interdictor Suppression Refit",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 90,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 2,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 2,
+                        "squadron": 2,
+                        "engineer": 5
+                    },
+                    "upgrades": ["commander", "officer", "support-team", "offensive-retro", "experimental-retro", "experimental-retro", "ion-cannon", "title"],
+                    "armament": {
+                        "asa": [0, 1, 0],
+                        "front": [1, 3, 0],
+                        "rear": [1, 2, 0],
+                        "left": [1, 3, 0],
+                        "right": [1, 3, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "[link to image]",
+                    "cardimage": ""
+                },
+                "interdictor-combat-refit": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 4 Armada",
+                    "expansion": "Interdictor Expansion Pack (SWM16)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "interdictor-cruiser",
+                    "name": "Interdictor Combat Refit",
+                    "faction": "empire",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 93,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 1,
+                        "def_redirect": 1,
+                        "def_contain": 2,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 2,
+                        "squadron": 2,
+                        "engineer": 5
+                    },
+                    "upgrades": ["commander", "officer", "support-team", "offensive-retro", "experimental-retro", "ion-cannon", "title"],
+                    "armament": {
+                        "asa": [0, 1, 1],
+                        "front": [2, 2, 0],
+                        "rear": [1, 2, 0],
+                        "left": [2, 2, 0],
+                        "right": [2, 2, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "[link to image]",
+                    "cardimage": ""
+                }
+            }
+        }
+    }
+}
