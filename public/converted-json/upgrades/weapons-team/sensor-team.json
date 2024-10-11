@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "sensor-team": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 1 Armada",
+        "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+        "_id": null,
+        "type": "weapons-team",
+        "faction": [""],
+        "name": "Sensor Team",
+        "unique-class": [""],
+        "ability": "While attacking, you may exhaust this card and spend 1 die to change 1 of your dice to a face with an :accuracy: icon.",
+        "unique": false,
+        "points": 5,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
