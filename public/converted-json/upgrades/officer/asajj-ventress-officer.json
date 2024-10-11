@@ -1,19 +1,19 @@
 {
     "upgrades": {
-        "general-draven": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 7 Armada",
-            "expansion": "Profundity Expansion Pack (SWM30)",
+        "asajj-ventress-officer": {
+            "author": "Atomic Mass Games",
+            "alias": "AMG",
+            "team": "AMG",
+            "release": "Rapid Reinforcements",
+            "expansion": "Rapid Reinforcements II (RR2)",
             "_id": null,
             "type": "officer",
-            "faction": ["rebel"],
-            "name": "General Draven",
-            "unique-class": ["General Draven"],
-            "ability": "While attacking a squadron with counter or intel, add 1 die of any color to your attack pool.",
+            "faction": ["separatist"],
+            "name": "Asajj Ventress",
+            "unique-class": ["Asajj Ventress"],
+            "ability": "After you perform an attack targeting a ship that has 1 or more raid tokens, if the defender suffered one or more damage, you may remove 1 raid token and 1 command token from the defender. If you do, gain a matching command token.",
             "unique": true,
-            "points": 3,
+            "points": 4,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -21,6 +21,7 @@
                 "size": [""],
                 "disqual_upgrades": [""],
                 "disable_upgrades": [""],
+                "enable_upgrades": [""],
                 "flagship": false
             },
             "start_command": {
