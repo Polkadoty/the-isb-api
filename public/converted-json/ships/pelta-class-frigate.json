@@ -1,9 +1,9 @@
 {
     "ships": {
-        "pelta-class-frigate-gar": {
+        "pelta-class-frigate": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "pelta-class-frigate-gar",
+            "chassis_name": "pelta-class-frigate",
             "size": "small",
             "hull": 5,
             "speed": {
@@ -39,7 +39,7 @@
                     "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "pelta-class-frigate-gar",
+                    "chassis": "pelta-class-frigate",
                     "name": "Pelta-class Medical Frigate",
                     "faction": "republic",
                     "unique": false,
@@ -70,7 +70,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://b.l3n.co/i/zxgmXF.md.png"
                 },
                 "pelta-class-transport-frigate": {
                     "author": "Fantasy Flight Games",
@@ -80,7 +80,7 @@
                     "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "pelta-class-frigate-gar",
+                    "chassis": "pelta-class-frigate",
                     "name": "Pelta-class Transport Frigate",
                     "faction": "republic",
                     "unique": false,
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://a.l3n.co/i/zxg440.md.png"
                 }
             }
         }
