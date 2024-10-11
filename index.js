@@ -16,6 +16,7 @@ require('dotenv').config();
 
 // Connect to MongoDB
 connectDB();
+console.log('MongoDB connected successfully');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -37,6 +38,11 @@ app.use('/custom/upgrades', customupgradeRoutes);
 app.use('/custom/objectives', customobjectiveRoutes);
 
 app.use(errorHandler);
+
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

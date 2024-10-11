@@ -2,11 +2,17 @@ const CustomSquadron = require('../models/customSquadron');
 
 exports.getAllCustomSquadrons = async (req, res) => {
   try {
-    const customSquadrons = await CustomSquadron.find();
-    res.json(customSquadrons);
+    console.log('Fetching all custom squadrons');
+    const customSquadron = await CustomSquadron.findOne();
+    console.log('Custom squadron data:', customSquadron);
+    if (!customSquadron || !customSquadron.squadrons) {
+      console.log('No custom squadrons found');
+      return res.json({ squadrons: {} });
+    }
+    res.json({ squadrons: customSquadron.squadrons.toObject() });
   } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server Error');
+    console.error('Error in getAllCustomSquadrons:', err);
+    res.status(500).json({ error: 'Server Error', details: err.message });
   }
 };
 
@@ -69,5 +75,29 @@ exports.deleteCustomSquadron = async (req, res) => {
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
+  }
+};
+
+exports.debugDatabase = async (req, res) => {
+  try {
+    console.log('Debugging database contents');
+    const allCollections = await mongoose.connection.db.listCollections().toArray();
+    console.log('All collections:', allCollections.map(c => c.name));
+
+    const squadronCollection = mongoose.connection.db.collection('squadrons');
+    const squadronCount = await squadronCollection.countDocuments();
+    console.log('Squadron count:', squadronCount);
+
+    const sampleSquadrons = await squadronCollection.find().limit(5).toArray();
+    console.log('Sample squadrons:', JSON.stringify(sampleSquadrons, null, 2));
+
+    res.json({ 
+      collections: allCollections.map(c => c.name),
+      squadronCount,
+      sampleSquadrons
+    });
+  } catch (err) {
+    console.error('Error in debugDatabase:', err);
+    res.status(500).json({ error: 'Server Error', details: err.message });
   }
 };

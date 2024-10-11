@@ -8,5 +8,6 @@ router.get('/:squadronName', customSquadronController.getCustomSquadronByName);
 router.post('/', auth, customSquadronController.createCustomSquadron);
 router.put('/:squadronName', auth, customSquadronController.updateCustomSquadron);
 router.delete('/:squadronName', auth, customSquadronController.deleteCustomSquadron);
+router.get('/debug', customSquadronController.debugDatabase);
 
 module.exports = router;
