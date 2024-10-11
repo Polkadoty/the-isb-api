@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "admiral-chiraneau-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 1 Armada",
+        "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["empire"],
+        "name": "Admiral Chiraneau",
+        "unique-class": ["Admiral Chiraneau"],
+        "ability": ":Squadron:; Squadrons that you activate can move even if they are engaged. When an engaged squadron moves in this way, treat it as having a printed speed of 2.",
+        "unique": true,
+        "points": 10,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

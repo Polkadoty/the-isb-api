@@ -1,22 +1,22 @@
 {
     "ships": {
-        "mc80h-cruiser": {
+        "pelta-class-frigate-gar": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "mc80h-cruiser",
-            "size": "large",
-            "hull": 8,
+            "chassis_name": "pelta-class-frigate-gar",
+            "size": "small",
+            "hull": 5,
             "speed": {
-                "1": [1],
+                "1": [2],
                 "2": [1, 1],
                 "3": [],
                 "4": []
             },
             "shields": {
-                "front": 4,
-                "rear": 3,
-                "left": 4,
-                "right": 4,
+                "front": 3,
+                "rear": 1,
+                "left": 2,
+                "right": 2,
                 "left_aux": 0,
                 "right_aux": 0
             },
@@ -31,87 +31,87 @@
             "silhouette": "",
             "blueprint": "",
             "models": {
-                "mc80h-assault-cruiser": {
+                "pelta-class-medical-frigate": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "Home One Expansion Pack (SWM13)",
+                    "release": "Wave 10 Armada",
+                    "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "mc80h-cruiser",
-                    "name": "MC80 Assault Cruiser",
-                    "faction": "rebel",
+                    "chassis": "pelta-class-frigate-gar",
+                    "name": "Pelta-class Medical Frigate",
+                    "faction": "republic",
                     "unique": false,
-                    "traits": ["MC"],
-                    "points": 114,
+                    "traits": ["Clone","Medical"],
+                    "points": 49,
                     "tokens": {
                         "def_scatter": 0,
-                        "def_evade": 0,
+                        "def_evade": 1,
                         "def_brace": 1,
-                        "def_redirect": 2,
-                        "def_contain": 1,
+                        "def_redirect": 1,
+                        "def_contain": 0,
                         "def_salvo": 0
                     },
                     "values": {
-                        "command": 3,
-                        "squadron": 3,
+                        "command": 2,
+                        "squadron": 2,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "officer", "support-team", "defensive-retro", "defensive-retro", "ion-cannon", "turbolaser", "title"],
+                    "upgrades": ["commander", "officer", "support-team", "fleet-support", "offensive-retro", "title"],
                     "armament": {
-                        "asa": [0, 2, 0],
+                        "asa": [0, 1, 0],
                         "front": [2, 1, 0],
-                        "rear": [2, 1, 0],
-                        "left": [4, 2, 0],
-                        "right": [4, 2, 0],
+                        "rear": [2, 0, 0],
+                        "left": [1, 1, 0],
+                        "right": [1, 1, 0],
                         "left_aux": [0, 0, 0],
                         "right_aux": [0, 0, 0],
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": "https://c.l3n.co/i/zGzaax.md.png"
+                    "cardimage": ""
                 },
-                "mc80h-command-cruiser": {
+                "pelta-class-transport-frigate": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "Home One Expansion Pack (SWM13)",
+                    "release": "Wave 10 Armada",
+                    "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "mc80h-cruiser",
-                    "name": "MC80 Command Cruiser",
-                    "faction": "rebel",
+                    "chassis": "pelta-class-frigate-gar",
+                    "name": "Pelta-class Transport Frigate",
+                    "faction": "republic",
                     "unique": false,
-                    "traits": ["MC"],
-                    "points": 106,
+                    "traits": ["Clone","Transport"],
+                    "points": 45,
                     "tokens": {
                         "def_scatter": 0,
-                        "def_evade": 0,
+                        "def_evade": 1,
                         "def_brace": 1,
-                        "def_redirect": 2,
-                        "def_contain": 1,
+                        "def_redirect": 1,
+                        "def_contain": 0,
                         "def_salvo": 0
                     },
                     "values": {
-                        "command": 3,
-                        "squadron": 4,
+                        "command": 2,
+                        "squadron": 1,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "officer", "support-team", "offensive-retro", "defensive-retro", "ion-cannon", "turbolaser", "title"],
+                    "upgrades": ["commander", "officer", "support-team", "fleet-support", "defensive-retro", "title"],
                     "armament": {
                         "asa": [0, 1, 1],
-                        "front": [1, 2, 0],
-                        "rear": [1, 2, 0],
-                        "left": [3, 3, 0],
-                        "right": [3, 3, 0],
+                        "front": [2, 0, 1],
+                        "rear": [2, 0, 0],
+                        "left": [1, 0, 1],
+                        "right": [1, 0, 1],
                         "left_aux": [0, 0, 0],
                         "right_aux": [0, 0, 0],
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": "https://a.l3n.co/i/zGzGMk.md.png"
+                    "cardimage": ""
                 }
             }
         }

@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "advanced-projectors": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 1 Armada",
+        "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+        "_id": null,
+        "type": "defensive-retro",
+        "faction": [""],
+        "name": "Advanced Projectors",
+        "unique-class": [""],
+        "ability": "When you resolve the :redirect: token effect, you can choose more than one hull zone to suffer damage, which may include a nonadjacent hull zone",
+        "unique": false,
+        "points": 6,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 1
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
