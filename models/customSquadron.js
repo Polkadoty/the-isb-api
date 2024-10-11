@@ -56,7 +56,7 @@ const SquadronSchema = new mongoose.Schema({
 
 const CustomSquadronSchema = new mongoose.Schema({
   squadrons: {
-    type: Map,
+    type: Object,
     of: SquadronSchema
   }
 });

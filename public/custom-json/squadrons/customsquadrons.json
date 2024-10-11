@@ -1,0 +1,256 @@
+{
+  "squadrons": {
+    "tie-avenger-squadron": {
+      "author": "Arslanxelan",
+      "alias": "Arslanxelan",
+      "team": "Arslanxelan",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends - TIE Avenger",
+      "_id": "e10702b7-b6fe-4889-a8ec-2ac7c086a594",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-avenger-squadron",
+      "name": "TIE Avenger",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 2,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nnmP9o.md.png"
+    },
+    "tie-avenger-avenger-squadron": {
+      "author": "Arslanxelan",
+      "alias": "Arslanxelan",
+      "team": "Arslanxelan",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends - TIE Avenger",
+      "_id": "2d0ed299-3049-48d9-bd00-3ed657a311dd",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-avenger-squadron",
+      "name": "TIE Avenger Squadron",
+      "ace-name": "Avenger Squadron",
+      "unique-class": [
+        "Avenger Squadron"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 2,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://c.l3n.co/i/nnmfL9.md.png"
+    },
+    "darth-vader-tie-avenger": {
+      "author": "Arslanxelan",
+      "alias": "Arslanxelan",
+      "team": "Arslanxelan",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends - TIE Avenger",
+      "_id": "16b37c03-f08a-4781-9146-f083ce6700f2",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-avenger-squadron",
+      "name": "TIE Avenger Squadron",
+      "ace-name": "Darth Vader",
+      "unique-class": [
+        "Darth Vader"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 2,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When performing an attack at distance 2 your :crit: icons add one to the damage total.\nWhile performing a Snipe attack, you may replace any number of blue dice with black dice.",
+      "unique": true,
+      "points": 25,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://a.l3n.co/i/nnmbX5.md.png"
+    },
+    "maarek-stele-avenger": {
+      "author": "Arslanxelan",
+      "alias": "Arslanxelan",
+      "team": "Arslanxelan",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends - TIE Avenger",
+      "_id": "1b3cd7d1-b54e-40ee-b6dd-872b1a56c07a",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-avenger-squadron",
+      "name": "TIE Avenger Squadron",
+      "ace-name": "Maarek Stele",
+      "unique-class": [
+        "Maarek Stele"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking squadrons, you may change 1 die to a face with a :accuracy: icon.",
+      "unique": true,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://b.l3n.co/i/nnmxrz.md.png"
+    }
+  }
+}

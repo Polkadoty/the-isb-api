@@ -6,7 +6,10 @@ const directories = {
   ships: path.join(__dirname, 'public/converted-json/ships'),
   squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
   upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
-  objectives: path.join(__dirname, 'public/converted-json/objectives')
+  objectives: path.join(__dirname, 'public/converted-json/objectives'),
+  customships: path.join(__dirname, 'public/custom-json/ships'),
+  customsquadrons: path.join(__dirname, 'public/custom-json/squadrons'),
+  customupgrades: path.join(__dirname, 'public/custom-json/upgrades')
 };
 
 function updateIdsAndCombine(directory, outputFileName) {
@@ -62,7 +65,10 @@ function parseArgs() {
     ships: args.includes('-ships'),
     squadrons: args.includes('-squadrons'),
     upgrades: args.includes('-upgrades'),
-    objectives: args.includes('-objectives')
+    objectives: args.includes('-objectives'),
+    customships: args.includes('-customships'),
+    customsquadrons: args.includes('-customsquadrons'),
+    customupgrades: args.includes('-customupgrades')
   };
 }
 
@@ -81,8 +87,17 @@ if (flags.upgrades) {
 if (flags.objectives) {
   updateIdsAndCombine(directories.objectives, 'objectives.json');
 }
+if (flags.customships) {
+  updateIdsAndCombine(directories.customships, 'customships.json');
+}
+if (flags.customsquadrons) {
+  updateIdsAndCombine(directories.customsquadrons, 'customsquadrons.json');
+}
+if (flags.customupgrades) {
+  updateIdsAndCombine(directories.customupgrades, 'customupgrades.json');
+}
 
 // If no flags are provided, inform the user
 if (!Object.values(flags).some(Boolean)) {
-  console.log('Please provide at least one flag: -ships, -squadrons, -upgrades, -objectives');
+  console.log('Please provide at least one flag: -ships, -squadrons, -upgrades, -objectives, -customships, -customsquadrons, -customupgrades');
 }

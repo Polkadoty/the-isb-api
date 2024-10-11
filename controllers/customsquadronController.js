@@ -4,12 +4,17 @@ exports.getAllCustomSquadrons = async (req, res) => {
   try {
     console.log('Fetching all custom squadrons');
     const customSquadron = await CustomSquadron.findOne();
-    console.log('Custom squadron data:', customSquadron);
-    if (!customSquadron || !customSquadron.squadrons) {
-      console.log('No custom squadrons found');
+    console.log('Raw custom squadron data:', JSON.stringify(customSquadron));
+    if (!customSquadron) {
+      console.log('No custom squadron document found in the database');
       return res.json({ squadrons: {} });
     }
-    res.json({ squadrons: customSquadron.squadrons.toObject() });
+    if (!customSquadron.squadrons) {
+      console.log('Custom squadron document found, but no squadrons property');
+      return res.json({ squadrons: {} });
+    }
+    console.log('Number of squadrons found:', Object.keys(customSquadron.squadrons).length);
+    res.json({ squadrons: customSquadron.squadrons });
   } catch (err) {
     console.error('Error in getAllCustomSquadrons:', err);
     res.status(500).json({ error: 'Server Error', details: err.message });
@@ -18,11 +23,11 @@ exports.getAllCustomSquadrons = async (req, res) => {
 
 exports.getCustomSquadronByName = async (req, res) => {
   try {
-    const customSquadron = await CustomSquadron.findOne({ [`squadrons.${req.params.squadronName}`]: { $exists: true } });
-    if (!customSquadron) {
+    const customSquadron = await CustomSquadron.findOne();
+    if (!customSquadron || !customSquadron.squadrons[req.params.squadronName]) {
       return res.status(404).json({ msg: 'Squadron not found' });
     }
-    res.json(customSquadron.squadrons.get(req.params.squadronName));
+    res.json(customSquadron.squadrons[req.params.squadronName]);
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
@@ -35,9 +40,9 @@ exports.createCustomSquadron = async (req, res) => {
     if (!customSquadron) {
       customSquadron = new CustomSquadron({ squadrons: {} });
     }
-    customSquadron.squadrons.set(req.body.name, req.body);
+    customSquadron.squadrons[req.body.name] = req.body;
     await customSquadron.save();
-    res.json(customSquadron.squadrons.get(req.body.name));
+    res.json(customSquadron.squadrons[req.body.name]);
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
@@ -46,15 +51,18 @@ exports.createCustomSquadron = async (req, res) => {
 
 exports.updateCustomSquadron = async (req, res) => {
   try {
-    let customSquadron = await CustomSquadron.findOne({ [`squadrons.${req.params.squadronName}`]: { $exists: true } });
-    if (!customSquadron) {
+    let customSquadron = await CustomSquadron.findOne();
+    if (!customSquadron || !customSquadron.squadrons[req.params.squadronName]) {
       return res.status(404).json({ msg: 'Squadron not found' });
     }
     
-    customSquadron.squadrons.set(req.params.squadronName, { ...customSquadron.squadrons.get(req.params.squadronName), ...req.body });
+    customSquadron.squadrons[req.params.squadronName] = { 
+      ...customSquadron.squadrons[req.params.squadronName], 
+      ...req.body 
+    };
     await customSquadron.save();
     
-    res.json(customSquadron.squadrons.get(req.params.squadronName));
+    res.json(customSquadron.squadrons[req.params.squadronName]);
   } catch (err) {
     console.error(err.message);
     res.status(500).send('Server Error');
@@ -63,12 +71,12 @@ exports.updateCustomSquadron = async (req, res) => {
 
 exports.deleteCustomSquadron = async (req, res) => {
   try {
-    const customSquadron = await CustomSquadron.findOne({ [`squadrons.${req.params.squadronName}`]: { $exists: true } });
-    if (!customSquadron) {
+    const customSquadron = await CustomSquadron.findOne();
+    if (!customSquadron || !customSquadron.squadrons[req.params.squadronName]) {
       return res.status(404).json({ msg: 'Squadron not found' });
     }
     
-    customSquadron.squadrons.delete(req.params.squadronName);
+    delete customSquadron.squadrons[req.params.squadronName];
     await customSquadron.save();
     
     res.json({ msg: 'Squadron removed' });
