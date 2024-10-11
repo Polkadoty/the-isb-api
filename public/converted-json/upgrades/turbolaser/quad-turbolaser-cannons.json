@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "quad-turbolaser-cannons": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 4 Armada",
+        "expansion": "Liberty Expansion Pack (SWM17)",
+        "_id": null,
+        "type": "turbolaser",
+        "faction": [""],
+        "name": "Quad Battery Turrets",
+        "unique-class": [""],
+        "ability": "_Modification_. \nWhile attacking, if at least 1 red die face has an :accuracy: icon, add 1 red die set to the :accuracy: icon to your attack pool.",
+        "unique": false,
+        "points": 10,
+        "modification": true,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
