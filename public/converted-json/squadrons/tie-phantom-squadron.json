@@ -1,0 +1,112 @@
+{
+    "squadrons": {
+        "tie-phantom-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-phantom-squadron",
+            "name": "TIE Phantom Squadron",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": false,
+            "hull": 4,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [2, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": true,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "points": 14,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://b.l3n.co/i/nmbwGm.md.png"
+        },
+        "whisper-tie-phantom-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-phantom-squadron",
+            "name": "TIE Phantom Squadron",
+            "ace-name": "Whisper",
+            "unique-class": ["Whisper"],
+            "irregular": false,
+            "hull": 4,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [2, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": true,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "After defending against an attack, if you spent a defense token, you may move up to distance 1, even if you are engaged.",
+            "unique": true,
+            "points": 20,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://c.l3n.co/i/nmwWW5.md.png"
+        }
+    }
+}
+
+

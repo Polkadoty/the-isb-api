@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+      "darth-vader-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Super Star Destroyer",
+        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["empire"],
+        "name": "Darth Vader",
+        "unique-class": ["Darth Vader"],
+        "ability": "While a friendly ship at distance 1-5 attacking a ship, it may discard 1 of its :commander: or :officer: cards (other than Darth Vader) to reroll any number of dice in its attack pool.",
+        "unique": true,
+        "points": 1,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+}

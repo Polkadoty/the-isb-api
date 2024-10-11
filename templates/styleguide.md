@@ -32,7 +32,7 @@ List of all of the release names with expansions under them:
     - Imperial Light Cruiser Expansion Pack (SWM22)
     - Rebel Fighter Squadrons II Expansion Pack (SWM23)
     - Imperial Fighter Squadrons II Expansion Pack (SWM24)
-- The Corellian Conflict
+- Corellian Conflict Campaign Armada
     - The Corellian Conflict - Campaign Expansion (SWM25)
 - Wave 6 Armada
     - Imperial Light Carrier Expansion Pack (SWM26)
@@ -40,7 +40,7 @@ List of all of the release names with expansions under them:
 - Wave 7 Armada
     - Chimaera Expansion Pack (SWM29)
     - Profundity Expansion Pack (SWM30)
-- Rebellion in the Rim
+- Rebellion in the Rim Campaign Armada
     - Rebellion in the Rim - Campaign Expansion (SWM31)
 - Wave 8 Armada
     - Nadiri Starhawk Expansion Pack (SWM32)

@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "t-series-tactical-droid": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+            "_id": null,
+            "type": "officer",
+            "faction": ["separatist"],
+            "name": "T-series Tactical Droid",
+            "unique-class": [""],
+            "ability": "When you spend only a :repair:, :nav: or :squadron: command token to resolve a command, you may exhaust this card. If you do, resolve that command as if you had spent a dial of the same type instead.",
+            "unique": false,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonnrecur",
+                "ready_token": ["any"],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

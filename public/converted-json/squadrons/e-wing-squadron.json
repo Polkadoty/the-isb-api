@@ -1,0 +1,111 @@
+{
+    "squadrons": {
+        "e-wing-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "e-wing-squadron",
+            "name": "E-wing Squadron",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [1, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": 0,
+                "bomber": true,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 3,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "points": 15,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://b.l3n.co/i/nmy3vZ.md.png"
+        },
+        "corran-horne-e-wing-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "e-wing-squadron",
+            "name": "E-wing Squadron",
+            "ace-name": "Corran Horn",
+            "unique-class": ["Corran Horn"],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [1, 0, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": 0,
+                "bomber": true,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 4,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": true,
+            "points": 22,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://c.l3n.co/i/nmyrs0.md.png"
+        }
+        
+    }
+}

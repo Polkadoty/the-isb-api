@@ -55,7 +55,34 @@ function updateIdsAndCombine(directory, outputFileName) {
   fs.writeFileSync(path.join(directory, outputFileName), JSON.stringify(result, null, 2));
 }
 
-updateIdsAndCombine(directories.ships, 'ships.json');
-updateIdsAndCombine(directories.squadrons, 'squadrons.json');
-updateIdsAndCombine(directories.upgrades, 'upgrades.json');
-updateIdsAndCombine(directories.objectives, 'objectives.json');
+// New function to parse command-line arguments
+function parseArgs() {
+  const args = process.argv.slice(2);
+  return {
+    ships: args.includes('-ships'),
+    squadrons: args.includes('-squadrons'),
+    upgrades: args.includes('-upgrades'),
+    objectives: args.includes('-objectives')
+  };
+}
+
+// Main execution
+const flags = parseArgs();
+
+if (flags.ships) {
+  updateIdsAndCombine(directories.ships, 'ships.json');
+}
+if (flags.squadrons) {
+  updateIdsAndCombine(directories.squadrons, 'squadrons.json');
+}
+if (flags.upgrades) {
+  updateIdsAndCombine(directories.upgrades, 'upgrades.json');
+}
+if (flags.objectives) {
+  updateIdsAndCombine(directories.objectives, 'objectives.json');
+}
+
+// If no flags are provided, inform the user
+if (!Object.values(flags).some(Boolean)) {
+  console.log('Please provide at least one flag: -ships, -squadrons, -upgrades, -objectives');
+}

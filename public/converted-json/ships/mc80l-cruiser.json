@@ -1,0 +1,119 @@
+{
+    "ships": {
+        "mc80l-cruiser": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "mc80l-cruiser",
+            "size": "large",
+            "hull": 8,
+            "speed": {
+                "1": [1],
+                "2": [1, 0],
+                "3": [1, 0, 1],
+                "4": []
+            },
+            "shields": {
+                "front": 5,
+                "rear": 2,
+                "left": 2,
+                "right": 2,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "",
+            "blueprint": "",
+            "models": {
+                "mc80l-star-cruiser": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 4 Armada",
+                    "expansion": "Liberty Expansion Pack (SWM17)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "mc80l-cruiser",
+                    "name": "MC80 Star Cruiser",
+                    "faction": "rebel",
+                    "unique": false,
+                    "traits": ["MC"],
+                    "points": 96,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 1,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 2,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "support-team", "ion-cannon", "turbolaser", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [0, 0, 1],
+                        "front": [3, 4, 0],
+                        "rear": [0, 2, 0],
+                        "left": [2, 1, 0],
+                        "right": [2, 1, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                },
+                "mc80l-battle-cruiser": {
+                    "author": "Fantasy Flight Games",
+                    "alias": "FFG",
+                    "team": "FFG",
+                    "release": "Wave 4 Armada",
+                    "expansion": "Liberty Expansion Pack (SWM17)",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "mc80l-cruiser",
+                    "name": "MC80 Battle Cruiser",
+                    "faction": "rebel",
+                    "unique": false,
+                    "traits": ["MC"],
+                    "points": 103,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 1,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 3,
+                        "squadron": 2,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "weapons-team", "support-team", "ion-cannon", "turbolaser", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [0, 0, 2],
+                        "front": [4, 3, 0],
+                        "rear": [1, 1, 0],
+                        "left": [2, 1, 0],
+                        "right": [2, 1, 0],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": ""
+                }
+            }
+        }
+    }
+}

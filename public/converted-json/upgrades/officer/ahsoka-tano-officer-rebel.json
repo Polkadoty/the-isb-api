@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "ahsoka-tano-officer-rebel": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 5 Armada",
+        "expansion": "Phoenix Home Expansion Pack (SWM21)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["rebel"],
+        "name": "Ahsoka Tano",
+        "unique-class": ["Ahsoka Tano"],
+        "ability": "During the activation of a friendly ship at distance 1-5, you may exhaust this card to discard 1 command token from that ship. If you do, that ship may gain 1 command token of any type.",
+        "unique": true,
+        "points": 2,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "recur",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

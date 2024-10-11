@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "sa-nalaor": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+            "_id": null,
+            "type": "title",
+            "faction": ["separatist"],
+            "name": "Sa Nalaor",
+            "unique-class": ["Sa Nalaor"],
+            "ability": "While defending, if you are at speed 2 or higher, you may spend a defense token to resolve the :evade: defense effect instead of that token's effect. You cannot resolve the :evade: defense effect more than once per attack.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "munificent-class-frigate",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

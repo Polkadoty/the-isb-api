@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "clone-navigation-officer": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Galactic Republic Fleet Starter (SWM34)",
+            "_id": null,
+            "type": "officer",
+            "faction": ["republic"],
+            "name": "Clone Navigation Officer",
+            "unique-class": [""],
+            "ability": "When you reveal a :confire:, :nav:, or :squadron: command, you may exhaust this card to choose a friendly ship at distance 1-5. That ship may gain 1 command token matching your command.\nYou can spend tokens from this card to ready it.",
+            "unique": false,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "token",
+                "start_icon": ["nav"],
+                "start_amount": 1
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": ["any"],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

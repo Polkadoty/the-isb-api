@@ -3,7 +3,7 @@
         "hardcell-class": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "hardcell",
+            "chassis_name": "hardcell-class",
             "size": "small",
             "hull": 5,
             "speed": {
@@ -84,7 +84,7 @@
                     "name": "Hardcell-class Battle Refit",
                     "faction": "separatist",
                     "unique": false,
-                    "traits": ["Droid","Transport"],
+                    "traits": ["Droid", "Transport"],
                     "points": 52,
                     "tokens": {
                         "def_scatter": 0,

@@ -105,6 +105,59 @@
             "silhouette": "",
             "artwork": "",
             "cardimage": "https://c.l3n.co/i/nmyJOe.md.png"
+        },
+        "mart-mattin-satos-hammer": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Rebellion in the Rim Campaign Armada",
+            "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "rebel",
+            "squadron_type": "yt-2400",
+            "name": "Sato's Hammer",
+            "ace-name": "Mart Mattin",
+            "unique-class": ["Mart Mattin","Sato's Hammer"],
+            "irregular": true,
+            "hull": 6,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [0, 4, 0],
+                "anti-ship": [0, 0, 1]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "At the start of the Squadron Phase, you may toggle your activation slider to the activated side. If you do, you may place 1 proximity mine token at distance 1.",
+            "unique": true,
+            "points": 22,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
         }
     }
 }

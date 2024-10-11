@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[]",
-            "blueprint": "[]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "mc30c-scout-frigate": {
                     "author": "Fantasy Flight Games",
@@ -43,7 +43,7 @@
                     "name": "MC30c Scout Frigate",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [""],
+                    "traits": ["MC"],
                     "points": 69,
                     "tokens": {
                         "def_scatter": 0,
@@ -70,9 +70,9 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://b.l3n.co/i/zGzeX5.md.png"
                 },
-                "mc30c-torpedoe-frigate": {
+                "mc30c-torpedo-frigate": {
                     "author": "Fantasy Flight Games",
                     "alias": "FFG",
                     "team": "FFG",
@@ -81,10 +81,10 @@
                     "_id": null,
                     "type": "ship",
                     "chassis": "mc30c-frigate",
-                    "name": "MC30c Torpedoe Frigate",
+                    "name": "MC30c Torpedo Frigate",
                     "faction": "rebel",
                     "unique": false,
-                    "traits": [""],
+                    "traits": ["MC"],
                     "points": 63,
                     "tokens": {
                         "def_scatter": 0,
@@ -111,7 +111,7 @@
                         "special": [0, 0, 0]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://b.l3n.co/i/zGzzkv.md.png"
                 }
             }
         }

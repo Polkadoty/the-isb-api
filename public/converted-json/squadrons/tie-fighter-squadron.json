@@ -106,7 +106,7 @@
             "artwork": "",
             "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
         },
-        "mauler-mithel": {
+        "mauler-mithel-tie-fighter-squadron": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
@@ -157,8 +157,115 @@
             "points": 15,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmbTQP.md.png"
+            "cardimage": "https://a.l3n.co/i/nmbpEr.md.png"
+        },
+        "valen-rudor-tie-fighter-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Corellian Conflict Campaign Armada",
+            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-fighter-squadron",
+            "name": "TIE Fighter Squadron",
+            "ace-name": "Valen Rudor",
+            "unique-class": ["Valen Rudor"],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [0, 0, 3],
+                "anti-ship": [0, 1, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "While an enemy squadron is engaged with another squadron, it cannot attack you.",
+            "unique": true,
+            "points": 13,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        },
+        "black-squadron-tie-fighter-squadron": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Corellian Conflict Campaign Armada",
+            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-fighter-squadron",
+            "name": "TIE Fighter Squadron",
+            "ace-name": "Black Squadron",
+            "unique-class": ["Black Squadron"],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 3, 0],
+                "anti-ship": [0, 1, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 1,
+                "dodge": 0,
+                "escort": true,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": true,
+            "points": 9,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
         }
+        
     }
 }
 

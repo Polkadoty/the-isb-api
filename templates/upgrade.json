@@ -21,6 +21,7 @@
                 "size": ["small","medium", "large"],
                 "disqual_upgrades": ["","upgrade_type"],
                 "disable_upgrades": ["","upgrade_type"],
+                "enable_upgrades": ["", "upgrade_type"],
                 "flagship": boolean
             },
             "start_command": {

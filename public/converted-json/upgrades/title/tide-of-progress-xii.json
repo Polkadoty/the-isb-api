@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "tide-of-progress-xii": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 9 Armada",
+            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+            "_id": null,
+            "type": "title",
+            "faction": ["separatist"],
+            "name": "Tide of Progress XII",
+            "unique-class": ["Tide of Progress XII"],
+            "ability": "Before you are dealt a faceup damage card with the SHIP trait, you may exhaust this card to discard that damage card (without resolving its effect).",
+            "unique": true,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "munificent-class-frigate",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": ["repair"],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

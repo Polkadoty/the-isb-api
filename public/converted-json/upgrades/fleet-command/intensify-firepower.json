@@ -10,7 +10,7 @@
             "type": "fleet-command",
             "faction": [""],
             "name": "Intensify Firepower!",
-            "unique-class": [""],
+            "unique-class": ["Intensify Firepower!"],
             "ability": "At the start of the Ship Phase, you may discard this card or spend a :confire: token. If you do, until the end of the round, while each friendly ship is attacking a ship, it may change 1 die to a face with 1 :hit: icon and no other icons.",
             "unique": true,
             "points": 6,
@@ -21,6 +21,7 @@
                 "size": [""],
                 "disqual_upgrades": [""],
                 "disable_upgrades": [""],
+                "enable_upgrades": [""],
                 "flagship": false
             },
             "start_command": {

@@ -1,0 +1,112 @@
+{
+    "squadrons": {
+        "vt-49-decimator": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "vt-49-decimator",
+            "name": "VT-49 Decimator",
+            "ace-name": "",
+            "unique-class": [""],
+            "irregular": true,
+            "hull": 8,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [0, 0, 3],
+                "anti-ship": [0, 3, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 1,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "points": 22,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://a.l3n.co/i/nmw8NC.md.png"
+        },
+        "morna-kee-decimator": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 5 Armada",
+            "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "vt-49-decimator",
+            "name": "VT-49 Decimator",
+            "ace-name": "Morna Kee",
+            "unique-class": ["Morna Kee"],
+            "irregular": true,
+            "hull": 8,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [0, 0, 3],
+                "anti-ship": [0, 3, 0]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 1,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "While attacking, you may spend 1 defense token to reroll any number of dice in your attack pool. When you activate, you may recover 1 of your discarded defense tokens.",
+            "unique": true,
+            "points": 27,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://a.l3n.co/i/nmbzsD.md.png"
+        }
+    }
+}
+
+
