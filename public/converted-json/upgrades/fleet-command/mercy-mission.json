@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "mercy-mission": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 10 Armada",
+            "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+            "_id": null,
+            "type": "fleet-command",
+            "faction": ["republic"],
+            "name": "Mercy Mission",
+            "unique-class": ["Mercy Mission"],
+            "ability": "Before deploying fleets, un-equip this card and choose 1 friendly small ship that is not your flagship. Equip this card to the chosen ship (even if it does not have a :fleet command: icon in its upgrade bar). At the end of the game, if you are within the enemy deployment zone, increase your score by 40 points; if you were destroyed, increase your fleet value by 20 points.",
+            "unique": true,
+            "points": 0,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

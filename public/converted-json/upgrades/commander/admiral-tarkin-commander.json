@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "admiral-tarkin-commander": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 10 Armada",
+        "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+        "_id": null,
+        "type": "commander",
+        "faction": ["republic"],
+        "name": "Admiral Tarkin",
+        "unique-class": ["Admiral Tarkin"],
+        "ability": "At the start of each Ship Phase, you may discard 1 command token from this card. If you do, either you gain 1 matching command dial, or each friendly ship gains 1 matching command token.",
+        "unique": true,
+        "points": 30,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": true
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
