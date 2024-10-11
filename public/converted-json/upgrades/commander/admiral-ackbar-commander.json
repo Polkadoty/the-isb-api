@@ -11,7 +11,7 @@
         "faction": ["rebel"],
         "name": "Admiral Ackbar",
         "unique-class": ["Admiral Ackbar"],
-        "ability": "Before a friendly ship’s Attack step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
+        "ability": "Before a friendly ship's Attack step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
         "unique": true,
         "points": 38,
         "modification": false,
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": ""
+        "cardimage": "https://b.l3n.co/i/neqUDk.md.png"
       }
     }
   }

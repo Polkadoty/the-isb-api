@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-konstantine": {
+      "commander-sato-commander": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 4 Armada",
-        "expansion": "Interdictor Expansion Pack (SWM16)",
+        "release": "Wave 5 Armada",
+        "expansion": "Phoenix Home Expansion Pack (SWM21)",
         "_id": null,
         "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Konstantine",
-        "unique-class": ["Admiral Konstantine"],
-        "ability": "At the start of each Status Phase, you may choose any number of enemy ships at distance 1-5 of at least 2 friendly non-flotilla ships, 1 of which must be of medium or larger size class. For each chosen ship you may discard 1 :nav: token from it or increase or decrease that enemy ship's speed by 1 to a minimum of speed 1.",
+        "faction": ["rebel"],
+        "name": "Commander Sato",
+        "unique-class": ["Commander Sato"],
+        "ability": "While a friendly ship is attacking a ship at distance 1 of a friendly squadron, before rolling attack dice, the attacker may replace up to 2 dice in its attack pool with an equal number of dice of any color or colors.",
         "unique": true,
-        "points": 23,
+        "points": 27,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": ""
+        "cardimage": "https://c.l3n.co/i/neBIGC.md.png"
       }
     }
   }

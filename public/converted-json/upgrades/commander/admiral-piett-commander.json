@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "commander-sato": {
+      "admiral-piett-commander": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 5 Armada",
-        "expansion": "Phoenix Home Expansion Pack (SWM21)",
+        "release": "Super Star Destroyer",
+        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
         "_id": null,
         "type": "commander",
-        "faction": ["rebel"],
-        "name": "Commander Sato",
-        "unique-class": ["Commander Sato"],
-        "ability": "While a friendly ship is attacking a ship at distance 1 of a friendly squadron, before rolling attack dice, the attacker may replace up to 2 dice in its attack pool with an equal number of dice of any color or colors.",
+        "faction": ["empire"],
+        "name": "Admiral Piett",
+        "unique-class": ["Admiral Piett"],
+        "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
         "unique": true,
-        "points": 27,
+        "points": 22,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": ""
+        "cardimage": "https://a.l3n.co/i/neq5EK.md.png"
       }
     }
   }

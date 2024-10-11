@@ -11,7 +11,7 @@
         "faction": ["empire"],
         "name": "Admiral Ozzel",
         "unique-class": ["Admiral Ozzel"],
-        "ability": "During each friendly ship’s Determine Course step, it may change its speed by 1.",
+        "ability": "During each friendly ship's Determine Course step, it may change its speed by 1.",
         "unique": true,
         "points": 20,
         "modification": false,
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": ""
+        "cardimage": "https://b.l3n.co/i/neqx5c.md.png"
       }
     }
   }

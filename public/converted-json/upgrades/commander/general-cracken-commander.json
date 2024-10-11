@@ -1,17 +1,17 @@
 {
     "upgrades": {
-        "admiral-raddus": {
+        "general-cracken-commander": {
             "author": "Fantasy Flight Games",
             "alias": "FFG",
             "team": "FFG",
-            "release": "Wave 7 Armada",
-            "expansion": "Profundity Expansion Pack (SWM30)",
+            "release": "Wave 3 Armada",
+            "expansion": "Rebel Transports Expansion Pack (SWM19)",
             "_id": null,
             "type": "commander",
             "faction": ["rebel"],
-            "name": "Admiral Raddus",
-            "unique-class": ["Admiral Raddus"],
-            "ability": "Before deploying fleets, you may set aside 1 other friendly ship. At the start of any round, you may deploy that ship at distance 1 of a friendly ship. That ship cannot be deployed overlapping squadrons and cannot be the first ship to activate that round. ",
+            "name": "General Cracken",
+            "unique-class": ["General Cracken"],
+            "ability": "While a friendly small or medium ship is defending against a ship, if the defender is at speed 3 or higher, the attack is treated as obstructed.",
             "unique": true,
             "points": 26,
             "modification": false,
@@ -34,7 +34,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://b.l3n.co/i/neBT37.md.png"
         }
     }
 }
