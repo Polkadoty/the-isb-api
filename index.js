@@ -9,6 +9,12 @@ import baseRoutes from './routes/baseRoutes.js';
 import objectiveRoutes from './routes/objectiveRoutes.js';
 import loadBalancer from './middleware/loadBalancer.js';
 
+// Only use dotenv in production
+if (process.env.NODE_ENV == 'production') {
+  const dotenv = await import('dotenv');
+  dotenv.config();
+}
+
 const app = express();
 const PORT = process.env.PORT || 4000;
 

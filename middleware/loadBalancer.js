@@ -1,8 +1,12 @@
 import https from 'https';
 import fetch from 'node-fetch';
 
-const MAIN_API = 'https://api.swarmada.wiki';
+const IS_PRIMARY_INSTANCE = process.env.IS_PRIMARY_INSTANCE === 'true';
+const PRIMARY_API = 'https://api.swarmada.wiki';
 const BACKUP_API = 'https://api-backup.swarmada.wiki';
+
+const MAIN_API = IS_PRIMARY_INSTANCE ? PRIMARY_API : BACKUP_API;
+const FALLBACK_API = IS_PRIMARY_INSTANCE ? BACKUP_API : PRIMARY_API;
 
 let useMainApi = true;
 let consecutiveFailures = 0;
@@ -15,14 +19,15 @@ const mainApiAgent = new https.Agent({
 });
 
 const loadBalancer = async (req, res, next) => {
-  const apiUrl = useMainApi ? MAIN_API : BACKUP_API;
+  const apiUrl = useMainApi ? MAIN_API : FALLBACK_API;
   
   try {
+    console.log(`Attempting request to ${apiUrl}${req.url}`);
     const apiResponse = await fetch(`${apiUrl}${req.url}`, {
       method: req.method,
       headers: req.headers,
       body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined,
-      agent: apiUrl === MAIN_API ? mainApiAgent : undefined
+      agent: apiUrl === PRIMARY_API ? mainApiAgent : undefined
     });
 
     if (apiResponse.ok) {
@@ -33,31 +38,34 @@ const loadBalancer = async (req, res, next) => {
       throw new Error(`API responded with status ${apiResponse.status}`);
     }
   } catch (error) {
-    console.error(`Error with ${apiUrl}:`, error);
+    console.error(`Error with ${apiUrl}:`, error.message);
     consecutiveFailures++;
 
     if (consecutiveFailures >= FAILURE_THRESHOLD) {
       useMainApi = !useMainApi;
-      console.log(`Switching to ${useMainApi ? 'Main' : 'Backup'} API due to consecutive failures`);
+      console.log(`Switching to ${useMainApi ? 'Main' : 'Fallback'} API due to consecutive failures`);
       consecutiveFailures = 0;
     }
 
     // Try the other API immediately
-    const fallbackUrl = useMainApi ? BACKUP_API : MAIN_API;
+    const fallbackUrl = useMainApi ? FALLBACK_API : MAIN_API;
     try {
+      console.log(`Attempting fallback request to ${fallbackUrl}${req.url}`);
       const fallbackResponse = await fetch(`${fallbackUrl}${req.url}`, {
         method: req.method,
         headers: req.headers,
         body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined,
-        agent: fallbackUrl === MAIN_API ? mainApiAgent : undefined
+        agent: fallbackUrl === PRIMARY_API ? mainApiAgent : undefined
       });
 
       if (fallbackResponse.ok) {
         const data = await fallbackResponse.json();
         return res.json(data);
+      } else {
+        throw new Error(`Fallback API responded with status ${fallbackResponse.status}`);
       }
     } catch (fallbackError) {
-      console.error(`Error with fallback ${fallbackUrl}:`, fallbackError);
+      console.error(`Error with fallback ${fallbackUrl}:`, fallbackError.message);
     }
 
     // If both APIs fail, pass to the next middleware
