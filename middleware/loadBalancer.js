@@ -1,3 +1,4 @@
+import https from 'https';
 import fetch from 'node-fetch';
 
 const MAIN_API = 'https://api.swarmada.wiki';
@@ -8,6 +9,11 @@ let consecutiveFailures = 0;
 const FAILURE_THRESHOLD = 5;
 const RESET_INTERVAL = 5 * 60 * 1000; // 5 minutes
 
+const mainApiAgent = new https.Agent({
+  ca: process.env.CLOUDFLARE_CA_CERT,
+  rejectUnauthorized: true
+});
+
 const loadBalancer = async (req, res, next) => {
   const apiUrl = useMainApi ? MAIN_API : BACKUP_API;
   
@@ -15,7 +21,8 @@ const loadBalancer = async (req, res, next) => {
     const apiResponse = await fetch(`${apiUrl}${req.url}`, {
       method: req.method,
       headers: req.headers,
-      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
+      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined,
+      agent: apiUrl === MAIN_API ? mainApiAgent : undefined
     });
 
     if (apiResponse.ok) {
@@ -41,7 +48,8 @@ const loadBalancer = async (req, res, next) => {
       const fallbackResponse = await fetch(`${fallbackUrl}${req.url}`, {
         method: req.method,
         headers: req.headers,
-        body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
+        body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined,
+        agent: fallbackUrl === MAIN_API ? mainApiAgent : undefined
       });
 
       if (fallbackResponse.ok) {
