@@ -1,12 +1,12 @@
-const express = require('express');
-const cors = require('cors');
-const helmet = require('helmet');
-const shipRoutes = require('./routes/shipRoutes');
-const squadronRoutes = require('./routes/squadronRoutes');
-const upgradeRoutes = require('./routes/upgradeRoutes');
-const errorHandler = require('./middleware/errorHandler');
-const baseRoutes = require('./routes/baseRoutes');
-const objectiveRoutes = require('./routes/objectiveRoutes');
+import express from 'express';
+import cors from 'cors';
+import helmet from 'helmet';
+import shipRoutes from './routes/shipRoutes.js';
+import squadronRoutes from './routes/squadronRoutes.js';
+import upgradeRoutes from './routes/upgradeRoutes.js';
+import { errorHandler } from './middleware/errorHandler.js';
+import baseRoutes from './routes/baseRoutes.js';
+import objectiveRoutes from './routes/objectiveRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -15,8 +15,8 @@ app.use(cors());
 app.use(helmet());
 app.use(express.json());
 
-app.use('/', baseRoutes)
-
+// Your existing routes
+app.use('/', baseRoutes);
 app.use('/api/ships', shipRoutes);
 app.use('/api/squadrons', squadronRoutes);
 app.use('/api/upgrades', upgradeRoutes);
@@ -28,4 +28,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-module.exports = app;
+export default app;

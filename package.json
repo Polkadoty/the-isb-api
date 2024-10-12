@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "API for Armada-like game",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -12,6 +13,7 @@
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
     "uuid": "^10.0.0"
   },
   "devDependencies": {

@@ -1,36 +1,37 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs/promises';
+import { fileURLToPath } from 'url';
 
-exports.getAllUpgrades = (req, res, next) => {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+export const getAllUpgrades = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/upgrades/upgrades.json');
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Error reading upgrades.json:', err);
-      return next(err);
-    }
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
     res.json(JSON.parse(data));
-  });
+  } catch (err) {
+    console.error('Error reading upgrades.json:', err);
+    next(err);
+  }
 };
 
-exports.getUpgradeById = (req, res, next) => {
+export const getUpgradeById = async (req, res, next) => {
   const upgradeId = req.params.id;
   const filePath = path.join(__dirname, `../public/converted-json/upgrades/${upgradeId}.json`);
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error(`Error reading ${upgradeId}.json:`, err);
-      return res.status(404).json({ message: 'Upgrade not found' });
-    }
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
     res.json(JSON.parse(data));
-  });
+  } catch (err) {
+    console.error(`Error reading ${upgradeId}.json:`, err);
+    res.status(404).json({ message: 'Upgrade not found' });
+  }
 };
 
-exports.searchUpgrades = (req, res, next) => {
+export const searchUpgrades = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/upgrades/upgrades.json');
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Error reading upgrades.json:', err);
-      return next(err);
-    }
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
     let upgradesData = JSON.parse(data);
     const filters = req.query;
     const includeNeutral = filters.include_neutral === 'true';
@@ -119,5 +120,8 @@ exports.searchUpgrades = (req, res, next) => {
 
     console.log(`Returning ${Object.keys(filteredUpgrades).length} upgrades after applying filters`);
     res.json({ upgrades: filteredUpgrades });
-  });
+  } catch (err) {
+    console.error('Error reading upgrades.json:', err);
+    next(err);
+  }
 };

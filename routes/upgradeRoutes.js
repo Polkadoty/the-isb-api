@@ -1,10 +1,10 @@
-const express = require('express');
+import express from 'express';
+import { getAllUpgrades, searchUpgrades, getUpgradeById } from '../controllers/upgradeController.js';
+
 const router = express.Router();
-const upgradeController = require('../controllers/upgradeController');
 
-router.get('/', upgradeController.getAllUpgrades);
-router.get('/search', upgradeController.searchUpgrades);
-router.get('/:id', upgradeController.getUpgradeById);
- // New endpoint for searching
+router.get('/', getAllUpgrades);
+router.get('/search', searchUpgrades);
+router.get('/:id', getUpgradeById);
 
-module.exports = router;
+export default router;

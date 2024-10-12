@@ -1,4 +1,4 @@
-module.exports = (err, req, res, next) => {
+export const errorHandler = (err, req, res, next) => {
     console.error('Error details:', {
         message: err.message,
         stack: err.stack,
@@ -25,3 +25,5 @@ module.exports = (err, req, res, next) => {
         }
     });
 };
+
+export default errorHandler;

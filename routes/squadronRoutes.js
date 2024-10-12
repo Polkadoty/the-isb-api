@@ -1,10 +1,10 @@
-const express = require('express');
+import express from 'express';
+import { getAllSquadrons, searchSquadrons, getSquadronById } from '../controllers/squadronController.js';
+
 const router = express.Router();
-const squadronController = require('../controllers/squadronController');
 
-router.get('/', squadronController.getAllSquadrons);
-router.get('/search', squadronController.searchSquadrons); // New endpoint for searching
-router.get('/:id', squadronController.getSquadronById);
+router.get('/', getAllSquadrons);
+router.get('/search', searchSquadrons);
+router.get('/:id', getSquadronById);
 
-
-module.exports = router;
+export default router;

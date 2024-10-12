@@ -1,6 +1,10 @@
-const fs = require('fs');
-const path = require('path');
-const yaml = require('js-yaml');
+import fs from 'fs';
+import path from 'path';
+import yaml from 'js-yaml';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const directories = {
   ships: path.join(__dirname, 'public/converted-json/ships'),
@@ -11,7 +15,7 @@ const directories = {
 
 // Load tests from YAML file
 const testsFile = path.join(__dirname, 'tests.yaml');
-const tests = yaml.load(fs.readFileSync(testsFile, 'utf8')).map(test => eval(test.test));
+const tests = yaml.load(fs.readFileSync(testsFile, 'utf8'));
 
 function unitTest(directory, tests) {
   const flaggedFiles = [];
@@ -92,23 +96,22 @@ const flags = parseArgs();
 let allFlaggedFiles = [];
 
 if (flags.ships) {
-  console.log('Checking ships...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.ships, tests));
+  console.log('Testing ships...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.ships, tests.ships));
 }
 if (flags.squadrons) {
-  console.log('Checking squadrons...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.squadrons, tests));
+  console.log('Testing squadrons...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.squadrons, tests.squadrons));
 }
 if (flags.upgrades) {
-  console.log('Checking upgrades...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.upgrades, tests));
+  console.log('Testing upgrades...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.upgrades, tests.upgrades));
 }
 if (flags.objectives) {
-  console.log('Checking objectives...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.objectives, tests));
+  console.log('Testing objectives...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.objectives, tests.objectives));
 }
 
-// If no flags are provided, inform the user
 if (!Object.values(flags).some(Boolean)) {
   console.log('Please provide at least one flag: -ships, -squadrons, -upgrades, -objectives');
 } else {
