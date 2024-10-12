@@ -4,9 +4,17 @@
     {
       "src": "index.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "imageServer.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
+    {
+      "src": "/images/(.*)",
+      "dest": "/imageServer.js"
+    },
     {
       "src": "/(.*)",
       "dest": "/index.js"
