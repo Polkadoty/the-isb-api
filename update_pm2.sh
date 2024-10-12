@@ -7,8 +7,8 @@ pm2 stop all
 pm2 delete all
 
 # Start new PM2 instances
-pm2 start index.js --name "api-server" --node-args="--experimental-modules"
-pm2 start imageServer.js --name "image-server" --node-args="--experimental-modules"
+pm2 start index.js --name "api-server" 
+pm2 start imageServer.js --name "image-server"
 
 # Save the PM2 process list
 pm2 save
