@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "iden-version-officer": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
         "_id": null,
         "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "faction": ["empire"],
+        "name": "Iden Versio",
+        "unique-class": ["Iden Versio"],
+        "ability": "When you resolve the :evade: defense effect, you can cancel 1 die at close range or distance 1.\n:squadron:: You may discard this card to choose 1 enemy ship at close range. That ship gains 1 raid token of your choice.",
         "unique": true,
-        "points": 10,
+        "points": 6,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {

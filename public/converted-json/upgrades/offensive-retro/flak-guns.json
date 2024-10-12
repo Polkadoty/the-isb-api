@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "flak-guns": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 10 Armada",
+        "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
+        "type": "offensive-retro",
+        "faction": [""],
+        "name": "Flak Guns",
+        "unique-class": [""],
+        "ability": "Treat each die in your anti-squadron armament as black. While performing a :salvo: attack, the black dice in your battery armament can be used at medium range and the blue dice in your battery armament can be used at long range.",
+        "unique": false,
+        "points": 3,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {

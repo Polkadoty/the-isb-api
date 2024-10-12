@@ -1,26 +1,27 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "dby-827-heavy-turbolasers": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 10 Armada",
+        "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
-        "modification": false,
+        "type": "turbolaser",
+        "faction": [""],
+        "name": "DBY-827 Heavy Turbolasers",
+        "unique-class": [""],
+        "ability": "While performing a :salvo: attack, you may change 1 die to a face with a :critical: icon.",
+        "unique": false,
+        "points": 3,
+        "modification": true,
         "bound_shiptype": "",
         "restrictions": {
           "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {

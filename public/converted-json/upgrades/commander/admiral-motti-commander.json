@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "admiral-motti": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Armada Wave 1",
+        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "type": "commander",
+        "faction": ["empire"],
+        "name": "Admiral Motti",
+        "unique-class": ["Admiral Motti"],
+        "ability": "The hull value of each friendly ship is increased according to its size class:\nSmall ship: 1\nMedium ship: 2\nLarge ship: 3",
         "unique": true,
-        "points": 10,
+        "points": 24,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,7 +21,8 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
-          "flagship": false
+          "enable_upgrades": [""],
+          "flagship": true
         },
         "start_command": {
           "type": "",

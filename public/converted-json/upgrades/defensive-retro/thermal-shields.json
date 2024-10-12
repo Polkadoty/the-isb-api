@@ -1,24 +1,24 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "thermal-shields": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 10 Armada",
+        "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
-        "modification": false,
+        "type": "defensive-retro",
+        "faction": ["republic","separatist"],
+        "name": "Thermal Shields",
+        "unique-class": [""],
+        "ability": "While defending, after the attacker gathers dice, you may spend 1 :brace: token. If you do, choose and remove half of the dice in the attack pool, rounded down.",
+        "unique": false,
+        "points": 5,
+        "modification": true,
         "bound_shiptype": "",
         "restrictions": {
           "traits": [""],
-          "size": [""],
+          "size": ["medium","large"],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
           "flagship": false

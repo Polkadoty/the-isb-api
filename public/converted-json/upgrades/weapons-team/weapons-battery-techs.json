@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "weapons-battery-techs": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
+        "type": "weapons-team",
+        "faction": [""],
+        "name": "Weapons Battery Techs",
+        "unique-class": [""],
+        "ability": "While attacking a ship, you may change 1 die face with a :accuracy: icon to a face with :crit: icon.",
+        "unique": false,
+        "points": 5,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,6 +21,7 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {
@@ -33,9 +34,8 @@
           "ready_token": [""],
           "ready_amount": 0
         },
-        "artwork": "",
+        "artwork": "[link to image]",
         "cardimage": ""
       }
     }
-  }
-  
+}

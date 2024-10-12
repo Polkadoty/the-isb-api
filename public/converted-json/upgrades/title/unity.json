@@ -1,26 +1,27 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "unity": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
         "_id": null,
-        "type": "officer",
+        "type": "title",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Unity",
+        "unique-class": ["Unity"],
+        "ability": "After you deploy, gain 1 :redirect: defense token.\nWhile attacking a squadron, if the defender is engaged with a friendly squadron without the printed Heavy keyword, you may reroll 1 die.",
         "unique": true,
         "points": 10,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "starhawk-class-battleship",
         "restrictions": {
-          "traits": [""],
+          "traits": ["starhawk-mark-i"],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {

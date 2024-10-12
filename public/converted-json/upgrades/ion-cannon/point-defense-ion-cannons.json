@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "point-defense-ion-cannons": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 10 Armada",
+        "expansion": "Invisible Hand Expansion Pack (SWM42)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
+        "type": "ion-cannon",
+        "faction": [""],
+        "name": "point-defense-ion-cannons",
+        "unique-class": [""],
+        "ability": "While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.",
+        "unique": false,
+        "points": 4,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {

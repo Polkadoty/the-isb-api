@@ -1,26 +1,27 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "cataclysm": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "type": "title",
+        "faction": ["empire"],
+        "name": "Cataclysm",
+        "unique-class": ["Cataclysm"],
+        "ability": "After the start of the Ship Phase, you may spend 1 :confire: to place your targeting token within your special firing arc within the range specified by one of your Ignition keywords.",
         "unique": true,
-        "points": 10,
+        "points": 5,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "onager-class",
         "restrictions": {
           "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {

@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "general-grievous-commander": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 10 Armada",
+        "expansion": "Invisible Hand Expansion Pack (SWM42)",
+        "_id": null,
+        "type": "commander",
+        "faction": ["separatist"],
+        "name": "General Grievous",
+        "unique-class": ["General Grievous"],
+        "ability": "When a friendly ship or squadron is destroyed, you may choose 1 friendly ship or unique squadron at distance 1-5 of the destroyed ship or squadron. If you do, the chosen ship or unique squadron may either ready 1 of its defense tokens or recover 1 of its discarded defense tokens and then exhaust that token.",
+        "unique": true,
+        "points": 20,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": true
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

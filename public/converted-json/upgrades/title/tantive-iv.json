@@ -1,26 +1,27 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "tantive-iv": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
         "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
         "_id": null,
-        "type": "officer",
+        "type": "title",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Tantive IV",
+        "unique-class": ["Tantive IV"],
+        "ability": "Before you gain a command token, 1 friendly ship at distance 1-5 may gain that token instead.",
         "unique": true,
-        "points": 10,
+        "points": 3,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "cr90-corvette",
         "restrictions": {
           "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {
@@ -33,7 +34,7 @@
           "ready_token": [""],
           "ready_amount": 0
         },
-        "artwork": "",
+        "artwork": "[link to image]",
         "cardimage": ""
       }
     }

@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "general-romodi": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "type": "commander",
+        "faction": ["empire"],
+        "name": "General Romodi",
+        "unique-class": ["General Romodi"],
+        "ability": "While a friendly ship is attacking a ship, if the attack is obstructed by a ship or obstacle, the attacker does not remove a die (even if the attack is also obstructed by a card effect), and may add 1 red die to the attack pool.",
         "unique": true,
-        "points": 10,
+        "points": 20,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,7 +21,8 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
-          "flagship": false
+          "enable_upgrades": [""],
+          "flagship": true
         },
         "start_command": {
           "type": "",
@@ -33,7 +34,7 @@
           "ready_token": [""],
           "ready_amount": 0
         },
-        "artwork": "",
+        "artwork": "[link to image]",
         "cardimage": ""
       }
     }

@@ -1,26 +1,27 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "salvation": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
         "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
         "_id": null,
-        "type": "officer",
+        "type": "title",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Salvation",
+        "unique-class": ["Salvation"],
+        "ability": "While attacking a ship from your front hull zone, your :crit: icons count as 2 damage instead of 1.",
         "unique": true,
-        "points": 10,
+        "points": 7,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "nebulon-b-frigate",
         "restrictions": {
           "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {
@@ -33,7 +34,7 @@
           "ready_token": [""],
           "ready_amount": 0
         },
-        "artwork": "",
+        "artwork": "[link to image]",
         "cardimage": ""
       }
     }

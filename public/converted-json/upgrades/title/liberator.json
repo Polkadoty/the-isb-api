@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "liberator": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+        "_id": null,
+        "type": "title",
+        "faction": ["rebel"],
+        "name": "Liberator",
+        "unique-class": ["Liberator"],
+        "ability": "You gain 1 additional :fleet-command: icon in you upgrade bar.\nYou cannot equip this card if you have a :fleet-command: icon in your upgrade bar.\nYou cannot spend a command token to resolve a :fleet-command: card's effect.",
+        "unique": true,
+        "points": 2,
+        "modification": false,
+        "bound_shiptype": "cr90-corvette",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": ["fleet-command"],
+          "disable_upgrades": [""],
+          "enable_upgrades": ["fleet-command"],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+  }
+  

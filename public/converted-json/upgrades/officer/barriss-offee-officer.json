@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "barriss-offee": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 10 Armada",
+            "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+            "_id": null,
+            "type": "officer",
+            "faction": ["republic"],
+            "name": "Barriss Offee",
+            "unique-class": ["Barriss Offee"],
+            "ability": "While defending, after the attacker declares the defending hull zone, you may spend 1 :redirect: token. If you do, at the start of the Resolve Damage step, choose a different hull zone to be the defending hull zone for this attack.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
