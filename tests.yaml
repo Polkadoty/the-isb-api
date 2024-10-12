@@ -21,3 +21,14 @@
         return "Invalid cardimage link";
       }
     }
+
+- name: Check cardimage key match
+  test: |
+    (key, value, path, obj) => {
+      if (key === 'cardimage' && value) {
+        const parentKey = path.split('.').slice(-2, -1)[0];
+        if (!value.includes(parentKey)) {
+          return `Cardimage link does not contain the key '${parentKey}'`;
+        }
+      }
+    }

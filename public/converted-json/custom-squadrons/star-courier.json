@@ -1,0 +1,131 @@
+{
+  "squadrons": {
+    "star-courier": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "star-courier",
+      "name": "Star Courier",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/star-courier.webp"
+    },
+    "darth-maul-scimitar": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "star-courier",
+      "name": "Scimitar",
+      "ace-name": "Darth Maul",
+      "unique-class": [
+        "Darth Maul",
+        "Scimitar"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "If you are engaged with at least 2 enemy squadrons, gain ADEPT 1. For every 2 additional squadrons you are engaged with, increase your ADEPT value by 1.",
+      "unique": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/darth-maul-scimitar.webp"
+    }
+  }
+}
