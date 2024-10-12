@@ -33,11 +33,6 @@ app.use('/api/objectives', objectiveRoutes);
 
 app.use(errorHandler);
 
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send('Something broke!');
-});
-
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
