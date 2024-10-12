@@ -40,10 +40,6 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  checkApiHealth(MAIN_API).then(healthy => {
-    useMainApi = healthy;
-    console.log(`Initial health check: Using ${useMainApi ? 'Main' : 'Backup'} API.`);
-  });
 });
 
 export default app;

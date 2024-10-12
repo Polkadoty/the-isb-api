@@ -1,14 +1,20 @@
+import https from 'https';
 import fetch from 'node-fetch';
 
 const MAIN_API = 'https://api.swarmada.wiki';
 const BACKUP_API = 'https://api-backup.swarmada.wiki';
+
+const agent = new https.Agent({
+  rejectUnauthorized: false
+});
 
 const loadBalancer = async (req, res, next) => {
   try {
     const mainApiResponse = await fetch(`${MAIN_API}${req.url}`, {
       method: req.method,
       headers: req.headers,
-      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
+      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined,
+      agent: agent
     });
 
     if (mainApiResponse.ok) {
@@ -20,7 +26,8 @@ const loadBalancer = async (req, res, next) => {
     const backupApiResponse = await fetch(`${BACKUP_API}${req.url}`, {
       method: req.method,
       headers: req.headers,
-      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
+      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined,
+      agent: agent
     });
 
     if (backupApiResponse.ok) {
@@ -32,7 +39,7 @@ const loadBalancer = async (req, res, next) => {
     next();
   } catch (error) {
     console.error('Load balancer error:', error);
-    next();
+    next(error);
   }
 };
 
