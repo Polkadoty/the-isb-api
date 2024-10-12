@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "clone-captain-silver-officer": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 10 Armada",
+            "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+            "_id": null,
+            "type": "officer",
+            "faction": ["republic"],
+            "name": "Clone Captain Silver",
+            "unique-class": ["Clone Captain Silver"],
+            "ability": "When you execute a maneuver, during your Determine Course step, if you have not resolved a :navigate: command during this activation, you may exhaust this card to increase or decrease your speed by up to 3. If you do, you cannot resolve a :navigate: command during this activation. You can spend tokens from this card to ready it.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "token",
+                "start_icon": ["navigate"],
+                "start_amount": 1
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": ["navigate"],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

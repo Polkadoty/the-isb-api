@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "tikkes-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 10 Armada",
+        "expansion": "Invisible Hand Expansion Pack (SWM42)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["separatist"],
+        "name": "Tikkes",
+        "unique-class": ["Tikkes"],
+        "ability": "When you reveal a command, you may place a matching command token on this card. If you do, gain a command token of your choice. During the Command Phase, if you have a command token on this card, you must choose that command on each command dial that is to be assigned to you and show those dials to your opponent. Then discard that command token.",
+        "unique": true,
+        "points": 2,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

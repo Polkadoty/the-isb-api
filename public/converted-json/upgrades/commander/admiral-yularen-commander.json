@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "admiral-yularen-commander": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 10 Armada",
+        "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+        "_id": null,
+        "type": "commander",
+        "faction": ["republic"],
+        "name": "Admiral Yularen",
+        "unique-class": ["Admiral Yularen"],
+        "ability": "When a friendly ship resolves a :squadron: command, if it spend a :squadron: token, it may activate 1 additional squadron. When a friendly ship resolves a :repair: command, it may spend engineering points on the following repair effect: Repair Squadron: Spend 2 points to choose a friendly squadron at distance 1-3. That squadron recovers 1 hull point.",
+        "unique": true,
+        "points": 24,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": true
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

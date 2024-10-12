@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "ti-99-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 10 Armada",
+        "expansion": "Invisible Hand Expansion Pack (SWM42)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["separatist"],
+        "name": "TI-99",
+        "unique-class": ["TI-99"],
+        "ability": "While a friendly unactivated squadron is at distance 1-3, it gains counter 3 or, if it has the printed counter keyword, gains an additional counter 1. After it performs a counter attack, toggle its activation slider to the activated side.",
+        "unique": true,
+        "points": 4,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

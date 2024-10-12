@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "admiral-trench": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 10 Armada",
+        "expansion": "Invisible Hand Expansion Pack (SWM42)",
+        "_id": null,
+        "type": "commander",
+        "faction": ["separatist"],
+        "name": "Admiral Trench",
+        "unique-class": ["Admiral Trench"],
+        "ability": "At the start of each Ship Phase, you may reveal and discard 1 command dial from this card. If you do, until the end of the round, when a friendly ship spends only a matching command token to resolve a command, that ship resolves that command as if it had spent a dial and token of the same type instead.",
+        "unique": true,
+        "points": 36,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": true
+        },
+        "start_command": {
+          "type": "token",
+          "start_icon": ["any"],
+          "start_amount": 4
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
