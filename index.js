@@ -5,7 +5,7 @@ import fetch from 'node-fetch';
 import shipRoutes from './routes/shipRoutes.js';
 import squadronRoutes from './routes/squadronRoutes.js';
 import upgradeRoutes from './routes/upgradeRoutes.js';
-import errorHandler from './middleware/errorHandler.js';
+import { errorHandler } from './middleware/errorHandler.js';
 import baseRoutes from './routes/baseRoutes.js';
 import objectiveRoutes from './routes/objectiveRoutes.js';
 
