@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "mon-mothma-commander": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 1 Armada",
+        "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
+        "_id": null,
+        "type": "commander",
+        "faction": ["rebel"],
+        "name": "Mon Mothma",
+        "unique-class": ["Mon Mothma"],
+        "ability": "When a friendly ship resolves the :evade: token effect, it can cancel 1 die at medium range or reroll 1 additional die at close range or distance 1.",
+        "unique": true,
+        "points": 27,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": true
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
