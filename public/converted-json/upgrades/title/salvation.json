@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "salvation": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 1 Armada",
+        "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
+        "_id": null,
+        "type": "title",
+        "faction": ["rebel"],
+        "name": "Salvation",
+        "unique-class": ["Salvation"],
+        "ability": "While attacking a ship from your front hull zone, your :crit: icons count as 2 damage instead of 1.",
+        "unique": true,
+        "points": 7,
+        "modification": false,
+        "bound_shiptype": "nebulon-b-frigate",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "[link to image]",
+        "cardimage": ""
+      }
+    }
+  }
+  
