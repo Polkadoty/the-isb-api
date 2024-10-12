@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "kyrsta-agate-commander": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
         "_id": null,
-        "type": "officer",
+        "type": "commander",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Kyrsta Agate",
+        "unique-class": ["Kyrsta Agate"],
+        "ability": "After you deploy, gain 1 non-:scatter: defense token.\nDuring your \"Spend Defense Tokens\" step, if your speed is not 0, you may discard 1 defense token to resolve the effect of that defense token. You cannot resolve the effect of each type of defense token more than once per attack.",
         "unique": true,
-        "points": 10,
+        "points": 25,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,7 +21,8 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
-          "flagship": false
+          "enable_upgrades": [""],
+          "flagship": true
         },
         "start_command": {
           "type": "",

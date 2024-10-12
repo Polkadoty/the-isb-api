@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "gunnery-chief-varnillian": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "type": "weapons-team",
+        "faction": ["empire"],
+        "name": "Gunnery Chief Varnillian",
+        "unique-class": ["Gunnery Chief Varnillian"],
+        "ability": "After you deploy, place 1 red die set to a blank face on this card. If you are the second player, set it to any face instead.\nWhile attacking a ship, you may spend 1 die from the attack pool to exchange it with the die on this card. Both dice remain set to their current faces.",
         "unique": true,
-        "points": 10,
+        "points": 6,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,6 +21,7 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {

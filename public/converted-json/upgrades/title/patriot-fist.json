@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "patriot-fist": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 10 Armada",
+            "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
+            "_id": null,
+            "type": "title",
+            "faction": ["separatist"],
+            "name": "Patriot Fist",
+            "unique-class": ["Patriot Fist"],
+            "ability": "While attacking a ship at medium-long range, if this is your first attack during your activation, you may add 2 blue dice to your attack pool. If you do, you cannot attack again during this activation.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "recusant-class-destroyer",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

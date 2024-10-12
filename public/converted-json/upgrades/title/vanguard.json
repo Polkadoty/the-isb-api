@@ -1,26 +1,27 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "vanguard": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
         "_id": null,
-        "type": "officer",
+        "type": "title",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Vanguard",
+        "unique-class": ["Vanguard"],
+        "ability": "You gain 1 additional :weapons-team: icon in your upgrade bar.\nAt the start of the first round, you may replace 1 of your defense tokens with a :redirect: defense token.",
         "unique": true,
-        "points": 10,
+        "points": 4,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "nebulon-b-frigate",
         "restrictions": {
           "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": ["weapons-team"],
           "flagship": false
         },
         "start_command": {
@@ -33,7 +34,7 @@
           "ready_token": [""],
           "ready_amount": 0
         },
-        "artwork": "",
+        "artwork": "[link to image]",
         "cardimage": ""
       }
     }

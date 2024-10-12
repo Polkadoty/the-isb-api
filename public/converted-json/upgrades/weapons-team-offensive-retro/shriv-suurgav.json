@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "shriv-suurgav": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
         "_id": null,
-        "type": "officer",
+        "type": "weapons-team-offensive-retro",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Shriv Suurgav",
+        "unique-class": ["Shriv Suurgav"],
+        "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. Choose and discard 1 :weapons-team:, :support-team:, :offensive-retro:, :defensive-retro:, :ordnance:, :ion-cannon:, or :turbolaser: upgrade card equipped to that ship.",
         "unique": true,
-        "points": 10,
+        "points": 6,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,6 +21,7 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {

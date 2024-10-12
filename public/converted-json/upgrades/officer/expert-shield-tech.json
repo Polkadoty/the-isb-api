@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "expert-shield-tech": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
         "_id": null,
         "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
+        "faction": [""],
+        "name": "Expert Shield Tech",
+        "unique-class": [""],
+        "ability": "While defending, during the Spend Defense Tokens step, when you spend a :redirect: defense token, you may reduce the total damage from the attack by 1 instead of resolving that token's effect.",
+        "unique": false,
+        "points": 5,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,6 +21,7 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {
@@ -33,9 +34,8 @@
           "ready_token": [""],
           "ready_amount": 0
         },
-        "artwork": "",
+        "artwork": "[link to image]",
         "cardimage": ""
       }
     }
-  }
-  
+}

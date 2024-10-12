@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "reeva-demesne": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
         "_id": null,
         "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "faction": ["empire"],
+        "name": "Reeva Demesne",
+        "unique-class": ["Reeva Demesne"],
+        "ability": "After you are declared as the target of an attack, if the defending hull zone has at least 1 shield remaining, you may exhaust this card to ready 1 defense token.",
         "unique": true,
-        "points": 10,
+        "points": 4,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,6 +21,7 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {

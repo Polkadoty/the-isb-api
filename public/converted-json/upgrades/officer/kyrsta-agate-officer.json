@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "kyrsta-agate-officer": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
         "_id": null,
         "type": "officer",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Kyrsta Agate",
+        "unique-class": ["Kyrsta Agate"],
+        "ability": "Red or Blue :crit:: You may exhaust this card to ready 1 of your exhausted defense tokens.\nYou can resolve this critical effect during a Salvo attack.",
         "unique": true,
-        "points": 10,
+        "points": 5,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -21,6 +21,7 @@
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
+          "enable_upgrades": [""],
           "flagship": false
         },
         "start_command": {

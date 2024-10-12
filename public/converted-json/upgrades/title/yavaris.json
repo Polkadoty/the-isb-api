@@ -1,21 +1,21 @@
 {
     "upgrades": {
-      "defense-liaison": {
+      "yavaris": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Armada Wave 1",
-        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
+        "release": "Wave 1 Armada",
+        "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
         "_id": null,
-        "type": "officer",
-        "faction": [""],
-        "name": "Defense Liaison",
-        "unique-class": [""],
-        "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :navigate: or :engineering: command.",
-        "unique": false,
-        "points": 3,
+        "type": "title",
+        "faction": ["rebel"],
+        "name": "Yavaris",
+        "unique-class": ["Yavaris"],
+        "ability": ":squadron:: Each squadron you activate may choose to only attack during your activation. If it does, while attacking, it may add 1 die to its attack pool of a color already in its attack pool.",
+        "unique": true,
+        "points": 5,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "nebulon-b-frigate",
         "restrictions": {
           "traits": [""],
           "size": [""],
@@ -38,4 +38,5 @@
         "cardimage": ""
       }
     }
-}
+  }
+  
