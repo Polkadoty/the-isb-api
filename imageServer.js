@@ -11,19 +11,40 @@ const port = process.env.PORT || 5000;
 
 const imagesPath = path.join(__dirname, 'images');
 
-// Check if images directory exists
-if (!fs.existsSync(imagesPath)) {
-  console.error(`Images directory not found: ${imagesPath}`);
+// Cache to store file paths
+const imageCache = new Map();
+
+// Function to recursively scan and cache image file paths
+function cacheImagePaths(dir) {
+  const files = fs.readdirSync(dir);
+  
+  for (const file of files) {
+    const filePath = path.join(dir, file);
+    const stat = fs.statSync(filePath);
+    
+    if (stat.isDirectory()) {
+      cacheImagePaths(filePath);
+    } else if (file.endsWith('.webp') || file.endsWith('.png') || file.endsWith('.jpg') || file.endsWith('.jpeg')) {
+      const relativePath = path.relative(imagesPath, filePath);
+      imageCache.set(file, relativePath);
+    }
+  }
 }
 
+// Cache image paths on server start
+console.log('Caching image paths...');
+cacheImagePaths(imagesPath);
+console.log(`Cached ${imageCache.size} image paths`);
+
 app.use('/images', (req, res, next) => {
-  const imagePath = path.join(imagesPath, req.url.replace('/images', ''));
-  console.log(`Attempting to serve image: ${imagePath}`);
+  const imageName = path.basename(req.url);
+  const cachedPath = imageCache.get(imageName);
   
-  if (fs.existsSync(imagePath)) {
-    console.log(`Image found: ${imagePath}`);
+  if (cachedPath) {
+    console.log(`Image found in cache: ${cachedPath}`);
+    req.url = '/' + cachedPath;
   } else {
-    console.error(`Image not found: ${imagePath}`);
+    console.error(`Image not found in cache: ${imageName}`);
   }
   
   next();
