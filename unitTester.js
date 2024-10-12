@@ -30,7 +30,9 @@ function updateJsonValues(obj, modifications, parentKey = '') {
     for (let key in obj) {
       if (modifications[key]) {
         const { pattern, replacement } = modifications[key];
-        if (typeof obj[key] === 'string' && (obj[key] === '' || new RegExp(pattern).test(obj[key]))) {
+        const shouldUpdate = flags.force || (typeof obj[key] === 'string' && (obj[key] === '' || new RegExp(pattern).test(obj[key])));
+        
+        if (shouldUpdate) {
           console.log(`Updating ${key} from "${obj[key]}" to "${replacement.replace('{key}', parentKey || key)}"`);
           obj[key] = replacement.replace('{key}', parentKey || key);
         }
@@ -136,7 +138,8 @@ function parseArgs() {
     'custom-squadrons': args.includes('-custom-squadrons'),
     'custom-upgrades': args.includes('-custom-upgrades'),
     noModifications: args.includes('--no-modifications'),
-    noTests: args.includes('--no-tests')
+    noTests: args.includes('--no-tests'),
+    force: args.includes('--force') // Add this line
   };
 }
 

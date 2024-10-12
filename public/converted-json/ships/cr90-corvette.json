@@ -1,119 +1,211 @@
 {
-    "ships": {
-        "cr90-corvette": {
-            "_id": null,
-            "type": "chassis",
-            "chassis_name": "cr90-corvette",
-            "size": "small",
-            "hull": 4,
-            "speed": {
-                "1": [2],
-                "2": [1, 2],
-                "3": [0, 1, 2],
-                "4": [0, 1, 1, 2]
-            },
-            "shields": {
-                "front": 2,
-                "rear": 1,
-                "left": 2,
-                "right": 2,
-                "left_aux": 0,
-                "right_aux": 0
-            },
-            "hull_zones": {
-                "frontoffset": 0,
-                "centeroffset": 0,
-                "rearoffset": 0,
-                "frontangle": 90,
-                "centerangle": 0,
-                "rearangle": 90
-            },
-            "silhouette": "",
-            "blueprint": "",
-            "models": {
-                "cr90-corvette-a": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 0 Armada",
-                    "expansion": "Armada Core Set (SWM01)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "cr90-corvette",
-                    "name": "CR90 Corvette A",
-                    "faction": "rebel",
-                    "unique": false,
-                    "traits": [],
-                    "points": 44,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 2,
-                        "def_brace": 0,
-                        "def_redirect": 1,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 1,
-                        "squadron": 1,
-                        "engineer": 2
-                    },
-                    "upgrades": ["commander", "officer", "support-team", "defensive-retro", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 1, 0],
-                        "front": [2, 1, 0],
-                        "rear": [1, 0, 0],
-                        "left": [1, 1, 0],
-                        "right": [1, 1, 0],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "[link to image]",
-                    "cardimage": "https://b.l3n.co/i/zGzoi7.md.png"
-                },
-                "cr90-corvette-b": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 0 Armada",
-                    "expansion": "Armada Core Set (SWM01)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "cr90-corvette",
-                    "name": "CR90 Corvette B",
-                    "faction": "rebel",
-                    "unique": false,
-                    "traits": [],
-                    "points": 39,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 2,
-                        "def_brace": 0,
-                        "def_redirect": 1,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 1,
-                        "squadron": 1,
-                        "engineer": 2
-                    },
-                    "upgrades": ["commander", "officer", "support-team", "defensive-retro", "ion-cannon", "title"],
-                    "armament": {
-                        "asa": [0, 1, 0],
-                        "front": [0, 3, 0],
-                        "rear": [0, 1, 0],
-                        "left": [0, 2, 0],
-                        "right": [0, 2, 0],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "[link to image]",
-                    "cardimage": "https://a.l3n.co/i/zGSitK.md.png"
-                }
-            }
+  "ships": {
+    "cr90-corvette": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "cr90-corvette",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": [
+          0,
+          1,
+          1,
+          2
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 90,
+        "centerangle": 0,
+        "rearangle": 90
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "cr90-corvette-a": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "cr90-corvette",
+          "name": "CR90 Corvette A",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 44,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/cr90-corvette-a.webp"
+        },
+        "cr90-corvette-b": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "cr90-corvette",
+          "name": "CR90 Corvette B",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 39,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              3,
+              0
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              0,
+              2,
+              0
+            ],
+            "right": [
+              0,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/cr90-corvette-b.webp"
         }
+      }
     }
+  }
 }

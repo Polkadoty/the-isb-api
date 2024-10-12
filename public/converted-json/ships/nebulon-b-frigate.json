@@ -1,119 +1,204 @@
 {
-    "ships": {
-        "nebulon-b-frigate": {
-            "_id": null,
-            "type": "chassis",
-            "chassis_name": "nebulon-b-frigate",
-            "size": "small",
-            "hull": 5,
-            "speed": {
-                "1": [1],
-                "2": [1, 1],
-                "3": [0, 1, 2],
-                "4": []
-            },
-            "shields": {
-                "front": 3,
-                "rear": 2,
-                "left": 1,
-                "right": 1,
-                "left_aux": 0,
-                "right_aux": 0
-            },
-            "hull_zones": {
-                "frontoffset": 0,
-                "centeroffset": 0,
-                "rearoffset": 0,
-                "frontangle": 90,
-                "centerangle": 0,
-                "rearangle": 90
-            },
-            "silhouette": "",
-            "blueprint": "",
-            "models": {
-                "nebulon-b-escort-frigate": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 0 Armada",
-                    "expansion": "Armada Core Set (SWM01)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "nebulon-b-frigate",
-                    "name": "Nebulon-B Escort Frigate",
-                    "faction": "rebel",
-                    "unique": false,
-                    "traits": [],
-                    "points": 57,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 1,
-                        "def_brace": 2,
-                        "def_redirect": 0,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 2,
-                        "squadron": 2,
-                        "engineer": 3
-                    },
-                    "upgrades": ["commander", "officer", "support-team", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 2, 0],
-                        "front": [3, 0, 0],
-                        "rear": [2, 0, 0],
-                        "left": [1, 1, 0],
-                        "right": [1, 1, 0],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://b.l3n.co/i/zGzf60.md.png"
-                },
-                "nebulon-b-support-frigate": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 0 Armada",
-                    "expansion": "Armada Core Set (SWM01)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "nebulon-b-frigate",
-                    "name": "Nebulon-B Support Frigate",
-                    "faction": "rebel",
-                    "unique": false,
-                    "traits": [],
-                    "points": 51,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 1,
-                        "def_brace": 2,
-                        "def_redirect": 0,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 2,
-                        "squadron": 1,
-                        "engineer": 3
-                    },
-                    "upgrades": ["commander", "officer", "support-team", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 1, 0],
-                        "front": [3, 0, 0],
-                        "rear": [2, 0, 0],
-                        "left": [1, 1, 0],
-                        "right": [1, 1, 0],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://a.l3n.co/i/zGSth9.md.png"
-                }
-            }
+  "ships": {
+    "nebulon-b-frigate": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "nebulon-b-frigate",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 90,
+        "centerangle": 0,
+        "rearangle": 90
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "nebulon-b-escort-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "nebulon-b-frigate",
+          "name": "Nebulon-B Escort Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 57,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/nebulon-b-escort-frigate.webp"
+        },
+        "nebulon-b-support-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "nebulon-b-frigate",
+          "name": "Nebulon-B Support Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 51,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/nebulon-b-support-frigate.webp"
         }
+      }
     }
+  }
 }

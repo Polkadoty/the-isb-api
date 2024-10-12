@@ -1,119 +1,217 @@
 {
-    "ships": {
-        "raider-class-corvette": {
-            "_id": null,
-            "type": "chassis",
-            "chassis_name": "raider-class-corvette",
-            "size": "small",
-            "hull": 4,
-            "speed": {
-                "1": [2],
-                "2": [2, 2],
-                "3": [0, 1, 1],
-                "4": [0, 1, 1, 1]
-            },
-            "shields": {
-                "front": 2,
-                "rear": 2,
-                "left": 2,
-                "right": 2,
-                "left_aux": 0,
-                "right_aux": 0
-            },
-            "hull_zones": {
-                "frontoffset": 0,
-                "centeroffset": 0,
-                "rearoffset": 0,
-                "frontangle": 0,
-                "centerangle": 0,
-                "rearangle": 0
-            },
-            "silhouette": "[]",
-            "blueprint": "[]",
-            "models": {
-                "raider-i-class-corvette": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "Imperial Raider Expansion Pack (SWM15)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "raider-class-corvette",
-                    "name": "Raider I-class Corvette",
-                    "faction": "empire",
-                    "unique": false,
-                    "traits": [""],
-                    "points": 44,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 2,
-                        "def_brace": 1,
-                        "def_redirect": 0,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 1,
-                        "squadron": 1,
-                        "engineer": 2
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "ordnance", "title"],
-                    "armament": {
-                        "asa": [0, 0, 2],
-                        "front": [0, 2, 2],
-                        "rear": [0, 1, 0],
-                        "left": [0, 1, 1],
-                        "right": [0, 1, 1],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://c.l3n.co/i/zGeGEH.md.png"
-                },
-                "raider-ii-class-corvette": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "Imperial Raider Expansion Pack (SWM15)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "raider-class-corvette",
-                    "name": "Raider II-class Corvette",
-                    "faction": "empire",
-                    "unique": false,
-                    "traits": [""],
-                    "points": 48,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 2,
-                        "def_brace": 1,
-                        "def_redirect": 0,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 1,
-                        "squadron": 1,
-                        "engineer": 2
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "title"],
-                    "armament": {
-                        "asa": [0, 1, 1],
-                        "front": [0, 3, 1],
-                        "rear": [0, 1, 0],
-                        "left": [0, 1, 1],
-                        "right": [0, 1, 1],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://a.l3n.co/i/zGeaH1.md.png"
-                }
-            }
+  "ships": {
+    "raider-class-corvette": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "raider-class-corvette",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          2,
+          2
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[]",
+      "blueprint": "[]",
+      "models": {
+        "raider-i-class-corvette": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "Imperial Raider Expansion Pack (SWM15)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "raider-class-corvette",
+          "name": "Raider I-class Corvette",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 44,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 1,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              0,
+              2,
+              2
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              1
+            ],
+            "right": [
+              0,
+              1,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/raider-i-class-corvette.webp"
+        },
+        "raider-ii-class-corvette": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "Imperial Raider Expansion Pack (SWM15)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "raider-class-corvette",
+          "name": "Raider II-class Corvette",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 48,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 1,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              3,
+              1
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              1
+            ],
+            "right": [
+              0,
+              1,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/raider-ii-class-corvette.webp"
         }
+      }
     }
+  }
 }

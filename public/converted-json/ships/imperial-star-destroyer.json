@@ -1,201 +1,386 @@
 {
-    "ships": {
-        "imperial-star-destroyer": {
-            "_id": null,
-            "type": "chassis",
-            "chassis_name": "imperial-star-destroyer",
-            "size": "large",
-            "hull": 11,
-            "speed": {
-                "1": [1],
-                "2": [1, 1],
-                "3": [0, 1, 1],
-                "4": []
-            },
-            "shields": {
-                "front": 4,
-                "rear": 2,
-                "left": 3,
-                "right": 3,
-                "left_aux": 0,
-                "right_aux": 0
-            },
-            "hull_zones": {
-                "frontoffset": 0,
-                "centeroffset": -10,
-                "rearoffset": 0,
-                "frontangle": 85,
-                "centerangle": 0,
-                "rearangle": 100
-            },
-            "silhouette": "",
-            "blueprint": "",
-            "models": {
-                "imperial-i-class-star-destroyer": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "imperial-star-destroyer",
-                    "name": "Imperial I-class Star Destroyer",
-                    "faction": "empire",
-                    "unique": false,
-                    "traits": ["star-destroyer"],
-                    "points": 110,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 0,
-                        "def_brace": 1,
-                        "def_redirect": 2,
-                        "def_contain": 1,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 3,
-                        "squadron": 4,
-                        "engineer": 4
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 1, 1],
-                        "front": [3, 2, 3],
-                        "rear": [1, 1, 1],
-                        "left": [1, 1, 2],
-                        "right": [1, 1, 2],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://b.l3n.co/i/zGeYnF.md.png"
-                },
-                "imperial-ii-class-star-destroyer": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "imperial-star-destroyer",
-                    "name": "Imperial II-class Star Destroyer",
-                    "faction": "empire",
-                    "unique": false,
-                    "traits": ["star-destroyer"],
-                    "points": 120,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 0,
-                        "def_brace": 1,
-                        "def_redirect": 2,
-                        "def_contain": 1,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 3,
-                        "squadron": 4,
-                        "engineer": 4
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "ion-cannon", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 2, 0],
-                        "front": [4, 4, 0],
-                        "rear": [1, 2, 0],
-                        "left": [2, 2, 0],
-                        "right": [2, 2, 0],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://c.l3n.co/i/zGeo53.md.png"
-                },
-                "imperial-star-destroyer-cymoon-refit": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 7 Armada",
-                    "expansion": "Chimaera Expansion Pack (SWM29)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "imperial-star-destroyer",
-                    "name": "Imperial Star Destroyer Cymoon 1 Refit",
-                    "faction": "empire",
-                    "unique": false,
-                    "traits": ["star-destroyer"],
-                    "points": 112,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 0,
-                        "def_brace": 1,
-                        "def_redirect": 2,
-                        "def_contain": 1,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 3,
-                        "squadron": 3,
-                        "engineer": 4
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "fleet-command", "offensive-retro", "weapons-team-offensive-retro", "turbolaser", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 0, 2],
-                        "front": [5, 2, 0],
-                        "rear": [1, 2, 0],
-                        "left": [1, 3, 0],
-                        "right": [1, 3, 0],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://c.l3n.co/i/zGn09i.md.png"
-                },
-                "imperial-star-destroyer-kuat-refit": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 7 Armada",
-                    "expansion": "Chimaera Expansion Pack (SWM29)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "imperial-star-destroyer",
-                    "name": "Imperial Star Destroyer Kuat Refit",
-                    "faction": "empire",
-                    "unique": false,
-                    "traits": ["star-destroyer"],
-                    "points": 112,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 0,
-                        "def_brace": 1,
-                        "def_redirect": 2,
-                        "def_contain": 1,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 3,
-                        "squadron": 2,
-                        "engineer": 4
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "ion-cannon", "ordnance", "title"],
-                    "armament": {
-                        "asa": [0, 1, 1],
-                        "front": [3, 2, 3],
-                        "rear": [1, 1, 1],
-                        "left": [1, 1, 2],
-                        "right": [1, 1, 2],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://a.l3n.co/i/zGeDE0.md.png"
-                }
-            }
+  "ships": {
+    "imperial-star-destroyer": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "imperial-star-destroyer",
+      "size": "large",
+      "hull": 11,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": -10,
+        "rearoffset": 0,
+        "frontangle": 85,
+        "centerangle": 0,
+        "rearangle": 100
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "imperial-i-class-star-destroyer": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "imperial-star-destroyer",
+          "name": "Imperial I-class Star Destroyer",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 110,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              2,
+              3
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              1,
+              1,
+              2
+            ],
+            "right": [
+              1,
+              1,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/imperial-i-class-star-destroyer.webp"
+        },
+        "imperial-ii-class-star-destroyer": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "imperial-star-destroyer",
+          "name": "Imperial II-class Star Destroyer",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 120,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              4,
+              4,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              2,
+              2,
+              0
+            ],
+            "right": [
+              2,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/imperial-ii-class-star-destroyer.webp"
+        },
+        "imperial-star-destroyer-cymoon-refit": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 7 Armada",
+          "expansion": "Chimaera Expansion Pack (SWM29)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "imperial-star-destroyer",
+          "name": "Imperial Star Destroyer Cymoon 1 Refit",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 112,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "fleet-command",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              5,
+              2,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              1,
+              3,
+              0
+            ],
+            "right": [
+              1,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/imperial-star-destroyer-cymoon-refit.webp"
+        },
+        "imperial-star-destroyer-kuat-refit": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 7 Armada",
+          "expansion": "Chimaera Expansion Pack (SWM29)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "imperial-star-destroyer",
+          "name": "Imperial Star Destroyer Kuat Refit",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 112,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              2,
+              3
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              1,
+              1,
+              2
+            ],
+            "right": [
+              1,
+              1,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/imperial-star-destroyer-kuat-refit.webp"
         }
+      }
     }
+  }
 }

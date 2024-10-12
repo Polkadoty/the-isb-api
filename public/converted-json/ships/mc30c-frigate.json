@@ -1,119 +1,217 @@
 {
-    "ships": {
-        "mc30c-frigate": {
-            "_id": null,
-            "type": "chassis",
-            "chassis_name": "mc30c-frigate",
-            "size": "small",
-            "hull": 4,
-            "speed": {
-                "1": [1],
-                "2": [1, 1],
-                "3": [0, 1, 2],
-                "4": [0, 1, 1, 0]
-            },
-            "shields": {
-                "front": 3,
-                "rear": 2,
-                "left": 3,
-                "right": 3,
-                "left_aux": 0,
-                "right_aux": 0
-            },
-            "hull_zones": {
-                "frontoffset": 0,
-                "centeroffset": 0,
-                "rearoffset": 0,
-                "frontangle": 0,
-                "centerangle": 0,
-                "rearangle": 0
-            },
-            "silhouette": "",
-            "blueprint": "",
-            "models": {
-                "mc30c-scout-frigate": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "mc30c-frigate",
-                    "name": "MC30c Scout Frigate",
-                    "faction": "rebel",
-                    "unique": false,
-                    "traits": ["MC"],
-                    "points": 69,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 2,
-                        "def_brace": 0,
-                        "def_redirect": 2,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 2,
-                        "squadron": 1,
-                        "engineer": 3
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "defensive-retro", "ordnance", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 1, 0],
-                        "front": [1, 0, 2],
-                        "rear": [1, 0, 1],
-                        "left": [2, 0, 3],
-                        "right": [2, 0, 3],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://b.l3n.co/i/zGzeX5.md.png"
-                },
-                "mc30c-torpedo-frigate": {
-                    "author": "Fantasy Flight Games",
-                    "alias": "FFG",
-                    "team": "FFG",
-                    "release": "Wave 2 Armada",
-                    "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-                    "_id": null,
-                    "type": "ship",
-                    "chassis": "mc30c-frigate",
-                    "name": "MC30c Torpedo Frigate",
-                    "faction": "rebel",
-                    "unique": false,
-                    "traits": ["MC"],
-                    "points": 63,
-                    "tokens": {
-                        "def_scatter": 0,
-                        "def_evade": 2,
-                        "def_brace": 0,
-                        "def_redirect": 2,
-                        "def_contain": 0,
-                        "def_salvo": 0
-                    },
-                    "values": {
-                        "command": 2,
-                        "squadron": 1,
-                        "engineer": 3
-                    },
-                    "upgrades": ["commander", "officer", "weapons-team", "defensive-retro", "ordnance", "turbolaser", "title"],
-                    "armament": {
-                        "asa": [0, 1, 0],
-                        "front": [0, 1, 2],
-                        "rear": [0, 1, 1],
-                        "left": [0, 2, 3],
-                        "right": [0, 2, 3],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
-                    },
-                    "artwork": "",
-                    "cardimage": "https://b.l3n.co/i/zGzzkv.md.png"
-                }
-            }
+  "ships": {
+    "mc30c-frigate": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "mc30c-frigate",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc30c-scout-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "mc30c-frigate",
+          "name": "MC30c Scout Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 69,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "ordnance",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              0,
+              2
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              2,
+              0,
+              3
+            ],
+            "right": [
+              2,
+              0,
+              3
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc30c-scout-frigate.webp"
+        },
+        "mc30c-torpedo-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "mc30c-frigate",
+          "name": "MC30c Torpedo Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 63,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "ordnance",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              1,
+              2
+            ],
+            "rear": [
+              0,
+              1,
+              1
+            ],
+            "left": [
+              0,
+              2,
+              3
+            ],
+            "right": [
+              0,
+              2,
+              3
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc30c-torpedo-frigate.webp"
         }
+      }
     }
+  }
 }
