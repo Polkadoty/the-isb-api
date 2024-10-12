@@ -1,20 +1,20 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "advanced-transponder-net": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
-        "modification": false,
+        "type": "offensive-retro",
+        "faction": [""],
+        "name": "Advanced Transponder Net",
+        "unique-class": [""],
+        "ability": "Modification.\nFriendly heavy squadrons at distance 1-2 prevent engaged squadrons from attacking ships.",
+        "unique": false,
+        "points": 5,
+        "modification": true,
         "bound_shiptype": "",
         "restrictions": {
           "traits": [""],

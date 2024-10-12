@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "ezra-bridger": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
         "_id": null,
         "type": "officer",
         "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
+        "name": "Ezra Bridger",
+        "unique-class": ["Ezra Bridger"],
+        "ability": "When you reveal a command, you may discard this card to move 1 obstacle at distance 1-2 so that it is within distance 1-2 of its current location.",
         "unique": true,
-        "points": 10,
+        "points": 3,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {

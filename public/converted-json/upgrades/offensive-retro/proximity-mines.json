@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "adar-tallon-officer": {
+      "proximity-mines": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+        "release": "Rebellion in the Rim Campaign Armada",
+        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Adar Tallon",
-        "unique-class": ["Adar Tallon"],
-        "ability": "After you resolve a :squadron: command, exhaust this card to toggle the activation slider of 1 squadron activated with that command",
-        "unique": true,
-        "points": 10,
+        "type": "offensive-retro",
+        "faction": [""],
+        "name": "Proximity Mines",
+        "unique-class": [""],
+        "ability": "Before deploying fleets, you may discard this card to place a number of proximity mine tokens equal to half your engineering value, rounded down. You may place these mines anywhere in the play area beyond distance 5 of enemy ships (and distance 1 of each other).",
+        "unique": false,
+        "points": 4,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
