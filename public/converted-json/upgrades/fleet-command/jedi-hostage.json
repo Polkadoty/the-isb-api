@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "jedi-hostage": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 10 Armada",
+            "expansion": "Invisible Hand Expansion Pack (SWM42)",
+            "_id": null,
+            "type": "fleet-command",
+            "faction": ["separatist"],
+            "name": "Jedi Hostage",
+            "unique-class": ["Jedi Hostage"],
+            "ability": "When an enemy ship declares you as the target of a non-:salvo: attack, if this card is readied, the attacker gains a raid token of its choice, if able. When an enemy ship at close range reveals a command, it may discard a :squadron: dial to exhaust this card. While defending, if this card is exhausted, you cannot spend more than 1 defense token.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
