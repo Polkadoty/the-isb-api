@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-ackbar-commander": {
+      "ion-cannon-batteries": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Home One Expansion Pack (SWM13)",
+        "release": "Armada Wave 1",
+        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
         "_id": null,
-        "type": "commander",
-        "faction": ["rebel"],
-        "name": "Admiral Ackbar",
-        "unique-class": ["Admiral Ackbar"],
-        "ability": "Before a friendly ship's Attack step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
-        "unique": true,
-        "points": 38,
+        "type": "ion-cannon",
+        "faction": [""],
+        "name": "Ion Cannon Batteries",
+        "unique-class": [""],
+        "ability": "Blue :critical:: Choose and discard 1 command token from the defender. If the defender does not have any command tokens, the defending hull zone loses 1 shield instad.",
+        "unique": false,
+        "points": 5,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -22,7 +22,7 @@
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
           "enable_upgrades": [""],
-          "flagship": true
+          "flagship": false
         },
         "start_command": {
           "type": "",
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": "https://b.l3n.co/i/neqUDk.md.png"
+        "cardimage": ""
       }
     }
   }

@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-ozzel-commander": {
+      "defense-liaison": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Imperial Raider Expansion Pack (SWM15)",
+        "release": "Armada Wave 1",
+        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
         "_id": null,
-        "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Ozzel",
-        "unique-class": ["Admiral Ozzel"],
-        "ability": "During each friendly ship's Determine Course step, it may change its speed by 1.",
-        "unique": true,
-        "points": 20,
+        "type": "officer",
+        "faction": [""],
+        "name": "Defense Liaison",
+        "unique-class": [""],
+        "ability": "Before you reveal a command, you may spend 1 command token to change that command to a :navigate: or :engineering: command.",
+        "unique": false,
+        "points": 3,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -22,7 +22,7 @@
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
           "enable_upgrades": [""],
-          "flagship": true
+          "flagship": false
         },
         "start_command": {
           "type": "",
@@ -34,9 +34,8 @@
           "ready_token": [""],
           "ready_amount": 0
         },
-        "artwork": "",
-        "cardimage": "https://b.l3n.co/i/neqx5c.md.png"
+        "artwork": "[link to image]",
+        "cardimage": ""
       }
     }
-  }
-  
+}

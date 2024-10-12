@@ -1,28 +1,28 @@
 {
     "upgrades": {
-      "admiral-piett": {
+      "corrupter": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+        "release": "Armada Wave 1",
+        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
         "_id": null,
-        "type": "commander",
+        "type": "title",
         "faction": ["empire"],
-        "name": "Admiral Piett",
-        "unique-class": ["Admiral Piett"],
-        "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
+        "name": "Corrupter",
+        "unique-class": ["Corrupter"],
+        "ability": ":squadron:: The speed of each squadron with BOMBER you activate is increased by 1 until the end of its activation",
         "unique": true,
-        "points": 22,
+        "points": 5,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "victory-star-destroyer",
         "restrictions": {
           "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
           "enable_upgrades": [""],
-          "flagship": true
+          "flagship": false
         },
         "start_command": {
           "type": "",

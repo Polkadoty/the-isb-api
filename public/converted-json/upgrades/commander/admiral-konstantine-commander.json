@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-ackbar-commander": {
+      "admiral-konstantine-commander": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Home One Expansion Pack (SWM13)",
+        "release": "Wave 4 Armada",
+        "expansion": "Interdictor Expansion Pack (SWM16)",
         "_id": null,
         "type": "commander",
-        "faction": ["rebel"],
-        "name": "Admiral Ackbar",
-        "unique-class": ["Admiral Ackbar"],
-        "ability": "Before a friendly ship's Attack step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
+        "faction": ["empire"],
+        "name": "Admiral Konstantine",
+        "unique-class": ["Admiral Konstantine"],
+        "ability": "At the start of each Status Phase, you may choose any number of enemy ships at distance 1-5 of at least 2 friendly non-flotilla ships, 1 of which must be of medium or larger size class. For each chosen ship you may discard 1 :nav: token from it or increase or decrease that enemy ship's speed by 1 to a minimum of speed 1.",
         "unique": true,
-        "points": 38,
+        "points": 23,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": "https://b.l3n.co/i/neqUDk.md.png"
+        "cardimage": "https://a.l3n.co/i/neqbVH.md.png"
       }
     }
   }

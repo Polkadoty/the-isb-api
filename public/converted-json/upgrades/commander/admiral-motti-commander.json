@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "commander-sato": {
+      "admiral-motti": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 5 Armada",
-        "expansion": "Phoenix Home Expansion Pack (SWM21)",
+        "release": "Armada Wave 1",
+        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
         "_id": null,
         "type": "commander",
-        "faction": ["rebel"],
-        "name": "Commander Sato",
-        "unique-class": ["Commander Sato"],
-        "ability": "While a friendly ship is attacking a ship at distance 1 of a friendly squadron, before rolling attack dice, the attacker may replace up to 2 dice in its attack pool with an equal number of dice of any color or colors.",
+        "faction": ["empire"],
+        "name": "Admiral Motti",
+        "unique-class": ["Admiral Motti"],
+        "ability": "The hull value of each friendly ship is increased according to its size class:\nSmall ship: 1\nMedium ship: 2\nLarge ship: 3",
         "unique": true,
-        "points": 27,
+        "points": 24,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {

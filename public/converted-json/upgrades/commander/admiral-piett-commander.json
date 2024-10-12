@@ -1,19 +1,19 @@
 {
     "upgrades": {
-      "admiral-konstantine": {
+      "admiral-piett-commander": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 4 Armada",
-        "expansion": "Interdictor Expansion Pack (SWM16)",
+        "release": "Super Star Destroyer",
+        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
         "_id": null,
         "type": "commander",
         "faction": ["empire"],
-        "name": "Admiral Konstantine",
-        "unique-class": ["Admiral Konstantine"],
-        "ability": "At the start of each Status Phase, you may choose any number of enemy ships at distance 1-5 of at least 2 friendly non-flotilla ships, 1 of which must be of medium or larger size class. For each chosen ship you may discard 1 :nav: token from it or increase or decrease that enemy ship's speed by 1 to a minimum of speed 1.",
+        "name": "Admiral Piett",
+        "unique-class": ["Admiral Piett"],
+        "ability": "When a friendly ship spends only a command token to resolve a command, you may exhaust this card. If you do, that ship resolves that command as if it had spent a dial of the same type instead.",
         "unique": true,
-        "points": 23,
+        "points": 22,
         "modification": false,
         "bound_shiptype": "",
         "restrictions": {
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": ""
+        "cardimage": "https://a.l3n.co/i/neq5EK.md.png"
       }
     }
   }

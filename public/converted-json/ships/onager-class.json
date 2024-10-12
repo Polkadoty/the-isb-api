@@ -4,7 +4,7 @@
             "_id": null,
             "type": "chassis",
             "chassis_name": "onager-class",
-            "size": "medium",
+            "size": "large",
             "hull": 10,
             "speed": {
                 "1": [1],
@@ -28,8 +28,8 @@
                 "centerangle": 0,
                 "rearangle": 0
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
                 "onager-class-star-destroyer": {
                     "author": "Fantasy Flight Games",
@@ -69,8 +69,8 @@
                         "right_aux": [0, 0, 0],
                         "special": [3, 2, 2]
                     },
-                    "artwork": "[link to image]",
-                    "cardimage": ""
+                    "artwork": "",
+                    "cardimage": "https://b.l3n.co/i/zGeNOD.md.png"
                 },
                 "onager-class-testbed": {
                     "author": "Fantasy Flight Games",
@@ -110,8 +110,8 @@
                         "right_aux": [0, 0, 0],
                         "special": [4, 0, 3]
                     },
-                    "artwork": "[link to image]",
-                    "cardimage": ""
+                    "artwork": "",
+                    "cardimage": "https://c.l3n.co/i/zGexvk.md.png"
                 }
             }
         }

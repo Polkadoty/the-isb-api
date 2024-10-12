@@ -1,28 +1,28 @@
 {
     "upgrades": {
-      "admiral-ackbar-commander": {
+      "warlord": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Home One Expansion Pack (SWM13)",
+        "release": "Armada Wave 1",
+        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
         "_id": null,
-        "type": "commander",
-        "faction": ["rebel"],
-        "name": "Admiral Ackbar",
-        "unique-class": ["Admiral Ackbar"],
-        "ability": "Before a friendly ship's Attack step, it may choose to attack from only its left and right hull zones this round. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
+        "type": "title",
+        "faction": ["empire"],
+        "name": "Warlord",
+        "unique-class": ["Warlord"],
+        "ability": "While attack, you may change 1 die face with an :accuracy: icon to a face with a :hit: icon.",
         "unique": true,
-        "points": 38,
+        "points": 8,
         "modification": false,
-        "bound_shiptype": "",
+        "bound_shiptype": "victory-star-destroyer",
         "restrictions": {
           "traits": [""],
           "size": [""],
           "disqual_upgrades": [""],
           "disable_upgrades": [""],
           "enable_upgrades": [""],
-          "flagship": true
+          "flagship": false
         },
         "start_command": {
           "type": "",
@@ -35,7 +35,7 @@
           "ready_amount": 0
         },
         "artwork": "",
-        "cardimage": "https://b.l3n.co/i/neqUDk.md.png"
+        "cardimage": ""
       }
     }
   }
