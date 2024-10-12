@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "wedge-antilles-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["rebel"],
+        "name": "Wedge Antilles",
+        "unique-class": ["Wedge Antilles"],
+        "ability": "Before the end of the Squadron Phase, you may spend 1 :squadron: token to choose up to 3 friendly non-unique squadrons without Strategic at distance 1-5. Those squadrons gain Cloak until the end of the round.",
+        "unique": true,
+        "points": 4,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

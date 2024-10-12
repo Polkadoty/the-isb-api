@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "kyrsta-agate-officer": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["rebel"],
+        "name": "Kyrsta Agate",
+        "unique-class": ["Kyrsta Agate"],
+        "ability": "Red or Blue :crit:: You may exhaust this card to ready 1 of your exhausted defense tokens.\nYou can resolve this critical effect during a Salvo attack.",
+        "unique": true,
+        "points": 5,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

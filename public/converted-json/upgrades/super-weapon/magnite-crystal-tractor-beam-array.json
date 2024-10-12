@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "magnite-crystal-tractor-beam-array": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+        "_id": null,
+        "type": "super-weapon",
+        "faction": ["rebel"],
+        "name": "Magnite Crystal Tractor Beam Array",
+        "unique-class": [""],
+        "ability": "After the end of your activation, you may exhaust this card to choose 1 enemy ship at distance 1-5. That ship's speed is increased or decreased to match your speed.\nWhile your speed is 0, you cannot ready this card.",
+        "unique": false,
+        "points": 10,
+        "modification": false,
+        "bound_shiptype": "starhawk-class-battleship",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

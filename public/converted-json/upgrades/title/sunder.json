@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "sunder": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
+        "_id": null,
+        "type": "title",
+        "faction": ["empire"],
+        "name": "Sunder",
+        "unique-class": ["Sunder"],
+        "ability": "Blue or Black :crit:: You may discard this card to choose and discard 1 :offensive-retro:, :defensive-retro:, :ordnance:, :ion-cannon:, or :turbolaser: upgrade card equipped to the defender.",
+        "unique": true,
+        "points": 10,
+        "modification": false,
+        "bound_shiptype": "onager-class",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "unity": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+        "_id": null,
+        "type": "title",
+        "faction": ["rebel"],
+        "name": "Unity",
+        "unique-class": ["Unity"],
+        "ability": "After you deploy, gain 1 :redirect: defense token.\nWhile attacking a squadron, if the defender is engaged with a friendly squadron without the printed Heavy keyword, you may reroll 1 die.",
+        "unique": true,
+        "points": 10,
+        "modification": false,
+        "bound_shiptype": "starhawk-class-battleship",
+        "restrictions": {
+          "traits": ["starhawk-mark-i"],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

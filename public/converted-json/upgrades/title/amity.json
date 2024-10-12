@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "amity": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+        "_id": null,
+        "type": "title",
+        "faction": ["rebel"],
+        "name": "Amity",
+        "unique-class": ["Amity"],
+        "ability": "Mark I only.\nAfter you deploy, gain 1 :evade: defense token.\nWhen an enemy ship overlaps you, you may deal 1 additional facedown damage card to both ships.",
+        "unique": true,
+        "points": 6,
+        "modification": false,
+        "bound_shiptype": "starhawk-class-battleship",
+        "restrictions": {
+          "traits": ["starhawk-mark-i"],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

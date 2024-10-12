@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "commander-beck": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["empire"],
+        "name": "Commander Beck",
+        "unique-class": ["Commander Beck"],
+        "ability": "During your activation, you may resolve a command as if you had spent a command token. If you do, gain 1 raid token of the matching type.\nYou may resolve this effect twice per activation.",
+        "unique": true,
+        "points": 3,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  

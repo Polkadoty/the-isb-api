@@ -1,0 +1,42 @@
+{
+    "upgrades": {
+      "reeva-demesne": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 8 Armada",
+        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
+        "_id": null,
+        "type": "officer",
+        "faction": ["empire"],
+        "name": "Reeva Demesne",
+        "unique-class": ["Reeva Demesne"],
+        "ability": "After you are declared as the target of an attack, if the defending hull zone has at least 1 shield remaining, you may exhaust this card to ready 1 defense token.",
+        "unique": true,
+        "points": 4,
+        "modification": false,
+        "bound_shiptype": "",
+        "restrictions": {
+          "traits": [""],
+          "size": [""],
+          "disqual_upgrades": [""],
+          "disable_upgrades": [""],
+          "enable_upgrades": [""],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [""],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [""],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": ""
+      }
+    }
+  }
+  
