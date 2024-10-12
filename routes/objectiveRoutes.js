@@ -1,9 +1,10 @@
-const express = require('express');
+import express from 'express';
+import { getAllObjectives, searchObjectives, getObjectiveById } from '../controllers/objectiveController.js';
+
 const router = express.Router();
-const objectiveController = require('../controllers/objectiveController');
 
-router.get('/', objectiveController.getAllObjectives);
-router.get('/search', objectiveController.searchObjectives);
-router.get('/:id', objectiveController.getObjectiveById);
+router.get('/', getAllObjectives);
+router.get('/search', searchObjectives);
+router.get('/:id', getObjectiveById);
 
-module.exports = router;
+export default router;

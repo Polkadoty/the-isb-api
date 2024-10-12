@@ -1,9 +1,10 @@
-const express = require('express');
+import express from 'express';
+import { getAllShips, searchShips, getShipById } from '../controllers/shipController.js';
+
 const router = express.Router();
-const shipController = require('../controllers/shipController');
 
-router.get('/', shipController.getAllShips);
-router.get('/search', shipController.searchShips); // New route for searching
-router.get('/:id', shipController.getShipById);
+router.get('/', getAllShips);
+router.get('/search', searchShips);
+router.get('/:id', getShipById);
 
-module.exports = router;
+export default router;

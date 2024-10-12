@@ -1,36 +1,37 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs/promises';
+import { fileURLToPath } from 'url';
 
-exports.getAllObjectives = (req, res, next) => {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+exports.getAllObjectives = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/objectives/objectives.json');
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Error reading objectives.json:', err);
-      return next(err);
-    }
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
     res.json(JSON.parse(data));
-  });
+  } catch (err) {
+    console.error('Error reading objectives.json:', err);
+    next(err);
+  }
 };
 
-exports.getObjectiveById = (req, res, next) => {
+exports.getObjectiveById = async (req, res, next) => {
   const objectiveId = req.params.id;
   const filePath = path.join(__dirname, `../public/converted-json/objectives/${objectiveId}.json`);
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error(`Error reading ${objectiveId}.json:`, err);
-      return res.status(404).json({ message: 'Objective not found' });
-    }
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
     res.json(JSON.parse(data));
-  });
+  } catch (err) {
+    console.error(`Error reading ${objectiveId}.json:`, err);
+    res.status(404).json({ message: 'Objective not found' });
+  }
 };
 
-exports.searchObjectives = (req, res, next) => {
+exports.searchObjectives = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/objectives/objectives.json');
-  fs.readFile(filePath, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Error reading objectives.json:', err);
-      return next(err);
-    }
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
     let objectivesData = JSON.parse(data);
     const filters = req.query;
     console.log('Applying filters:', filters);
@@ -95,5 +96,8 @@ exports.searchObjectives = (req, res, next) => {
 
     console.log(`Returning ${Object.keys(filteredObjectives).length} objectives after applying filters`);
     res.json({ objectives: filteredObjectives });
-  });
+  } catch (err) {
+    console.error('Error reading objectives.json:', err);
+    next(err);
+  }
 };

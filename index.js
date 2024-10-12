@@ -2,12 +2,12 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import fetch from 'node-fetch';
-const shipRoutes = require('./routes/shipRoutes');
-const squadronRoutes = require('./routes/squadronRoutes');
-const upgradeRoutes = require('./routes/upgradeRoutes');
-const errorHandler = require('./middleware/errorHandler');
-const baseRoutes = require('./routes/baseRoutes');
-const objectiveRoutes = require('./routes/objectiveRoutes');
+import shipRoutes from './routes/shipRoutes.js';
+import squadronRoutes from './routes/squadronRoutes.js';
+import upgradeRoutes from './routes/upgradeRoutes.js';
+import errorHandler from './middleware/errorHandler.js';
+import baseRoutes from './routes/baseRoutes.js';
+import objectiveRoutes from './routes/objectiveRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -69,4 +69,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-module.exports = app;
+export default app;
