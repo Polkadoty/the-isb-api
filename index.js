@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
-const path = require('path');
+const fetch = require('node-fetch');
 const shipRoutes = require('./routes/shipRoutes');
 const squadronRoutes = require('./routes/squadronRoutes');
 const upgradeRoutes = require('./routes/upgradeRoutes');
@@ -12,25 +12,56 @@ const objectiveRoutes = require('./routes/objectiveRoutes');
 const app = express();
 const PORT = process.env.PORT || 4000;
 
+const MAIN_API = 'https://api.swarmada.wiki';
+const BACKUP_API = 'https://api-backup.swarmada.wiki';
+
 app.use(cors());
 app.use(helmet());
 app.use(express.json());
 
-app.use('/', baseRoutes);
+// Load balancer middleware
+const loadBalancer = async (req, res, next) => {
+  try {
+    const mainApiResponse = await fetch(`${MAIN_API}${req.url}`, {
+      method: req.method,
+      headers: req.headers,
+      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
+    });
 
+    if (mainApiResponse.ok) {
+      const data = await mainApiResponse.json();
+      return res.json(data);
+    }
+
+    // If main API fails, try backup
+    const backupApiResponse = await fetch(`${BACKUP_API}${req.url}`, {
+      method: req.method,
+      headers: req.headers,
+      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
+    });
+
+    if (backupApiResponse.ok) {
+      const data = await backupApiResponse.json();
+      return res.json(data);
+    }
+
+    // If both fail, pass to the next middleware (which will be your routes)
+    next();
+  } catch (error) {
+    console.error('Load balancer error:', error);
+    next();
+  }
+};
+
+// Apply load balancer to all routes
+app.use(loadBalancer);
+
+// Your existing routes
+app.use('/', baseRoutes);
 app.use('/api/ships', shipRoutes);
 app.use('/api/squadrons', squadronRoutes);
 app.use('/api/upgrades', upgradeRoutes);
 app.use('/api/objectives', objectiveRoutes);
-
-// Add this new route for serving images
-app.use('/images', express.static(path.join(__dirname, 'images'), {
-  maxAge: '7d',
-  setHeaders: (res, path) => {
-    res.setHeader('Cache-Control', 'public, max-age=604800, immutable');
-    res.setHeader('X-Content-Type-Options', 'nosniff');
-  }
-}));
 
 app.use(errorHandler);
 

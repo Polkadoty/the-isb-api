@@ -14,6 +14,10 @@
     {
       "src": "/images/(.*)",
       "dest": "https://api.swarmada.wiki/images/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
     }
   ]
 }
