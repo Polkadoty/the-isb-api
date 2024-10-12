@@ -1,31 +1,12 @@
-import https from 'https';
 import fetch from 'node-fetch';
 
 const MAIN_API = 'https://api.swarmada.wiki';
 const BACKUP_API = 'https://api-backup.swarmada.wiki';
 
 let useMainApi = true;
-const HEALTH_CHECK_INTERVAL = 60000; // Check every 60 seconds
-
-const checkApiHealth = async (apiUrl) => {
-  try {
-    const response = await fetch(`${apiUrl}/health`, {
-      method: 'GET',
-      timeout: 5000 // 5 seconds timeout
-    });
-    return response.ok;
-  } catch (error) {
-    console.error(`Health check failed for ${apiUrl}:`, error);
-    return false;
-  }
-};
-
-// Periodic health check
-setInterval(async () => {
-  const mainApiHealthy = await checkApiHealth(MAIN_API);
-  useMainApi = mainApiHealthy;
-  console.log(`Main API is ${mainApiHealthy ? 'healthy' : 'unhealthy'}. Using ${useMainApi ? 'Main' : 'Backup'} API.`);
-}, HEALTH_CHECK_INTERVAL);
+let consecutiveFailures = 0;
+const FAILURE_THRESHOLD = 5;
+const RESET_INTERVAL = 5 * 60 * 1000; // 5 minutes
 
 const loadBalancer = async (req, res, next) => {
   const apiUrl = useMainApi ? MAIN_API : BACKUP_API;
@@ -38,29 +19,50 @@ const loadBalancer = async (req, res, next) => {
     });
 
     if (apiResponse.ok) {
+      consecutiveFailures = 0;
       const data = await apiResponse.json();
       return res.json(data);
+    } else {
+      throw new Error(`API responded with status ${apiResponse.status}`);
     }
-
-    // If the current API fails, try the other one
-    const fallbackUrl = useMainApi ? BACKUP_API : MAIN_API;
-    const fallbackResponse = await fetch(`${fallbackUrl}${req.url}`, {
-      method: req.method,
-      headers: req.headers,
-      body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
-    });
-
-    if (fallbackResponse.ok) {
-      const data = await fallbackResponse.json();
-      return res.json(data);
-    }
-
-    // If both fail, pass to the next middleware
-    next();
   } catch (error) {
-    console.error('Load balancer error:', error);
+    console.error(`Error with ${apiUrl}:`, error);
+    consecutiveFailures++;
+
+    if (consecutiveFailures >= FAILURE_THRESHOLD) {
+      useMainApi = !useMainApi;
+      console.log(`Switching to ${useMainApi ? 'Main' : 'Backup'} API due to consecutive failures`);
+      consecutiveFailures = 0;
+    }
+
+    // Try the other API immediately
+    const fallbackUrl = useMainApi ? BACKUP_API : MAIN_API;
+    try {
+      const fallbackResponse = await fetch(`${fallbackUrl}${req.url}`, {
+        method: req.method,
+        headers: req.headers,
+        body: req.method !== 'GET' && req.method !== 'HEAD' ? JSON.stringify(req.body) : undefined
+      });
+
+      if (fallbackResponse.ok) {
+        const data = await fallbackResponse.json();
+        return res.json(data);
+      }
+    } catch (fallbackError) {
+      console.error(`Error with fallback ${fallbackUrl}:`, fallbackError);
+    }
+
+    // If both APIs fail, pass to the next middleware
     next(error);
   }
 };
+
+// Periodically reset to try the main API
+setInterval(() => {
+  if (!useMainApi) {
+    useMainApi = true;
+    console.log('Resetting to use Main API');
+  }
+}, RESET_INTERVAL);
 
 export default loadBalancer;

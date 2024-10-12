@@ -19,11 +19,6 @@ app.use(express.json());
 // Apply load balancer to all routes
 app.use(loadBalancer);
 
-// Add this new route before your other route definitions
-app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'healthy' });
-});
-
 // Your existing routes
 app.use('/', baseRoutes);
 app.use('/api/ships', shipRoutes);
