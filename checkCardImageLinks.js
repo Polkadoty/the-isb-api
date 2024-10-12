@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const directories = {
   ships: path.join(__dirname, 'public/converted-json/ships'),
