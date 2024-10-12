@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-exports.getAllObjectives = async (req, res, next) => {
+export const getAllObjectives = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/objectives/objectives.json');
   try {
     const data = await fs.readFile(filePath, 'utf8');
@@ -16,7 +16,7 @@ exports.getAllObjectives = async (req, res, next) => {
   }
 };
 
-exports.getObjectiveById = async (req, res, next) => {
+export const getObjectiveById = async (req, res, next) => {
   const objectiveId = req.params.id;
   const filePath = path.join(__dirname, `../public/converted-json/objectives/${objectiveId}.json`);
   try {
@@ -28,7 +28,7 @@ exports.getObjectiveById = async (req, res, next) => {
   }
 };
 
-exports.searchObjectives = async (req, res, next) => {
+export const searchObjectives = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/objectives/objectives.json');
   try {
     const data = await fs.readFile(filePath, 'utf8');

@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-exports.getAllUpgrades = async (req, res, next) => {
+export const getAllUpgrades = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/upgrades/upgrades.json');
   try {
     const data = await fs.readFile(filePath, 'utf8');
@@ -16,7 +16,7 @@ exports.getAllUpgrades = async (req, res, next) => {
   }
 };
 
-exports.getUpgradeById = async (req, res, next) => {
+export const getUpgradeById = async (req, res, next) => {
   const upgradeId = req.params.id;
   const filePath = path.join(__dirname, `../public/converted-json/upgrades/${upgradeId}.json`);
   try {
@@ -28,7 +28,7 @@ exports.getUpgradeById = async (req, res, next) => {
   }
 };
 
-exports.searchUpgrades = async (req, res, next) => {
+export const searchUpgrades = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/upgrades/upgrades.json');
   try {
     const data = await fs.readFile(filePath, 'utf8');

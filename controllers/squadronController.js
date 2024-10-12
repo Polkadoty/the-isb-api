@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-exports.getAllSquadrons = async (req, res, next) => {
+export const getAllSquadrons = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/squadrons/squadrons.json');
   try {
     const data = await fs.readFile(filePath, 'utf8');
@@ -16,7 +16,7 @@ exports.getAllSquadrons = async (req, res, next) => {
   }
 };
 
-exports.getSquadronById = async (req, res, next) => {
+export const getSquadronById = async (req, res, next) => {
   const squadronId = req.params.id;
   const filePath = path.join(__dirname, '../public/converted-json/squadrons/squadrons.json');
   try {
@@ -34,7 +34,7 @@ exports.getSquadronById = async (req, res, next) => {
   }
 };
 
-exports.searchSquadrons = async (req, res, next) => {
+export const searchSquadrons = async (req, res, next) => {
   const filePath = path.join(__dirname, '../public/converted-json/squadrons/squadrons.json');
   try {
     const data = await fs.readFile(filePath, 'utf8');
