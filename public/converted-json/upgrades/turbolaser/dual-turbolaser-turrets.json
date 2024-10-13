@@ -1,20 +1,20 @@
 {
     "upgrades": {
-      "cham-syndulla-officer": {
+      "dual-turbolaser-turrets": {
         "author": "Fantasy Flight Games",
         "alias": "FFG",
         "team": "FFG",
-        "release": "Wave 6 Armada",
-        "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
+        "release": "Wave 5 Armada",
+        "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
         "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Cham Syndulla",
-        "unique-class": ["Cham Syndulla"],
-        "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If you do you may choose a new command for each command dial assigned to that ship.",
-        "unique": true,
+        "type": "turbolaser",
+        "faction": [""],
+        "name": "Dual Turbolaser Turrets",
+        "unique-class": [""],
+        "ability": "_Modification_. \nWhile attacking you may exhaust this card to add 1 red die to your attack pool. If you do, remove 1 die from the attack pool.",
+        "unique": false,
         "points": 5,
-        "modification": false,
+        "modification": true,
         "bound_shiptype": "",
         "restrictions": {
           "traits": [""],
@@ -30,7 +30,7 @@
           "start_amount": 0
         },
         "exhaust": {
-          "type": "recur",
+          "type": "",
           "ready_token": [""],
           "ready_amount": 0
         },
