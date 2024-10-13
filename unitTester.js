@@ -25,9 +25,18 @@ const tests = yaml.load(fs.readFileSync(testsFile, 'utf8'));
 const modificationsFile = path.join(__dirname, 'modifications.yaml');
 const modifications = yaml.load(fs.readFileSync(modificationsFile, 'utf8'));
 
-function updateJsonValues(obj, modifications, parentKey = '') {
+function updateJsonValues(obj, modifications, parentKey = '', filename = '') {
   if (typeof obj === 'object' && obj !== null) {
     for (let key in obj) {
+      if (parentKey === 'upgrades' && modifications.keyUpdate) {
+        const { pattern, replacement } = modifications.keyUpdate;
+        const newKey = replacement.replace('{filename}', filename);
+        if (new RegExp(pattern).test(key) && key !== newKey) {
+          console.log(`Updating key from "${key}" to "${newKey}"`);
+          obj[newKey] = obj[key];
+          delete obj[key];
+        }
+      }
       if (modifications[key]) {
         const { pattern, replacement } = modifications[key];
         const shouldUpdate = flags.force || (typeof obj[key] === 'string' && (obj[key] === '' || new RegExp(pattern).test(obj[key])));
@@ -38,7 +47,7 @@ function updateJsonValues(obj, modifications, parentKey = '') {
         }
       }
       if (typeof obj[key] === 'object') {
-        updateJsonValues(obj[key], modifications, key);
+        updateJsonValues(obj[key], modifications, key, filename);
       }
     }
   }
@@ -66,7 +75,7 @@ function unitTest(directory, testsToRun) {
 
           if (!flags.noModifications) {
             const originalData = JSON.stringify(data);
-            updateJsonValues(data, modifications);
+            updateJsonValues(data, modifications, '', path.basename(file, '.json'));
             if (JSON.stringify(data) !== originalData) {
               modified = true;
               fs.writeFileSync(filePath, JSON.stringify(data, null, 2));

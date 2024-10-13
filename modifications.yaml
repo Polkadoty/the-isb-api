@@ -1,3 +1,7 @@
-cardimage:
-  pattern: '^$|https://[a-z].l3n.co/i/[a-zA-Z0-9]+.md.webp'
-  replacement: 'https://api.swarmada.wiki/images/{key}.webp'
+# cardimage:
+#   pattern: '^$|https://[a-z].l3n.co/i/[a-zA-Z0-9]+.md.webp'
+#   replacement: 'https://api.swarmada.wiki/images/{key}.webp'
+
+keyUpdate:
+  pattern: '.*'
+  replacement: '{filename}'
