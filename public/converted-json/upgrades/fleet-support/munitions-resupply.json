@@ -1,43 +1,61 @@
-
 {
-    "upgrades": {
-      "munitions-resupply": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 9 Armada",
-        "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-        "_id": null,
-        "type": "fleet-support",
-        "faction": [""],
-        "name": "Munitions Resupply",
-        "unique-class": [""],
-        "ability": "While defending, you may exhaust this card and spend a readied defense token to resolve the :salvo: defense effect instead of that token's effect. You cannot resolve the :salvo: defense effect more than once per attack.",
-        "unique": false,
-        "points": 3,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "token",
-          "start_icon": ["confire"],
-          "start_amount": 5
-        },
-        "exhaust": {
-          "type": "nonrecur",
-          "ready_token": ["confire","repair","nav"],
-          "ready_amount": 1
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "munitions-resupply": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": null,
+      "type": "fleet-support",
+      "faction": [
+        ""
+      ],
+      "name": "Munitions Resupply",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While defending, you may exhaust this card and spend a readied defense token to resolve the :salvo: defense effect instead of that token's effect. You cannot resolve the :salvo: defense effect more than once per attack.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "confire"
+        ],
+        "start_amount": 5
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "confire",
+          "repair",
+          "nav"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/munitions-resupply.webp"
     }
   }
-  
+}

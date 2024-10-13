@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "advanced-transponder-net": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": [""],
-        "name": "Advanced Transponder Net",
-        "unique-class": [""],
-        "ability": "Modification.\nFriendly heavy squadrons at distance 1-2 prevent engaged squadrons from attacking ships.",
-        "unique": false,
-        "points": 5,
-        "modification": true,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "advanced-transponder-net": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Advanced Transponder Net",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification.\nFriendly heavy squadrons at distance 1-2 prevent engaged squadrons from attacking ships.",
+      "unique": false,
+      "points": 5,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/advanced-transponder-net.webp"
     }
   }
-  
+}

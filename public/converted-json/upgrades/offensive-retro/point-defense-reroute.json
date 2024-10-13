@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "point-defense-reroute": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": [""],
-        "name": "Point Defense Reroute",
-        "unique-class": [""],
-        "ability": "While attacking a squadron at close range, you may reroll your :critical: icons",
-        "unique": false,
-        "points": 5,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "point-defense-reroute": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Point Defense Reroute",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a squadron at close range, you may reroll your :critical: icons",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/point-defense-reroute.webp"
     }
   }
-  
+}

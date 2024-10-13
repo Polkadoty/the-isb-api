@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "flak-guns": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 10 Armada",
-        "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": [""],
-        "name": "Flak Guns",
-        "unique-class": [""],
-        "ability": "Treat each die in your anti-squadron armament as black. While performing a :salvo: attack, the black dice in your battery armament can be used at medium range and the blue dice in your battery armament can be used at long range.",
-        "unique": false,
-        "points": 3,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "flak-guns": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Flak Guns",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Treat each die in your anti-squadron armament as black. While performing a :salvo: attack, the black dice in your battery armament can be used at medium range and the blue dice in your battery armament can be used at long range.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/flak-guns.webp"
     }
   }
-  
+}

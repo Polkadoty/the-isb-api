@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "admiral-screed-commander": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Star Wars Armada Wave 1",
-        "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Screed",
-        "unique-class": ["Admiral Screed"],
-        "ability": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a :critical: icon.",
-        "unique": true,
-        "points": 26,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": "https://a.l3n.co/i/neqacP.md.png"
-      }
+  "upgrades": {
+    "admiral-screed-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Star Wars Armada Wave 1",
+      "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Screed",
+      "unique-class": [
+        "Admiral Screed"
+      ],
+      "ability": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a :critical: icon.",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-screed-commander.webp"
     }
   }
-  
+}

@@ -1,43 +1,59 @@
-
 {
-    "upgrades": {
-      "jamming-field": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 3 Armada",
-        "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-        "_id": null,
-        "type": "fleet-support",
-        "faction": [""],
-        "name": "Jamming Field",
-        "unique-class": [""],
-        "ability": "While a squadron at distance 1-2 is attacking a squadron or defending against a squadron, the attack must be treated as obstructed.",
-        "unique": false,
-        "points": 2,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "jamming-field": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 3 Armada",
+      "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
+      "_id": null,
+      "type": "fleet-support",
+      "faction": [
+        ""
+      ],
+      "name": "Jamming Field",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While a squadron at distance 1-2 is attacking a squadron or defending against a squadron, the attack must be treated as obstructed.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/jamming-field.webp"
     }
   }
-  
+}

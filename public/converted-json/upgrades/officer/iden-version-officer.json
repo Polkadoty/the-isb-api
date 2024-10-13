@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "iden-version-officer": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Iden Versio",
-        "unique-class": ["Iden Versio"],
-        "ability": "When you resolve the :evade: defense effect, you can cancel 1 die at close range or distance 1.\n:squadron:: You may discard this card to choose 1 enemy ship at close range. That ship gains 1 raid token of your choice.",
-        "unique": true,
-        "points": 6,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "iden-version-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Iden Versio",
+      "unique-class": [
+        "Iden Versio"
+      ],
+      "ability": "When you resolve the :evade: defense effect, you can cancel 1 die at close range or distance 1.\n:squadron:: You may discard this card to choose 1 enemy ship at close range. That ship gains 1 raid token of your choice.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/iden-version-officer.webp"
     }
   }
-  
+}

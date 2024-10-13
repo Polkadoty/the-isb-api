@@ -1,41 +1,60 @@
 {
-    "upgrades": {
-        "hot-landing": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-            "_id": null,
-            "type": "fleet-command",
-            "faction": ["republic","separatist"],
-            "name": "Hot Landing",
-            "unique-class": ["Hot Landing"],
-            "ability": "At the start of the Squadron Phase, friendly squadrons with adept gain grit until the end of the phase. When a friendly squadron with adept is destroyed, you may choose 1 enemy ship at distance 1-2 of that squadron. If you do, that ship gains 1 raid token of your choice.",
-            "unique": true,
-            "points": 3,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "hot-landing": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "_id": null,
+      "type": "fleet-command",
+      "faction": [
+        "republic",
+        "separatist"
+      ],
+      "name": "Hot Landing",
+      "unique-class": [
+        "Hot Landing"
+      ],
+      "ability": "At the start of the Squadron Phase, friendly squadrons with adept gain grit until the end of the phase. When a friendly squadron with adept is destroyed, you may choose 1 enemy ship at distance 1-2 of that squadron. If you do, that ship gains 1 raid token of your choice.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hot-landing.webp"
     }
+  }
 }

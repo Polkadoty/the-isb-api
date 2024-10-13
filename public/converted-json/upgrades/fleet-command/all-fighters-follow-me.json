@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "all-fighters-follow-me": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 5 Armada",
-            "expansion": "Phoenix Home Expansion Pack (SWM21)",
-            "_id": null,
-            "type": "fleet-command",
-            "faction": [""],
-            "name": "All Fighters, Follow Me!",
-            "unique-class": ["All Fighters, Follow Me!"],
-            "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "all-fighters-follow-me": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Phoenix Home Expansion Pack (SWM21)",
+      "_id": null,
+      "type": "fleet-command",
+      "faction": [
+        ""
+      ],
+      "name": "All Fighters, Follow Me!",
+      "unique-class": [
+        "All Fighters, Follow Me!"
+      ],
+      "ability": "At the start of the Ship Phase, you may discard this card or spend a :squadron: token. If you do, until the end of the round, the speed of each squadron that a friendly ship activates is increased by 1, to a maximum of 5, until the end of that squadron's activation.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/all-fighters-follow-me.webp"
     }
+  }
 }

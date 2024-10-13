@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "ms1-ion-cannon": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 4 Armada",
-        "expansion": "Interdictor Expansion Pack (SWM16)",
-        "_id": null,
-        "type": "ion-cannon",
-        "faction": [""],
-        "name": "MS-1 Ion Cannon",
-        "unique-class": [""],
-        "ability": "Blue :crit:: Choose and exhaust 1 of the defender's upgrade cards.",
-        "unique": false,
-        "points": 2,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "recur",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "ms1-ion-cannon": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 4 Armada",
+      "expansion": "Interdictor Expansion Pack (SWM16)",
+      "_id": null,
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "MS-1 Ion Cannon",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Blue :crit:: Choose and exhaust 1 of the defender's upgrade cards.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/ms1-ion-cannon.webp"
     }
   }
-  
+}

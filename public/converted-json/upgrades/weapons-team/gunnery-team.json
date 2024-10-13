@@ -8,34 +8,52 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "weapons-team",
-      "faction": [""],
+      "faction": [
+        ""
+      ],
       "name": "Gunnery Team",
-      "unique-class": [""],
+      "unique-class": [
+        ""
+      ],
       "ability": ":confire:: The next attack you perform this activation can be performed from this hull zone. Each of your hull zones cannot target the same ship or squadron more than once during your activation.",
       "unique": false,
       "points": 7,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
-        "traits": [""],
-        "size": [""],
-        "disqual_upgrades": [""],
-        "disable_upgrades": [""],
-        "enable_upgrades": [""],
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": false
       },
       "start_command": {
         "type": "",
-        "start_icon": [""],
+        "start_icon": [
+          ""
+        ],
         "start_amount": 0
       },
       "exhaust": {
         "type": "",
-        "ready_token": [""],
+        "ready_token": [
+          ""
+        ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hqKQ.md.webp"
+      "cardimage": "https://api.swarmada.wiki/images/gunnery-team.webp"
     }
   }
 }

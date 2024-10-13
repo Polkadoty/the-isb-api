@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "adi-gallia-officer": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-            "_id": null,
-            "type": "officer",
-            "faction": ["republic"],
-            "name": "Adi Gallia",
-            "unique-class": ["Adi Gallia"],
-            "ability": "While defending, when you suffer damage from an attack, you may suffer up to 1 of that damage on the shields of a hull zone adjacent to the defending hull zone for each defense token you spent during the Spend Defense Tokens step. If you do, suffer any remaining damage on the defending hull zone.",
-            "unique": true,
-            "points": 3,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "adi-gallia-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "republic"
+      ],
+      "name": "Adi Gallia",
+      "unique-class": [
+        "Adi Gallia"
+      ],
+      "ability": "While defending, when you suffer damage from an attack, you may suffer up to 1 of that damage on the shields of a hull zone adjacent to the defending hull zone for each defense token you spent during the Spend Defense Tokens step. If you do, suffer any remaining damage on the defending hull zone.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/adi-gallia-officer.webp"
     }
+  }
 }

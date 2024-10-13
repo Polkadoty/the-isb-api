@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "projection-experts": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Home One Expansion Pack (SWM13)",
-        "_id": null,
-        "type": "support-team",
-        "faction": [""],
-        "name": "Projection Experts",
-        "unique-class": [""],
-        "ability": ":repair: : You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5.",
-        "unique": false,
-        "points": 6,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "projection-experts": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM13)",
+      "_id": null,
+      "type": "support-team",
+      "faction": [
+        ""
+      ],
+      "name": "Projection Experts",
+      "unique-class": [
+        ""
+      ],
+      "ability": ":repair: : You may spend up to 2 engineering points to move that many shields from your ship to a friendly ship at distance 1-5.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/projection-experts.webp"
     }
   }
-  
+}

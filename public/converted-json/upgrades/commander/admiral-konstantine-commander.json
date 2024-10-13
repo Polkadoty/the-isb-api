@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "admiral-konstantine-commander": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 4 Armada",
-        "expansion": "Interdictor Expansion Pack (SWM16)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Konstantine",
-        "unique-class": ["Admiral Konstantine"],
-        "ability": "At the start of each Status Phase, you may choose any number of enemy ships at distance 1-5 of at least 2 friendly non-flotilla ships, 1 of which must be of medium or larger size class. For each chosen ship you may discard 1 :nav: token from it or increase or decrease that enemy ship's speed by 1 to a minimum of speed 1.",
-        "unique": true,
-        "points": 23,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": "https://a.l3n.co/i/neqbVH.md.png"
-      }
+  "upgrades": {
+    "admiral-konstantine-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 4 Armada",
+      "expansion": "Interdictor Expansion Pack (SWM16)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Konstantine",
+      "unique-class": [
+        "Admiral Konstantine"
+      ],
+      "ability": "At the start of each Status Phase, you may choose any number of enemy ships at distance 1-5 of at least 2 friendly non-flotilla ships, 1 of which must be of medium or larger size class. For each chosen ship you may discard 1 :nav: token from it or increase or decrease that enemy ship's speed by 1 to a minimum of speed 1.",
+      "unique": true,
+      "points": 23,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-konstantine-commander.webp"
     }
   }
-  
+}

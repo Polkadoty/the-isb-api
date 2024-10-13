@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "expanded-launchers": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-        "_id": null,
-        "type": "ordnance",
-        "faction": [""],
-        "name": "expanded-launchers",
-        "unique-class": [""],
-        "ability": "Modification\nThe battery armament for your front hull zone is increased by 2 black dice.",
-        "unique": false,
-        "points": 13,
-        "modification": true,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "recur",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "expanded-launchers": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+      "_id": null,
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "expanded-launchers",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification\nThe battery armament for your front hull zone is increased by 2 black dice.",
+      "unique": false,
+      "points": 13,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/expanded-launchers.webp"
     }
   }
-  
+}

@@ -8,34 +8,52 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "ordnance",
-      "faction": [""],
+      "faction": [
+        ""
+      ],
       "name": "Assault Concussion Missiles",
-      "unique-class": [""],
+      "unique-class": [
+        ""
+      ],
       "ability": "BLACK :crit: : Exhaust this card. Each hull zone adjacent to the defending hull zone suffers 1 damage.",
       "unique": false,
       "points": 5,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
-        "traits": [""],
-        "size": [""],
-        "disqual_upgrades": [""],
-        "disable_upgrades": [""],
-        "enable_upgrades": [""],
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": false
       },
       "start_command": {
         "type": "",
-        "start_icon": [""],
+        "start_icon": [
+          ""
+        ],
         "start_amount": 0
       },
       "exhaust": {
         "type": "recur",
-        "ready_token": [""],
+        "ready_token": [
+          ""
+        ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://a.l3n.co/i/n3hSKP.md.webp"
+      "cardimage": "https://api.swarmada.wiki/images/assault-concussion-missiles.webp"
     }
   }
 }

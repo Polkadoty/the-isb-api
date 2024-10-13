@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "moff-jerjerrod-commander": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 5 Armada",
-        "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["empire"],
-        "name": "Moff Jerjerrod",
-        "unique-class": ["Moff Jerjerrod"],
-        "ability": "While a friendly ship executes a maneuver, during the Determine Course step, that ship may suffer 1 damage to change the first yaw value of that maneuver to “II”.",
-        "unique": true,
-        "points": 23,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "moff-jerjerrod-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Moff Jerjerrod",
+      "unique-class": [
+        "Moff Jerjerrod"
+      ],
+      "ability": "While a friendly ship executes a maneuver, during the Determine Course step, that ship may suffer 1 damage to change the first yaw value of that maneuver to “II”.",
+      "unique": true,
+      "points": 23,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/moff-jerjerrod-commander.webp"
     }
   }
-  
+}

@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "engine-techs": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-        "_id": null,
-        "type": "engine-techs",
-        "faction": [""],
-        "name": "Engine Techs",
-        "unique-class": [""],
-        "ability": ":maneuver:: After you execute a maneuver in which you did not overlap a ship, you may exhaust this card to execute a speed-1 maneuver.",
-        "unique": false,
-        "points": 8,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "engine-techs": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+      "_id": null,
+      "type": "engine-techs",
+      "faction": [
+        ""
+      ],
+      "name": "Engine Techs",
+      "unique-class": [
+        ""
+      ],
+      "ability": ":maneuver:: After you execute a maneuver in which you did not overlap a ship, you may exhaust this card to execute a speed-1 maneuver.",
+      "unique": false,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/engine-techs.webp"
     }
   }
-  
+}

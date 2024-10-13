@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "kyrsta-agate-commander": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 8 Armada",
-        "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["rebel"],
-        "name": "Kyrsta Agate",
-        "unique-class": ["Kyrsta Agate"],
-        "ability": "After you deploy, gain 1 non-:scatter: defense token.\nDuring your \"Spend Defense Tokens\" step, if your speed is not 0, you may discard 1 defense token to resolve the effect of that defense token. You cannot resolve the effect of each type of defense token more than once per attack.",
-        "unique": true,
-        "points": 25,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "kyrsta-agate-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 8 Armada",
+      "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Kyrsta Agate",
+      "unique-class": [
+        "Kyrsta Agate"
+      ],
+      "ability": "After you deploy, gain 1 non-:scatter: defense token.\nDuring your \"Spend Defense Tokens\" step, if your speed is not 0, you may discard 1 defense token to resolve the effect of that defense token. You cannot resolve the effect of each type of defense token more than once per attack.",
+      "unique": true,
+      "points": 25,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kyrsta-agate-commander.webp"
     }
   }
-  
+}

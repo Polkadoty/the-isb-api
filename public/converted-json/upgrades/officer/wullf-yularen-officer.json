@@ -8,34 +8,52 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "officer",
-      "faction": ["empire"],
+      "faction": [
+        "empire"
+      ],
       "name": "Wullf Yularen",
-      "unique-class": ["Wullf Yularen"],
+      "unique-class": [
+        "Wullf Yularen"
+      ],
       "ability": "When you spend a command token, you may exhaust this card to gain 1 command token of the same type",
       "unique": true,
       "points": 7,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
-        "traits": [""],
-        "size": [""],
-        "disqual_upgrades": [""],
-        "disable_upgrades": [""],
-        "enable_upgrades": [""],
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": false
       },
       "start_command": {
         "type": "",
-        "start_icon": [""],
+        "start_icon": [
+          ""
+        ],
         "start_amount": 0
       },
       "exhaust": {
         "type": "recur",
-        "ready_token": [""],
+        "ready_token": [
+          ""
+        ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://b.l3n.co/i/n3hz1Z.md.webp"
+      "cardimage": "https://api.swarmada.wiki/images/wullf-yularen-officer.webp"
     }
   }
 }

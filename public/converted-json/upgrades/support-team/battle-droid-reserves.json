@@ -1,43 +1,59 @@
-
 {
-    "upgrades": {
-      "battle-droid-reserves": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 9 Armada",
-        "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-        "_id": null,
-        "type": "support-team",
-        "faction": ["separatist"],
-        "name": "Battle Droid Reserves",
-        "unique-class": [""],
-        "ability": "Droid only.\n:repair: : You may exhaust this card. If you do:\n- Flip any number of your faceup damage cards with the CREW trait facedown.\n- Discarding facedown damage cards costs 1 fewer engineering point.",
-        "unique": false,
-        "points": 4,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": ["Droid"],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "nonrecur",
-          "ready_token": ["repair"],
-          "ready_amount": 1
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "battle-droid-reserves": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": null,
+      "type": "support-team",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Battle Droid Reserves",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Droid only.\n:repair: : You may exhaust this card. If you do:\n- Flip any number of your faceup damage cards with the CREW trait facedown.\n- Discarding facedown damage cards costs 1 fewer engineering point.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "Droid"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "repair"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/battle-droid-reserves.webp"
     }
   }
-  
+}

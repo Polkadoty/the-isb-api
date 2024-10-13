@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "admiral-ozzel-commander": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Imperial Raider Expansion Pack (SWM15)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Ozzel",
-        "unique-class": ["Admiral Ozzel"],
-        "ability": "During each friendly ship's Determine Course step, it may change its speed by 1.",
-        "unique": true,
-        "points": 20,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": "https://b.l3n.co/i/neqx5c.md.png"
-      }
+  "upgrades": {
+    "admiral-ozzel-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial Raider Expansion Pack (SWM15)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Ozzel",
+      "unique-class": [
+        "Admiral Ozzel"
+      ],
+      "ability": "During each friendly ship's Determine Course step, it may change its speed by 1.",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-ozzel-commander.webp"
     }
   }
-  
+}

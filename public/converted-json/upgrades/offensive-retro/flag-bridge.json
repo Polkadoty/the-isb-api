@@ -1,42 +1,60 @@
 {
-    "upgrades": {
-      "flag-bridge": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 8 Armada",
-        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": ["empire"],
-        "name": "General Romodi",
-        "unique-class": ["General Romodi"],
-        "ability": "Medium or large ship only.\nFlagship only.\nModification\nYou gain 1 :fleet-command: icon in your upgrade bar.\nYou cannot spend a command token to resolve a :fleet-command: card's effect.",
-        "unique": false,
-        "points": 0,
-        "modification": true,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": ["medium","large"],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "flag-bridge": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 8 Armada",
+      "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        "empire"
+      ],
+      "name": "General Romodi",
+      "unique-class": [
+        "General Romodi"
+      ],
+      "ability": "Medium or large ship only.\nFlagship only.\nModification\nYou gain 1 :fleet-command: icon in your upgrade bar.\nYou cannot spend a command token to resolve a :fleet-command: card's effect.",
+      "unique": false,
+      "points": 0,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          "medium",
+          "large"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/flag-bridge.webp"
     }
   }
-  
+}

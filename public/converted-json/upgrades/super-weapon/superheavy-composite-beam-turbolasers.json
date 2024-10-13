@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "superheavy-composite-beam-turbolasers": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 8 Armada",
-        "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-        "_id": null,
-        "type": "super-weapon",
-        "faction": ["empire"],
-        "name": "Superheavy Composite Beam Turbolasers",
-        "unique-class": [""],
-        "ability": "Modification.\nIgnition [Medium]\nIgnition Red :crit:: The defender suffers 1 damage. This occurs once for each red or blue :crit: icon in the pool.",
-        "unique": false,
-        "points": 7,
-        "modification": true,
-        "bound_shiptype": "onager-class",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "superheavy-composite-beam-turbolasers": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 8 Armada",
+      "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
+      "_id": null,
+      "type": "super-weapon",
+      "faction": [
+        "empire"
+      ],
+      "name": "Superheavy Composite Beam Turbolasers",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification.\nIgnition [Medium]\nIgnition Red :crit:: The defender suffers 1 damage. This occurs once for each red or blue :crit: icon in the pool.",
+      "unique": false,
+      "points": 7,
+      "modification": true,
+      "bound_shiptype": "onager-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/superheavy-composite-beam-turbolasers.webp"
     }
   }
-  
+}

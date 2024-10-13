@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "anakin-skywalker-commander": {
-            "author": "Atomic Mass Games",
-            "alias": "AMG",
-            "team": "AMG",
-            "release": "Rapid Reinforcements",
-            "expansion": "Rapid Reinforcements II (RR2)",
-            "_id": null,
-            "type": "commander",
-            "faction": ["republic"],
-            "name": "Anakin Skywalker",
-            "unique-class": ["Anakin Skywalker"],
-            "ability": "While a friendly ship is attacking a ship, if the defender is at distance 1-5 of at least 2 other friendly ships, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If it does, the attacker may reroll up to 3 dice.",
-            "unique": true,
-            "points": 31,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": true
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/neBj92.md.png"
-        }
+  "upgrades": {
+    "anakin-skywalker-commander": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements",
+      "expansion": "Rapid Reinforcements II (RR2)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Anakin Skywalker",
+      "unique-class": [
+        "Anakin Skywalker"
+      ],
+      "ability": "While a friendly ship is attacking a ship, if the defender is at distance 1-5 of at least 2 other friendly ships, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If it does, the attacker may reroll up to 3 dice.",
+      "unique": true,
+      "points": 31,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-commander.webp"
     }
+  }
 }

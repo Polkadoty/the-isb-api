@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "passel-argente-officer": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-            "_id": null,
-            "type": "officer",
-            "faction": ["separatist"],
-            "name": "Passel Argente",
-            "unique-class": ["Passel Argente"],
-            "ability": "When you reveal a command, you may place a matching command token on this card. Then, if you have at least 1 :nav:, 1 :squadron:, 1 :confire:, and 1 :repair: command token on this card, you may gain 1 additional command dial of your choice.",
-            "unique": true,
-            "points": 6,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "passel-argente-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Passel Argente",
+      "unique-class": [
+        "Passel Argente"
+      ],
+      "ability": "When you reveal a command, you may place a matching command token on this card. Then, if you have at least 1 :nav:, 1 :squadron:, 1 :confire:, and 1 :repair: command token on this card, you may gain 1 additional command dial of your choice.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/passel-argente-officer.webp"
     }
+  }
 }

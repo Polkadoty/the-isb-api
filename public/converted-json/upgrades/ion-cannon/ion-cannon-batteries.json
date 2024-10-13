@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "ion-cannon-batteries": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Armada Wave 1",
-        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-        "_id": null,
-        "type": "ion-cannon",
-        "faction": [""],
-        "name": "Ion Cannon Batteries",
-        "unique-class": [""],
-        "ability": "Blue :critical:: Choose and discard 1 command token from the defender. If the defender does not have any command tokens, the defending hull zone loses 1 shield instad.",
-        "unique": false,
-        "points": 5,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "ion-cannon-batteries": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Armada Wave 1",
+      "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
+      "_id": null,
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Ion Cannon Batteries",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Blue :critical:: Choose and discard 1 command token from the defender. If the defender does not have any command tokens, the defending hull zone loses 1 shield instad.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ion-cannon-batteries.webp"
     }
   }
-  
+}

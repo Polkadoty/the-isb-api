@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "phylon-q7-tractor-beams": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": [""],
-        "name": "Phylon Q7 Tractor Beams",
-        "unique-class": [""],
-        "ability": "_Modification_. \nWhen you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5. That ship must spend a :navigate: token or reduce its speed by 1 to a minimum of 1.",
-        "unique": false,
-        "points": 6,
-        "modification": true,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "recur",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "phylon-q7-tractor-beams": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Phylon Q7 Tractor Beams",
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nWhen you activate, you may exhaust this card to choose 1 enemy ship of your size class or smaller at distance 1-5. That ship must spend a :navigate: token or reduce its speed by 1 to a minimum of 1.",
+      "unique": false,
+      "points": 6,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/phylon-q7-tractor-beams.webp"
     }
   }
-  
+}

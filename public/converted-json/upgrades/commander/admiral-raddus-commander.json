@@ -1,40 +1,56 @@
 {
-    "upgrades": {
-        "admiral-raddus-commander": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 7 Armada",
-            "expansion": "Profundity Expansion Pack (SWM30)",
-            "_id": null,
-            "type": "commander",
-            "faction": ["rebel"],
-            "name": "Admiral Raddus",
-            "unique-class": ["Admiral Raddus"],
-            "ability": "Before deploying fleets, you may set aside 1 other friendly ship. At the start of any round, you may deploy that ship at distance 1 of a friendly ship. That ship cannot be deployed overlapping squadrons and cannot be the first ship to activate that round. ",
-            "unique": true,
-            "points": 26,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "flagship": true
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://c.l3n.co/i/neqGHZ.md.png"
-        }
+  "upgrades": {
+    "admiral-raddus-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 7 Armada",
+      "expansion": "Profundity Expansion Pack (SWM30)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Admiral Raddus",
+      "unique-class": [
+        "Admiral Raddus"
+      ],
+      "ability": "Before deploying fleets, you may set aside 1 other friendly ship. At the start of any round, you may deploy that ship at distance 1 of a friendly ship. That ship cannot be deployed overlapping squadrons and cannot be the first ship to activate that round. ",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-raddus-commander.webp"
     }
+  }
 }

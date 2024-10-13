@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "plo-koon-commander": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 10 Armada",
-        "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["republic"],
-        "name": "Plo Koon",
-        "unique-class": ["Plo Koon"],
-        "ability": "While a friendly squadron is attacking a ship that is at distance 1-3 of a friendly ship, the attacker may add 1 blue die set to an [accuracy] icon to its attack pool. That die cannot be rerolled or changed. Friendly squadrons without adept gain grit while they are at distance 1 of a friendly squadron with adept.",
-        "unique": true,
-        "points": 26,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "plo-koon-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Plo Koon",
+      "unique-class": [
+        "Plo Koon"
+      ],
+      "ability": "While a friendly squadron is attacking a ship that is at distance 1-3 of a friendly ship, the attacker may add 1 blue die set to an [accuracy] icon to its attack pool. That die cannot be rerolled or changed. Friendly squadrons without adept gain grit while they are at distance 1 of a friendly squadron with adept.",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/plo-koon-commander.webp"
     }
   }
-  
+}

@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "flechette-torpedoes": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 5 Armada",
-        "expansion": "Phoenix Home Expansion Pack (SWM21)",
-        "_id": null,
-        "type": "ordnance",
-        "faction": [""],
-        "name": "Flechette Torpedoes",
-        "unique-class": [""],
-        "ability": "While attacking a squadron, you may spend 1 black die with a :critical: icon to toggle its activation slider to the activated side.",
-        "unique": false,
-        "points": 3,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "flechette-torpedoes": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Phoenix Home Expansion Pack (SWM21)",
+      "_id": null,
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Flechette Torpedoes",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a squadron, you may spend 1 black die with a :critical: icon to toggle its activation slider to the activated side.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/flechette-torpedoes.webp"
     }
   }
-  
+}

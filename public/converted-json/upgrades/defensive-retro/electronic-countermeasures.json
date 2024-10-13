@@ -8,34 +8,52 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "defensive-retro",
-      "faction": [""],
+      "faction": [
+        ""
+      ],
       "name": "Electronic Countermeasures",
-      "unique-class": [""],
+      "unique-class": [
+        ""
+      ],
       "ability": "While defending you may exhaust this card to spend 1 defense token that your opponent targeted with an :accuracy: result.",
       "unique": false,
       "points": 7,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
-        "traits": [""],
-        "size": [""],
-        "disqual_upgrades": [""],
-        "disable_upgrades": [""],
-        "enable_upgrades": [""],
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": false
       },
       "start_command": {
         "type": "",
-        "start_icon": [""],
+        "start_icon": [
+          ""
+        ],
         "start_amount": 0
       },
       "exhaust": {
         "type": "non-recur",
-        "ready_token": ["repair"],
+        "ready_token": [
+          "repair"
+        ],
         "ready_amount": 1
       },
       "artwork": "[link to image]",
-      "cardimage": "https://c.l3n.co/i/n3hLqo.md.webp"
+      "cardimage": "https://api.swarmada.wiki/images/electronic-countermeasures.webp"
     }
   }
 }

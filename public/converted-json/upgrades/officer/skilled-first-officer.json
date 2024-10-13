@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-      "skilled-first-officer": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 4 Armada",
-        "expansion": "Liberty Expansion Pack (SWM17)",
-        "_id": null,
-        "type": "officer",
-        "faction": [""],
-        "name": "Skilled First Officer",
-        "unique-class": [""],
-        "ability": "Before you reveal a command, you may discard this card to discard your top command dial.",
-        "unique": false,
-        "points": 1,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "skilled-first-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 4 Armada",
+      "expansion": "Liberty Expansion Pack (SWM17)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Skilled First Officer",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Before you reveal a command, you may discard this card to discard your top command dial.",
+      "unique": false,
+      "points": 1,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/skilled-first-officer.webp"
     }
+  }
 }

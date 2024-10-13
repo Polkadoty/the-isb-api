@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "ahsoka-tano-officer-republic": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-            "_id": null,
-            "type": "officer",
-            "faction": ["republic"],
-            "name": "Ahsoka Tano",
-            "unique-class": ["Ahsoka Tano"],
-            "ability": ":squadron: : Each of up to 3 non-unique squadrons that you activate gain snipe 1 for each die in their anti-squadron armament, to a maximum of snipe 3, until the end of its activation.",
-            "unique": true,
-            "points": 6,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "ahsoka-tano-officer-republic": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "republic"
+      ],
+      "name": "Ahsoka Tano",
+      "unique-class": [
+        "Ahsoka Tano"
+      ],
+      "ability": ":squadron: : Each of up to 3 non-unique squadrons that you activate gain snipe 1 for each die in their anti-squadron armament, to a maximum of snipe 3, until the end of its activation.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ahsoka-tano-officer-republic.webp"
     }
+  }
 }

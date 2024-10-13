@@ -1,43 +1,59 @@
 {
-    "upgrades": {
-      "external-racks": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 6 Armada",
-        "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-        "_id": null,
-        "type": "ordnance",
-        "faction": [""],
-        "name": "External Racks",
-        "unique-class": [""],
-        "ability": "While attacking at close range, you may discard this card to add 2 black dice to your attack pool.",
-        "unique": false,
-        "points": 4,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "external-racks": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 6 Armada",
+      "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
+      "_id": null,
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "External Racks",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking at close range, you may discard this card to add 2 black dice to your attack pool.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/external-racks.webp"
     }
   }
-  
-  
+}

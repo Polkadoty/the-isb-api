@@ -1,41 +1,60 @@
 {
-    "upgrades": {
-        "bail-organa-commander": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
-            "_id": null,
-            "type": "commander",
-            "faction": ["republic"],
-            "name": "Bail Organa",
-            "unique-class": ["Bail Organa"],
-            "ability": "When a friendly ship reveals a command, you may discard up to 1 token of each type from this card. For each token you discard, that ship gains 1 additional command dial matching that token's type.",
-            "unique": true,
-            "points": 28,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": true
-            },
-            "start_command": {
-                "type": "token",
-                "start_icon": ["nav","repair"],
-                "start_amount": 5
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/neB0vv.md.png"
-        }
+  "upgrades": {
+    "bail-organa-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Bail Organa",
+      "unique-class": [
+        "Bail Organa"
+      ],
+      "ability": "When a friendly ship reveals a command, you may discard up to 1 token of each type from this card. For each token you discard, that ship gains 1 additional command dial matching that token's type.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "nav",
+          "repair"
+        ],
+        "start_amount": 5
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/bail-organa-commander.webp"
     }
+  }
 }

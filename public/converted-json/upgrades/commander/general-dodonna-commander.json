@@ -8,34 +8,52 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "commander",
-      "faction": ["rebel"],
+      "faction": [
+        "rebel"
+      ],
       "name": "General Dodonna",
-      "unique-class": ["General Dodonna"],
+      "unique-class": [
+        "General Dodonna"
+      ],
       "ability": "Before an enemy ship is dealt a faceup damage card, look at the top 4 cards of the damage deck, place 1 on top of the deck and discard the others.",
       "unique": true,
       "points": 20,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
-        "traits": [""],
-        "size": [""],
-        "disqual_upgrades": [""],
-        "disable_upgrades": [""],
-        "enable_upgrades": [""],
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": true
       },
       "start_command": {
         "type": "",
-        "start_icon": [""],
+        "start_icon": [
+          ""
+        ],
         "start_amount": 0
       },
       "exhaust": {
         "type": "",
-        "ready_token": [""],
+        "ready_token": [
+          ""
+        ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",
-      "cardimage": "https://b.l3n.co/i/n3hVwA.md.webp"
+      "cardimage": "https://api.swarmada.wiki/images/general-dodonna-commander.webp"
     }
   }
 }

@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "hondo-ohnaka-officer": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 6 Armada",
-        "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Hondo Ohnaka",
-        "unique-class": ["Hondo Ohnaka"],
-        "ability": "At the start of the ship phase, you may discard this card to choose 2 different command tokens and place them on 2 different ships. Then your opponent chooses 2 different command tokens you did not choose and places them on 2 different ships.",
-        "unique": true,
-        "points": 2,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "recur",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "hondo-ohnaka-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 6 Armada",
+      "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Hondo Ohnaka",
+      "unique-class": [
+        "Hondo Ohnaka"
+      ],
+      "ability": "At the start of the ship phase, you may discard this card to choose 2 different command tokens and place them on 2 different ships. Then your opponent chooses 2 different command tokens you did not choose and places them on 2 different ships.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hondo-ohnaka-officer.webp"
     }
   }
-  
+}

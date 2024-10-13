@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-      "hyperspace-rings": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 9 Armada",
-        "expansion": "Galactic Republic Fleet Starter (SWM34)",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": ["republic"],
-        "name": "Hyperspace Rings",
-        "unique-class": [""],
-        "ability": "Before deploying fleets, you may choose a number of friendly, non-rogue squadrons up to your squadron value. Those squadrons gain scout.",
-        "unique": false,
-        "points": 3,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "hyperspace-rings": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        "republic"
+      ],
+      "name": "Hyperspace Rings",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Before deploying fleets, you may choose a number of friendly, non-rogue squadrons up to your squadron value. Those squadrons gain scout.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/hyperspace-rings.webp"
     }
   }
+}

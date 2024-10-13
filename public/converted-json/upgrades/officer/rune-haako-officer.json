@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "rune-haako-officer": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-            "_id": null,
-            "type": "officer",
-            "faction": ["separatist"],
-            "name": "Rune Haako",
-            "unique-class": ["Rune Haako"],
-            "ability": "When you reveal a command, you may choose another friendly ship at distance 1-5. If you do, discard any number of command tokens from that ship, this card, or both, to gain 1 matching command token for each discarded token.",
-            "unique": true,
-            "points": 4,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "token",
-                "start_icon": ["any"],
-                "start_amount": 2
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "rune-haako-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Rune Haako",
+      "unique-class": [
+        "Rune Haako"
+      ],
+      "ability": "When you reveal a command, you may choose another friendly ship at distance 1-5. If you do, discard any number of command tokens from that ship, this card, or both, to gain 1 matching command token for each discarded token.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 2
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rune-haako-officer.webp"
     }
+  }
 }

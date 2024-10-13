@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "spha-t": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 10 Armada",
-        "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": ["republic"],
-        "name": "SPHA-T",
-        "unique-class": [""],
-        "ability": "_Modification_. \nDecrease your squadron value by 2. Ignition (Close) Each of your front, left, or right firing arcs is also a special firing arc. You have a special battery armament of 5 blue dice and 1 black die. After you place your targeting token, exhaust this card. While this card is exhausted, you cannot place targeting tokens.",
-        "unique": false,
-        "points": 7,
-        "modification": true,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": ["star-destroyer"],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "nonrecur",
-          "ready_token": ["confire"],
-          "ready_amount": 1
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "spha-t": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        "republic"
+      ],
+      "name": "SPHA-T",
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nDecrease your squadron value by 2. Ignition (Close) Each of your front, left, or right firing arcs is also a special firing arc. You have a special battery armament of 5 blue dice and 1 black die. After you place your targeting token, exhaust this card. While this card is exhausted, you cannot place targeting tokens.",
+      "unique": false,
+      "points": 7,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-destroyer"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "confire"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/spha-t.webp"
     }
   }
-  
+}

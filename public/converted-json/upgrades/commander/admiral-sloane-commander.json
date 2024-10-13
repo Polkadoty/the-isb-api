@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "admiral-sloane-commander": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 6 Armada",
-        "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Sloane",
-        "unique-class": ["Admiral Sloane"],
-        "ability": "While a friendly squadron without Rogue is attacking, it may spend 1 die with an :accuracy: icon to choose and spend 1 of the defender’s defense tokens. While attacking a ship, it may also reroll 1 die with a :critical: icon.",
-        "unique": true,
-        "points": 24,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": "https://b.l3n.co/i/neB2gm.md.png"
-      }
+  "upgrades": {
+    "admiral-sloane-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 6 Armada",
+      "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Sloane",
+      "unique-class": [
+        "Admiral Sloane"
+      ],
+      "ability": "While a friendly squadron without Rogue is attacking, it may spend 1 die with an :accuracy: icon to choose and spend 1 of the defender’s defense tokens. While attacking a ship, it may also reroll 1 die with a :critical: icon.",
+      "unique": true,
+      "points": 24,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-sloane-commander.webp"
     }
   }
-  
+}

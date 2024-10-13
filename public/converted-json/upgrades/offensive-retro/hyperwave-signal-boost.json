@@ -1,41 +1,60 @@
 {
-    "upgrades": {
-      "hyperwave-signal-boost": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 9 Armada",
-        "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-        "_id": null,
-        "type": "offensive-retro",
-        "faction": ["separatist"],
-        "name": "Hyperwave Signal Boost",
-        "unique-class": [""],
-        "ability": "During the Squadron Phase, when it is your fleet's turn to activate squadrons, you may exhaust this card to choose a number of unactivated, friendly squadrons at close-long range up to you squadron value. This turn, activate each of those squadrons. While attacking, each of those squadrons with AI are treated as if activated by a :squadron: command.",
-        "unique": false,
-        "points": 3,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "nonrecur",
-          "ready_token": ["repair","squadron"],
-          "ready_amount": 1
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "hyperwave-signal-boost": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Hyperwave Signal Boost",
+      "unique-class": [
+        ""
+      ],
+      "ability": "During the Squadron Phase, when it is your fleet's turn to activate squadrons, you may exhaust this card to choose a number of unactivated, friendly squadrons at close-long range up to you squadron value. This turn, activate each of those squadrons. While attacking, each of those squadrons with AI are treated as if activated by a :squadron: command.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "repair",
+          "squadron"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/hyperwave-signal-boost.webp"
     }
   }
+}

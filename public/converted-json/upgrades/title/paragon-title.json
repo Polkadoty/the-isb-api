@@ -1,56 +1,56 @@
 {
-    "upgrades": {
-      "paragon-title": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-        "_id": null,
-        "type": "title",
-        "faction": [
-          "rebel"
+  "upgrades": {
+    "paragon-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Paragon",
+      "unique-class": [
+        "Paragon"
+      ],
+      "ability": "While attacking a ship you have already attacked this round, add 1 black die to your attack pool.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "assault-frigate-mk-ii",
+      "restrictions": {
+        "traits": [
+          ""
         ],
-        "name": "Paragon",
-        "unique-class": [
-          "Paragon"
+        "size": [
+          ""
         ],
-        "ability": "While attacking a ship you have already attacked this round, add 1 black die to your attack pool.",
-        "unique": true,
-        "points": 5,
-        "modification": false,
-        "bound_shiptype": "assault-frigate-mk-ii",
-        "restrictions": {
-          "traits": [
-            ""
-          ],
-          "size": [
-            ""
-          ],
-          "disqual_upgrades": [
-            ""
-          ],
-          "disable_upgrades": [
-            ""
-          ],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [
-            ""
-          ],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [
-            ""
-          ],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/paragon-title.webp"
     }
   }
+}

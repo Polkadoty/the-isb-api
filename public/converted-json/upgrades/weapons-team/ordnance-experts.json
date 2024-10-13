@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "ordnance-experts": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-        "_id": null,
-        "type": "weapons-team",
-        "faction": [""],
-        "name": "Ordnance Experts",
-        "unique-class": [""],
-        "ability": "While attacking, you may reroll up to 2 black dice.",
-        "unique": false,
-        "points": 4,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "ordnance-experts": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+      "_id": null,
+      "type": "weapons-team",
+      "faction": [
+        ""
+      ],
+      "name": "Ordnance Experts",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking, you may reroll up to 2 black dice.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ordnance-experts.webp"
     }
   }
-  
+}

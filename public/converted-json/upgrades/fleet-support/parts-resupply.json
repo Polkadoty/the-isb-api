@@ -1,43 +1,61 @@
-
 {
-    "upgrades": {
-      "parts-resupply": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 9 Armada",
-        "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-        "_id": null,
-        "type": "fleet-support",
-        "faction": [""],
-        "name": "Parts Resupply",
-        "unique-class": [""],
-        "ability": "After your Reveal Command Dial step, you may exhaust this card and discard any number of :repair: tokens from it to choose that many friendly ships at distance 1-5. Assign each chosen ship a :repair: token.",
-        "unique": false,
-        "points": 3,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "token",
-          "start_icon": ["repair"],
-          "start_amount": 5
-        },
-        "exhaust": {
-          "type": "nonrecur",
-          "ready_token": ["repair","repair","nav"],
-          "ready_amount": 1
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "parts-resupply": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": null,
+      "type": "fleet-support",
+      "faction": [
+        ""
+      ],
+      "name": "Parts Resupply",
+      "unique-class": [
+        ""
+      ],
+      "ability": "After your Reveal Command Dial step, you may exhaust this card and discard any number of :repair: tokens from it to choose that many friendly ships at distance 1-5. Assign each chosen ship a :repair: token.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "repair"
+        ],
+        "start_amount": 5
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "repair",
+          "repair",
+          "nav"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/parts-resupply.webp"
     }
   }
-  
+}
