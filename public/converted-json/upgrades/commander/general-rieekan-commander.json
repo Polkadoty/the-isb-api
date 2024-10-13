@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "general-rieekan": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["rebel"],
-        "name": "General Rieekan",
-        "unique-class": ["General Rieekan"],
-        "ability": "Once per round, when a friendly ship or friendly unique squadron is destroyed, it remains in the play area and is treated as if it was not destroyed until the end of the Status Phase.",
-        "unique": true,
-        "points": 34,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "general-rieekan-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Rieekan",
+      "unique-class": [
+        "General Rieekan"
+      ],
+      "ability": "Once per round, when a friendly ship or friendly unique squadron is destroyed, it remains in the play area and is treated as if it was not destroyed until the end of the Status Phase.",
+      "unique": true,
+      "points": 34,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

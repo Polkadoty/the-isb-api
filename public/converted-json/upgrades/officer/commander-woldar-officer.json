@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "commander-woldar": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Commander Woldar",
-        "unique-class": ["Commander Woldar"],
-        "ability": "While a friendly, non-Swarm squadron at distance 1-3 is attacking a squadron, it may reroll 1 die of any color.",
-        "unique": true,
-        "points": 4,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "commander-woldar-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Commander Woldar",
+      "unique-class": [
+        "Commander Woldar"
+      ],
+      "ability": "While a friendly, non-Swarm squadron at distance 1-3 is attacking a squadron, it may reroll 1 die of any color.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

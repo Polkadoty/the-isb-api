@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "sabine-wren": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Sabine Wren",
-        "unique-class": ["Sabine Wren"],
-        "ability": "At the start of the Ship Phase, you may discard this card to place 1 proximity mine token in the play area at distance 1-2 of an obstacle and beyond distance 3 of enemy ships.",
-        "unique": true,
-        "points": 4,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "sabine-wren-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Sabine Wren",
+      "unique-class": [
+        "Sabine Wren"
+      ],
+      "ability": "At the start of the Ship Phase, you may discard this card to place 1 proximity mine token in the play area at distance 1-2 of an obstacle and beyond distance 3 of enemy ships.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

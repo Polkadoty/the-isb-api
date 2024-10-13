@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "tb-73": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-            "_id": null,
-            "type": "title",
-            "faction": ["republic"],
-            "name": "TB-73",
-            "unique-class": ["TB-73"],
-            "ability": "After you deploy, gain 1 additional :evade: defense token.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "pelta-class-frigate",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "tb-73-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "TB-73",
+      "unique-class": [
+        "TB-73"
+      ],
+      "ability": "After you deploy, gain 1 additional :evade: defense token.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "pelta-class-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

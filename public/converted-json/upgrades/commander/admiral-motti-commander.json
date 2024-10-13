@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "admiral-motti": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Armada Wave 1",
-        "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-        "_id": null,
-        "type": "commander",
-        "faction": ["empire"],
-        "name": "Admiral Motti",
-        "unique-class": ["Admiral Motti"],
-        "ability": "The hull value of each friendly ship is increased according to its size class:\nSmall ship: 1\nMedium ship: 2\nLarge ship: 3",
-        "unique": true,
-        "points": 24,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": true
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "admiral-motti-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Armada Wave 1",
+      "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Motti",
+      "unique-class": [
+        "Admiral Motti"
+      ],
+      "ability": "The hull value of each friendly ship is increased according to its size class:\nSmall ship: 1\nMedium ship: 2\nLarge ship: 3",
+      "unique": true,
+      "points": 24,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

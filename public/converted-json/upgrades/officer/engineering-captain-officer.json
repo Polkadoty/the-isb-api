@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "engineering-captain": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-        "_id": null,
-        "type": "officer",
-        "faction": [""],
-        "name": "Engineering Captain",
-        "unique-class": ["Engineering Captain"],
-        "ability": "Before you reveal a command, you may change that command to a :repair: command.",
-        "unique": false,
-        "points": 6,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "engineering-captain-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Engineering Captain",
+      "unique-class": [
+        "Engineering Captain"
+      ],
+      "ability": "Before you reveal a command, you may change that command to a :repair: command.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "avenger": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-            "_id": null,
-            "type": "title",
-            "faction": ["empire"],
-            "name": "Avenger",
-            "unique-class": ["Avenger"],
-            "ability": "While attacking, you may exhaust this card. If you do, the defender cannot spend more than 1 exhausted defense token during this attack.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "imperial-star-destroyer",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "avenger-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Avenger",
+      "unique-class": [
+        "Avenger"
+      ],
+      "ability": "While attacking, you may exhaust this card. If you do, the defender cannot spend more than 1 exhausted defense token during this attack.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "imperial-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

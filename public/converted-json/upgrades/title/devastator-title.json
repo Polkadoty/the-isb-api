@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "devastator": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-            "_id": null,
-            "type": "title",
-            "faction": ["empire"],
-            "name": "Devastator",
-            "unique-class": ["Devastator"],
-            "ability": "Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens.",
-            "unique": true,
-            "points": 10,
-            "modification": false,
-            "bound_shiptype": "imperial-star-destroyer",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "devastator-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Devastator",
+      "unique-class": [
+        "Devastator"
+      ],
+      "ability": "Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "imperial-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

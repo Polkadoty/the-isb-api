@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "mar-tuuk": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-            "_id": null,
-            "type": "commander",
-            "faction": ["separatist"],
-            "name": "Mar Tuuk",
-            "unique-class": ["Mar Tuuk"],
-            "ability": "While a friendly ship is attacking, if the defending hull zone has at least 1 shield remaining, the attacker may add 1 red die to its attack pool.\nWhile a friendly ship is attacking a ship that has no shields remaining, after rolling the attack dice, the attacker must cancel 1 attack die.",
-            "unique": true,
-            "points": 28,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": true
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "mar-tuuk-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Mar Tuuk",
+      "unique-class": [
+        "Mar Tuuk"
+      ],
+      "ability": "While a friendly ship is attacking, if the defending hull zone has at least 1 shield remaining, the attacker may add 1 red die to its attack pool.\nWhile a friendly ship is attacking a ship that has no shields remaining, after rolling the attack dice, the attacker must cancel 1 attack die.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

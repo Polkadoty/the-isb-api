@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "nevoota-bee": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
-            "_id": null,
-            "type": "title",
-            "faction": ["republic"],
-            "name": "Nevoota Bee",
-            "unique-class": ["Nevoota Bee"],
-            "ability": ":squadron:: Each non-unique squadron that you activate gains swarm until the end of its activation. Each squadron with swarm that you activate may reroll 1 die while attacking a ship.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "acclamator-assault-ship",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "nevoota-bee-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Nevoota Bee",
+      "unique-class": [
+        "Nevoota Bee"
+      ],
+      "ability": ":squadron:: Each non-unique squadron that you activate gains swarm until the end of its activation. Each squadron with swarm that you activate may reroll 1 die while attacking a ship.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "acclamator-assault-ship",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

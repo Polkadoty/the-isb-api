@@ -1,41 +1,62 @@
 {
-    "upgrades": {
-        "gilded-aegis": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-            "_id": null,
-            "type": "title",
-            "faction": ["separatist"],
-            "name": "Gilded Aegis",
-            "unique-class": ["Gilded Aegis"],
-            "ability": "When you are deployed, you must choose 1 of each type of command token for this card.\nYour command value is increased to 4.\nYou can be assigned more than 1 of each type of command token.\nWhen you reveal a command, you may discard all of the tokens from this card to gain them.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "recusant-class-destroyer",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "token",
-                "start_icon": ["repair","nav","squadron","confire"],
-                "start_amount": 4
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "nova-defiant-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Gilded Aegis",
+      "unique-class": [
+        "Gilded Aegis"
+      ],
+      "ability": "When you are deployed, you must choose 1 of each type of command token for this card.\nYour command value is increased to 4.\nYou can be assigned more than 1 of each type of command token.\nWhen you reveal a command, you may discard all of the tokens from this card to gain them.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "recusant-class-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "repair",
+          "nav",
+          "squadron",
+          "confire"
+        ],
+        "start_amount": 4
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

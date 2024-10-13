@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "corvus": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "title",
-        "faction": ["empire"],
-        "name": "Corvus",
-        "unique-class": ["Corvus"],
-        "ability": "After deploying fleets you may redeploy this ship within your deployment zone.",
-        "unique": true,
-        "points": 2,
-        "modification": false,
-        "bound_shiptype": "raider-class-corvette",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "corvus-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Corvus",
+      "unique-class": [
+        "Corvus"
+      ],
+      "ability": "After deploying fleets you may redeploy this ship within your deployment zone.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "raider-class-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
     }
   }
-  
+}

@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "demolisher": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-        "_id": null,
-        "type": "title",
-        "faction": ["empire"],
-        "name": "Demolisher",
-        "unique-class": ["Demolisher"],
-        "ability": "During your Attack step, you can perform only 1 attack.\nYou can perform 1 of your attacks after you execute your first maneuver during your activation.",
-        "unique": true,
-        "points": 10,
-        "modification": false,
-        "bound_shiptype": "gladiator-star-destroyer",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "demolisher-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Demolisher",
+      "unique-class": [
+        "Demolisher"
+      ],
+      "ability": "During your Attack step, you can perform only 1 attack.\nYou can perform 1 of your attacks after you execute your first maneuver during your activation.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "gladiator-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
     }
   }
-  
+}

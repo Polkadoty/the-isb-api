@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "san-hill": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-            "_id": null,
-            "type": "officer",
-            "faction": ["separatist"],
-            "name": "San Hill",
-            "unique-class": ["San Hill"],
-            "ability": "At the start of the Squadron Phase, you may discard any number of tokens from this card. For each token you discard in this way, 1 additional squadron at close-long range of you may be activated during each of your fleet's turns to activate squadrons this phase.",
-            "unique": true,
-            "points": 3,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "token",
-                "start_icon": ["squadron"],
-                "start_amount": 2
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "san-hill-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "San Hill",
+      "unique-class": [
+        "San Hill"
+      ],
+      "ability": "At the start of the Squadron Phase, you may discard any number of tokens from this card. For each token you discard in this way, 1 additional squadron at close-long range of you may be activated during each of your fleet's turns to activate squadrons this phase.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "squadron"
+        ],
+        "start_amount": 2
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

@@ -1,40 +1,56 @@
 {
-    "upgrades": {
-        "seventh-fleet-star-destroyer": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 7 Armada",
-            "expansion": "Chimaera Expansion Pack (SWM29)",
-            "_id": null,
-            "type": "title",
-            "faction": ["empire"],
-            "name": "Seventh Fleet Star Destroyer",
-            "unique-class": [""],
-            "ability": "Star Destroyer only.\nWhile defending against an attack that targets your front hull zone, before you suffer damage, you may choose and exhaust a copy of this card on another friendly ship at distance 1-4 to reduce the total damage by 1.",
-            "unique": false,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": ["star-destroyer"],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "seventh-fleet-star-destroyer-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 7 Armada",
+      "expansion": "Chimaera Expansion Pack (SWM29)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Seventh Fleet Star Destroyer",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Star Destroyer only.\nWhile defending against an attack that targets your front hull zone, before you suffer damage, you may choose and exhaust a copy of this card on another friendly ship at distance 1-4 to reduce the total damage by 1.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-destroyer"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

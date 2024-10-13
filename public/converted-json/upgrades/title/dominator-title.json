@@ -1,6 +1,6 @@
 {
   "upgrades": {
-    "dominator": {
+    "dominator-title": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
@@ -8,30 +8,48 @@
       "expansion": "Armada Core Set (SWM01)",
       "_id": null,
       "type": "title",
-      "faction": ["empire"],
+      "faction": [
+        "empire"
+      ],
       "name": "Dominator",
-      "unique-class": ["Dominator"],
+      "unique-class": [
+        "Dominator"
+      ],
       "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
       "unique": true,
       "points": 12,
       "modification": false,
       "bound_shiptype": "victory-star-destroyer",
       "restrictions": {
-        "traits": [""],
-        "size": [""],
-        "disqual_upgrades": [""],
-        "disable_upgrades": [""],
-        "enable_upgrades": [""],
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": false
       },
       "start_command": {
         "type": "",
-        "start_icon": [""],
+        "start_icon": [
+          ""
+        ],
         "start_amount": 0
       },
       "exhaust": {
         "type": "",
-        "ready_token": [""],
+        "ready_token": [
+          ""
+        ],
         "ready_amount": 0
       },
       "artwork": "[link to image]",

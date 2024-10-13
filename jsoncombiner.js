@@ -30,29 +30,33 @@ function updateIdsAndCombine(directory, outputFileName) {
       if (stat.isDirectory()) {
         processDirectory(filePath); // Recursively process subdirectories
       } else if (file.endsWith('.json') && file !== outputFileName) {
-        const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        try {
+          const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-        // Recursively update _id fields
-        function updateIds(obj) {
-          if (obj && typeof obj === 'object') {
-            for (let key in obj) {
-              if (key === '_id' && (obj[key] === null || !obj[key])) {
-                obj[key] = uuidv4(); // Generate a unique ID
-              } else {
-                updateIds(obj[key]);
+          // Recursively update _id fields
+          function updateIds(obj) {
+            if (obj && typeof obj === 'object') {
+              for (let key in obj) {
+                if (key === '_id' && (obj[key] === null || !obj[key])) {
+                  obj[key] = uuidv4(); // Generate a unique ID
+                } else {
+                  updateIds(obj[key]);
+                }
               }
             }
           }
-        }
 
-        updateIds(data);
+          updateIds(data);
 
-        // Combine data under the top-level key (e.g., "ships" or "squadrons")
-        for (let topKey in data) {
-          if (!result[topKey]) {
-            result[topKey] = {};
+          // Combine data under the top-level key (e.g., "ships" or "squadrons")
+          for (let topKey in data) {
+            if (!result[topKey]) {
+              result[topKey] = {};
+            }
+            Object.assign(result[topKey], data[topKey]);
           }
-          Object.assign(result[topKey], data[topKey]);
+        } catch (error) {
+          console.error(`Error parsing JSON file: ${filePath}`, error);
         }
       }
     });

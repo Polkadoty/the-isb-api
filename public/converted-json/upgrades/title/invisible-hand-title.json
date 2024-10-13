@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "invisible-hand": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Invisible Hand Expansion Pack (SWM42)",
-            "_id": null,
-            "type": "title",
-            "faction": ["separatist"],
-            "name": "Invisible Hand",
-            "unique-class": ["Invisible Hand"],
-            "ability": "While deploying fleets, if you are in the play area, when you would deploy a squadron with swarm, you may set that squadron aside next to your ship card instead. You may set aside up to 5 squadrons this way. :squadron: : For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 3. It cannot move this activation, and if it has AI, increase its AI value by 1.",
-            "unique": true,
-            "points": 9,
-            "modification": false,
-            "bound_shiptype": "providence-class",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "invisible-hand-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Invisible Hand Expansion Pack (SWM42)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Invisible Hand",
+      "unique-class": [
+        "Invisible Hand"
+      ],
+      "ability": "While deploying fleets, if you are in the play area, when you would deploy a squadron with swarm, you may set that squadron aside next to your ship card instead. You may set aside up to 5 squadrons this way. :squadron: : For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 3. It cannot move this activation, and if it has AI, increase its AI value by 1.",
+      "unique": true,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "providence-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

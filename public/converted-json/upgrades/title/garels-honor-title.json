@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "garels-honor": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 6 Armada",
-            "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-            "_id": null,
-            "type": "title",
-            "faction": ["rebel"],
-            "name": "Garel’s Honor",
-            "unique-class": ["Garel’s Honor"],
-            "ability": "When you overlap an enemy ship, the enemy ship suffers a faceup damage card instead of a facedown damage card.",
-            "unique": true,
-            "points": 4,
-            "modification": false,
-            "bound_shiptype": "hammerhead-corvette",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "garels-honor-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 6 Armada",
+      "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Garel’s Honor",
+      "unique-class": [
+        "Garel’s Honor"
+      ],
+      "ability": "When you overlap an enemy ship, the enemy ship suffers a faceup damage card instead of a facedown damage card.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "hammerhead-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

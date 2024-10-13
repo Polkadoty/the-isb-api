@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-      "expert-shield-tech": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "officer",
-        "faction": [""],
-        "name": "Expert Shield Tech",
-        "unique-class": [""],
-        "ability": "While defending, during the Spend Defense Tokens step, when you spend a :redirect: defense token, you may reduce the total damage from the attack by 1 instead of resolving that token's effect.",
-        "unique": false,
-        "points": 5,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "expert-shield-tech-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Expert Shield Tech",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While defending, during the Spend Defense Tokens step, when you spend a :redirect: defense token, you may reduce the total damage from the attack by 1 instead of resolving that token's effect.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
     }
+  }
 }

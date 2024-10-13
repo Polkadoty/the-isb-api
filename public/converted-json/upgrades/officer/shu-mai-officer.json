@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "shu-mai": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-            "_id": null,
-            "type": "officer",
-            "faction": ["separatist"],
-            "name": "Shu Mai",
-            "unique-class": ["Shu Mai"],
-            "ability": "After deploying fleets, you may place 2 non-consecutive round tokens on this card.\nDuring each round matching 1 of those tokens, while attacking a ship you may reroll up to 3 dice.",
-            "unique": true,
-            "points": 4,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [""],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [""],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "shu-mai-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Shu Mai",
+      "unique-class": [
+        "Shu Mai"
+      ],
+      "ability": "After deploying fleets, you may place 2 non-consecutive round tokens on this card.\nDuring each round matching 1 of those tokens, while attacking a ship you may reroll up to 3 dice.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "commander-vanto": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Commander Vanto",
-        "unique-class": ["Commander Vanto"],
-        "ability": "After you resolve the first command during your activation, you may exhaust this card to gain 1 command token of any type.",
-        "unique": true,
-        "points": 7,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "commander-vanto-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Commander Vanto",
+      "unique-class": [
+        "Commander Vanto"
+      ],
+      "ability": "After you resolve the first command during your activation, you may exhaust this card to gain 1 command token of any type.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "vanguard": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Rebellion in the Rim Campaign Armada",
-        "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-        "_id": null,
-        "type": "title",
-        "faction": ["rebel"],
-        "name": "Vanguard",
-        "unique-class": ["Vanguard"],
-        "ability": "You gain 1 additional :weapons-team: icon in your upgrade bar.\nAt the start of the first round, you may replace 1 of your defense tokens with a :redirect: defense token.",
-        "unique": true,
-        "points": 4,
-        "modification": false,
-        "bound_shiptype": "nebulon-b-frigate",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": ["weapons-team"],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "vanguard-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Vanguard",
+      "unique-class": [
+        "Vanguard"
+      ],
+      "ability": "You gain 1 additional :weapons-team: icon in your upgrade bar.\nAt the start of the first round, you may replace 1 of your defense tokens with a :redirect: defense token.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "nebulon-b-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          "weapons-team"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
     }
   }
-  
+}

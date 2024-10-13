@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-        "clone-captain-zak": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Galactic Republic Fleet Starter (SWM34)",
-            "_id": null,
-            "type": "officer",
-            "faction": ["republic"],
-            "name": "Clone Captain Zak",
-            "unique-class": ["Clone Captain Zak"],
-            "ability": "While attacking from your side or rear hull zones, you may exhaust this card to add 1 die to your attack pool of a color already in your attack pool (you cannot add dice to a :salvo: attack).\nYou can spend tokens from this card to ready it.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "",
-            "restrictions": {
-                "traits": [""],
-                "size": [""],
-                "disqual_upgrades": [""],
-                "disable_upgrades": [""],
-                "enable_upgrades": [""],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "token",
-                "start_icon": ["confire"],
-                "start_amount": 1
-            },
-            "exhaust": {
-                "type": "nonrecur",
-                "ready_token": ["confire"],
-                "ready_amount": 1
-            },
-            "artwork": "",
-            "cardimage": ""
-        }
+  "upgrades": {
+    "clone-captain-zak-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "republic"
+      ],
+      "name": "Clone Captain Zak",
+      "unique-class": [
+        "Clone Captain Zak"
+      ],
+      "ability": "While attacking from your side or rear hull zones, you may exhaust this card to add 1 die to your attack pool of a color already in your attack pool (you cannot add dice to a :salvo: attack).\nYou can spend tokens from this card to ready it.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "confire"
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "confire"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": ""
     }
+  }
 }

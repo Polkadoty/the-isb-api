@@ -1,41 +1,56 @@
 {
-    "upgrades": {
-      "raymus-antilles": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 1 Armada",
-        "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Raymus Antilles",
-        "unique-class": ["Raymus Antilles"],
-        "ability": "When you reveal a command, you may gain 1 matching command token without spending the command dial.",
-        "unique": true,
-        "points": 7,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "raymus-antilles-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Raymus Antilles",
+      "unique-class": [
+        "Raymus Antilles"
+      ],
+      "ability": "When you reveal a command, you may gain 1 matching command token without spending the command dial.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

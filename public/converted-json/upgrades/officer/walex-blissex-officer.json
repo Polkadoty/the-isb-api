@@ -1,42 +1,59 @@
 {
-    "upgrades": {
-      "walex-blissex": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 2 Armada",
-        "expansion": "Home One Expansion Pack (SWM13)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["rebel"],
-        "name": "Walex Blissex",
-        "unique-class": ["Walex Blissex"],
-        "ability": "When you activate, you may discard this card to recover 1 of your discarded defense tokens.",
-        "unique": true,
-        "points": 5,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "walex-blissex-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Home One Expansion Pack (SWM13)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Walex Blissex",
+      "unique-class": [
+        "Walex Blissex"
+      ],
+      "ability": "When you activate, you may discard this card to recover 1 of your discarded defense tokens.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": ""
     }
   }
-  
+}

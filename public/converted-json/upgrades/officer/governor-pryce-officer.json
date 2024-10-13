@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-      "agent-kallus": {
-        "author": "Atomic Mass Games",
-        "alias": "AMG",
-        "team": "AMG",
-        "release": "Rapid Reinforcements",
-        "expansion": "Rapid Reinforcements II (RR2)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Governor Pryce",
-        "unique-class": ["Governor Pryce"],
-        "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result..",
-        "unique": true,
-        "points": 7,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "governor-pryce-officer": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements",
+      "expansion": "Rapid Reinforcements II (RR2)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Governor Pryce",
+      "unique-class": [
+        "Governor Pryce"
+      ],
+      "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result..",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
     }
+  }
 }

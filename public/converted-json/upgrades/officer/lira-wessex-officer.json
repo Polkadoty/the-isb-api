@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-      "lira-wessex": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Super Star Destroyer",
-        "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Lira Wessex",
-        "unique-class": ["Lira Wessex"],
-        "ability": "When you are dealt a faceup damage card, you may spend 1 :repair: token to flip that card facedown (without resolving its effect).",
-        "unique": true,
-        "points": 2,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "lira-wessex-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Lira Wessex",
+      "unique-class": [
+        "Lira Wessex"
+      ],
+      "ability": "When you are dealt a faceup damage card, you may spend 1 :repair: token to flip that card facedown (without resolving its effect).",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
     }
+  }
 }

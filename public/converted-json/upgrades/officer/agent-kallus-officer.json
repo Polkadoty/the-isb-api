@@ -1,41 +1,59 @@
 {
-    "upgrades": {
-      "agent-kallus": {
-        "author": "Fantasy Flight Games",
-        "alias": "FFG",
-        "team": "FFG",
-        "release": "Wave 3 Armada",
-        "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-        "_id": null,
-        "type": "officer",
-        "faction": ["empire"],
-        "name": "Agent Kallus",
-        "unique-class": ["Agent Kallus"],
-        "ability": "While attacking a unique squadron, add 1 die of any color to your attack pool.",
-        "unique": true,
-        "points": 3,
-        "modification": false,
-        "bound_shiptype": "",
-        "restrictions": {
-          "traits": [""],
-          "size": [""],
-          "disqual_upgrades": [""],
-          "disable_upgrades": [""],
-          "enable_upgrades": [""],
-          "flagship": false
-        },
-        "start_command": {
-          "type": "",
-          "start_icon": [""],
-          "start_amount": 0
-        },
-        "exhaust": {
-          "type": "",
-          "ready_token": [""],
-          "ready_amount": 0
-        },
-        "artwork": "[link to image]",
-        "cardimage": ""
-      }
+  "upgrades": {
+    "agent-kallus-officer": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 3 Armada",
+      "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Agent Kallus",
+      "unique-class": [
+        "Agent Kallus"
+      ],
+      "ability": "While attacking a unique squadron, add 1 die of any color to your attack pool.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": ""
     }
+  }
 }
