@@ -1,163 +1,195 @@
 {
-    "squadrons": {
-        "firespray-31": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "firespray-31",
-            "name": "Firespray-31",
-            "ace-name": "",
-            "unique-class": [""],
-            "irregular": true,
-            "hull": 6,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 2, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": true,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": false,
-            "points": 18,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nmXGmq.md.png"
-        },
-        "boba-fett-slave-i": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 2 Armada",
-            "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "firespray-31",
-            "name": "Slave I",
-            "ace-name": "Boba Fett",
-            "unique-class": ["Slave I", "Boba Fett"],
-            "irregular": true,
-            "hull": 6,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [0, 1, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": true,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.",
-            "unique": true,
-            "points": 26,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nmXDB5.md.png"
-        },
-        "hondo-ohnaka-slave-i": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Rebellion in the Rim Campaign Armada",
-            "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "firespray-31",
-            "name": "Slave I",
-            "ace-name": "Hondo Ohnaka",
-            "unique-class": ["Slave I", "Hondo Ohnaka"],
-            "irregular": true,
-            "hull": 6,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [0, 2, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": true,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": true,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "During your activation, instead of attacking, you may toggle the activation slider of 1 squadron at distance 1 to the activated side. If it was already activated, you may place it anywhere at distance 1 of you.",
-            "unique": true,
-            "points": 24,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nmbRAZ.md.png"
-        }
+  "squadrons": {
+    "firespray-31": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "firespray-31",
+      "name": "Firespray-31",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/firespray-31.webp"
+    },
+    "boba-fett-slave-i": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 2 Armada",
+      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "firespray-31",
+      "name": "Slave I",
+      "ace-name": "Boba Fett",
+      "unique-class": [
+        "Slave I",
+        "Boba Fett"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.",
+      "unique": true,
+      "points": 26,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/boba-fett-slave-i.webp"
+    },
+    "hondo-ohnaka-slave-i": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "firespray-31",
+      "name": "Slave I",
+      "ace-name": "Hondo Ohnaka",
+      "unique-class": [
+        "Slave I",
+        "Hondo Ohnaka"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "During your activation, instead of attacking, you may toggle the activation slider of 1 squadron at distance 1 to the activated side. If it was already activated, you may place it anywhere at distance 1 of you.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hondo-ohnaka-slave-i.webp"
     }
+  }
 }

@@ -1,216 +1,256 @@
 {
-    "squadrons": {
-        "a-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "a-wing-squadron",
-            "name": "A-Wing Squadron",
-            "ace-name": "",
-            "unique-class": [""],
-            "irregular": false,
-            "hull": 4,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": false,
-            "points": 11,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmxFQZ.md.png"
-        },
-        "tycho-celchu-a-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "a-wing-squadron",
-            "name": "A-Wing Squadron",
-            "ace-name": "Tycho Celchu",
-            "unique-class": ["Tycho Celchu"],
-            "irregular": false,
-            "hull": 4,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "You are not prevented from moving or attacking ships while you are engaged.",
-            "unique": true,
-            "points": 16,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nm5pMq.md.png"
-        },
-        "shara-bey-a-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Corellian Conflict Campaign Armada",
-            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "a-wing-squadron",
-            "name": "A-Wing Squadron",
-            "ace-name": "Shara Bey",
-            "unique-class": ["Shara Bey"],
-            "irregular": false,
-            "hull": 4,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 3,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "While performing a counter attack, each :crit: icon adds 1 damage to the damage total.",
-            "unique": true,
-            "points": 17,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nm5sP3.md.png"
-        },
-        "green-squadron-a-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Corellian Conflict Campaign Armada",
-            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "a-wing-squadron",
-            "name": "A-Wing Squadron",
-            "ace-name": "Green Squadron",
-            "unique-class": ["Green Squadron"],
-            "irregular": false,
-            "hull": 4,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 1,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": true,
-            "points": 12,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmyLvz.md.png"
-        }
+  "squadrons": {
+    "a-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "a-wing-squadron",
+      "name": "A-Wing Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 11,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/a-wing-squadron.webp"
+    },
+    "tycho-celchu-a-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "a-wing-squadron",
+      "name": "A-Wing Squadron",
+      "ace-name": "Tycho Celchu",
+      "unique-class": [
+        "Tycho Celchu"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "You are not prevented from moving or attacking ships while you are engaged.",
+      "unique": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tycho-celchu-a-wing-squadron.webp"
+    },
+    "shara-bey-a-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "a-wing-squadron",
+      "name": "A-Wing Squadron",
+      "ace-name": "Shara Bey",
+      "unique-class": [
+        "Shara Bey"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 3,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While performing a counter attack, each :crit: icon adds 1 damage to the damage total.",
+      "unique": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/shara-bey-a-wing-squadron.webp"
+    },
+    "green-squadron-a-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "a-wing-squadron",
+      "name": "A-Wing Squadron",
+      "ace-name": "Green Squadron",
+      "unique-class": [
+        "Green Squadron"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/green-squadron-a-wing-squadron.webp"
     }
+  }
 }

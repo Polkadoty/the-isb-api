@@ -1,216 +1,256 @@
 {
-    "squadrons": {
-        "y-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "y-wing-squadron",
-            "name": "Y-Wing Squadron",
-            "ace-name": "",
-            "unique-class": [""],
-            "irregular": false,
-            "hull": 6,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": true,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": false,
-            "points": 10,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nm5NCZ.md.png"
-        },
-        "dutch-vander-y-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "y-wing-squadron",
-            "name": "Y-Wing Squadron",
-            "ace-name": "Dutch Vander",
-            "unique-class": ["Dutch Vander"],
-            "irregular": false,
-            "hull": 6,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": true,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "When a squadron you attack suffers at least 1 damage, you may toggle its activation slider to the activated side. If it was already activated, it suffers 1 additional damage instead.",
-            "unique": true,
-            "points": 16,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmy9Zx.md.png"
-        },
-        "norra-wexley-y-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Corellian Conflict Campaign Armada",
-            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "y-wing-squadron",
-            "name": "Y-Wing Squadron",
-            "ace-name": "Norra Wexley",
-            "unique-class": ["Norra Wexley"],
-            "irregular": false,
-            "hull": 6,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 3, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "Friendly squadrons with Bomber at distance 1 gain: \":crit:: The defending hull zone loses 1 shield.\"",
-            "unique": true,
-            "points": 17,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nm5Jaz.md.png"
-        },
-        "gold-squadron-y-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Corellian Conflict Campaign Armada",
-            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "y-wing-squadron",
-            "name": "Y-Wing Squadron",
-            "ace-name": "Gold Squadron",
-            "unique-class": ["Gold Squadron"],
-            "irregular": false,
-            "hull": 6,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 2, 0],
-                "anti-ship": [0, 2, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": true,
-            "points": 12,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmyOco.md.png"
-        }
+  "squadrons": {
+    "y-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "y-wing-squadron",
+      "name": "Y-Wing Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 10,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/y-wing-squadron.webp"
+    },
+    "dutch-vander-y-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "y-wing-squadron",
+      "name": "Y-Wing Squadron",
+      "ace-name": "Dutch Vander",
+      "unique-class": [
+        "Dutch Vander"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When a squadron you attack suffers at least 1 damage, you may toggle its activation slider to the activated side. If it was already activated, it suffers 1 additional damage instead.",
+      "unique": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dutch-vander-y-wing-squadron.webp"
+    },
+    "norra-wexley-y-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "y-wing-squadron",
+      "name": "Y-Wing Squadron",
+      "ace-name": "Norra Wexley",
+      "unique-class": [
+        "Norra Wexley"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Friendly squadrons with Bomber at distance 1 gain: \":crit:: The defending hull zone loses 1 shield.\"",
+      "unique": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/norra-wexley-y-wing-squadron.webp"
+    },
+    "gold-squadron-y-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "y-wing-squadron",
+      "name": "Y-Wing Squadron",
+      "ace-name": "Gold Squadron",
+      "unique-class": [
+        "Gold Squadron"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/gold-squadron-y-wing-squadron.webp"
     }
+  }
 }

@@ -1,163 +1,193 @@
 {
-    "squadrons": {
-        "droid-tri-fighter-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "separatist",
-            "squadron_type": "droid-tri-fighter-squadron",
-            "name": "Droid Tri-Fighter Squadron",
-            "ace-name": "",
-            "unique-class": [""],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [1, 2, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 1,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": true
-            },
-            "ability": "",
-            "unique": false,
-            "points": 11,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/zaVNSe.md.png"
-        },
-        "phlac-arphocc-droid-tri-fighter-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "separatist",
-            "squadron_type": "droid-tri-fighter-squadron",
-            "name": "Droid Tri-Fighter Squadron",
-            "ace-name": "Phlac-Arphocc Prototype ",
-            "unique-class": ["Phlac-Arphocc Prototype"],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [1, 1, 1],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 1,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": true
-            },
-            "ability": "After an enemy squadron ends its activation at distance 1, that squadron suffers 1 damage.",
-            "unique": true,
-            "points": 19,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://c.l3n.co/i/zaVxoZ.md.png"
-        },
-        "dis-t81-droid-tri-fighter-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 9 Armada",
-            "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "separatist",
-            "squadron_type": "droid-tri-fighter-squadron",
-            "name": "Droid Tri-Fighter Squadron",
-            "ace-name": "DIS-T81 ",
-            "unique-class": ["DIS-T81"],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [1, 1, 1],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 1,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 3,
-                "strategic": false,
-                "swarm": true
-            },
-            "ability": "Your attacks cannot be obstructed.",
-            "unique": true,
-            "points": 17,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/zaVb0c.md.png"
-        }
+  "squadrons": {
+    "droid-tri-fighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "droid-tri-fighter-squadron",
+      "name": "Droid Tri-Fighter Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": false,
+      "points": 11,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/droid-tri-fighter-squadron.webp"
+    },
+    "phlac-arphocc-droid-tri-fighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "droid-tri-fighter-squadron",
+      "name": "Droid Tri-Fighter Squadron",
+      "ace-name": "Phlac-Arphocc Prototype ",
+      "unique-class": [
+        "Phlac-Arphocc Prototype"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "After an enemy squadron ends its activation at distance 1, that squadron suffers 1 damage.",
+      "unique": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/phlac-arphocc-droid-tri-fighter-squadron.webp"
+    },
+    "dis-t81-droid-tri-fighter-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "droid-tri-fighter-squadron",
+      "name": "Droid Tri-Fighter Squadron",
+      "ace-name": "DIS-T81 ",
+      "unique-class": [
+        "DIS-T81"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 3,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "Your attacks cannot be obstructed.",
+      "unique": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dis-t81-droid-tri-fighter-squadron.webp"
     }
+  }
 }

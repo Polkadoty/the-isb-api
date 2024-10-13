@@ -1,322 +1,382 @@
 {
-    "squadrons": {
-        "x-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "x-wing-squadron",
-            "name": "X-Wing Squadron",
-            "ace-name": "",
-            "unique-class": [""],
-            "irregular": false,
-            "hull": 5,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [1, 0, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": 0,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": true,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": false,
-            "points": 13,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nm5nKk.md.png"
-        },
-        "luke-skywalker-x-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "x-wing-squadron",
-            "name": "X-Wing Squadron",
-            "ace-name": "Luke Skywalker",
-            "unique-class": ["Luke Skywalker"],
-            "irregular": false,
-            "hull": 5,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": 0,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": true,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "When attacking a ship, treat the defender as having no shields.",
-            "unique": true,
-            "points": 20,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://b.l3n.co/i/nm5glm.md.png"
-        },
-        "biggs-darklighter-x-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Corellian Conflict Campaign Armada",
-            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "x-wing-squadron",
-            "name": "X-Wing Squadron",
-            "ace-name": "Biggs Darklighter",
-            "unique-class": ["Biggs Darklighter"],
-            "irregular": false,
-            "hull": 5,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [1, 0, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": 0,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": true,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "Before a friendly squadron with ESCORT at distance 1 suffers damage during an attack, you may reduce the total damage by 1. If you do, choose a frienly squadron with ESCORT at distance 1. That squadron suffers 1 damage.",
-            "unique": true,
-            "points": 19,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nmxbTi.md.png"
-        },
-        "hera-syndulla-x-wing-squadron": {
-            "author": "Atomic Mass Games",
-            "alias": "AMG",
-            "team": "AMG",
-            "release": "Rapid Reinforcements I",
-            "expansion": "Rapid Reinforcements I",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "x-wing-squadron",
-            "name": "X-Wing Squadron",
-            "ace-name": "Hera Syndulla",
-            "unique-class": ["Hera Syndulla"],
-            "irregular": false,
-            "hull": 5,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [1, 2, 1],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": 0,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 1,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "While a friendly squadron that has ESCORT is at distnace 1-2, it has ADEPT 1",
-            "unique": true,
-            "points": 23,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nmyX9q.md.png"
-        },
-        "wedge-antilles-x-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "x-wing-squadron",
-            "name": "X-Wing Squadron",
-            "ace-name": "Wedge Antilles",
-            "unique-class": ["Wedge Antilles"],
-            "irregular": false,
-            "hull": 5,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [0, 0, 1]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": 0,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": true,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "While attacking an activated squadron, you may add 2 blue dice to your attack pool.",
-            "unique": true,
-            "points": 19,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://a.l3n.co/i/nm5zba.md.png"
-        },
-        "rogue-squadron-x-wing-squadron": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Corellian Conflict Campaign Armada",
-            "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "rebel",
-            "squadron_type": "x-wing-squadron",
-            "name": "X-Wing Squadron",
-            "ace-name": "Rogue Squadron",
-            "unique-class": ["Rogue Squadron"],
-            "irregular": false,
-            "hull": 5,
-            "speed": 3,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [0, 4, 0],
-                "anti-ship": [1, 0, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": 0,
-                "bomber": true,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": true,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": true,
-            "points": 14,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://c.l3n.co/i/nm5db7.md.png"
-        }
+  "squadrons": {
+    "x-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "x-wing-squadron",
+      "name": "X-Wing Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 13,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/x-wing-squadron.webp"
+    },
+    "luke-skywalker-x-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "x-wing-squadron",
+      "name": "X-Wing Squadron",
+      "ace-name": "Luke Skywalker",
+      "unique-class": [
+        "Luke Skywalker"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When attacking a ship, treat the defender as having no shields.",
+      "unique": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/luke-skywalker-x-wing-squadron.webp"
+    },
+    "biggs-darklighter-x-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "x-wing-squadron",
+      "name": "X-Wing Squadron",
+      "ace-name": "Biggs Darklighter",
+      "unique-class": [
+        "Biggs Darklighter"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Before a friendly squadron with ESCORT at distance 1 suffers damage during an attack, you may reduce the total damage by 1. If you do, choose a frienly squadron with ESCORT at distance 1. That squadron suffers 1 damage.",
+      "unique": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/biggs-darklighter-x-wing-squadron.webp"
+    },
+    "hera-syndulla-x-wing-squadron": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements I",
+      "expansion": "Rapid Reinforcements I",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "x-wing-squadron",
+      "name": "X-Wing Squadron",
+      "ace-name": "Hera Syndulla",
+      "unique-class": [
+        "Hera Syndulla"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While a friendly squadron that has ESCORT is at distnace 1-2, it has ADEPT 1",
+      "unique": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hera-syndulla-x-wing-squadron.webp"
+    },
+    "wedge-antilles-x-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "x-wing-squadron",
+      "name": "X-Wing Squadron",
+      "ace-name": "Wedge Antilles",
+      "unique-class": [
+        "Wedge Antilles"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking an activated squadron, you may add 2 blue dice to your attack pool.",
+      "unique": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/wedge-antilles-x-wing-squadron.webp"
+    },
+    "rogue-squadron-x-wing-squadron": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "x-wing-squadron",
+      "name": "X-Wing Squadron",
+      "ace-name": "Rogue Squadron",
+      "unique-class": [
+        "Rogue Squadron"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rogue-squadron-x-wing-squadron.webp"
     }
+  }
 }
