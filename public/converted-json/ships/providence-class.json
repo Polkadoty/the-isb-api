@@ -141,9 +141,9 @@
           "faction": "separatist",
           "unique": false,
           "traits": [
-            "Droid",
-            "Comms",
-            "Transport"
+            "droid",
+            "comms",
+            "transport"
           ],
           "points": 105,
           "tokens": {
@@ -228,8 +228,8 @@
           "faction": "rebel",
           "unique": true,
           "traits": [
-            "Comms",
-            "Transport"
+            "comms",
+            "transport"
           ],
           "points": 95,
           "tokens": {

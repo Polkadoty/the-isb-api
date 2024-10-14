@@ -53,9 +53,9 @@
           "faction": "republic",
           "unique": false,
           "traits": [
-            "Clone",
-            "Jedi",
-            "Comms",
+            "clone",
+            "jedi",
+            "comms",
             "star-destroyer"
           ],
           "points": 90,
@@ -141,8 +141,8 @@
           "faction": "republic",
           "unique": false,
           "traits": [
-            "Clone",
-            "Bombard",
+            "clone",
+            "bombard",
             "star-destroyer"
           ],
           "points": 100,
@@ -228,7 +228,7 @@
           "faction": "empire",
           "unique": true,
           "traits": [
-            "Bombard",
+            "bombard",
             "star-destroyer"
           ],
           "points": 100,
