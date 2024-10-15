@@ -9,7 +9,6 @@ const getLastModifiedTime = async () => {
   const timestampFile = path.join(__dirname, '../lastModified.txt');
   console.log('Attempting to read timestamp file:', timestampFile);
   try {
-    // Check if the file exists before trying to read it
     await fs.access(timestampFile);
     console.log('Timestamp file exists, attempting to read');
     
@@ -18,10 +17,13 @@ const getLastModifiedTime = async () => {
       new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), 5000))
     ]);
     console.log('Successfully read timestamp:', timestamp);
-    return new Date(timestamp);
+    const date = new Date(timestamp.trim());
+    if (isNaN(date.getTime())) {
+      throw new Error('Invalid date format');
+    }
+    return date;
   } catch (error) {
     console.error('Error reading last modified timestamp:', error);
-    // Return the current date if there's an error
     return new Date();
   }
 };
