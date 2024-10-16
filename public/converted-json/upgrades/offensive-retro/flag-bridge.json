@@ -11,9 +11,9 @@
       "faction": [
         "empire"
       ],
-      "name": "General Romodi",
+      "name": "Flag Bridge",
       "unique-class": [
-        "General Romodi"
+        ""
       ],
       "ability": "Medium or large ship only.\nFlagship only.\nModification\nYou gain 1 :fleet-command: icon in your upgrade bar.\nYou cannot spend a command token to resolve a :fleet-command: card's effect.",
       "unique": false,
@@ -35,7 +35,7 @@
           ""
         ],
         "enable_upgrades": [
-          ""
+          "fleet-command"
         ],
         "flagship": true
       },
