@@ -8,9 +8,14 @@ import { errorHandler } from './middleware/errorHandler.js';
 import baseRoutes from './routes/baseRoutes.js';
 import objectiveRoutes from './routes/objectiveRoutes.js';
 //
-import customShipRoutes from './routes/customShipRoutes.js';
-import customSquadronRoutes from './routes/customSquadronRoutes.js';
-import customUpgradeRoutes from './routes/customUpgradeRoutes.js';
+import legendsShipRoutes from './routes/legendsShipRoutes.js';
+import legendsSquadronRoutes from './routes/legendsSquadronRoutes.js';
+import legendsUpgradeRoutes from './routes/legendsUpgradeRoutes.js';
+
+import legacyShipRoutes from './routes/legacyShipRoutes.js';
+import legacySquadronRoutes from './routes/legacySquadronRoutes.js';
+import legacyUpgradeRoutes from './routes/legacyUpgradeRoutes.js';
+
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -26,9 +31,15 @@ app.use('/api/squadrons', squadronRoutes);
 app.use('/api/upgrades', upgradeRoutes);
 app.use('/api/objectives', objectiveRoutes);
 //
-app.use('/custom/ships', customShipRoutes);
-app.use('/custom/squadrons', customSquadronRoutes);
-app.use('/custom/upgrades', customUpgradeRoutes);
+app.use('/legends/ships', legendsShipRoutes);
+app.use('/legends/squadrons', legendsSquadronRoutes);
+app.use('/legends/upgrades', legendsUpgradeRoutes);
+
+// Legacy routes
+app.use('/legacy/ships', legacyShipRoutes);
+app.use('/legacy/squadrons', legacySquadronRoutes);
+app.use('/legacy/upgrades', legacyUpgradeRoutes);
+
 
 app.use(errorHandler);
 

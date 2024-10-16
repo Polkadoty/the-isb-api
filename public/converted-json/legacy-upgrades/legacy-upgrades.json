@@ -1,0 +1,111 @@
+{
+  "upgrades": {
+    "daultay-dofine-commander": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "6b9a8891-e3be-4720-9612-875f67b6887f",
+      "type": "commander",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Daulty Dofine",
+      "unique-class": [
+        "Daulty Dofine"
+      ],
+      "ability": "When activated by a ship, friendly non-unique squadrons with AI: ANTI-SQUADRON may add a die of any color using AI: ANTI-SQUADRON instead Of a color already in their attack pool and friendly non-unique squadrons with AI: BATTERY may reroll one die in their attack pool when attacking a ship.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/daultay-dofine-commander.webp"
+    },
+    "ki-adi-mundi-commander": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "6f812919-7128-4246-8e7e-113f5ce1d7d6",
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Ki-Adi-Mundi",
+      "unique-class": [
+        "Ki-Adi-Mundi"
+      ],
+      "ability": "While a friendly ship is attacking, after they roll their attack pool, it may suffer one damage to add one dice of any color already in its attack pool to the attack pool. Then, the attacker gains a :raid-repair: token. If it already has a :raid-repair:, the attacking hull zone suffers one damage.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ki-adi-mundi-commander.webp"
+    }
+  }
+}

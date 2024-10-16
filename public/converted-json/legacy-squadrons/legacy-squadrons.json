@@ -1,0 +1,510 @@
+{
+  "squadrons": {
+    "g9-rigger-class-freighter": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "98f63488-917a-4c61-b1a8-ebeeb8bde498",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "g9-rigger-class-freighter",
+      "name": "G9 Rigger-class Freighter",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/g9-rigger-class-freighter.webp"
+    },
+    "anakin-skywalker-twilight": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "775885d1-638a-4036-b2f2-97e79c377afc",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "g9-rigger-class-freighter",
+      "name": "Twilight",
+      "ace-name": "Anakin Skywalker",
+      "unique-class": [
+        "Twilight",
+        "Anakin Skywalker"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate you may suffer 1 damage. If you do you gain ROGUE and GRIT until the end of our activation",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight.webp"
+    },
+    "nu-class-transport-shuttle": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "032a5592-4115-4cbe-b811-1e43bd680e58",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "nu-class-transport-shuttle",
+      "name": "Nu-class Transport Shuttle",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": true,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle.webp"
+    },
+    "delta-squad-nu-shuttle": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "d1ed3b7d-56ab-490a-9b20-e7f850cc4c70",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "nu-class-transport-shuttle",
+      "name": "Nu-class Transport Shuttle",
+      "ace-name": "Delta Squad",
+      "unique-class": [
+        "Delta Squad"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you assign a raid token, you may discard 1 command token from the detender. Enemy ships at distance 1 with a raid token cannot gain a matching command token from upgrade cards equipped to that ship.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-shuttle.webp"
+    },
+    "sheathipede-class-shuttle": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "22df754b-dbf1-4940-bb2c-d9f2f868a634",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "sheathipede-class-shuttle",
+      "name": "Sheathipede-class Shuttle",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 2,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": true,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/sheathipede-class-shuttle.webp"
+    },
+    "kalani-sheathipede-class-shuttle": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "d6022bab-07ac-4f9b-b439-b7e3f40685d8",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "sheathipede-class-shuttle",
+      "name": "Sheathipede-class Shuttle",
+      "ace-name": "Kalani",
+      "unique-class": [
+        "Kalani"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 2,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "At the start of the squadron phase, you may toggle your activation slider to the activated side. If you do, the first time it is your fleet's turn to activate squadrons, up to 4 non-unique squadrons with AI at distance 1-3 that you activate may move before attacking.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kalani-sheathipede-class-shuttle.webp"
+    },
+    "star-courier": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "e2c8c659-cb1d-417b-a6a6-99e369f6e031",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "star-courier",
+      "name": "Star Courier",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/star-courier.webp"
+    },
+    "darth-maul-scimitar": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "057874fd-74f0-4276-8b2f-61c7d301f8e4",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "star-courier",
+      "name": "Scimitar",
+      "ace-name": "Darth Maul",
+      "unique-class": [
+        "Darth Maul",
+        "Scimitar"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "If you are engaged with at least 2 enemy squadrons, gain ADEPT 1. For every 2 additional squadrons you are engaged with, increase your ADEPT value by 1.",
+      "unique": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/darth-maul-scimitar.webp"
+    }
+  }
+}

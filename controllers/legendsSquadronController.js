@@ -5,51 +5,51 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export const getAllCustomSquadrons = async (req, res, next) => {
-  console.log('Attempting to read custom squadrons.json');
-  const filePath = path.join(__dirname, '../public/converted-json/custom/squadrons/squadrons.json');
+export const getAllLegendsSquadrons = async (req, res, next) => {
+  console.log('Attempting to read legends squadrons.json');
+  const filePath = path.join(__dirname, '../public/converted-json/legends-squadrons/legends-squadrons.json');
   console.log('File path:', filePath);
   try {
     const data = await fs.readFile(filePath, 'utf8');
-    console.log('Successfully read custom squadrons.json');
+    console.log('Successfully read legends squadrons.json');
     const parsedData = JSON.parse(data);
     res.json(parsedData);
   } catch (err) {
-    console.error('Error reading custom squadrons.json:', err);
-    const error = new Error('Failed to read custom squadrons data');
+    console.error('Error reading legends squadrons.json:', err);
+    const error = new Error('Failed to read legends squadrons data');
     error.statusCode = 500;
     error.details = { filePath, originalError: err.message };
     next(error);
   }
 };
 
-export const getCustomSquadronById = async (req, res, next) => {
+export const getLegendsSquadronById = async (req, res, next) => {
   const squadronId = req.params.id;
-  console.log(`Attempting to get custom squadron with ID: ${squadronId}`);
-  const filePath = path.join(__dirname, '../public/converted-json/custom/squadrons/squadrons.json');
-  console.log(`File path for custom squadron ${squadronId}: ${filePath}`);
+  console.log(`Attempting to get legends squadron with ID: ${squadronId}`);
+  const filePath = path.join(__dirname, `../public/converted-json/legends-squadrons/${squadronId}.json`);
+  console.log(`File path for legends squadron ${squadronId}: ${filePath}`);
   try {
     const data = await fs.readFile(filePath, 'utf8');
     const squadronsData = JSON.parse(data);
     const squadron = squadronsData.squadrons[squadronId];
     if (squadron) {
-      console.log(`Successfully read data for custom squadron ${squadronId}`);
+      console.log(`Successfully read data for legends squadron ${squadronId}`);
       res.json(squadron);
     } else {
-      res.status(404).json({ message: 'Custom squadron not found' });
+      res.status(404).json({ message: 'Legends squadron not found' });
     }
   } catch (err) {
-    console.error(`Error reading custom squadrons.json:`, err);
+    console.error(`Error reading legends squadrons.json:`, err);
     next(err);
   }
 };
 
-export const searchCustomSquadrons = async (req, res, next) => {
-  const filePath = path.join(__dirname, '../public/converted-json/custom/squadrons/squadrons.json');
-  console.log('Attempting to read custom squadrons.json for search');
+export const searchLegendsSquadrons = async (req, res, next) => {
+  const filePath = path.join(__dirname, '../public/converted-json/legends-squadrons/legends-squadrons.json');
+  console.log('Attempting to read legends squadrons.json for search');
   try {
     const data = await fs.readFile(filePath, 'utf8');
-    console.log('Successfully read custom squadrons.json for search');
+    console.log('Successfully read legends squadrons.json for search');
     let squadronsData = JSON.parse(data);
     const filters = req.query;
     console.log('Applying filters:', filters);
@@ -77,10 +77,10 @@ export const searchCustomSquadrons = async (req, res, next) => {
       }
     }
 
-    console.log(`Returning ${Object.keys(filteredSquadrons).length} custom squadrons after applying filters`);
+    console.log(`Returning ${Object.keys(filteredSquadrons).length} legends squadrons after applying filters`);
     res.json({ squadrons: filteredSquadrons });
   } catch (err) {
-    console.error('Error reading custom squadrons.json:', err);
+    console.error('Error reading legends squadrons.json:', err);
     next(err);
   }
 };

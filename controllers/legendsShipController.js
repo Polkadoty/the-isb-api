@@ -5,45 +5,45 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export const getAllCustomShips = async (req, res, next) => {
-  console.log('Attempting to read custom ships.json');
-  const filePath = path.join(__dirname, '../public/converted-json/custom/ships/ships.json');
+export const getAllLegendsShips = async (req, res, next) => {
+  console.log('Attempting to read legends ships.json');
+  const filePath = path.join(__dirname, '../public/converted-json/legends-ships/legends-ships.json');
   console.log('File path:', filePath);
   try {
     const data = await fs.readFile(filePath, 'utf8');
-    console.log('Successfully read custom ships.json');
+    console.log('Successfully read legends ships.json');
     const parsedData = JSON.parse(data);
     res.json(parsedData);
   } catch (err) {
-    console.error('Error reading custom ships.json:', err);
-    const error = new Error('Failed to read custom ships data');
+    console.error('Error reading legends ships.json:', err);
+    const error = new Error('Failed to read legends ships data');
     error.statusCode = 500;
     error.details = { filePath, originalError: err.message };
     next(error);
   }
 };
 
-export const getCustomShipById = async (req, res, next) => {
+export const getLegendsShipById = async (req, res, next) => {
   const shipId = req.params.id;
-  console.log(`Attempting to get custom ship with ID: ${shipId}`);
-  const filePath = path.join(__dirname, `../public/converted-json/custom/ships/${shipId}.json`);
-  console.log(`File path for custom ship ${shipId}: ${filePath}`);
+  console.log(`Attempting to get legends ship with ID: ${shipId}`);
+  const filePath = path.join(__dirname, `../public/converted-json/legends-ships/${shipId}.json`);
+  console.log(`File path for legends ship ${shipId}: ${filePath}`);
   try {
     const data = await fs.readFile(filePath, 'utf8');
-    console.log(`Successfully read data for custom ship ${shipId}`);
+    console.log(`Successfully read data for legends ship ${shipId}`);
     res.json(JSON.parse(data));
   } catch (err) {
-    console.error(`Error reading custom ${shipId}.json:`, err);
-    res.status(404).json({ message: 'Custom ship not found' });
+    console.error(`Error reading legends ${shipId}.json:`, err);
+    res.status(404).json({ message: 'Legends ship not found' });
   }
 };
 
-export const searchCustomShips = async (req, res, next) => {
-  const filePath = path.join(__dirname, '../public/converted-json/custom-ships/custom-ships.json');
-  console.log('Attempting to read custom-ships.json for search');
+export const searchLegendsShips = async (req, res, next) => {
+  const filePath = path.join(__dirname, '../public/converted-json/legends-ships/legends-ships.json');
+  console.log('Attempting to read legends-ships.json for search');
   try {
     const data = await fs.readFile(filePath, 'utf8');
-    console.log('Successfully read custom-ships.json for search');
+    console.log('Successfully read legends-ships.json for search');
     let shipsData = JSON.parse(data);
     const filters = req.query;
     console.log('Applying filters:', filters);
@@ -136,7 +136,7 @@ export const searchCustomShips = async (req, res, next) => {
     console.log(`Returning ${Object.keys(filteredShips).length} chassis after applying filters`);
     res.json({ ships: filteredShips });
   } catch (err) {
-    console.error('Error reading custom-ships.json:', err);
+    console.error('Error reading legends-ships.json:', err);
     next(err);
   }
 };
