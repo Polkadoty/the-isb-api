@@ -1,9 +1,9 @@
 {
     "ships": {
-        "mc40-light": {
+        "mc40a-light": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "mc40-light",
+            "chassis_name": "mc40a-light",
             "size": "medium",
             "hull": 6,
             "speed": {
@@ -31,7 +31,7 @@
             "silhouette": "",
             "blueprint": "",
             "models": {
-                "mc40-light-escort-carrier": {
+                "mc40a-light-escort-carrier": {
                     "author": ["Skyhammer"],
                     "alias": "",
                     "team": "Armada Legends",
@@ -39,8 +39,8 @@
                     "expansion": "Armada Legends",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "mc40-light",
-                    "name": "MC40 Light Escort Carrier",
+                    "chassis": "mc40a-light",
+                    "name": "MC40a Light Escort Carrier",
                     "faction": "rebel",
                     "unique": true,
                     "traits": ["MC"],
@@ -72,7 +72,7 @@
                     "artwork": "",
                     "cardimage": ""
                 },
-                "mc40-light-cruiser": {
+                "mc40a-light-cruiser": {
                     "author": ["Skyhammer"],
                     "alias": "",
                     "team": "Armada Legends",
@@ -80,8 +80,8 @@
                     "expansion": "Armada Legends",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "mc40-light",
-                    "name": "MC40 Light Cruiser",
+                    "chassis": "mc40a-light",
+                    "name": "MC40a Light Cruiser",
                     "faction": "rebel",
                     "unique": true,
                     "traits": ["MC"],
