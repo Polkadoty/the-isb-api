@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "condor-title": {
+            "author": ["Skyhammer"],
+            "alias": "",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Condor",
+            "unique-class": ["Condor"],
+            "ability": "While this ship activates any number of squadrons, you may discard this card, if you do all squadrons activated by this ship with Bomber gain the following Critical Effect until the end of their activation:\n:crit:: add 1 red die set to :accuracy:.\nIf a squadron activated by this ship does not have Bomber it instead gains Bomber until the end of it's activation.",
+            "unique": true,
+            "points": 12,
+            "modification": false,
+            "bound_shiptype": "mc40a-light",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
