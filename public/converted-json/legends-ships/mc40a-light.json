@@ -42,7 +42,7 @@
                     "chassis": "mc40a-light",
                     "name": "MC40a Light Escort Carrier",
                     "faction": "rebel",
-                    "unique": true,
+                    "unique": false,
                     "traits": ["MC"],
                     "points": 66,
                     "tokens": {
@@ -83,7 +83,7 @@
                     "chassis": "mc40a-light",
                     "name": "MC40a Light Cruiser",
                     "faction": "rebel",
-                    "unique": true,
+                    "unique": false,
                     "traits": ["MC"],
                     "points": 75,
                     "tokens": {
