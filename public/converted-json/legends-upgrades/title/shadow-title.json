@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "shadow-title": {
+            "author": ["Skyhammer"],
+            "alias": "",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Shadow",
+            "unique-class": ["Shadow"],
+            "ability": "While this ship is obstructing line of sight from an attacker to a friendly defending ship, before rolling dice, you may exhaust this card; if you do, the attacker must remove 1 die from the attack pool.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "mc40-light",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

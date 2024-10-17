@@ -1,0 +1,41 @@
+{
+    "upgrades": {
+        "lulsla-title": {
+            "author": ["Skyhammer"],
+            "alias": "",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends",
+            "_id": null,
+            "type": "title",
+            "faction": ["rebel"],
+            "name": "Lulsla",
+            "unique-class": ["Lulsla"],
+            "ability": "At the start of the Ship Phase, you may discard this card to place 2 Proximity Mine tokens in the play area at distance 2-3 of this ship and beyond distance 3 of enemy ships.",
+            "unique": true,
+            "points": 8,
+            "modification": false,
+            "bound_shiptype": "mc40-light",
+            "restrictions": {
+                "traits": [""],
+                "size": [""],
+                "disqual_upgrades": [""],
+                "disable_upgrades": [""],
+                "enable_upgrades": [""],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [""],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [""],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
