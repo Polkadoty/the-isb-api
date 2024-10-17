@@ -12,9 +12,12 @@ const directories = {
   upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
   objectives: path.join(__dirname, 'public/converted-json/objectives'),
   //
-  'custom-ships': path.join(__dirname, 'public/converted-json/custom-ships'),
-  'custom-squadrons': path.join(__dirname, 'public/converted-json/custom-squadrons'),
-  'custom-upgrades': path.join(__dirname, 'public/converted-json/custom-upgrades'),
+  'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
+  'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
+  'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
+  'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
+  'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
+  'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades')
 };
 
 // Load tests from YAML file
@@ -52,6 +55,26 @@ function updateJsonValues(obj, modifications, parentKey = '', filename = '') {
     }
   }
 }
+
+// function updateJsonValues(obj, modifications, parentKey = '', filename = '') {
+//   if (typeof obj === 'object' && obj !== null) {
+//     for (let key in obj) {
+//       if (modifications[key]) {
+//         const { pattern, replacement } = modifications[key];
+//         const shouldUpdate = flags.force || (typeof obj[key] === 'string' && new RegExp(pattern).test(obj[key]));
+        
+//         if (shouldUpdate) {
+//           const newValue = replacement.replace('{key}', filename || parentKey || key);
+//           console.log(`Updating ${key} from "${obj[key]}" to "${newValue}"`);
+//           obj[key] = newValue;
+//         }
+//       }
+//       if (typeof obj[key] === 'object') {
+//         updateJsonValues(obj[key], modifications, key, filename);
+//       }
+//     }
+//   }
+// }
 
 function unitTest(directory, testsToRun) {
   const flaggedFiles = [];
@@ -143,9 +166,12 @@ function parseArgs() {
     squadrons: args.includes('-squadrons'),
     upgrades: args.includes('-upgrades'),
     objectives: args.includes('-objectives'),
-    'custom-ships': args.includes('-custom-ships'),
-    'custom-squadrons': args.includes('-custom-squadrons'),
-    'custom-upgrades': args.includes('-custom-upgrades'),
+    'legacy-ships': args.includes('-legacy-ships'),
+    'legacy-squadrons': args.includes('-legacy-squadrons'),
+    'legacy-upgrades': args.includes('-legacy-upgrades'),
+    'legends-ships': args.includes('-legends-ships'),
+    'legends-squadrons': args.includes('-legends-squadrons'),
+    'legends-upgrades': args.includes('-legends-upgrades'),
     noModifications: args.includes('--no-modifications'),
     noTests: args.includes('--no-tests'),
     force: args.includes('--force') // Add this line
@@ -184,6 +210,32 @@ if (flags['custom-squadrons']) {
 if (flags['custom-upgrades']) {
   console.log('Processing custom upgrades...');
   allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['custom-upgrades'], tests.upgrades));
+}
+
+if (flags['legends-ships']) {
+  console.log('Processing legends ships...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legends-ships'], tests.ships));
+}
+if (flags['legends-squadrons']) {
+  console.log('Processing legends squadrons...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legends-squadrons'], tests.squadrons));
+}
+if (flags['legends-upgrades']) {
+  console.log('Processing legends upgrades...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legends-upgrades'], tests.upgrades));
+}
+
+if (flags['legacy-ships']) {
+  console.log('Processing legacy ships...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legacy-ships'], tests.ships));
+}
+if (flags['legacy-squadrons']) {
+  console.log('Processing legacy squadrons...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legacy-squadrons'], tests.squadrons));
+}
+if (flags['legacy-upgrades']) {
+  console.log('Processing legacy upgrades...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legacy-upgrades'], tests.upgrades));
 }
 
 if (!Object.values(flags).some(Boolean)) {

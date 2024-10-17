@@ -1,0 +1,585 @@
+{
+  "squadrons": {
+    "cx-dagger-vessel": {
+      "author": "ForestEXE",
+      "alias": "Forest",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "243b493c-ffcd-482a-9d89-129233f4ba21",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "cx-dagger-vessel",
+      "name": "CX Dagger Vessel",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel.webp"
+    },
+    "cx2-cx-dagger-vessel": {
+      "author": "ForestEXE",
+      "alias": "Forest",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "a46f6d0c-0b9f-4474-a3e1-18590cc877a0",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "cx-dagger-vessel",
+      "name": "CX Dagger Vessel",
+      "ace-name": "CX-2",
+      "unique-class": [
+        "CX-2"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When attacking a squadron, if you are at distance 1 of only one enemy squadron and no other squadrons, you may change 1 die to any face not already in the attack pool.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel.webp"
+    },
+    "tie-punisher-squadron": {
+      "author": [
+        "Cpt Qirk"
+      ],
+      "alias": "",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "bbb3331a-bcd9-4a64-8286-97587b2186b2",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-punisher-squadron",
+      "name": "TIE Punisher Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tie-punisher-squadron.webp"
+    },
+    "deathrain-tie-punisher-squadron": {
+      "author": [
+        "Cpt Qirk"
+      ],
+      "alias": "",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "b7a15a8e-9b65-4ad6-b950-c25e67201362",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-punisher-squadron",
+      "name": "TIE Punisher Squadron",
+      "ace-name": "Deathrain",
+      "unique-class": [
+        "Deathrain"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After your activation, you may suffer 2 damage to drop 1 proximity mine at range 1.",
+      "unique": true,
+      "points": 25,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/deathrain-tie-punisher-squadron.webp"
+    },
+    "redline-tie-punisher-squadron": {
+      "author": [
+        "Cpt Qirk"
+      ],
+      "alias": "",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "10a87d96-a100-4af6-90c4-ee9714660538",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-punisher-squadron",
+      "name": "TIE Punisher Squadron",
+      "ace-name": "Redline",
+      "unique-class": [
+        "Redline"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While you perform an attack against a ship, you may reroll any of your attack dice.",
+      "unique": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/redline-tie-punisher-squadron.webp"
+    },
+    "xg1-starwing-squadron": {
+      "author": [
+        "Arslanxelan"
+      ],
+      "alias": "",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "5cc112a0-2662-4cfe-90c3-baad54781aae",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "xg1-starwing-squadron",
+      "name": "XG-1 Star Wing Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          2,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/xg1-starwing-squadron.webp"
+    },
+    "vynder-xg1-starwing-squadron": {
+      "author": [
+        "Arslanxelan"
+      ],
+      "alias": "",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "b950f2f6-d784-40be-828d-241d588e0324",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "xg1-starwing-squadron",
+      "name": "XG-1 Star Wing Squadron",
+      "ace-name": "Major Vynder",
+      "unique-class": [
+        "Major Vynder"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          2,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While you are engaged with multiple squadrons, attacks against you are treated as obstructed.",
+      "unique": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/vynder-xg1-starwing-squadron.webp"
+    },
+    "karsabi-xg1-starwing-squadron": {
+      "author": [
+        "Arslanxelan"
+      ],
+      "alias": "",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "d3e9f206-bf81-4b20-8c91-c396b39956e5",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "xg1-starwing-squadron",
+      "name": "XG-1 Star Wing Squadron",
+      "ace-name": "Major Vynder",
+      "unique-class": [
+        "Major Vynder"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          2,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a ship, if there is at least 1 friendly unengaged squadron at distance 1 of you with the Bomber keyword, you may add a red die to the attack pool.\nWhen attacking a ship, for each other friendly unengaged squadron with the Bomber keyword at distance 1 of you, you may reroll one die.",
+      "unique": true,
+      "points": 21,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/karsabi-xg1-starwing-squadron.webp"
+    },
+    "tau-squadron-xg1-starwing-squadron": {
+      "author": [
+        "Arslanxelan"
+      ],
+      "alias": "",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "ae773a89-6112-46fb-9472-ae3ddf64dbc4",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "xg1-starwing-squadron",
+      "name": "XG-1 Star Wing Squadron",
+      "ace-name": "Tau Squadron",
+      "unique-class": [
+        "Tau Squadron"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron.webp"
+    }
+  }
+}
