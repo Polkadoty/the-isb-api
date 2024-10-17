@@ -1,7 +1,7 @@
 {
   "ships": {
     "mc40a-light": {
-      "_id": "d573e709-f44f-4a64-b4f7-545783ac8eaf",
+      "_id": "b3e3a6f3-175c-4b26-8f91-1fef0a699ab3",
       "type": "chassis",
       "chassis_name": "mc40a-light",
       "size": "medium",
@@ -48,12 +48,12 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "dda762b6-4e2b-4990-937d-56d164581b48",
+          "_id": "d83b8fe3-46a3-49e1-900a-f8ac771cc157",
           "type": "ship",
           "chassis": "mc40a-light",
           "name": "MC40a Light Escort Carrier",
           "faction": "rebel",
-          "unique": true,
+          "unique": false,
           "traits": [
             "MC"
           ],
@@ -133,12 +133,12 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "e8acbdb3-78c7-4e8d-a60c-5da16286a416",
+          "_id": "4dff44c0-ce40-4e17-abf5-aacc22d386e5",
           "type": "ship",
           "chassis": "mc40a-light",
           "name": "MC40a Light Cruiser",
           "faction": "rebel",
-          "unique": true,
+          "unique": false,
           "traits": [
             "MC"
           ],
@@ -213,7 +213,7 @@
       }
     },
     "tector-star-destroyer": {
-      "_id": "64f3e849-e227-40ea-9dc2-53c411d8602c",
+      "_id": "34f20c04-99c2-477f-8f78-bd75d1f72bd4",
       "type": "chassis",
       "chassis_name": "tector-star-destroyer",
       "size": "large",
@@ -260,7 +260,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "6f11b2f4-9ae6-450a-a12f-21761ba08bdc",
+          "_id": "043544f4-167e-4900-8938-6d5a40a65af6",
           "type": "ship",
           "chassis": "tector-star-destroyer",
           "name": "Tector-class Star Destroyer",

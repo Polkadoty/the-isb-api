@@ -53,7 +53,7 @@
           "chassis": "mc40a-light",
           "name": "MC40a Light Escort Carrier",
           "faction": "rebel",
-          "unique": true,
+          "unique": false,
           "traits": [
             "MC"
           ],
@@ -138,7 +138,7 @@
           "chassis": "mc40a-light",
           "name": "MC40a Light Cruiser",
           "faction": "rebel",
-          "unique": true,
+          "unique": false,
           "traits": [
             "MC"
           ],
