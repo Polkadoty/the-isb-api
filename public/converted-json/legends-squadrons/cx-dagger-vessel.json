@@ -1,110 +1,130 @@
 {
-    "squadrons": {
-        "cx-dagger-vessel": {
-            "author": "ForestEXE",
-            "alias": "Forest",
-            "team": "Armada Legends",
-            "release": "Armada Legends",
-            "expansion": "Armada Legends",
-            "_id": null,
-            "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "cx-dagger-vessel",
-            "name": "CX Dagger Vessel",
-            "ace-name": "",
-            "unique-class": [""],
-            "irregular": true,
-            "hull": 5,
-            "speed": 4,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [2, 1, 0],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": true,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": true,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": false,
-            "points": 15,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": ""
-        },
-        "cx2-cx-dagger-vessel": {
-            "author": "ForestEXE",
-            "alias": "Forest",
-            "team": "Armada Legends",
-            "release": "Armada Legends",
-            "expansion": "Armada Legends",
-            "_id": null,
-            "type": "squadron",
-            "faction": "empire",
-            "squadron_type": "cx-dagger-vessel",
-            "name": "CX Dagger Vessel",
-            "ace-name": "CX-2",
-            "unique-class": ["CX-2"],
-            "irregular": true,
-            "hull": 5,
-            "speed": 4,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 1,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [2, 1, 0],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": true,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": true,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "When attacking a squadron, if you are at distance 1 of only one enemy squadron and no other squadrons, you may change 1 die to any face not already in the attack pool.",
-            "unique": true,
-            "points": 24,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": ""
-        }
+  "squadrons": {
+    "cx-dagger-vessel": {
+      "author": "ForestEXE",
+      "alias": "Forest",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "cx-dagger-vessel",
+      "name": "CX Dagger Vessel",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel.webp"
+    },
+    "cx2-cx-dagger-vessel": {
+      "author": "ForestEXE",
+      "alias": "Forest",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "cx-dagger-vessel",
+      "name": "CX Dagger Vessel",
+      "ace-name": "CX-2",
+      "unique-class": [
+        "CX-2"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When attacking a squadron, if you are at distance 1 of only one enemy squadron and no other squadrons, you may change 1 die to any face not already in the attack pool.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel.webp"
     }
+  }
 }
