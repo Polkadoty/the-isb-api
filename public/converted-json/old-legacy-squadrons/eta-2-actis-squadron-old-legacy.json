@@ -1,277 +1,324 @@
 {
-    "squadrons": {
-        "eta-2-actis-squadron-old-legacy": {
-            "author": "Armada Legacy Old",
-            "alias": "Legacy",
-            "team": "Armada Legacy Old",
-            "release": "Wave 1 Old",
-            "expansion": "Republic Squadrons II",
-            "_id": null,
-            "type": "squadron",
-            "faction": "republic",
-            "squadron_type": "eta-2-actis-squadron",
-            "name": "Eta-2 Actis Squadron",
-            "ace-name": "",
-            "unique-class": [""],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 0
-            },
-            "armament": {
-                "anti-squadron": [0, 2, 1],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 2,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 2,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": false,
-            "ace": false,
-            "points": 15,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": ""
-        },
-        "anakin-skywalker-eta-2-actis-squadron-old-legacy": {
-            "author": "Armada Legacy Old",
-            "alias": "Legacy",
-            "team": "Armada Legacy Old",
-            "release": "Wave 1 Old",
-            "expansion": "Republic Squadrons II",
-            "_id": null,
-            "type": "squadron",
-            "faction": "republic",
-            "squadron_type": "eta-2-actis-squadron",
-            "name": "Eta-2 Actis Squadron",
-            "ace-name": "Anakin Skywalker",
-            "unique-class": ["Anakin Skywalker"],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [0, 2, 1],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 2,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 2,
-                "escort": false,
-                "grit": true,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "When performing a non-COUNTER attack against a squadron, you may spend 1 defense token to add 2 dice of any color to the attack pool.",
-            "unique": false,
-            "ace": true,
-            "points": 24,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": ""
-        },
-        
-        "obi-wan-kenobi-eta-2-actis-squadron-old-legacy": {
-            "author": "Armada Legacy Old",
-            "alias": "Legacy",
-            "team": "Armada Legacy Old",
-            "release": "Wave 1 Old",
-            "expansion": "Republic Squadrons II",
-            "_id": null,
-            "type": "squadron",
-            "faction": "republic",
-            "squadron_type": "eta-2-actis-squadron",
-            "name": "Eta-2 Actis Squadron",
-            "ace-name": "Obi-Wan Kenobi",
-            "unique-class": ["Obi-Wan Kenobi"],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [0, 2, 1],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 2,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 2,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "After a friendly squadron at distance 1 spends a readied defense token, you may spend a readied :brace: token. If you do that squadron may ready 1 defense token.",
-            "unique": false,
-            "ace": true,
-            "points": 24,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": ""
-        },
-        
-        "aayla-secura-eta-2-actis-squadron-old-legacy": {
-            "author": "Armada Legacy Old",
-            "alias": "Legacy",
-            "team": "Armada Legacy Old",
-            "release": "Wave 1 Old",
-            "expansion": "Republic Squadrons II",
-            "_id": null,
-            "type": "squadron",
-            "faction": "republic",
-            "squadron_type": "eta-2-actis-squadron",
-            "name": "Eta-2 Actis Squadron",
-            "ace-name": "Aayla Secura",
-            "unique-class": ["Aayla Secura"],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [0, 2, 1],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 2,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 2,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "When you activate, you may choose up to 2 friendly squadrons at distance 1. Each chosen squadron may increase its speed by 1 until the end of the round.",
-            "unique": false,
-            "ace": true,
-            "points": 23,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": ""
-        },
-        
-        "shaak-ti-eta-2-actis-squadron-old-legacy": {
-            "author": "Armada Legacy Old",
-            "alias": "Legacy",
-            "team": "Armada Legacy Old",
-            "release": "Wave 1 Old",
-            "expansion": "Republic Squadrons II",
-            "_id": null,
-            "type": "squadron",
-            "faction": "republic",
-            "squadron_type": "eta-2-actis-squadron",
-            "name": "Eta-2 Actis Squadron",
-            "ace-name": "Shaak Ti",
-            "unique-class": ["Shaak Ti"],
-            "irregular": false,
-            "hull": 3,
-            "speed": 5,
-            "tokens": {
-                "def_scatter": 1,
-                "def_evade": 0,
-                "def_brace": 1
-            },
-            "armament": {
-                "anti-squadron": [0, 2, 1],
-                "anti-ship": [0, 1, 0]
-            },
-            "abilities": {
-                "adept": 2,
-                "ai-battery": 0,
-                "ai-antisquadron": 0,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 2,
-                "dodge": 2,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "During your activation, you may spend 1 defense token. If you do, another friendly squadron without DODGE at distance 1 gains SCREEN until the end of the round.",
-            "unique": false,
-            "ace": true,
-            "points": 22,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": ""
-        }
+  "squadrons": {
+    "eta-2-actis-squadron-old-legacy": {
+      "author": "Armada Legacy Old",
+      "alias": "Legacy",
+      "team": "Armada Legacy Old",
+      "release": "Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": null,
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "eta-2-actis-squadron",
+      "name": "Eta-2 Actis Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 2,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/eta-2-actis-squadron-old-legacy.webp"
+    },
+    "anakin-skywalker-eta-2-actis-squadron-old-legacy": {
+      "author": "Armada Legacy Old",
+      "alias": "Legacy",
+      "team": "Armada Legacy Old",
+      "release": "Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": null,
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "eta-2-actis-squadron",
+      "name": "Eta-2 Actis Squadron",
+      "ace-name": "Anakin Skywalker",
+      "unique-class": [
+        "Anakin Skywalker"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 2,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When performing a non-COUNTER attack against a squadron, you may spend 1 defense token to add 2 dice of any color to the attack pool.",
+      "unique": false,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-eta-2-actis-squadron-old-legacy.webp"
+    },
+    "obi-wan-kenobi-eta-2-actis-squadron-old-legacy": {
+      "author": "Armada Legacy Old",
+      "alias": "Legacy",
+      "team": "Armada Legacy Old",
+      "release": "Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": null,
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "eta-2-actis-squadron",
+      "name": "Eta-2 Actis Squadron",
+      "ace-name": "Obi-Wan Kenobi",
+      "unique-class": [
+        "Obi-Wan Kenobi"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 2,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After a friendly squadron at distance 1 spends a readied defense token, you may spend a readied :brace: token. If you do that squadron may ready 1 defense token.",
+      "unique": false,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/obi-wan-kenobi-eta-2-actis-squadron-old-legacy.webp"
+    },
+    "aayla-secura-eta-2-actis-squadron-old-legacy": {
+      "author": "Armada Legacy Old",
+      "alias": "Legacy",
+      "team": "Armada Legacy Old",
+      "release": "Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": null,
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "eta-2-actis-squadron",
+      "name": "Eta-2 Actis Squadron",
+      "ace-name": "Aayla Secura",
+      "unique-class": [
+        "Aayla Secura"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 2,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate, you may choose up to 2 friendly squadrons at distance 1. Each chosen squadron may increase its speed by 1 until the end of the round.",
+      "unique": false,
+      "ace": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/aayla-secura-eta-2-actis-squadron-old-legacy.webp"
+    },
+    "shaak-ti-eta-2-actis-squadron-old-legacy": {
+      "author": "Armada Legacy Old",
+      "alias": "Legacy",
+      "team": "Armada Legacy Old",
+      "release": "Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": null,
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "eta-2-actis-squadron",
+      "name": "Eta-2 Actis Squadron",
+      "ace-name": "Shaak Ti",
+      "unique-class": [
+        "Shaak Ti"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 2,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "During your activation, you may spend 1 defense token. If you do, another friendly squadron without DODGE at distance 1 gains SCREEN until the end of the round.",
+      "unique": false,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/shaak-ti-eta-2-actis-squadron-old-legacy.webp"
     }
+  }
 }
