@@ -7,10 +7,14 @@
             "size": "string",
             "hull": number,
             "speed": {
-                "1": [number],
-                "2": [number, number],
-                "3": [number, number, number],
-                "4": [number, number, number, number]
+                "1": [number
+                ],
+                "2": [number, number
+                ],
+                "3": [number, number, number
+                ],
+                "4": [number, number, number, number
+                ]
             },
             "shields": {
                 "front": number,
@@ -43,7 +47,9 @@
                     "name": "string",
                     "faction": "string",
                     "unique": boolean,
-                    "traits": ["string"],
+                    "traits": [
+                        "string"
+                    ],
                     "points": number,
                     "tokens": {
                         "def_scatter": number,
@@ -58,16 +64,40 @@
                         "squadron": number,
                         "engineer": number
                     },
-                    "upgrades": ["commander", "officer", "weapons-team", "support-team", "fleet-command", "fleet-support", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "experimental-retro", "turbolaser", "ion-cannon", "ordnance", "super-weapon", "title"],
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "weapons-team",
+                        "support-team",
+                        "fleet-command",
+                        "fleet-support",
+                        "offensive-retro",
+                        "weapons-team-offensive-retro",
+                        "defensive-retro",
+                        "experimental-retro",
+                        "turbolaser",
+                        "ion-cannon",
+                        "ordnance",
+                        "super-weapon",
+                        "title"
+                    ],
                     "armament": {
-                        "asa": [red, blue, black],
-                        "front": [red, blue, black],
-                        "rear": [red, blue, black],
-                        "left": [red, blue, black],
-                        "right": [red, blue, black],
-                        "left_aux": [red, blue, black],
-                        "right_aux": [red, blue, black],
-                        "special": [red, blue, black]
+                        "asa": [red, blue, black
+                        ],
+                        "front": [red, blue, black
+                        ],
+                        "rear": [red, blue, black
+                        ],
+                        "left": [red, blue, black
+                        ],
+                        "right": [red, blue, black
+                        ],
+                        "left_aux": [red, blue, black
+                        ],
+                        "right_aux": [red, blue, black
+                        ],
+                        "special": [red, blue, black
+                        ]
                     },
                     "artwork": "",
                     "cardimage": "https://api.swarmada.wiki/images/.webp"

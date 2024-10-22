@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "interdictor-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 4 Armada",
+            "expansion": "Interdictor Expansion Pack (SWM16)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Interdictor",
+            "unique-class": [
+                "Interdictor"
+            ],
+            "ability": "When a ship activates, you may exhaust this card to ready 1 other upgrade card equipped to this ship.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "interdictor-cruiser",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/interdictor-title.webp"
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "upgrades": {
+        "demolisher-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 1 Armada",
+            "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Demolisher",
+            "unique-class": [
+                "Demolisher"
+            ],
+            "ability": "During your Attack step, you can perform only 1 attack.\nYou can perform 1 of your attacks after you execute your first maneuver during your activation.",
+            "unique": true,
+            "points": 10,
+            "modification": false,
+            "bound_shiptype": "gladiator-class-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "[link to image]",
+            "cardimage": "https://api.swarmada.wiki/images/demolisher-title.webp"
+        },
+        "insidious-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 1 Armada",
+            "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Insidious",
+            "unique-class": [
+                "Insidious"
+            ],
+            "ability": "The black dice in your battery armament can be used at medium range. This effect applies only while attacking the rear hull zone of a ship.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "gladiator-class-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "[link to image]",
+            "cardimage": "https://api.swarmada.wiki/images/insidious-title.webp"
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "upgrades": {
+      "gallant-haven-title": {
+        "author": "Fantasy Flight Games",
+        "alias": "FFG",
+        "team": "FFG",
+        "release": "Wave 1 Armada",
+        "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+        "_id": null,
+        "type": "title",
+        "faction": [
+          "rebel"
+        ],
+        "name": "Gallant Haven",
+        "unique-class": [
+          "Gallant Haven"
+        ],
+        "ability": "Before a friendly squadron at distance 1 suffers damage from an attack, reduce the total damage by 1, to a minimum of 1.",
+        "unique": true,
+        "points": 6,
+        "modification": false,
+        "bound_shiptype": "assault-frigate-mark-ii",
+        "restrictions": {
+          "traits": [
+            ""
+          ],
+          "size": [
+            ""
+          ],
+          "disqual_upgrades": [
+            ""
+          ],
+          "disable_upgrades": [
+            ""
+          ],
+          "flagship": false
+        },
+        "start_command": {
+          "type": "",
+          "start_icon": [
+            ""
+          ],
+          "start_amount": 0
+        },
+        "exhaust": {
+          "type": "",
+          "ready_token": [
+            ""
+          ],
+          "ready_amount": 0
+        },
+        "artwork": "",
+        "cardimage": "https://api.swarmada.wiki/images/gallant-haven-title.webp"
+      },
+      "paragon-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Paragon",
+      "unique-class": [
+        "Paragon"
+      ],
+      "ability": "While attacking a ship you have already attacked this round, add 1 black die to your attack pool.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "assault-frigate-mark-ii",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/paragon-title.webp"
+    }
+    }
+  }

@@ -1,0 +1,169 @@
+{
+    "upgrades": {
+        "defiance-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Home One Expansion Pack (SWM130)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Defiance",
+            "unique-class": [
+                "Defiance"
+            ],
+            "ability": "While attacking a ship that has already activated this round, add 1 die of any color to your attack pool.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "mc80h-cruiser",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/defiance-title.webp"
+        },
+        "home-one-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Home One Expansion Pack (SWM130)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Home One",
+            "unique-class": [
+                "Home One"
+            ],
+            "ability": "While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an :accuracy: icon.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "mc80h-cruiser",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/home-one-title.webp"
+        },
+        "independence-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Home One Expansion Pack (SWM130)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Independence",
+            "unique-class": [
+                "Independence"
+            ],
+            "ability": " :squadron: Each squadron you activate may increase its speed to 4 until the end of its activation. Squadrons that change speed in this way cannot attack this activation.",
+            "unique": true,
+            "points": 8,
+            "modification": false,
+            "bound_shiptype": "mc80h-cruiser",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/independence-title.webp"
+        }
+    }
+}
