@@ -16,6 +16,9 @@ import legacyShipRoutes from './routes/legacyShipRoutes.js';
 import legacySquadronRoutes from './routes/legacySquadronRoutes.js';
 import legacyUpgradeRoutes from './routes/legacyUpgradeRoutes.js';
 
+import oldLegacyShipRoutes from './routes/oldLegacyShipRoutes.js';
+import oldLegacySquadronRoutes from './routes/oldLegacySquadronRoutes.js';
+import oldLegacyUpgradeRoutes from './routes/oldLegacyUpgradeRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -39,6 +42,11 @@ app.use('/legends/upgrades', legendsUpgradeRoutes);
 app.use('/legacy/ships', legacyShipRoutes);
 app.use('/legacy/squadrons', legacySquadronRoutes);
 app.use('/legacy/upgrades', legacyUpgradeRoutes);
+
+// Old Legacy routes
+app.use('/old-legacy/ships', oldLegacyShipRoutes);
+app.use('/old-legacy/squadrons', oldLegacySquadronRoutes);
+app.use('/old-legacy/upgrades', oldLegacyUpgradeRoutes);
 
 
 app.use(errorHandler);
