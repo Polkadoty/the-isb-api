@@ -1,0 +1,169 @@
+{
+  "upgrades": {
+    "amity-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 8 Armada",
+      "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Amity",
+      "unique-class": [
+        "Amity"
+      ],
+      "ability": "Mark I only.\nAfter you deploy, gain 1 :evade: defense token.\nWhen an enemy ship overlaps you, you may deal 1 additional facedown damage card to both ships.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "starhawk-class-battleship",
+      "restrictions": {
+        "traits": [
+          "starhawk-mark-i"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/amity-title.webp"
+    },
+    "concord-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 8 Armada",
+      "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Concord",
+      "unique-class": [
+        "Concord"
+      ],
+      "ability": "Mark I only.\nAfter you deploy, gain 1 :salvo: defense token.\nWhile defending, if your speed is 0, during your Spend Defense Tokens step, you can spend 1 defense token.",
+      "unique": true,
+      "points": 12,
+      "modification": false,
+      "bound_shiptype": "starhawk-class-battleship",
+      "restrictions": {
+        "traits": [
+          "starhawk-mark-i"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/concord-title.webp"
+    },
+    "unity-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 8 Armada",
+      "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Unity",
+      "unique-class": [
+        "Unity"
+      ],
+      "ability": "After you deploy, gain 1 :redirect: defense token.\nWhile attacking a squadron, if the defender is engaged with a friendly squadron without the printed Heavy keyword, you may reroll 1 die.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "starhawk-class-battleship",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/unity-title.webp"
+    }
+  }
+}

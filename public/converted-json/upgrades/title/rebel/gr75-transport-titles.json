@@ -1,0 +1,114 @@
+{
+    "upgrades": {
+        "bright-hope-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 3 Armada",
+            "expansion": "Rebel Transports Expansion Pack (SWM19)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Bright Hope",
+            "unique-class": [
+                "Bright Hope"
+            ],
+            "ability": "While defending against an attack that does not target your rear hull zone, before you suffer damage reduce the total damage by 1.",
+            "unique": true,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "gr75-rebel-transport",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/bright-hope-title.webp"
+        },
+        "quantum-storm-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 3 Armada",
+            "expansion": "Rebel Transports Expansion Pack (SWM19)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Quantum Storm",
+            "unique-class": [
+                "Quantum Storm"
+            ],
+            "ability": ":nav:: After you execute a maneuver, you may exhaust this card to execute a 1-speed maneuver with a yaw of \"-\".",
+            "unique": true,
+            "points": 1,
+            "modification": false,
+            "bound_shiptype": "gr75-rebel-transport",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/quantum-storm-title.webp"
+        }
+    }
+}

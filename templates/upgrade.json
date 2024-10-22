@@ -8,30 +8,64 @@
             "expansion": "string",
             "_id": null,
             "type": "upgrade_category/commander/title/etc",
-            "faction": ["rebel","empire","republic","separatist"],
+            "faction": [
+                "rebel",
+                "empire",
+                "republic",
+                "separatist"
+            ],
             "name": "upgrade_name",
-            "unique-class": ["string"],
+            "unique-class": [
+                "string"
+            ],
             "ability": "string",
             "unique": boolean,
             "points": number,
             "modification": boolean,
             "bound_shiptype": "ship_type or blank",
             "restrictions": {
-                "traits": ["trait"],
-                "size": ["small","medium", "large"],
-                "disqual_upgrades": ["","upgrade_type"],
-                "disable_upgrades": ["","upgrade_type"],
-                "enable_upgrades": ["", "upgrade_type"],
+                "traits": [
+                    "trait"
+                ],
+                "size": [
+                    "small",
+                    "medium",
+                    "large"
+                ],
+                "disqual_upgrades": [
+                    "",
+                    "upgrade_type"
+                ],
+                "disable_upgrades": [
+                    "",
+                    "upgrade_type"
+                ],
+                "enable_upgrades": [
+                    "",
+                    "upgrade_type"
+                ],
                 "flagship": boolean
             },
             "start_command": {
                 "type": "blank, token, or dial",
-                "start_icon": ["any", "squadron", "repair", "navigate", "confire"],
+                "start_icon": [
+                    "any",
+                    "squadron",
+                    "repair",
+                    "navigate",
+                    "confire"
+                ],
                 "start_amount": number
             },
             "exhaust": {
                 "type": "blank, recur, nonrecur, discard",
-                "ready_token": ["any", "squadron", "repair", "navigate", "confire"],
+                "ready_token": [
+                    "any",
+                    "squadron",
+                    "repair",
+                    "navigate",
+                    "confire"
+                ],
                 "ready_amount": number
             },
             "artwork": "",

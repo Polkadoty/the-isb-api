@@ -1,0 +1,224 @@
+{
+  "upgrades": {
+    "annihilator-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Annihilator",
+      "unique-class": [
+        "Annihilator"
+      ],
+      "ability": "While attacking a squadron, you may reroll 1 attack die.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-dreadnought"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/annihilator-title.webp"
+    },
+    "eclipse-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Eclipse",
+      "unique-class": [
+        "Eclipse"
+      ],
+      "ability": "When an enemy ship overlaps you, the enemy ship suffers a faceup damage card instead of a facedown damage card.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-dreadnought"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/eclipse-title.webp"
+    },
+    "executor-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Executor",
+      "unique-class": [
+        "Executor"
+      ],
+      "ability": "You can be assigned any number of command tokens of any types, instead of a number of command tokens equal to your command value.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-dreadnought"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/executor-title.webp"
+    },
+    "ravager-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Super Star Destroyer",
+      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Ravager",
+      "unique-class": [
+        "Ravager"
+      ],
+      "ability": ":confire:: Your :confire: tokens can either reroll 1 attack die or add 1 die to your attack pool. If you add a die, that die must be of a color already in your attack pool.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "star-dreadnought"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/ravager-title.webp"
+    }
+  }
+}

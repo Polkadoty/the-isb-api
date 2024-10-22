@@ -1,0 +1,276 @@
+{
+    "upgrades": {
+        "avenger-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Avenger",
+            "unique-class": [
+                "Avenger"
+            ],
+            "ability": "While attacking, you may exhaust this card. If you do, the defender cannot spend more than 1 exhausted defense token during this attack.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "imperial-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/avenger-title.webp"
+        },
+        "chimaera-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Chimaera",
+            "unique-class": [
+                "Chimaera"
+            ],
+            "ability": "You gain 1 :fleet-command: icon in your upgrade bar. You cannot equip this card if you have a :fleet-command: icon in your upgrade bar. At the start of the Command Phase, you may discard 1 :fleet-command: upgrade card you have equipped and replace it with another :fleet-command: upgrade card.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "imperial-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    "fleet-command"
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    "fleet-command"
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/chimaera-title.webp"
+        },
+        "devastator-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Devastator",
+            "unique-class": [
+                "Devastator"
+            ],
+            "ability": "Once per round, while attacking from your front hull zone, you may add 1 blue die to your attack pool for each of your discarded defense tokens.",
+            "unique": true,
+            "points": 10,
+            "modification": false,
+            "bound_shiptype": "imperial-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/devastator-title.webp"
+        },
+        "relentless-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 2 Armada",
+            "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Relentless",
+            "unique-class": [
+                "Relentless"
+            ],
+            "ability": "The total number of command dials that must be assigned to your ship during the Command Phase is reduced by 1.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "imperial-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/relentless-title.webp"
+        },
+        "sovereign-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 7 Armada",
+            "expansion": "Chimaera Expansion Pack (SWM29)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Sovereign",
+            "unique-class": [
+                "Sovereign"
+            ],
+            "ability": "At the start of Ship Phase, you may exhaust this card to discard 1 command token from up to 3 friendly ships at distance 1-5. If you do, each of those ships may gain 1 command token of any type.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "imperial-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/sovereign-title.webp"
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "upgrades": {
+        "fb-88-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 10 Armada",
+            "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "republic"
+            ],
+            "name": "FB-88",
+            "unique-class": [
+                "FB-88"
+            ],
+            "ability": "Before you reveal a command, you may discard your top command dial.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "pelta-class-frigate",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/fb-88-title.webp"
+        },
+        "tb-73-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 10 Armada",
+            "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "republic"
+            ],
+            "name": "TB-73",
+            "unique-class": [
+                "TB-73"
+            ],
+            "ability": "After you deploy, gain 1 additional :evade: defense token.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "pelta-class-frigate",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/tb-73-title.webp"
+        }
+    }
+}

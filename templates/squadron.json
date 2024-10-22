@@ -12,7 +12,9 @@
             "squadron_type": "squadron_uid",
             "name": "squadron_name",
             "ace-name": "string",
-            "unique-class": ["string"],
+            "unique-class": [
+                "string"
+            ],
             "irregular": boolean,
             "hull": number,
             "speed": number,
@@ -22,8 +24,10 @@
                 "def_brace": number
             },
             "armament": {
-                "anti-squadron": [red, blue, black],
-                "anti-ship": [red, blue, black]
+                "anti-squadron": [red, blue, black
+                ],
+                "anti-ship": [red, blue, black
+                ]
             },
             "abilities": {
                 "adept": number,
