@@ -30,7 +30,7 @@
                 "start_amount": number
             },
             "exhaust": {
-                "type": "blank, recur, nonrecur",
+                "type": "blank, recur, nonrecur, discard",
                 "ready_token": ["any", "squadron", "repair", "navigate", "confire"],
                 "ready_amount": number
             },
