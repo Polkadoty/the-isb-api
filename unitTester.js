@@ -17,7 +17,10 @@ const directories = {
   'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
   'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
-  'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades')
+  'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
+  'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
+  'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
+  'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades')
 };
 
 // Load tests from YAML file
@@ -172,6 +175,9 @@ function parseArgs() {
     'legends-ships': args.includes('-legends-ships'),
     'legends-squadrons': args.includes('-legends-squadrons'),
     'legends-upgrades': args.includes('-legends-upgrades'),
+    'old-legacy-ships': args.includes('-old-legacy-ships'),
+    'old-legacy-squadrons': args.includes('-old-legacy-squadrons'),
+    'old-legacy-upgrades': args.includes('-old-legacy-upgrades'),
     noModifications: args.includes('--no-modifications'),
     noTests: args.includes('--no-tests'),
     force: args.includes('--force') // Add this line
@@ -199,17 +205,17 @@ if (flags.objectives) {
   console.log('Processing objectives...');
   allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.objectives, tests.objectives));
 }
-if (flags['custom-ships']) {
-  console.log('Processing custom ships...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['custom-ships'], tests.ships));
+if (flags['old-legacy-ships']) {
+  console.log('Processing old-legacy ships...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['old-legacy-ships'], tests.ships));
 }
-if (flags['custom-squadrons']) {
-  console.log('Processing custom squadrons...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['custom-squadrons'], tests.squadrons));
+if (flags['old-legacy-squadrons']) {
+  console.log('Processing old-legacy squadrons...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['old-legacy-squadrons'], tests.squadrons));
 }
-if (flags['custom-upgrades']) {
-  console.log('Processing custom upgrades...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['custom-upgrades'], tests.upgrades));
+if (flags['old-legacy-upgrades']) {
+  console.log('Processing old-legacy upgrades...');
+  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['old-legacy-upgrades'], tests.upgrades));
 }
 
 if (flags['legends-ships']) {

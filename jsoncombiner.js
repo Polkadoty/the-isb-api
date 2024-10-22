@@ -17,7 +17,10 @@ const directories = {
   'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
   'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
-  'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades')
+  'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
+  'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
+  'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
+  'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades')
 };
 
 function updateIdsAndCombine(directory, outputFileName) {
@@ -83,7 +86,10 @@ function parseArgs() {
     'legacy-upgrades': args.includes('-legacy-upgrades'),
     'legends-ships': args.includes('-legends-ships'),
     'legends-squadrons': args.includes('-legends-squadrons'),
-    'legends-upgrades': args.includes('-legends-upgrades')
+    'legends-upgrades': args.includes('-legends-upgrades'),
+    'old-legacy-ships': args.includes('-old-legacy-ships'),
+    'old-legacy-squadrons': args.includes('-old-legacy-squadrons'),
+    'old-legacy-upgrades': args.includes('-old-legacy-upgrades'),
   };
 }
 
@@ -119,6 +125,15 @@ if (flags['legacy-squadrons']) {
 }
 if (flags['legacy-upgrades']) {
   updateIdsAndCombine(directories['legacy-upgrades'], 'legacy-upgrades.json');
+}
+if (flags['old-legacy-ships']) {
+  updateIdsAndCombine(directories['old-legacy-ships'], 'old-legacy-ships.json');
+}
+if (flags['old-legacy-squadrons']) {
+  updateIdsAndCombine(directories['old-legacy-squadrons'], 'old-legacy-squadrons.json');
+}
+if (flags['old-legacy-upgrades']) {
+  updateIdsAndCombine(directories['old-legacy-upgrades'], 'old-legacy-upgrades.json');
 }
 
 // If no flags are provided, inform the user
