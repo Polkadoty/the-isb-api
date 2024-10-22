@@ -48,10 +48,11 @@
             },
             "ability": "string",
             "unique": boolean,
+            "ace": boolean,
             "points": number,
             "silhouette": "",
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://api.swarmada.wiki/images/.webp"
         }
     }
 }
