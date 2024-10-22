@@ -1,7 +1,7 @@
 {
   "ships": {
     "assault-frigate-mark-i-old-legacy": {
-      "_id": "6a13e776-08eb-4a9f-9d1a-7b09611e46bb",
+      "_id": "45a53d99-ebc3-4eb6-a701-068640606af3",
       "type": "chassis",
       "chassis_name": "assault-frigate-mark-i-old-legacy",
       "size": "medium",
@@ -46,7 +46,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Assault Frigate Mark I Expansion",
-          "_id": "be328a75-d0d9-467c-a78a-289997260b3c",
+          "_id": "ee594840-2c9b-490d-9e45-070af835c530",
           "type": "ship",
           "chassis": "assault-frigate-mark-i-old-legacy",
           "name": "Assault Frigate Mark IA",
@@ -130,7 +130,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Assault Frigate Mark I Expansion",
-          "_id": "57c2bbf0-5f59-4674-a7d6-6407efe16c0e",
+          "_id": "15276be5-4417-445a-97ff-ca37e8edd940",
           "type": "ship",
           "chassis": "assault-frigate-mark-i-old-legacy",
           "name": "Assault Frigate Mark IB",
@@ -210,7 +210,7 @@
       }
     },
     "dreadnaught-class-old-legacy": {
-      "_id": "45bee068-3ac8-43c2-9d81-b0e08aa03d9b",
+      "_id": "29ee9e88-ee8d-423c-8bd9-66d64e0c17c5",
       "type": "chassis",
       "chassis_name": "dreadnaught-class-old-legacy",
       "size": "medium",
@@ -251,7 +251,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "cc09b3e1-d323-486c-a367-e8a2cf902b21",
+          "_id": "ab7aff13-fd76-4cd7-b313-5d691c9be07d",
           "type": "ship",
           "chassis": "dreadnaught-class-old-legacy",
           "name": "Dreadnaught-class Katana Refit",
@@ -335,7 +335,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "7c3f843d-ecb3-4d12-88f3-d473ad000987",
+          "_id": "3781dafd-b0f6-455b-997f-b9a285469e65",
           "type": "ship",
           "chassis": "dreadnaught-class-old-legacy",
           "name": "Dreadnaught-class Imperial Refit",
@@ -414,7 +414,7 @@
       }
     },
     "lucrehulk-class-old-legacy": {
-      "_id": "843cad18-ea9a-47d1-bb5e-27215445539a",
+      "_id": "8cfc0fca-0ba2-4604-a99f-26206db46f34",
       "type": "chassis",
       "chassis_name": "lucrehulk-class-old-legacy",
       "size": "large",
@@ -455,7 +455,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Lucrehulk Expansion",
-          "_id": "f42069e9-ff54-40ef-9c8c-fd88099b5148",
+          "_id": "4962b5b7-5785-48fb-b7fb-b5d19d32f384",
           "type": "ship",
           "chassis": "lucrehulk-class-old-legacy",
           "name": "Lucrehulk-class Battleship",
@@ -540,10 +540,10 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Lucrehulk Expansion",
-          "_id": "3cf24b87-6ae2-48e8-8e10-6393de8b1314",
+          "_id": "be46c307-e934-4e67-8964-d9ca647089ae",
           "type": "ship",
           "chassis": "lucrehulk-class-old-legacy",
-          "name": "Lucrehulk-class Battleship",
+          "name": "Lucrehulk-class Droid Control Ship",
           "faction": "separatist",
           "unique": false,
           "traits": [
