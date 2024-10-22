@@ -121,7 +121,7 @@
         "swarm": false
       },
       "ability": "When performing a non-COUNTER attack against a squadron, you may spend 1 defense token to add 2 dice of any color to the attack pool.",
-      "unique": false,
+      "unique": true,
       "ace": true,
       "points": 24,
       "silhouette": "",
@@ -185,7 +185,7 @@
         "swarm": false
       },
       "ability": "After a friendly squadron at distance 1 spends a readied defense token, you may spend a readied :brace: token. If you do that squadron may ready 1 defense token.",
-      "unique": false,
+      "unique": true,
       "ace": true,
       "points": 24,
       "silhouette": "",
@@ -249,7 +249,7 @@
         "swarm": false
       },
       "ability": "When you activate, you may choose up to 2 friendly squadrons at distance 1. Each chosen squadron may increase its speed by 1 until the end of the round.",
-      "unique": false,
+      "unique": true,
       "ace": true,
       "points": 23,
       "silhouette": "",
@@ -313,7 +313,7 @@
         "swarm": false
       },
       "ability": "During your activation, you may spend 1 defense token. If you do, another friendly squadron without DODGE at distance 1 gains SCREEN until the end of the round.",
-      "unique": false,
+      "unique": true,
       "ace": true,
       "points": 22,
       "silhouette": "",
