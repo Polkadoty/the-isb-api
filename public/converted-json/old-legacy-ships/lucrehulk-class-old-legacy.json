@@ -1,0 +1,119 @@
+{
+    "ships": {
+        "lucrehulk-class-old-legacy": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "lucrehulk-class-old-legacy",
+            "size": "large",
+            "hull": 12,
+            "speed": {
+                "1": [0],
+                "2": [1, 0],
+                "3": [],
+                "4": []
+            },
+            "shields": {
+                "front": 5,
+                "rear": 3,
+                "left": 5,
+                "right": 5,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "lucrehulk-class-battleship-old-legacy": {
+                    "author": "Armada Legacy",
+                    "alias": "Legacy",
+                    "team": "Armada Legacy",
+                    "release": "Legacy Wave 2 Old",
+                    "expansion": "Lucrehulk Expansion",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "lucrehulk-class-old-legacy",
+                    "name": "Lucrehulk-class Battleship",
+                    "faction": "separatist",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 144,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 1,
+                        "def_contain": 1,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 4,
+                        "squadron": 4,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "officer", "support-team", "offensive-retro", "offensive-retro", "turbolaser", "turbolaser", "title"],
+                    "armament": {
+                        "asa": [1, 1, 0],
+                        "front": [2, 2, 0],
+                        "rear": [2, 1, 0],
+                        "left": [3, 2, 2],
+                        "right": [3, 2, 2],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://api.swarmada.wiki/images/lucrehulk-class-battleship-old-legacy.webp"
+                },
+                "lucrehulk-class-droid-control-ship-old-legacy": {
+                    "author": "Armada Legacy",
+                    "alias": "Legacy",
+                    "team": "Armada Legacy",
+                    "release": "Legacy Wave 2 Old",
+                    "expansion": "Lucrehulk Expansion",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "lucrehulk-class-old-legacy",
+                    "name": "Lucrehulk-class Battleship",
+                    "faction": "separatist",
+                    "unique": false,
+                    "traits": [""],
+                    "points": 136,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 0,
+                        "def_brace": 2,
+                        "def_redirect": 1,
+                        "def_contain": 1,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 4,
+                        "squadron": 6,
+                        "engineer": 4
+                    },
+                    "upgrades": ["commander", "officer", "officer", "support-team", "offensive-retro", "offensive-retro", "offensive-retro", "turbolaser", "super-weapon", "title"],
+                    "armament": {
+                        "asa": [0, 2, 0],
+                        "front": [2, 1, 0],
+                        "rear": [1, 2, 0],
+                        "left": [2, 3, 1],
+                        "right": [2, 3, 1],
+                        "left_aux": [0, 0, 0],
+                        "right_aux": [0, 0, 0],
+                        "special": [0, 0, 0]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://api.swarmada.wiki/images/lucrehulk-class-droid-control-ship-old-legacy.webp"
+                }
+            }
+        }
+    }
+  }
