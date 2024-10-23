@@ -34,7 +34,8 @@
         "enable_upgrades": [
           "defensive-retro"
         ],
-        "flagship": false
+        "flagship": false,
+        "complex_restrictions": "if ship.upgrades.defensive-retro.count > 0 && (ship.size == medium || ship.size == large)"
       },
       "start_command": {
         "type": "",
