@@ -184,10 +184,10 @@
         "strategic": false,
         "swarm": false
       },
-      "ability": "While you are unengaged, friendly squadrons with Bomber at Distance 1 gain Rogue.",
+      "ability": "When a friendly ship resolves a squadron command, if you are in range to be activated, up to 3 of the squadrons with BOMBER it activates can be at distance 1-3 of you.",
       "unique": true,
       "ace": true,
-      "points": 14,
+      "points": 16,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/matchstick-btl-b-y-wing-squadron.webp"
