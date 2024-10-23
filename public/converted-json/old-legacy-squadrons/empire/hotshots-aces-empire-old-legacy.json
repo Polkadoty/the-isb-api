@@ -1,0 +1,260 @@
+{
+    "squadrons": {
+        "turr-phennir-tie-interceptor-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Hotshots and Aces Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-interceptor-squadron",
+            "name": "TIE Interceptor Squadron",
+            "ace-name": "Turr Phennir",
+            "unique-class": [
+                "Turr Phennir"
+            ],
+            "irregular": false,
+            "hull": 3,
+            "speed": 5,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    4,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 2,
+                "dodge": false,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "After you defend, you may ready or recover 1 defense token you did not spend. If you recovered a defense token, flip it to the exhausted side.",
+            "unique": true,
+            "ace": true,
+            "points": 17,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/turr-phennir-tie-interceptor-squadron-old-legacy.webp"
+        },
+        "maarek-stele-tie-advanced-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Hotshots and Aces Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-advanced-squadron",
+            "name": "TIE Advanced Squadron",
+            "ace-name": "Maarek Stele",
+            "unique-class": [
+                "Maarek Stele"
+            ],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [
+                    3,
+                    0,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": true,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "After you are destroyed, you remain in the play area until the end of the Status Phase.",
+            "unique": true,
+            "ace": true,
+            "points": 18,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/maarek-stele-tie-advanced-squadron-old-legacy.webp"
+        },
+        "iden-versio-tie-fighter-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Hotshots and Aces Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-fighter-squadron",
+            "name": "TIE Fighter Squadron",
+            "ace-name": "Iden Versio",
+            "unique-class": [
+                "Iden Versio"
+            ],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    3,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "While another friendly squadron with SWARM at distance 1 is defending, you may spend a :scatter: readied defense token to cancel all dice.",
+            "unique": true,
+            "ace": true,
+            "points": 17,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/iden-versio-tie-fighter-squadron-old-legacy.webp"
+        },
+        "tomax-bren-tie-bomber-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Hotshots and Aces Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "empire",
+            "squadron_type": "tie-bomber-squadron",
+            "name": "TIE Bomber Squadron",
+            "ace-name": "Tomax Bren",
+            "unique-class": [
+                "Tomax Bren"
+            ],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    0,
+                    1
+                ],
+                "anti-ship": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": true,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "Friendly squadrons with BOMBER at distance 1 may attack ships while engaged with enemy squadrons.",
+            "unique": true,
+            "ace": true,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/tomax-bren-tie-bomber-squadron-old-legacy.webp"
+        }
+    }
+}

@@ -1,0 +1,197 @@
+{
+    "squadrons": {
+        "rogue-class-starfighter-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "rogue-class-starfighter-squadron-old-legacy",
+            "name": "Rogue-class Starfighter Squadron",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 1,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 15,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/rogue-class-starfighter-squadron-old-legacy.webp"
+        },
+        "magnaguard-protectors-rogue-class-starfighter-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "rogue-class-starfighter-squadron-old-legacy",
+            "name": "Rogue-class Starfighter Squadron",
+            "ace-name": "Magnaguard Protectors",
+            "unique-class": [
+                "Magnaguard Protectors"
+            ],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 1,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "After you defend against a squadron, if the attacker is at distance 1 of a friendly squadron with SCREEN, the attacker suffers 1 damage. When a friendly squadron with SCREEN at distance 1 suffers damage, you may suffer 1 of that damage instead.",
+            "unique": true,
+            "ace": true,
+            "points": 21,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/magnaguard-protectors-rogue-class-starfighter-squadron-old-legacy.webp"
+        },
+        "cad-bane-xanadu-blood-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "rogue-class-starfighter-squadron-old-legacy",
+            "name": "Xanadu Blood",
+            "ace-name": "Cad Bane",
+            "unique-class": [
+                "Cad Bane",
+                "Xanadu Blood"
+            ],
+            "irregular": false,
+            "hull": 5,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    1
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": true,
+                "cloak": true,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "While attacking a ship or squadron with 1 or more defense tokens, you may reroll any number of dice in your attack pool.",
+            "unique": true,
+            "ace": true,
+            "points": 22,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/cad-bane-xanadu-blood-old-legacy.webp"
+        }
+    }
+}

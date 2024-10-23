@@ -1,0 +1,210 @@
+{
+    "ships": {
+        "arquitens-gar-cruiser-old-legacy": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "arquitens-gar-cruiser-old-legacy",
+            "size": "small",
+            "hull": 5,
+            "speed": {
+                "1": [
+                    2
+                ],
+                "2": [
+                    0,
+                    2
+                ],
+                "3": [
+                    0,
+                    0,
+                    2
+                ],
+                "4": []
+            },
+            "shields": {
+                "front": 2,
+                "rear": 2,
+                "left": 2,
+                "right": 2,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "arquitens-class-command-cruiser-republic-old-legacy": {
+                    "author": "Armada Legacy",
+                    "alias": "Legacy",
+                    "team": "Armada Legacy",
+                    "release": "Legacy Wave 1 Old",
+                    "expansion": "Republic Light Cruiser Expansion",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "arquitens-gar-cruiser-old-legacy",
+                    "name": "Arquitens-class Command Cruiser",
+                    "faction": "republic",
+                    "unique": false,
+                    "traits": [
+                        ""
+                    ],
+                    "points": 60,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 1,
+                        "def_brace": 0,
+                        "def_redirect": 1,
+                        "def_contain": 1,
+                        "def_salvo": 1
+                    },
+                    "values": {
+                        "command": 2,
+                        "squadron": 2,
+                        "engineer": 3
+                    },
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "weapons-team",
+                        "support-team",
+                        "turbolaser",
+                        "title"
+                    ],
+                    "armament": {
+                        "asa": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "front": [
+                            1,
+                            1,
+                            0
+                        ],
+                        "rear": [
+                            1,
+                            1,
+                            0
+                        ],
+                        "left": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "right": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "left_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "special": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://api.swarmada.wiki/images/arquitens-class-command-cruiser-republic-old-legacy.webp"
+                },
+                "arquitens-class-light-cruiser-republic-old-legacy": {
+                    "author": "Armada Legacy",
+                    "alias": "Legacy",
+                    "team": "Armada Legacy",
+                    "release": "Legacy Wave 1 Old",
+                    "expansion": "Republic Light Cruiser Expansion",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "arquitens-gar-cruiser-old-legacy",
+                    "name": "Arquitens-class Light Cruiser",
+                    "faction": "republic",
+                    "unique": false,
+                    "traits": [
+                        ""
+                    ],
+                    "points": 58,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 1,
+                        "def_brace": 0,
+                        "def_redirect": 1,
+                        "def_contain": 1,
+                        "def_salvo": 1
+                    },
+                    "values": {
+                        "command": 2,
+                        "squadron": 2,
+                        "engineer": 3
+                    },
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "weapons-team",
+                        "ordnance",
+                        "turbolaser",
+                        "title"
+                    ],
+                    "armament": {
+                        "asa": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "front": [
+                            0,
+                            0,
+                            2
+                        ],
+                        "rear": [
+                            1,
+                            0,
+                            1
+                        ],
+                        "left": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "right": [
+                            3,
+                            0,
+                            0
+                        ],
+                        "left_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "special": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser-republic-old-legacy.webp"
+                }
+            }
+        }
+    }
+}

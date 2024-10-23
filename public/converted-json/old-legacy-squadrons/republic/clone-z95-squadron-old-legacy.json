@@ -1,0 +1,132 @@
+{
+    "squadrons": {
+        "clone-z-95-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "clone-z-95-squadron-old-legacy",
+            "name": "Clone Z-95 Squadron",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": true,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 10,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/clone-z-95-squadron-old-legacy.webp"
+        },
+        "stub-clone-z-95-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "clone-z-95-squadron-old-legacy",
+            "name": "Clone Z-95 Squadron",
+            "ace-name": "Stub",
+            "unique-class": [
+                "Stub"
+            ],
+            "irregular": false,
+            "hull": 3,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 1,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": true,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "After you move, each squadron you were engaged with before you moved suffers 1 damage.",
+            "unique": true,
+            "ace": true,
+            "points": 15,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/stub-clone-z-95-squadron-old-legacy.webp"
+        }
+    }
+}

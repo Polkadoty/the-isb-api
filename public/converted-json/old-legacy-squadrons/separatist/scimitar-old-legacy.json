@@ -1,0 +1,134 @@
+{
+    "squadrons": {
+        "sith-infiltrator-scimitar-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "sith-infiltrator-scimitar-old-legacy",
+            "name": "Scimitar",
+            "ace-name": "Sith Infiltrator",
+            "unique-class": [
+                "Scimitar",
+                "Sith Infiltrator"
+            ],
+            "irregular": true,
+            "hull": 6,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 1,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": true,
+                "cloak": true,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": true,
+            "ace": false,
+            "points": 18,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/sith-infiltrator-scimitar-old-legacy.webp"
+        },
+        "count-dooku-scimitar-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "sith-infiltrator-scimitar-old-legacy",
+            "name": "Scimitar",
+            "ace-name": "Count Dooku",
+            "unique-class": [
+                "Scimitar",
+                "Count Dooku"
+            ],
+            "irregular": true,
+            "hull": 6,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 2,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": true,
+                "cloak": true,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "While you are engaged with only 1 squadron, you gain DODGE 2 and you may add 1 die of any coror to the attack pool while attackin a squadron.",
+            "unique": true,
+            "ace": true,
+            "points": 25,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/count-dooku-scimitar-old-legacy.webp"
+        }
+    }
+}
