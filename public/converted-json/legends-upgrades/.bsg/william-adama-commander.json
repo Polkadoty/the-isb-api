@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "william-adama-commander": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "colonial"
+            ],
+            "name": "William Adama",
+            "unique-class": [
+                "William Adama"
+            ],
+            "ability": "When a friendly ship reveals a command, you may reveal and discard 1 dial from this card. That ship gains a matching dial to that discarded dial.",
+            "unique": true,
+            "points": 28,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "dial",
+                "start_icon": [
+                    "any"
+                ],
+                "start_amount": 5
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}
