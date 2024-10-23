@@ -1,0 +1,209 @@
+{
+    "ships": {
+        "trident-ships-old-legacy": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "trident-ships-old-legacy",
+            "size": "small",
+            "hull": 3,
+            "speed": {
+                "1": [
+                    2
+                ],
+                "2": [
+                    1,
+                    1
+                ],
+                "3": [
+                    0,
+                    2,
+                    1
+                ],
+                "4": []
+            },
+            "shields": {
+                "front": 2,
+                "rear": 1,
+                "left": 1,
+                "right": 1,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "trident-class-assault-carriers-old-legacy": {
+                    "author": "Armada Legacy",
+                    "alias": "Legacy",
+                    "team": "Armada Legacy",
+                    "release": "Legacy Wave 1 Old",
+                    "expansion": "Triden Assault Ships Expansion",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "trident-ships-old-legacy",
+                    "name": "Trident-class Assault Carriers",
+                    "faction": "separatist",
+                    "unique": false,
+                    "traits": [
+                        "flotilla"
+                    ],
+                    "points": 32,
+                    "tokens": {
+                        "def_scatter": 1,
+                        "def_evade": 1,
+                        "def_brace": 0,
+                        "def_redirect": 0,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 1,
+                        "squadron": 1,
+                        "engineer": 2
+                    },
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "weapons-team",
+                        "offensive-retro",
+                        "offensive-retro",
+                        "title"
+                    ],
+                    "armament": {
+                        "asa": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "front": [
+                            1,
+                            1,
+                            0
+                        ],
+                        "rear": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "left": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "left_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "special": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://api.swarmada.wiki/images/trident-class-assault-carriers-old-legacy.webp"
+                },
+                "trident-class-assault-ships-old-legacy": {
+                    "author": "Armada Legacy",
+                    "alias": "Legacy",
+                    "team": "Armada Legacy",
+                    "release": "Legacy Wave 1 Old",
+                    "expansion": "Triden Assault Ships Expansion",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "trident-ships-old-legacy",
+                    "name": "Trident-class Assault Ships",
+                    "faction": "separatist",
+                    "unique": false,
+                    "traits": [
+                        "flotilla"
+                    ],
+                    "points": 30,
+                    "tokens": {
+                        "def_scatter": 1,
+                        "def_evade": 1,
+                        "def_brace": 0,
+                        "def_redirect": 0,
+                        "def_contain": 0,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 1,
+                        "squadron": 1,
+                        "engineer": 2
+                    },
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "offensive-retro",
+                        "offensive-retro",
+                        "title"
+                    ],
+                    "armament": {
+                        "asa": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "front": [
+                            1,
+                            0,
+                            1
+                        ],
+                        "rear": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "left": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "left_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "special": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://api.swarmada.wiki/images/trident-class-assault-ships-old-legacy.webp"
+                }
+            }
+        }
+    }
+}
