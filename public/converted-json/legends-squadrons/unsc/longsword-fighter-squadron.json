@@ -1,0 +1,136 @@
+{
+    "squadrons": {
+        "longsword-fighter-squadron": {
+            "author": "Armada Legends Team",
+            "alias": "Legends",
+            "team": "Legends",
+            "release": "Halo Armada Legends Wave 1",
+            "expansion": "Halo Armada Legends Wave 1",
+            "_id": null,
+            "type": "squadron",
+            "faction": "unsc",
+            "squadron_type": "longsword-fighter-squadron",
+            "name": "Longsword Fighter Squadron",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": false,
+            "hull": 6,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    3,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 15,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        },
+        "knife-26-longsword-fighter": {
+            "author": [
+                "SpaceNavy",
+                "Link",
+                "Skyhammer"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends Wave 1",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "squadron",
+            "faction": "unsc",
+            "squadron_type": "squadron_uid",
+            "name": "longsword-fighter-squadron",
+            "ace-name": "Knife 26",
+            "unique-class": [
+                "Knife 26"
+            ],
+            "irregular": false,
+            "hull": 6,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 1,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    3,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": true,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "While attacking a non-unique squadron, each of your red :hit: icons adds 1 damage to the total.",
+            "unique": true,
+            "ace": true,
+            "points": 20,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/longsword-fighter-squadron.webp"
+        }
+    }
+}

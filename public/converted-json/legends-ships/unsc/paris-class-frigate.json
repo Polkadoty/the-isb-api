@@ -1,0 +1,133 @@
+{
+    "ships": {
+        "paris-class-frigate": {
+            "_id": null,
+            "type": "chassis",
+            "chassis_name": "paris-class-frigate",
+            "size": "small",
+            "hull": 5,
+            "speed": {
+                "1": [
+                    2
+                ],
+                "2": [
+                    1,
+                    1
+                ],
+                "3": [
+                    0,
+                    2,
+                    1
+                ],
+                "4": []
+            },
+            "shields": {
+                "front": 2,
+                "rear": 1,
+                "left": 1,
+                "right": 1,
+                "left_aux": 0,
+                "right_aux": 0
+            },
+            "hull_zones": {
+                "frontoffset": 0,
+                "centeroffset": 0,
+                "rearoffset": 0,
+                "frontangle": 0,
+                "centerangle": 0,
+                "rearangle": 0
+            },
+            "silhouette": "[link to image]",
+            "blueprint": "[link to image]",
+            "models": {
+                "paris-class-heavy-frigate": {
+                    "author": [
+                        "SpaceNavy",
+                        "Link",
+                        "Skyhammer"
+                    ],
+                    "alias": "Legends",
+                    "team": "Armada Legends",
+                    "release": "Halo Armada Legends Wave 1",
+                    "expansion": "Halo Starter Set",
+                    "_id": null,
+                    "type": "ship",
+                    "chassis": "paris-class-frigate",
+                    "name": "Paris-class Heavy Frigate",
+                    "faction": "unsc",
+                    "unique": false,
+                    "traits": [
+                        "LMAC"
+                    ],
+                    "points": 55,
+                    "tokens": {
+                        "def_scatter": 0,
+                        "def_evade": 1,
+                        "def_brace": 1,
+                        "def_redirect": 0,
+                        "def_contain": 1,
+                        "def_salvo": 0
+                    },
+                    "values": {
+                        "command": 1,
+                        "squadron": 1,
+                        "engineer": 3
+                    },
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "weapons-team",
+                        "defensive-retro",
+                        "ordnance",
+                        "super-weapon",
+                        "title"
+                    ],
+                    "armament": {
+                        "asa": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "front": [
+                            0,
+                            2,
+                            1
+                        ],
+                        "rear": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "left": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "right": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "left_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "special": [
+                            2,
+                            1,
+                            1
+                        ]
+                    },
+                    "artwork": "",
+                    "cardimage": "https://api.swarmada.wiki/images/paris-class-heavy-frigate.webp"
+                }
+            }
+        }
+    }
+}

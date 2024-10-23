@@ -1,0 +1,63 @@
+{
+    "upgrades": {
+        "thel-vadamee-commander": {
+            "author": [
+                "SpaceNavy",
+                "Link",
+                "Skyhammer"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends Wave 1",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "covenant"
+            ],
+            "name": "Thel Vadamee",
+            "unique-class": [
+                "Thel Vadamee"
+            ],
+            "ability": "Ships in your fleet gain Elite.\nAfter both players have finished deploying fleets, you may redeploy up to 2 small ships or 1 medium-large ship. You may also redeploy up to 2 squadrons.",
+            "unique": true,
+            "points": 25,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/thel-vadamee-commander.webp"
+        }
+    }
+}
