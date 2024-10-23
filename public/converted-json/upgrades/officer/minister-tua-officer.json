@@ -35,7 +35,10 @@
           "defensive-retro"
         ],
         "flagship": false,
-        "complex_restrictions": "if ship.upgrades.defensive-retro.count > 0 && (ship.size == medium || ship.size == large)"
+        "disqualify_if": {
+          "size": ["medium", "large"],
+          "has_upgrade_type": ["defensive-retro"]
+        }
       },
       "start_command": {
         "type": "",
