@@ -1,0 +1,133 @@
+{
+    "squadrons": {
+        "g9-rigger-old-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "g9-rigger-old-old-legacy",
+            "name": "G9 Rigger-class Freighter",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": true,
+            "hull": 7,
+            "speed": 2,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    3,
+                    0,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": true,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 13,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/g9-rigger-old-old-legacy.webp"
+        },
+        "anakin-skywalker-twilight-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "g9-rigger-old-old-legacy",
+            "name": "Twilight",
+            "ace-name": "Anakin Skywalker",
+            "unique-class": [
+                "Anakin Skywalker",
+                "Twilight"
+            ],
+            "irregular": true,
+            "hull": 7,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    2,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    1
+                ]
+            },
+            "abilities": {
+                "adept": 2,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": true,
+                "scout": true,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "Once per round, after you activate, if you have 6 or fewer hull points remaining, you may toggle your activation slider.",
+            "unique": true,
+            "ace": true,
+            "points": 27,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight-old-legacy.webp"
+        }
+    }
+}

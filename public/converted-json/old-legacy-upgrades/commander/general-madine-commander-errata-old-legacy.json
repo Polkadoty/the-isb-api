@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "general-madine-commander-errata-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Balance Appendix Old",
+            "expansion": "Summer 2024 Hotfix Balance Appendix",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "rebel"
+            ],
+            "name": "General Madine",
+            "unique-class": [
+                "General Madine"
+            ],
+            "ability": "When a friendly ship resolves a Icon Command Navigate command, if it spent a Icon Command Navigate dial it may increase 1 additional yaw value by 1. If it spent a Icon Command Navigate token, it may either change its speed or increase 1 yaw value by 1.",
+            "unique": true,
+            "points": 27,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/general-madine-commander.webp"
+        }
+    }
+}

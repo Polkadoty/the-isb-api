@@ -1,0 +1,196 @@
+{
+    "squadrons": {
+        "nantex-starfighter-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "nantex-starfighter-squadron-old-legacy",
+            "name": "Nantex Starfighter Squadron",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": false,
+            "hull": 4,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    3,
+                    0,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 1,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 12,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/nantex-starfighter-squadron-old-legacy.webp"
+        },
+        "gorgol-nantex-starfighter-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "nantex-starfighter-squadron-old-legacy",
+            "name": "Nantex Starfighter Squadron",
+            "ace-name": "Gorgol",
+            "unique-class": [
+                "Gorgol"
+            ],
+            "irregular": false,
+            "hull": 4,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    3,
+                    0,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "After you activate, if you did not attack during your activation, you may spend 1 defense token to choose friendly squadron at distance 1. That squadron may recover 1 hull.",
+            "unique": true,
+            "ace": true,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/gorgol-nantex-starfighter-squadron-old-legacy.webp"
+        },
+        "sun-fac-nantex-starfighter-squadron-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "nantex-starfighter-squadron-old-legacy",
+            "name": "Nantex Starfighter Squadron",
+            "ace-name": "Gorgol",
+            "unique-class": [
+                "Gorgol"
+            ],
+            "irregular": false,
+            "hull": 4,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    3,
+                    0,
+                    0
+                ],
+                "anti-ship": [
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "After you defend against an attack, if you spent a :scatter: token you may activate as if you were activated by a squadron command (do not toggle your activation slider).",
+            "unique": true,
+            "ace": true,
+            "points": 19,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/sun-fac-nantex-starfighter-squadron-old-legacy.webp"
+        }
+    }
+}

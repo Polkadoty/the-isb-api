@@ -1,0 +1,132 @@
+{
+    "squadrons": {
+        "laat-i-gunship-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "laat-i-gunship-old-legacy",
+            "name": "LAAT/i Gunship",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": true,
+            "hull": 6,
+            "speed": 2,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    1,
+                    2
+                ],
+                "anti-ship": [
+                    0,
+                    2,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": true,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 1,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/laat-i-gunship-old-legacy.webp"
+        },
+        "hawk-laat-i-gunship-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "laat-i-gunship-old-legacy",
+            "name": "LAAT/i Gunship",
+            "ace-name": "Hawk",
+            "unique-class": [
+                "Hawk"
+            ],
+            "irregular": true,
+            "hull": 6,
+            "speed": 2,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    1,
+                    2
+                ],
+                "anti-ship": [
+                    0,
+                    2,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": true,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 1,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "While a friendly non-unique squadron is attacking a squadron at distance 1 of you, you may spend 1 defense token. If you do, it may change 1 die to a face with a :hit: icon.",
+            "unique": true,
+            "ace": true,
+            "points": 25,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/hawk-laat-i-gunship-old-legacy.webp"
+        }
+    }
+}

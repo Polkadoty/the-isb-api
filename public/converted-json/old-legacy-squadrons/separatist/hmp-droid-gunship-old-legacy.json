@@ -1,0 +1,196 @@
+{
+    "squadrons": {
+        "hmp-droid-gunship-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "hmp-droid-gunship-old-legacy",
+            "name": "HMP Droid Gunship",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": true,
+            "hull": 5,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    1,
+                    1
+                ],
+                "anti-ship": [
+                    0,
+                    2,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 1,
+                "ai-antisquadron": 1,
+                "assault": true,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/hmp-droid-gunship-old-legacy.webp"
+        },
+        "dgs-047-hmp-droid-gunship-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "hmp-droid-gunship-old-legacy",
+            "name": "HMP Droid Gunship",
+            "ace-name": "DGS-047",
+            "unique-class": [
+                "DGS-047"
+            ],
+            "irregular": true,
+            "hull": 5,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    1,
+                    1
+                ],
+                "anti-ship": [
+                    0,
+                    2,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 1,
+                "ai-antisquadron": 1,
+                "assault": true,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "At the start of the ship phase, you may discard 1 of your defense tokens to place 1 proximity mine token at distance 1.",
+            "unique": true,
+            "ace": true,
+            "points": 24,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/dgs-047-hmp-droid-gunship-old-legacy.webp"
+        },
+        "geonosian-prototype-hmp-droid-gunship-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Separatist Squadrons II",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "hmp-droid-gunship-old-legacy",
+            "name": "HMP Droid Gunship",
+            "ace-name": "Geonosian Prototype",
+            "unique-class": [
+                "Geonosian Prototype"
+            ],
+            "irregular": true,
+            "hull": 5,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    1,
+                    1
+                ],
+                "anti-ship": [
+                    0,
+                    2,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 1,
+                "ai-antisquadron": 1,
+                "assault": true,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "While attacking a squadron at distance 1 of a friendly squadron with GUARDIAN, you may reroll up to 2 dice.",
+            "unique": true,
+            "ace": true,
+            "points": 22,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/geonosian-prototype-hmp-droid-gunship-old-legacy.webp"
+        }
+    }
+}
