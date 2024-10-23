@@ -34,7 +34,11 @@
         "enable_upgrades": [
           "defensive-retro"
         ],
-        "flagship": false
+        "flagship": false,
+        "disqualify_if": {
+          "size": ["medium", "large"],
+          "has_upgrade_type": ["defensive-retro"]
+        }
       },
       "start_command": {
         "type": "",

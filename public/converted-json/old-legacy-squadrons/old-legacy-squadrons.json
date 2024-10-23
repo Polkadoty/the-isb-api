@@ -1,12 +1,652 @@
 {
   "squadrons": {
+    "turr-phennir-tie-interceptor-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "55bfae1c-42f1-4273-a676-9fdb745a8a96",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-interceptor-squadron",
+      "name": "TIE Interceptor Squadron",
+      "ace-name": "Turr Phennir",
+      "unique-class": [
+        "Turr Phennir"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": false,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "After you defend, you may ready or recover 1 defense token you did not spend. If you recovered a defense token, flip it to the exhausted side.",
+      "unique": true,
+      "ace": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/turr-phennir-tie-interceptor-squadron-old-legacy.webp"
+    },
+    "maarek-stele-tie-advanced-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "87f05ce7-38f5-4bbf-9f58-c67c16e250d2",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-advanced-squadron",
+      "name": "TIE Advanced Squadron",
+      "ace-name": "Maarek Stele",
+      "unique-class": [
+        "Maarek Stele"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          3,
+          0,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After you are destroyed, you remain in the play area until the end of the Status Phase.",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/maarek-stele-tie-advanced-squadron-old-legacy.webp"
+    },
+    "iden-versio-tie-fighter-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "75c27c69-f12f-4d57-be03-423830e76cac",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-fighter-squadron",
+      "name": "TIE Fighter Squadron",
+      "ace-name": "Iden Versio",
+      "unique-class": [
+        "Iden Versio"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "While another friendly squadron with SWARM at distance 1 is defending, you may spend a :scatter: readied defense token to cancel all dice.",
+      "unique": true,
+      "ace": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/iden-versio-tie-fighter-squadron-old-legacy.webp"
+    },
+    "tomax-bren-tie-bomber-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "d2749010-3381-4533-9340-59014e9fa6d5",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-bomber-squadron",
+      "name": "TIE Bomber Squadron",
+      "ace-name": "Tomax Bren",
+      "unique-class": [
+        "Tomax Bren"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Friendly squadrons with BOMBER at distance 1 may attack ships while engaged with enemy squadrons.",
+      "unique": true,
+      "ace": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tomax-bren-tie-bomber-squadron-old-legacy.webp"
+    },
+    "arvel-crynyd-a-wing-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "04777dfe-5d6b-463b-a788-b709c4c66784",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "a-wing-squadron",
+      "name": "A-Wing Squadron",
+      "ace-name": "Arvel Crynyd",
+      "unique-class": [
+        "Arvel Crynyd"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After you are destroyed, you may choose 1 enemy ship at distance 1-3. The chosen ship is dealt a face-up damage card.",
+      "unique": true,
+      "ace": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/arvel-crynyd-a-wing-squadron-old-legacy.webp"
+    },
+    "braylen-stramm-b-wing-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "2361e0d6-8d9f-4b70-afb7-a71110cb3be4",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "b-wing-squadron",
+      "name": "B-Wing Squadron",
+      "ace-name": "Braylen Stramm",
+      "unique-class": [
+        "Braylen Stramm"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "During your activation, after a squadron you attacked suffers damage, you may move that squadron so that it is within distance 1 of its current location and in the play area.",
+      "unique": true,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/braylen-stramm-b-wing-squadron-old-legacy.webp"
+    },
+    "corran-horn-x-wing-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "5254680b-3b4f-4dce-8e5f-8e8237ee7d0c",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "x-wing-squadron",
+      "name": "X-Wing Squadron",
+      "ace-name": "Corran Horn",
+      "unique-class": [
+        "Corran Horn"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 1,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Friendly unengaged squadrons at distance 1 of you can attack enemy ships at distance 1 of you using all dice in their battery armament.",
+      "unique": true,
+      "ace": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/corran-horn-x-wing-squadron-old-legacy.webp"
+    },
+    "horton-salm-y-wing-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Hotshots and Aces Expansion",
+      "_id": "33ee155a-07c8-4f7a-b026-c0abe338e949",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "y-wing-squadron",
+      "name": "Y-Wing Squadron",
+      "ace-name": "Horton Salm",
+      "unique-class": [
+        "Horton Salm"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While a friendly squadron with HEAVY at distance 1 is attacking a ship, if it has exactly 1 die in its battery armament, it may add I blue die set to an icon to the attack pool. That die cannot be rerolled or changed.",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/horton-salm-y-wing-squadron-old-legacy.webp"
+    },
+    "clone-z-95-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": "033a817a-3d35-46ed-85d1-93f55ce2c231",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "clone-z-95-squadron-old-legacy",
+      "name": "Clone Z-95 Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 10,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/clone-z-95-squadron-old-legacy.webp"
+    },
+    "stub-clone-z-95-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": "3ee868b2-cd8d-40b2-b26e-856139cb8f60",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "clone-z-95-squadron-old-legacy",
+      "name": "Clone Z-95 Squadron",
+      "ace-name": "Stub",
+      "unique-class": [
+        "Stub"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After you move, each squadron you were engaged with before you moved suffers 1 damage.",
+      "unique": true,
+      "ace": true,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/stub-clone-z-95-squadron-old-legacy.webp"
+    },
     "eta-2-actis-squadron-old-legacy": {
       "author": "Armada Legacy",
       "alias": "Legacy",
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Squadrons II",
-      "_id": "fe9a7840-9b12-46cc-9655-e309061ce2bc",
+      "_id": "6f5135be-f7bb-4a39-be0b-b5dca5fc5c62",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "eta-2-actis-squadron",
@@ -70,7 +710,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Squadrons II",
-      "_id": "53d6a5ab-79c0-4522-b27a-4796546ab542",
+      "_id": "7a727541-e2a3-444b-8df6-14383fe5d207",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "eta-2-actis-squadron",
@@ -134,7 +774,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Squadrons II",
-      "_id": "aba1b28f-8b1c-4df6-b663-e929d9b547c7",
+      "_id": "a9ce1a21-a23d-4ef9-a612-8029c7f8e9da",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "eta-2-actis-squadron",
@@ -198,7 +838,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Squadrons II",
-      "_id": "7fab0f3d-912d-43f0-ba19-8202dec7abd5",
+      "_id": "b9372159-d3bc-47c1-af11-2dc7e62f00c1",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "eta-2-actis-squadron",
@@ -262,7 +902,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Squadrons II",
-      "_id": "61373967-0f92-449a-b4c5-279323cfe536",
+      "_id": "f6f0894a-da9a-493d-92ca-c13ecac099fa",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "eta-2-actis-squadron",
@@ -319,6 +959,970 @@
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/shaak-ti-eta-2-actis-squadron-old-legacy.webp"
+    },
+    "g9-rigger-old-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": "2dd7a08b-0a01-49d9-a0b6-3df17729ce25",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "g9-rigger-old-old-legacy",
+      "name": "G9 Rigger-class Freighter",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          3,
+          0,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 13,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/g9-rigger-old-old-legacy.webp"
+    },
+    "anakin-skywalker-twilight-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": "8c00b2fd-de95-46bd-a03e-c1403c8a3212",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "g9-rigger-old-old-legacy",
+      "name": "Twilight",
+      "ace-name": "Anakin Skywalker",
+      "unique-class": [
+        "Anakin Skywalker",
+        "Twilight"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          2,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Once per round, after you activate, if you have 6 or fewer hull points remaining, you may toggle your activation slider.",
+      "unique": true,
+      "ace": true,
+      "points": 27,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight-old-legacy.webp"
+    },
+    "laat-i-gunship-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": "2a307ab3-a722-4f4c-b766-9dfa4db55e16",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "laat-i-gunship-old-legacy",
+      "name": "LAAT/i Gunship",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          2
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/laat-i-gunship-old-legacy.webp"
+    },
+    "hawk-laat-i-gunship-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Squadrons II",
+      "_id": "68301e64-e736-4730-9260-b39ad294bc39",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "laat-i-gunship-old-legacy",
+      "name": "LAAT/i Gunship",
+      "ace-name": "Hawk",
+      "unique-class": [
+        "Hawk"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          2
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While a friendly non-unique squadron is attacking a squadron at distance 1 of you, you may spend 1 defense token. If you do, it may change 1 die to a face with a :hit: icon.",
+      "unique": true,
+      "ace": true,
+      "points": 25,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hawk-laat-i-gunship-old-legacy.webp"
+    },
+    "hmp-droid-gunship-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "71faa19d-843f-495c-8f66-262ae8cd00af",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "hmp-droid-gunship-old-legacy",
+      "name": "HMP Droid Gunship",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 1,
+        "ai-antisquadron": 1,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hmp-droid-gunship-old-legacy.webp"
+    },
+    "dgs-047-hmp-droid-gunship-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "fd8da7fe-1f21-440d-ab0a-c95910830526",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "hmp-droid-gunship-old-legacy",
+      "name": "HMP Droid Gunship",
+      "ace-name": "DGS-047",
+      "unique-class": [
+        "DGS-047"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 1,
+        "ai-antisquadron": 1,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "At the start of the ship phase, you may discard 1 of your defense tokens to place 1 proximity mine token at distance 1.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dgs-047-hmp-droid-gunship-old-legacy.webp"
+    },
+    "geonosian-prototype-hmp-droid-gunship-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "e43c996f-60b2-42d5-aa11-af13c8d968ff",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "hmp-droid-gunship-old-legacy",
+      "name": "HMP Droid Gunship",
+      "ace-name": "Geonosian Prototype",
+      "unique-class": [
+        "Geonosian Prototype"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 1,
+        "ai-antisquadron": 1,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a squadron at distance 1 of a friendly squadron with GUARDIAN, you may reroll up to 2 dice.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/geonosian-prototype-hmp-droid-gunship-old-legacy.webp"
+    },
+    "nantex-starfighter-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "a5bae0a3-54d2-4f65-99bd-31e0d1c96c29",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "nantex-starfighter-squadron-old-legacy",
+      "name": "Nantex Starfighter Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          3,
+          0,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nantex-starfighter-squadron-old-legacy.webp"
+    },
+    "gorgol-nantex-starfighter-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "0e4efaad-63ce-4b8f-95de-2caadcb2e6a3",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "nantex-starfighter-squadron-old-legacy",
+      "name": "Nantex Starfighter Squadron",
+      "ace-name": "Gorgol",
+      "unique-class": [
+        "Gorgol"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          3,
+          0,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After you activate, if you did not attack during your activation, you may spend 1 defense token to choose friendly squadron at distance 1. That squadron may recover 1 hull.",
+      "unique": true,
+      "ace": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/gorgol-nantex-starfighter-squadron-old-legacy.webp"
+    },
+    "sun-fac-nantex-starfighter-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "9d7c3d32-bc67-46ac-ae22-af0277690143",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "nantex-starfighter-squadron-old-legacy",
+      "name": "Nantex Starfighter Squadron",
+      "ace-name": "Gorgol",
+      "unique-class": [
+        "Gorgol"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          3,
+          0,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "After you defend against an attack, if you spent a :scatter: token you may activate as if you were activated by a squadron command (do not toggle your activation slider).",
+      "unique": true,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/sun-fac-nantex-starfighter-squadron-old-legacy.webp"
+    },
+    "rogue-class-starfighter-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "7c4d30dd-2819-4d3d-8b1b-9a2891212a14",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "rogue-class-starfighter-squadron-old-legacy",
+      "name": "Rogue-class Starfighter Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 1,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rogue-class-starfighter-squadron-old-legacy.webp"
+    },
+    "magnaguard-protectors-rogue-class-starfighter-squadron-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "a179c8bb-ed57-4ee3-a430-088c4986fcbb",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "rogue-class-starfighter-squadron-old-legacy",
+      "name": "Rogue-class Starfighter Squadron",
+      "ace-name": "Magnaguard Protectors",
+      "unique-class": [
+        "Magnaguard Protectors"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 1,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After you defend against a squadron, if the attacker is at distance 1 of a friendly squadron with SCREEN, the attacker suffers 1 damage. When a friendly squadron with SCREEN at distance 1 suffers damage, you may suffer 1 of that damage instead.",
+      "unique": true,
+      "ace": true,
+      "points": 21,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/magnaguard-protectors-rogue-class-starfighter-squadron-old-legacy.webp"
+    },
+    "cad-bane-xanadu-blood-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "131657f6-4954-47c6-b5f2-f442c28c2805",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "rogue-class-starfighter-squadron-old-legacy",
+      "name": "Xanadu Blood",
+      "ace-name": "Cad Bane",
+      "unique-class": [
+        "Cad Bane",
+        "Xanadu Blood"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a ship or squadron with 1 or more defense tokens, you may reroll any number of dice in your attack pool.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cad-bane-xanadu-blood-old-legacy.webp"
+    },
+    "sith-infiltrator-scimitar-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "c0c133c3-17b8-42f9-abef-f7c1c54b513e",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "sith-infiltrator-scimitar-old-legacy",
+      "name": "Scimitar",
+      "ace-name": "Sith Infiltrator",
+      "unique-class": [
+        "Scimitar",
+        "Sith Infiltrator"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 1,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/sith-infiltrator-scimitar-old-legacy.webp"
+    },
+    "count-dooku-scimitar-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Separatist Squadrons II",
+      "_id": "5cbc0990-ac97-4f81-aec4-2f067271c4ef",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "sith-infiltrator-scimitar-old-legacy",
+      "name": "Scimitar",
+      "ace-name": "Count Dooku",
+      "unique-class": [
+        "Scimitar",
+        "Count Dooku"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While you are engaged with only 1 squadron, you gain DODGE 2 and you may add 1 die of any coror to the attack pool while attackin a squadron.",
+      "unique": true,
+      "ace": true,
+      "points": 25,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/count-dooku-scimitar-old-legacy.webp"
     }
   }
 }
