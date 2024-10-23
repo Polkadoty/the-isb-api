@@ -1,216 +1,7 @@
 {
   "ships": {
-    "assault-frigate-mark-i-old-legacy": {
-      "_id": "45a53d99-ebc3-4eb6-a701-068640606af3",
-      "type": "chassis",
-      "chassis_name": "assault-frigate-mark-i-old-legacy",
-      "size": "medium",
-      "hull": 6,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [
-          1,
-          1,
-          1
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 3,
-        "rear": 2,
-        "left": 3,
-        "right": 3,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "assault-frigate-mark-i-a-old-legacy": {
-          "author": "Armada Legacy",
-          "alias": "Legacy",
-          "team": "Armada Legacy",
-          "release": "Legacy Wave 1 Old",
-          "expansion": "Assault Frigate Mark I Expansion",
-          "_id": "ee594840-2c9b-490d-9e45-070af835c530",
-          "type": "ship",
-          "chassis": "assault-frigate-mark-i-old-legacy",
-          "name": "Assault Frigate Mark IA",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 72,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 2,
-            "squadron": 2,
-            "engineer": 3
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "turbolaser",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              1
-            ],
-            "front": [
-              3,
-              1,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              2,
-              1,
-              0
-            ],
-            "right": [
-              2,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-i-a-old-legacy.webp"
-        },
-        "assault-frigate-mark-i-b-old-legacy": {
-          "author": "Armada Legacy",
-          "alias": "Legacy",
-          "team": "Armada Legacy",
-          "release": "Legacy Wave 1 Old",
-          "expansion": "Assault Frigate Mark I Expansion",
-          "_id": "15276be5-4417-445a-97ff-ca37e8edd940",
-          "type": "ship",
-          "chassis": "assault-frigate-mark-i-old-legacy",
-          "name": "Assault Frigate Mark IB",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 72,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 2,
-            "squadron": 2,
-            "engineer": 3
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "offensive-retro",
-            "turbolaser",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              1,
-              0,
-              0
-            ],
-            "front": [
-              1,
-              1,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              2,
-              0,
-              0
-            ],
-            "right": [
-              2,
-              0,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-i-b-old-legacy.webp"
-        }
-      }
-    },
     "dreadnaught-class-old-legacy": {
-      "_id": "29ee9e88-ee8d-423c-8bd9-66d64e0c17c5",
+      "_id": "53749b76-5c68-4bd3-a5b6-95263b5392f9",
       "type": "chassis",
       "chassis_name": "dreadnaught-class-old-legacy",
       "size": "medium",
@@ -251,7 +42,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "ab7aff13-fd76-4cd7-b313-5d691c9be07d",
+          "_id": "9f1a7262-3e7e-4b00-8f6e-0a605e12ff24",
           "type": "ship",
           "chassis": "dreadnaught-class-old-legacy",
           "name": "Dreadnaught-class Katana Refit",
@@ -335,7 +126,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "3781dafd-b0f6-455b-997f-b9a285469e65",
+          "_id": "8e979064-94e8-4174-93b3-a00f4d5c2c5c",
           "type": "ship",
           "chassis": "dreadnaught-class-old-legacy",
           "name": "Dreadnaught-class Imperial Refit",
@@ -413,8 +204,1054 @@
         }
       }
     },
+    "interdictor-star-destroyer-old-legacy": {
+      "_id": "92f71387-fa39-47a3-a7a4-cb5d1aec2d48",
+      "type": "chassis",
+      "chassis_name": "interdictor-sd-old-legacy",
+      "size": "large",
+      "hull": 10,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "interdictor-class-prototype-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 2 Old",
+          "expansion": "Interdictor Star Destroyer Expansion",
+          "_id": "85355ee3-4ea8-4c82-b29f-5a2deebcc5c1",
+          "type": "ship",
+          "chassis": "interdictor-sd-old-legacy",
+          "name": "Interdictor-class Prototype",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 103,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "experimental-retro",
+            "experimental-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              2,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              2,
+              1,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/interdictor-class-prototype-old-legacy.webp"
+        },
+        "interdictor-class-star-destroyer-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 2 Old",
+          "expansion": "Interdictor Star Destroyer Expansion",
+          "_id": "0d1a0341-081b-4926-9d95-19f0e79524b0",
+          "type": "ship",
+          "chassis": "interdictor-sd-old-legacy",
+          "name": "Interdictor-class Star Destroyer",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 110,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "experimental-retro",
+            "experimental-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              3,
+              3,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              2,
+              2,
+              0
+            ],
+            "right": [
+              2,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/interdictor-class-star-destroyer-old-legacy.webp"
+        }
+      }
+    },
+    "assault-frigate-mark-i-old-legacy": {
+      "_id": "f0bb6c59-aaab-4489-8354-d1f9b6b39401",
+      "type": "chassis",
+      "chassis_name": "assault-frigate-mark-i-old-legacy",
+      "size": "medium",
+      "hull": 6,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "assault-frigate-mark-i-a-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 1 Old",
+          "expansion": "Assault Frigate Mark I Expansion",
+          "_id": "374f3c91-79c9-4bf4-9135-0dec3d8fc0fd",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-i-old-legacy",
+          "name": "Assault Frigate Mark IA",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 72,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              2,
+              1,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-i-a-old-legacy.webp"
+        },
+        "assault-frigate-mark-i-b-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 1 Old",
+          "expansion": "Assault Frigate Mark I Expansion",
+          "_id": "c4cdde11-8f63-4744-adcb-eb6c7d38357a",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-i-old-legacy",
+          "name": "Assault Frigate Mark IB",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 72,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              0,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              0
+            ],
+            "right": [
+              2,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-i-b-old-legacy.webp"
+        }
+      }
+    },
+    "mc80b-cruiser": {
+      "_id": "9c513693-086d-4182-96fb-7abf77deb066",
+      "type": "chassis",
+      "chassis_name": "mc80b-cruiser",
+      "size": "large",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 3,
+        "left": 4,
+        "right": 4,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc80b-command-cruiser-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 2 Old",
+          "expansion": "Mon Remonda Expansion",
+          "_id": "340a1a3e-dffb-42ac-8337-badb354957c4",
+          "type": "ship",
+          "chassis": "mc80b-cruiser",
+          "name": "MC80B Command Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 110,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              2,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              2,
+              3,
+              0
+            ],
+            "right": [
+              2,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80b-command-cruiser-old-legacy.webp"
+        },
+        "mc80b-heavy-cruiser-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 2 Old",
+          "expansion": "Mon Remonda Expansion",
+          "_id": "a5fe9ec4-83b3-4770-a5ff-553d2c6588f2",
+          "type": "ship",
+          "chassis": "mc80b-cruiser",
+          "name": "MC80B Heavy Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 114,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              3,
+              2,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              2,
+              0
+            ],
+            "right": [
+              3,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80b-heavy-cruiser-old-legacy.webp"
+        }
+      }
+    },
+    "arquitens-gar-cruiser-old-legacy": {
+      "_id": "e41d29a1-1461-425c-8628-581b288718d7",
+      "type": "chassis",
+      "chassis_name": "arquitens-gar-cruiser-old-legacy",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          0,
+          2
+        ],
+        "3": [
+          0,
+          0,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "arquitens-class-command-cruiser-republic-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 1 Old",
+          "expansion": "Republic Light Cruiser Expansion",
+          "_id": "2d3ef875-5e35-41b2-a938-d857a709ae8b",
+          "type": "ship",
+          "chassis": "arquitens-gar-cruiser-old-legacy",
+          "name": "Arquitens-class Command Cruiser",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 60,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              0,
+              0
+            ],
+            "right": [
+              3,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-command-cruiser-republic-old-legacy.webp"
+        },
+        "arquitens-class-light-cruiser-republic-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 1 Old",
+          "expansion": "Republic Light Cruiser Expansion",
+          "_id": "fa9602e4-ee83-4c2c-a39e-adb3703739bd",
+          "type": "ship",
+          "chassis": "arquitens-gar-cruiser-old-legacy",
+          "name": "Arquitens-class Light Cruiser",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 58,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "ordnance",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              0,
+              2
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              3,
+              0,
+              0
+            ],
+            "right": [
+              3,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser-republic-old-legacy.webp"
+        }
+      }
+    },
+    "ipv-2c-corvette-old-legacy": {
+      "_id": "0a5d23f9-03ec-47d7-ad12-18f0d5a579d0",
+      "type": "chassis",
+      "chassis_name": "ipv-2c-corvette-old-legacy",
+      "size": "small",
+      "hull": 3,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          2,
+          1
+        ],
+        "3": [
+          2,
+          1,
+          2
+        ],
+        "4": [
+          1,
+          2,
+          1,
+          2
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "ipv-2c-stealth-corvette-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 2 Old",
+          "expansion": "Stealth Corvette Expansion",
+          "_id": "bc99a860-17f9-4603-b04b-38e4c3e282b0",
+          "type": "ship",
+          "chassis": "ipv-2c-corvette-old-legacy",
+          "name": "IPV-2C Stealth Corvette",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "stealth"
+          ],
+          "points": 34,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "defensive-retro",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              0,
+              4
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/ipv-2c-stealth-corvette-old-legacy.webp"
+        },
+        "ipv-2c-support-corvette-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 2 Old",
+          "expansion": "Stealth Corvette Expansion",
+          "_id": "18d77f24-e133-4b45-a9c0-3532f144f366",
+          "type": "ship",
+          "chassis": "ipv-2c-corvette-old-legacy",
+          "name": "IPV-2C Support Corvette",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "stealth"
+          ],
+          "points": 34,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "defensive-retro",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              2,
+              2
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/ipv-2c-support-corvette-old-legacy.webp"
+        }
+      }
+    },
     "lucrehulk-class-old-legacy": {
-      "_id": "8cfc0fca-0ba2-4604-a99f-26206db46f34",
+      "_id": "0f8c6eaa-1744-477f-bd99-3d1b9d2d0398",
       "type": "chassis",
       "chassis_name": "lucrehulk-class-old-legacy",
       "size": "large",
@@ -455,7 +1292,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Lucrehulk Expansion",
-          "_id": "4962b5b7-5785-48fb-b7fb-b5d19d32f384",
+          "_id": "793bf133-2774-451c-b9d1-a7402c975ea5",
           "type": "ship",
           "chassis": "lucrehulk-class-old-legacy",
           "name": "Lucrehulk-class Battleship",
@@ -540,7 +1377,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Lucrehulk Expansion",
-          "_id": "be46c307-e934-4e67-8964-d9ca647089ae",
+          "_id": "7d6d4dc6-8584-44b8-8dcc-92ab21523580",
           "type": "ship",
           "chassis": "lucrehulk-class-old-legacy",
           "name": "Lucrehulk-class Droid Control Ship",
@@ -619,6 +1456,211 @@
           },
           "artwork": "",
           "cardimage": "https://api.swarmada.wiki/images/lucrehulk-class-droid-control-ship-old-legacy.webp"
+        }
+      }
+    },
+    "trident-ships-old-legacy": {
+      "_id": "5b8a07a1-bc11-470c-b996-01647bfad683",
+      "type": "chassis",
+      "chassis_name": "trident-ships-old-legacy",
+      "size": "small",
+      "hull": 3,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          2,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "trident-class-assault-carriers-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 1 Old",
+          "expansion": "Triden Assault Ships Expansion",
+          "_id": "f59a0aec-d5c7-430f-be23-a878804169aa",
+          "type": "ship",
+          "chassis": "trident-ships-old-legacy",
+          "name": "Trident-class Assault Carriers",
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 32,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/trident-class-assault-carriers-old-legacy.webp"
+        },
+        "trident-class-assault-ships-old-legacy": {
+          "author": "Armada Legacy",
+          "alias": "Legacy",
+          "team": "Armada Legacy",
+          "release": "Legacy Wave 1 Old",
+          "expansion": "Triden Assault Ships Expansion",
+          "_id": "8b2d6f3b-8772-4784-975a-df70d5137f43",
+          "type": "ship",
+          "chassis": "trident-ships-old-legacy",
+          "name": "Trident-class Assault Ships",
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 30,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "offensive-retro",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              1,
+              0,
+              1
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/trident-class-assault-ships-old-legacy.webp"
         }
       }
     }
