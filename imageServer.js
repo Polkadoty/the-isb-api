@@ -57,12 +57,12 @@ app.use('/images', (req, res, next) => {
 }));
 
 // Endpoint to refresh the cache
-app.get('/refresh-cache', (req, res) => {
+app.get('/refresh-image-cache', (req, res) => {
   cacheImagePaths(imagesPath);
   res.send('Image cache refreshed');
 });
 
-app.get('/', (req, res) => {
+app.get('/image-server-status', (req, res) => {
   res.send('Image server is running');
 });
 
