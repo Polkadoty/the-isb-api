@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "gilad-pellaeon-commander-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Dreadnaught Heavy Cruiser Expansion",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "empire"
+            ],
+            "name": "Gilad  Pellaeon",
+            "unique-class": [
+                "Gilad  Pellaeon"
+            ],
+            "ability": "While a friendly ship is attacking a ship, it may choose and cancel 1 attack die. If it does, a friendly ship at distance 1-5 of the attacker may gain a command token of any type.",
+            "unique": true,
+            "points": 20,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/gilad-pellaeon-commander-old-legacy.webp"
+        }
+    }
+}

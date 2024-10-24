@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "joruus-cbaoth-officer-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Dreadnaught Heavy Cruiser Expansion",
+            "_id": null,
+            "type": "officer",
+            "faction": [
+                "empire"
+            ],
+            "name": "Joruus C'baoth",
+            "unique-class": [
+                "Joruus C'baoth"
+            ],
+            "ability": "When you gain a command token, you may choose up to 2 other friendly ships at distance 1-3. Each chosen ship may gain 1 matching command token.",
+            "unique": true,
+            "points": 8,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/joruus-cbaoth-officer-old-legacy.webp"
+        }
+    }
+}

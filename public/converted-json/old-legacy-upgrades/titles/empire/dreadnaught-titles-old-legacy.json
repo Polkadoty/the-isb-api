@@ -54,6 +54,116 @@
             },
             "artwork": "",
             "cardimage": "https://api.swarmada.wiki/images/katana-fleet-dreadnaught-old-legacy.webp"
+        },
+        "abrogator-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Dreadnaught Heavy Cruiser Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Abrogator",
+            "unique-class": [
+                "Abrogator"
+            ],
+            "ability": "Your :redirect: defense tokens cannot be targeted by :accuracy: results.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "dreadnaught-class-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/abrogator-title-old-legacy.webp"
+        },
+        "vendetta-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Dreadnaught Heavy Cruiser Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Vendetta",
+            "unique-class": [
+                "Vendetta"
+            ],
+            "ability": "At the start of the first round, you may gain 1 :salvo: defense token.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "dreadnaught-class-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/vendetta-title-old-legacy.webp"
         }
     }
 }
