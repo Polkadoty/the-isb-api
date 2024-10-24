@@ -16,12 +16,13 @@ const imageCache = new Map();
 
 // Function to recursively scan and cache image file paths
 function cacheImagePaths(dir) {
+  imageCache.clear();  // Clear old cache
   const files = fs.readdirSync(dir);
-  
+
   for (const file of files) {
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
-    
+
     if (stat.isDirectory()) {
       cacheImagePaths(filePath);
     } else if (file.endsWith('.webp') || file.endsWith('.png') || file.endsWith('.jpg') || file.endsWith('.jpeg')) {
@@ -29,24 +30,23 @@ function cacheImagePaths(dir) {
       imageCache.set(file, relativePath);
     }
   }
+  console.log(`Cached ${imageCache.size} image paths`);
 }
 
-// Cache image paths on server start
-console.log('Caching image paths...');
+// Cache images on server start
 cacheImagePaths(imagesPath);
-console.log(`Cached ${imageCache.size} image paths`);
 
 app.use('/images', (req, res, next) => {
   const imageName = path.basename(req.url);
   const cachedPath = imageCache.get(imageName);
-  
+
   if (cachedPath) {
     console.log(`Image found in cache: ${cachedPath}`);
     req.url = '/' + cachedPath;
   } else {
     console.error(`Image not found in cache: ${imageName}`);
   }
-  
+
   next();
 }, express.static(imagesPath, {
   maxAge: '7d',
@@ -55,6 +55,12 @@ app.use('/images', (req, res, next) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
   }
 }));
+
+// Endpoint to refresh the cache
+app.get('/refresh-cache', (req, res) => {
+  cacheImagePaths(imagesPath);
+  res.send('Image cache refreshed');
+});
 
 app.get('/', (req, res) => {
   res.send('Image server is running');
