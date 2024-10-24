@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "katana-fleet-dreadnaught-old-legacy": {
+        "clone-engineers-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 1 Old",
-            "expansion": "Dreadnaught Heavy Cruiser Expansion",
+            "expansion": "Republic Light Cruiser Expansion",
             "_id": null,
-            "type": "title",
+            "type": "support-team",
             "faction": [
-                "empire"
+                "republic"
             ],
-            "name": "Katana Fleet Dreadnaught",
+            "name": "Clone Engineers",
             "unique-class": [
                 ""
             ],
-            "ability": "While this ship activates any number of squadrons, you may discard this card, if you do all squadrons activated by this ship with Bomber gain the following Critical Effect until the end of their activation:\n:crit:: add 1 red die set to :accuracy:.\nIf a squadron activated by this ship does not have Bomber it instead gains Bomber until the end of it's activation.",
+            "ability": "Clone only.\nWhen you reveal a command, you may exhaust this card and spend 1 defense token to discard 1 damage card.",
             "unique": false,
-            "points": 2,
+            "points": 3,
             "modification": false,
-            "bound_shiptype": "dreadnaught-class-old-legacy",
+            "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "katana-fleet"
+                    "clone"
                 ],
                 "size": [
                     ""
@@ -46,14 +46,14 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "nonrecur",
                 "ready_token": [
-                    ""
+                    "repair"
                 ],
-                "ready_amount": 0
+                "ready_amount": 1
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/katana-fleet-dreadnaught-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/clone-engineers-old-legacy.webp"
         }
     }
 }
