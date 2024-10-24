@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "repair-team-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Assault Frigate Mark I Expansion",
+            "_id": null,
+            "type": "support-team",
+            "faction": [
+                ""
+            ],
+            "name": "Repair Team",
+            "unique-class": [
+                ""
+            ],
+            "ability": "Before you are dealt a faceup damage card with the SHIP trait, you may discard this card to discard that damage card.",
+            "unique": false,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/repair-team-old-legacy.webp"
+        }
+    }
+}

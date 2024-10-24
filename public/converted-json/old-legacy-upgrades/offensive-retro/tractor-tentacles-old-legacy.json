@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "tractor-tentacles-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Trident Assault Ships Expansion",
+            "_id": null,
+            "type": "offensive-retro",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Tractor Tentacles",
+            "unique-class": [
+                ""
+            ],
+            "ability": "Before an enemy small ship at distance 1-2 resolves the Determine Course step, you may exhaust this card to reduce its speed by 1 to a minimum of 0.",
+            "unique": false,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "trident-ships-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/tractor-tentacles-old-legacy.webp"
+        }
+    }
+}

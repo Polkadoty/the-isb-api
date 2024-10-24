@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "borsk-feylya-officer-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Assault Frigate Mark I Expansion",
+            "_id": null,
+            "type": "officer",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Borsk Fey'lya",
+            "unique-class": [
+                "Borsk Fey'lya"
+            ],
+            "ability": "After deploying fleets, place 2 non-consecutive round tokens on this card. At the start of each round matching 1 of those tokens, you may gain 2 command tokens of any type.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/borsk-feylya-officer-old-legacy.webp"
+        }
+    }
+}

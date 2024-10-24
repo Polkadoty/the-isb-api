@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "asajj-ventress-boarding-team-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Trident Assault Ships Expansion",
+            "_id": null,
+            "type": "weapons-team-offensive-retro",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Asajj Ventress",
+            "unique-class": [
+                "Asajj Ventress"
+            ],
+            "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If you do, you may choose and discard 1 of that ships defense tokens.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/asajj-ventress-boarding-team-old-legacy.webp"
+        }
+    }
+}

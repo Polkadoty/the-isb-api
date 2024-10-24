@@ -1,0 +1,59 @@
+{
+    "upgrades": {
+        "riff-tamson-commander-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Trident Assault Ships Expansion",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Riff Tamson",
+            "unique-class": [
+                "Riff Tamson"
+            ],
+            "ability": "Once per activation, while a friendly ship is defending against a ship, if the attacker has 1 or more damage cards, the defender may reduce the total damage by 1 toa minimum of 1 before suffering damage.",
+            "unique": true,
+            "points": 32,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/riff-tamson-commander-old-legacy.webp"
+        }
+    }
+}
