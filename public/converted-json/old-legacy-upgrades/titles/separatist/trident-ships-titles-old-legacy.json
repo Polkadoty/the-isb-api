@@ -1,0 +1,114 @@
+{
+    "upgrades": {
+        "grappler-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Trident Assault Ships Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Grappler",
+            "unique-class": [
+                "Grappler"
+            ],
+            "ability": "After you overlap an enemy non-huge ship, you may discard this card to change its speed by 1 to a minimum of 1.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "trident-ships-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/grappler-title-old-legacy.webp"
+        },
+        "neimoidian-grasp-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Trident Assault Ships Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Neimoidian Grasp",
+            "unique-class": [
+                "Neimoidian Grasp"
+            ],
+            "ability": "While you are defending against a ship at close range, before the Gather Dice step, you may exhaust this card to treat the attack as obstructed.",
+            "unique": true,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "trident-ships-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/neimoidian-grasp-title-old-legacy.webp"
+        }
+    }
+}

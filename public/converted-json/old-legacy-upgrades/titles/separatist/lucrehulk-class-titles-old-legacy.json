@@ -1,80 +1,25 @@
 {
     "upgrades": {
-        "katana-fleet-dreadnaught-old-legacy": {
+        "procurer-title-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 1 Old",
-            "expansion": "Dreadnaught Heavy Cruiser Expansion",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Lucrehulk Expansion",
             "_id": null,
             "type": "title",
             "faction": [
-                "empire"
+                "separatist"
             ],
-            "name": "Katana Fleet Dreadnaught",
+            "name": "Procurer",
             "unique-class": [
-                ""
+                "Procurer"
             ],
-            "ability": "While this ship activates any number of squadrons, you may discard this card, if you do all squadrons activated by this ship with Bomber gain the following Critical Effect until the end of their activation:\n:crit:: add 1 red die set to :accuracy:.\nIf a squadron activated by this ship does not have Bomber it instead gains Bomber until the end of it's activation.",
-            "unique": false,
-            "points": 2,
-            "modification": false,
-            "bound_shiptype": "dreadnaught-class-old-legacy",
-            "restrictions": {
-                "traits": [
-                    "katana-fleet"
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/katana-fleet-dreadnaught-old-legacy.webp"
-        },
-        "abrogator-title-old-legacy": {
-            "author": "Armada Legacy",
-            "alias": "Legacy",
-            "team": "Armada Legacy",
-            "release": "Legacy Wave 1 Old",
-            "expansion": "Dreadnaught Heavy Cruiser Expansion",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "empire"
-            ],
-            "name": "Abrogator",
-            "unique-class": [
-                "Abrogator"
-            ],
-            "ability": "Your :redirect: defense tokens cannot be targeted by :accuracy: results.",
+            "ability": "While deploying fleets, if you are in the play area, you may set aside up to 2 small or medium ships instead of deploying them. After deploying fleets, you may deploy those set aside ships in your deployment zone.",
             "unique": true,
             "points": 5,
             "modification": false,
-            "bound_shiptype": "dreadnaught-class-old-legacy",
+            "bound_shiptype": "lucrehulk-class-old-legacy",
             "restrictions": {
                 "traits": [
                     ""
@@ -108,28 +53,28 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/abrogator-title-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/procurer-title-old-legacy.webp"
         },
-        "vendetta-title-old-legacy": {
+        "profusion-title-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 1 Old",
-            "expansion": "Dreadnaught Heavy Cruiser Expansion",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Lucrehulk Expansion",
             "_id": null,
             "type": "title",
             "faction": [
-                "empire"
+                "separatist"
             ],
-            "name": "Vendetta",
+            "name": "Profusion",
             "unique-class": [
-                "Vendetta"
+                "Profusion"
             ],
-            "ability": "At the start of the first round, you may gain 1 :salvo: defense token.",
+            "ability": "While attacking a ship, you may spend up to 2 shields from any of your hull zones to reroll 1 die for each shield spent.",
             "unique": true,
-            "points": 6,
+            "points": 4,
             "modification": false,
-            "bound_shiptype": "dreadnaught-class-old-legacy",
+            "bound_shiptype": "lucrehulk-class-old-legacy",
             "restrictions": {
                 "traits": [
                     ""
@@ -163,7 +108,62 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/vendetta-title-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/profusion-title-old-legacy.webp"
+        },
+        "vuuntun-palaa-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Lucrehulk Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Vuuntun Palaa",
+            "unique-class": [
+                "Vuuntun Palaa"
+            ],
+            "ability": ":squadron:: Each friendly squadron with AI that you activate gains SWARM until the end of its activation. Each friendly squadron with AI and the printed SWARM keyword that you activate gains GRIT until the end of its activation.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "lucrehulk-class-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/vuuntun-palaa-title-old-legacy.webp"
         }
     }
 }

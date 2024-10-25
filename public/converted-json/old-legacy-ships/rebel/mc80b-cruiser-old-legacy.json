@@ -1,9 +1,9 @@
 {
     "ships": {
-        "mc80b-cruiser": {
+        "mc80b-cruiser-old-legacy": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "mc80b-cruiser",
+            "chassis_name": "mc80b-cruiser-old-legacy",
             "size": "large",
             "hull": 8,
             "speed": {
@@ -44,7 +44,7 @@
                     "expansion": "Mon Remonda Expansion",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "mc80b-cruiser",
+                    "chassis": "mc80b-cruiser-old-legacy",
                     "name": "MC80B Command Cruiser",
                     "faction": "rebel",
                     "unique": false,
@@ -129,7 +129,7 @@
                     "expansion": "Mon Remonda Expansion",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "mc80b-cruiser",
+                    "chassis": "mc80b-cruiser-old-legacy",
                     "name": "MC80B Heavy Cruiser",
                     "faction": "rebel",
                     "unique": false,

@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "asajj-ventress-boarding-team-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Trident Assault Ships Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "weapons-team-offensive-retro",
             "faction": [
                 "separatist"
             ],
-            "name": "Interception Protocols",
+            "name": "Asajj Ventress",
             "unique-class": [
-                "Interception Protocols"
+                "Asajj Ventress"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If you do, you may choose and discard 1 of that ships defense tokens.",
             "unique": true,
-            "points": 5,
+            "points": 7,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/asajj-ventress-boarding-team-old-legacy.webp"
         }
     }
 }

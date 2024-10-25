@@ -7,8 +7,13 @@
             "size": "large",
             "hull": 12,
             "speed": {
-                "1": [0],
-                "2": [1, 0],
+                "1": [
+                    0
+                ],
+                "2": [
+                    1,
+                    0
+                ],
                 "3": [],
                 "4": []
             },
@@ -43,7 +48,9 @@
                     "name": "Lucrehulk-class Battleship",
                     "faction": "separatist",
                     "unique": false,
-                    "traits": [""],
+                    "traits": [
+                        ""
+                    ],
                     "points": 144,
                     "tokens": {
                         "def_scatter": 0,
@@ -58,16 +65,58 @@
                         "squadron": 4,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "officer", "officer", "support-team", "offensive-retro", "offensive-retro", "turbolaser", "turbolaser", "title"],
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "officer",
+                        "support-team",
+                        "offensive-retro",
+                        "offensive-retro",
+                        "turbolaser",
+                        "turbolaser",
+                        "title"
+                    ],
                     "armament": {
-                        "asa": [1, 1, 0],
-                        "front": [2, 2, 0],
-                        "rear": [2, 1, 0],
-                        "left": [3, 2, 2],
-                        "right": [3, 2, 2],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
+                        "asa": [
+                            1,
+                            1,
+                            0
+                        ],
+                        "front": [
+                            2,
+                            2,
+                            0
+                        ],
+                        "rear": [
+                            2,
+                            1,
+                            0
+                        ],
+                        "left": [
+                            3,
+                            2,
+                            2
+                        ],
+                        "right": [
+                            3,
+                            2,
+                            2
+                        ],
+                        "left_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "special": [
+                            0,
+                            0,
+                            0
+                        ]
                     },
                     "artwork": "",
                     "cardimage": "https://api.swarmada.wiki/images/lucrehulk-class-battleship-old-legacy.webp"
@@ -84,7 +133,9 @@
                     "name": "Lucrehulk-class Droid Control Ship",
                     "faction": "separatist",
                     "unique": false,
-                    "traits": [""],
+                    "traits": [
+                        "central-control"
+                    ],
                     "points": 136,
                     "tokens": {
                         "def_scatter": 0,
@@ -99,16 +150,59 @@
                         "squadron": 6,
                         "engineer": 4
                     },
-                    "upgrades": ["commander", "officer", "officer", "support-team", "offensive-retro", "offensive-retro", "offensive-retro", "turbolaser", "super-weapon", "title"],
+                    "upgrades": [
+                        "commander",
+                        "officer",
+                        "officer",
+                        "support-team",
+                        "offensive-retro",
+                        "offensive-retro",
+                        "offensive-retro",
+                        "turbolaser",
+                        "super-weapon",
+                        "title"
+                    ],
                     "armament": {
-                        "asa": [0, 2, 0],
-                        "front": [2, 1, 0],
-                        "rear": [1, 2, 0],
-                        "left": [2, 3, 1],
-                        "right": [2, 3, 1],
-                        "left_aux": [0, 0, 0],
-                        "right_aux": [0, 0, 0],
-                        "special": [0, 0, 0]
+                        "asa": [
+                            0,
+                            2,
+                            0
+                        ],
+                        "front": [
+                            2,
+                            1,
+                            0
+                        ],
+                        "rear": [
+                            1,
+                            2,
+                            0
+                        ],
+                        "left": [
+                            2,
+                            3,
+                            1
+                        ],
+                        "right": [
+                            2,
+                            3,
+                            1
+                        ],
+                        "left_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "right_aux": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "special": [
+                            0,
+                            0,
+                            0
+                        ]
                     },
                     "artwork": "",
                     "cardimage": "https://api.swarmada.wiki/images/lucrehulk-class-droid-control-ship-old-legacy.webp"
@@ -116,4 +210,4 @@
             }
         }
     }
-  }
+}

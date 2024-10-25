@@ -1,31 +1,31 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "flares-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "expansion": "Republic Stealth Corvette Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "defensive-retro",
             "faction": [
-                "separatist"
+                ""
             ],
-            "name": "Interception Protocols",
+            "name": "Flares",
             "unique-class": [
-                "Interception Protocols"
+                ""
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
-            "unique": true,
+            "ability": "Small Ship only.\nWhile defending, during the Spend Defense Tokens step, you may discard one command token from this card to cancel 1 black die of your choice.",
+            "unique": false,
             "points": 5,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
-                    ""
+                    "small"
                 ],
                 "disqual_upgrades": [
                     ""
@@ -39,11 +39,11 @@
                 "flagship": false
             },
             "start_command": {
-                "type": "",
+                "type": "token",
                 "start_icon": [
-                    ""
+                    "confire"
                 ],
-                "start_amount": 0
+                "start_amount": 2
             },
             "exhaust": {
                 "type": "",
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/flares-old-legacy.webp"
         }
     }
 }

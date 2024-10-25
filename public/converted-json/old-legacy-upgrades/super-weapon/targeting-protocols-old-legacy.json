@@ -1,6 +1,6 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "targeting-protocols-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
@@ -11,13 +11,13 @@
             "faction": [
                 "separatist"
             ],
-            "name": "Interception Protocols",
+            "name": "Targeting Protocols",
             "unique-class": [
-                "Interception Protocols"
+                "Targeting Protocols"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "While a friendly squadron with AI: BATTERY at distance 1-5 is attacking a ship, it may change 1 die to a face with any 1 icon and no other icons.",
             "unique": true,
-            "points": 5,
+            "points": 7,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/targeting-protocols-old-legacy.webp"
         }
     }
 }
