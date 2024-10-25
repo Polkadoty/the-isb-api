@@ -1,15 +1,15 @@
 {
     "upgrades": {
-        "upgrade_name": {
+        "cloaking-device-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 2 Old",
-            "expansion": "Stealth Corvette Expansion",
+            "expansion": "Republic Stealth Corvette Expansion",
             "_id": null,
             "type": "defensive-retro",
             "faction": [
-                "republic"
+                ""
             ],
             "name": "Cloaking Device",
             "unique-class": [

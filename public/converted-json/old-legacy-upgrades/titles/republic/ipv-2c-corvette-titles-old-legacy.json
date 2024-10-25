@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "carrion-spike-title-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "expansion": "Republic Stealth Corvette Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "title",
             "faction": [
-                "separatist"
+                "republic"
             ],
-            "name": "Interception Protocols",
+            "name": "Carrion Spike",
             "unique-class": [
-                "Interception Protocols"
+                "Carrion Spike"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "While attacking a ship, before the Gather Dice Step, you may treat up to 2 dice of your battery armament as dice of any color.",
             "unique": true,
-            "points": 5,
+            "points": 8,
             "modification": false,
-            "bound_shiptype": "",
+            "bound_shiptype": "ipv-2c-corvette-old-legacy",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/carrion-spike-title-old-legacy.webp"
         }
     }
 }

@@ -1,0 +1,169 @@
+{
+    "upgrades": {
+        "allegiant-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Mon Remonda Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Allegiant",
+            "unique-class": [
+                "Allegiant"
+            ],
+            "ability": "Friendly squadrons at distance 1-3 with BOMBER and with no other keywords except HEAVY, gain SCREEN.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "mc80b-cruiser-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/allegiant-title-old-legacy.webp"
+        },
+        "mon-remonda-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Mon Remonda Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Mon Remonda",
+            "unique-class": [
+                "Mon Remonda"
+            ],
+            "ability": "While defending, during the Spend Defense Tokens step, you may discard 1 command token from this card to reduce the total damage by 1.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "mc80b-cruiser-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "token",
+                "start_icon": [
+                    "repair"
+                ],
+                "start_amount": 4
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/mon-remonda-title-old-legacy.webp"
+        },
+        "remember-alderaan-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Mon Remonda Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "rebel"
+            ],
+            "name": "Mon Remonda",
+            "unique-class": [
+                "Mon Remonda"
+            ],
+            "ability": "After defending against a ship, if the attacker rerolled dice or added dice to the attack pool, that ship gains 1 Raid Token of your opponentls choice.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "mc80b-cruiser-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/remember-alderaan-title-old-legacy.webp"
+        }
+    }
+}

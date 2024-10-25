@@ -1,0 +1,169 @@
+{
+    "upgrades": {
+        "procurer-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Lucrehulk Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Procurer",
+            "unique-class": [
+                "Procurer"
+            ],
+            "ability": "While deploying fleets, if you are in the play area, you may set aside up to 2 small or medium ships instead of deploying them. After deploying fleets, you may deploy those set aside ships in your deployment zone.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "lucrehulk-class-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/procurer-title-old-legacy.webp"
+        },
+        "profusion-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Lucrehulk Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Profusion",
+            "unique-class": [
+                "Profusion"
+            ],
+            "ability": "While attacking a ship, you may spend up to 2 shields from any of your hull zones to reroll 1 die for each shield spent.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "lucrehulk-class-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/profusion-title-old-legacy.webp"
+        },
+        "vuuntun-palaa-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Lucrehulk Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Vuuntun Palaa",
+            "unique-class": [
+                "Vuuntun Palaa"
+            ],
+            "ability": ":squadron:: Each friendly squadron with AI that you activate gains SWARM until the end of its activation. Each friendly squadron with AI and the printed SWARM keyword that you activate gains GRIT until the end of its activation.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "lucrehulk-class-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/vuuntun-palaa-title-old-legacy.webp"
+        }
+    }
+}

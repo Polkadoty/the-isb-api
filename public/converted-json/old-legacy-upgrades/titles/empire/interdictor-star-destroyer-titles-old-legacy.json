@@ -1,0 +1,169 @@
+{
+    "upgrades": {
+        "binder-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Interdictor Star Destroyer Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Binder",
+            "unique-class": [
+                "Binder"
+            ],
+            "ability": "During the Status Phase, you may exhaust this card to choose 1 enemy ship at distance 1-5. That ship cannot ready any of its exhausted non-:commander: upgrade cards. If you do, you cannot ready this card during the same status phase.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "interdictor-sd-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/binder-title-old-legacy.webp"
+        },
+        "eternal-wrath-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Interdictor Star Destroyer Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Binder",
+            "unique-class": [
+                "Binder"
+            ],
+            "ability": "When you exhaust an :experimental-retro: or :offensive-retro: upgrade card equipped to this ship, you may exhaust this card and a defense token to perform a SALVO attack against any enemy ship's hull zone you can draw line of sight to from one of your hull zones.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "interdictor-sd-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/eternal-wrath-title-old-legacy.webp"
+        },
+        "isolator-title-old-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 2 Old",
+            "expansion": "Interdictor Star Destroyer Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Binder",
+            "unique-class": [
+                "Binder"
+            ],
+            "ability": "After you execute a maneuver, you may exhaust this card to choose 1 asteroid or debris field obstacle within distance 1-3. If you do, you may move that obstacle within distance 2 of that obstacle's current location.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "interdictor-sd-old-legacy",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/isolator-title-old-legacy.webp"
+        }
+    }
+}
