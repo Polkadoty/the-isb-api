@@ -54,7 +54,7 @@ function generateAliases() {
 
           // Add additional alias without squadron name for named squadrons in base-game squadrons.json
           if (dirKey === 'squadrons' && jsonFileName === 'squadrons.json' && itemData['ace-name']) {
-            const shortExportText = `${itemData['ace-name']} (${itemData.points})`;
+            const shortExportText = `${itemData['ace-name']}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`;
             aliases[shortExportText] = itemKey;
           }
         }
@@ -64,12 +64,12 @@ function generateAliases() {
     }
   });
 
-  // Remove duplicates (if any)
-  aliases = Object.fromEntries(
-    Object.entries(aliases).filter(([key, value], index, self) =>
-      index === self.findIndex(t => t[1] === value)
-    )
-  );
+// Remove exact duplicates (if any)
+aliases = Object.fromEntries(
+  Object.entries(aliases).filter(([key, value], index, self) =>
+    index === self.findIndex(t => t[0] === key && t[1] === value)
+  )
+);
 
   // Write aliases to a JSON file
   fs.writeFileSync(path.join(__dirname, 'public/aliases.json'), JSON.stringify(aliases, null, 2));
