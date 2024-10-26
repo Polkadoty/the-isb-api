@@ -1,37 +1,39 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "reserve-bulk-hangar-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 2 Old",
             "expansion": "Lucrehulk Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "offensive-retro",
             "faction": [
-                "separatist"
+                ""
             ],
-            "name": "Interception Protocols",
+            "name": "Reserve Bulk Hangar",
             "unique-class": [
-                "Interception Protocols"
+                ""
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
-            "unique": true,
-            "points": 5,
+            "ability": "Non-small ship only.\nWhen a friendly, non-unique squadron with SWARM at distance 1-5 is destroyed, you may discard a token from this card. If you do, set that squadron's hull points to \"2\" and place that squadron, unengaged, at distance 1 with its activation slider toggled to the activated side.",
+            "unique": false,
+            "points": 9,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
-                    ""
+                    "medium",
+                    "large",
+                    "huge"
                 ],
                 "disqual_upgrades": [
                     ""
                 ],
                 "disable_upgrades": [
-                    ""
+                    "offensive-retro"
                 ],
                 "enable_upgrades": [
                     ""
@@ -39,11 +41,11 @@
                 "flagship": false
             },
             "start_command": {
-                "type": "",
+                "type": "token",
                 "start_icon": [
-                    ""
+                    "squadron"
                 ],
-                "start_amount": 0
+                "start_amount": 3
             },
             "exhaust": {
                 "type": "",
@@ -53,7 +55,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/reserve-bulk-hangar-old-legacy.webp"
         }
     }
 }

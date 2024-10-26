@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "tractor-tentacles-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Trident Assault Ships Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "offensive-retro",
             "faction": [
                 "separatist"
             ],
-            "name": "Interception Protocols",
+            "name": "Tractor Tentacles",
             "unique-class": [
-                "Interception Protocols"
+                ""
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
-            "unique": true,
-            "points": 5,
+            "ability": "Before an enemy small ship at distance 1-2 resolves the Determine Course step, you may exhaust this card to reduce its speed by 1 to a minimum of 0.",
+            "unique": false,
+            "points": 3,
             "modification": false,
-            "bound_shiptype": "",
+            "bound_shiptype": "trident-ships-old-legacy",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -46,14 +46,14 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "recur",
                 "ready_token": [
                     ""
                 ],
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/tractor-tentacles-old-legacy.webp"
         }
     }
 }

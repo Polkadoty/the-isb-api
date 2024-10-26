@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "admiral-yularen-officer-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Stealth Corvette Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "officer",
             "faction": [
-                "separatist"
+                "republic"
             ],
-            "name": "Interception Protocols",
+            "name": "Admiral Yularen",
             "unique-class": [
-                "Interception Protocols"
+                "Admiral Yularen"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "When you reveal a command or at the start of the Status Phase, you may exhaust this card to gain an :repair: or :squadron: token.",
             "unique": true,
-            "points": 5,
+            "points": 7,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -46,14 +46,14 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "recur",
                 "ready_token": [
                     ""
                 ],
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/admiral-yularen-officer-old-legacy.webp"
         }
     }
 }

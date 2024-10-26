@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "admiral-nantz-commander-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Assault Frigate Mark I Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "commander",
             "faction": [
-                "separatist"
+                "rebel"
             ],
-            "name": "Interception Protocols",
+            "name": "Admiral Nantz",
             "unique-class": [
-                "Interception Protocols"
+                "Admiral Nantz"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "While a friendly ship performs a :salvo: attack, it may add 1 die to its attack pool of a color already in its attack pool.",
             "unique": true,
-            "points": 5,
+            "points": 26,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -36,7 +36,7 @@
                 "enable_upgrades": [
                     ""
                 ],
-                "flagship": false
+                "flagship": true
             },
             "start_command": {
                 "type": "",
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/admiral-nantz-commander-old-legacy.webp"
         }
     }
 }
