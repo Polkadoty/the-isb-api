@@ -51,6 +51,12 @@ function generateAliases() {
             ? `${itemData['ace-name']} - ${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`
             : `${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`;
           aliases[exportText] = itemKey;
+
+          // Add additional alias without squadron name for named squadrons in base-game squadrons.json
+          if (dirKey === 'squadrons' && jsonFileName === 'squadrons.json' && itemData['ace-name']) {
+            const shortExportText = `${itemData['ace-name']} (${itemData.points})`;
+            aliases[shortExportText] = itemKey;
+          }
         }
       });
     } catch (err) {
