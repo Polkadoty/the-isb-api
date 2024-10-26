@@ -164,7 +164,8 @@ function runTests(obj, tests, filePath) {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  return {
+  const flags = {
+    all: args.includes('-all'),
     ships: args.includes('-ships'),
     squadrons: args.includes('-squadrons'),
     upgrades: args.includes('-upgrades'),
@@ -180,8 +181,18 @@ function parseArgs() {
     'old-legacy-upgrades': args.includes('-old-legacy-upgrades'),
     noModifications: args.includes('--no-modifications'),
     noTests: args.includes('--no-tests'),
-    force: args.includes('--force') // Add this line
+    force: args.includes('--force')
   };
+
+  if (flags.all) {
+    Object.keys(flags).forEach(key => {
+      if (key !== 'all' && !['noModifications', 'noTests', 'force'].includes(key)) {
+        flags[key] = true;
+      }
+    });
+  }
+
+  return flags;
 }
 
 // Main execution
@@ -189,64 +200,20 @@ const flags = parseArgs();
 
 let allFlaggedFiles = [];
 
-if (flags.ships) {
-  console.log('Processing ships...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.ships, tests.ships));
-}
-if (flags.squadrons) {
-  console.log('Processing squadrons...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.squadrons, tests.squadrons));
-}
-if (flags.upgrades) {
-  console.log('Processing upgrades...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.upgrades, tests.upgrades));
-}
-if (flags.objectives) {
-  console.log('Processing objectives...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories.objectives, tests.objectives));
-}
-if (flags['old-legacy-ships']) {
-  console.log('Processing old-legacy ships...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['old-legacy-ships'], tests.ships));
-}
-if (flags['old-legacy-squadrons']) {
-  console.log('Processing old-legacy squadrons...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['old-legacy-squadrons'], tests.squadrons));
-}
-if (flags['old-legacy-upgrades']) {
-  console.log('Processing old-legacy upgrades...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['old-legacy-upgrades'], tests.upgrades));
-}
+Object.entries(directories).forEach(([key, directory]) => {
+  if (flags[key]) {
+    console.log(`Processing ${key}...`);
+    const testType = key.includes('ships') ? tests.ships :
+                     key.includes('squadrons') ? tests.squadrons :
+                     key.includes('upgrades') ? tests.upgrades :
+                     key.includes('objectives') ? tests.objectives : null;
+    allFlaggedFiles = allFlaggedFiles.concat(unitTest(directory, testType));
+  }
+});
 
-if (flags['legends-ships']) {
-  console.log('Processing legends ships...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legends-ships'], tests.ships));
-}
-if (flags['legends-squadrons']) {
-  console.log('Processing legends squadrons...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legends-squadrons'], tests.squadrons));
-}
-if (flags['legends-upgrades']) {
-  console.log('Processing legends upgrades...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legends-upgrades'], tests.upgrades));
-}
-
-if (flags['legacy-ships']) {
-  console.log('Processing legacy ships...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legacy-ships'], tests.ships));
-}
-if (flags['legacy-squadrons']) {
-  console.log('Processing legacy squadrons...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legacy-squadrons'], tests.squadrons));
-}
-if (flags['legacy-upgrades']) {
-  console.log('Processing legacy upgrades...');
-  allFlaggedFiles = allFlaggedFiles.concat(unitTest(directories['legacy-upgrades'], tests.upgrades));
-}
-
-if (!Object.values(flags).some(Boolean)) {
-  console.log('Please provide at least one flag: -ships, -squadrons, -upgrades, -objectives, -custom-ships, -custom-squadrons, -custom-upgrades');
-  console.log('Optional flags: --no-modifications, --no-tests');
+if (!Object.values(flags).some(Boolean) || (Object.keys(flags).length === 1 && flags.all)) {
+  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades');
+  console.log('Optional flags: --no-modifications, --no-tests, --force');
 } else {
   if (flags.noModifications) {
     console.log('Skipping modifications...');

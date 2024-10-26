@@ -40,13 +40,16 @@ function generateAliases() {
       Object.entries(data[topLevelKey]).forEach(([itemKey, itemData]) => {
         if (topLevelKey === 'ships') {
           Object.entries(itemData.models).forEach(([modelKey, modelData]) => {
-            const exportText = `${modelData.name}${modelData.team !== 'AMG' && modelData.team !== 'FFG' ? ` [${capitalizeFirstLetter(modelData.team)}]` : ''} (${modelData.points})`;
+            const exportText = `${modelData.name}${modelData.alias !== 'AMG' && modelData.alias !== 'FFG' ? ` [${modelData.alias}]` : ''} (${modelData.points})`;
             aliases[exportText] = modelKey;
           });
+        } else if (topLevelKey === 'objectives') {
+          const exportText = `${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''}`;
+          aliases[exportText] = itemKey;
         } else {
           const exportText = itemData['ace-name'] 
-            ? `${itemData['ace-name']} - ${itemData.name}${itemData.team !== 'AMG' && itemData.team !== 'FFG' ? ` [${capitalizeFirstLetter(itemData.team)}]` : ''} (${itemData.points})`
-            : `${itemData.name}${itemData.team !== 'AMG' && itemData.team !== 'FFG' ? ` [${capitalizeFirstLetter(itemData.team)}]` : ''} (${itemData.points})`;
+            ? `${itemData['ace-name']} - ${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`
+            : `${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`;
           aliases[exportText] = itemKey;
         }
       });

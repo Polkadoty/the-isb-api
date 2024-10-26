@@ -1,12 +1,67 @@
 {
   "upgrades": {
+    "admiral-coburn-commander-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "776fd953-0e0e-400c-aaef-cffaf10a22e3",
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Admiral Coburn",
+      "unique-class": [
+        "Admiral Coburn"
+      ],
+      "ability": "Once per activation, while a friendly ship is attacking a ship, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If you do, it may add 1 red die to the attack pool.",
+      "unique": true,
+      "points": 25,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-coburn-commander-legacy.webp"
+    },
     "daultay-dofine-commander": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "debeb6cf-292e-4e65-8500-f09723a882fd",
+      "_id": "b36ecb48-a4a5-4bad-bc4f-3aac5ebb44fe",
       "type": "commander",
       "faction": [
         "separatist"
@@ -58,7 +113,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "64ceaa6c-0a0d-4fcd-ac37-74f594bdf170",
+      "_id": "ec06e16a-365a-4d29-90c4-2494c1fb9bb3",
       "type": "commander",
       "faction": [
         "republic"
