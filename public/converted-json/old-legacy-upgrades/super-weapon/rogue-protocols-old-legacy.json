@@ -1,6 +1,6 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "rogue-protocols-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
@@ -15,9 +15,9 @@
             "unique-class": [
                 "Interception Protocols"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "At the start of the squadron phase, if you have not resolved a :squadron: command this round, the first 4 friendly non- unique squadrons with AI at close-medium range that activate during the squadron phase gain ROGUE until the end of the round.",
             "unique": true,
-            "points": 5,
+            "points": 10,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/rogue-protocols-old-legacy.webp"
         }
     }
 }

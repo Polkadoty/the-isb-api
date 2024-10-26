@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "xv9-turbolasers-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "expansion": "Mon Remonda Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "turbolaser",
             "faction": [
-                "separatist"
+                ""
             ],
-            "name": "Interception Protocols",
+            "name": "XV9 Turbolasers",
             "unique-class": [
-                "Interception Protocols"
+                ""
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
-            "unique": true,
+            "ability": "While performing a non-ignitionattack against a ship, you may add 1 blue die set to an :accuracy: icon to the attack pool. That icon cannot be spent to target defense tokens.",
+            "unique": false,
             "points": 5,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/xv9-turbolasers-old-legacy.webp"
         }
     }
 }

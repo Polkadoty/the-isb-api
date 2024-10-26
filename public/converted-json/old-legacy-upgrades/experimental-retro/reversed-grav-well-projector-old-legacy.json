@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "reversed-grav-well-projector-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "expansion": "Interdictor Star Destroyer Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "experimental-retro",
             "faction": [
-                "separatist"
+                ""
             ],
-            "name": "Interception Protocols",
+            "name": "Reversed Grav Well Projector",
             "unique-class": [
-                "Interception Protocols"
+                "Reversed Grav Well Projector"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "When you deploy place 1 reversed grav token anywhere in the play area. At the start of the first ship phase, each non-huge ship at distance 1-3 of a reversed grav token must execute a speed-1 maneuver.",
             "unique": true,
-            "points": 5,
+            "points": 2,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    "interdictor"
                 ],
                 "size": [
                     ""
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/reversed-grav-well-projector-old-legacy.webp"
         }
     }
 }

@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "admiral-coburn-commander-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Light Cruiser Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "commander",
             "faction": [
-                "separatist"
+                "republic"
             ],
-            "name": "Interception Protocols",
+            "name": "Admiral Coburn",
             "unique-class": [
-                "Interception Protocols"
+                "Admiral Coburn"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "Once per activation, while a friendly ship is attacking a ship, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If you do, it may add 1 red die to the attack pool.",
             "unique": true,
-            "points": 5,
+            "points": 25,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -36,7 +36,7 @@
                 "enable_upgrades": [
                     ""
                 ],
-                "flagship": false
+                "flagship": true
             },
             "start_command": {
                 "type": "",
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/admiral-coburn-commander-old-legacy.webp"
         }
     }
 }

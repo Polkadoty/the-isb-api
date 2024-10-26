@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "prince-admiral-krennel-officer-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
             "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "expansion": "Interdictor Star Destroyer Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "officer",
             "faction": [
-                "separatist"
+                "empire"
             ],
-            "name": "Interception Protocols",
+            "name": "Prince Admiral Krennel",
             "unique-class": [
-                "Interception Protocols"
+                "Prince Admiral Krennel"
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+            "ability": "While attacking a ship, you may exhaust this card. If you do, while attacking a ship from your front hull zone this round, you may add red 1 die to the attack pool. If you do, until the end of the round, while you are defending, the attacker may reroll 1 die.",
             "unique": true,
-            "points": 5,
+            "points": 6,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -46,14 +46,14 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "recur",
                 "ready_token": [
                     ""
                 ],
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/prince-admiral-krennel-officer-old-legacy.webp"
         }
     }
 }

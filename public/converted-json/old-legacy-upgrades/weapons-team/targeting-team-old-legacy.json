@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "targeting-team-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Light Cruiser Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "weapons-team",
             "faction": [
-                "separatist"
+                ""
             ],
-            "name": "Interception Protocols",
+            "name": "Targeting Team",
             "unique-class": [
-                "Interception Protocols"
+                ""
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
-            "unique": true,
+            "ability": "During your activation, while attacking a ship, you may reroll 1 attack die.",
+            "unique": false,
             "points": 5,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -53,7 +53,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/targeting-team-old-legacy.webp"
         }
     }
 }

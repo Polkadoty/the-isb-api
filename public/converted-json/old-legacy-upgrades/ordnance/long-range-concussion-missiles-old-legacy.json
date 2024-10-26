@@ -1,28 +1,28 @@
 {
     "upgrades": {
-        "interception-protocols-old-legacy": {
+        "long-range-concussion-missiles-old-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
-            "release": "Legacy Wave 2 Old",
-            "expansion": "Lucrehulk Expansion",
+            "release": "Legacy Wave 1 Old",
+            "expansion": "Republic Light Cruiser Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "ordnance",
             "faction": [
-                "separatist"
+                ""
             ],
-            "name": "Interception Protocols",
+            "name": "Light Turbolaser Cannons",
             "unique-class": [
-                "Interception Protocols"
+                ""
             ],
-            "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
-            "unique": true,
-            "points": 5,
+            "ability": "While attacking a ship, you may exhaust this card. If you do, up to 2 of the black dice in your battery armament can be used at close-medium range during this attack. You cannot reroll black dice during this attack.",
+            "unique": false,
+            "points": 4,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
                 "traits": [
-                    "central-control"
+                    ""
                 ],
                 "size": [
                     ""
@@ -46,14 +46,14 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "recur",
                 "ready_token": [
                     ""
                 ],
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+            "cardimage": "https://api.swarmada.wiki/images/long-range-concussion-missiles-old-legacy.webp"
         }
     }
 }
