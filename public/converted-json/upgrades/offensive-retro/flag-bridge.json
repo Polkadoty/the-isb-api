@@ -37,7 +37,9 @@
         "enable_upgrades": [
           "fleet-command"
         ],
-        "flagship": true
+        "disqualify_if": {
+          "flagship": true
+        }
       },
       "start_command": {
         "type": "",
