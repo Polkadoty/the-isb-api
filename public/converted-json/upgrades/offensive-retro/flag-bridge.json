@@ -38,7 +38,7 @@
           "fleet-command"
         ],
         "disqualify_if": {
-          "flagship": true
+          "flagship": false
         }
       },
       "start_command": {
