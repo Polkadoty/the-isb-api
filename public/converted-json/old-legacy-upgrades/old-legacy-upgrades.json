@@ -1,15 +1,455 @@
 {
   "upgrades": {
-    "upgrade_name": {
+    "admiral-coburn-commander-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "287793ae-b2e2-40c5-83eb-6764a92c3f59",
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Admiral Coburn",
+      "unique-class": [
+        "Admiral Coburn"
+      ],
+      "ability": "Once per activation, while a friendly ship is attacking a ship, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If you do, it may add 1 red die to the attack pool.",
+      "unique": true,
+      "points": 25,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-coburn-commander-old-legacy.webp"
+    },
+    "admiral-nantz-commander-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Assault Frigate Mark I Expansion",
+      "_id": "d1a89ac3-8f5d-47a3-b315-7bebec0b93f7",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Admiral Nantz",
+      "unique-class": [
+        "Admiral Nantz"
+      ],
+      "ability": "While a friendly ship performs a :salvo: attack, it may add 1 die to its attack pool of a color already in its attack pool.",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-nantz-commander-old-legacy.webp"
+    },
+    "admiral-rogriss-commander-old-legacy": {
       "author": "Armada Legacy",
       "alias": "Legacy",
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
-      "expansion": "Stealth Corvette Expansion",
-      "_id": "290cba68-a827-431a-9db8-ce59b21712fb",
-      "type": "defensive-retro",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "0e91c260-8ef8-44c4-8438-3997fdf7be64",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Rogriss",
+      "unique-class": [
+        "Admiral Rogriss"
+      ],
+      "ability": "After a friendly ship is deployed, if that ship does not have a :super-weapon: icon in its upgrade bar, it may perform a speed 1 maneuver.\nAt the start of the second round, assign each enemy ship a raid token of your choice.",
+      "unique": true,
+      "points": 25,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-rogriss-commander-old-legacy.webp"
+    },
+    "gilad-pellaeon-commander-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Dreadnaught Heavy Cruiser Expansion",
+      "_id": "e10d2730-e541-48a5-a2e4-829fb8396883",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Gilad  Pellaeon",
+      "unique-class": [
+        "Gilad  Pellaeon"
+      ],
+      "ability": "While a friendly ship is attacking a ship, it may choose and cancel 1 attack die. If it does, a friendly ship at distance 1-5 of the attacker may gain a command token of any type.",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/gilad-pellaeon-commander-old-legacy.webp"
+    },
+    "han-solo-commander-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Mon Remonda Expansion",
+      "_id": "10c37c5e-3829-46f0-a013-1deb908178c1",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Han Solo",
+      "unique-class": [
+        "Han Solo"
+      ],
+      "ability": "Once per activation, while a friendly ship is attacking, it may spend 1 icon from the attack pool to choose and exhaust 1 of the defender's defense tokens.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/han-solo-commander-old-legacy.webp"
+    },
+    "nute-gunray-commander-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "6dd2bd5c-a770-4ce1-be52-61586dd98b55",
+      "type": "commander",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Nute Gunray",
+      "unique-class": [
+        "Nute Gunray"
+      ],
+      "ability": "While a friendly ship is defending against a ship, during the Spend Defense Tokens step, if there is 1 or more friendly squadrons within both the attacking hull zonels firing arc and the defending hull zone's firing arc, you may force the attacker to reroll 1 die.",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nute-gunray-commander-old-legacy.webp"
+    },
+    "riff-tamson-commander-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Trident Assault Ships Expansion",
+      "_id": "465ddc4b-eb12-4c8e-8025-f5be1acfb806",
+      "type": "commander",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Riff Tamson",
+      "unique-class": [
+        "Riff Tamson"
+      ],
+      "ability": "Once per activation, while a friendly ship is defending against a ship, if the attacker has 1 or more damage cards, the defender may reduce the total damage by 1 toa minimum of 1 before suffering damage.",
+      "unique": true,
+      "points": 32,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/riff-tamson-commander-old-legacy.webp"
+    },
+    "yoda-commander-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Republic Stealth Corvette Expansion",
+      "_id": "28cf312c-e66e-4274-8ea4-7743f296624a",
+      "type": "commander",
       "faction": [
         "republic"
+      ],
+      "name": "Yoda",
+      "unique-class": [
+        "Yoda"
+      ],
+      "ability": "Once per activation, while a friendly ship is defending against a ship at close range, it may spend 1 defense token to cancel 1 die instead of resolving that token's effect.",
+      "unique": true,
+      "points": 27,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/yoda-commander-old-legacy.webp"
+    },
+    "cloaking-device-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Republic Stealth Corvette Expansion",
+      "_id": "91c5299e-36dc-470d-89d8-b022e4b02ce9",
+      "type": "defensive-retro",
+      "faction": [
+        ""
       ],
       "name": "Cloaking Device",
       "unique-class": [
@@ -55,26 +495,246 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/cloaking-device-old-legacy.webp"
     },
-    "interception-protocols-old-legacy": {
+    "flares-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Republic Stealth Corvette Expansion",
+      "_id": "4d967ba6-aa6a-4c7c-aa7b-528d819cbb09",
+      "type": "defensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Flares",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Small Ship only.\nWhile defending, during the Spend Defense Tokens step, you may discard one command token from this card to cancel 1 black die of your choice.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          "small"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "confire"
+        ],
+        "start_amount": 2
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/flares-old-legacy.webp"
+    },
+    "cloaking-field-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "a47693a2-9f6d-446d-935f-f71b10cd4544",
+      "type": "experimental-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Cloaking Field",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While a friendly squadron without STRATEGIC is at distance 1-3 of you, it gains CLOAK.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "interdictor"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cloaking-field-old-legacy.webp"
+    },
+    "grav-cone-projector-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "ff55647c-b4a6-4cf8-b0c3-0000d9323923",
+      "type": "experimental-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Grav Cone Projector",
+      "unique-class": [
+        "Grav Cone Projector"
+      ],
+      "ability": "Before deploying fleets, you may set aside 1 other friendly small or medium ship and place 1 round token on this card. At the start of the round matching that token, you may deploy that ship at distance 1-2 of you. That ship cannot be deployed overlapping squadrons and cannot be the first ship to activate that round.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "interdictor"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/grav-cone-projector-old-legacy.webp"
+    },
+    "reversed-grav-well-projector-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "c54e05fa-5c43-4f90-bc52-d17f8fadb09b",
+      "type": "experimental-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Reversed Grav Well Projector",
+      "unique-class": [
+        "Reversed Grav Well Projector"
+      ],
+      "ability": "When you deploy place 1 reversed grav token anywhere in the play area. At the start of the first ship phase, each non-huge ship at distance 1-3 of a reversed grav token must execute a speed-1 maneuver.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "interdictor"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/reversed-grav-well-projector-old-legacy.webp"
+    },
+    "advanced-guidance-system-old-legacy": {
       "author": "Armada Legacy",
       "alias": "Legacy",
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "e03bc44d-65ed-4793-9425-30f14dad745b",
-      "type": "super-weapon",
+      "_id": "8797d437-af42-433d-8f3f-d43ace566bf8",
+      "type": "offensive-retro",
       "faction": [
-        "separatist"
+        ""
       ],
-      "name": "Interception Protocols",
+      "name": "Advanced Guidance System",
       "unique-class": [
-        "Interception Protocols"
+        ""
       ],
-      "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
-      "unique": true,
-      "points": 5,
+      "ability": ":squadron:: While squadrons with BOMBER you activate are attacking a ship, :crit: icons in each squadrons attack pool cannot be rerolled by the :evade: defense effect.",
+      "unique": false,
+      "points": 4,
       "modification": false,
-      "bound_shiptype": "lucrehulk-class-old-legacy",
+      "bound_shiptype": "",
       "restrictions": {
         "traits": [
           ""
@@ -108,7 +768,1054 @@
         "ready_amount": 0
       },
       "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/advanced-guidance-system-old-legacy.webp"
+    },
+    "drill-beak-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Trident Assault Ships Expansion",
+      "_id": "483731d6-d2d2-4f6f-8eb2-c904b0055000",
+      "type": "offensive-retro",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Dril Beak",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification.\nWhen you overlap an enemy ship, the enemy ship suffers a faceup damage card and does not suffer a facedown damage card. When you overlap an enemy ship, you suffer 1 fewer damage card.",
+      "unique": false,
+      "points": 5,
+      "modification": true,
+      "bound_shiptype": "trident-ships-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/drill-beak-old-legacy.webp"
+    },
+    "reserve-bulk-hangar-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "9df3042d-b975-4333-a96d-40548af070bc",
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Reserve Bulk Hangar",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Non-small ship only.\nWhen a friendly, non-unique squadron with SWARM at distance 1-5 is destroyed, you may discard a token from this card. If you do, set that squadron's hull points to \"2\" and place that squadron, unengaged, at distance 1 with its activation slider toggled to the activated side.",
+      "unique": false,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          "medium",
+          "large",
+          "huge"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          "offensive-retro"
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "squadron"
+        ],
+        "start_amount": 3
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/reserve-bulk-hangar-old-legacy.webp"
+    },
+    "tractor-tentacles-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Trident Assault Ships Expansion",
+      "_id": "31406d65-6af5-4aec-a9ef-72f5cb68ea3d",
+      "type": "offensive-retro",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Tractor Tentacles",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Before an enemy small ship at distance 1-2 resolves the Determine Course step, you may exhaust this card to reduce its speed by 1 to a minimum of 0.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "trident-ships-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tractor-tentacles-old-legacy.webp"
+    },
+    "aayla-secura-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "a8cc2d5e-b284-469d-99a9-450462e31317",
+      "type": "officer",
+      "faction": [
+        "republic"
+      ],
+      "name": "Aayla Secura",
+      "unique-class": [
+        "Aayla Secura"
+      ],
+      "ability": "When you spend an :evade: token to resolve the standard effect, you may exhaust this card to affect 1 additional die.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/aayla-secura-officer-old-legacy.webp"
+    },
+    "admiral-yularen-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Stealth Corvette Expansion",
+      "_id": "444b328a-eca8-4dcb-9bd7-20fb28bc7887",
+      "type": "officer",
+      "faction": [
+        "republic"
+      ],
+      "name": "Admiral Yularen",
+      "unique-class": [
+        "Admiral Yularen"
+      ],
+      "ability": "When you reveal a command or at the start of the Status Phase, you may exhaust this card to gain an :repair: or :squadron: token.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-yularen-officer-old-legacy.webp"
+    },
+    "borsk-feylya-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Assault Frigate Mark I Expansion",
+      "_id": "756f93ec-1686-4ce0-896d-3a17cabefa97",
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Borsk Fey'lya",
+      "unique-class": [
+        "Borsk Fey'lya"
+      ],
+      "ability": "After deploying fleets, place 2 non-consecutive round tokens on this card. At the start of each round matching 1 of those tokens, you may gain 2 command tokens of any type.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/borsk-feylya-officer-old-legacy.webp"
+    },
+    "captain-onoma-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Mon Remonda Expansion",
+      "_id": "ce270bcc-5739-4558-b84a-a67d7ce2d77a",
+      "type": "officer",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Captain Onoma",
+      "unique-class": [
+        "Captain Onoma"
+      ],
+      "ability": ":confire:: You may reroll 1 additional die in your attack pool.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/captain-onoma-officer-old-legacy.webp"
+    },
+    "joruus-cbaoth-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Dreadnaught Heavy Cruiser Expansion",
+      "_id": "de02573d-70b8-4363-8e74-639f5a17e32c",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Joruus C'baoth",
+      "unique-class": [
+        "Joruus C'baoth"
+      ],
+      "ability": "When you gain a command token, you may choose up to 2 other friendly ships at distance 1-3. Each chosen ship may gain 1 matching command token.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/joruus-cbaoth-officer-old-legacy.webp"
+    },
+    "k2-b4-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "d4502e75-03ee-44c6-9eed-f5400b337a06",
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "K2-B4",
+      "unique-class": [
+        "K2-B4"
+      ],
+      "ability": "While a friendly squadron with AI at distance 1-3 is defending, it gains DODGE 1.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/k2-b4-officer-old-legacy.webp"
+    },
+    "poggle-the-lesser-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "8cf888ad-dfa0-4aa9-b339-b881ee65080c",
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Poggle the Lesser",
+      "unique-class": [
+        "Poggle the Lesser"
+      ],
+      "ability": "While a friendly squadron with GUARDIAN at distance 1-5 is attacking, it may reroll 1 die.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/poggle-the-lesser-officer-old-legacy.webp"
+    },
+    "prince-admiral-krennel-officer-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "76eb4196-f9b9-4983-b81c-c5bd947ce7e0",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Prince Admiral Krennel",
+      "unique-class": [
+        "Prince Admiral Krennel"
+      ],
+      "ability": "While attacking a ship, you may exhaust this card. If you do, while attacking a ship from your front hull zone this round, you may add red 1 die to the attack pool. If you do, until the end of the round, while you are defending, the attacker may reroll 1 die.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/prince-admiral-krennel-officer-old-legacy.webp"
+    },
+    "long-range-concussion-missiles-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "94c38f02-ed8e-446e-a8a4-e899f42e5bcb",
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Light Turbolaser Cannons",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a ship, you may exhaust this card. If you do, up to 2 of the black dice in your battery armament can be used at close-medium range during this attack. You cannot reroll black dice during this attack.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/long-range-concussion-missiles-old-legacy.webp"
+    },
+    "tracking-torpedoes-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Republic Stealth Corvette Expansion",
+      "_id": "52ee7596-1fd1-4be6-bd9a-e4aaa3f17752",
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Tracking Torpedoes",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a ship, your black :crit: icons cannot be rerolled by the :evade: defense effects.\nWhile attacking, you may exhaust this card to change 1 blank black die to a side with a :crit: icon.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tracking-torpedoes-old-legacy.webp"
+    },
+    "interception-protocols-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "236b92c6-1f3c-4fd3-b755-eacd1bd01142",
+      "type": "super-weapon",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Interception Protocols",
+      "unique-class": [
+        "Interception Protocols"
+      ],
+      "ability": "While a friendly squadron with AI:ANTI-SQUADRON at distance 1-5 is attacking an enemy squadron during its activation, if it moved during its activation, it may reroll 1 die.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "central-control"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/interception-protocols-old-legacy.webp"
+    },
+    "rogue-protocols-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "b3388071-9a08-4364-9bec-0fea245a6d8b",
+      "type": "super-weapon",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Interception Protocols",
+      "unique-class": [
+        "Interception Protocols"
+      ],
+      "ability": "At the start of the squadron phase, if you have not resolved a :squadron: command this round, the first 4 friendly non- unique squadrons with AI at close-medium range that activate during the squadron phase gain ROGUE until the end of the round.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "central-control"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rogue-protocols-old-legacy.webp"
+    },
+    "targeting-protocols-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "c3c73d5c-cec3-4c16-b54c-6c3958ad5b9b",
+      "type": "super-weapon",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Targeting Protocols",
+      "unique-class": [
+        "Targeting Protocols"
+      ],
+      "ability": "While a friendly squadron with AI: BATTERY at distance 1-5 is attacking a ship, it may change 1 die to a face with any 1 icon and no other icons.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "central-control"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/targeting-protocols-old-legacy.webp"
+    },
+    "clone-engineers-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "d5808d8f-e59f-4731-9339-cd235c68e884",
+      "type": "support-team",
+      "faction": [
+        "republic"
+      ],
+      "name": "Clone Engineers",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Clone only.\nWhen you reveal a command, you may exhaust this card and spend 1 defense token to discard 1 damage card.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "clone"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "repair"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/clone-engineers-old-legacy.webp"
+    },
+    "mon-calamari-shield-techs-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Mon Remonda Expansion",
+      "_id": "7c2f03db-19e4-40f5-875c-89e0ae0253eb",
+      "type": "support-team",
+      "faction": [
+        ""
+      ],
+      "name": "Mon Calamari Shield Techs",
+      "unique-class": [
+        ""
+      ],
+      "ability": "\"MC\" only.\nWhile defending, after you suffer damage, if the defending hull zone has no shields, you may discard this card to recover up to 2 shields in the defending hull zone.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "MC"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/mon-calamari-shield-techs-old-legacy.webp"
+    },
+    "repair-team-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Assault Frigate Mark I Expansion",
+      "_id": "7da14ec9-7f3c-4b5b-b3c1-24f4ce83e2bd",
+      "type": "support-team",
+      "faction": [
+        ""
+      ],
+      "name": "Repair Team",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Before you are dealt a faceup damage card with the SHIP trait, you may discard this card to discard that damage card.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/repair-team-old-legacy.webp"
     },
     "katana-fleet-dreadnaught-old-legacy": {
       "author": "Armada Legacy",
@@ -116,7 +1823,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Dreadnaught Heavy Cruiser Expansion",
-      "_id": "0516d4ae-6831-4508-a1f6-fbdd8ddedc8c",
+      "_id": "33c60fd2-d4c6-4d3f-b6e6-5ed7a9f8537f",
       "type": "title",
       "faction": [
         "empire"
@@ -164,6 +1871,1271 @@
       },
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/katana-fleet-dreadnaught-old-legacy.webp"
+    },
+    "abrogator-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Dreadnaught Heavy Cruiser Expansion",
+      "_id": "b4fe8de4-2159-4c1c-b163-889a2f136618",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Abrogator",
+      "unique-class": [
+        "Abrogator"
+      ],
+      "ability": "Your :redirect: defense tokens cannot be targeted by :accuracy: results.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "dreadnaught-class-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/abrogator-title-old-legacy.webp"
+    },
+    "vendetta-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Dreadnaught Heavy Cruiser Expansion",
+      "_id": "36972d2f-9585-4088-8051-f6f1ea3902e0",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Vendetta",
+      "unique-class": [
+        "Vendetta"
+      ],
+      "ability": "At the start of the first round, you may gain 1 :salvo: defense token.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "dreadnaught-class-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/vendetta-title-old-legacy.webp"
+    },
+    "binder-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "0ac1dc24-10c9-4299-8c04-923c18d93b6b",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Binder",
+      "unique-class": [
+        "Binder"
+      ],
+      "ability": "During the Status Phase, you may exhaust this card to choose 1 enemy ship at distance 1-5. That ship cannot ready any of its exhausted non-:commander: upgrade cards. If you do, you cannot ready this card during the same status phase.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "interdictor-sd-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/binder-title-old-legacy.webp"
+    },
+    "eternal-wrath-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "ec5e6185-0dc8-40d4-92e4-0cc278fae8a2",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Binder",
+      "unique-class": [
+        "Binder"
+      ],
+      "ability": "When you exhaust an :experimental-retro: or :offensive-retro: upgrade card equipped to this ship, you may exhaust this card and a defense token to perform a SALVO attack against any enemy ship's hull zone you can draw line of sight to from one of your hull zones.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "interdictor-sd-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/eternal-wrath-title-old-legacy.webp"
+    },
+    "isolator-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Interdictor Star Destroyer Expansion",
+      "_id": "fe14ce6c-56d4-447c-b7cf-99e599efe8f2",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Binder",
+      "unique-class": [
+        "Binder"
+      ],
+      "ability": "After you execute a maneuver, you may exhaust this card to choose 1 asteroid or debris field obstacle within distance 1-3. If you do, you may move that obstacle within distance 2 of that obstacle's current location.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "interdictor-sd-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/isolator-title-old-legacy.webp"
+    },
+    "liberty-star-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Assault Frigate Mark I Expansion",
+      "_id": "0fba5aae-aed8-4b03-bf2f-3f57e6f03910",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Liberty Star",
+      "unique-class": [
+        "Liberty Star"
+      ],
+      "ability": "During your activation, while attacking a ship, if your speed is 3 or higher, you may add 1 black die to the attack pool.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "assault-frigate-mark-i-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/liberty-star-title-old-legacy.webp"
+    },
+    "tyrants-bane-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Assault Frigate Mark I Expansion",
+      "_id": "b884557a-157f-41b8-be54-325caded7c92",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Tyrant's Bane",
+      "unique-class": [
+        "Tyrant's Bane"
+      ],
+      "ability": "While attacking, you may exhaust this card. If you do, for each red :accuracy: icon spent from the attack pool, you may add 1 red die to the attack pool, up to 2 red dice.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "assault-frigate-mark-i-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tyrants-bane-title-old-legacy.webp"
+    },
+    "allegiant-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Mon Remonda Expansion",
+      "_id": "1bec7e6f-a1bc-4b71-917e-1f76ddb2e635",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Allegiant",
+      "unique-class": [
+        "Allegiant"
+      ],
+      "ability": "Friendly squadrons at distance 1-3 with BOMBER and with no other keywords except HEAVY, gain SCREEN.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc80b-cruiser-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/allegiant-title-old-legacy.webp"
+    },
+    "mon-remonda-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Mon Remonda Expansion",
+      "_id": "2232afa7-d34c-43d1-bd3a-e81f7f61195a",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Mon Remonda",
+      "unique-class": [
+        "Mon Remonda"
+      ],
+      "ability": "While defending, during the Spend Defense Tokens step, you may discard 1 command token from this card to reduce the total damage by 1.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "mc80b-cruiser-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "repair"
+        ],
+        "start_amount": 4
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/mon-remonda-title-old-legacy.webp"
+    },
+    "remember-alderaan-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Mon Remonda Expansion",
+      "_id": "bb283abc-6368-4bf7-b677-67312ea0d8da",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Mon Remonda",
+      "unique-class": [
+        "Mon Remonda"
+      ],
+      "ability": "After defending against a ship, if the attacker rerolled dice or added dice to the attack pool, that ship gains 1 Raid Token of your opponentls choice.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc80b-cruiser-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/remember-alderaan-title-old-legacy.webp"
+    },
+    "stellar-rise-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "b1f43655-eb67-440a-8a32-f067bbaeb0ad",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Stellar Rise",
+      "unique-class": [
+        "Stellar Rise"
+      ],
+      "ability": "Before you execute a maneuver, you may spend 1 defense token to increase 1 of your yaw values by 1 until the end of your activation.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "arquitens-gar-cruiser-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/stellar-rise-title-old-legacy.webp"
+    },
+    "surrogator-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "d14bcaac-6614-4f23-b2b0-a4dd11eeb786",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Surrogator",
+      "unique-class": [
+        "Surrogator"
+      ],
+      "ability": "During your activation, you may exhaust this card and choose 1 enemy ship at close range. If you do, that ship gains 1 raid token of your choice.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "arquitens-gar-cruiser-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/surrogator-title-old-legacy.webp"
+    },
+    "carrion-spike-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Republic Stealth Corvette Expansion",
+      "_id": "50d86b97-cbf1-4830-bd93-195d51a75471",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Carrion Spike",
+      "unique-class": [
+        "Carrion Spike"
+      ],
+      "ability": "While attacking a ship, before the Gather Dice Step, you may treat up to 2 dice of your battery armament as dice of any color.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "ipv-2c-corvette-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/carrion-spike-title-old-legacy.webp"
+    },
+    "procurer-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "80ab85ff-b803-46fc-8e4a-71405b91b73c",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Procurer",
+      "unique-class": [
+        "Procurer"
+      ],
+      "ability": "While deploying fleets, if you are in the play area, you may set aside up to 2 small or medium ships instead of deploying them. After deploying fleets, you may deploy those set aside ships in your deployment zone.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "lucrehulk-class-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/procurer-title-old-legacy.webp"
+    },
+    "profusion-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "d0a3b5b6-02ef-42f3-8013-86419e070986",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Profusion",
+      "unique-class": [
+        "Profusion"
+      ],
+      "ability": "While attacking a ship, you may spend up to 2 shields from any of your hull zones to reroll 1 die for each shield spent.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "lucrehulk-class-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/profusion-title-old-legacy.webp"
+    },
+    "vuuntun-palaa-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Lucrehulk Expansion",
+      "_id": "cd7b8db3-3ad4-4e82-bff4-2785da324c72",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Vuuntun Palaa",
+      "unique-class": [
+        "Vuuntun Palaa"
+      ],
+      "ability": ":squadron:: Each friendly squadron with AI that you activate gains SWARM until the end of its activation. Each friendly squadron with AI and the printed SWARM keyword that you activate gains GRIT until the end of its activation.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "lucrehulk-class-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/vuuntun-palaa-title-old-legacy.webp"
+    },
+    "grappler-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Trident Assault Ships Expansion",
+      "_id": "73743fe8-c14d-4c1b-8d3f-fb7a6d9d0822",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Grappler",
+      "unique-class": [
+        "Grappler"
+      ],
+      "ability": "After you overlap an enemy non-huge ship, you may discard this card to change its speed by 1 to a minimum of 1.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "trident-ships-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/grappler-title-old-legacy.webp"
+    },
+    "neimoidian-grasp-title-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Trident Assault Ships Expansion",
+      "_id": "5f1f80f9-608e-4ab9-b1d3-db8f552a5d5a",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Neimoidian Grasp",
+      "unique-class": [
+        "Neimoidian Grasp"
+      ],
+      "ability": "While you are defending against a ship at close range, before the Gather Dice step, you may exhaust this card to treat the attack as obstructed.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "trident-ships-old-legacy",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/neimoidian-grasp-title-old-legacy.webp"
+    },
+    "light-turbolaser-cannons-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "3838d0c2-0e56-4c6b-8aeb-80aa5cadca06",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Light Turbolaser Cannons",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While performing a non-ignition attack against a ship at long range, when the defender resolves the :evade: defense effect, if a die would be canceled, it must be rerolled instead.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/light-turbolaser-cannons-old-legacy.webp"
+    },
+    "xv9-turbolasers-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 2 Old",
+      "expansion": "Mon Remonda Expansion",
+      "_id": "83be216e-c66c-4cc0-8f8f-de761491feff",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "XV9 Turbolasers",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While performing a non-ignitionattack against a ship, you may add 1 blue die set to an :accuracy: icon to the attack pool. That icon cannot be spent to target defense tokens.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/xv9-turbolasers-old-legacy.webp"
+    },
+    "targeting-team-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Republic Light Cruiser Expansion",
+      "_id": "78b48a51-cdbc-4c31-9dd3-da05123cdd0c",
+      "type": "weapons-team",
+      "faction": [
+        ""
+      ],
+      "name": "Targeting Team",
+      "unique-class": [
+        ""
+      ],
+      "ability": "During your activation, while attacking a ship, you may reroll 1 attack die.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/targeting-team-old-legacy.webp"
+    },
+    "asajj-ventress-boarding-team-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Trident Assault Ships Expansion",
+      "_id": "3f549311-a04f-47e6-a45f-d3603591028b",
+      "type": "weapons-team-offensive-retro",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Asajj Ventress",
+      "unique-class": [
+        "Asajj Ventress"
+      ],
+      "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If you do, you may choose and discard 1 of that ships defense tokens.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/asajj-ventress-boarding-team-old-legacy.webp"
+    },
+    "bx-commando-droids-boarding-team-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 1 Old",
+      "expansion": "Trident Assault Ships Expansion",
+      "_id": "aecb29d9-5e11-4173-8f32-adbbca838fd3",
+      "type": "weapons-team-offensive-retro",
+      "faction": [
+        "separatist"
+      ],
+      "name": "BX Commando Droids",
+      "unique-class": [
+        ""
+      ],
+      "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. Remove all command tokens, chaff tokens and focus tokens from that ship.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/bx-commando-droids-boarding-team-old-legacy.webp"
     }
   }
 }
