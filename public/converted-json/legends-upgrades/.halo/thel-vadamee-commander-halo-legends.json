@@ -1,26 +1,27 @@
 {
     "upgrades": {
-        "william-adama-commander": {
+        "thel-vadamee-commander-halo-legends": {
             "author": [
-                "TacticalFox27",
-                "SpaceNavy"
+                "SpaceNavy",
+                "Link",
+                "Skyhammer"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
-            "release": "BSG Armada Legends Wave 1",
-            "expansion": "BSG Starter Set",
+            "release": "Halo Armada Legends Wave 1",
+            "expansion": "Halo Starter Set",
             "_id": null,
             "type": "commander",
             "faction": [
-                "colonial"
+                "covenant"
             ],
-            "name": "William Adama",
+            "name": "Thel Vadamee",
             "unique-class": [
-                "William Adama"
+                "Thel Vadamee"
             ],
-            "ability": "When a friendly ship reveals a command, you may reveal and discard 1 dial from this card. That ship gains a matching dial to that discarded dial.",
+            "ability": "Ships in your fleet gain Elite.\nAfter both players have finished deploying fleets, you may redeploy up to 2 small ships or 1 medium-large ship. You may also redeploy up to 2 squadrons.",
             "unique": true,
-            "points": 28,
+            "points": 25,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -42,11 +43,11 @@
                 "flagship": true
             },
             "start_command": {
-                "type": "dial",
+                "type": "",
                 "start_icon": [
-                    "any"
+                    ""
                 ],
-                "start_amount": 5
+                "start_amount": 0
             },
             "exhaust": {
                 "type": "",
@@ -56,7 +57,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://api.swarmada.wiki/images/thel-vadamee-commander-halo-legends.webp"
         }
     }
 }

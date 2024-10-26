@@ -1,7 +1,9 @@
 {
     "squadrons": {
         "squadron_name": {
-            "author": "string",
+            "author": [
+                "string"
+            ],
             "alias": "string",
             "team": "string",
             "release": "string",

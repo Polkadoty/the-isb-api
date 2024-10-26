@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "longsword-fighter-squadron": {
+        "banshee-squadron-halo-legends": {
             "author": "Armada Legends Team",
             "alias": "Legends",
             "team": "Legends",
@@ -8,16 +8,16 @@
             "expansion": "Halo Armada Legends Wave 1",
             "_id": null,
             "type": "squadron",
-            "faction": "unsc",
-            "squadron_type": "longsword-fighter-squadron",
-            "name": "Longsword Fighter Squadron",
+            "faction": "covenant",
+            "squadron_type": "banshee-squadron-halo-legends",
+            "name": "Banshee Squadron",
             "ace-name": "",
             "unique-class": [
                 ""
             ],
             "irregular": false,
-            "hull": 6,
-            "speed": 3,
+            "hull": 3,
+            "speed": 4,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
@@ -26,12 +26,12 @@
             "armament": {
                 "anti-squadron": [
                     1,
-                    3,
+                    2,
                     0
                 ],
                 "anti-ship": [
-                    1,
                     0,
+                    1,
                     0
                 ]
             },
@@ -49,22 +49,22 @@
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
             "ability": "",
             "unique": false,
             "ace": false,
-            "points": 15,
+            "points": 8,
             "silhouette": "",
             "artwork": "",
             "cardimage": ""
         },
-        "knife-26-longsword-fighter": {
+        "dalamenee-banshee-squadron-halo-legends": {
             "author": [
                 "SpaceNavy",
                 "Link",
@@ -76,30 +76,30 @@
             "expansion": "Halo Starter Set",
             "_id": null,
             "type": "squadron",
-            "faction": "unsc",
-            "squadron_type": "squadron_uid",
-            "name": "longsword-fighter-squadron",
-            "ace-name": "Knife 26",
+            "faction": "covenant",
+            "squadron_type": "banshee-squadron-halo-legends",
+            "name": "Banshee Squadron",
+            "ace-name": "Dalamenee",
             "unique-class": [
-                "Knife 26"
+                "Dalamenee"
             ],
             "irregular": false,
-            "hull": 6,
-            "speed": 3,
+            "hull": 3,
+            "speed": 4,
             "tokens": {
-                "def_scatter": 0,
+                "def_scatter": 1,
                 "def_evade": 1,
-                "def_brace": 1
+                "def_brace": 0
             },
             "armament": {
                 "anti-squadron": [
                     1,
-                    3,
+                    2,
                     0
                 ],
                 "anti-ship": [
-                    1,
                     0,
+                    1,
                     0
                 ]
             },
@@ -112,25 +112,25 @@
                 "cloak": false,
                 "counter": 0,
                 "dodge": 0,
-                "escort": true,
+                "escort": false,
                 "grit": false,
                 "heavy": false,
                 "intel": false,
                 "relay": 0,
-                "rogue": true,
+                "rogue": false,
                 "scout": false,
-                "screen": false,
+                "screen": true,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
-            "ability": "While attacking a non-unique squadron, each of your red :hit: icons adds 1 damage to the total.",
+            "ability": "Friendly squadrons with SWARM at distance 1 may reroll 1 blank red dice.",
             "unique": true,
             "ace": true,
-            "points": 20,
+            "points": 14,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/longsword-fighter-squadron.webp"
+            "cardimage": "https://api.swarmada.wiki/images/banshee-squadron-halo-legends.webp"
         }
     }
 }

@@ -1,32 +1,37 @@
 {
     "upgrades": {
-        "captain-keyes-commander": {
+        "kyber-beam-cannon-legends": {
             "author": [
                 "SpaceNavy",
-                "Link",
-                "Skyhammer"
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
-            "release": "Halo Armada Legends Wave 1",
-            "expansion": "Halo Starter Set",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
             "_id": null,
-            "type": "commander",
+            "type": "super-weapon",
             "faction": [
-                "unsc"
+                "separatist"
             ],
-            "name": "Captain Keyes",
+            "name": "Kyber Beam Cannon",
             "unique-class": [
-                "Captain Keyes"
+                ""
             ],
-            "ability": "Before a friendly ship resolves a :nav: command dial, it may discard that dial. If it does, after it performs its maneuver, it may perform a 0-speed maneuver with a yaw value of \"I\".",
-            "unique": true,
-            "points": 30,
-            "modification": false,
-            "bound_shiptype": "",
+            "ability": "Modification.\n\"Beam\" only.\nIgnition [Medium]\nTreat your special battery dice pool as 4 blue dice and 5 black dice.\nWhile performing an ignition attack, all damage cards are dealt faceup. After you perform an ignition attack, discard this card.",
+            "unique": false,
+            "points": 10,
+            "modification": true,
+            "bound_shiptype": "subjugator-class-legends",
             "restrictions": {
                 "traits": [
-                    ""
+                    "beam"
                 ],
                 "size": [
                     ""
@@ -40,7 +45,7 @@
                 "enable_upgrades": [
                     ""
                 ],
-                "flagship": true
+                "flagship": false
             },
             "start_command": {
                 "type": "",
@@ -57,7 +62,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/captain-keyes-commander.webp"
+            "cardimage": "https://api.swarmada.wiki/images/kyber-beam-cannon-legends.webp"
         }
     }
 }

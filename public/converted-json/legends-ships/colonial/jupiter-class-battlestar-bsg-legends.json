@@ -1,14 +1,14 @@
 {
     "ships": {
-        "paris-class-frigate": {
+        "jupiter-class-battlestar-bsg-legends": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "paris-class-frigate",
-            "size": "small",
-            "hull": 5,
+            "chassis_name": "jupiter-class-battlestar-bsg-legends",
+            "size": "large",
+            "hull": 12,
             "speed": {
                 "1": [
-                    2
+                    1
                 ],
                 "2": [
                     1,
@@ -16,16 +16,16 @@
                 ],
                 "3": [
                     0,
-                    2,
+                    0,
                     1
                 ],
                 "4": []
             },
             "shields": {
-                "front": 2,
-                "rear": 1,
-                "left": 1,
-                "right": 1,
+                "front": 3,
+                "rear": 2,
+                "left": 4,
+                "right": 4,
                 "left_aux": 0,
                 "right_aux": 0
             },
@@ -40,72 +40,72 @@
             "silhouette": "[link to image]",
             "blueprint": "[link to image]",
             "models": {
-                "paris-class-heavy-frigate": {
+                "jupiter-class-battlestar-mk1-bsg-legends": {
                     "author": [
-                        "SpaceNavy",
-                        "Link",
-                        "Skyhammer"
+                        "TacticalFox27",
+                        "SpaceNavy"
                     ],
                     "alias": "Legends",
                     "team": "Armada Legends",
-                    "release": "Halo Armada Legends Wave 1",
-                    "expansion": "Halo Starter Set",
+                    "release": "BSG Armada Legends Wave 1",
+                    "expansion": "BSG Starter Set",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "paris-class-frigate",
-                    "name": "Paris-class Heavy Frigate",
-                    "faction": "unsc",
+                    "chassis": "jupiter-class-battlestar-bsg-legends",
+                    "name": "Jupiter-class Battlestar MkI",
+                    "faction": "colonial",
                     "unique": false,
                     "traits": [
-                        "LMAC"
+                        ""
                     ],
-                    "points": 55,
+                    "points": 112,
                     "tokens": {
                         "def_scatter": 0,
-                        "def_evade": 1,
-                        "def_brace": 1,
+                        "def_evade": 0,
+                        "def_brace": 2,
                         "def_redirect": 0,
                         "def_contain": 1,
-                        "def_salvo": 0
+                        "def_salvo": 1
                     },
                     "values": {
-                        "command": 1,
-                        "squadron": 1,
-                        "engineer": 3
+                        "command": 3,
+                        "squadron": 5,
+                        "engineer": 5
                     },
                     "upgrades": [
                         "commander",
                         "officer",
-                        "weapons-team",
+                        "offensive-retro",
                         "defensive-retro",
+                        "fleet-command",
+                        "fleet-command",
                         "ordnance",
-                        "super-weapon",
                         "title"
                     ],
                     "armament": {
                         "asa": [
-                            0,
-                            0,
-                            1
+                            1,
+                            1,
+                            0
                         ],
                         "front": [
                             0,
-                            2,
+                            3,
                             1
                         ],
                         "rear": [
                             0,
-                            0,
+                            2,
                             1
                         ],
                         "left": [
                             0,
-                            1,
+                            6,
                             2
                         ],
                         "right": [
                             0,
-                            1,
+                            6,
                             2
                         ],
                         "left_aux": [
@@ -119,13 +119,13 @@
                             0
                         ],
                         "special": [
-                            2,
-                            1,
-                            1
+                            0,
+                            0,
+                            0
                         ]
                     },
                     "artwork": "",
-                    "cardimage": "https://api.swarmada.wiki/images/paris-class-heavy-frigate.webp"
+                    "cardimage": ""
                 }
             }
         }

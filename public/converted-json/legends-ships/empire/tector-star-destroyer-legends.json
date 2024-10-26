@@ -1,9 +1,9 @@
 {
     "ships": {
-        "jupiter-class-battlestar": {
+        "tector-star-destroyer-legends": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "jupiter-class-battlestar",
+            "chassis_name": "tector-star-destroyer-legends",
             "size": "large",
             "hull": 12,
             "speed": {
@@ -16,96 +16,99 @@
                 ],
                 "3": [
                     0,
-                    0,
+                    1,
                     1
                 ],
                 "4": []
             },
             "shields": {
-                "front": 3,
+                "front": 4,
                 "rear": 2,
-                "left": 4,
-                "right": 4,
+                "left": 3,
+                "right": 3,
                 "left_aux": 0,
                 "right_aux": 0
             },
             "hull_zones": {
                 "frontoffset": 0,
-                "centeroffset": 0,
+                "centeroffset": -10,
                 "rearoffset": 0,
-                "frontangle": 0,
+                "frontangle": 85,
                 "centerangle": 0,
-                "rearangle": 0
+                "rearangle": 100
             },
-            "silhouette": "[link to image]",
-            "blueprint": "[link to image]",
+            "silhouette": "",
+            "blueprint": "",
             "models": {
-                "jupiter-class-battlestar-mk1": {
+                "tector-class-star-destroyer-legends": {
                     "author": [
-                        "TacticalFox27",
-                        "SpaceNavy"
+                        "Arslanxelan",
+                        "Doty",
+                        "Formynder",
+                        "Trogdor",
+                        "Firekite"
                     ],
                     "alias": "Legends",
                     "team": "Armada Legends",
-                    "release": "BSG Armada Legends Wave 1",
-                    "expansion": "BSG Starter Set",
+                    "release": "Armada Legends",
+                    "expansion": "Armada Legends",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "jupiter-class-battlestar",
-                    "name": "Jupiter-class Battlestar MkI",
-                    "faction": "colonial",
-                    "unique": false,
+                    "chassis": "tector-star-destroyer-legends",
+                    "name": "Tector-class Star Destroyer",
+                    "faction": "empire",
+                    "unique": true,
                     "traits": [
-                        ""
+                        "star-destroyer"
                     ],
-                    "points": 112,
+                    "points": 127,
                     "tokens": {
                         "def_scatter": 0,
                         "def_evade": 0,
-                        "def_brace": 2,
-                        "def_redirect": 0,
+                        "def_brace": 1,
+                        "def_redirect": 2,
                         "def_contain": 1,
-                        "def_salvo": 1
+                        "def_salvo": 0
                     },
                     "values": {
                         "command": 3,
-                        "squadron": 5,
-                        "engineer": 5
+                        "squadron": 1,
+                        "engineer": 4
                     },
                     "upgrades": [
                         "commander",
                         "officer",
-                        "offensive-retro",
-                        "defensive-retro",
-                        "fleet-command",
-                        "fleet-command",
+                        "weapons-team",
                         "ordnance",
+                        "ordnance",
+                        "ion-cannon",
+                        "turbolaser",
                         "title"
                     ],
                     "armament": {
                         "asa": [
-                            1,
-                            1,
-                            0
-                        ],
-                        "front": [
                             0,
-                            3,
+                            0,
                             1
                         ],
-                        "rear": [
-                            0,
+                        "front": [
                             2,
+                            3,
+                            3
+                        ],
+                        "rear": [
+                            1,
+                            1,
                             1
                         ],
                         "left": [
-                            0,
-                            6,
+                            1,
+                            2,
                             2
                         ],
                         "right": [
-                            0,
-                            6,
+                            1,
+                            2,
                             2
                         ],
                         "left_aux": [
@@ -125,7 +128,7 @@
                         ]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://api.swarmada.wiki/images/tector-class-star-destroyer.webp"
                 }
             }
         }

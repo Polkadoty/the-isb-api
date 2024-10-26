@@ -1,26 +1,27 @@
 {
     "upgrades": {
-        "clothos-commander": {
+        "captain-keyes-commander-halo-legends": {
             "author": [
-                "TacticalFox27",
-                "SpaceNavy"
+                "SpaceNavy",
+                "Link",
+                "Skyhammer"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
-            "release": "BSG Armada Legends Wave 1",
-            "expansion": "BSG Starter Set",
+            "release": "Halo Armada Legends Wave 1",
+            "expansion": "Halo Starter Set",
             "_id": null,
             "type": "commander",
             "faction": [
-                "cylon"
+                "unsc"
             ],
-            "name": "Clothos",
+            "name": "Captain Keyes",
             "unique-class": [
-                "Clothos"
+                "Captain Keyes"
             ],
-            "ability": "When a friendly ship is defending, you may remove 1 raid token from the attacking ship to ready 1 defense token.\nWhen a friendly ship activates, you may spend raid tokens on enemy ships within distance 1-5 to resolve a matching command token. If you do so, remove that raid token from the enemy ship.",
+            "ability": "Before a friendly ship resolves a :nav: command dial, it may discard that dial. If it does, after it performs its maneuver, it may perform a 0-speed maneuver with a yaw value of \"I\".",
             "unique": true,
-            "points": 26,
+            "points": 30,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -56,7 +57,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": ""
+            "cardimage": "https://api.swarmada.wiki/images/captain-keyes-commander-halo-legends.webp"
         }
     }
 }

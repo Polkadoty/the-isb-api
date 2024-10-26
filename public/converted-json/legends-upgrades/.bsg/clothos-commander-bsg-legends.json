@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "clothos-commander-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "cylon"
+            ],
+            "name": "Clothos",
+            "unique-class": [
+                "Clothos"
+            ],
+            "ability": "When a friendly ship is defending, you may remove 1 raid token from the attacking ship to ready 1 defense token.\nWhen a friendly ship activates, you may spend raid tokens on enemy ships within distance 1-5 to resolve a matching command token. If you do so, remove that raid token from the enemy ship.",
+            "unique": true,
+            "points": 26,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": true
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

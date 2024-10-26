@@ -1,6 +1,6 @@
 {
   "squadrons": {
-    "cx-dagger-vessel": {
+    "cx-dagger-vessel-legends": {
       "author": "ForestEXE",
       "alias": "Forest",
       "team": "Armada Legends",
@@ -9,7 +9,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "cx-dagger-vessel",
+      "squadron_type": "cx-dagger-vessel-legends",
       "name": "CX Dagger Vessel",
       "ace-name": "",
       "unique-class": [
@@ -61,9 +61,9 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel.webp"
+      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel-legends.webp"
     },
-    "cx2-cx-dagger-vessel": {
+    "cx2-cx-dagger-vessel-legends": {
       "author": "ForestEXE",
       "alias": "Forest",
       "team": "Armada Legends",
@@ -72,7 +72,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "cx-dagger-vessel",
+      "squadron_type": "cx-dagger-vessel-legends",
       "name": "CX Dagger Vessel",
       "ace-name": "CX-2",
       "unique-class": [
@@ -124,7 +124,7 @@
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel.webp"
+      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel-legends.webp"
     }
   }
 }

@@ -1,29 +1,34 @@
 {
     "upgrades": {
-        "thel-vadamee-commander": {
+        "devastation-title-legends": {
             "author": [
                 "SpaceNavy",
-                "Link",
-                "Skyhammer"
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
-            "release": "Halo Armada Legends Wave 1",
-            "expansion": "Halo Starter Set",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
             "_id": null,
-            "type": "commander",
+            "type": "title",
             "faction": [
-                "covenant"
+                "separatist"
             ],
-            "name": "Thel Vadamee",
+            "name": "Devastation",
             "unique-class": [
-                "Thel Vadamee"
+                "Devastation"
             ],
-            "ability": "Ships in your fleet gain Elite.\nAfter both players have finished deploying fleets, you may redeploy up to 2 small ships or 1 medium-large ship. You may also redeploy up to 2 squadrons.",
+            "ability": "Beam only.\nWhen you would discard a :super-weapon: card on the equipped ship, you may discard this card instead.",
             "unique": true,
-            "points": 25,
-            "modification": false,
-            "bound_shiptype": "",
+            "points": 5,
+            "modification": true,
+            "bound_shiptype": "subjugator-class-legends",
             "restrictions": {
                 "traits": [
                     ""
@@ -40,7 +45,7 @@
                 "enable_upgrades": [
                     ""
                 ],
-                "flagship": true
+                "flagship": false
             },
             "start_command": {
                 "type": "",
@@ -57,7 +62,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/thel-vadamee-commander.webp"
+            "cardimage": "https://api.swarmada.wiki/images/devastation-title-legends.webp"
         }
     }
 }

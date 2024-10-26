@@ -1,6 +1,6 @@
 {
     "squadrons": {
-        "viper-mk2-squadron": {
+        "war-raider-squadron-bsg-legends": {
             "author": [
                 "TacticalFox27",
                 "SpaceNavy"
@@ -12,15 +12,15 @@
             "_id": null,
             "type": "squadron",
             "faction": "cylon",
-            "squadron_type": "viper-mk2-squadron",
-            "name": "Viper MkII Squadron",
+            "squadron_type": "war-raider-squadron-bsg-legends",
+            "name": "War Raider Squadron",
             "ace-name": "",
             "unique-class": [
                 ""
             ],
             "irregular": false,
-            "hull": 3,
-            "speed": 5,
+            "hull": 4,
+            "speed": 4,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
@@ -28,24 +28,24 @@
             },
             "armament": {
                 "anti-squadron": [
-                    0,
-                    3,
+                    1,
+                    1,
                     0
                 ],
                 "anti-ship": [
                     0,
-                    0,
-                    1
+                    1,
+                    0
                 ]
             },
             "abilities": {
                 "adept": 0,
                 "ai-battery": 0,
-                "ai-antisquadron": 0,
+                "ai-antisquadron": 1,
                 "assault": false,
                 "bomber": false,
                 "cloak": false,
-                "counter": 1,
+                "counter": 0,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
@@ -62,7 +62,7 @@
             "ability": "",
             "unique": false,
             "ace": false,
-            "points": 11,
+            "points": 10,
             "silhouette": "",
             "artwork": "",
             "cardimage": ""

@@ -36,7 +36,9 @@
             "blueprint": "[link to image]",
             "models": {
                 "model_name": {
-                    "author": "UID",
+                    "author": [
+                        "UID"
+                    ],
                     "alias": "string",
                     "team": "string",
                     "release": "string",
