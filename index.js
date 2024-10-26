@@ -20,6 +20,8 @@ import oldLegacyShipRoutes from './routes/oldLegacyShipRoutes.js';
 import oldLegacySquadronRoutes from './routes/oldLegacySquadronRoutes.js';
 import oldLegacyUpgradeRoutes from './routes/oldLegacyUpgradeRoutes.js';
 
+import aliasRoutes from './routes/aliasRoutes.js';
+
 const app = express();
 const PORT = process.env.PORT || 4000;
 
@@ -48,6 +50,8 @@ app.use('/old-legacy/ships', oldLegacyShipRoutes);
 app.use('/old-legacy/squadrons', oldLegacySquadronRoutes);
 app.use('/old-legacy/upgrades', oldLegacyUpgradeRoutes);
 
+// Add this line with your other app.use statements
+app.use('/aliases', aliasRoutes);
 
 app.use(errorHandler);
 
