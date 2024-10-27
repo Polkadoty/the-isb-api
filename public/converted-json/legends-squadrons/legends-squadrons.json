@@ -1,15 +1,15 @@
 {
   "squadrons": {
-    "cx-dagger-vessel": {
+    "cx-dagger-vessel-legends": {
       "author": "ForestEXE",
       "alias": "Legends",
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "2cc65a03-e422-4469-9369-21e677bb26b6",
+      "_id": "ad01ff67-593a-4503-b770-260ea36fd9ba",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "cx-dagger-vessel",
+      "squadron_type": "cx-dagger-vessel-legends",
       "name": "CX Dagger Vessel",
       "ace-name": "",
       "unique-class": [
@@ -61,18 +61,18 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel.webp"
+      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel-legends.webp"
     },
-    "cx2-cx-dagger-vessel": {
+    "cx2-cx-dagger-vessel-legends": {
       "author": "ForestEXE",
       "alias": "Legends",
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "913b7514-08a1-4b39-855a-b7eedee9ba86",
+      "_id": "2c536684-dbf6-4ed4-8d95-ac879b1a2938",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "cx-dagger-vessel",
+      "squadron_type": "cx-dagger-vessel-legends",
       "name": "CX Dagger Vessel",
       "ace-name": "CX-2",
       "unique-class": [
@@ -124,9 +124,9 @@
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel.webp"
+      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel-legends.webp"
     },
-    "tie-punisher-squadron": {
+    "tie-punisher-squadron-legends": {
       "author": [
         "Cpt Qirk"
       ],
@@ -134,10 +134,10 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "ec2ee8ae-6d1c-4856-bc60-4c21e77df538",
+      "_id": "a5b8cb06-48aa-4a12-94ca-a366785e8434",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "tie-punisher-squadron",
+      "squadron_type": "tie-punisher-squadron-legends",
       "name": "TIE Punisher Squadron",
       "ace-name": "",
       "unique-class": [
@@ -189,9 +189,9 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tie-punisher-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/tie-punisher-squadron-legends.webp"
     },
-    "deathrain-tie-punisher-squadron": {
+    "deathrain-tie-punisher-squadron-legends": {
       "author": [
         "Cpt Qirk"
       ],
@@ -199,10 +199,10 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "f42a6ed9-e197-4570-963a-c2984bdd1f96",
+      "_id": "2c248779-31e7-410a-84ea-02c6ad710c0a",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "tie-punisher-squadron",
+      "squadron_type": "tie-punisher-squadron-legends",
       "name": "TIE Punisher Squadron",
       "ace-name": "Deathrain",
       "unique-class": [
@@ -254,9 +254,9 @@
       "points": 25,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/deathrain-tie-punisher-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/deathrain-tie-punisher-squadron-legends.webp"
     },
-    "redline-tie-punisher-squadron": {
+    "redline-tie-punisher-squadron-legends": {
       "author": [
         "Cpt Qirk"
       ],
@@ -264,10 +264,10 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "16db46f2-a3fd-4750-8d12-963b338e57d9",
+      "_id": "5066bffb-b899-4456-9163-50ac5d477490",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "tie-punisher-squadron",
+      "squadron_type": "tie-punisher-squadron-legends",
       "name": "TIE Punisher Squadron",
       "ace-name": "Redline",
       "unique-class": [
@@ -319,9 +319,9 @@
       "points": 22,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/redline-tie-punisher-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/redline-tie-punisher-squadron-legends.webp"
     },
-    "xg1-starwing-squadron": {
+    "xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -329,10 +329,10 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "3d4f0238-2be7-4480-8368-bbc0020e65c7",
+      "_id": "c22662fd-569a-443d-a8b2-e2855fcb7747",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
       "ace-name": "",
       "unique-class": [
@@ -384,9 +384,9 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/xg1-starwing-squadron-legends.webp"
     },
-    "vynder-xg1-starwing-squadron": {
+    "vynder-xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -394,10 +394,10 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "7a7dfb13-41fa-4ba4-99f7-832ee1187d80",
+      "_id": "2de1f641-180d-4a23-a596-4af0a6d6a58d",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
       "ace-name": "Major Vynder",
       "unique-class": [
@@ -449,9 +449,9 @@
       "points": 20,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/vynder-xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/vynder-xg1-starwing-squadron-legends.webp"
     },
-    "karsabi-xg1-starwing-squadron": {
+    "karsabi-xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -459,14 +459,14 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "6a4e28f9-57c5-4e16-86bb-b8a57a23fa83",
+      "_id": "b704178e-8e95-4672-8075-4c4dde1798d0",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
-      "ace-name": "Major Vynder",
+      "ace-name": "Lieutenant Karasabi",
       "unique-class": [
-        "Major Vynder"
+        "Lieutenant Karasabi"
       ],
       "irregular": false,
       "hull": 5,
@@ -514,9 +514,9 @@
       "points": 21,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/karsabi-xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/karsabi-xg1-starwing-squadron-legends.webp"
     },
-    "tau-squadron-xg1-starwing-squadron": {
+    "tau-squadron-xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -524,10 +524,10 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "fd3f183b-eeeb-45a1-8b25-5c5884bca23e",
+      "_id": "86e3f7a4-f6ef-4c1a-95d6-d6ebe355080b",
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
       "ace-name": "Tau Squadron",
       "unique-class": [
@@ -579,7 +579,7 @@
       "points": 18,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron-legends.webp"
     }
   }
 }

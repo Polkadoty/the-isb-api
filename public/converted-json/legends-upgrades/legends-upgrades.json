@@ -1,6 +1,266 @@
 {
   "upgrades": {
-    "condor-title": {
+    "sai-sircu-officer-legends": {
+      "author": [
+        "SpaceNavy",
+        "Doty",
+        "Arslanxelan",
+        "Trogdor",
+        "TwoShotOtter",
+        "Pulsipher",
+        "Daimyousagi",
+        "ChandraRevane",
+        "Memnoch1234"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends Subjugator Expansion",
+      "_id": "21a5a3cd-5efd-4982-b5de-e1b93aa5d1d3",
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Sai Sircu",
+      "unique-class": [
+        "Sai Sircu"
+      ],
+      "ability": "While attacking a ship at distance 1-5 of another friendly ship, you may deal 1 damage to any hull zone on that friendly ship to change 1 blank die to a side with a :crit: icon.",
+      "unique": true,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/sai-sircu-officer-legends.webp"
+    },
+    "ion-pulse-emitter-legends": {
+      "author": [
+        "SpaceNavy",
+        "Doty",
+        "Arslanxelan",
+        "Trogdor",
+        "TwoShotOtter",
+        "Pulsipher",
+        "Daimyousagi",
+        "ChandraRevane",
+        "Memnoch1234"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends Subjugator Expansion",
+      "_id": "92984c32-3de3-4a8c-b114-d89be1242c1a",
+      "type": "super-weapon",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Ion Pulse Emitter",
+      "unique-class": [
+        "ion"
+      ],
+      "ability": "Modification.\nIgnition [Long]\nWhen you perform an ignition attack, you may exhaust this card and spend a defense token. If you do, after the modify dice step, discard all attack dice. For each matching die face, resolve the following effects:\n:hit:: The defending hull zone loses 1 shield.\n:crit:: Each hull zone adjacent to the defending hull zone loses 1 shield.",
+      "unique": false,
+      "points": 7,
+      "modification": true,
+      "bound_shiptype": "subjugator-class-legends",
+      "restrictions": {
+        "traits": [
+          "beam"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "confire"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ion-pulse-emitter-legends.webp"
+    },
+    "ionic-plasma-rotors-legends": {
+      "author": [
+        "SpaceNavy",
+        "Doty",
+        "Arslanxelan",
+        "Trogdor",
+        "TwoShotOtter",
+        "Pulsipher",
+        "Daimyousagi",
+        "ChandraRevane",
+        "Memnoch1234"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends Subjugator Expansion",
+      "_id": "fbc52f64-ee6d-4704-94d9-a70768e0f6ee",
+      "type": "super-weapon",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Ion Pulse Emitter",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification.\nIgnition [Long]\nIgnition,:crit:: Toggle the activation slider for each squadron within distance 1-2 of the defender to the activated side.",
+      "unique": false,
+      "points": 6,
+      "modification": true,
+      "bound_shiptype": "subjugator-class-legends",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "confire"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ionic-plasma-rotors-legends.webp"
+    },
+    "kyber-beam-cannon-legends": {
+      "author": [
+        "SpaceNavy",
+        "Doty",
+        "Arslanxelan",
+        "Trogdor",
+        "TwoShotOtter",
+        "Pulsipher",
+        "Daimyousagi",
+        "ChandraRevane",
+        "Memnoch1234"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends Subjugator Expansion",
+      "_id": "898c6519-a218-497a-a27d-7ce6532c0884",
+      "type": "super-weapon",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Kyber Beam Cannon",
+      "unique-class": [
+        "beam"
+      ],
+      "ability": "Modification. \"Beam\" only.\nIgnition [Medium]\nTreat your special battery dice pool as 4 blue dice and 5 black dice.\nWhile performing an ignition attack, all damage cards are dealt faceup. After you perform an ignition attack, discard this card.",
+      "unique": false,
+      "points": 10,
+      "modification": true,
+      "bound_shiptype": "subjugator-class-legends",
+      "restrictions": {
+        "traits": [
+          "beam"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "confire"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kyber-beam-cannon-legends.webp"
+    },
+    "condor-title-legends": {
       "author": [
         "Skyhammer"
       ],
@@ -8,7 +268,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "e21ddc35-1953-47ba-8cb5-677830ffb0ab",
+      "_id": "41c5d629-7719-461c-8a94-7b81a0470704",
       "type": "title",
       "faction": [
         "rebel"
@@ -21,7 +281,7 @@
       "unique": true,
       "points": 12,
       "modification": false,
-      "bound_shiptype": "mc40a-light",
+      "bound_shiptype": "mc40a-light-legends",
       "restrictions": {
         "traits": [
           ""
@@ -55,9 +315,9 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/condor-title.webp"
+      "cardimage": "https://api.swarmada.wiki/images/condor-title-legends.webp"
     },
-    "lulsla-title": {
+    "lulsla-title-legends": {
       "author": [
         "Skyhammer"
       ],
@@ -65,7 +325,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "259b44e0-1c28-4458-a1cd-e22a740672fa",
+      "_id": "e82b58c3-630d-404b-9886-2b04bb2168ad",
       "type": "title",
       "faction": [
         "rebel"
@@ -78,7 +338,7 @@
       "unique": true,
       "points": 8,
       "modification": false,
-      "bound_shiptype": "mc40a-light",
+      "bound_shiptype": "mc40a-light-legends",
       "restrictions": {
         "traits": [
           ""
@@ -112,9 +372,9 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/lulsla-title.webp"
+      "cardimage": "https://api.swarmada.wiki/images/lulsla-title-legends.webp"
     },
-    "shadow-title": {
+    "shadow-title-legends": {
       "author": [
         "Skyhammer"
       ],
@@ -122,7 +382,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "eaf895ea-68db-4b93-af58-d76d9eefde05",
+      "_id": "7e204af5-8111-4fe5-a447-7477ed6dd5d9",
       "type": "title",
       "faction": [
         "rebel"
@@ -135,7 +395,7 @@
       "unique": true,
       "points": 7,
       "modification": false,
-      "bound_shiptype": "mc40a-light",
+      "bound_shiptype": "mc40a-light-legends",
       "restrictions": {
         "traits": [
           ""
@@ -169,7 +429,202 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/shadow-title.webp"
+      "cardimage": "https://api.swarmada.wiki/images/shadow-title-legends.webp"
+    },
+    "devastation-title-legends": {
+      "author": [
+        "SpaceNavy",
+        "Doty",
+        "Arslanxelan",
+        "Trogdor",
+        "TwoShotOtter",
+        "Pulsipher",
+        "Daimyousagi",
+        "ChandraRevane",
+        "Memnoch1234"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends Subjugator Expansion",
+      "_id": "cfa9b483-c1d5-476c-a5ad-a843bfedd9f2",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Devastation",
+      "unique-class": [
+        "Devastation"
+      ],
+      "ability": "Beam only.\nWhen you would discard a :super-weapon: card on the equipped ship, you may discard this card instead.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "subjugator-class-legends",
+      "restrictions": {
+        "traits": [
+          "beam"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/devastation-title-legends.webp"
+    },
+    "subjugator-title-legends": {
+      "author": [
+        "SpaceNavy",
+        "Doty",
+        "Arslanxelan",
+        "Trogdor",
+        "TwoShotOtter",
+        "Pulsipher",
+        "Daimyousagi",
+        "ChandraRevane",
+        "Memnoch1234"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends Subjugator Expansion",
+      "_id": "75bdcba6-648c-43b1-8109-ea27aa4882d4",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Subjugator",
+      "unique-class": [
+        "Subjugator"
+      ],
+      "ability": "At the end of the status phase, you may either exhaust 1 defense token to flip a damage card facedown, or you may discard a defense token to discard 1 damage card.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "subjugator-class-legends",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/subjugator-title-legends.webp"
+    },
+    "malevolence-title-legends": {
+      "author": [
+        "SpaceNavy",
+        "Doty",
+        "Arslanxelan",
+        "Trogdor",
+        "TwoShotOtter",
+        "Pulsipher",
+        "Daimyousagi",
+        "ChandraRevane",
+        "Memnoch1234"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends Subjugator Expansion",
+      "_id": "4fd6bd7c-74aa-4f71-a2d4-cd0c7063a515",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Devastation",
+      "unique-class": [
+        "Devastation"
+      ],
+      "ability": "Ion only.\nIgnition,:crit:: Cancel all attack dice and reduce the defender's speed to 0, then discard this card.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "subjugator-class-legends",
+      "restrictions": {
+        "traits": [
+          "ion"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/malevolence-title-legends.webp"
     }
   }
 }

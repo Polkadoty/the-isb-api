@@ -1,9 +1,9 @@
 {
   "ships": {
-    "tector-star-destroyer": {
-      "_id": "25fcb192-85fb-45de-8b5c-9bb1ae5d4aa3",
+    "tector-star-destroyer-legends": {
+      "_id": "d498fd6f-867e-4aa8-aaaf-a493a66343e3",
       "type": "chassis",
-      "chassis_name": "tector-star-destroyer",
+      "chassis_name": "tector-star-destroyer-legends",
       "size": "large",
       "hull": 12,
       "speed": {
@@ -40,7 +40,7 @@
       "silhouette": "",
       "blueprint": "",
       "models": {
-        "tector-class-star-destroyer": {
+        "tector-class-star-destroyer-legends": {
           "author": [
             "Arslanxelan",
             "Doty",
@@ -52,9 +52,9 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "a43a7e9e-6535-446e-a7ea-89994a485fbc",
+          "_id": "14be24de-6db9-4f0a-9c37-0b3d956c0d42",
           "type": "ship",
-          "chassis": "tector-star-destroyer",
+          "chassis": "tector-star-destroyer-legends",
           "name": "Tector-class Star Destroyer",
           "faction": "empire",
           "unique": true,
@@ -128,14 +128,14 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/tector-class-star-destroyer.webp"
+          "cardimage": "https://api.swarmada.wiki/images/tector-class-star-destroyer-legends.webp"
         }
       }
     },
-    "mc40a-light": {
-      "_id": "f71b7051-cdd4-4dce-9beb-b2b2184bc8ce",
+    "mc40a-light-legends": {
+      "_id": "845dd554-7379-4277-ae39-d3cdfd33967a",
       "type": "chassis",
-      "chassis_name": "mc40a-light",
+      "chassis_name": "mc40a-light-legends",
       "size": "medium",
       "hull": 6,
       "speed": {
@@ -172,7 +172,7 @@
       "silhouette": "",
       "blueprint": "",
       "models": {
-        "mc40a-light-escort-carrier": {
+        "mc40a-light-escort-carrier-legends": {
           "author": [
             "Skyhammer"
           ],
@@ -180,9 +180,9 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "2ddedf81-b52b-42d9-b92b-d129c4d10505",
+          "_id": "e61b03cb-8872-4eaf-8781-0294cbc83331",
           "type": "ship",
-          "chassis": "mc40a-light",
+          "chassis": "mc40a-light-legends",
           "name": "MC40a Light Escort Carrier",
           "faction": "rebel",
           "unique": false,
@@ -255,9 +255,9 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-escort-carrier.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-escort-carrier-legends.webp"
         },
-        "mc40a-light-cruiser": {
+        "mc40a-light-cruiser-legends": {
           "author": [
             "Skyhammer"
           ],
@@ -265,9 +265,9 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "58087833-0fef-4970-afd0-34f4d1cd11b0",
+          "_id": "79dff256-a1c4-411a-aa1a-97db35bdc588",
           "type": "ship",
-          "chassis": "mc40a-light",
+          "chassis": "mc40a-light-legends",
           "name": "MC40a Light Cruiser",
           "faction": "rebel",
           "unique": false,
@@ -340,7 +340,341 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-cruiser.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends.webp"
+        }
+      }
+    },
+    "subjugator-class-legends": {
+      "_id": "0d27e857-ed2a-417f-adbd-0aa89bf35f78",
+      "type": "chassis",
+      "chassis_name": "subjugator-class-legends",
+      "size": "huge",
+      "hull": 17,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          0,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 5,
+        "rear": 2,
+        "left": 4,
+        "right": 4,
+        "left_aux": 3,
+        "right_aux": 3
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "subjugator-class-prototype-legends": {
+          "author": [
+            "SpaceNavy",
+            "Doty",
+            "Arslanxelan",
+            "Trogdor",
+            "TwoShotOtter",
+            "Pulsipher",
+            "Daimyousagi",
+            "ChandraRevane",
+            "Memnoch1234"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Armada Legends",
+          "expansion": "Armada Legends Subjugator Expansion",
+          "_id": "3167bf81-19c2-422d-ad67-0b8beaa4fe8e",
+          "type": "ship",
+          "chassis": "subjugator-class-legends",
+          "name": "Subjugator-class Prototype",
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "droid"
+          ],
+          "points": 240,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 4,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "officer",
+            "fleet-command",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              1,
+              0
+            ],
+            "front": [
+              4,
+              2,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              2,
+              2,
+              2
+            ],
+            "right": [
+              2,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              2,
+              1
+            ],
+            "right_aux": [
+              0,
+              2,
+              1
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/subjugator-class-prototype-legends.webp"
+        },
+        "subjugator-class-testbed-legends": {
+          "author": [
+            "SpaceNavy",
+            "Doty",
+            "Arslanxelan",
+            "Trogdor",
+            "TwoShotOtter",
+            "Pulsipher",
+            "Daimyousagi",
+            "ChandraRevane",
+            "Memnoch1234"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Armada Legends",
+          "expansion": "Armada Legends Subjugator Expansion",
+          "_id": "11773d23-d38a-4682-8c94-4a410af05ae3",
+          "type": "ship",
+          "chassis": "subjugator-class-legends",
+          "name": "Subjugator-class Testbed",
+          "faction": "separatist",
+          "unique": true,
+          "traits": [
+            "droid",
+            "beam"
+          ],
+          "points": 225,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 4,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "turbolaser",
+            "turbolaser",
+            "ion-cannon",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              0,
+              1
+            ],
+            "front": [
+              5,
+              2,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              3,
+              1,
+              1
+            ],
+            "right": [
+              3,
+              1,
+              1
+            ],
+            "left_aux": [
+              1,
+              1,
+              1
+            ],
+            "right_aux": [
+              1,
+              1,
+              1
+            ],
+            "special": [
+              2,
+              0,
+              2
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/subjugator-class-testbed-legends.webp"
+        },
+        "subjugator-class-heavy-cruiser-legends": {
+          "author": [
+            "SpaceNavy",
+            "Doty",
+            "Arslanxelan",
+            "Trogdor",
+            "TwoShotOtter",
+            "Pulsipher",
+            "Daimyousagi",
+            "ChandraRevane",
+            "Memnoch1234"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Armada Legends",
+          "expansion": "Armada Legends Subjugator Expansion",
+          "_id": "3e621e63-a379-4619-a97e-da922dcd516a",
+          "type": "ship",
+          "chassis": "subjugator-class-legends",
+          "name": "Subjugator-class Heavy Cruiser",
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "droid",
+            "ion"
+          ],
+          "points": 225,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 4,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "turbolaser",
+            "ion-cannon",
+            "ion-cannon",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              4,
+              3,
+              1
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              2,
+              2,
+              1
+            ],
+            "right": [
+              2,
+              2,
+              1
+            ],
+            "left_aux": [
+              2,
+              1,
+              0
+            ],
+            "right_aux": [
+              2,
+              1,
+              0
+            ],
+            "special": [
+              1,
+              2,
+              1
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/subjugator-class-heavy-cruiser-legends.webp"
         }
       }
     }
