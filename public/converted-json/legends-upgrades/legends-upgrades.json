@@ -16,7 +16,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "21a5a3cd-5efd-4982-b5de-e1b93aa5d1d3",
+      "_id": "058f2405-d38e-4bf3-8b85-081b1af04706",
       "type": "officer",
       "faction": [
         "separatist"
@@ -81,14 +81,14 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "92984c32-3de3-4a8c-b114-d89be1242c1a",
+      "_id": "3231e8a5-a0d4-4b7f-81b6-d6c295d76699",
       "type": "super-weapon",
       "faction": [
         "separatist"
       ],
       "name": "Ion Pulse Emitter",
       "unique-class": [
-        "ion"
+        ""
       ],
       "ability": "Modification.\nIgnition [Long]\nWhen you perform an ignition attack, you may exhaust this card and spend a defense token. If you do, after the modify dice step, discard all attack dice. For each matching die face, resolve the following effects:\n:hit:: The defending hull zone loses 1 shield.\n:crit:: Each hull zone adjacent to the defending hull zone loses 1 shield.",
       "unique": false,
@@ -97,7 +97,7 @@
       "bound_shiptype": "subjugator-class-legends",
       "restrictions": {
         "traits": [
-          "beam"
+          "ion"
         ],
         "size": [
           ""
@@ -146,7 +146,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "fbc52f64-ee6d-4704-94d9-a70768e0f6ee",
+      "_id": "7d8cf895-046e-477c-89ad-be90734ec1d9",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -211,14 +211,14 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "898c6519-a218-497a-a27d-7ce6532c0884",
+      "_id": "df44494e-0f3b-4752-b7d5-fc03c23f36ec",
       "type": "super-weapon",
       "faction": [
         "separatist"
       ],
       "name": "Kyber Beam Cannon",
       "unique-class": [
-        "beam"
+        ""
       ],
       "ability": "Modification. \"Beam\" only.\nIgnition [Medium]\nTreat your special battery dice pool as 4 blue dice and 5 black dice.\nWhile performing an ignition attack, all damage cards are dealt faceup. After you perform an ignition attack, discard this card.",
       "unique": false,
@@ -268,7 +268,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "41c5d629-7719-461c-8a94-7b81a0470704",
+      "_id": "e193c228-8582-42a3-9998-f5353b65c0fb",
       "type": "title",
       "faction": [
         "rebel"
@@ -325,7 +325,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "e82b58c3-630d-404b-9886-2b04bb2168ad",
+      "_id": "989aaada-f9a1-42cc-8f7d-9baad6ec17b4",
       "type": "title",
       "faction": [
         "rebel"
@@ -382,7 +382,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "7e204af5-8111-4fe5-a447-7477ed6dd5d9",
+      "_id": "0b567dbe-17a7-4c55-8bb7-a18ce63549ea",
       "type": "title",
       "faction": [
         "rebel"
@@ -447,7 +447,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "cfa9b483-c1d5-476c-a5ad-a843bfedd9f2",
+      "_id": "f17b76b8-6471-4517-8e17-22cf722ea36c",
       "type": "title",
       "faction": [
         "separatist"
@@ -512,7 +512,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "75bdcba6-648c-43b1-8109-ea27aa4882d4",
+      "_id": "8cf8cfce-00b6-45fb-b0eb-2e7f20e62615",
       "type": "title",
       "faction": [
         "separatist"
@@ -577,14 +577,14 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "4fd6bd7c-74aa-4f71-a2d4-cd0c7063a515",
+      "_id": "933b60f8-5bb6-4f09-baeb-2e8655735273",
       "type": "title",
       "faction": [
         "separatist"
       ],
-      "name": "Devastation",
+      "name": "Malevolence",
       "unique-class": [
-        "Devastation"
+        "Malevolence"
       ],
       "ability": "Ion only.\nIgnition,:crit:: Cancel all attack dice and reduce the defender's speed to 0, then discard this card.",
       "unique": true,
