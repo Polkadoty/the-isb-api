@@ -19,7 +19,7 @@
       "ability": "While defending, after the attacker gathers dice, you may spend 1 :brace: token. If you do, choose and remove half of the dice in the attack pool, rounded down.",
       "unique": false,
       "points": 5,
-      "modification": true,
+      "modification": false,
       "bound_shiptype": "",
       "restrictions": {
         "traits": [
