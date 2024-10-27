@@ -23,7 +23,7 @@
             ],
             "name": "Ion Pulse Emitter",
             "unique-class": [
-                "ion"
+                ""
             ],
             "ability": "Modification.\nIgnition [Long]\nWhen you perform an ignition attack, you may exhaust this card and spend a defense token. If you do, after the modify dice step, discard all attack dice. For each matching die face, resolve the following effects:\n:hit:: The defending hull zone loses 1 shield.\n:crit:: Each hull zone adjacent to the defending hull zone loses 1 shield.",
             "unique": false,
@@ -32,7 +32,7 @@
             "bound_shiptype": "subjugator-class-legends",
             "restrictions": {
                 "traits": [
-                    "beam"
+                    "ion"
                 ],
                 "size": [
                     ""
