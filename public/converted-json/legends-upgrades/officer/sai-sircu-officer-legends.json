@@ -1,27 +1,33 @@
 {
     "upgrades": {
-        "thel-vadamee-commander-halo-legends": {
+        "sai-sircu-officer-legends": {
             "author": [
                 "SpaceNavy",
-                "Link",
-                "Skyhammer"
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane",
+                "Memnoch1234"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
-            "release": "Halo Armada Legends Wave 1",
-            "expansion": "Halo Starter Set",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
             "_id": null,
-            "type": "commander",
+            "type": "officer",
             "faction": [
-                "covenant"
+                "separatist"
             ],
-            "name": "Thel Vadamee",
+            "name": "Sai Sircu",
             "unique-class": [
-                "Thel Vadamee"
+                "Sai Sircu"
             ],
-            "ability": "Ships in your fleet gain Elite.\nAfter both players have finished deploying fleets, you may redeploy up to 2 small ships or 1 medium-large ship. You may also redeploy up to 2 squadrons.",
+            "ability": "While attacking a ship at distance 1-5 of another friendly ship, you may deal 1 damage to any hull zone on that friendly ship to change 1 blank die to a side with a :crit: icon.",
             "unique": true,
-            "points": 25,
+            "points": 9,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -40,7 +46,7 @@
                 "enable_upgrades": [
                     ""
                 ],
-                "flagship": true
+                "flagship": false
             },
             "start_command": {
                 "type": "",
@@ -57,7 +63,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/thel-vadamee-commander-halo-legends.webp"
+            "cardimage": "https://api.swarmada.wiki/images/sai-sircu-officer-legends.webp"
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "squadrons": {
-    "xg1-starwing-squadron": {
+    "xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -11,7 +11,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
       "ace-name": "",
       "unique-class": [
@@ -63,9 +63,9 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/xg1-starwing-squadron-legends.webp"
     },
-    "vynder-xg1-starwing-squadron": {
+    "vynder-xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -76,7 +76,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
       "ace-name": "Major Vynder",
       "unique-class": [
@@ -128,9 +128,9 @@
       "points": 20,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/vynder-xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/vynder-xg1-starwing-squadron-legends.webp"
     },
-    "karsabi-xg1-starwing-squadron": {
+    "karsabi-xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -141,11 +141,11 @@
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
-      "ace-name": "Major Vynder",
+      "ace-name": "Lieutenant Karasabi",
       "unique-class": [
-        "Major Vynder"
+        "Lieutenant Karasabi"
       ],
       "irregular": false,
       "hull": 5,
@@ -193,9 +193,9 @@
       "points": 21,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/karsabi-xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/karsabi-xg1-starwing-squadron-legends.webp"
     },
-    "tau-squadron-xg1-starwing-squadron": {
+    "tau-squadron-xg1-starwing-squadron-legends": {
       "author": [
         "Arslanxelan"
       ],
@@ -206,7 +206,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "xg1-starwing-squadron",
+      "squadron_type": "xg1-starwing-squadron-legends",
       "name": "XG-1 Star Wing Squadron",
       "ace-name": "Tau Squadron",
       "unique-class": [
@@ -258,7 +258,7 @@
       "points": 18,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron.webp"
+      "cardimage": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron-legends.webp"
     }
   }
 }

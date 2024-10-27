@@ -1,11 +1,11 @@
 {
     "ships": {
-        "jupiter-class-battlestar": {
+        "ccs-class-cruiser-halo-legends": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "jupiter-class-battlestar",
+            "chassis_name": "ccs-class-cruiser-halo-legends",
             "size": "large",
-            "hull": 12,
+            "hull": 8,
             "speed": {
                 "1": [
                     1
@@ -15,7 +15,7 @@
                     1
                 ],
                 "3": [
-                    0,
+                    1,
                     0,
                     1
                 ],
@@ -23,7 +23,7 @@
             },
             "shields": {
                 "front": 3,
-                "rear": 2,
+                "rear": 3,
                 "left": 4,
                 "right": 4,
                 "left_aux": 0,
@@ -40,73 +40,74 @@
             "silhouette": "[link to image]",
             "blueprint": "[link to image]",
             "models": {
-                "jupiter-class-battlestar-mk1": {
+                "ccs-class-command-cruiser-halo-legends": {
                     "author": [
-                        "TacticalFox27",
-                        "SpaceNavy"
+                        "SpaceNavy",
+                        "Link",
+                        "Skyhammer"
                     ],
                     "alias": "Legends",
                     "team": "Armada Legends",
-                    "release": "BSG Armada Legends Wave 1",
-                    "expansion": "BSG Starter Set",
+                    "release": "Halo Armada Legends Wave 1",
+                    "expansion": "Halo Starter Set",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "jupiter-class-battlestar",
-                    "name": "Jupiter-class Battlestar MkI",
-                    "faction": "colonial",
+                    "chassis": "ccs-class-cruiser-halo-legends",
+                    "name": "CCS-class Command Cruiser",
+                    "faction": "covenant",
                     "unique": false,
                     "traits": [
-                        ""
+                        "Lance"
                     ],
-                    "points": 112,
+                    "points": 105,
                     "tokens": {
                         "def_scatter": 0,
                         "def_evade": 0,
-                        "def_brace": 2,
-                        "def_redirect": 0,
-                        "def_contain": 1,
+                        "def_brace": 1,
+                        "def_redirect": 2,
+                        "def_contain": 0,
                         "def_salvo": 1
                     },
                     "values": {
                         "command": 3,
-                        "squadron": 5,
-                        "engineer": 5
+                        "squadron": 3,
+                        "engineer": 3
                     },
                     "upgrades": [
                         "commander",
                         "officer",
+                        "support-team",
+                        "fleet-command",
                         "offensive-retro",
                         "defensive-retro",
-                        "fleet-command",
-                        "fleet-command",
-                        "ordnance",
+                        "ion-cannon",
                         "title"
                     ],
                     "armament": {
                         "asa": [
+                            0,
                             1,
-                            1,
-                            0
+                            1
                         ],
                         "front": [
-                            0,
+                            2,
                             3,
-                            1
+                            0
                         ],
                         "rear": [
-                            0,
+                            1,
                             2,
-                            1
+                            0
                         ],
                         "left": [
-                            0,
-                            6,
-                            2
+                            1,
+                            4,
+                            0
                         ],
                         "right": [
-                            0,
-                            6,
-                            2
+                            1,
+                            4,
+                            0
                         ],
                         "left_aux": [
                             0,
@@ -125,7 +126,7 @@
                         ]
                     },
                     "artwork": "",
-                    "cardimage": ""
+                    "cardimage": "https://api.swarmada.wiki/images/ccs-class-command-cruiser.webp"
                 }
             }
         }

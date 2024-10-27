@@ -1,9 +1,9 @@
 {
   "ships": {
-    "mc40a-light": {
+    "mc40a-light-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "mc40a-light",
+      "chassis_name": "mc40a-light-legends",
       "size": "medium",
       "hull": 6,
       "speed": {
@@ -40,7 +40,7 @@
       "silhouette": "",
       "blueprint": "",
       "models": {
-        "mc40a-light-escort-carrier": {
+        "mc40a-light-escort-carrier-legends": {
           "author": [
             "Skyhammer"
           ],
@@ -50,7 +50,7 @@
           "expansion": "Armada Legends",
           "_id": null,
           "type": "ship",
-          "chassis": "mc40a-light",
+          "chassis": "mc40a-light-legends",
           "name": "MC40a Light Escort Carrier",
           "faction": "rebel",
           "unique": false,
@@ -123,9 +123,9 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-escort-carrier.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-escort-carrier-legends.webp"
         },
-        "mc40a-light-cruiser": {
+        "mc40a-light-cruiser-legends": {
           "author": [
             "Skyhammer"
           ],
@@ -135,7 +135,7 @@
           "expansion": "Armada Legends",
           "_id": null,
           "type": "ship",
-          "chassis": "mc40a-light",
+          "chassis": "mc40a-light-legends",
           "name": "MC40a Light Cruiser",
           "faction": "rebel",
           "unique": false,
@@ -208,7 +208,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-cruiser.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends.webp"
         }
       }
     }

@@ -1,0 +1,199 @@
+{
+    "upgrades": {
+        "devastation-title-legends": {
+            "author": [
+                "SpaceNavy",
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane",
+                "Memnoch1234"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Devastation",
+            "unique-class": [
+                "Devastation"
+            ],
+            "ability": "Beam only.\nWhen you would discard a :super-weapon: card on the equipped ship, you may discard this card instead.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "subjugator-class-legends",
+            "restrictions": {
+                "traits": [
+                    "beam"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/devastation-title-legends.webp"
+        },
+        "subjugator-title-legends": {
+            "author": [
+                "SpaceNavy",
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane",
+                "Memnoch1234"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Subjugator",
+            "unique-class": [
+                "Subjugator"
+            ],
+            "ability": "At the end of the status phase, you may either exhaust 1 defense token to flip a damage card facedown, or you may discard a defense token to discard 1 damage card.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "subjugator-class-legends",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/subjugator-title-legends.webp"
+        },
+        "malevolence-title-legends": {
+            "author": [
+                "SpaceNavy",
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane",
+                "Memnoch1234"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Devastation",
+            "unique-class": [
+                "Devastation"
+            ],
+            "ability": "Ion only.\nIgnition,:crit:: Cancel all attack dice and reduce the defender's speed to 0, then discard this card.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "subjugator-class-legends",
+            "restrictions": {
+                "traits": [
+                    "ion"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/malevolence-title-legends.webp"
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "upgrades": {
+        "kyber-beam-cannon-legends": {
+            "author": [
+                "SpaceNavy",
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane",
+                "Memnoch1234"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "super-weapon",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Kyber Beam Cannon",
+            "unique-class": [
+                "beam"
+            ],
+            "ability": "Modification. \"Beam\" only.\nIgnition [Medium]\nTreat your special battery dice pool as 4 blue dice and 5 black dice.\nWhile performing an ignition attack, all damage cards are dealt faceup. After you perform an ignition attack, discard this card.",
+            "unique": false,
+            "points": 10,
+            "modification": true,
+            "bound_shiptype": "subjugator-class-legends",
+            "restrictions": {
+                "traits": [
+                    "beam"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": [
+                    "confire"
+                ],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/kyber-beam-cannon-legends.webp"
+        }
+    }
+}

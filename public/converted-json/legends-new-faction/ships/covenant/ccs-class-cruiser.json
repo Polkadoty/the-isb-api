@@ -1,9 +1,9 @@
 {
     "ships": {
-        "ccs-class-cruiser": {
+        "ccs-class-cruiser-halo-legends": {
             "_id": null,
             "type": "chassis",
-            "chassis_name": "ccs-class-cruiser",
+            "chassis_name": "ccs-class-cruiser-halo-legends",
             "size": "large",
             "hull": 8,
             "speed": {
@@ -40,7 +40,7 @@
             "silhouette": "[link to image]",
             "blueprint": "[link to image]",
             "models": {
-                "ccs-class-command-cruiser": {
+                "ccs-class-command-cruiser-halo-legends": {
                     "author": [
                         "SpaceNavy",
                         "Link",
@@ -52,7 +52,7 @@
                     "expansion": "Halo Starter Set",
                     "_id": null,
                     "type": "ship",
-                    "chassis": "ccs-class-cruiser",
+                    "chassis": "ccs-class-cruiser-halo-legends",
                     "name": "CCS-class Command Cruiser",
                     "faction": "covenant",
                     "unique": false,
