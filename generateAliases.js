@@ -64,12 +64,30 @@ function generateAliases() {
     }
   });
 
+// Read and merge ship-aliases.json if it exists
+try {
+  const shipAliasesPath = path.join(__dirname, 'public/ship-aliases.json');
+  if (fs.existsSync(shipAliasesPath)) {
+    const shipAliases = JSON.parse(fs.readFileSync(shipAliasesPath, 'utf8'));
+    aliases = { ...aliases, ...shipAliases };
+  }
+} catch (err) {
+  console.error('Error reading ship-aliases.json:', err);
+}
+
 // Remove exact duplicates (if any)
 aliases = Object.fromEntries(
   Object.entries(aliases).filter(([key, value], index, self) =>
     index === self.findIndex(t => t[0] === key && t[1] === value)
   )
 );
+
+// After line 72, before the writeFileSync call:
+
+
+
+// Write aliases to a JSON file
+fs.writeFileSync(path.join(__dirname, 'public/aliases.json'), JSON.stringify(aliases, null, 2));
 
   // Write aliases to a JSON file
   fs.writeFileSync(path.join(__dirname, 'public/aliases.json'), JSON.stringify(aliases, null, 2));
