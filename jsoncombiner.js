@@ -76,7 +76,8 @@ function updateIdsAndCombine(directory, outputFileName) {
 // New function to parse command-line arguments
 function parseArgs() {
   const args = process.argv.slice(2);
-  return {
+  const flags = {
+    all: args.includes('-all'),
     ships: args.includes('-ships'),
     squadrons: args.includes('-squadrons'),
     upgrades: args.includes('-upgrades'),
@@ -91,52 +92,26 @@ function parseArgs() {
     'old-legacy-squadrons': args.includes('-old-legacy-squadrons'),
     'old-legacy-upgrades': args.includes('-old-legacy-upgrades'),
   };
+
+  if (flags.all) {
+    Object.keys(flags).forEach(key => {
+      if (key !== 'all') flags[key] = true;
+    });
+  }
+
+  return flags;
 }
 
 // Main execution
 const flags = parseArgs();
 
-if (flags.ships) {
-  updateIdsAndCombine(directories.ships, 'ships.json');
-}
-if (flags.squadrons) {
-  updateIdsAndCombine(directories.squadrons, 'squadrons.json');
-}
-if (flags.upgrades) {
-  updateIdsAndCombine(directories.upgrades, 'upgrades.json');
-}
-if (flags.objectives) {
-  updateIdsAndCombine(directories.objectives, 'objectives.json');
-}
-if (flags['legends-ships']) {
-  updateIdsAndCombine(directories['legends-ships'], 'legends-ships.json');
-}
-if (flags['legends-squadrons']) {
-  updateIdsAndCombine(directories['legends-squadrons'], 'legends-squadrons.json');
-}
-if (flags['legends-upgrades']) {
-  updateIdsAndCombine(directories['legends-upgrades'], 'legends-upgrades.json');
-}
-if (flags['legacy-ships']) {
-  updateIdsAndCombine(directories['legacy-ships'], 'legacy-ships.json');
-}
-if (flags['legacy-squadrons']) {
-  updateIdsAndCombine(directories['legacy-squadrons'], 'legacy-squadrons.json');
-}
-if (flags['legacy-upgrades']) {
-  updateIdsAndCombine(directories['legacy-upgrades'], 'legacy-upgrades.json');
-}
-if (flags['old-legacy-ships']) {
-  updateIdsAndCombine(directories['old-legacy-ships'], 'old-legacy-ships.json');
-}
-if (flags['old-legacy-squadrons']) {
-  updateIdsAndCombine(directories['old-legacy-squadrons'], 'old-legacy-squadrons.json');
-}
-if (flags['old-legacy-upgrades']) {
-  updateIdsAndCombine(directories['old-legacy-upgrades'], 'old-legacy-upgrades.json');
-}
+Object.entries(directories).forEach(([key, directory]) => {
+  if (flags[key]) {
+    updateIdsAndCombine(directory, `${key}.json`);
+  }
+});
 
 // If no flags are provided, inform the user
 if (!Object.values(flags).some(Boolean)) {
-  console.log('Please provide at least one flag: -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades');
+  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades');
 }

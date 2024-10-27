@@ -1,0 +1,69 @@
+{
+    "upgrades": {
+        "ion-pulse-emitter-legends": {
+            "author": [
+                "SpaceNavy",
+                "Doty",
+                "Arslanxelan",
+                "Trogdor",
+                "TwoShotOtter",
+                "Pulsipher",
+                "Daimyousagi",
+                "ChandraRevane",
+                "Memnoch1234"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "super-weapon",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Ion Pulse Emitter",
+            "unique-class": [
+                "ion"
+            ],
+            "ability": "Modification.\nIgnition [Long]\nWhen you perform an ignition attack, you may exhaust this card and spend a defense token. If you do, after the modify dice step, discard all attack dice. For each matching die face, resolve the following effects:\n:hit:: The defending hull zone loses 1 shield.\n:crit:: Each hull zone adjacent to the defending hull zone loses 1 shield.",
+            "unique": false,
+            "points": 7,
+            "modification": true,
+            "bound_shiptype": "subjugator-class-legends",
+            "restrictions": {
+                "traits": [
+                    "beam"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": [
+                    "confire"
+                ],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/ion-pulse-emitter-legends.webp"
+        }
+    }
+}

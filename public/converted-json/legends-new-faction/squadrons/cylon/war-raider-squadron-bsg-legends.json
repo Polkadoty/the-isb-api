@@ -1,0 +1,71 @@
+{
+    "squadrons": {
+        "war-raider-squadron-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "squadron",
+            "faction": "cylon",
+            "squadron_type": "war-raider-squadron-bsg-legends",
+            "name": "War Raider Squadron",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": false,
+            "hull": 4,
+            "speed": 4,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    1,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 10,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": ""
+        }
+    }
+}

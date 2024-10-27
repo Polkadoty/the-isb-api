@@ -9,7 +9,8 @@
                 "TwoShotOtter",
                 "Pulsipher",
                 "Daimyousagi",
-                "ChandraRevane"
+                "ChandraRevane",
+                "Memnoch1234"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
@@ -22,9 +23,9 @@
             ],
             "name": "Kyber Beam Cannon",
             "unique-class": [
-                ""
+                "beam"
             ],
-            "ability": "Modification.\n\"Beam\" only.\nIgnition [Medium]\nTreat your special battery dice pool as 4 blue dice and 5 black dice.\nWhile performing an ignition attack, all damage cards are dealt faceup. After you perform an ignition attack, discard this card.",
+            "ability": "Modification. \"Beam\" only.\nIgnition [Medium]\nTreat your special battery dice pool as 4 blue dice and 5 black dice.\nWhile performing an ignition attack, all damage cards are dealt faceup. After you perform an ignition attack, discard this card.",
             "unique": false,
             "points": 10,
             "modification": true,
@@ -55,11 +56,11 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "nonrecur",
                 "ready_token": [
-                    ""
+                    "confire"
                 ],
-                "ready_amount": 0
+                "ready_amount": 1
             },
             "artwork": "",
             "cardimage": "https://api.swarmada.wiki/images/kyber-beam-cannon-legends.webp"

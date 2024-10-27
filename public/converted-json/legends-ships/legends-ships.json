@@ -1,7 +1,139 @@
 {
   "ships": {
+    "tector-star-destroyer": {
+      "_id": "25fcb192-85fb-45de-8b5c-9bb1ae5d4aa3",
+      "type": "chassis",
+      "chassis_name": "tector-star-destroyer",
+      "size": "large",
+      "hull": 12,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": -10,
+        "rearoffset": 0,
+        "frontangle": 85,
+        "centerangle": 0,
+        "rearangle": 100
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "tector-class-star-destroyer": {
+          "author": [
+            "Arslanxelan",
+            "Doty",
+            "Formynder",
+            "Trogdor",
+            "Firekite"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Armada Legends",
+          "expansion": "Armada Legends",
+          "_id": "a43a7e9e-6535-446e-a7ea-89994a485fbc",
+          "type": "ship",
+          "chassis": "tector-star-destroyer",
+          "name": "Tector-class Star Destroyer",
+          "faction": "empire",
+          "unique": true,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 127,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 1,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "ordnance",
+            "ordnance",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              2,
+              3,
+              3
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              1,
+              2,
+              2
+            ],
+            "right": [
+              1,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/tector-class-star-destroyer.webp"
+        }
+      }
+    },
     "mc40a-light": {
-      "_id": "5f46071b-9353-4e5e-b289-7530bfb90578",
+      "_id": "f71b7051-cdd4-4dce-9beb-b2b2184bc8ce",
       "type": "chassis",
       "chassis_name": "mc40a-light",
       "size": "medium",
@@ -44,11 +176,11 @@
           "author": [
             "Skyhammer"
           ],
-          "alias": "",
+          "alias": "Legends",
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "060f5566-b217-4ba4-ac3f-9635e4f54409",
+          "_id": "2ddedf81-b52b-42d9-b92b-d129c4d10505",
           "type": "ship",
           "chassis": "mc40a-light",
           "name": "MC40a Light Escort Carrier",
@@ -129,11 +261,11 @@
           "author": [
             "Skyhammer"
           ],
-          "alias": "",
+          "alias": "Legends",
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "a89e89b7-1443-4157-a919-6a414de0deb3",
+          "_id": "58087833-0fef-4970-afd0-34f4d1cd11b0",
           "type": "ship",
           "chassis": "mc40a-light",
           "name": "MC40a Light Cruiser",
@@ -209,134 +341,6 @@
           },
           "artwork": "",
           "cardimage": "https://api.swarmada.wiki/images/mc40a-light-cruiser.webp"
-        }
-      }
-    },
-    "tector-star-destroyer": {
-      "_id": "da6e4302-984a-44d0-8d32-0e3a8cf51db7",
-      "type": "chassis",
-      "chassis_name": "tector-star-destroyer",
-      "size": "large",
-      "hull": 12,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [
-          0,
-          1,
-          1
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 4,
-        "rear": 2,
-        "left": 3,
-        "right": 3,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": -10,
-        "rearoffset": 0,
-        "frontangle": 85,
-        "centerangle": 0,
-        "rearangle": 100
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "tector-class-star-destroyer": {
-          "author": [
-            "Arslanxelan"
-          ],
-          "alias": "",
-          "team": "Armada Legends",
-          "release": "Armada Legends",
-          "expansion": "Armada Legends",
-          "_id": "59c1eade-bd22-4d4c-bf1e-22e907731b30",
-          "type": "ship",
-          "chassis": "tector-star-destroyer",
-          "name": "Tector-class Star Destroyer",
-          "faction": "empire",
-          "unique": true,
-          "traits": [
-            "star-destroyer"
-          ],
-          "points": 127,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 2,
-            "def_contain": 1,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 1,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "ordnance",
-            "ordnance",
-            "ion-cannon",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              2,
-              3,
-              3
-            ],
-            "rear": [
-              1,
-              1,
-              1
-            ],
-            "left": [
-              1,
-              2,
-              2
-            ],
-            "right": [
-              1,
-              2,
-              2
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/tector-class-star-destroyer.webp"
         }
       }
     }
