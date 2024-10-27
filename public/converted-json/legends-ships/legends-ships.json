@@ -1,7 +1,7 @@
 {
   "ships": {
     "tector-star-destroyer-legends": {
-      "_id": "d498fd6f-867e-4aa8-aaaf-a493a66343e3",
+      "_id": "e8b9fa3c-45c0-4bef-85e4-f4a24511a2cd",
       "type": "chassis",
       "chassis_name": "tector-star-destroyer-legends",
       "size": "large",
@@ -52,7 +52,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "14be24de-6db9-4f0a-9c37-0b3d956c0d42",
+          "_id": "140b14aa-cb1f-413f-add7-fe1078413bbe",
           "type": "ship",
           "chassis": "tector-star-destroyer-legends",
           "name": "Tector-class Star Destroyer",
@@ -133,7 +133,7 @@
       }
     },
     "mc40a-light-legends": {
-      "_id": "845dd554-7379-4277-ae39-d3cdfd33967a",
+      "_id": "0bbdf2ab-69e0-4561-97d7-d05cf5b64095",
       "type": "chassis",
       "chassis_name": "mc40a-light-legends",
       "size": "medium",
@@ -180,7 +180,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "e61b03cb-8872-4eaf-8781-0294cbc83331",
+          "_id": "0037deec-4f70-4d18-8363-4d4762b75142",
           "type": "ship",
           "chassis": "mc40a-light-legends",
           "name": "MC40a Light Escort Carrier",
@@ -265,7 +265,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "79dff256-a1c4-411a-aa1a-97db35bdc588",
+          "_id": "77502422-1212-41e0-95af-c0099c7817a0",
           "type": "ship",
           "chassis": "mc40a-light-legends",
           "name": "MC40a Light Cruiser",
@@ -345,7 +345,7 @@
       }
     },
     "subjugator-class-legends": {
-      "_id": "0d27e857-ed2a-417f-adbd-0aa89bf35f78",
+      "_id": "00095fd8-571f-4b49-b6c2-cda4377a277a",
       "type": "chassis",
       "chassis_name": "subjugator-class-legends",
       "size": "huge",
@@ -396,7 +396,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "3167bf81-19c2-422d-ad67-0b8beaa4fe8e",
+          "_id": "a4ce93e6-0021-4bbe-b06e-b7b34ab8d905",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Prototype",
@@ -494,7 +494,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "11773d23-d38a-4682-8c94-4a410af05ae3",
+          "_id": "47cd84a4-18a7-4b04-b9e8-db9dc16ee1a3",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Testbed",
@@ -528,7 +528,6 @@
             "ordnance",
             "turbolaser",
             "turbolaser",
-            "ion-cannon",
             "super-weapon",
             "title"
           ],
@@ -593,7 +592,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "3e621e63-a379-4619-a97e-da922dcd516a",
+          "_id": "6dd656ac-2584-40e6-85a4-51fa13e54ea9",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Heavy Cruiser",
@@ -624,10 +623,9 @@
             "weapons-team",
             "offensive-retro",
             "weapons-team-offensive-retro",
-            "ordnance",
+            "ion-cannon",
+            "ion-cannon",
             "turbolaser",
-            "ion-cannon",
-            "ion-cannon",
             "super-weapon",
             "title"
           ],
