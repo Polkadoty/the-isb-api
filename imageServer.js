@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-import cors from 'express-cors';
+import cors from 'cors';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -42,6 +42,7 @@ const allowedOrigins = [
   'https://test.swarmada.wiki',
   'https://legacy.swarmada.wiki',
   'https://builder.swarmada.wiki',
+  'https://api.swarmada.wiki',
   'http://localhost:3000',
   'http://localhost:5000'
 ];
@@ -53,11 +54,14 @@ app.use(cors({
     
     // Check if the origin matches our allowed domains
     if (allowedOrigins.indexOf(origin) === -1) {
-      return callback(new Error('CORS not allowed'), false);
+      const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
+      return callback(new Error(msg), false);
     }
     return callback(null, true);
   },
-  credentials: true
+  methods: ['GET', 'HEAD'],
+  credentials: true,
+  maxAge: 86400 // 24 hours
 }));
 
 app.use('/images', (req, res, next) => {
