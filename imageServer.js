@@ -2,6 +2,7 @@ import express from 'express';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
+import cors from 'express-cors';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -35,6 +36,29 @@ function cacheImagePaths(dir) {
 console.log('Caching image paths...');
 cacheImagePaths(imagesPath);
 console.log(`Cached ${imageCache.size} image paths`);
+
+// Add CORS configuration
+const allowedOrigins = [
+  'https://test.swarmada.wiki',
+  'https://legacy.swarmada.wiki',
+  'https://builder.swarmada.wiki',
+  'http://localhost:3000',
+  'http://localhost:5000'
+];
+
+app.use(cors({
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    
+    // Check if the origin matches our allowed domains
+    if (allowedOrigins.indexOf(origin) === -1) {
+      return callback(new Error('CORS not allowed'), false);
+    }
+    return callback(null, true);
+  },
+  credentials: true
+}));
 
 app.use('/images', (req, res, next) => {
   const imageName = path.basename(req.url);
