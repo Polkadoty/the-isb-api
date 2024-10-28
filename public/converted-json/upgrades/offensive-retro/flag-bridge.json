@@ -9,7 +9,10 @@
       "_id": null,
       "type": "offensive-retro",
       "faction": [
-        ""
+        "empire",
+        "rebel",
+        "republic",
+        "separatist"
       ],
       "name": "Flag Bridge",
       "unique-class": [
