@@ -9,11 +9,13 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "blurhash": "^2.0.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
     "js-yaml": "^4.1.0",
     "node-fetch": "^3.3.2",
+    "sharp": "^0.33.5",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
