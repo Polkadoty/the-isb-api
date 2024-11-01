@@ -21,6 +21,7 @@ import oldLegacySquadronRoutes from './routes/oldLegacySquadronRoutes.js';
 import oldLegacyUpgradeRoutes from './routes/oldLegacyUpgradeRoutes.js';
 
 import aliasRoutes from './routes/aliasRoutes.js';
+import imageLinksRoutes from './routes/imageLinksRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
