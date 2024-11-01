@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export const getImages = async (req, res, next) => {
+export const getImageLinks = async (req, res, next) => {
   console.log('Attempting to read images.json');
   const filePath = path.join(__dirname, '../public/images.json');
   console.log('File path:', filePath);
