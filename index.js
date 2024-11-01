@@ -52,6 +52,7 @@ app.use('/old-legacy/upgrades', oldLegacyUpgradeRoutes);
 
 // Add this line with your other app.use statements
 app.use('/aliases', aliasRoutes);
+app.use('/image-links', imageLinksRoutes);
 
 app.use(errorHandler);
 
