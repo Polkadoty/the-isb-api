@@ -1,5 +1,239 @@
 {
   "upgrades": {
+    "clothos-commander-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "b9287553-73d1-4cda-af20-c961319d8cb0",
+      "type": "commander",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Clothos",
+      "unique-class": [
+        "Clothos"
+      ],
+      "ability": "When a friendly ship is defending, you may remove 1 raid token from the attacking ship to ready 1 defense token.\nWhen a friendly ship activates, you may spend raid tokens on enemy ships within distance 1-5 to resolve a matching command token. If you do so, remove that raid token from the enemy ship.",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/clothos-commander-bsg-legends.webp"
+    },
+    "william-adama-commander-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "42a98ff8-786a-452b-8c18-f294b49d1b48",
+      "type": "commander",
+      "faction": [
+        "colonial"
+      ],
+      "name": "William Adama",
+      "unique-class": [
+        "William Adama"
+      ],
+      "ability": "When a friendly ship reveals a command, you may reveal and discard 1 dial from this card. That ship gains a matching dial to that discarded dial.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "dial",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 5
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/william-adama-commander-bsg-legends.webp"
+    },
+    "captain-keyes-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends Wave 1",
+      "expansion": "Halo Starter Set",
+      "_id": "e323009f-5003-4174-9c5e-1a324fff69e3",
+      "type": "commander",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Captain Keyes",
+      "unique-class": [
+        "Captain Keyes"
+      ],
+      "ability": "Before a friendly ship resolves a :nav: command dial, it may discard that dial. If it does, after it performs its maneuver, it may perform a 0-speed maneuver with a yaw value of \"I\".",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/captain-keyes-commander-halo-legends.webp"
+    },
+    "thel-vadamee-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends Wave 1",
+      "expansion": "Halo Starter Set",
+      "_id": "30da325b-9171-4d70-ba5a-34f380b4845d",
+      "type": "commander",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Thel Vadamee",
+      "unique-class": [
+        "Thel Vadamee"
+      ],
+      "ability": "Ships in your fleet gain Elite.\nAfter both players have finished deploying fleets, you may redeploy up to 2 small ships or 1 medium-large ship. You may also redeploy up to 2 squadrons.",
+      "unique": true,
+      "points": 25,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/thel-vadamee-commander-halo-legends.webp"
+    },
     "sai-sircu-officer-legends": {
       "author": [
         "SpaceNavy",
@@ -16,7 +250,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "da1cdc56-79b2-43c1-983f-57504bdb4469",
+      "_id": "391cd5b1-8439-4e06-9180-849923b7ee76",
       "type": "officer",
       "faction": [
         "separatist"
@@ -81,7 +315,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "aef13b5c-23fe-4b79-bb7d-dced47b5c363",
+      "_id": "b7329ba0-4b4f-4331-bd20-94daf63b2dde",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -146,7 +380,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "702399b7-2842-47c3-9927-6d565d13788c",
+      "_id": "1fbfa8ea-6513-4acd-89a5-83b5cf3ca8de",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -211,7 +445,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "3478894b-9676-449c-a9ed-73f5be1017ba",
+      "_id": "0f137987-b6e8-4913-b076-8f2e26b1bb73",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -268,7 +502,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "69ccdcab-6cac-42b2-bce4-160186154043",
+      "_id": "f14e7f76-a6fc-4ab3-9134-24f2963da037",
       "type": "title",
       "faction": [
         "rebel"
@@ -325,7 +559,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "9a6551f8-2b99-4f7c-b172-b661965a4ebb",
+      "_id": "0342e526-16bc-40a1-b122-29551b1185ba",
       "type": "title",
       "faction": [
         "rebel"
@@ -382,7 +616,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "afbad281-076b-4d5c-9e6e-7409c34bfaaf",
+      "_id": "c657d84a-1f8b-48b8-a58e-4320f6ce88da",
       "type": "title",
       "faction": [
         "rebel"
@@ -447,7 +681,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "b6895c60-5632-47d4-b10b-48f0b85a8f0c",
+      "_id": "269aaeb4-d6e9-4c04-be72-c5633f971794",
       "type": "title",
       "faction": [
         "separatist"
@@ -512,7 +746,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "1499b9de-9069-40ba-a375-3045c1ac578e",
+      "_id": "a0758e60-eecf-493f-bacf-f0b36af93ad3",
       "type": "title",
       "faction": [
         "separatist"
@@ -577,7 +811,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "b417ea96-86c4-47df-a840-5a9ba0031bd1",
+      "_id": "e6dc9ae1-f81c-45cb-9186-149789a5fcdf",
       "type": "title",
       "faction": [
         "separatist"

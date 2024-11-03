@@ -1,31 +1,31 @@
 {
   "ships": {
-    "arquitens-gar-cruiser-legacy": {
-      "_id": "d7eb0688-3d6a-43da-960f-8f4e6693bc0c",
+    "jupiter-class-battlestar-bsg-legends": {
+      "_id": null,
       "type": "chassis",
-      "chassis_name": "arquitens-gar-cruiser-legacy",
-      "size": "small",
-      "hull": 5,
+      "chassis_name": "jupiter-class-battlestar-bsg-legends",
+      "size": "large",
+      "hull": 12,
       "speed": {
         "1": [
-          2
+          1
         ],
         "2": [
-          0,
-          2
+          1,
+          1
         ],
         "3": [
           0,
           0,
-          2
+          1
         ],
         "4": []
       },
       "shields": {
-        "front": 2,
+        "front": 3,
         "rear": 2,
-        "left": 2,
-        "right": 2,
+        "left": 4,
+        "right": 4,
         "left_aux": 0,
         "right_aux": 0
       },
@@ -40,68 +40,73 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "arquitens-class-light-cruiser-republic-legacy": {
-          "author": "Armada Legacy",
-          "alias": "Legacy",
-          "team": "Armada Legacy",
-          "release": "Legacy Wave 1",
-          "expansion": "Republic Light Cruiser Expansion",
-          "_id": "b371f965-56ef-46fd-9968-ddc1f3e94a57",
+        "jupiter-class-battlestar-mk1-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends Wave 1",
+          "expansion": "BSG Starter Set",
+          "_id": null,
           "type": "ship",
-          "chassis": "arquitens-gar-cruiser-legacy",
-          "name": "Arquitens-class Light Cruiser",
-          "faction": "republic",
+          "chassis": "jupiter-class-battlestar-bsg-legends",
+          "name": "Jupiter-class Battlestar MkI",
+          "faction": "colonial",
           "unique": false,
           "traits": [
             ""
           ],
-          "points": 58,
+          "points": 112,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 1,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 0,
             "def_contain": 1,
             "def_salvo": 1
           },
           "values": {
-            "command": 2,
-            "squadron": 2,
-            "engineer": 3
+            "command": 3,
+            "squadron": 5,
+            "engineer": 5
           },
           "upgrades": [
             "commander",
             "officer",
-            "weapons-team",
+            "offensive-retro",
+            "defensive-retro",
+            "fleet-command",
+            "fleet-command",
             "ordnance",
-            "turbolaser",
             "title"
           ],
           "armament": {
             "asa": [
-              0,
-              0,
-              1
+              1,
+              1,
+              0
             ],
             "front": [
               0,
-              0,
-              2
+              3,
+              1
             ],
             "rear": [
-              1,
               0,
+              2,
               1
             ],
             "left": [
-              3,
               0,
-              0
+              6,
+              2
             ],
             "right": [
-              3,
               0,
-              0
+              6,
+              2
             ],
             "left_aux": [
               0,
@@ -120,7 +125,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser-republic-legacy.webp"
+          "cardimage": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk1-bsg-legends.webp"
         }
       }
     }
