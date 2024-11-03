@@ -1,6 +1,15 @@
 # The ISB API
 
-The ISB API is a RESTful API for managing ship, squadron, upgrade card, and objective data for Star Wars Armada. Built with Node.js and Express, this API serves static JSON files.
+The ISB API (Imperial Security Bureau API) is a RESTful API for managing Star Wars Armada game data, including ships, squadrons, upgrade cards, and objectives. Built with Node.js and Express, this API serves static JSON files and optimized images through a dedicated image server.
+
+## Features
+
+- RESTful endpoints for all game components
+- Optimized image serving with WebP format and blurhash previews
+- CORS protection for authorized domains
+- Rate limiting
+- Detailed error handling
+- Automatic JSON combination for distributed contributions
 
 ## Guides
 
@@ -8,76 +17,109 @@ The ISB API is a RESTful API for managing ship, squadron, upgrade card, and obje
 - [Squadron Guide](Squadron-Guide.md)
 - [Upgrade Guide](Upgrade-Guide.md)
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Data Structure](#data-structure)
-- [Error Handling](#error-handling)
-- [Rate Limiting](#rate-limiting)
-- [Contributing](#contributing)
-
-...
-
 ## Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/the-isb-api.git
-   cd the-isb-api
-   ```
+`git clone https://github.com/yourusername/the-isb-api.git`
 
 2. Install dependencies:
-   ```sh
-   npm install
-   ```
+`npm install`
 
-3. Start the server:
-   ```sh
-   npm start
-   ```
+3. Start the servers:
+`npm start # Start the main API server`
+`npm run images # Start the image server (separate terminal)`
 
-For development, you can use:
-```sh
-npm run dev
-```
+For development:
+`npm run dev`
 
-## Usage
+## API Structure
 
-The API is designed to be used as a backend service for Star Wars Armada applications. It provides data for ships, squadrons, upgrades, and objectives.
+### File Structure
+
+public/
+├── converted-json/
+│   ├── ships/
+│   ├── squadrons/
+│   ├── upgrades/
+│   └── objectives/
+├── images/
+│   ├── ships/
+│   ├── squadrons/
+│   ├── upgrades/
+│   └── objectives/
+└── thumbnails/
+
+### Base URLs
+- API Server: `https://api.swarmada.wiki`
+- Image Server: `https://api.swarmada.wiki/images`
+
+### Authentication
+The API currently does not require authentication for read operations. CORS is enabled for the following domains:
+- `https://test.swarmada.wiki`
+- `https://legacy.swarmada.wiki`
+- `https://builder.swarmada.wiki`
+- `https://api.swarmada.wiki`
+- `http://localhost:3000`
+- `http://localhost:5000`
+
+### Rate Limiting
+- 100 requests per minute per IP address
+- Rate limit headers included in responses
+
+### Caching
+- Images are cached for 7 days
+- JSON responses include ETags
+- Cache-Control headers are set appropriately
 
 ## API Endpoints
 
-### Base URL
-- Production: `https://api.swarmada.wiki`
-
 ### Status
-- **GET /**: Check the status of the API.
+- **GET /** - Check API status
+  Response: `{ "status": "ok", "version": "1.0.0" }`
 
 ### Ships
-- **GET /api/ships**: Retrieve all ships.
-- **GET /api/ships/{shipId}**: Retrieve a specific ship by ID.
-- **GET /api/ships/search**: Search ships with various filters.
+- **GET /api/ships** - Retrieve all ships
+- **GET /api/ships/{shipId}** - Retrieve specific ship
+- **GET /api/ships/search** - Search ships with filters
+  - Query Parameters:
+    - `faction`: Filter by faction
+    - `size`: Filter by ship size
+    - `points`: Filter by point cost range
+    - `name`: Search by name
 
 ### Squadrons
-- **GET /api/squadrons**: Retrieve all squadrons.
-- **GET /api/squadrons/{squadronId}**: Retrieve a specific squadron by ID.
-- **GET /api/squadrons/search**: Search squadrons with various filters.
+- **GET /api/squadrons** - Retrieve all squadrons
+- **GET /api/squadrons/{squadronId}** - Retrieve specific squadron
+- **GET /api/squadrons/search** - Search squadrons with filters
+  - Query Parameters:
+    - `faction`: Filter by faction
+    - `unique`: Filter unique squadrons
+    - `points`: Filter by point cost range
 
 ### Upgrades
-- **GET /api/upgrades**: Retrieve all upgrades.
-- **GET /api/upgrades/{upgradeId}**: Retrieve a specific upgrade by ID.
-- **GET /api/upgrades/search**: Search upgrades with various filters.
+- **GET /api/upgrades** - Retrieve all upgrades
+- **GET /api/upgrades/{upgradeId}** - Retrieve specific upgrade
+- **GET /api/upgrades/search** - Search upgrades with filters
+  - Query Parameters:
+    - `type`: Filter by upgrade type
+    - `faction`: Filter by faction
+    - `points`: Filter by point cost range
 
 ### Objectives
-- **GET /api/objectives**: Retrieve all objectives.
-- **GET /api/objectives/{objectiveId}**: Retrieve a specific objective by ID.
-- **GET /api/objectives/search**: Search objectives with various filters.
+- **GET /api/objectives** - Retrieve all objectives
+- **GET /api/objectives/{objectiveId}** - Retrieve specific objective
+- **GET /api/objectives/search** - Search objectives with filters
+  - Query Parameters:
+    - `type`: Filter by objective type
 
-For detailed information on search parameters and response formats, please refer to the API documentation.
+### Images
+- **GET /images/{filename}** - Retrieve full-size image
+- **GET /thumbnails/{filename}** - Retrieve thumbnail
+  - Supported formats: .webp, .png, .jpg, .jpeg
+  - Images are served with appropriate cache headers
+  - Blurhash preview data available in the images.json file
 
-## Data Structure
+## Data Schemas
 
 The API uses JSON files to store and serve data. The main data structures are:
 
