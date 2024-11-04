@@ -1,0 +1,134 @@
+{
+  "ships": {
+    "ccs-class-cruiser-halo-legends": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "ccs-class-cruiser-halo-legends",
+      "size": "large",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 3,
+        "left": 4,
+        "right": 4,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "ccs-class-command-cruiser-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": null,
+          "type": "ship",
+          "chassis": "ccs-class-cruiser-halo-legends",
+          "name": "CCS-class Command Cruiser",
+          "faction": "covenant",
+          "unique": false,
+          "traits": [
+            "Lance"
+          ],
+          "points": 105,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-command",
+            "offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              2,
+              3,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              1,
+              4,
+              0
+            ],
+            "right": [
+              1,
+              4,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/ccs-class-command-cruiser-halo-legends.webp"
+        }
+      }
+    }
+  }
+}

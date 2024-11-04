@@ -140,14 +140,16 @@ async function generateImageLinks() {
             images[modelKey] = {
               fullsize: `https://api.swarmada.wiki/images/${modelKey}.webp`,
               thumbnail: `https://api.swarmada.wiki/thumbnails/${modelKey}.webp`,
-              blurhash: blurhashes[modelKey] || null
+              blurhash: blurhashes[modelKey] || null,
+              baseToken: `https://api.swarmada.wiki/images/${modelKey}-base.webp`
             };
           });
         } else {
           images[itemKey] = {
             fullsize: `https://api.swarmada.wiki/images/${itemKey}.webp`,
             thumbnail: `https://api.swarmada.wiki/thumbnails/${itemKey}.webp`,
-            blurhash: blurhashes[itemKey] || null
+            blurhash: blurhashes[itemKey] || null,
+            baseToken: `https://api.swarmada.wiki/images/${itemKey}-base.webp`
           };
         }
       });
