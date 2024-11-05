@@ -64,7 +64,7 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/longsword-fighter-squadron-halo-legends.webp"
     },
-    "knife-26-longsword-fighter-halo-legends": {
+    "knife26-longsword-halo-legends": {
       "author": [
         "SpaceNavy",
         "Link",
@@ -77,7 +77,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "unsc",
-      "squadron_type": "squadron_uid",
+      "squadron_type": "longsword-fighter-squadron",
       "name": "longsword-fighter-squadron",
       "ace-name": "Knife 26",
       "unique-class": [
@@ -130,7 +130,7 @@
       "points": 20,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/knife-26-longsword-fighter-halo-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/knife26-longsword-halo-legends.webp"
     }
   }
 }
