@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "logistics-coordinator-officer-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "officer",
+            "faction": [
+                "unsc",
+                "covenant"
+            ],
+            "name": "Logistics Coordinator",
+            "unique-class": [
+                "Logistics Coordinator"
+            ],
+            "ability": "Placeholder",
+            "unique": false,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/logistics-coordinator-officer-halo-legends.webp"
+        }
+    }
+}

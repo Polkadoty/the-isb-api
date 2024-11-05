@@ -1,27 +1,25 @@
 {
     "upgrades": {
-        "captain-keyes-commander-halo-legends": {
+        "huragok-engineer-halo-legends": {
             "author": [
-                "SpaceNavy",
-                "Link",
-                "Skyhammer"
+                "SpaceNavy"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
-            "release": "Halo Armada Legends Wave 1",
+            "release": "Halo Armada Legends",
             "expansion": "Halo Starter Set",
             "_id": null,
-            "type": "commander",
+            "type": "support-team",
             "faction": [
-                "unsc"
+                "covenant"
             ],
-            "name": "Captain Keyes",
+            "name": "Huragok Engineer Team",
             "unique-class": [
-                "Captain Keyes"
+                ""
             ],
-            "ability": "Before a friendly ship resolves a :nav: command dial, it may discard that dial. If it does, after it performs its maneuver, it may perform a 0-speed maneuver with a yaw value of \"I\".",
-            "unique": true,
-            "points": 30,
+            "ability": "Placeholder",
+            "unique": false,
+            "points": 3,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -50,14 +48,14 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "",
+                "type": "nonrecur",
                 "ready_token": [
-                    ""
+                    "repair"
                 ],
-                "ready_amount": 0
+                "ready_amount": 1
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/captain-keyes-commander-halo-legends.webp"
+            "cardimage": "https://api.swarmada.wiki/images/huragok-engineer-halo-legends.webp"
         }
     }
 }
