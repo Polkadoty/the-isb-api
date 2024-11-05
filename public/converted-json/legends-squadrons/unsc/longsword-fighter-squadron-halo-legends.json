@@ -4,12 +4,12 @@
       "author": "Armada Legends Team",
       "alias": "Legends",
       "team": "Legends",
-      "release": "Halo Armada Legends Wave 1",
-      "expansion": "Halo Armada Legends Wave 1",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
       "_id": null,
       "type": "squadron",
       "faction": "unsc",
-      "squadron_type": "longsword-fighter-squadron-halo-legends",
+      "squadron_type": "longsword-fighter-squadron",
       "name": "Longsword Fighter Squadron",
       "ace-name": "",
       "unique-class": [
@@ -64,7 +64,7 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/longsword-fighter-squadron-halo-legends.webp"
     },
-    "knife-26-longsword-fighter": {
+    "knife-26-longsword-fighter-halo-legends": {
       "author": [
         "SpaceNavy",
         "Link",
@@ -78,7 +78,7 @@
       "type": "squadron",
       "faction": "unsc",
       "squadron_type": "squadron_uid",
-      "name": "longsword-fighter-squadron-halo-legends",
+      "name": "longsword-fighter-squadron",
       "ace-name": "Knife 26",
       "unique-class": [
         "Knife 26"
@@ -130,7 +130,7 @@
       "points": 20,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/knife-26-longsword-fighter.webp"
+      "cardimage": "https://api.swarmada.wiki/images/knife-26-longsword-fighter-halo-legends.webp"
     }
   }
 }

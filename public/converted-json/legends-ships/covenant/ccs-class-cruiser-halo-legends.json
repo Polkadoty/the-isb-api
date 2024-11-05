@@ -3,7 +3,7 @@
     "ccs-class-cruiser-halo-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "ccs-class-cruiser-halo-legends",
+      "chassis_name": "ccs-class",
       "size": "large",
       "hull": 8,
       "speed": {
@@ -52,12 +52,12 @@
           "expansion": "Halo Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "ccs-class-cruiser-halo-legends",
+          "chassis": "ccs-class",
           "name": "CCS-class Command Cruiser",
           "faction": "covenant",
           "unique": false,
           "traits": [
-            "Lance"
+            "lance"
           ],
           "points": 105,
           "tokens": {
@@ -127,6 +127,94 @@
           },
           "artwork": "",
           "cardimage": "https://api.swarmada.wiki/images/ccs-class-command-cruiser-halo-legends.webp"
+        },
+        "ccs-class-battle-cruiser-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": null,
+          "type": "ship",
+          "chassis": "ccs-class",
+          "name": "CCS-class Battle Cruiser",
+          "faction": "covenant",
+          "unique": false,
+          "traits": [
+            "lance"
+          ],
+          "points": 115,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "defensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              3,
+              2,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              3,
+              0
+            ],
+            "right": [
+              2,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/ccs-class-battle-cruiser-halo-legends.webp"
         }
       }
     }

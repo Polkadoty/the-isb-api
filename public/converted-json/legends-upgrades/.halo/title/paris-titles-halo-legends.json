@@ -1,0 +1,118 @@
+{
+    "upgrades": {
+        "commonwealth-title-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "unsc"
+            ],
+            "name": "UNSC Commonwealth",
+            "unique-class": [
+                "UNSC Commonwealth"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "paris-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/commonwealth-title-halo-legends.webp"
+        },
+        "savannah-title-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "unsc"
+            ],
+            "name": "UNSC Savannah",
+            "unique-class": [
+                "UNSC Savannah"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 9,
+            "modification": false,
+            "bound_shiptype": "paris-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/savannah-title-halo-legends.webp"
+        }
+    }
+}

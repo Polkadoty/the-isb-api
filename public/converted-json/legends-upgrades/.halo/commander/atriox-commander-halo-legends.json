@@ -1,0 +1,63 @@
+{
+    "upgrades": {
+        "atriox-commander-halo-legends": {
+            "author": [
+                "SpaceNavy",
+                "Link",
+                "Skyhammer"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "covenant"
+            ],
+            "name": "Atriox",
+            "unique-class": [
+                "Atriox"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 35,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/atriox-commander-halo-legends.webp"
+        }
+    }
+}

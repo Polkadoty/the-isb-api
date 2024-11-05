@@ -1,23 +1,23 @@
 {
   "squadrons": {
-    "banshee-squadron-halo-legends": {
+    "longsword-bomber-squadron-halo-legends": {
       "author": "Armada Legends Team",
       "alias": "Legends",
       "team": "Legends",
-      "release": "Halo Armada Legends Wave 1",
-      "expansion": "Halo Armada Legends Wave 1",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
       "_id": null,
       "type": "squadron",
-      "faction": "covenant",
-      "squadron_type": "banshee-squadron-halo-legends",
-      "name": "Banshee Squadron",
+      "faction": "unsc",
+      "squadron_type": "longsword-bomber-squadron",
+      "name": "Longsword Bomber Squadron",
       "ace-name": "",
       "unique-class": [
         ""
       ],
       "irregular": false,
-      "hull": 3,
-      "speed": 4,
+      "hull": 7,
+      "speed": 2,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 0,
@@ -26,13 +26,13 @@
       "armament": {
         "anti-squadron": [
           1,
-          2,
-          0
+          0,
+          1
         ],
         "anti-ship": [
           0,
           1,
-          0
+          1
         ]
       },
       "abilities": {
@@ -40,67 +40,63 @@
         "ai-battery": 0,
         "ai-antisquadron": 0,
         "assault": false,
-        "bomber": false,
+        "bomber": true,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
         "escort": false,
         "grit": false,
-        "heavy": false,
+        "heavy": true,
         "intel": false,
         "relay": 0,
-        "rogue": false,
+        "rogue": true,
         "scout": false,
         "screen": false,
         "snipe": 0,
         "strategic": false,
-        "swarm": true
+        "swarm": false
       },
       "ability": "",
       "unique": false,
       "ace": false,
-      "points": 8,
+      "points": 17,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/banshee-squadron-halo-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/longsword-bomber-squadron-halo-legends.webp"
     },
-    "dalamenee-banshee-squadron-halo-legends": {
-      "author": [
-        "SpaceNavy",
-        "Link",
-        "Skyhammer"
-      ],
+    "master-chief-longsword-halo-legends": {
+      "author": "Armada Legends Team",
       "alias": "Legends",
-      "team": "Armada Legends",
-      "release": "Halo Armada Legends Wave 1",
+      "team": "Legends",
+      "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
       "_id": null,
       "type": "squadron",
-      "faction": "covenant",
-      "squadron_type": "banshee-squadron-halo-legends",
-      "name": "Banshee Squadron",
-      "ace-name": "Dalamenee",
+      "faction": "unsc",
+      "squadron_type": "longsword-bomber-squadron",
+      "name": "Longsword Bomber Squadron",
+      "ace-name": "Master Chief",
       "unique-class": [
-        "Dalamenee"
+        "Master Chief"
       ],
       "irregular": false,
-      "hull": 3,
-      "speed": 4,
+      "hull": 7,
+      "speed": 2,
       "tokens": {
-        "def_scatter": 1,
-        "def_evade": 1,
+        "def_scatter": 0,
+        "def_evade": 0,
         "def_brace": 0
       },
       "armament": {
         "anti-squadron": [
           1,
-          2,
-          0
+          0,
+          1
         ],
         "anti-ship": [
           0,
           1,
-          0
+          1
         ]
       },
       "abilities": {
@@ -108,29 +104,29 @@
         "ai-battery": 0,
         "ai-antisquadron": 0,
         "assault": false,
-        "bomber": false,
+        "bomber": true,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
         "escort": false,
         "grit": false,
-        "heavy": false,
+        "heavy": true,
         "intel": false,
         "relay": 0,
-        "rogue": false,
+        "rogue": true,
         "scout": false,
-        "screen": true,
+        "screen": false,
         "snipe": 0,
         "strategic": false,
-        "swarm": true
+        "swarm": false
       },
-      "ability": "Friendly squadrons with SWARM at distance 1 may reroll 1 blank red dice.",
+      "ability": "",
       "unique": true,
       "ace": true,
-      "points": 14,
+      "points": 19,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/dalamenee-banshee-squadron-halo-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/master-chief-longsword-halo-legends.webp"
     }
   }
 }

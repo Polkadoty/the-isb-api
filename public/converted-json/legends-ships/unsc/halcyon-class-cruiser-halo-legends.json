@@ -1,22 +1,22 @@
 {
   "ships": {
-    "paris-class-frigate-halo-legends": {
+    "halcyon-class-cruiser-halo-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "paris-class",
-      "size": "small",
-      "hull": 5,
+      "chassis_name": "halcyon-class",
+      "size": "medium",
+      "hull": 8,
       "speed": {
         "1": [
-          2
+          1
         ],
         "2": [
-          1,
+          0,
           1
         ],
         "3": [
           0,
-          2,
+          1,
           1
         ],
         "4": []
@@ -24,8 +24,8 @@
       "shields": {
         "front": 2,
         "rear": 1,
-        "left": 1,
-        "right": 1,
+        "left": 2,
+        "right": 2,
         "left_aux": 0,
         "right_aux": 0
       },
@@ -40,7 +40,7 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "paris-heavy-halo-legends": {
+        "halcyon-battle-halo-legends": {
           "author": [
             "SpaceNavy",
             "Link",
@@ -52,30 +52,31 @@
           "expansion": "Halo Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "paris-class",
-          "name": "Paris-class Heavy Frigate",
+          "chassis": "halcyon-class",
+          "name": "Halcyon-class Battle Refit",
           "faction": "unsc",
           "unique": false,
           "traits": [
             "lmac"
           ],
-          "points": 55,
+          "points": 82,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
+            "def_evade": 0,
+            "def_brace": 2,
             "def_redirect": 0,
-            "def_contain": 1,
+            "def_contain": 2,
             "def_salvo": 0
           },
           "values": {
-            "command": 1,
+            "command": 2,
             "squadron": 1,
-            "engineer": 3
+            "engineer": 4
           },
           "upgrades": [
             "commander",
             "officer",
+            "weapons-team",
             "weapons-team",
             "defensive-retro",
             "ordnance",
@@ -85,27 +86,27 @@
           "armament": {
             "asa": [
               0,
-              0,
-              1
+              1,
+              0
             ],
             "front": [
               0,
-              2,
+              3,
               1
             ],
             "rear": [
               0,
-              0,
+              1,
               1
             ],
             "left": [
               0,
-              1,
+              2,
               2
             ],
             "right": [
               0,
-              1,
+              2,
               2
             ],
             "left_aux": [
@@ -120,14 +121,14 @@
             ],
             "special": [
               2,
-              1,
+              2,
               1
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/paris-heavy-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/halcyon-battle-halo-legends.webp"
         },
-        "paris-missile-halo-legends": {
+        "halcyon-light-halo-legends": {
           "author": [
             "SpaceNavy",
             "Link",
@@ -139,32 +140,33 @@
           "expansion": "Halo Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "paris-class",
-          "name": "Paris-class Missile Frigate",
+          "chassis": "halcyon-class",
+          "name": "Halcyon-class Light Cruiser",
           "faction": "unsc",
           "unique": false,
           "traits": [
             "lmac"
           ],
-          "points": 60,
+          "points": 78,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
+            "def_evade": 0,
+            "def_brace": 2,
             "def_redirect": 0,
-            "def_contain": 1,
+            "def_contain": 2,
             "def_salvo": 0
           },
           "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 3
+            "command": 2,
+            "squadron": 2,
+            "engineer": 4
           },
           "upgrades": [
             "commander",
             "officer",
+            "support-team",
             "weapons-team",
-            "defensive-retro",
+            "offensive-retro",
             "ion-cannon",
             "super-weapon",
             "title"
@@ -178,21 +180,21 @@
             "front": [
               0,
               3,
-              0
+              1
             ],
             "rear": [
               0,
-              0,
+              1,
               1
             ],
             "left": [
               0,
-              2,
+              3,
               1
             ],
             "right": [
               0,
-              2,
+              3,
               1
             ],
             "left_aux": [
@@ -212,7 +214,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/paris-missile-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/halcyon-light-halo-legends.webp"
         }
       }
     }

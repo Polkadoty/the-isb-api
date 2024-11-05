@@ -1,0 +1,118 @@
+{
+    "upgrades": {
+        "purity-of-spirit-title-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "covenant"
+            ],
+            "name": "Purity of Spirit",
+            "unique-class": [
+                "Purity of Spirit"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "ccs-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/purity-of-spirit-title-halo-legends.webp"
+        },
+        "truth-and-reco-title-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "covenant"
+            ],
+            "name": "Truth and Reconciliation",
+            "unique-class": [
+                "Truth and Reconciliation"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "ccs-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/truth-and-reco-title-halo-legends.webp"
+        }
+    }
+}

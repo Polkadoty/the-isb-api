@@ -1,0 +1,175 @@
+{
+    "upgrades": {
+        "constantinople-title-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "unsc"
+            ],
+            "name": "UNSC Constantinople",
+            "unique-class": [
+                "UNSC Constantinople"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "halcyon-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/constantinople-title-halo-legends.webp"
+        },
+        "pillar-of-autumn-title-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "unsc"
+            ],
+            "name": "UNSC Pillar of Autumn",
+            "unique-class": [
+                "UNSC Pillar of Autumn"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "halcyon-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/pillar-of-autumn-title-halo-legends.webp"
+        },
+        "roman-blue-title-halo-legends": {
+            "author": [
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "unsc"
+            ],
+            "name": "UNSC Roman Blue",
+            "unique-class": [
+                "UNSC Roman Blue"
+            ],
+            "ability": "Placeholder",
+            "unique": true,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "halcyon-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    "fleet-command"
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    "fleet-command"
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/roman-blue-title-halo-legends.webp"
+        }
+    }
+}

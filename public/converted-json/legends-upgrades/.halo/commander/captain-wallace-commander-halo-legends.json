@@ -1,0 +1,63 @@
+{
+    "upgrades": {
+        "captain-wallace-commander-halo-legends": {
+            "author": [
+                "SpaceNavy",
+                "Link",
+                "Skyhammer"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Halo Armada Legends",
+            "expansion": "Halo Starter Set",
+            "_id": null,
+            "type": "commander",
+            "faction": [
+                "unsc"
+            ],
+            "name": "Captain Wallace",
+            "unique-class": [
+                "Captain Wallace"
+            ],
+            "ability": "",
+            "unique": true,
+            "points": 20,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "token",
+                "start_icon": [
+                    "any"
+                ],
+                "start_amount": 3
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/captain-wallace-commander-halo-legends.webp"
+        }
+    }
+}
