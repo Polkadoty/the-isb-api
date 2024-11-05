@@ -4,12 +4,12 @@
       "author": "Armada Legends Team",
       "alias": "Legends",
       "team": "Legends",
-      "release": "Halo Armada Legends Wave 1",
-      "expansion": "Halo Armada Legends Wave 1",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
       "_id": null,
       "type": "squadron",
       "faction": "covenant",
-      "squadron_type": "banshee-squadron-halo-legends",
+      "squadron_type": "banshee-squadron",
       "name": "Banshee Squadron",
       "ace-name": "",
       "unique-class": [
@@ -77,7 +77,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "covenant",
-      "squadron_type": "banshee-squadron-halo-legends",
+      "squadron_type": "banshee-squadron",
       "name": "Banshee Squadron",
       "ace-name": "Dalamenee",
       "unique-class": [
@@ -131,6 +131,74 @@
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/dalamenee-banshee-squadron-halo-legends.webp"
+    },
+    "wraith-banshee-squadron-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends Wave 1",
+      "expansion": "Halo Starter Set",
+      "_id": null,
+      "type": "squadron",
+      "faction": "covenant",
+      "squadron_type": "banshee-squadron",
+      "name": "Banshee Squadron",
+      "ace-name": "Wraith Wing",
+      "unique-class": [
+        "Wraith Wing"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 10,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/wraith-banshee-squadron-halo-legends.webp"
     }
   }
 }

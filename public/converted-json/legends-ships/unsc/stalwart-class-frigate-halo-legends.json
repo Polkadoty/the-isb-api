@@ -1,11 +1,11 @@
 {
   "ships": {
-    "paris-class-frigate-halo-legends": {
+    "stalwart-class-frigate-halo-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "paris-class",
+      "chassis_name": "stalwart-class",
       "size": "small",
-      "hull": 5,
+      "hull": 4,
       "speed": {
         "1": [
           2
@@ -40,7 +40,7 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "paris-heavy-halo-legends": {
+        "stalwart-escort-halo-legends": {
           "author": [
             "SpaceNavy",
             "Link",
@@ -52,14 +52,14 @@
           "expansion": "Halo Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "paris-class",
-          "name": "Paris-class Heavy Frigate",
+          "chassis": "stalwart-class",
+          "name": "Stalwart-class Escort Frigate",
           "faction": "unsc",
           "unique": false,
           "traits": [
             "lmac"
           ],
-          "points": 55,
+          "points": 50,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,
@@ -70,27 +70,27 @@
           },
           "values": {
             "command": 1,
-            "squadron": 1,
-            "engineer": 3
+            "squadron": 2,
+            "engineer": 2
           },
           "upgrades": [
             "commander",
             "officer",
-            "weapons-team",
+            "fleet-support",
+            "offensive-retro",
             "defensive-retro",
-            "ordnance",
             "super-weapon",
             "title"
           ],
           "armament": {
             "asa": [
               0,
-              0,
+              1,
               1
             ],
             "front": [
               0,
-              2,
+              1,
               1
             ],
             "rear": [
@@ -101,12 +101,12 @@
             "left": [
               0,
               1,
-              2
+              1
             ],
             "right": [
               0,
               1,
-              2
+              1
             ],
             "left_aux": [
               0,
@@ -125,9 +125,9 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/paris-heavy-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/stalwart-escort-halo-legends.webp"
         },
-        "paris-missile-halo-legends": {
+        "stalwart-light-halo-legends": {
           "author": [
             "SpaceNavy",
             "Link",
@@ -139,14 +139,14 @@
           "expansion": "Halo Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "paris-class",
-          "name": "Paris-class Missile Frigate",
+          "chassis": "stalwart-class",
+          "name": "Stalwart-class Escort Frigate",
           "faction": "unsc",
           "unique": false,
           "traits": [
             "lmac"
           ],
-          "points": 60,
+          "points": 45,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,
@@ -158,14 +158,14 @@
           "values": {
             "command": 1,
             "squadron": 1,
-            "engineer": 3
+            "engineer": 2
           },
           "upgrades": [
             "commander",
             "officer",
             "weapons-team",
+            "offensive-retro",
             "defensive-retro",
-            "ion-cannon",
             "super-weapon",
             "title"
           ],
@@ -173,12 +173,12 @@
             "asa": [
               0,
               1,
-              0
+              1
             ],
             "front": [
               0,
-              3,
-              0
+              1,
+              1
             ],
             "rear": [
               0,
@@ -187,12 +187,12 @@
             ],
             "left": [
               0,
-              2,
+              1,
               1
             ],
             "right": [
               0,
-              2,
+              1,
               1
             ],
             "left_aux": [
@@ -212,7 +212,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/paris-missile-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/stalwart-light-halo-legends.webp"
         }
       }
     }

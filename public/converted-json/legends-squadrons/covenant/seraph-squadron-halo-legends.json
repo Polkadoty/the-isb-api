@@ -1,23 +1,23 @@
 {
   "squadrons": {
-    "longsword-fighter-squadron-halo-legends": {
+    "seraph-squadron-halo-legends": {
       "author": "Armada Legends Team",
       "alias": "Legends",
       "team": "Legends",
-      "release": "Halo Armada Legends Wave 1",
-      "expansion": "Halo Armada Legends Wave 1",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
       "_id": null,
       "type": "squadron",
-      "faction": "unsc",
-      "squadron_type": "longsword-fighter-squadron-halo-legends",
-      "name": "Longsword Fighter Squadron",
+      "faction": "covenant",
+      "squadron_type": "seraph-squadron",
+      "name": "Seraph Squadron",
       "ace-name": "",
       "unique-class": [
         ""
       ],
       "irregular": false,
-      "hull": 6,
-      "speed": 3,
+      "hull": 3,
+      "speed": 5,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 0,
@@ -30,7 +30,7 @@
           0
         ],
         "anti-ship": [
-          1,
+          2,
           0,
           0
         ]
@@ -40,7 +40,7 @@
         "ai-battery": 0,
         "ai-antisquadron": 0,
         "assault": false,
-        "bomber": false,
+        "bomber": true,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
@@ -49,7 +49,7 @@
         "heavy": false,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 0,
@@ -59,33 +59,29 @@
       "ability": "",
       "unique": false,
       "ace": false,
-      "points": 15,
+      "points": 14,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/longsword-fighter-squadron-halo-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/seraph-squadron-halo-legends.webp"
     },
-    "knife-26-longsword-fighter": {
-      "author": [
-        "SpaceNavy",
-        "Link",
-        "Skyhammer"
-      ],
+    "ferko-seraph-squadron-halo-legends": {
+      "author": "Armada Legends Team",
       "alias": "Legends",
-      "team": "Armada Legends",
-      "release": "Halo Armada Legends Wave 1",
+      "team": "Legends",
+      "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
       "_id": null,
       "type": "squadron",
-      "faction": "unsc",
-      "squadron_type": "squadron_uid",
-      "name": "longsword-fighter-squadron-halo-legends",
-      "ace-name": "Knife 26",
+      "faction": "covenant",
+      "squadron_type": "seraph-squadron",
+      "name": "Seraph Squadron",
+      "ace-name": "Ferko",
       "unique-class": [
-        "Knife 26"
+        "Ferko"
       ],
       "irregular": false,
-      "hull": 6,
-      "speed": 3,
+      "hull": 3,
+      "speed": 5,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 1,
@@ -98,7 +94,7 @@
           0
         ],
         "anti-ship": [
-          1,
+          2,
           0,
           0
         ]
@@ -108,29 +104,29 @@
         "ai-battery": 0,
         "ai-antisquadron": 0,
         "assault": false,
-        "bomber": false,
+        "bomber": true,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
-        "escort": true,
+        "escort": false,
         "grit": false,
         "heavy": false,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 0,
         "strategic": false,
         "swarm": false
       },
-      "ability": "While attacking a non-unique squadron, each of your red :hit: icons adds 1 damage to the total.",
+      "ability": "Placeholder",
       "unique": true,
       "ace": true,
       "points": 20,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/knife-26-longsword-fighter.webp"
+      "cardimage": "https://api.swarmada.wiki/images/ferko-seraph-squadron-halo-legends.webp"
     }
   }
 }

@@ -3,7 +3,7 @@
     "jupiter-class-battlestar-bsg-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "jupiter-class-battlestar-bsg-legends",
+      "chassis_name": "jupiter-class-battlestar",
       "size": "large",
       "hull": 12,
       "speed": {
@@ -47,18 +47,19 @@
           ],
           "alias": "Legends",
           "team": "Armada Legends",
-          "release": "BSG Armada Legends Wave 1",
+          "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "jupiter-class-battlestar-bsg-legends",
-          "name": "Jupiter-class Battlestar MkI",
+          "chassis": "jupiter-class-battlestar",
+          "name": "Jupiter-class Battlestar Mark I",
           "faction": "colonial",
           "unique": false,
           "traits": [
-            ""
+            "flak",
+            "launch"
           ],
-          "points": 112,
+          "points": 120,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -69,17 +70,17 @@
           },
           "values": {
             "command": 3,
-            "squadron": 5,
-            "engineer": 5
+            "squadron": 4,
+            "engineer": 4
           },
           "upgrades": [
             "commander",
             "officer",
+            "weapons-team",
             "offensive-retro",
             "defensive-retro",
-            "fleet-command",
-            "fleet-command",
-            "ordnance",
+            "turbolaser",
+            "ion-cannon",
             "title"
           ],
           "armament": {
@@ -89,23 +90,23 @@
               0
             ],
             "front": [
-              0,
-              3,
-              1
-            ],
-            "rear": [
-              0,
+              1,
               2,
               1
             ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
             "left": [
-              0,
-              6,
+              2,
+              4,
               2
             ],
             "right": [
-              0,
-              6,
+              2,
+              4,
               2
             ],
             "left_aux": [
@@ -126,6 +127,94 @@
           },
           "artwork": "",
           "cardimage": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk1-bsg-legends.webp"
+        },
+        "jupiter-class-battlestar-mk2-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": null,
+          "type": "ship",
+          "chassis": "jupiter-class-battlestar",
+          "name": "Jupiter-class Battlestar Mark II",
+          "faction": "colonial",
+          "unique": false,
+          "traits": [
+            "flak",
+            "launch"
+          ],
+          "points": 126,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              2,
+              1
+            ],
+            "rear": [
+              0,
+              3,
+              0
+            ],
+            "left": [
+              1,
+              4,
+              3
+            ],
+            "right": [
+              1,
+              4,
+              3
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk2-bsg-legends.webp"
         }
       }
     }
