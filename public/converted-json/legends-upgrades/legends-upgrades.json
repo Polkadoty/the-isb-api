@@ -9,7 +9,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "4edc35fd-a467-459b-a569-ea2b9d1210dc",
+      "_id": "b5527c04-76c3-4801-8414-2e7989e0234a",
       "type": "commander",
       "faction": [
         "cylon"
@@ -67,7 +67,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "47a5087d-c4ad-47ce-8133-6428d2641786",
+      "_id": "d11f8743-cf7b-46a1-b867-6dde60fbf0e4",
       "type": "commander",
       "faction": [
         "colonial"
@@ -116,6 +116,124 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/william-adama-commander-bsg-legends.webp"
     },
+    "ardo-moretumee-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "95c957d4-a5d4-4487-8d50-b20ff56ce746",
+      "type": "commander",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Ardo Moretumee",
+      "unique-class": [
+        "Ardo Moretumee"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ardo-moretumee-commander-halo-legends.webp"
+    },
+    "atriox-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "83656bef-684f-4dbc-ac0c-fbf6e6e33f8a",
+      "type": "commander",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Atriox",
+      "unique-class": [
+        "Atriox"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 35,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/atriox-commander-halo-legends.webp"
+    },
     "captain-keyes-commander-halo-legends": {
       "author": [
         "SpaceNavy",
@@ -124,9 +242,9 @@
       ],
       "alias": "Legends",
       "team": "Armada Legends",
-      "release": "Halo Armada Legends Wave 1",
+      "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "48e3fe52-eb67-4717-b05b-7166e5bdbe59",
+      "_id": "56ece2d5-68c7-42a8-bd30-465993b4821c",
       "type": "commander",
       "faction": [
         "unsc"
@@ -175,6 +293,242 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/captain-keyes-commander-halo-legends.webp"
     },
+    "captain-wallace-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "a6395304-a1d3-4ae7-ada8-2dcce7cb2aab",
+      "type": "commander",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Captain Wallace",
+      "unique-class": [
+        "Captain Wallace"
+      ],
+      "ability": "",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 3
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/captain-wallace-commander-halo-legends.webp"
+    },
+    "commander-keyes-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "eb6d581d-3f32-495f-afb3-a3f9490b0ff6",
+      "type": "commander",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Commander Keyes",
+      "unique-class": [
+        "Commander Keyes"
+      ],
+      "ability": "",
+      "unique": true,
+      "points": 27,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/commander-keyes-commander-halo-legends.webp"
+    },
+    "lord-hood-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "2d4934c0-3050-476e-8fed-de647b7b89b9",
+      "type": "commander",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Lord Hood",
+      "unique-class": [
+        "Lord Hood"
+      ],
+      "ability": "",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "repair"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lord-hood-commander-halo-legends.webp"
+    },
+    "prophet-of-truth-commander-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "70986651-edbd-40df-bd66-b981294bfcde",
+      "type": "commander",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Prophet of Truth",
+      "unique-class": [
+        "Prophet of Truth"
+      ],
+      "ability": "",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/prophet-of-truth-commander-halo-legends.webp"
+    },
     "thel-vadamee-commander-halo-legends": {
       "author": [
         "SpaceNavy",
@@ -183,9 +537,9 @@
       ],
       "alias": "Legends",
       "team": "Armada Legends",
-      "release": "Halo Armada Legends Wave 1",
+      "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "ddbb7423-abd9-4cd5-96fb-6823b6236bd2",
+      "_id": "aeac3ccb-1717-4809-aee8-def020950ba3",
       "type": "commander",
       "faction": [
         "covenant"
@@ -234,6 +588,2060 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/thel-vadamee-commander-halo-legends.webp"
     },
+    "cortana-wepteam-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "f73cb8f1-66b7-466a-89f9-665c36852053",
+      "type": "weapons-team",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Cortana",
+      "unique-class": [
+        "Cortana"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cortana-wepteam-halo-legends.webp"
+    },
+    "emergency-thrusters-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "9209b3ba-4122-4b85-ba1a-aec2637af684",
+      "type": "defensive-retro",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Emergency Thrusters",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/emergency-thrusters-halo-legends.webp"
+    },
+    "huragok-engineer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "42d932a3-efde-4d31-af44-f35dcee12285",
+      "type": "support-team",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Huragok Engineer Team",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "repair"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/huragok-engineer-halo-legends.webp"
+    },
+    "jiralhanae-brutality-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "17339f68-88cd-4b7b-9b2b-710a22bff1ef",
+      "type": "fleet-command",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Jiralhanae Brutality",
+      "unique-class": [
+        "Jiralhanae Brutality"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/jiralhanae-brutality-halo-legends.webp"
+    },
+    "antonio-silva-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "70f4b974-7df8-4e68-ac9c-8bf74665f5f9",
+      "type": "officer",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Antonio Silva",
+      "unique-class": [
+        "Antonio Silva"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/antonio-silva-officer-halo-legends.webp"
+    },
+    "avery-johnson-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "ce8de50b-83ce-49d7-9e4e-d3f7cccf8a96",
+      "type": "officer",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Avery Johnson",
+      "unique-class": [
+        "Avery Johnson"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/avery-johnson-officer-halo-legends.webp"
+    },
+    "combat-coordinator-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "936c9168-0bbf-4524-9324-be1a5b03b84b",
+      "type": "officer",
+      "faction": [
+        "unsc",
+        "covenant"
+      ],
+      "name": "Combat Coordinator",
+      "unique-class": [
+        "Combat Coordinator"
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/combat-coordinator-officer-halo-legends.webp"
+    },
+    "cortana-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "52fbcc48-a9e9-46b5-a076-d2894b3428a5",
+      "type": "officer",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Cortana",
+      "unique-class": [
+        "Cortana"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "any"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cortana-officer-halo-legends.webp"
+    },
+    "kristof-jen-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "8e4774ff-1ebb-41f2-b624-6b42dd4a46d0",
+      "type": "officer",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Kristof Jen",
+      "unique-class": [
+        "Kristof Jen"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kristof-jen-officer-halo-legends.webp"
+    },
+    "lat-ravamee-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "6907c635-2012-4d79-b0c8-b6c9b8765dc7",
+      "type": "officer",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Lat Ravamee",
+      "unique-class": [
+        "Lat Ravamee"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lat-ravamee-officer-halo-legends.webp"
+    },
+    "logistics-coordinator-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "b6e26b18-a218-4215-92b1-68155ece8b6c",
+      "type": "officer",
+      "faction": [
+        "unsc",
+        "covenant"
+      ],
+      "name": "Logistics Coordinator",
+      "unique-class": [
+        "Logistics Coordinator"
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/logistics-coordinator-officer-halo-legends.webp"
+    },
+    "maccabeus-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "95fac924-cf4d-4d9a-8308-9a5f08ceae0c",
+      "type": "officer",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Maccabeus",
+      "unique-class": [
+        "Maccabeus"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/maccabeus-officer-halo-legends.webp"
+    },
+    "master-chief-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "8dfa732d-610c-4476-ba87-88086506cf4c",
+      "type": "officer",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Master Chief",
+      "unique-class": [
+        "Master Chief"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/master-chief-officer-halo-legends.webp"
+    },
+    "prophet-of-stewardship-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "9ca3f6c3-1635-4eee-ac6f-2e0fecb21d71",
+      "type": "officer",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Prophet of Stewardship",
+      "unique-class": [
+        "Prophet of Stewardship"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/prophet-of-stewardship-officer-halo-legends.webp"
+    },
+    "rtas-vadumee-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "c5c584af-3a4b-42ea-84d7-2f4dd71def66",
+      "type": "officer",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Rtas Vadumee",
+      "unique-class": [
+        "Rtas Vadumee"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rtas-vadumee-officer-halo-legends.webp"
+    },
+    "smart-ai-officer-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "d3af5af5-e44e-48e4-b634-4f96f2006034",
+      "type": "officer",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Smart AI",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/smart-ai-officer-halo-legends.webp"
+    },
+    "over-plasma-cells-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "764ed29f-0502-4f53-83a6-3023c89fe29c",
+      "type": "ion-cannon",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Overcharged Plasma Cells",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 9,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/over-plasma-cells-halo-legends.webp"
+    },
+    "plasma-lance-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "51552afa-0c1f-44a1-a518-be75b89dda01",
+      "type": "offensive-retro",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Plasma Lance",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 10,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "lance"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "confire"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/plasma-lance-halo-legends.webp"
+    },
+    "quick-charge-caps-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "a3f48ef3-b9dc-4d12-992f-2f4ed5609293",
+      "type": "super-weapon",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Quick-Charge Capacitors",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/quick-charge-caps-halo-legends.webp"
+    },
+    "reliable-shields-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "3be33146-3bcb-443e-bf57-d441ce00b3f8",
+      "type": "defensive-retro",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Reliable Shields",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 9,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/reliable-shields-halo-legends.webp"
+    },
+    "sangheili-honor-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "1c56b6d3-f7f3-49b8-8f51-5fb4bc73c41b",
+      "type": "fleet-command",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Sangheili Honor",
+      "unique-class": [
+        "Sangheili Honor"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/sangheili-honor-halo-legends.webp"
+    },
+    "sustain-motor-missiles-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "2b1d64ac-25ec-4aaa-88ab-17802dc60c93",
+      "type": "ion-cannon",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Sustain Motor Missiles",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/sustain-motor-missiles-halo-legends.webp"
+    },
+    "titanium-armor-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "c32a54c7-a714-409f-b1ed-5c4b718bbeef",
+      "type": "defensive-retro",
+      "faction": [
+        "unsc"
+      ],
+      "name": "Titanium Armor Plating",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/titanium-armor-halo-legends.webp"
+    },
+    "purity-of-spirit-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "a8bde5fe-bb80-42dd-872d-b773a1e94dbc",
+      "type": "title",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Purity of Spirit",
+      "unique-class": [
+        "Purity of Spirit"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "ccs-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/purity-of-spirit-title-halo-legends.webp"
+    },
+    "truth-and-reco-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "f1d1f7f6-4033-4642-aaa4-d76599d31db5",
+      "type": "title",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Truth and Reconciliation",
+      "unique-class": [
+        "Truth and Reconciliation"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "ccs-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/truth-and-reco-title-halo-legends.webp"
+    },
+    "constantinople-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "438e632a-8b49-4b6a-9c20-b8badde5c818",
+      "type": "title",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC Constantinople",
+      "unique-class": [
+        "UNSC Constantinople"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "halcyon-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/constantinople-title-halo-legends.webp"
+    },
+    "pillar-of-autumn-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "4f83f90f-8a00-4acf-a819-8867fc5a5670",
+      "type": "title",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC Pillar of Autumn",
+      "unique-class": [
+        "UNSC Pillar of Autumn"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "halcyon-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/pillar-of-autumn-title-halo-legends.webp"
+    },
+    "roman-blue-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "8c554299-8684-411e-aef7-a5223c4759fb",
+      "type": "title",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC Roman Blue",
+      "unique-class": [
+        "UNSC Roman Blue"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "halcyon-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          "fleet-command"
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          "fleet-command"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/roman-blue-title-halo-legends.webp"
+    },
+    "commonwealth-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "25c8c2be-62e1-49f0-9291-d181f0444b51",
+      "type": "title",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC Commonwealth",
+      "unique-class": [
+        "UNSC Commonwealth"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "paris-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/commonwealth-title-halo-legends.webp"
+    },
+    "savannah-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "ad580129-953c-4267-8bc2-1cae2847134b",
+      "type": "title",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC Savannah",
+      "unique-class": [
+        "UNSC Savannah"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "paris-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/savannah-title-halo-legends.webp"
+    },
+    "ardent-prayer-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "876effcd-eda2-42ec-bf15-572108cd1322",
+      "type": "title",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Ardent Prayer",
+      "unique-class": [
+        "Ardent Prayer"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "sdv-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          "ion-cannon"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ardent-prayer-title-halo-legends.webp"
+    },
+    "elegys-lament-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "54cb2f0b-0bb6-49db-b5e1-93744721a95f",
+      "type": "title",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Elegy's Lament",
+      "unique-class": [
+        "Elegy's Lament"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "sdv-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/elegys-lament-title-halo-legends.webp"
+    },
+    "in-amber-clad-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "c6d7e53c-e550-4f73-875e-de70d792e9cb",
+      "type": "title",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC In Amber Clad",
+      "unique-class": [
+        "UNSC In Amber Clad"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "stalwart-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/in-amber-clad-title-halo-legends.webp"
+    },
+    "meriwether-lewis-title-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "d449e779-3b2a-4ccf-8fe7-1a83bf080d88",
+      "type": "title",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC Meriwether Lewis",
+      "unique-class": [
+        "UNSC Meriwether Lewis"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 1,
+      "modification": false,
+      "bound_shiptype": "stalwart-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/meriwether-lewis-title-halo-legends.webp"
+    },
+    "unsc-gunners-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "3a6ddac7-15be-4574-ab12-fb97ffe02d20",
+      "type": "weapons-team",
+      "faction": [
+        "unsc"
+      ],
+      "name": "UNSC Gunners",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Placeholder",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/unsc-gunners-halo-legends.webp"
+    },
+    "will-of-the-prophets-halo-legends": {
+      "author": [
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "5050c337-165d-43b0-9126-7bc63be91530",
+      "type": "fleet-command",
+      "faction": [
+        "covenant"
+      ],
+      "name": "Will of the Prophets",
+      "unique-class": [
+        "Will of the Prophets"
+      ],
+      "ability": "Placeholder",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/will-of-the-prophets-halo-legends.webp"
+    },
     "sai-sircu-officer-legends": {
       "author": [
         "SpaceNavy",
@@ -250,7 +2658,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "673ab9ad-6210-4078-8d4f-efe603c3f1e4",
+      "_id": "ccbda323-14ec-4fc9-9532-bf7e3d5b5698",
       "type": "officer",
       "faction": [
         "separatist"
@@ -315,7 +2723,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "ee1d5951-0e38-49c2-8ec0-db9d85a857b7",
+      "_id": "78a89164-ae15-4a7e-9654-90900ef5df8b",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -380,7 +2788,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "0eaf6d0f-31b9-4013-95ed-28a41401737d",
+      "_id": "269aa3f4-67df-42b7-9638-2ca1f5456f51",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -445,7 +2853,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "ab8b0adc-6963-4233-bdd2-74a70d88bc87",
+      "_id": "ab450508-05cc-41a1-ae65-ef10f1835d06",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -502,7 +2910,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "d2c68a87-0058-461f-8df1-577d157b3514",
+      "_id": "b21309d4-54b6-44ae-8bf6-ac1f8ad01aee",
       "type": "title",
       "faction": [
         "rebel"
@@ -559,7 +2967,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "48d75d4d-3cf5-43d9-90e0-3b91885b863c",
+      "_id": "937ed263-2606-42f4-8cc6-69b28b3c202d",
       "type": "title",
       "faction": [
         "rebel"
@@ -616,7 +3024,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "dcf5b989-e32f-4a74-9147-c87d7642b44e",
+      "_id": "7adf3274-9cf1-4646-81d0-2bc271a2e734",
       "type": "title",
       "faction": [
         "rebel"
@@ -681,7 +3089,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "7f5e3f87-1e34-4f96-8c13-750558c2263d",
+      "_id": "7f7219a6-84e8-4549-b791-2cfe04ff15f6",
       "type": "title",
       "faction": [
         "separatist"
@@ -746,7 +3154,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "f3da2ae9-37c6-46cc-bb90-c2b798e46a16",
+      "_id": "515a4558-201c-4ce1-85c3-b316576c2b3b",
       "type": "title",
       "faction": [
         "separatist"
@@ -811,7 +3219,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "1ee0f3a6-f8b8-4238-a1b6-f48feee4749f",
+      "_id": "21cb6d29-48bf-4520-9821-b72858938baf",
       "type": "title",
       "faction": [
         "separatist"
