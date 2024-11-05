@@ -1,9 +1,9 @@
 {
   "ships": {
     "jupiter-class-battlestar-bsg-legends": {
-      "_id": "bebfd3b2-5aa4-4613-9862-e1a435c23edb",
+      "_id": "24d3c584-6712-45a0-a4b4-7dfe9fe0bc61",
       "type": "chassis",
-      "chassis_name": "jupiter-class-battlestar-bsg-legends",
+      "chassis_name": "jupiter-class-battlestar",
       "size": "large",
       "hull": 12,
       "speed": {
@@ -47,18 +47,19 @@
           ],
           "alias": "Legends",
           "team": "Armada Legends",
-          "release": "BSG Armada Legends Wave 1",
+          "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "31b72bc8-fe40-4d50-8faf-c23d022635b3",
+          "_id": "0787ce34-1cf6-4c47-bcf9-38a969a44031",
           "type": "ship",
-          "chassis": "jupiter-class-battlestar-bsg-legends",
-          "name": "Jupiter-class Battlestar MkI",
+          "chassis": "jupiter-class-battlestar",
+          "name": "Jupiter-class Battlestar Mark I",
           "faction": "colonial",
           "unique": false,
           "traits": [
-            ""
+            "flak",
+            "launch"
           ],
-          "points": 112,
+          "points": 120,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -69,17 +70,17 @@
           },
           "values": {
             "command": 3,
-            "squadron": 5,
-            "engineer": 5
+            "squadron": 4,
+            "engineer": 4
           },
           "upgrades": [
             "commander",
             "officer",
+            "weapons-team",
             "offensive-retro",
             "defensive-retro",
-            "fleet-command",
-            "fleet-command",
-            "ordnance",
+            "turbolaser",
+            "ion-cannon",
             "title"
           ],
           "armament": {
@@ -89,23 +90,23 @@
               0
             ],
             "front": [
-              0,
-              3,
-              1
-            ],
-            "rear": [
-              0,
+              1,
               2,
               1
             ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
             "left": [
-              0,
-              6,
+              2,
+              4,
               2
             ],
             "right": [
-              0,
-              6,
+              2,
+              4,
               2
             ],
             "left_aux": [
@@ -126,13 +127,317 @@
           },
           "artwork": "",
           "cardimage": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk1-bsg-legends.webp"
+        },
+        "jupiter-class-battlestar-mk2-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": "001a9604-d641-4867-881a-67a12849e83d",
+          "type": "ship",
+          "chassis": "jupiter-class-battlestar",
+          "name": "Jupiter-class Battlestar Mark II",
+          "faction": "colonial",
+          "unique": false,
+          "traits": [
+            "flak",
+            "launch"
+          ],
+          "points": 126,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              2,
+              1
+            ],
+            "rear": [
+              0,
+              3,
+              0
+            ],
+            "left": [
+              1,
+              4,
+              3
+            ],
+            "right": [
+              1,
+              4,
+              3
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk2-bsg-legends.webp"
+        }
+      }
+    },
+    "sdv-class-corvette-halo-legends": {
+      "_id": "22599e52-41fd-456e-8c1f-c6f740b28079",
+      "type": "chassis",
+      "chassis_name": "sdv-class",
+      "size": "medium",
+      "hull": 6,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "sdv-class-assault-corvette-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "f33b4008-3fb2-49b3-8c91-f1f715bb79ab",
+          "type": "ship",
+          "chassis": "sdv-class",
+          "name": "SDV-class Assault Corvette",
+          "faction": "covenant",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 75,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "defensive-retro",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              2,
+              0
+            ],
+            "rear": [
+              0,
+              2,
+              0
+            ],
+            "left": [
+              0,
+              2,
+              2
+            ],
+            "right": [
+              0,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/sdv-class-assault-corvette-halo-legends.webp"
+        },
+        "sdv-class-heavy-corvette-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "dc05cc78-61c0-40e9-a100-aa23121fa40b",
+          "type": "ship",
+          "chassis": "sdv-class",
+          "name": "SDV-class Heavy Corvette",
+          "faction": "covenant",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 80,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-support",
+            "offensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              2,
+              0
+            ],
+            "left": [
+              1,
+              3,
+              0
+            ],
+            "right": [
+              1,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/sdv-class-heavy-corvette-halo-legends.webp"
         }
       }
     },
     "ccs-class-cruiser-halo-legends": {
-      "_id": "ecfb28d8-2d8d-470d-af99-59cd3cea20de",
+      "_id": "47064b92-7074-485c-9407-8da73d67dde1",
       "type": "chassis",
-      "chassis_name": "ccs-class-cruiser-halo-legends",
+      "chassis_name": "ccs-class",
       "size": "large",
       "hull": 8,
       "speed": {
@@ -179,14 +484,14 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "cfabcb01-a1d4-4583-af79-f988d3c2f36b",
+          "_id": "502fe2ab-66c2-4bef-9f37-56a9743c05d0",
           "type": "ship",
-          "chassis": "ccs-class-cruiser-halo-legends",
+          "chassis": "ccs-class",
           "name": "CCS-class Command Cruiser",
           "faction": "covenant",
           "unique": false,
           "traits": [
-            "Lance"
+            "lance"
           ],
           "points": 105,
           "tokens": {
@@ -256,13 +561,101 @@
           },
           "artwork": "",
           "cardimage": "https://api.swarmada.wiki/images/ccs-class-command-cruiser-halo-legends.webp"
+        },
+        "ccs-class-battle-cruiser-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "4e56351d-b5cf-40ae-946d-dfaaa384ea8c",
+          "type": "ship",
+          "chassis": "ccs-class",
+          "name": "CCS-class Battle Cruiser",
+          "faction": "covenant",
+          "unique": false,
+          "traits": [
+            "lance"
+          ],
+          "points": 115,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "defensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              3,
+              2,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              3,
+              0
+            ],
+            "right": [
+              2,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/ccs-class-battle-cruiser-halo-legends.webp"
         }
       }
     },
-    "cylon-war-basestar-bsg-legends": {
-      "_id": "b779b4ac-3200-4715-b23e-c3bd5d5400ac",
+    "war-basestar-bsg-legends": {
+      "_id": "30775d10-9180-451e-82e5-f7d9d83fe5d9",
       "type": "chassis",
-      "chassis_name": "cylon-war-basestar-bsg-legends",
+      "chassis_name": "war-basestar",
       "size": "large",
       "hull": 12,
       "speed": {
@@ -270,7 +663,7 @@
           1
         ],
         "2": [
-          1,
+          0,
           1
         ],
         "3": [],
@@ -295,25 +688,25 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "cylon-war-basestar-mk1-bsg-legends": {
+        "war-basestar-mk1-bsg-legends": {
           "author": [
             "TacticalFox27",
             "SpaceNavy"
           ],
           "alias": "Legends",
           "team": "Armada Legends",
-          "release": "BSG Armada Legends Wave 1",
+          "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "725e44f9-80b6-4942-83b7-560444882a57",
+          "_id": "e3c6b8f4-868d-4a30-a754-86eed46332bd",
           "type": "ship",
-          "chassis": "cylon-war-basestar-bsg-legends",
+          "chassis": "war-basestar",
           "name": "War Basestar Mk.1",
           "faction": "cylon",
           "unique": false,
           "traits": [
             ""
           ],
-          "points": 110,
+          "points": 100,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -324,16 +717,16 @@
           },
           "values": {
             "command": 3,
-            "squadron": 5,
-            "engineer": 5
+            "squadron": 4,
+            "engineer": 4
           },
           "upgrades": [
             "commander",
             "officer",
             "fleet-command",
+            "offensive-retro",
+            "offensive-retro",
             "defensive-retro",
-            "offensive-retro",
-            "offensive-retro",
             "turbolaser",
             "title"
           ],
@@ -380,12 +773,99 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/cylon-war-basestar-mk1-bsg-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/war-basestar-mk1-bsg-legends.webp"
+        },
+        "war-basestar-mk2-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": "b3df84e8-f3c9-4bbb-8a0b-4625f37e2059",
+          "type": "ship",
+          "chassis": "war-basestar",
+          "name": "War Basestar Mk.2",
+          "faction": "cylon",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 106,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 0,
+            "def_contain": 2,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              1,
+              0
+            ],
+            "rear": [
+              3,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              1,
+              0
+            ],
+            "right": [
+              3,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/war-basestar-mk2-bsg-legends.webp"
         }
       }
     },
     "tector-star-destroyer-legends": {
-      "_id": "f45e18a6-45f0-4125-961d-b374b30d4ae4",
+      "_id": "ab87277b-d04d-4677-a869-ce5bf1ab5006",
       "type": "chassis",
       "chassis_name": "tector-star-destroyer-legends",
       "size": "large",
@@ -436,7 +916,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "691b07dd-2cf8-454e-b5fc-78719164a151",
+          "_id": "d0075ed7-46ac-433e-ba76-65b784115868",
           "type": "ship",
           "chassis": "tector-star-destroyer-legends",
           "name": "Tector-class Star Destroyer",
@@ -517,7 +997,7 @@
       }
     },
     "mc40a-light-legends": {
-      "_id": "bdafbbc5-d670-40ef-99de-8c7c02e82d2d",
+      "_id": "0d6e2209-59a5-4fc3-b9be-3d920340d9b0",
       "type": "chassis",
       "chassis_name": "mc40a-light-legends",
       "size": "medium",
@@ -564,7 +1044,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "e976a3fd-c71c-4d25-8519-d933044bb3bc",
+          "_id": "c45b381c-e242-46e0-a743-a43444d1f5f3",
           "type": "ship",
           "chassis": "mc40a-light-legends",
           "name": "MC40a Light Escort Carrier",
@@ -649,7 +1129,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "4dae5ad7-fc68-4b8d-98ca-5f0956cdb8a5",
+          "_id": "7915b894-280f-4ab0-9b7b-182173a3a467",
           "type": "ship",
           "chassis": "mc40a-light-legends",
           "name": "MC40a Light Cruiser",
@@ -729,7 +1209,7 @@
       }
     },
     "subjugator-class-legends": {
-      "_id": "7842ff6b-41a5-49df-b750-87ff527aecd1",
+      "_id": "7cdd3a60-ee6d-4db2-ac64-9e3a798835c8",
       "type": "chassis",
       "chassis_name": "subjugator-class-legends",
       "size": "huge",
@@ -780,7 +1260,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "e293bcea-43ed-4107-93bb-322bd05e5676",
+          "_id": "edea108d-749b-4840-89b5-c5eb5daa5954",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Prototype",
@@ -878,7 +1358,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "e78c539b-206f-49cf-b117-c5ec3fccf50f",
+          "_id": "7c51ced1-c90c-41b6-b2e9-970d57048a44",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Testbed",
@@ -976,7 +1456,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "475d609a-7680-4bc7-a389-1e4c17d5a288",
+          "_id": "28baf2c2-b126-4426-b7e8-3b91406af16d",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Heavy Cruiser",
@@ -1060,10 +1540,228 @@
         }
       }
     },
-    "paris-class-frigate-halo-legends": {
-      "_id": "4547428f-ee17-4e6c-9923-3c4a92cfa88e",
+    "halcyon-class-cruiser-halo-legends": {
+      "_id": "bf8ac2f6-51a1-4b07-bee2-ea814a041325",
       "type": "chassis",
-      "chassis_name": "paris-class-frigate-halo-legends",
+      "chassis_name": "halcyon-class",
+      "size": "medium",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          0,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "halcyon-battle-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "e7c7b729-ff28-4eb3-8f57-77d8fa719aa8",
+          "type": "ship",
+          "chassis": "halcyon-class",
+          "name": "Halcyon-class Battle Refit",
+          "faction": "unsc",
+          "unique": false,
+          "traits": [
+            "lmac"
+          ],
+          "points": 82,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "weapons-team",
+            "defensive-retro",
+            "ordnance",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              3,
+              1
+            ],
+            "rear": [
+              0,
+              1,
+              1
+            ],
+            "left": [
+              0,
+              2,
+              2
+            ],
+            "right": [
+              0,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              2,
+              2,
+              1
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/halcyon-battle-halo-legends.webp"
+        },
+        "halcyon-light-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "58843b9f-0f14-4820-9b72-5e9b1613c7e8",
+          "type": "ship",
+          "chassis": "halcyon-class",
+          "name": "Halcyon-class Light Cruiser",
+          "faction": "unsc",
+          "unique": false,
+          "traits": [
+            "lmac"
+          ],
+          "points": 78,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "weapons-team",
+            "offensive-retro",
+            "ion-cannon",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              3,
+              1
+            ],
+            "rear": [
+              0,
+              1,
+              1
+            ],
+            "left": [
+              0,
+              3,
+              1
+            ],
+            "right": [
+              0,
+              3,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              2,
+              1,
+              1
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/halcyon-light-halo-legends.webp"
+        }
+      }
+    },
+    "paris-class-frigate-halo-legends": {
+      "_id": "f6deca7a-020e-4381-905f-6a2640edff3e",
+      "type": "chassis",
+      "chassis_name": "paris-class",
       "size": "small",
       "hull": 5,
       "speed": {
@@ -1100,7 +1798,7 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "paris-class-heavy-frigate-halo-legends": {
+        "paris-heavy-halo-legends": {
           "author": [
             "SpaceNavy",
             "Link",
@@ -1110,14 +1808,14 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "43db38ba-74c6-4c76-990a-733a36ae77df",
+          "_id": "7b5ca3dc-6cfa-42f7-ac80-2cc71e41813a",
           "type": "ship",
-          "chassis": "paris-class-frigate-halo-legends",
+          "chassis": "paris-class",
           "name": "Paris-class Heavy Frigate",
           "faction": "unsc",
           "unique": false,
           "traits": [
-            "LMAC"
+            "lmac"
           ],
           "points": 55,
           "tokens": {
@@ -1185,7 +1883,310 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/paris-class-heavy-frigate-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/paris-heavy-halo-legends.webp"
+        },
+        "paris-missile-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "9c5e6e98-12d2-4dd8-b0ad-25b4242a0661",
+          "type": "ship",
+          "chassis": "paris-class",
+          "name": "Paris-class Missile Frigate",
+          "faction": "unsc",
+          "unique": false,
+          "traits": [
+            "lmac"
+          ],
+          "points": 60,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "ion-cannon",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              3,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              1
+            ],
+            "left": [
+              0,
+              2,
+              1
+            ],
+            "right": [
+              0,
+              2,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              2,
+              1,
+              1
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/paris-missile-halo-legends.webp"
+        }
+      }
+    },
+    "stalwart-class-frigate-halo-legends": {
+      "_id": "36f64c94-154a-439b-8cd8-1b8caf79c19e",
+      "type": "chassis",
+      "chassis_name": "stalwart-class",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          2,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "stalwart-escort-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "c9525935-cf5f-4ea9-9737-0c28a48acc1c",
+          "type": "ship",
+          "chassis": "stalwart-class",
+          "name": "Stalwart-class Escort Frigate",
+          "faction": "unsc",
+          "unique": false,
+          "traits": [
+            "lmac"
+          ],
+          "points": 50,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "fleet-support",
+            "offensive-retro",
+            "defensive-retro",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              1,
+              1
+            ],
+            "rear": [
+              0,
+              0,
+              1
+            ],
+            "left": [
+              0,
+              1,
+              1
+            ],
+            "right": [
+              0,
+              1,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              2,
+              1,
+              1
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/stalwart-escort-halo-legends.webp"
+        },
+        "stalwart-light-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "b6794fb9-5b78-4e66-8b4d-c5f8e5b332f1",
+          "type": "ship",
+          "chassis": "stalwart-class",
+          "name": "Stalwart-class Escort Frigate",
+          "faction": "unsc",
+          "unique": false,
+          "traits": [
+            "lmac"
+          ],
+          "points": 45,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "defensive-retro",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              1,
+              1
+            ],
+            "rear": [
+              0,
+              0,
+              1
+            ],
+            "left": [
+              0,
+              1,
+              1
+            ],
+            "right": [
+              0,
+              1,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              2,
+              1,
+              1
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/stalwart-light-halo-legends.webp"
         }
       }
     }

@@ -9,7 +9,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "347ee38c-d036-4174-a1c2-e35fa19c2c04",
+      "_id": "c817d2d9-bedb-4cbf-b13e-0b412ba9cd86",
       "type": "squadron",
       "faction": "cylon",
       "squadron_type": "viper-mk2-squadron-bsg-legends",
@@ -71,12 +71,12 @@
       "author": "Armada Legends Team",
       "alias": "Legends",
       "team": "Legends",
-      "release": "Halo Armada Legends Wave 1",
-      "expansion": "Halo Armada Legends Wave 1",
-      "_id": "c180e7ca-f235-4a96-9edc-1e3751a90b6f",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "07f5ea60-2d8b-4c02-ab07-b8eb23180ff6",
       "type": "squadron",
       "faction": "covenant",
-      "squadron_type": "banshee-squadron-halo-legends",
+      "squadron_type": "banshee-squadron",
       "name": "Banshee Squadron",
       "ace-name": "",
       "unique-class": [
@@ -141,10 +141,10 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends Wave 1",
       "expansion": "Halo Starter Set",
-      "_id": "4a56d444-bd55-48ce-9e78-1a81a7815b1c",
+      "_id": "22094163-26a8-47d3-8cd3-02d520cb00bc",
       "type": "squadron",
       "faction": "covenant",
-      "squadron_type": "banshee-squadron-halo-legends",
+      "squadron_type": "banshee-squadron",
       "name": "Banshee Squadron",
       "ace-name": "Dalamenee",
       "unique-class": [
@@ -199,6 +199,202 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/dalamenee-banshee-squadron-halo-legends.webp"
     },
+    "wraith-banshee-squadron-halo-legends": {
+      "author": [
+        "SpaceNavy",
+        "Link",
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Halo Armada Legends Wave 1",
+      "expansion": "Halo Starter Set",
+      "_id": "0623450f-9fe8-4220-8f63-0cbfbc438c9a",
+      "type": "squadron",
+      "faction": "covenant",
+      "squadron_type": "banshee-squadron",
+      "name": "Banshee Squadron",
+      "ace-name": "Wraith Wing",
+      "unique-class": [
+        "Wraith Wing"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 10,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/wraith-banshee-squadron-halo-legends.webp"
+    },
+    "seraph-squadron-halo-legends": {
+      "author": "Armada Legends Team",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "4fbac695-2834-4027-bb8d-9978dcf766e9",
+      "type": "squadron",
+      "faction": "covenant",
+      "squadron_type": "seraph-squadron",
+      "name": "Seraph Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          3,
+          0
+        ],
+        "anti-ship": [
+          2,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/seraph-squadron-halo-legends.webp"
+    },
+    "ferko-seraph-squadron-halo-legends": {
+      "author": "Armada Legends Team",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "3f5aaa15-ec24-4fa0-8fe2-2ead54b23ea0",
+      "type": "squadron",
+      "faction": "covenant",
+      "squadron_type": "seraph-squadron",
+      "name": "Seraph Squadron",
+      "ace-name": "Ferko",
+      "unique-class": [
+        "Ferko"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          3,
+          0
+        ],
+        "anti-ship": [
+          2,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ferko-seraph-squadron-halo-legends.webp"
+    },
     "war-raider-squadron-bsg-legends": {
       "author": [
         "TacticalFox27",
@@ -208,7 +404,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "1b62b1cb-d252-450a-986e-d06ea6015f5d",
+      "_id": "729eb2e4-8b78-4f0a-b490-a27639db08b7",
       "type": "squadron",
       "faction": "cylon",
       "squadron_type": "war-raider-squadron-bsg-legends",
@@ -272,7 +468,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "a6f8271b-761e-46b9-9931-917c2b809fc2",
+      "_id": "6ee2c97c-a7c8-4619-9898-8d345d7daf0a",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "cx-dagger-vessel-legends",
@@ -335,7 +531,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "7468648a-6606-4d98-8abd-a292e7985dbf",
+      "_id": "c5f467d7-1b6f-4789-8cf2-77ff1f421333",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "cx-dagger-vessel-legends",
@@ -400,7 +596,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "4454ae85-5ec8-41be-a5a6-977fdf607776",
+      "_id": "b12ac190-5706-4e00-9c78-08771a4ad5f5",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-punisher-squadron-legends",
@@ -465,7 +661,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "2599c1be-151a-4c98-853b-233e6bf6d078",
+      "_id": "9d4c460d-53a5-4912-aa3a-9fbba56634ad",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-punisher-squadron-legends",
@@ -530,7 +726,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "d8ed7ae6-7a38-4217-89f5-30976b0e5bf2",
+      "_id": "de9b3ea7-3ccd-4bbe-90f0-bd479f36a268",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-punisher-squadron-legends",
@@ -595,7 +791,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "8f9071d2-c35f-4ff6-9245-ae4a3290770c",
+      "_id": "6155f642-b6b0-4fa9-9af9-eea2b3a41b5f",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -660,7 +856,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "5f0fe2ba-00f7-426f-8ddb-49ba77367524",
+      "_id": "9f85b976-d2c6-4dd5-b810-9dbc96f2da29",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -725,7 +921,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "a64a01d5-3692-4607-acf6-25e24466772a",
+      "_id": "7788b7d8-cf24-420b-9e87-a534a4222727",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -790,7 +986,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "b10bacd0-4fc0-4944-aa3f-5b636a49a642",
+      "_id": "b62530e5-6443-48a8-8225-c75acdb48775",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -847,16 +1043,144 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron-legends.webp"
     },
+    "longsword-bomber-squadron-halo-legends": {
+      "author": "Armada Legends Team",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "bc261a3e-6d73-44df-bf73-96af3e243cd4",
+      "type": "squadron",
+      "faction": "unsc",
+      "squadron_type": "longsword-bomber-squadron",
+      "name": "Longsword Bomber Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          0,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/longsword-bomber-squadron-halo-legends.webp"
+    },
+    "master-chief-longsword-halo-legends": {
+      "author": "Armada Legends Team",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "77b81043-7190-49c4-ae12-c24ffc71827d",
+      "type": "squadron",
+      "faction": "unsc",
+      "squadron_type": "longsword-bomber-squadron",
+      "name": "Longsword Bomber Squadron",
+      "ace-name": "Master Chief",
+      "unique-class": [
+        "Master Chief"
+      ],
+      "irregular": false,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          0,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/master-chief-longsword-halo-legends.webp"
+    },
     "longsword-fighter-squadron-halo-legends": {
       "author": "Armada Legends Team",
       "alias": "Legends",
       "team": "Legends",
-      "release": "Halo Armada Legends Wave 1",
-      "expansion": "Halo Armada Legends Wave 1",
-      "_id": "55ff4043-8bae-47cf-9be0-925e1a8200d6",
+      "release": "Halo Armada Legends",
+      "expansion": "Halo Starter Set",
+      "_id": "27452000-669c-406b-badf-4e508df1dd2f",
       "type": "squadron",
       "faction": "unsc",
-      "squadron_type": "longsword-fighter-squadron-halo-legends",
+      "squadron_type": "longsword-fighter-squadron",
       "name": "Longsword Fighter Squadron",
       "ace-name": "",
       "unique-class": [
@@ -911,7 +1235,7 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/longsword-fighter-squadron-halo-legends.webp"
     },
-    "knife-26-longsword-fighter": {
+    "knife-26-longsword-fighter-halo-legends": {
       "author": [
         "SpaceNavy",
         "Link",
@@ -921,11 +1245,11 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends Wave 1",
       "expansion": "Halo Starter Set",
-      "_id": "f64cf0b6-1dde-47fd-9250-58fffa94b789",
+      "_id": "36f1f680-c20e-48af-9358-737dd8d0b242",
       "type": "squadron",
       "faction": "unsc",
       "squadron_type": "squadron_uid",
-      "name": "longsword-fighter-squadron-halo-legends",
+      "name": "longsword-fighter-squadron",
       "ace-name": "Knife 26",
       "unique-class": [
         "Knife 26"
@@ -977,7 +1301,7 @@
       "points": 20,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/knife-26-longsword-fighter.webp"
+      "cardimage": "https://api.swarmada.wiki/images/knife-26-longsword-fighter-halo-legends.webp"
     }
   }
 }
