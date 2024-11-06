@@ -1,0 +1,210 @@
+{
+  "ships": {
+    "manticore-class-corvette-bsg-legends": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "manticore-class-corvette",
+      "size": "small",
+      "hull": 6,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          1,
+          0,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "manticore-attack-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": null,
+          "type": "ship",
+          "chassis": "manticore-class-corvette",
+          "name": "Manticore-class Attack Corvette",
+          "faction": "colonial",
+          "unique": false,
+          "traits": [],
+          "points": 44,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              1,
+              2,
+              0
+            ],
+            "rear": [
+              0,
+              2,
+              0
+            ],
+            "left": [
+              1,
+              0,
+              0
+            ],
+            "right": [
+              1,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/manticore-attack-bsg-legends.webp"
+        },
+        "manticore-patrol-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": null,
+          "type": "ship",
+          "chassis": "manticore-class-corvette",
+          "name": "Manticore-class Patrol Corvette",
+          "faction": "colonial",
+          "unique": false,
+          "traits": [],
+          "points": 42,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              3,
+              0
+            ],
+            "rear": [
+              0,
+              2,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/manticore-patrol-bsg-legends.webp"
+        }
+      }
+    }
+  }
+}
