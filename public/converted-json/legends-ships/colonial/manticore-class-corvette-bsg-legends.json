@@ -1,31 +1,31 @@
 {
   "ships": {
-    "ccs-class-cruiser-halo-legends": {
+    "manticore-class-corvette-bsg-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "ccs-class",
-      "size": "large",
-      "hull": 8,
+      "chassis_name": "manticore-class-corvette",
+      "size": "small",
+      "hull": 6,
       "speed": {
         "1": [
-          1
+          2
         ],
         "2": [
           1,
-          1
+          2
         ],
         "3": [
           1,
           0,
-          1
+          0
         ],
         "4": []
       },
       "shields": {
-        "front": 3,
-        "rear": 3,
-        "left": 4,
-        "right": 4,
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
         "left_aux": 0,
         "right_aux": 0
       },
@@ -40,47 +40,41 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "ccs-class-command-cruiser-halo-legends": {
+        "manticore-attack-bsg-legends": {
           "author": [
-            "SpaceNavy",
-            "Link",
-            "Skyhammer"
+            "TacticalFox27",
+            "SpaceNavy"
           ],
           "alias": "Legends",
           "team": "Armada Legends",
-          "release": "Halo Armada Legends Wave 1",
-          "expansion": "Halo Starter Set",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "ccs-class",
-          "name": "CCS-class Command Cruiser",
-          "faction": "covenant",
+          "chassis": "manticore-class-corvette",
+          "name": "Manticore-class Attack Corvette",
+          "faction": "colonial",
           "unique": false,
-          "traits": [
-            "lance"
-          ],
-          "points": 105,
+          "traits": [],
+          "points": 44,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 2,
-            "def_contain": 0,
-            "def_salvo": 1
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
           },
           "values": {
-            "command": 3,
-            "squadron": 3,
+            "command": 1,
+            "squadron": 1,
             "engineer": 3
           },
           "upgrades": [
             "commander",
             "officer",
-            "support-team",
-            "fleet-command",
-            "offensive-retro",
-            "defensive-retro",
-            "ion-cannon",
+            "weapons-team",
+            "turbolaser",
             "title"
           ],
           "armament": {
@@ -90,23 +84,23 @@
               1
             ],
             "front": [
+              1,
               2,
-              3,
               0
             ],
             "rear": [
-              1,
+              0,
               2,
               0
             ],
             "left": [
               1,
-              4,
+              0,
               0
             ],
             "right": [
               1,
-              4,
+              0,
               0
             ],
             "left_aux": [
@@ -126,39 +120,36 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/ccs-class-command-cruiser-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/manticore-attack-bsg-legends.webp"
         },
-        "ccs-class-battle-cruiser-halo-legends": {
+        "manticore-patrol-bsg-legends": {
           "author": [
-            "SpaceNavy",
-            "Link",
-            "Skyhammer"
+            "TacticalFox27",
+            "SpaceNavy"
           ],
           "alias": "Legends",
           "team": "Armada Legends",
-          "release": "Halo Armada Legends Wave 1",
-          "expansion": "Halo Starter Set",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "ccs-class",
-          "name": "CCS-class Battle Cruiser",
-          "faction": "covenant",
+          "chassis": "manticore-class-corvette",
+          "name": "Manticore-class Patrol Corvette",
+          "faction": "colonial",
           "unique": false,
-          "traits": [
-            "lance"
-          ],
-          "points": 115,
+          "traits": [],
+          "points": 42,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 2,
-            "def_contain": 0,
-            "def_salvo": 1
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
           },
           "values": {
-            "command": 3,
-            "squadron": 2,
+            "command": 1,
+            "squadron": 1,
             "engineer": 3
           },
           "upgrades": [
@@ -166,36 +157,32 @@
             "officer",
             "weapons-team",
             "offensive-retro",
-            "weapons-team-offensive-retro",
-            "defensive-retro",
-            "defensive-retro",
-            "turbolaser",
             "title"
           ],
           "armament": {
             "asa": [
               0,
-              2,
-              0
-            ],
-            "front": [
-              3,
-              2,
-              0
-            ],
-            "rear": [
-              2,
               1,
               0
             ],
-            "left": [
-              2,
+            "front": [
+              0,
               3,
               0
             ],
-            "right": [
+            "rear": [
+              0,
               2,
-              3,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
               0
             ],
             "left_aux": [
@@ -215,7 +202,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/ccs-class-battle-cruiser-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/manticore-patrol-bsg-legends.webp"
         }
       }
     }
