@@ -1,7 +1,7 @@
 {
   "ships": {
     "jupiter-class-battlestar-bsg-legends": {
-      "_id": "24d3c584-6712-45a0-a4b4-7dfe9fe0bc61",
+      "_id": "049c6fbf-07f4-402b-82b0-9b252229f199",
       "type": "chassis",
       "chassis_name": "jupiter-class-battlestar",
       "size": "large",
@@ -49,7 +49,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "0787ce34-1cf6-4c47-bcf9-38a969a44031",
+          "_id": "f42d2fff-3a3f-46c4-b328-abbade559648",
           "type": "ship",
           "chassis": "jupiter-class-battlestar",
           "name": "Jupiter-class Battlestar Mark I",
@@ -137,7 +137,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "001a9604-d641-4867-881a-67a12849e83d",
+          "_id": "2e7ce3c9-8d80-406f-a516-154b053f51b7",
           "type": "ship",
           "chassis": "jupiter-class-battlestar",
           "name": "Jupiter-class Battlestar Mark II",
@@ -218,11 +218,11 @@
         }
       }
     },
-    "sdv-class-corvette-halo-legends": {
-      "_id": "22599e52-41fd-456e-8c1f-c6f740b28079",
+    "manticore-class-corvette-bsg-legends": {
+      "_id": "b3703199-fd92-408a-9f76-7211087c2ef1",
       "type": "chassis",
-      "chassis_name": "sdv-class",
-      "size": "medium",
+      "chassis_name": "manticore-class-corvette",
+      "size": "small",
       "hull": 6,
       "speed": {
         "1": [
@@ -230,20 +230,20 @@
         ],
         "2": [
           1,
-          1
+          2
         ],
         "3": [
           1,
-          1,
+          0,
           0
         ],
         "4": []
       },
       "shields": {
-        "front": 3,
-        "rear": 2,
-        "left": 3,
-        "right": 3,
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
         "left_aux": 0,
         "right_aux": 0
       },
@@ -258,36 +258,33 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "sdv-class-assault-corvette-halo-legends": {
+        "manticore-attack-bsg-legends": {
           "author": [
-            "SpaceNavy",
-            "Link",
-            "Skyhammer"
+            "TacticalFox27",
+            "SpaceNavy"
           ],
           "alias": "Legends",
           "team": "Armada Legends",
-          "release": "Halo Armada Legends Wave 1",
-          "expansion": "Halo Starter Set",
-          "_id": "f33b4008-3fb2-49b3-8c91-f1f715bb79ab",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": "7b3a8623-7247-4b0b-818a-6256e8b6f83c",
           "type": "ship",
-          "chassis": "sdv-class",
-          "name": "SDV-class Assault Corvette",
-          "faction": "covenant",
+          "chassis": "manticore-class-corvette",
+          "name": "Manticore-class Attack Corvette",
+          "faction": "colonial",
           "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 75,
+          "traits": [],
+          "points": 44,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 1,
             "def_salvo": 0
           },
           "values": {
-            "command": 2,
+            "command": 1,
             "squadron": 1,
             "engineer": 3
           },
@@ -295,9 +292,7 @@
             "commander",
             "officer",
             "weapons-team",
-            "offensive-retro",
-            "defensive-retro",
-            "ordnance",
+            "turbolaser",
             "title"
           ],
           "armament": {
@@ -307,7 +302,7 @@
               1
             ],
             "front": [
-              0,
+              1,
               2,
               0
             ],
@@ -317,14 +312,14 @@
               0
             ],
             "left": [
+              1,
               0,
-              2,
-              2
+              0
             ],
             "right": [
+              1,
               0,
-              2,
-              2
+              0
             ],
             "left_aux": [
               0,
@@ -343,48 +338,43 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/sdv-class-assault-corvette-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/manticore-attack-bsg-legends.webp"
         },
-        "sdv-class-heavy-corvette-halo-legends": {
+        "manticore-patrol-bsg-legends": {
           "author": [
-            "SpaceNavy",
-            "Link",
-            "Skyhammer"
+            "TacticalFox27",
+            "SpaceNavy"
           ],
           "alias": "Legends",
           "team": "Armada Legends",
-          "release": "Halo Armada Legends Wave 1",
-          "expansion": "Halo Starter Set",
-          "_id": "dc05cc78-61c0-40e9-a100-aa23121fa40b",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": "b8407d28-bafa-495c-abcb-97e4502e8a48",
           "type": "ship",
-          "chassis": "sdv-class",
-          "name": "SDV-class Heavy Corvette",
-          "faction": "covenant",
+          "chassis": "manticore-class-corvette",
+          "name": "Manticore-class Patrol Corvette",
+          "faction": "colonial",
           "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 80,
+          "traits": [],
+          "points": 42,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 1,
             "def_salvo": 0
           },
           "values": {
-            "command": 2,
-            "squadron": 2,
+            "command": 1,
+            "squadron": 1,
             "engineer": 3
           },
           "upgrades": [
             "commander",
             "officer",
-            "support-team",
-            "fleet-support",
+            "weapons-team",
             "offensive-retro",
-            "turbolaser",
             "title"
           ],
           "armament": {
@@ -394,8 +384,8 @@
               0
             ],
             "front": [
-              1,
-              1,
+              0,
+              3,
               0
             ],
             "rear": [
@@ -404,13 +394,13 @@
               0
             ],
             "left": [
+              0,
               1,
-              3,
               0
             ],
             "right": [
+              0,
               1,
-              3,
               0
             ],
             "left_aux": [
@@ -430,12 +420,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/sdv-class-heavy-corvette-halo-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/manticore-patrol-bsg-legends.webp"
         }
       }
     },
     "ccs-class-cruiser-halo-legends": {
-      "_id": "47064b92-7074-485c-9407-8da73d67dde1",
+      "_id": "b8eef48d-ffb6-4a0e-9fc7-30eb9dcb952d",
       "type": "chassis",
       "chassis_name": "ccs-class",
       "size": "large",
@@ -484,7 +474,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "502fe2ab-66c2-4bef-9f37-56a9743c05d0",
+          "_id": "1c473c5d-8e61-4496-b080-d26d2d686f76",
           "type": "ship",
           "chassis": "ccs-class",
           "name": "CCS-class Command Cruiser",
@@ -572,7 +562,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "4e56351d-b5cf-40ae-946d-dfaaa384ea8c",
+          "_id": "c4978513-ef29-45ca-8740-330d17d0fe0e",
           "type": "ship",
           "chassis": "ccs-class",
           "name": "CCS-class Battle Cruiser",
@@ -600,6 +590,7 @@
             "officer",
             "weapons-team",
             "offensive-retro",
+            "weapons-team-offensive-retro",
             "defensive-retro",
             "defensive-retro",
             "turbolaser",
@@ -652,8 +643,225 @@
         }
       }
     },
+    "sdv-class-corvette-halo-legends": {
+      "_id": "4717de4d-be24-4d3a-aeab-ed775ac0e531",
+      "type": "chassis",
+      "chassis_name": "sdv-class",
+      "size": "medium",
+      "hull": 6,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "sdv-class-assault-corvette-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "2a0a93c4-2068-4f74-8802-df2a0f089d9b",
+          "type": "ship",
+          "chassis": "sdv-class",
+          "name": "SDV-class Assault Corvette",
+          "faction": "covenant",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 75,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              2,
+              0
+            ],
+            "rear": [
+              0,
+              2,
+              0
+            ],
+            "left": [
+              0,
+              2,
+              2
+            ],
+            "right": [
+              0,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/sdv-class-assault-corvette-halo-legends.webp"
+        },
+        "sdv-class-heavy-corvette-halo-legends": {
+          "author": [
+            "SpaceNavy",
+            "Link",
+            "Skyhammer"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Halo Armada Legends Wave 1",
+          "expansion": "Halo Starter Set",
+          "_id": "f2aecc70-d47d-4310-bf1d-aa476eb1353d",
+          "type": "ship",
+          "chassis": "sdv-class",
+          "name": "SDV-class Heavy Corvette",
+          "faction": "covenant",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 80,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-support",
+            "offensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              2,
+              0
+            ],
+            "left": [
+              1,
+              3,
+              0
+            ],
+            "right": [
+              1,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/sdv-class-heavy-corvette-halo-legends.webp"
+        }
+      }
+    },
     "war-basestar-bsg-legends": {
-      "_id": "30775d10-9180-451e-82e5-f7d9d83fe5d9",
+      "_id": "7821caaf-24af-48c7-b739-bb43da4ac6c7",
       "type": "chassis",
       "chassis_name": "war-basestar",
       "size": "large",
@@ -697,7 +905,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "e3c6b8f4-868d-4a30-a754-86eed46332bd",
+          "_id": "3302c70c-0b92-40f7-924e-e4ae537c81c2",
           "type": "ship",
           "chassis": "war-basestar",
           "name": "War Basestar Mk.1",
@@ -784,7 +992,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "b3df84e8-f3c9-4bbb-8a0b-4625f37e2059",
+          "_id": "7324a543-d96c-4d74-8682-3d15db1866c4",
           "type": "ship",
           "chassis": "war-basestar",
           "name": "War Basestar Mk.2",
@@ -812,6 +1020,7 @@
             "officer",
             "weapons-team",
             "offensive-retro",
+            "weapons-team-offensive-retro",
             "defensive-retro",
             "turbolaser",
             "turbolaser",
@@ -865,7 +1074,7 @@
       }
     },
     "tector-star-destroyer-legends": {
-      "_id": "ab87277b-d04d-4677-a869-ce5bf1ab5006",
+      "_id": "70e9c7eb-d427-40c0-86ba-d081c282afb4",
       "type": "chassis",
       "chassis_name": "tector-star-destroyer-legends",
       "size": "large",
@@ -916,7 +1125,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "d0075ed7-46ac-433e-ba76-65b784115868",
+          "_id": "11d75f96-74e8-4a0f-8fe8-205a408f6b8e",
           "type": "ship",
           "chassis": "tector-star-destroyer-legends",
           "name": "Tector-class Star Destroyer",
@@ -997,7 +1206,7 @@
       }
     },
     "mc40a-light-legends": {
-      "_id": "0d6e2209-59a5-4fc3-b9be-3d920340d9b0",
+      "_id": "b735a8da-a985-4a3a-9749-9d436301d12d",
       "type": "chassis",
       "chassis_name": "mc40a-light-legends",
       "size": "medium",
@@ -1044,7 +1253,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "c45b381c-e242-46e0-a743-a43444d1f5f3",
+          "_id": "170687a2-2f3c-4c14-a771-198b6f368dea",
           "type": "ship",
           "chassis": "mc40a-light-legends",
           "name": "MC40a Light Escort Carrier",
@@ -1129,7 +1338,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "7915b894-280f-4ab0-9b7b-182173a3a467",
+          "_id": "8f9a22d8-1dab-458c-bba3-3b858c746021",
           "type": "ship",
           "chassis": "mc40a-light-legends",
           "name": "MC40a Light Cruiser",
@@ -1209,7 +1418,7 @@
       }
     },
     "subjugator-class-legends": {
-      "_id": "7cdd3a60-ee6d-4db2-ac64-9e3a798835c8",
+      "_id": "08bab73a-41a5-4a1f-bfd2-97a7c49ed22d",
       "type": "chassis",
       "chassis_name": "subjugator-class-legends",
       "size": "huge",
@@ -1260,7 +1469,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "edea108d-749b-4840-89b5-c5eb5daa5954",
+          "_id": "69eff61b-3588-4679-a724-99e865728fcc",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Prototype",
@@ -1358,7 +1567,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "7c51ced1-c90c-41b6-b2e9-970d57048a44",
+          "_id": "46527e28-c9bf-4c5e-a46d-b6ea4d90b876",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Testbed",
@@ -1456,7 +1665,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "28baf2c2-b126-4426-b7e8-3b91406af16d",
+          "_id": "f81f8734-62e6-4c78-abb3-90a01202b84e",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Heavy Cruiser",
@@ -1541,7 +1750,7 @@
       }
     },
     "halcyon-class-cruiser-halo-legends": {
-      "_id": "bf8ac2f6-51a1-4b07-bee2-ea814a041325",
+      "_id": "4b518302-23d7-45ef-8c1f-1d30a9680c8b",
       "type": "chassis",
       "chassis_name": "halcyon-class",
       "size": "medium",
@@ -1590,7 +1799,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "e7c7b729-ff28-4eb3-8f57-77d8fa719aa8",
+          "_id": "a217057d-f0a5-4f56-8408-66e433a1c3b6",
           "type": "ship",
           "chassis": "halcyon-class",
           "name": "Halcyon-class Battle Refit",
@@ -1678,7 +1887,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "58843b9f-0f14-4820-9b72-5e9b1613c7e8",
+          "_id": "e4e2be82-f814-4229-9bd8-de3b58d6b901",
           "type": "ship",
           "chassis": "halcyon-class",
           "name": "Halcyon-class Light Cruiser",
@@ -1707,6 +1916,7 @@
             "support-team",
             "weapons-team",
             "offensive-retro",
+            "weapons-team-offensive-retro",
             "ion-cannon",
             "super-weapon",
             "title"
@@ -1759,7 +1969,7 @@
       }
     },
     "paris-class-frigate-halo-legends": {
-      "_id": "f6deca7a-020e-4381-905f-6a2640edff3e",
+      "_id": "54eda106-7172-4d04-9990-a3d67ef97393",
       "type": "chassis",
       "chassis_name": "paris-class",
       "size": "small",
@@ -1808,7 +2018,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "7b5ca3dc-6cfa-42f7-ac80-2cc71e41813a",
+          "_id": "5f191658-deb8-4838-97a9-0131c6ec72e7",
           "type": "ship",
           "chassis": "paris-class",
           "name": "Paris-class Heavy Frigate",
@@ -1895,7 +2105,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "9c5e6e98-12d2-4dd8-b0ad-25b4242a0661",
+          "_id": "cbb0b6ff-05ff-47fe-9169-6cf7a7dd7729",
           "type": "ship",
           "chassis": "paris-class",
           "name": "Paris-class Missile Frigate",
@@ -1975,7 +2185,7 @@
       }
     },
     "stalwart-class-frigate-halo-legends": {
-      "_id": "36f64c94-154a-439b-8cd8-1b8caf79c19e",
+      "_id": "5b9c39d1-4c7c-4698-a7a2-d559337909e5",
       "type": "chassis",
       "chassis_name": "stalwart-class",
       "size": "small",
@@ -2024,7 +2234,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "c9525935-cf5f-4ea9-9737-0c28a48acc1c",
+          "_id": "a55f793d-ba90-49dd-84a3-9e9eb9a58fd1",
           "type": "ship",
           "chassis": "stalwart-class",
           "name": "Stalwart-class Escort Frigate",
@@ -2111,7 +2321,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "b6794fb9-5b78-4e66-8b4d-c5f8e5b332f1",
+          "_id": "42c761c3-0e8d-43a8-a7fb-6cfee6dfb9f3",
           "type": "ship",
           "chassis": "stalwart-class",
           "name": "Stalwart-class Escort Frigate",
@@ -2139,6 +2349,7 @@
             "officer",
             "weapons-team",
             "offensive-retro",
+            "weapons-team-offensive-retro",
             "defensive-retro",
             "super-weapon",
             "title"

@@ -3011,17 +3011,17 @@
     "blurhash": "L7C@55q@D4t-_MJB8_8^MI?wMy8^",
     "baseToken": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk2-bsg-legends-base.webp"
   },
-  "sdv-class-assault-corvette-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/sdv-class-assault-corvette-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/sdv-class-assault-corvette-halo-legends.webp",
-    "blurhash": "L9D0o$D4IA*0-=E2E2RjH=%ho~Mx",
-    "baseToken": "https://api.swarmada.wiki/images/sdv-class-assault-corvette-halo-legends-base.webp"
+  "manticore-attack-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/manticore-attack-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/manticore-attack-bsg-legends.webp",
+    "blurhash": "L5CZY24n8_~q00xvM|Ri4Ts;t7tR",
+    "baseToken": "https://api.swarmada.wiki/images/manticore-attack-bsg-legends-base.webp"
   },
-  "sdv-class-heavy-corvette-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/sdv-class-heavy-corvette-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/sdv-class-heavy-corvette-halo-legends.webp",
-    "blurhash": "L9C%dOD4n3.TxtIVRli^DN-=%NR5",
-    "baseToken": "https://api.swarmada.wiki/images/sdv-class-heavy-corvette-halo-legends-base.webp"
+  "manticore-patrol-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/manticore-patrol-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/manticore-patrol-bsg-legends.webp",
+    "blurhash": "L3BM_O4T4U~q00?bog9F00xu.8f+",
+    "baseToken": "https://api.swarmada.wiki/images/manticore-patrol-bsg-legends-base.webp"
   },
   "ccs-class-command-cruiser-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/ccs-class-command-cruiser-halo-legends.webp",
@@ -3034,6 +3034,18 @@
     "thumbnail": "https://api.swarmada.wiki/thumbnails/ccs-class-battle-cruiser-halo-legends.webp",
     "blurhash": "L8DJhvm7v}.T=~aQV]emL~?w%NRO",
     "baseToken": "https://api.swarmada.wiki/images/ccs-class-battle-cruiser-halo-legends-base.webp"
+  },
+  "sdv-class-assault-corvette-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/sdv-class-assault-corvette-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/sdv-class-assault-corvette-halo-legends.webp",
+    "blurhash": "L9D0o$D4IA*0-=E2E2RjH=%ho~Mx",
+    "baseToken": "https://api.swarmada.wiki/images/sdv-class-assault-corvette-halo-legends-base.webp"
+  },
+  "sdv-class-heavy-corvette-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/sdv-class-heavy-corvette-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/sdv-class-heavy-corvette-halo-legends.webp",
+    "blurhash": "L9C%dOD4n3.TxtIVRli^DN-=%NR5",
+    "baseToken": "https://api.swarmada.wiki/images/sdv-class-heavy-corvette-halo-legends-base.webp"
   },
   "war-basestar-mk1-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/war-basestar-mk1-bsg-legends.webp",
@@ -3068,19 +3080,19 @@
   "subjugator-class-prototype-legends": {
     "fullsize": "https://api.swarmada.wiki/images/subjugator-class-prototype-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/subjugator-class-prototype-legends.webp",
-    "blurhash": "L6A-9r-i00I]^,?wITVY00IV.8-;",
+    "blurhash": "L5Bp^T==9EI@-D?wDin500M|.8-=",
     "baseToken": "https://api.swarmada.wiki/images/subjugator-class-prototype-legends-base.webp"
   },
   "subjugator-class-testbed-legends": {
     "fullsize": "https://api.swarmada.wiki/images/subjugator-class-testbed-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/subjugator-class-testbed-legends.webp",
-    "blurhash": "LSD]6-=xIoNG}Z=|R*NFvLwdo}bu",
+    "blurhash": "LPEe.M=wRjI:}E=|RjNGvL$Po#bv",
     "baseToken": "https://api.swarmada.wiki/images/subjugator-class-testbed-legends-base.webp"
   },
   "subjugator-class-heavy-cruiser-legends": {
     "fullsize": "https://api.swarmada.wiki/images/subjugator-class-heavy-cruiser-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/subjugator-class-heavy-cruiser-legends.webp",
-    "blurhash": "L5AT[=-h00It-U_4MwMw00IB.9.8",
+    "blurhash": "L5BDym-g9FE3Mw?dDiR600My.8.8",
     "baseToken": "https://api.swarmada.wiki/images/subjugator-class-heavy-cruiser-legends-base.webp"
   },
   "halcyon-battle-halo-legends": {
@@ -3233,22 +3245,22 @@
     "blurhash": "L6HoE{%f00_300D%~qD%00xu.9NF",
     "baseToken": "https://api.swarmada.wiki/images/longsword-fighter-squadron-halo-legends-base.webp"
   },
-  "knife-26-longsword-fighter-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/knife-26-longsword-fighter-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/knife-26-longsword-fighter-halo-legends.webp",
-    "blurhash": null,
-    "baseToken": "https://api.swarmada.wiki/images/knife-26-longsword-fighter-halo-legends-base.webp"
+  "knife26-longsword-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/knife26-longsword-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/knife26-longsword-halo-legends.webp",
+    "blurhash": "L5HLh?Sw00_300IU-=9F00xI_4Rj",
+    "baseToken": "https://api.swarmada.wiki/images/knife26-longsword-halo-legends-base.webp"
   },
   "clothos-commander-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/clothos-commander-bsg-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/clothos-commander-bsg-legends.webp",
-    "blurhash": null,
+    "blurhash": "L8HoI5D%00~q00ofxukC00a{-;D%",
     "baseToken": "https://api.swarmada.wiki/images/clothos-commander-bsg-legends-base.webp"
   },
   "william-adama-commander-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/william-adama-commander-bsg-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/william-adama-commander-bsg-legends.webp",
-    "blurhash": null,
+    "blurhash": "L7I}-Q4T9v_3004m?wR+00tRM|M{",
     "baseToken": "https://api.swarmada.wiki/images/william-adama-commander-bsg-legends-base.webp"
   },
   "ardo-moretumee-commander-halo-legends": {
@@ -3299,29 +3311,59 @@
     "blurhash": "LAI#[f~q00%N00V[_3Rk00j^%MV[",
     "baseToken": "https://api.swarmada.wiki/images/thel-vadamee-commander-halo-legends-base.webp"
   },
-  "cortana-wepteam-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/cortana-wepteam-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/cortana-wepteam-halo-legends.webp",
-    "blurhash": "LBJH~??H00-:00IA~Uoz00IA-;NL",
-    "baseToken": "https://api.swarmada.wiki/images/cortana-wepteam-halo-legends-base.webp"
-  },
   "emergency-thrusters-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/emergency-thrusters-halo-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/emergency-thrusters-halo-legends.webp",
     "blurhash": "LQLgkQ~V8_tRH=?F-;W=IA%MtRNH",
     "baseToken": "https://api.swarmada.wiki/images/emergency-thrusters-halo-legends-base.webp"
   },
-  "huragok-engineer-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/huragok-engineer-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/huragok-engineer-halo-legends.webp",
-    "blurhash": "LBJRaH%g00ng00M|~qZ~00Rj.8IU",
-    "baseToken": "https://api.swarmada.wiki/images/huragok-engineer-halo-legends-base.webp"
+  "reliable-shields-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/reliable-shields-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/reliable-shields-halo-legends.webp",
+    "blurhash": "LBI}w]-;00-:00IV~qax00M{%gIV",
+    "baseToken": "https://api.swarmada.wiki/images/reliable-shields-halo-legends-base.webp"
+  },
+  "titanium-armor-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/titanium-armor-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/titanium-armor-halo-legends.webp",
+    "blurhash": "L9IhjN^+00-;00IU~qWq00M|%MIV",
+    "baseToken": "https://api.swarmada.wiki/images/titanium-armor-halo-legends-base.webp"
   },
   "jiralhanae-brutality-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/jiralhanae-brutality-halo-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/jiralhanae-brutality-halo-legends.webp",
     "blurhash": "LCI}q:^,00-=00nV~qoh00xJ-=M~",
     "baseToken": "https://api.swarmada.wiki/images/jiralhanae-brutality-halo-legends-base.webp"
+  },
+  "sangheili-honor-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/sangheili-honor-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/sangheili-honor-halo-legends.webp",
+    "blurhash": "L6I=Mm~q00-o00IW~TMw00NGxa9G",
+    "baseToken": "https://api.swarmada.wiki/images/sangheili-honor-halo-legends-base.webp"
+  },
+  "will-of-the-prophets-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/will-of-the-prophets-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/will-of-the-prophets-halo-legends.webp",
+    "blurhash": "LBIr81?b00%N00Iq~qW?00Rl%gM|",
+    "baseToken": "https://api.swarmada.wiki/images/will-of-the-prophets-halo-legends-base.webp"
+  },
+  "over-plasma-cells-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/over-plasma-cells-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/over-plasma-cells-halo-legends.webp",
+    "blurhash": "LCJ8Lp-;00-p00IV~qjY00NG%gIV",
+    "baseToken": "https://api.swarmada.wiki/images/over-plasma-cells-halo-legends-base.webp"
+  },
+  "sustain-motor-missiles-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/sustain-motor-missiles-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/sustain-motor-missiles-halo-legends.webp",
+    "blurhash": "LAJRN*^*00I;00Mx_N9a00WAtm9a",
+    "baseToken": "https://api.swarmada.wiki/images/sustain-motor-missiles-halo-legends-base.webp"
+  },
+  "plasma-lance-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/plasma-lance-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/plasma-lance-halo-legends.webp",
+    "blurhash": "L7J8O*tj00-:00Dj~pt500IU.8D*",
+    "baseToken": "https://api.swarmada.wiki/images/plasma-lance-halo-legends-base.webp"
   },
   "antonio-silva-officer-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/antonio-silva-officer-halo-legends.webp",
@@ -3395,47 +3437,17 @@
     "blurhash": "LAI=Jm^,00$_00IW~jRh00M|%KIn",
     "baseToken": "https://api.swarmada.wiki/images/smart-ai-officer-halo-legends-base.webp"
   },
-  "over-plasma-cells-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/over-plasma-cells-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/over-plasma-cells-halo-legends.webp",
-    "blurhash": "LCJ8Lp-;00-p00IV~qjY00NG%gIV",
-    "baseToken": "https://api.swarmada.wiki/images/over-plasma-cells-halo-legends-base.webp"
-  },
-  "plasma-lance-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/plasma-lance-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/plasma-lance-halo-legends.webp",
-    "blurhash": "L7J8O*tj00-:00Dj~pt500IU.8D*",
-    "baseToken": "https://api.swarmada.wiki/images/plasma-lance-halo-legends-base.webp"
-  },
   "quick-charge-caps-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/quick-charge-caps-halo-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/quick-charge-caps-halo-legends.webp",
     "blurhash": "LAK_B*_200-;00M{~qof00RjtmIo",
     "baseToken": "https://api.swarmada.wiki/images/quick-charge-caps-halo-legends-base.webp"
   },
-  "reliable-shields-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/reliable-shields-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/reliable-shields-halo-legends.webp",
-    "blurhash": "LBI}w]-;00-:00IV~qax00M{%gIV",
-    "baseToken": "https://api.swarmada.wiki/images/reliable-shields-halo-legends-base.webp"
-  },
-  "sangheili-honor-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/sangheili-honor-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/sangheili-honor-halo-legends.webp",
-    "blurhash": "L6I=Mm~q00-o00IW~TMw00NGxa9G",
-    "baseToken": "https://api.swarmada.wiki/images/sangheili-honor-halo-legends-base.webp"
-  },
-  "sustain-motor-missiles-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/sustain-motor-missiles-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/sustain-motor-missiles-halo-legends.webp",
-    "blurhash": "LAJRN*^*00I;00Mx_N9a00WAtm9a",
-    "baseToken": "https://api.swarmada.wiki/images/sustain-motor-missiles-halo-legends-base.webp"
-  },
-  "titanium-armor-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/titanium-armor-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/titanium-armor-halo-legends.webp",
-    "blurhash": "L9IhjN^+00-;00IU~qWq00M|%MIV",
-    "baseToken": "https://api.swarmada.wiki/images/titanium-armor-halo-legends-base.webp"
+  "huragok-engineer-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/huragok-engineer-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/huragok-engineer-halo-legends.webp",
+    "blurhash": "LBJRaH%g00ng00M|~qZ~00Rj.8IU",
+    "baseToken": "https://api.swarmada.wiki/images/huragok-engineer-halo-legends-base.webp"
   },
   "purity-of-spirit-title-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/purity-of-spirit-title-halo-legends.webp",
@@ -3503,17 +3515,17 @@
     "blurhash": "LDI}#2-:00%L00M{~qRj00NG%gM|",
     "baseToken": "https://api.swarmada.wiki/images/meriwether-lewis-title-halo-legends-base.webp"
   },
+  "cortana-wepteam-halo-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/cortana-wepteam-halo-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/cortana-wepteam-halo-legends.webp",
+    "blurhash": "LBJH~??H00-:00IA~Uoz00IA-;NL",
+    "baseToken": "https://api.swarmada.wiki/images/cortana-wepteam-halo-legends-base.webp"
+  },
   "unsc-gunners-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/unsc-gunners-halo-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/unsc-gunners-halo-legends.webp",
     "blurhash": "LCIrHO-o00%g00IT~qX900R*%NIp",
     "baseToken": "https://api.swarmada.wiki/images/unsc-gunners-halo-legends-base.webp"
-  },
-  "will-of-the-prophets-halo-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/will-of-the-prophets-halo-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/will-of-the-prophets-halo-legends.webp",
-    "blurhash": "LBIr81?b00%N00Iq~qW?00Rl%gM|",
-    "baseToken": "https://api.swarmada.wiki/images/will-of-the-prophets-halo-legends-base.webp"
   },
   "sai-sircu-officer-legends": {
     "fullsize": "https://api.swarmada.wiki/images/sai-sircu-officer-legends.webp",
