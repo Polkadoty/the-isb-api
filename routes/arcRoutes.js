@@ -1,20 +1,17 @@
 import express from 'express';
 import {
   getAllArcShips,
-  getArcShipById,
-  searchArcShips
+  getArcShipById
 } from '../controllers/arcShipController.js';
 
 import {
   getAllArcSquadrons,
-  getArcSquadronById,
-  searchArcSquadrons
+  getArcSquadronById
 } from '../controllers/arcSquadronController.js';
 
 import {
   getAllArcUpgrades,
-  getArcUpgradeById,
-  searchArcUpgrades
+  getArcUpgradeById
 } from '../controllers/arcUpgradeController.js';
 
 import {
@@ -26,17 +23,14 @@ const router = express.Router();
 
 // ARC Ships routes
 router.get('/ships', getAllArcShips);
-router.get('/ships/search', searchArcShips);
 router.get('/ships/:id', getArcShipById);
 
 // ARC Squadrons routes
 router.get('/squadrons', getAllArcSquadrons);
-router.get('/squadrons/search', searchArcSquadrons);
 router.get('/squadrons/:id', getArcSquadronById);
 
 // ARC Upgrades routes
 router.get('/upgrades', getAllArcUpgrades);
-router.get('/upgrades/search', searchArcUpgrades);
 router.get('/upgrades/:id', getArcUpgradeById);
 
 // ARC Objectives routes
