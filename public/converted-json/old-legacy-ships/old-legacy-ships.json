@@ -1,7 +1,7 @@
 {
   "ships": {
     "dreadnaught-class-old-legacy": {
-      "_id": "01488427-718c-4e28-adc6-ba9bb402ab61",
+      "_id": "2c7b618e-63d4-47ea-a64d-5564e3ae9af0",
       "type": "chassis",
       "chassis_name": "dreadnaught-class-old-legacy",
       "size": "medium",
@@ -42,7 +42,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "a0479b49-97dd-4970-a5f8-ade51949d5f0",
+          "_id": "2363d356-a6c8-4c18-9fdb-8469c0a947ec",
           "type": "ship",
           "chassis": "dreadnaught-class-old-legacy",
           "name": "Dreadnaught-class Katana Refit",
@@ -126,7 +126,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "f896f0b6-df6a-4035-b8ba-3be4ce3e1e94",
+          "_id": "33a23966-3164-4a81-b91b-57a3f2c1891e",
           "type": "ship",
           "chassis": "dreadnaught-class-old-legacy",
           "name": "Dreadnaught-class Imperial Refit",
@@ -205,7 +205,7 @@
       }
     },
     "interdictor-cruiser-errata-old-legacy": {
-      "_id": "e15ceed1-ac9c-47e8-bd6e-de2b3fd700f3",
+      "_id": "d0183ee7-52a8-4f34-9d55-c45e51bc98fe",
       "type": "chassis",
       "chassis_name": "interdictor-cruiser",
       "size": "medium",
@@ -242,11 +242,11 @@
       "models": {
         "interdictor-combat-refit-errata-old-legacy": {
           "author": "Armada Legacy",
-          "alias": "Legacy",
+          "alias": "OldLegacy",
           "team": "Armada Legacy",
           "release": "Legacy Balance Appendix Old",
           "expansion": "Summer 2024 Hotfix Balance Appendix",
-          "_id": "29c16429-fe17-454a-b2e4-b836b5df7f3a",
+          "_id": "0b0a65ae-7629-47a6-8232-4ce7bc94e388",
           "type": "ship",
           "chassis": "interdictor-cruiser",
           "name": "Interdictor Combat Refit",
@@ -326,7 +326,7 @@
       }
     },
     "interdictor-star-destroyer-old-legacy": {
-      "_id": "998bc8a8-b3d8-4e60-9745-91da549a4b1a",
+      "_id": "d8f1efaf-a7c4-4535-8277-7eaf9dd17cd1",
       "type": "chassis",
       "chassis_name": "interdictor-sd-old-legacy",
       "size": "large",
@@ -371,7 +371,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Interdictor Star Destroyer Expansion",
-          "_id": "9aba67bd-5332-4989-afec-ff2e2704325b",
+          "_id": "ca39a188-1118-4f79-9291-d5ab537b1bdb",
           "type": "ship",
           "chassis": "interdictor-sd-old-legacy",
           "name": "Interdictor-class Prototype",
@@ -456,7 +456,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Interdictor Star Destroyer Expansion",
-          "_id": "ba796b52-4549-475f-9244-81c2a5b54ef4",
+          "_id": "f2bf1080-0b95-463d-9f2c-dcd0eb7974fc",
           "type": "ship",
           "chassis": "interdictor-sd-old-legacy",
           "name": "Interdictor-class Star Destroyer",
@@ -537,7 +537,7 @@
       }
     },
     "victory-star-destroyer-errata-old-legacy": {
-      "_id": "33da92ae-b749-454c-a08a-50a06e66f725",
+      "_id": "845fc7ed-fd8a-4f7d-934e-2d511b9f9bac",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -578,7 +578,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Balance Appendix Old",
           "expansion": "Summer 2024 Hotfix Balance Appendix",
-          "_id": "c5c3cb13-c5cb-401e-b855-8ce87b2d6d82",
+          "_id": "a873d5aa-ef64-476e-9a35-94d7f0805abb",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory II-Class Star Destroyer",
@@ -659,7 +659,7 @@
       }
     },
     "assault-frigate-mark-i-old-legacy": {
-      "_id": "e3374736-00e7-4221-adb8-b9ce5c2bc19a",
+      "_id": "5318b6b4-6d16-4fd2-928a-526425001a65",
       "type": "chassis",
       "chassis_name": "assault-frigate-mark-i-old-legacy",
       "size": "medium",
@@ -704,7 +704,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Assault Frigate Mark I Expansion",
-          "_id": "3aabd705-ce49-46f6-b4d6-511c79fe255e",
+          "_id": "52205d99-d000-4ceb-afb1-975ccbea0b80",
           "type": "ship",
           "chassis": "assault-frigate-mark-i-old-legacy",
           "name": "Assault Frigate Mark IA",
@@ -788,7 +788,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Assault Frigate Mark I Expansion",
-          "_id": "784df03b-3473-4fd1-8e50-fb62a97fa927",
+          "_id": "dde9c8a1-aa56-4d3e-b7ac-8d651887c8e4",
           "type": "ship",
           "chassis": "assault-frigate-mark-i-old-legacy",
           "name": "Assault Frigate Mark IB",
@@ -868,7 +868,7 @@
       }
     },
     "assault-frigate-mark-ii-errata-old-legacy": {
-      "_id": "d5a42abe-2d72-41a8-a8d7-e51e1388ecf4",
+      "_id": "079c7a66-472a-4993-bbd0-b1ebf86f7dfe",
       "type": "chassis",
       "chassis_name": "assault-frigate-mark-ii",
       "size": "medium",
@@ -913,7 +913,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Balance Appendix Old",
           "expansion": "Summer 2024 Hotfix Balance Appendix",
-          "_id": "631d6a6b-cc7a-4bb2-aac2-49ad58f73321",
+          "_id": "d5a21afc-43a6-4dfb-a00a-8247b57bb8a5",
           "type": "ship",
           "chassis": "assault-frigate-mark-ii",
           "name": "Assault Frigate Mark II A",
@@ -992,7 +992,7 @@
       }
     },
     "mc80b-cruiser-old-legacy": {
-      "_id": "33ce95e9-7c37-4dbb-92f8-a934a6102c3c",
+      "_id": "2c39a345-5df2-46c9-802d-c5b7714cce39",
       "type": "chassis",
       "chassis_name": "mc80b-cruiser-old-legacy",
       "size": "large",
@@ -1033,7 +1033,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Mon Remonda Expansion",
-          "_id": "534f5d33-417b-445e-813f-bf9dc42c57ca",
+          "_id": "271f0649-3035-4723-8858-0b67932f99fd",
           "type": "ship",
           "chassis": "mc80b-cruiser-old-legacy",
           "name": "MC80B Command Cruiser",
@@ -1118,7 +1118,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Mon Remonda Expansion",
-          "_id": "ba2e296e-8d1a-4629-bb07-f8d5ee434ae3",
+          "_id": "ffff1ff5-0106-49fa-93c5-2553e41243c6",
           "type": "ship",
           "chassis": "mc80b-cruiser-old-legacy",
           "name": "MC80B Heavy Cruiser",
@@ -1199,7 +1199,7 @@
       }
     },
     "arquitens-gar-cruiser-old-legacy": {
-      "_id": "f70f9542-3008-4534-a284-4a3491cce59b",
+      "_id": "b071e43c-0607-4701-9f22-2f5014b347a8",
       "type": "chassis",
       "chassis_name": "arquitens-gar-cruiser-old-legacy",
       "size": "small",
@@ -1244,7 +1244,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Republic Light Cruiser Expansion",
-          "_id": "345b25da-4462-4d5f-a51f-eabc6022be33",
+          "_id": "cdafae26-5e49-4bd7-8ae6-b912ed6a639d",
           "type": "ship",
           "chassis": "arquitens-gar-cruiser-old-legacy",
           "name": "Arquitens-class Command Cruiser",
@@ -1326,7 +1326,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Republic Light Cruiser Expansion",
-          "_id": "1caa8dee-daf6-4d03-9017-030460c7be8c",
+          "_id": "94e0a5c6-6dc6-45b7-94b0-fadd0db17964",
           "type": "ship",
           "chassis": "arquitens-gar-cruiser-old-legacy",
           "name": "Arquitens-class Light Cruiser",
@@ -1405,7 +1405,7 @@
       }
     },
     "ipv-2c-corvette-old-legacy": {
-      "_id": "e4dba008-ab53-496a-b42c-87a7207fba7d",
+      "_id": "cc6618c4-4257-4e99-99b7-d1973fe67083",
       "type": "chassis",
       "chassis_name": "ipv-2c-corvette-old-legacy",
       "size": "small",
@@ -1455,7 +1455,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Republic Stealth Corvette Expansion",
-          "_id": "b1fd75bc-1fb4-466f-9a95-43d2a83e3d67",
+          "_id": "8da465d6-1c21-47ba-95df-be0278e3c239",
           "type": "ship",
           "chassis": "ipv-2c-corvette-old-legacy",
           "name": "IPV-2C Stealth Corvette",
@@ -1538,7 +1538,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Republic Stealth Corvette Expansion",
-          "_id": "dfcb7c3f-0ad9-4bf2-b4ef-b6aed99486da",
+          "_id": "533fc5f0-68a1-464b-be38-715e6408fb40",
           "type": "ship",
           "chassis": "ipv-2c-corvette-old-legacy",
           "name": "IPV-2C Support Corvette",
@@ -1618,7 +1618,7 @@
       }
     },
     "lucrehulk-class-old-legacy": {
-      "_id": "14f87e87-a3ff-4ec1-8a73-f3644ccd5205",
+      "_id": "35d35369-3a84-4d0e-affa-0e0cc77bce79",
       "type": "chassis",
       "chassis_name": "lucrehulk-class-old-legacy",
       "size": "large",
@@ -1659,7 +1659,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Lucrehulk Expansion",
-          "_id": "2942696a-ee7d-44cb-a810-40b23382aed0",
+          "_id": "34826406-780b-4822-bc3e-5f7ed61c2162",
           "type": "ship",
           "chassis": "lucrehulk-class-old-legacy",
           "name": "Lucrehulk-class Battleship",
@@ -1744,7 +1744,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 2 Old",
           "expansion": "Lucrehulk Expansion",
-          "_id": "b05c0514-d3e4-4d34-81c0-0a40141b0f7c",
+          "_id": "e286f37c-cf43-4be1-b35a-90ebbdee9e38",
           "type": "ship",
           "chassis": "lucrehulk-class-old-legacy",
           "name": "Lucrehulk-class Droid Control Ship",
@@ -1828,7 +1828,7 @@
       }
     },
     "trident-ships-old-legacy": {
-      "_id": "698cc64c-061d-44f8-9470-688444bc81b4",
+      "_id": "6d09bca0-709a-46f0-b635-18a07eb2d673",
       "type": "chassis",
       "chassis_name": "trident-ships-old-legacy",
       "size": "small",
@@ -1873,7 +1873,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Trident Assault Ships Expansion",
-          "_id": "c5d986a8-168f-4a94-8d60-c8e5e2a145e9",
+          "_id": "ceed6f04-3c95-457c-bae0-5c658010ffa8",
           "type": "ship",
           "chassis": "trident-ships-old-legacy",
           "name": "Trident-class Assault Carriers",
@@ -1955,7 +1955,7 @@
           "team": "Armada Legacy",
           "release": "Legacy Wave 1 Old",
           "expansion": "Trident Assault Ships Expansion",
-          "_id": "998af3bb-ae38-4c80-b8df-2492647991d8",
+          "_id": "b44da07b-e1a1-4494-8bb0-eb71777565a9",
           "type": "ship",
           "chassis": "trident-ships-old-legacy",
           "name": "Trident-class Assault Ships",
