@@ -22,6 +22,8 @@ import oldLegacyUpgradeRoutes from './routes/oldLegacyUpgradeRoutes.js';
 
 import aliasRoutes from './routes/aliasRoutes.js';
 import imageLinksRoutes from './routes/imageLinksRoutes.js';
+import arcRoutes from './routes/arcRoutes.js';
+import errataKeysRoutes from './routes/errataKeysRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -54,6 +56,8 @@ app.use('/old-legacy/upgrades', oldLegacyUpgradeRoutes);
 // Add this line with your other app.use statements
 app.use('/aliases', aliasRoutes);
 app.use('/image-links', imageLinksRoutes);
+app.use('/arc', arcRoutes);
+app.use('/errata-keys', errataKeysRoutes);
 
 app.use(errorHandler);
 

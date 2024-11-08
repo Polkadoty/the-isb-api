@@ -11,3 +11,6 @@ Start-Process -File "node" -ArgumentList "generateAliases.js" -Wait
 
 # Run generateThumbnails.js
 Start-Process -File "node" -ArgumentList "generateThumbnails.js" -Wait
+
+# Run findErrata.js
+Start-Process -File "node" -ArgumentList "find-errata.js" -Wait

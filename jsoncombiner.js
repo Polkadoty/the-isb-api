@@ -11,7 +11,6 @@ const directories = {
   squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
   upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
   objectives: path.join(__dirname, 'public/converted-json/objectives'),
-  //
   'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
   'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
   'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
@@ -20,7 +19,11 @@ const directories = {
   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
   'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
   'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
-  'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades')
+  'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
+  'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
+  'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
+  'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
+  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
 };
 
 function updateIdsAndCombine(directory, outputFileName) {
@@ -91,6 +94,10 @@ function parseArgs() {
     'old-legacy-ships': args.includes('-old-legacy-ships'),
     'old-legacy-squadrons': args.includes('-old-legacy-squadrons'),
     'old-legacy-upgrades': args.includes('-old-legacy-upgrades'),
+    'arc-upgrades': args.includes('-arc-upgrades'),
+    'arc-ships': args.includes('-arc-ships'),
+    'arc-squadrons': args.includes('-arc-squadrons'),
+    'arc-objectives': args.includes('-arc-objectives')
   };
 
   if (flags.all) {
@@ -113,5 +120,5 @@ Object.entries(directories).forEach(([key, directory]) => {
 
 // If no flags are provided, inform the user
 if (!Object.values(flags).some(Boolean)) {
-  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades');
+  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades, -arc-upgrades, -arc-ships, -arc-squadrons, -arc-objectives');
 }

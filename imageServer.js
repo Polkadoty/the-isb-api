@@ -77,9 +77,9 @@ app.use('/images', (req, res, next) => {
   
   next();
 }, express.static(imagesPath, {
-  maxAge: '7d',
+  maxAge: '2d', // Cache for 2 days
   setHeaders: (res, path) => {
-    res.setHeader('Cache-Control', 'public, max-age=604800, immutable');
+    res.setHeader('Cache-Control', 'public, max-age=172800, immutable'); // 2 days in seconds
     res.setHeader('X-Content-Type-Options', 'nosniff');
   }
 }));
