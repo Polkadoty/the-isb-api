@@ -46,15 +46,29 @@ function findErrataKeys(directory) {
             result[category] = [];
           }
           
-          // Get all keys that contain '-errata'
           if (typeof content === 'object') {
-            const errataKeys = Object.keys(content).filter(key => key.includes('-errata'));
-            // Add unique keys to the result array
-            errataKeys.forEach(key => {
-              if (!result[category].includes(key)) {
-                result[category].push(key);
-              }
-            });
+            // For ships, we need to look deeper into the structure
+            if (category === 'ships') {
+              // Look through each chassis
+              Object.entries(content).forEach(([chassisName, chassis]) => {
+                if (chassis.models) {
+                  // Check if any model names contain '-errata'
+                  const hasErrataModel = Object.keys(chassis.models).some(key => key.includes('-errata'));
+                  // If there's an errata model, add the chassis name
+                  if (hasErrataModel && !result[category].includes(chassisName)) {
+                    result[category].push(chassisName);
+                  }
+                }
+              });
+            } else {
+              // For other categories, keep the existing behavior
+              const errataKeys = Object.keys(content).filter(key => key.includes('-errata'));
+              errataKeys.forEach(key => {
+                if (!result[category].includes(key)) {
+                  result[category].push(key);
+                }
+              });
+            }
           }
         });
       } catch (error) {
