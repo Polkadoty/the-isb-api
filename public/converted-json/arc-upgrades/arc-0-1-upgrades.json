@@ -1,0 +1,484 @@
+{
+  "upgrades": {
+    "expanded-launchers-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Expanded Launchers",
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification\nThe battery armament for your front hull zone is increased by 2 black dice.",
+      "unique": false,
+      "points": 9,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/expanded-launchers-errata-arc.webp"
+    },
+    "rapid-reload-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Rapid Reload",
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nThe battery armaments for your left and right hull zones are increased by 1 black die.",
+      "unique": false,
+      "points": 6,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rapid-reload-errata-arc.webp"
+    },
+    "ordnance-experts-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "weapons-team",
+      "faction": [
+        ""
+      ],
+      "name": "Ordnance Experts",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking, you may reroll *any number* of your black dice.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ordnance-experts-errata-arc.webp"
+    },
+    "admiral-screed-commander-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Screed",
+      "unique-class": [
+        "Admiral Screed"
+      ],
+      "ability": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a :critical: icon. *That die cannot be rerolled.*",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-screed-commander-errata-arc.webp"
+    },
+    "governor-pryce-officer-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Governor Pryce",
+      "unique-class": [
+        "Governor Pryce"
+      ],
+      "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result..",
+      "unique": true,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/governor-pryce-officer-errata-arc.webp"
+    },
+    "linked-turbolaser-towers-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "turbolaser",
+      "faction": [
+        "republic",
+        "separatist"
+      ],
+      "name": "Linked Turbolaser Towers",
+      "unique-class": [
+        ""
+      ],
+      "ability": "You may reroll 1 red die in your attack pool.\nWhile attacking the first squadron during your activation, you may add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/linked-turbolaser-towers-errata-arc.webp"
+    },
+    "point-defense-ion-cannons-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Point Defense Ion Cannons",
+      "unique-class": [
+        ""
+      ],
+      "ability": "While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/point-defense-ion-cannons-errata-arc.webp"
+    },
+    "squall-title-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Squall",
+      "unique-class": [
+        "Squall"
+      ],
+      "ability": "When you activate, you may choose up to 3 unengaged friendly squadrons at close-medium range. Those squadrons may move up to distance 2. If they do, they cannot end their movement engaged.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "quasar-fire-class-cruiser-carrier",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/squall-title-errata-arc.webp"
+    },
+    "boosted-comms-errata-arc": {
+      "author": "Armada Ruleset Collective",
+      "alias": "ARC",
+      "team": "ARC",
+      "release": "ARC 0.1",
+      "expansion": "ARC 0.1",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Boosted Comms",
+      "unique-class": [
+        ""
+      ],
+      "ability": ":squadron: : You can activate friendly squadrons at close-long range (instead of close-medium).",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/boosted-comms-errata-arc.webp"
+    }
+  }
+}

@@ -6,7 +6,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "52ed2914-dc08-4dbc-9e3a-11710f44834e",
+      "_id": "2044121b-bf57-4951-8891-16ff08bf9f07",
       "type": "commander",
       "faction": [
         "republic"
@@ -61,7 +61,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Assault Frigate Mark I Expansion",
-      "_id": "44c8d3d6-a7f9-4042-a19e-8e0d7166869e",
+      "_id": "44dbedc3-72d5-4d1d-8e74-53a2afe47887",
       "type": "commander",
       "faction": [
         "rebel"
@@ -116,7 +116,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "b4f6a76f-a06c-4a93-9d27-8c49c0ab0096",
+      "_id": "4cd5cd6c-9fdc-4ee9-afa0-f23d5f4a93e1",
       "type": "commander",
       "faction": [
         "empire"
@@ -165,13 +165,68 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/admiral-rogriss-commander-old-legacy.webp"
     },
+    "general-madine-commander-errata-old-legacy": {
+      "author": "Armada Legacy",
+      "alias": "OldLegacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Balance Appendix Old",
+      "expansion": "Summer 2024 Hotfix Balance Appendix",
+      "_id": "3ed2fa6d-32be-4970-8236-59bda96b40bd",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Madine",
+      "unique-class": [
+        "General Madine"
+      ],
+      "ability": "When a friendly ship resolves a Icon Command Navigate command, if it spent a Icon Command Navigate dial it may increase 1 additional yaw value by 1. If it spent a Icon Command Navigate token, it may either change its speed or increase 1 yaw value by 1.",
+      "unique": true,
+      "points": 27,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/general-madine-commander-errata-old-legacy.webp"
+    },
     "gilad-pellaeon-commander-old-legacy": {
       "author": "Armada Legacy",
       "alias": "OldLegacy",
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Dreadnaught Heavy Cruiser Expansion",
-      "_id": "5f772dbf-70a4-4b80-b936-34e4dbcd0820",
+      "_id": "d7fcafbb-ab1c-4733-872c-5696a1e1c0ac",
       "type": "commander",
       "faction": [
         "empire"
@@ -226,7 +281,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Mon Remonda Expansion",
-      "_id": "216700b0-b050-4f16-910b-76c705897d38",
+      "_id": "e4c04584-0746-4b1e-9c10-7b84e9be2962",
       "type": "commander",
       "faction": [
         "rebel"
@@ -281,7 +336,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "8c648c8a-1e88-4e8e-8e05-3003cf3a83b8",
+      "_id": "51341b38-3483-4b9f-93b2-8cf4b638f45a",
       "type": "commander",
       "faction": [
         "separatist"
@@ -336,7 +391,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Trident Assault Ships Expansion",
-      "_id": "f65ce2b5-e71c-41d2-a431-46a358cab1f2",
+      "_id": "036d8059-9b1b-4868-90f1-1194f1822410",
       "type": "commander",
       "faction": [
         "separatist"
@@ -391,7 +446,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Republic Stealth Corvette Expansion",
-      "_id": "d463928c-fdd2-443d-8d13-24934a384383",
+      "_id": "351626e0-126f-4fc5-a520-508f1741eb96",
       "type": "commander",
       "faction": [
         "republic"
@@ -446,7 +501,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Republic Stealth Corvette Expansion",
-      "_id": "7d4a8628-f377-42d8-9aa6-e9599dc109ac",
+      "_id": "d11a6e63-3d90-4c25-8761-330f6fdf7510",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -501,7 +556,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Republic Stealth Corvette Expansion",
-      "_id": "552608b3-3ddd-4091-8501-1c727458c7d2",
+      "_id": "1ad208a6-9eef-4172-b049-0c3beaa100db",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -556,7 +611,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "e5dffcaa-4ebf-48c0-b8fe-177f33952b58",
+      "_id": "f2f59198-6f0f-4bd6-8a40-e297d6b02c07",
       "type": "experimental-retro",
       "faction": [
         ""
@@ -611,7 +666,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "599dc0e3-1ebf-4e43-a732-68c12ba1ff4f",
+      "_id": "78732b52-7be5-4ad5-a94e-38c532ff620f",
       "type": "experimental-retro",
       "faction": [
         ""
@@ -666,7 +721,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "caae3fea-673a-467b-bdba-d81a606a7cd0",
+      "_id": "5e0b1a55-7445-4c1b-ad74-6665cdd8d3a6",
       "type": "experimental-retro",
       "faction": [
         ""
@@ -721,7 +776,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "3e9109fa-1b96-4e32-9986-c8b17b25c64f",
+      "_id": "b84f14c2-33c5-4a34-8ce3-b4d1905c2397",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -776,7 +831,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Trident Assault Ships Expansion",
-      "_id": "8c2ae58d-4331-4738-8326-140035322ddc",
+      "_id": "7acbf71a-ab0b-45a1-b245-fe5108a40b1d",
       "type": "offensive-retro",
       "faction": [
         "separatist"
@@ -831,7 +886,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "770aa86b-4d19-4233-8205-7c285ec4c4cc",
+      "_id": "f92dc959-5983-4c3b-ad4f-a0bf3e13a855",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -888,7 +943,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Trident Assault Ships Expansion",
-      "_id": "eb7436a7-0354-46a4-8b99-6cca7318bf05",
+      "_id": "1ecfd485-3cae-48d4-b9ec-883ce86a3043",
       "type": "offensive-retro",
       "faction": [
         "separatist"
@@ -943,7 +998,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "d9f51fea-7fdc-443e-a5d8-3bf6b9bb411a",
+      "_id": "29e632d2-d114-4e4a-a039-00ac273bed78",
       "type": "officer",
       "faction": [
         "republic"
@@ -998,7 +1053,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Stealth Corvette Expansion",
-      "_id": "8c79aad9-a5c6-4ae8-8d47-b0a1e6302fd8",
+      "_id": "8bf9e4b9-fbb7-4ddf-ba08-1f830c8f35f2",
       "type": "officer",
       "faction": [
         "republic"
@@ -1053,7 +1108,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Assault Frigate Mark I Expansion",
-      "_id": "0fc3e133-2451-493d-8d02-849ce3307117",
+      "_id": "548d4e92-71b8-4ec1-bbdf-c37823accbd2",
       "type": "officer",
       "faction": [
         "rebel"
@@ -1108,7 +1163,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Mon Remonda Expansion",
-      "_id": "20de13c3-2693-450d-bf99-63c2c9ac28ee",
+      "_id": "749b18ca-9d37-4da3-bf34-0b1df066483e",
       "type": "officer",
       "faction": [
         "rebel"
@@ -1163,7 +1218,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Dreadnaught Heavy Cruiser Expansion",
-      "_id": "7c5c1237-3bf4-483b-b15a-807def3658c2",
+      "_id": "dd585c15-9834-42f8-8f01-bb578d535fe2",
       "type": "officer",
       "faction": [
         "empire"
@@ -1218,7 +1273,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "308f7716-637a-4b1b-aa3a-74ac52a1cf0f",
+      "_id": "5542231e-fc68-4f12-aa48-25271123db25",
       "type": "officer",
       "faction": [
         "separatist"
@@ -1273,7 +1328,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "c543f0be-f46c-4d5d-93ea-060dc4d17ad8",
+      "_id": "c926d004-f677-40af-b2a2-77fb3eff728e",
       "type": "officer",
       "faction": [
         "separatist"
@@ -1328,7 +1383,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "404642c7-46d8-4ea1-acf5-be3576ef1922",
+      "_id": "53f54cab-0f56-4e8a-8813-a3f60168c337",
       "type": "officer",
       "faction": [
         "empire"
@@ -1383,7 +1438,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "346ab612-5844-4786-9ed5-b8c175f0859b",
+      "_id": "f3d56bab-c4a0-4ab4-95ed-e8c0bd67727f",
       "type": "ordnance",
       "faction": [
         ""
@@ -1438,7 +1493,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Republic Stealth Corvette Expansion",
-      "_id": "3768a3da-f668-4c02-a886-1f241bcea59b",
+      "_id": "8c5b0bc6-925c-4334-923f-3865b9bf3a1c",
       "type": "ordnance",
       "faction": [
         ""
@@ -1493,7 +1548,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "d77ae4d8-80f4-4067-afc8-81a90cf30dc6",
+      "_id": "8edcf5ef-819a-4208-97fe-47a91412c2ae",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -1548,7 +1603,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "5176330b-3a6d-4d84-befb-5208c84dca83",
+      "_id": "9b21d959-9fe1-4041-8f16-63e5e953770c",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -1603,7 +1658,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "2ef83005-f4d7-4c7a-aebe-066770ad2f38",
+      "_id": "a9a89504-d858-446c-9eaf-da1a10c5f99d",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -1658,7 +1713,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "256c880a-682b-40f8-8a0c-0e441b206c3c",
+      "_id": "1df6dc27-d8b5-4154-8a7c-d9bdd533c825",
       "type": "support-team",
       "faction": [
         "republic"
@@ -1713,7 +1768,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Mon Remonda Expansion",
-      "_id": "47d973c5-3980-46ff-aa1c-d58958fea940",
+      "_id": "0275007c-2669-4a47-bded-0fb2bb125f9f",
       "type": "support-team",
       "faction": [
         ""
@@ -1768,7 +1823,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Assault Frigate Mark I Expansion",
-      "_id": "568de89c-bbb8-405b-8259-6cb85cd2fb2a",
+      "_id": "5ebf4508-2430-402e-a144-2632d437a21b",
       "type": "support-team",
       "faction": [
         ""
@@ -1823,7 +1878,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Dreadnaught Heavy Cruiser Expansion",
-      "_id": "40134860-df5f-477f-9ae8-73b7fda6f984",
+      "_id": "66c45f22-3b98-471f-a999-ec31f8d6865e",
       "type": "title",
       "faction": [
         "empire"
@@ -1878,7 +1933,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Dreadnaught Heavy Cruiser Expansion",
-      "_id": "3f2b91c2-d015-4e8c-89a2-150715266ad0",
+      "_id": "10e98b6d-9ce0-4094-9a79-9ccfecbab215",
       "type": "title",
       "faction": [
         "empire"
@@ -1933,7 +1988,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Dreadnaught Heavy Cruiser Expansion",
-      "_id": "bf5a4fc7-6474-4c9c-9262-43235560557a",
+      "_id": "bb35723d-d031-43ce-9fc1-beb7f017c516",
       "type": "title",
       "faction": [
         "empire"
@@ -1988,7 +2043,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "85d07a7a-e231-454c-a0da-d8981bc14c6c",
+      "_id": "b436cdea-dd02-40db-8546-7cbbb00fe4d9",
       "type": "title",
       "faction": [
         "empire"
@@ -2043,7 +2098,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "59e018ad-bcb9-4856-b487-7e06e937b440",
+      "_id": "85a16e15-8fec-40a1-bee1-f35c7bed6100",
       "type": "title",
       "faction": [
         "empire"
@@ -2098,7 +2153,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Interdictor Star Destroyer Expansion",
-      "_id": "0b01b100-f1dc-4083-86bd-0c261853a638",
+      "_id": "acdaba55-df16-4261-8ff2-a4ddb3fef3cb",
       "type": "title",
       "faction": [
         "empire"
@@ -2153,7 +2208,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Assault Frigate Mark I Expansion",
-      "_id": "15263af5-82e1-4eb4-80f6-bc06f9c850bd",
+      "_id": "2c686e57-85cc-462f-8c8c-28c91a640e7f",
       "type": "title",
       "faction": [
         "rebel"
@@ -2208,7 +2263,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Assault Frigate Mark I Expansion",
-      "_id": "a1d27f06-d8dc-4d62-88c8-1c8d43f927bc",
+      "_id": "782a5e08-52ee-4ad2-a47c-13e9b3ad6c23",
       "type": "title",
       "faction": [
         "rebel"
@@ -2263,7 +2318,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Mon Remonda Expansion",
-      "_id": "3a3dae3f-cc0f-48f4-a0e3-8882329dfa50",
+      "_id": "e9fd9de5-3bef-47bb-8796-d516bc2481ed",
       "type": "title",
       "faction": [
         "rebel"
@@ -2318,7 +2373,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Mon Remonda Expansion",
-      "_id": "85ea62b0-8065-47d8-897b-652581e32e97",
+      "_id": "76e99105-f5cd-4bbd-b165-0ed7cee8a55b",
       "type": "title",
       "faction": [
         "rebel"
@@ -2373,7 +2428,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Mon Remonda Expansion",
-      "_id": "e9706f82-42fe-4285-a715-9cc6fcaa0150",
+      "_id": "4f69dcbb-a6c2-40cf-87b9-3b038c1db95c",
       "type": "title",
       "faction": [
         "rebel"
@@ -2428,7 +2483,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "a022c5a2-9570-4b40-830f-33701863c85c",
+      "_id": "af898da6-c60d-48be-9eeb-c8efb6245193",
       "type": "title",
       "faction": [
         "republic"
@@ -2483,7 +2538,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "448aa652-c91c-445a-bbe4-244a9c232ff8",
+      "_id": "509a01bc-47ea-4ff7-ac36-57d702323bc1",
       "type": "title",
       "faction": [
         "republic"
@@ -2538,7 +2593,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Republic Stealth Corvette Expansion",
-      "_id": "00fce1d5-76d6-495a-b1cf-8c93199e6e9f",
+      "_id": "f9aa028a-ca76-4166-893b-26184f860ff0",
       "type": "title",
       "faction": [
         "republic"
@@ -2593,7 +2648,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "eb4cfd89-081f-45c0-afa5-836e4f6ed483",
+      "_id": "4f1d6cf1-0a78-4eee-b702-10c2e2441b1b",
       "type": "title",
       "faction": [
         "separatist"
@@ -2648,7 +2703,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "a3c80872-d3ba-440d-ac53-173a5ffe9a7c",
+      "_id": "29797d7b-02e3-4db1-811b-cf8467857c25",
       "type": "title",
       "faction": [
         "separatist"
@@ -2703,7 +2758,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Lucrehulk Expansion",
-      "_id": "dad1d23c-6136-4202-93d9-f3f349f5712a",
+      "_id": "842a1e5c-686e-4d17-80b4-0f09ed4b846f",
       "type": "title",
       "faction": [
         "separatist"
@@ -2758,7 +2813,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Trident Assault Ships Expansion",
-      "_id": "eb259231-776e-45a7-9177-c58a15b39249",
+      "_id": "c1db8171-3d35-41c9-8192-478c1edadf80",
       "type": "title",
       "faction": [
         "separatist"
@@ -2813,7 +2868,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Trident Assault Ships Expansion",
-      "_id": "28e5ec18-d81d-4571-800b-f6d94106d44a",
+      "_id": "afb6ca04-ecd4-4ee4-9ea3-f642e6bcc8bf",
       "type": "title",
       "faction": [
         "separatist"
@@ -2868,7 +2923,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "fe7740ee-be9a-4593-bd2a-9b7afc905ce3",
+      "_id": "35b6df27-2afe-44ca-87c8-4e5be465e2d9",
       "type": "turbolaser",
       "faction": [
         ""
@@ -2923,7 +2978,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 2 Old",
       "expansion": "Mon Remonda Expansion",
-      "_id": "c95bbc61-730c-414d-8a87-04a7323c4091",
+      "_id": "1fd10cb6-1448-4b9e-876a-e0145bb2a596",
       "type": "turbolaser",
       "faction": [
         ""
@@ -2978,7 +3033,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Republic Light Cruiser Expansion",
-      "_id": "29eee86b-7186-4ef4-8f32-2334afdb676e",
+      "_id": "7df89257-b0fa-4153-8381-014a2e344d81",
       "type": "weapons-team",
       "faction": [
         ""
@@ -3033,7 +3088,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Trident Assault Ships Expansion",
-      "_id": "c3887959-b650-470d-af6d-e483ec125986",
+      "_id": "77ab709b-c1f1-4614-8c2e-36e90d7c15b1",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "separatist"
@@ -3088,7 +3143,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 1 Old",
       "expansion": "Trident Assault Ships Expansion",
-      "_id": "3d3b0d03-46ed-4c60-8642-7a1dccaf93ff",
+      "_id": "45c1695c-7ce4-4156-8347-3c28a24eb0ca",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "separatist"
