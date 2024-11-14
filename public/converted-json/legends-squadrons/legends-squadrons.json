@@ -1,5 +1,273 @@
 {
   "squadrons": {
+    "assault-raptor-squadron-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "346a5898-c643-4fbd-aa25-518ac1813cb7",
+      "type": "squadron",
+      "faction": "colonial",
+      "squadron_type": "assault-raptor-squadron-bsg",
+      "name": "Assault Raptor Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/assault-raptor-squadron-bsg-legends.webp"
+    },
+    "assault-raptor-racetrack-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "bbba0d86-c0de-4335-8feb-8a7cd9faa452",
+      "type": "squadron",
+      "faction": "colonial",
+      "squadron_type": "assault-raptor-squadron-bsg",
+      "name": "Assault Raptor Squadron",
+      "ace-name": "Racetrack",
+      "unique-class": [
+        "Racetrack"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/assault-raptor-racetrack-bsg-legends.webp"
+    },
+    "raptor-squadron-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "b9b12676-ac6e-484c-bed2-3de43f8fecd7",
+      "type": "squadron",
+      "faction": "colonial",
+      "squadron_type": "raptor-squadron-bsg",
+      "name": "Raptor Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/raptor-squadron-bsg-legends.webp"
+    },
+    "raptor-athena-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "13e15887-fccf-4bed-8605-cc2488313bce",
+      "type": "squadron",
+      "faction": "colonial",
+      "squadron_type": "raptor-squadron-bsg",
+      "name": "Raptor Squadron",
+      "ace-name": "Athena",
+      "unique-class": [
+        "Athena"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 2,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/raptor-athena-bsg-legends.webp"
+    },
     "viper-mk2-squadron-bsg-legends": {
       "author": [
         "TacticalFox27",
@@ -9,10 +277,10 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "dec5ff0a-3faa-41df-be0a-e32083145f9b",
+      "_id": "f9610753-eecf-41d0-b7fa-bfdb08cd860c",
       "type": "squadron",
-      "faction": "cylon",
-      "squadron_type": "viper-mk2-squadron-bsg-legends",
+      "faction": "colonial",
+      "squadron_type": "viper-mk2-squadron",
       "name": "Viper MkII Squadron",
       "ace-name": "",
       "unique-class": [
@@ -67,13 +335,147 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/viper-mk2-squadron-bsg-legends.webp"
     },
+    "viper-mk2-hotdog-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "cbe1d10b-9dbd-49c0-b7c2-7a5a7d30d645",
+      "type": "squadron",
+      "faction": "colonial",
+      "squadron_type": "viper-mk2-squadron",
+      "name": "Viper MkII Squadron",
+      "ace-name": "Hotdog",
+      "unique-class": [
+        "Hotdog"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 1,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/viper-mk2-hotdog-bsg-legends.webp"
+    },
+    "viper-mk2-starbuck-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "3796e229-f3f6-45a7-b702-1a54b741739c",
+      "type": "squadron",
+      "faction": "colonial",
+      "squadron_type": "viper-mk2-squadron",
+      "name": "Viper MkII Squadron",
+      "ace-name": "Kara \"Starbuck\" Thrace",
+      "unique-class": [
+        "Kara \"Starbuck\" Thrace"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 1,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/viper-mk2-starbuck-bsg-legends.webp"
+    },
     "banshee-squadron-halo-legends": {
       "author": "Armada Legends Team",
       "alias": "Legends",
       "team": "Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "f95da001-2946-497b-bb8a-2177ce5aa3d6",
+      "_id": "7552d8c3-38ec-4069-a792-f0635db698bc",
       "type": "squadron",
       "faction": "covenant",
       "squadron_type": "banshee-squadron",
@@ -141,7 +543,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends Wave 1",
       "expansion": "Halo Starter Set",
-      "_id": "e93920a4-7b56-4edc-914b-ae66f641410a",
+      "_id": "72820cab-ca0a-4f98-a39b-a2c38e703520",
       "type": "squadron",
       "faction": "covenant",
       "squadron_type": "banshee-squadron",
@@ -209,7 +611,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends Wave 1",
       "expansion": "Halo Starter Set",
-      "_id": "ebfd9ae6-890f-4aa2-9342-68692414e137",
+      "_id": "cdfbfeda-21ce-4ff8-943b-8408b07e8a17",
       "type": "squadron",
       "faction": "covenant",
       "squadron_type": "banshee-squadron",
@@ -273,7 +675,7 @@
       "team": "Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "7b0cbf8e-3ef4-448e-9b7c-19e5d38fbf43",
+      "_id": "47c30d9b-5df5-4f44-80df-9ce70c7e4d05",
       "type": "squadron",
       "faction": "covenant",
       "squadron_type": "seraph-squadron",
@@ -337,7 +739,7 @@
       "team": "Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "42e84e8a-e468-45e4-9b17-14a3cf932c14",
+      "_id": "ad9a55d7-633d-4bc5-bf7d-1e6adff5ae41",
       "type": "squadron",
       "faction": "covenant",
       "squadron_type": "seraph-squadron",
@@ -395,6 +797,140 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/ferko-seraph-squadron-halo-legends.webp"
     },
+    "vespid-squadron-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "db4a50ac-cd04-4241-8cc7-594a3c40c143",
+      "type": "squadron",
+      "faction": "cylon",
+      "squadron_type": "vespid-squadron",
+      "name": "Vespid Bomber Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          0,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 1,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/vespid-squadron-bsg-legends.webp"
+    },
+    "vespid-helios07-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "32c9893b-a869-4756-9c2a-61c327725156",
+      "type": "squadron",
+      "faction": "cylon",
+      "squadron_type": "vespid-squadron",
+      "name": "Vespid Bomber Squadron",
+      "ace-name": "Helios-07",
+      "unique-class": [
+        "Helios-07"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 1,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          0,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 1,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/vespid-helios07-bsg-legends.webp"
+    },
     "war-raider-squadron-bsg-legends": {
       "author": [
         "TacticalFox27",
@@ -404,10 +940,10 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "867bea3b-1931-4868-8fbf-fb64800a355d",
+      "_id": "a8b2661a-73c4-4444-8f60-7f782e534383",
       "type": "squadron",
       "faction": "cylon",
-      "squadron_type": "war-raider-squadron-bsg-legends",
+      "squadron_type": "war-raider-squadron",
       "name": "War Raider Squadron",
       "ace-name": "",
       "unique-class": [
@@ -462,13 +998,281 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/war-raider-squadron-bsg-legends.webp"
     },
+    "war-raider-silverfish-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "cb7f37c0-b6cd-4805-b709-0ff233beaf9c",
+      "type": "squadron",
+      "faction": "cylon",
+      "squadron_type": "war-raider-squadron",
+      "name": "War Raider Squadron",
+      "ace-name": "Silverfish",
+      "unique-class": [
+        "Silverfish"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/war-raider-silverfish-bsg-legends.webp"
+    },
+    "war-raider-delta84-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "6b6a87fa-e799-4807-b5ad-6317f234db18",
+      "type": "squadron",
+      "faction": "cylon",
+      "squadron_type": "war-raider-squadron",
+      "name": "War Raider Squadron",
+      "ace-name": "Delta-84",
+      "unique-class": [
+        "Delta-84"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/war-raider-delta84-bsg-legends.webp"
+    },
+    "wardriver-squadron-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "cd3a1ad0-4c66-4ae6-9c5f-d31e95844978",
+      "type": "squadron",
+      "faction": "cylon",
+      "squadron_type": "wardriver-squadron",
+      "name": "Wardriver Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 2,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/wardriver-squadron-bsg-legends.webp"
+    },
+    "wardriver-e47-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "c4a454ee-8c1b-4d8f-b443-c4235be3dce6",
+      "type": "squadron",
+      "faction": "cylon",
+      "squadron_type": "wardriver-squadron",
+      "name": "Wardriver Squadron",
+      "ace-name": "E-47",
+      "unique-class": [
+        "E-47"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 1,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 21,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/wardriver-e47-bsg-legends.webp"
+    },
     "cx-dagger-vessel-legends": {
       "author": "ForestEXE",
       "alias": "Legends",
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "f75b00d2-acc8-41d9-95b6-bf6d4c490f14",
+      "_id": "d9462958-afcf-4865-a475-3047c2aa6fe6",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "cx-dagger-vessel-legends",
@@ -531,7 +1335,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "3b1bd297-9e54-4f5c-8ab0-7738186d4cba",
+      "_id": "4bb536b9-117a-4fde-b944-14349e18ca9e",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "cx-dagger-vessel-legends",
@@ -596,7 +1400,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "807c1b8e-b428-4510-96c5-09e72dd93c5b",
+      "_id": "2451f846-0d81-42e7-9087-4e06107e70bb",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-punisher-squadron-legends",
@@ -661,7 +1465,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "7ade86d2-9df7-4621-b846-b197017a23f9",
+      "_id": "12fda211-dadc-47d0-8c15-6fdeca993211",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-punisher-squadron-legends",
@@ -726,7 +1530,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "0f74386a-4c9c-4736-85da-30bcfa4e6449",
+      "_id": "ea5e241e-016f-442f-9552-7e6f9b450479",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-punisher-squadron-legends",
@@ -791,7 +1595,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "3d0bdf97-6f63-4cb7-8925-db853c9a4c86",
+      "_id": "67a49c94-1df4-4726-ae57-5884776319cb",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -856,7 +1660,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "b5b92726-0fa1-495c-8b42-128c01223295",
+      "_id": "f0750941-5c37-44b8-85fa-a9095040d04c",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -921,7 +1725,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "d2364e7f-963a-4966-aaa3-f0ab72d28609",
+      "_id": "c1e0c601-083d-4af8-b5fe-b9ed22788183",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -986,7 +1790,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "b46b5e49-808e-4b33-ae70-6c317edf694b",
+      "_id": "3e7c42fe-badc-4961-a028-13ab847a41f1",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "xg1-starwing-squadron-legends",
@@ -1049,7 +1853,7 @@
       "team": "Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "3ab4874c-3568-4e21-9d78-f1e7f4432af5",
+      "_id": "ec3c4f0d-e16d-47c7-869c-b575fbbc1e63",
       "type": "squadron",
       "faction": "unsc",
       "squadron_type": "longsword-bomber-squadron",
@@ -1113,7 +1917,7 @@
       "team": "Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "527f2526-6570-4ee2-b570-d30064b4b3ec",
+      "_id": "1feba9b2-7970-4bb7-bf85-cd4cb568ed1e",
       "type": "squadron",
       "faction": "unsc",
       "squadron_type": "longsword-bomber-squadron",
@@ -1177,7 +1981,7 @@
       "team": "Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "8f6ccb47-421c-41af-888d-308332a07790",
+      "_id": "cba6d509-fd83-4e4a-a6f7-6762ea7190ad",
       "type": "squadron",
       "faction": "unsc",
       "squadron_type": "longsword-fighter-squadron",
@@ -1245,7 +2049,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends Wave 1",
       "expansion": "Halo Starter Set",
-      "_id": "42c27e3f-0a6d-41f0-b778-a4f793e7c096",
+      "_id": "896f8c5f-7411-4eb9-ba81-2c8e4de24e2f",
       "type": "squadron",
       "faction": "unsc",
       "squadron_type": "longsword-fighter-squadron",
