@@ -1,11 +1,11 @@
 {
   "ships": {
-    "jupiter-class-battlestar-bsg-legends": {
+    "minotaur-class-cruiser-bsg-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "jupiter-class-battlestar",
-      "size": "large",
-      "hull": 12,
+      "chassis_name": "minotaur-class-cruiser",
+      "size": "medium",
+      "hull": 10,
       "speed": {
         "1": [
           1
@@ -23,9 +23,9 @@
       },
       "shields": {
         "front": 3,
-        "rear": 2,
-        "left": 4,
-        "right": 4,
+        "rear": 1,
+        "left": 3,
+        "right": 3,
         "left_aux": 0,
         "right_aux": 0
       },
@@ -40,7 +40,7 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "jupiter-class-battlestar-mk1-bsg-legends": {
+        "minotaur-assault-bsg-legends": {
           "author": [
             "TacticalFox27",
             "SpaceNavy"
@@ -51,41 +51,36 @@
           "expansion": "BSG Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "jupiter-class-battlestar",
-          "name": "Jupiter-class Battlestar Mark I",
+          "chassis": "minotaur-class-cruiser",
+          "name": "Minotaur-class Heavy Assault Cruiser",
           "faction": "colonial",
           "unique": false,
-          "traits": [
-            "flak",
-            "launch"
-          ],
-          "points": 120,
+          "traits": [],
+          "points": 90,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
             "def_brace": 2,
             "def_redirect": 0,
             "def_contain": 1,
-            "def_salvo": 1
+            "def_salvo": 0
           },
           "values": {
             "command": 3,
-            "squadron": 4,
+            "squadron": 2,
             "engineer": 4
           },
           "upgrades": [
             "commander",
             "officer",
             "weapons-team",
-            "offensive-retro",
             "defensive-retro",
             "turbolaser",
-            "ion-cannon",
             "title"
           ],
           "armament": {
             "asa": [
-              1,
+              0,
               1,
               0
             ],
@@ -95,19 +90,19 @@
               1
             ],
             "rear": [
-              1,
+              0,
               1,
               1
             ],
             "left": [
               2,
-              4,
-              2
+              2,
+              1
             ],
             "right": [
               2,
-              4,
-              2
+              2,
+              1
             ],
             "left_aux": [
               0,
@@ -126,9 +121,9 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk1-bsg-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/minotaur-assault-bsg-legends.webp"
         },
-        "jupiter-class-battlestar-mk2-bsg-legends": {
+        "minotaur-command-bsg-legends": {
           "author": [
             "TacticalFox27",
             "SpaceNavy"
@@ -139,41 +134,36 @@
           "expansion": "BSG Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "jupiter-class-battlestar",
-          "name": "Jupiter-class Battlestar Mark II",
+          "chassis": "minotaur-class-cruiser",
+          "name": "Minotaur-class Heavy Command Cruiser",
           "faction": "colonial",
           "unique": false,
-          "traits": [
-            "flak",
-            "launch"
-          ],
-          "points": 126,
+          "traits": [],
+          "points": 80,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
             "def_brace": 2,
             "def_redirect": 0,
             "def_contain": 1,
-            "def_salvo": 1
+            "def_salvo": 0
           },
           "values": {
             "command": 3,
-            "squadron": 4,
+            "squadron": 2,
             "engineer": 4
           },
           "upgrades": [
             "commander",
             "officer",
-            "weapons-team",
-            "offensive-retro",
-            "offensive-retro",
+            "fleet-command",
             "defensive-retro",
             "ion-cannon",
             "title"
           ],
           "armament": {
             "asa": [
-              1,
+              0,
               1,
               0
             ],
@@ -184,18 +174,18 @@
             ],
             "rear": [
               0,
-              3,
-              0
+              1,
+              1
             ],
             "left": [
               1,
-              4,
-              3
+              2,
+              2
             ],
             "right": [
               1,
-              4,
-              3
+              2,
+              2
             ],
             "left_aux": [
               0,
@@ -214,7 +204,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/jupiter-class-battlestar-mk2-bsg-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/minotaur-command-bsg-legends.webp"
         }
       }
     }

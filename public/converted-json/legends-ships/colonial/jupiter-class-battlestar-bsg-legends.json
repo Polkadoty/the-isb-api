@@ -70,7 +70,7 @@
           },
           "values": {
             "command": 3,
-            "squadron": 4,
+            "squadron": 3,
             "engineer": 4
           },
           "upgrades": [
@@ -86,9 +86,9 @@
           ],
           "armament": {
             "asa": [
+              0,
               1,
-              1,
-              0
+              1
             ],
             "front": [
               1,

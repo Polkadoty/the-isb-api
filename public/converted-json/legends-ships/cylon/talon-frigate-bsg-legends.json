@@ -1,25 +1,29 @@
 {
   "ships": {
-    "war-basestar-bsg-legends": {
+    "talon-frigate-bsg-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "war-basestar",
-      "size": "large",
-      "hull": 12,
+      "chassis_name": "talon-frigate",
+      "size": "small",
+      "hull": 5,
       "speed": {
         "1": [
-          1
+          2
         ],
         "2": [
-          0,
+          1,
           1
         ],
-        "3": [],
+        "3": [
+          0,
+          1,
+          1
+        ],
         "4": []
       },
       "shields": {
-        "front": 3,
-        "rear": 3,
+        "front": 13,
+        "rear": 1,
         "left": 3,
         "right": 3,
         "left_aux": 0,
@@ -36,7 +40,7 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "war-basestar-mk1-bsg-legends": {
+        "talon-carrier-bsg-legends": {
           "author": [
             "TacticalFox27",
             "SpaceNavy"
@@ -47,148 +51,60 @@
           "expansion": "BSG Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "war-basestar",
-          "name": "War Basestar Mk.1",
+          "chassis": "talon-frigate",
+          "name": "Talon Light Carrier",
           "faction": "cylon",
           "unique": false,
           "traits": [
             ""
           ],
-          "points": 100,
+          "points": 60,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 0,
+            "def_evade": 1,
             "def_brace": 1,
             "def_redirect": 0,
-            "def_contain": 2,
-            "def_salvo": 1
+            "def_contain": 1,
+            "def_salvo": 0
           },
           "values": {
-            "command": 3,
-            "squadron": 4,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "fleet-command",
-            "offensive-retro",
-            "offensive-retro",
-            "defensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              2,
-              0
-            ],
-            "front": [
-              2,
-              2,
-              0
-            ],
-            "rear": [
-              2,
-              2,
-              0
-            ],
-            "left": [
-              2,
-              2,
-              0
-            ],
-            "right": [
-              2,
-              2,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/war-basestar-mk1-bsg-legends.webp"
-        },
-        "war-basestar-mk2-bsg-legends": {
-          "author": [
-            "TacticalFox27",
-            "SpaceNavy"
-          ],
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "BSG Armada Legends",
-          "expansion": "BSG Starter Set",
-          "_id": null,
-          "type": "ship",
-          "chassis": "war-basestar",
-          "name": "War Basestar Mk.2",
-          "faction": "cylon",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 106,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 0,
-            "def_contain": 2,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 3,
-            "squadron": 4,
-            "engineer": 4
+            "command": 2,
+            "squadron": 3,
+            "engineer": 3
           },
           "upgrades": [
             "commander",
             "officer",
             "weapons-team",
             "offensive-retro",
-            "defensive-retro",
-            "turbolaser",
-            "turbolaser",
+            "weapons-team-offensive-retro",
+            "support-team",
             "title"
           ],
           "armament": {
             "asa": [
-              1,
-              1,
+              0,
+              2,
               0
             ],
             "front": [
-              3,
-              1,
+              0,
+              2,
               0
             ],
             "rear": [
-              3,
-              1,
+              0,
+              2,
               0
             ],
             "left": [
+              2,
               3,
-              1,
               0
             ],
             "right": [
+              2,
               3,
-              1,
               0
             ],
             "left_aux": [
@@ -208,7 +124,92 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/war-basestar-mk2-bsg-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/talon-carrier-bsg-legends.webp"
+        },
+        "talon-frigate-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": null,
+          "type": "ship",
+          "chassis": "talon-frigate",
+          "name": "Talon Light Frigate",
+          "faction": "cylon",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 56,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              2,
+              0
+            ],
+            "right": [
+              3,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/talon-frigate-bsg-legends.webp"
         }
       }
     }

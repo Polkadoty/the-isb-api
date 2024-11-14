@@ -1,27 +1,36 @@
 {
   "ships": {
-    "war-basestar-bsg-legends": {
+    "nemesis-corvette-bsg-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "war-basestar",
-      "size": "large",
-      "hull": 12,
+      "chassis_name": "nemesis-corvette",
+      "size": "small",
+      "hull": 6,
       "speed": {
         "1": [
-          1
+          2
         ],
         "2": [
-          0,
+          2,
+          0
+        ],
+        "3": [
+          1,
+          1,
           1
         ],
-        "3": [],
-        "4": []
+        "4": [
+          1,
+          1,
+          0,
+          1
+        ]
       },
       "shields": {
-        "front": 3,
-        "rear": 3,
-        "left": 3,
-        "right": 3,
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
         "left_aux": 0,
         "right_aux": 0
       },
@@ -36,7 +45,7 @@
       "silhouette": "[link to image]",
       "blueprint": "[link to image]",
       "models": {
-        "war-basestar-mk1-bsg-legends": {
+        "nemesis-attack-bsg-legends": {
           "author": [
             "TacticalFox27",
             "SpaceNavy"
@@ -47,147 +56,143 @@
           "expansion": "BSG Starter Set",
           "_id": null,
           "type": "ship",
-          "chassis": "war-basestar",
-          "name": "War Basestar Mk.1",
+          "chassis": "nemesis-corvette",
+          "name": "Nemesis Attack Corvette",
           "faction": "cylon",
           "unique": false,
           "traits": [
             ""
           ],
-          "points": 100,
+          "points": 42,
           "tokens": {
             "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
+            "def_evade": 2,
+            "def_brace": 0,
             "def_redirect": 0,
-            "def_contain": 2,
-            "def_salvo": 1
+            "def_contain": 1,
+            "def_salvo": 0
           },
           "values": {
-            "command": 3,
-            "squadron": 4,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "fleet-command",
-            "offensive-retro",
-            "offensive-retro",
-            "defensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              2,
-              0
-            ],
-            "front": [
-              2,
-              2,
-              0
-            ],
-            "rear": [
-              2,
-              2,
-              0
-            ],
-            "left": [
-              2,
-              2,
-              0
-            ],
-            "right": [
-              2,
-              2,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/war-basestar-mk1-bsg-legends.webp"
-        },
-        "war-basestar-mk2-bsg-legends": {
-          "author": [
-            "TacticalFox27",
-            "SpaceNavy"
-          ],
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "BSG Armada Legends",
-          "expansion": "BSG Starter Set",
-          "_id": null,
-          "type": "ship",
-          "chassis": "war-basestar",
-          "name": "War Basestar Mk.2",
-          "faction": "cylon",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 106,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 0,
-            "def_contain": 2,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 3,
-            "squadron": 4,
-            "engineer": 4
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
           },
           "upgrades": [
             "commander",
             "officer",
             "weapons-team",
-            "offensive-retro",
-            "defensive-retro",
-            "turbolaser",
+            "support-team",
             "turbolaser",
             "title"
           ],
           "armament": {
             "asa": [
-              1,
+              0,
               1,
               0
             ],
             "front": [
-              3,
+              2,
               1,
               0
             ],
             "rear": [
-              3,
+              1,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              0,
+              0
+            ],
+            "right": [
+              1,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/nemesis-attack-bsg-legends.webp"
+        },
+        "nemesis-tech-bsg-legends": {
+          "author": [
+            "TacticalFox27",
+            "SpaceNavy"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "BSG Armada Legends",
+          "expansion": "BSG Starter Set",
+          "_id": null,
+          "type": "ship",
+          "chassis": "nemesis-corvette",
+          "name": "Nemesis Tech Corvette",
+          "faction": "cylon",
+          "unique": false,
+          "traits": [
+            "hack"
+          ],
+          "points": 40,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              1,
+              2,
+              0
+            ],
+            "rear": [
+              0,
               1,
               0
             ],
             "left": [
-              3,
+              0,
               1,
               0
             ],
             "right": [
-              3,
+              0,
               1,
               0
             ],
@@ -208,7 +213,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/war-basestar-mk2-bsg-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/nemesis-tech-bsg-legends.webp"
         }
       }
     }
