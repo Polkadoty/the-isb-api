@@ -1,0 +1,116 @@
+{
+    "upgrades": {
+        "columbia-title-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "colonial"
+            ],
+            "name": "Columbia",
+            "unique-class": [
+                "Columbia"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "jupiter-class-battlestar",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/columbia-title-bsg-legends.webp"
+        },
+        "galactica-title-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "colonial"
+            ],
+            "name": "Galactica",
+            "unique-class": [
+                "Galactica"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "jupiter-class-battlestar",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/galactica-title-bsg-legends.webp"
+        }
+    }
+}

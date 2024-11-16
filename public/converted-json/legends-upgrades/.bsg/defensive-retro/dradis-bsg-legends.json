@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "dradis-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "offensive-retro",
+            "faction": [
+                "colonial"
+            ],
+            "name": "DRADIS",
+            "unique-class": [
+                ""
+            ],
+            "ability": "placeholder",
+            "unique": false,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": [
+                    "nav"
+                ],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/dradis-bsg-legends.webp"
+        }
+    }
+}
