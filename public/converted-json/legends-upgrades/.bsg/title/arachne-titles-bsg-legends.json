@@ -1,0 +1,116 @@
+{
+    "upgrades": {
+        "arachnid-title-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "colonial"
+            ],
+            "name": "Arachnid",
+            "unique-class": [
+                "Arachnid"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "arachne-cruiser",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/arachnid-title-bsg-legends.webp"
+        },
+        "defiant-title-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "colonial"
+            ],
+            "name": "Arachnid",
+            "unique-class": [
+                "Arachnid"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "arachne-cruiser",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/defiant-title-bsg-legends.webp"
+        }
+    }
+}

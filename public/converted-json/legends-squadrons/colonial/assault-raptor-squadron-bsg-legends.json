@@ -89,15 +89,15 @@
       "hull": 4,
       "speed": 4,
       "tokens": {
-        "def_scatter": 1,
-        "def_evade": 0,
+        "def_scatter": 0,
+        "def_evade": 1,
         "def_brace": 1
       },
       "armament": {
         "anti-squadron": [
           0,
-          1,
-          2
+          2,
+          0
         ],
         "anti-ship": [
           0,

@@ -30,7 +30,7 @@
                 "republic",
                 "separatist"
             ],
-            "name": "upgrade_name",
+            "name": "upgradename",
             "unique-class": [
                 "string"
             ],
@@ -85,7 +85,7 @@
                 "ready_amount": number
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/.webp"
+            "cardimage": "https://api.swarmada.wiki/images/upgrade_name.webp"
         }
     }
 }

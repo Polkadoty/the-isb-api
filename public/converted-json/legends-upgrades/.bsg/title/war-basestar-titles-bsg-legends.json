@@ -1,0 +1,116 @@
+{
+    "upgrades": {
+        "crucible-title-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "colonial"
+            ],
+            "name": "Crucible",
+            "unique-class": [
+                "Crucible"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "war-basestar",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/crucible-title-bsg-legends.webp"
+        },
+        "thanatos-title-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "colonial"
+            ],
+            "name": "Thanatos",
+            "unique-class": [
+                "Thanatos"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "war-basestar",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/thanatos-title-bsg-legends.webp"
+        }
+    }
+}

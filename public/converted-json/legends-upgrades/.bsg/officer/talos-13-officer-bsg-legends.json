@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "talos-13-officer-bsg-legends": {
+            "author": [
+                "TacticalFox27",
+                "SpaceNavy"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "BSG Armada Legends Wave 1",
+            "expansion": "BSG Starter Set",
+            "_id": null,
+            "type": "officer",
+            "faction": [
+                "cylon"
+            ],
+            "name": "Talos-13",
+            "unique-class": [
+                "Talos-13"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/talos-13-officer-bsg-legends.webp"
+        }
+    }
+}

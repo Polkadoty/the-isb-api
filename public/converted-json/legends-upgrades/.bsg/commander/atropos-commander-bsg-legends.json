@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "atropos-commander-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Atropos",
+      "unique-class": [
+        "Atropos"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/atropos-commander-bsg-legends.webp"
+    }
+  }
+}
