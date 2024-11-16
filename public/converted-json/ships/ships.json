@@ -1,7 +1,7 @@
 {
   "ships": {
     "arquitens-class-cruiser": {
-      "_id": "e7c7678e-ce55-4320-a14a-b71eeabe5ba8",
+      "_id": "534f5952-ea48-4016-b087-640a877479bd",
       "type": "chassis",
       "chassis_name": "arquitens-class-cruiser",
       "size": "small",
@@ -46,7 +46,7 @@
           "team": "FFG",
           "release": "Wave 5 Armada",
           "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-          "_id": "1cdad331-36db-4aed-96e4-19477f5b3742",
+          "_id": "5a0390bc-f47e-4cbb-ae0a-47a9b57c1fae",
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Light Cruiser",
@@ -127,7 +127,7 @@
           "team": "FFG",
           "release": "Wave 5 Armada",
           "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-          "_id": "3873f746-1cc8-4316-a6a2-ddaa966e01a0",
+          "_id": "9cf867b3-1b8c-4c39-b3cd-5b9ad1f36785",
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Command Cruiser",
@@ -206,7 +206,7 @@
       }
     },
     "gladiator-class-star-destroyer": {
-      "_id": "857654de-4e43-4ab7-9dcc-84bc66037f19",
+      "_id": "c205bd22-856b-40de-8555-99432368d332",
       "type": "chassis",
       "chassis_name": "gladiator-class-star-destroyer",
       "size": "small",
@@ -251,7 +251,7 @@
           "team": "FFG",
           "release": "Wave 1 Armada",
           "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-          "_id": "af3f5605-6822-4378-bc7d-c3e6bdc99b8a",
+          "_id": "09e9454a-0e17-47e9-80ed-4eb34cbdd036",
           "type": "ship",
           "chassis": "gladiator-class-star-destroyer",
           "name": "Gladiator I-Class Star Destroyer",
@@ -333,7 +333,7 @@
           "team": "FFG",
           "release": "Wave 1 Armada",
           "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-          "_id": "7edb3569-b9a9-4f47-a39e-aa686a89aa7d",
+          "_id": "1a93e81b-8a01-4d50-9446-7e4bf42a0f34",
           "type": "ship",
           "chassis": "gladiator-class-star-destroyer",
           "name": "Gladiator II-Class Star Destroyer",
@@ -412,7 +412,7 @@
       }
     },
     "gozanti-class": {
-      "_id": "816fe537-7a43-4030-8c6e-84934a74e96e",
+      "_id": "d2fc7d52-ef59-4a38-867c-b1680482126a",
       "type": "chassis",
       "chassis_name": "gozanti-class",
       "size": "small",
@@ -451,173 +451,13 @@
       "silhouette": "",
       "blueprint": "",
       "models": {
-        "gozanti-class-assault-carriers": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 3 Armada",
-          "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-          "_id": "adba24e3-a90e-4720-a41c-5a6e1db800c1",
-          "type": "ship",
-          "chassis": "gozanti-class",
-          "name": "Gozanti-class Assault Carriers",
-          "faction": "empire",
-          "unique": false,
-          "traits": [
-            "flotilla"
-          ],
-          "points": 28,
-          "tokens": {
-            "def_scatter": 1,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 0,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 2,
-            "engineer": 2
-          },
-          "upgrades": [
-            "officer",
-            "fleet-support",
-            "offensive-retro",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              1,
-              0,
-              0
-            ],
-            "rear": [
-              0,
-              0,
-              0
-            ],
-            "left": [
-              0,
-              1,
-              0
-            ],
-            "right": [
-              0,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-assault-carriers.webp"
-        },
-        "gozanti-class-cruisers": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 3 Armada",
-          "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-          "_id": "37cf9ee3-2179-4eaa-a657-c5777eec6001",
-          "type": "ship",
-          "chassis": "gozanti-class",
-          "name": "Gozanti-class Cruisers",
-          "faction": "empire",
-          "unique": false,
-          "traits": [
-            "flotilla"
-          ],
-          "points": 23,
-          "tokens": {
-            "def_scatter": 1,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 0,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 2,
-            "engineer": 2
-          },
-          "upgrades": [
-            "officer",
-            "fleet-support",
-            "offensive-retro",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              0,
-              1,
-              0
-            ],
-            "rear": [
-              0,
-              0,
-              0
-            ],
-            "left": [
-              0,
-              1,
-              0
-            ],
-            "right": [
-              0,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers.webp"
-        },
         "gozanti-class-cruisers-separatist": {
           "author": "Atomic Mass Games",
           "alias": "AMG",
           "team": "AMG",
           "release": "Rapid Reinforcements",
           "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "44913937-d18d-4247-9b31-140a2552c02f",
+          "_id": "67216442-b559-4261-a28e-c2b9137b39d0",
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
@@ -695,7 +535,7 @@
       }
     },
     "imperial-star-destroyer": {
-      "_id": "42795fb6-a43b-4a55-9c86-7a1590a1d9b3",
+      "_id": "9fa05a57-6c87-452b-afa1-e51c1ec08813",
       "type": "chassis",
       "chassis_name": "imperial-star-destroyer",
       "size": "large",
@@ -740,7 +580,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-          "_id": "ed8ec43e-5677-4828-a3fb-7f6873b3747f",
+          "_id": "294fd197-2851-435d-9ed4-adf2044d5cdf",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial I-class Star Destroyer",
@@ -825,7 +665,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-          "_id": "131f9d2c-32da-4988-b8ad-a1adc6a96fc7",
+          "_id": "633683f6-12cc-4a18-95dd-adb1072c25cc",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial II-class Star Destroyer",
@@ -910,7 +750,7 @@
           "team": "FFG",
           "release": "Wave 7 Armada",
           "expansion": "Chimaera Expansion Pack (SWM29)",
-          "_id": "e1c3d1c9-b9a1-465c-821b-ac8dccd893f6",
+          "_id": "97910107-4538-42e8-8ac3-a8a99d25dcc0",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial Star Destroyer Cymoon 1 Refit",
@@ -995,7 +835,7 @@
           "team": "FFG",
           "release": "Wave 7 Armada",
           "expansion": "Chimaera Expansion Pack (SWM29)",
-          "_id": "a0193af1-a18a-4efa-ab40-85963ee24e4b",
+          "_id": "d0eda9f6-49d2-4774-a6b7-b80e875bac4e",
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial Star Destroyer Kuat Refit",
@@ -1077,7 +917,7 @@
       }
     },
     "interdictor-cruiser": {
-      "_id": "89dc0270-7622-49cb-903c-0919786e244f",
+      "_id": "26b10a4e-332a-453f-ac41-5cf7d2423d59",
       "type": "chassis",
       "chassis_name": "interdictor-cruiser",
       "size": "medium",
@@ -1118,7 +958,7 @@
           "team": "FFG",
           "release": "Wave 4 Armada",
           "expansion": "Interdictor Expansion Pack (SWM16)",
-          "_id": "c447eedc-f4ec-43d9-9eb4-a4526ca85804",
+          "_id": "4e27e0f9-108b-4521-9a88-8c5b0df0100c",
           "type": "ship",
           "chassis": "interdictor-cruiser",
           "name": "Interdictor Suppression Refit",
@@ -1202,7 +1042,7 @@
           "team": "FFG",
           "release": "Wave 4 Armada",
           "expansion": "Interdictor Expansion Pack (SWM16)",
-          "_id": "c0d254bd-cff9-45d8-bef7-2c4ad4d2639f",
+          "_id": "aa1636bc-1485-4a0d-a84e-a31f7a79a5fa",
           "type": "ship",
           "chassis": "interdictor-cruiser",
           "name": "Interdictor Combat Refit",
@@ -1282,7 +1122,7 @@
       }
     },
     "onager-class": {
-      "_id": "75caef3f-6fa6-434d-996c-935aef0791cb",
+      "_id": "1d0dc8bd-857d-4189-8507-122e9054f281",
       "type": "chassis",
       "chassis_name": "onager-class",
       "size": "large",
@@ -1327,7 +1167,7 @@
           "team": "FFG",
           "release": "Wave 8 Armada",
           "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-          "_id": "2dd17ca5-ff8c-4d51-93b1-04a068b3412b",
+          "_id": "b63cd8f0-5b0c-4d43-b203-3f02aa842e9e",
           "type": "ship",
           "chassis": "onager-class",
           "name": "Onager-Class Star Destroyer",
@@ -1410,7 +1250,7 @@
           "team": "FFG",
           "release": "Wave 8 Armada",
           "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-          "_id": "57ad1d0d-ef71-4709-ab09-239490901afa",
+          "_id": "747ee5d8-239f-4087-85b2-ee33e613a1fd",
           "type": "ship",
           "chassis": "onager-class",
           "name": "Onager-Class Testbed",
@@ -1490,7 +1330,7 @@
       }
     },
     "quasar-fire-class-cruiser-carrier": {
-      "_id": "5b7eff58-c7ae-483a-80d2-c0d99b36401e",
+      "_id": "267f774b-0fe3-4c89-a2fb-62ba11e07669",
       "type": "chassis",
       "chassis_name": "quasar-fire-class-cruiser-carrier",
       "size": "medium",
@@ -1535,7 +1375,7 @@
           "team": "FFG",
           "release": "Wave 6 Armada",
           "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-          "_id": "697438ba-1d4a-422d-8a04-6ba54538f325",
+          "_id": "c2fae623-e05a-4905-a895-6ebb7a2cb501",
           "type": "ship",
           "chassis": "quasar-fire-class-cruiser-carrier",
           "name": "Quasar Fire I-class Cruiser-Carrier",
@@ -1618,7 +1458,7 @@
           "team": "FFG",
           "release": "Wave 6 Armada",
           "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-          "_id": "62df9f16-6b9d-4d34-a248-7d81da928c29",
+          "_id": "61646091-5b24-4a73-97d9-7c5e046a3acf",
           "type": "ship",
           "chassis": "quasar-fire-class-cruiser-carrier",
           "name": "Quasar Fire II-class Cruiser-Carrier",
@@ -1698,7 +1538,7 @@
       }
     },
     "raider-class-corvette": {
-      "_id": "eb4ac5f4-d1a8-4771-ad89-eb41958a9026",
+      "_id": "059ac037-9a1d-495c-9745-3065a2816404",
       "type": "chassis",
       "chassis_name": "raider-class-corvette",
       "size": "small",
@@ -1748,7 +1588,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial Raider Expansion Pack (SWM15)",
-          "_id": "b32f475b-f6c7-4828-87a5-dc8966f223ee",
+          "_id": "408d90a8-0313-4589-9104-f93200a4e502",
           "type": "ship",
           "chassis": "raider-class-corvette",
           "name": "Raider I-class Corvette",
@@ -1831,7 +1671,7 @@
           "team": "FFG",
           "release": "Wave 2 Armada",
           "expansion": "Imperial Raider Expansion Pack (SWM15)",
-          "_id": "3938213b-1928-4510-b8f2-facb4b24fa91",
+          "_id": "fa95d4f6-370b-4c15-94de-dede9ae203b9",
           "type": "ship",
           "chassis": "raider-class-corvette",
           "name": "Raider II-class Corvette",
@@ -1911,7 +1751,7 @@
       }
     },
     "executor-super-star-destroyer": {
-      "_id": "3adebb9c-30ed-4b0c-b122-5a66f65c49ce",
+      "_id": "dfcecaf7-ce77-451a-bd45-2a5c6d548e0c",
       "type": "chassis",
       "chassis_name": "executor-super-star-destroyer",
       "size": "huge",
@@ -1952,7 +1792,7 @@
           "team": "FFG",
           "release": "Super Star Destroyer",
           "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-          "_id": "c47ecf39-c5c0-4591-882d-09aeb9132198",
+          "_id": "5732a7cb-99c0-4901-937d-547afa10cb32",
           "type": "ship",
           "chassis": "executor-super-star-destroyer",
           "name": "Executor I-class Star Dreadnought",
@@ -2043,7 +1883,7 @@
           "team": "FFG",
           "release": "Super Star Destroyer",
           "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-          "_id": "a74d871f-5f2d-4215-b177-f4edc90604e4",
+          "_id": "151010d3-89bb-4a7d-8c17-f187a826ab34",
           "type": "ship",
           "chassis": "executor-super-star-destroyer",
           "name": "Executor II-class Star Dreadnought",
@@ -2131,7 +1971,7 @@
       }
     },
     "prototype-super-star-destroyer": {
-      "_id": "dd909fe1-ed25-4d02-a825-dc08cf3e953a",
+      "_id": "4fe342f6-a111-4512-ae6b-8cf62fe80688",
       "type": "chassis",
       "chassis_name": "prototype-super-star-destroyer",
       "size": "huge",
@@ -2172,7 +2012,7 @@
           "team": "FFG",
           "release": "Super Star Destroyer",
           "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-          "_id": "0fb206e3-b347-4ff7-ad2c-e4b4967d7172",
+          "_id": "7467fdaf-dd04-4f8a-9f8b-ef3a57a65a9a",
           "type": "ship",
           "chassis": "prototype-super-star-destroyer",
           "name": "Star Dreadnought Assault Prototype",
@@ -2261,7 +2101,7 @@
           "team": "FFG",
           "release": "Super Star Destroyer",
           "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-          "_id": "c2b2ebb2-b1c2-4fe4-80e1-99d22e1fce44",
+          "_id": "9a3734ea-fb7b-4c0d-bbd5-071f1ec9e53a",
           "type": "ship",
           "chassis": "prototype-super-star-destroyer",
           "name": "Star Dreadnought Command Prototype",
@@ -2345,3333 +2185,8 @@
         }
       }
     },
-    "victory-star-destroyer": {
-      "_id": "1de9ca12-1eb8-4859-b961-a02fb52be3e1",
-      "type": "chassis",
-      "chassis_name": "victory-star-destroyer",
-      "size": "medium",
-      "hull": 8,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          0,
-          1
-        ],
-        "3": [],
-        "4": []
-      },
-      "shields": {
-        "front": 3,
-        "rear": 1,
-        "left": 3,
-        "right": 3,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 5,
-        "centeroffset": 0,
-        "rearoffset": 5,
-        "frontangle": 100,
-        "centerangle": 0,
-        "rearangle": 80
-      },
-      "silhouette": "[link to image]",
-      "blueprint": "[link to image]",
-      "models": {
-        "victory-i-class-star-destroyer": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 0 Armada",
-          "expansion": "Armada Core Set (SWM01)",
-          "_id": "d8c9ff84-46e3-46dd-8dae-1f3f23bbd6cb",
-          "type": "ship",
-          "chassis": "victory-star-destroyer",
-          "name": "Victory I-Class Star Destroyer",
-          "faction": "empire",
-          "unique": false,
-          "traits": [
-            "star-destroyer"
-          ],
-          "points": 73,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 2,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "turbolaser",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              3,
-              0,
-              3
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              2,
-              0,
-              1
-            ],
-            "right": [
-              2,
-              0,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "[link to image]",
-          "cardimage": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer.webp"
-        },
-        "victory-ii-class-star-destroyer": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 0 Armada",
-          "expansion": "Armada Core Set (SWM01)",
-          "_id": "d00a2e19-0487-4b04-934b-17e2db171299",
-          "type": "ship",
-          "chassis": "victory-star-destroyer",
-          "name": "Victory II-Class Star Destroyer",
-          "faction": "empire",
-          "unique": false,
-          "traits": [
-            "star-destroyer"
-          ],
-          "points": 85,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 2,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "turbolaser",
-            "ion-cannon",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              3,
-              3,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              2,
-              1,
-              0
-            ],
-            "right": [
-              2,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "[link to image]",
-          "cardimage": "https://api.swarmada.wiki/images/victory-ii-class-star-destroyer.webp"
-        },
-        "victory-i-class-star-destroyer-republic": {
-          "author": "Atomic Mass Games",
-          "alias": "AMG",
-          "team": "AMG",
-          "release": "Rapid Reinforcements",
-          "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "1c2e5ae6-21b2-494d-8347-fd973a5227c6",
-          "type": "ship",
-          "chassis": "victory-star-destroyer",
-          "name": "Victory I-Class Star Destroyer",
-          "faction": "republic",
-          "unique": false,
-          "traits": [
-            "star-destroyer",
-            "clone"
-          ],
-          "points": 75,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "support-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "ordnance",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              3,
-              0,
-              3
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              2,
-              0,
-              1
-            ],
-            "right": [
-              2,
-              0,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "[link to image]",
-          "cardimage": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic.webp"
-        }
-      }
-    },
-    "assault-frigate-mark-ii": {
-      "_id": "e2b12c29-6fc8-4b54-a310-81baefd911f4",
-      "type": "chassis",
-      "chassis_name": "assault-frigate-mark-ii",
-      "size": "medium",
-      "hull": 6,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [
-          0,
-          1,
-          1
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 4,
-        "rear": 2,
-        "left": 3,
-        "right": 3,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "assault-frigate-mark-ii-a": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 1 Armada",
-          "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-          "_id": "95a71c6f-c966-4e72-aef0-cfddeb740f7e",
-          "type": "ship",
-          "chassis": "assault-frigate-mark-ii",
-          "name": "Assault Frigate Mark II A",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [],
-          "points": 81,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 2,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "defensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              2,
-              0
-            ],
-            "front": [
-              2,
-              1,
-              0
-            ],
-            "rear": [
-              2,
-              1,
-              0
-            ],
-            "left": [
-              3,
-              1,
-              0
-            ],
-            "right": [
-              3,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-a.webp"
-        },
-        "assault-frigate-mark-ii-b": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 1 Armada",
-          "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
-          "_id": "8fe15fd7-8843-4ba0-82da-856b098f86de",
-          "type": "ship",
-          "chassis": "assault-frigate-mark-ii",
-          "name": "Assault Frigate Mark II B",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [],
-          "points": 72,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "defensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              2,
-              0,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              3,
-              1,
-              0
-            ],
-            "right": [
-              3,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-b.webp"
-        }
-      }
-    },
-    "cr90-corvette": {
-      "_id": "65560d63-3a3f-4e82-adae-eedb38f2045a",
-      "type": "chassis",
-      "chassis_name": "cr90-corvette",
-      "size": "small",
-      "hull": 4,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          1,
-          2
-        ],
-        "3": [
-          0,
-          1,
-          2
-        ],
-        "4": [
-          0,
-          1,
-          1,
-          2
-        ]
-      },
-      "shields": {
-        "front": 2,
-        "rear": 1,
-        "left": 2,
-        "right": 2,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 90,
-        "centerangle": 0,
-        "rearangle": 90
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "cr90-corvette-a": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 0 Armada",
-          "expansion": "Armada Core Set (SWM01)",
-          "_id": "8ad4feaa-d555-4cef-92df-d4f79ec76b22",
-          "type": "ship",
-          "chassis": "cr90-corvette",
-          "name": "CR90 Corvette A",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [],
-          "points": 44,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 2,
-            "def_brace": 0,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 2
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "defensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              2,
-              1,
-              0
-            ],
-            "rear": [
-              1,
-              0,
-              0
-            ],
-            "left": [
-              1,
-              1,
-              0
-            ],
-            "right": [
-              1,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "[link to image]",
-          "cardimage": "https://api.swarmada.wiki/images/cr90-corvette-a.webp"
-        },
-        "cr90-corvette-b": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 0 Armada",
-          "expansion": "Armada Core Set (SWM01)",
-          "_id": "8bf2578d-08b6-4bc0-999e-7ddb101681ab",
-          "type": "ship",
-          "chassis": "cr90-corvette",
-          "name": "CR90 Corvette B",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [],
-          "points": 39,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 2,
-            "def_brace": 0,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 2
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "defensive-retro",
-            "ion-cannon",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              0,
-              3,
-              0
-            ],
-            "rear": [
-              0,
-              1,
-              0
-            ],
-            "left": [
-              0,
-              2,
-              0
-            ],
-            "right": [
-              0,
-              2,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "[link to image]",
-          "cardimage": "https://api.swarmada.wiki/images/cr90-corvette-b.webp"
-        }
-      }
-    },
-    "gr75-rebel-transport": {
-      "_id": "991cce54-48df-4e81-a502-080e5b64c91f",
-      "type": "chassis",
-      "chassis_name": "gr75-rebel-transport",
-      "size": "small",
-      "hull": 3,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          1,
-          2
-        ],
-        "3": [
-          0,
-          1,
-          2
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 1,
-        "rear": 1,
-        "left": 1,
-        "right": 1,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "gr75-combat-retrofits": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 3 Armada",
-          "expansion": "Rebel Transports Expansion Pack (SWM19)",
-          "_id": "4532df02-2a6e-4bec-854c-29eae2656b6b",
-          "type": "ship",
-          "chassis": "gr75-rebel-transport",
-          "name": "GR-75 Combat Retrofits",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "flotilla"
-          ],
-          "points": 24,
-          "tokens": {
-            "def_scatter": 1,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 0,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 2,
-            "engineer": 2
-          },
-          "upgrades": [
-            "officer",
-            "fleet-support",
-            "offensive-retro",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              0,
-              1,
-              0
-            ],
-            "rear": [
-              0,
-              1,
-              0
-            ],
-            "left": [
-              0,
-              0,
-              0
-            ],
-            "right": [
-              0,
-              0,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/gr75-combat-retrofits.webp"
-        },
-        "gr75-medium-transports": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 3 Armada",
-          "expansion": "Rebel Transports Expansion Pack (SWM19)",
-          "_id": "99253913-d4e0-4dbf-8f0d-5d726dda69a2",
-          "type": "ship",
-          "chassis": "gr75-rebel-transport",
-          "name": "GR-75 Medium Transports",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "flotilla"
-          ],
-          "points": 18,
-          "tokens": {
-            "def_scatter": 1,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 0,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 2,
-            "engineer": 2
-          },
-          "upgrades": [
-            "officer",
-            "fleet-support",
-            "offensive-retro",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              0,
-              0,
-              0
-            ],
-            "rear": [
-              0,
-              0,
-              0
-            ],
-            "left": [
-              0,
-              0,
-              0
-            ],
-            "right": [
-              0,
-              0,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/gr75-medium-transports.webp"
-        }
-      }
-    },
-    "hammerhead-corvette": {
-      "_id": "74437062-143a-41e2-b1e8-e0895d69d31b",
-      "type": "chassis",
-      "chassis_name": "hammerhead-corvette",
-      "size": "small",
-      "hull": 4,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          2,
-          1
-        ],
-        "3": [
-          1,
-          1,
-          0
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 2,
-        "rear": 1,
-        "left": 1,
-        "right": 1,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "hammerhead-torpedo-corvette": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 6 Armada",
-          "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-          "_id": "472171d3-8ed6-4674-bf50-87e7a8d3e6e7",
-          "type": "ship",
-          "chassis": "hammerhead-corvette",
-          "name": "Hammerhead Torpedo Corvette",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 36,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 1,
-            "def_contain": 1,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 2
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              1,
-              1,
-              1
-            ],
-            "rear": [
-              0,
-              0,
-              0
-            ],
-            "left": [
-              0,
-              0,
-              1
-            ],
-            "right": [
-              0,
-              0,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/hammerhead-torpedo-corvette.webp"
-        },
-        "hammerhead-scout-corvette": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 6 Armada",
-          "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-          "_id": "75aaf124-44e9-47fb-bec6-fde9048c8dc4",
-          "type": "ship",
-          "chassis": "hammerhead-corvette",
-          "name": "Hammerhead Scout Corvette",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 41,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 1,
-            "def_contain": 1,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 2
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              2,
-              1,
-              0
-            ],
-            "rear": [
-              0,
-              0,
-              0
-            ],
-            "left": [
-              0,
-              1,
-              0
-            ],
-            "right": [
-              0,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/hammerhead-scout-corvette.webp"
-        }
-      }
-    },
-    "mc30c-frigate": {
-      "_id": "5dd53310-aba1-4e7d-b30e-4103e3cc1992",
-      "type": "chassis",
-      "chassis_name": "mc30c-frigate",
-      "size": "small",
-      "hull": 4,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [
-          0,
-          1,
-          2
-        ],
-        "4": [
-          0,
-          1,
-          1,
-          0
-        ]
-      },
-      "shields": {
-        "front": 3,
-        "rear": 2,
-        "left": 3,
-        "right": 3,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "mc30c-scout-frigate": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 2 Armada",
-          "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-          "_id": "22acae61-b4f0-4335-9ff2-f3d389d672d1",
-          "type": "ship",
-          "chassis": "mc30c-frigate",
-          "name": "MC30c Scout Frigate",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 69,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 2,
-            "def_brace": 0,
-            "def_redirect": 2,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 1,
-            "engineer": 3
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "defensive-retro",
-            "ordnance",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              1,
-              0,
-              2
-            ],
-            "rear": [
-              1,
-              0,
-              1
-            ],
-            "left": [
-              2,
-              0,
-              3
-            ],
-            "right": [
-              2,
-              0,
-              3
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc30c-scout-frigate.webp"
-        },
-        "mc30c-torpedo-frigate": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 2 Armada",
-          "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-          "_id": "650d70e6-b90d-459d-a822-9fe98f7dbce4",
-          "type": "ship",
-          "chassis": "mc30c-frigate",
-          "name": "MC30c Torpedo Frigate",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 63,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 2,
-            "def_brace": 0,
-            "def_redirect": 2,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 1,
-            "engineer": 3
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "defensive-retro",
-            "ordnance",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              0,
-              1,
-              2
-            ],
-            "rear": [
-              0,
-              1,
-              1
-            ],
-            "left": [
-              0,
-              2,
-              3
-            ],
-            "right": [
-              0,
-              2,
-              3
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc30c-torpedo-frigate.webp"
-        }
-      }
-    },
-    "mc75-cruiser": {
-      "_id": "f521eb0d-6e37-4393-b796-ae6ba38439dd",
-      "type": "chassis",
-      "chassis_name": "mc75-cruiser",
-      "size": "large",
-      "hull": 9,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [
-          0,
-          1,
-          1
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 4,
-        "rear": 3,
-        "left": 3,
-        "right": 3,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 78,
-        "centerangle": 0,
-        "rearangle": 60
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "mc75-armored-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 7 Armada",
-          "expansion": "Profundity Expansion Pack (SWM30)",
-          "_id": "8bb270f9-c91f-4a0b-bde6-05b3dc755829",
-          "type": "ship",
-          "chassis": "mc75-cruiser",
-          "name": "MC75 Armored Cruiser",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 104,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 2,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "defensive-retro",
-            "turbolaser",
-            "ion-cannon",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              1
-            ],
-            "front": [
-              0,
-              3,
-              2
-            ],
-            "rear": [
-              0,
-              1,
-              1
-            ],
-            "left": [
-              3,
-              2,
-              0
-            ],
-            "right": [
-              3,
-              2,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser.webp"
-        },
-        "mc75-ordnance-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 7 Armada",
-          "expansion": "Profundity Expansion Pack (SWM30)",
-          "_id": "ad413d34-4268-46c0-8fea-1f60365f9ec9",
-          "type": "ship",
-          "chassis": "mc75-cruiser",
-          "name": "MC75 Ordnance Cruiser",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 100,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 2,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 2,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "defensive-retro",
-            "ordnance",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              0,
-              2,
-              3
-            ],
-            "rear": [
-              0,
-              0,
-              2
-            ],
-            "left": [
-              3,
-              0,
-              2
-            ],
-            "right": [
-              3,
-              0,
-              2
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser.webp"
-        }
-      }
-    },
-    "mc80h-cruiser": {
-      "_id": "385b71b6-bb63-4783-8f86-241a28feff77",
-      "type": "chassis",
-      "chassis_name": "mc80h-cruiser",
-      "size": "large",
-      "hull": 8,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [],
-        "4": []
-      },
-      "shields": {
-        "front": 4,
-        "rear": 3,
-        "left": 4,
-        "right": 4,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "mc80h-assault-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 2 Armada",
-          "expansion": "Home One Expansion Pack (SWM13)",
-          "_id": "e0592668-abdf-4091-96ac-10ef518ab1d6",
-          "type": "ship",
-          "chassis": "mc80h-cruiser",
-          "name": "MC80 Assault Cruiser",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 114,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 2,
-            "def_contain": 1,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "defensive-retro",
-            "defensive-retro",
-            "ion-cannon",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              2,
-              0
-            ],
-            "front": [
-              2,
-              1,
-              0
-            ],
-            "rear": [
-              2,
-              1,
-              0
-            ],
-            "left": [
-              4,
-              2,
-              0
-            ],
-            "right": [
-              4,
-              2,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser.webp"
-        },
-        "mc80h-command-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 2 Armada",
-          "expansion": "Home One Expansion Pack (SWM13)",
-          "_id": "90dd777f-6916-4be3-88b8-cf91a428820f",
-          "type": "ship",
-          "chassis": "mc80h-cruiser",
-          "name": "MC80 Command Cruiser",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 106,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 2,
-            "def_contain": 1,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 4,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "offensive-retro",
-            "defensive-retro",
-            "ion-cannon",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              1
-            ],
-            "front": [
-              1,
-              2,
-              0
-            ],
-            "rear": [
-              1,
-              2,
-              0
-            ],
-            "left": [
-              3,
-              3,
-              0
-            ],
-            "right": [
-              3,
-              3,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80h-command-cruiser.webp"
-        }
-      }
-    },
-    "mc80l-cruiser": {
-      "_id": "8ce27aca-abf7-49d3-a0a3-2a195975552e",
-      "type": "chassis",
-      "chassis_name": "mc80l-cruiser",
-      "size": "large",
-      "hull": 8,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          0
-        ],
-        "3": [
-          1,
-          0,
-          1
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 5,
-        "rear": 2,
-        "left": 2,
-        "right": 2,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "mc80l-star-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 4 Armada",
-          "expansion": "Liberty Expansion Pack (SWM17)",
-          "_id": "984cc1ce-41e1-4192-a415-f87e6ffedeb4",
-          "type": "ship",
-          "chassis": "mc80l-cruiser",
-          "name": "MC80 Star Cruiser",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 96,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 2,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 2,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "support-team",
-            "ion-cannon",
-            "turbolaser",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              3,
-              4,
-              0
-            ],
-            "rear": [
-              0,
-              2,
-              0
-            ],
-            "left": [
-              2,
-              1,
-              0
-            ],
-            "right": [
-              2,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80l-star-cruiser.webp"
-        },
-        "mc80l-battle-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 4 Armada",
-          "expansion": "Liberty Expansion Pack (SWM17)",
-          "_id": "a2cee370-d1b2-4bb2-8eb8-77ef4db33f7a",
-          "type": "ship",
-          "chassis": "mc80l-cruiser",
-          "name": "MC80 Battle Cruiser",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "MC"
-          ],
-          "points": 103,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 2,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 3,
-            "squadron": 2,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "support-team",
-            "ion-cannon",
-            "turbolaser",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              2
-            ],
-            "front": [
-              4,
-              3,
-              0
-            ],
-            "rear": [
-              1,
-              1,
-              0
-            ],
-            "left": [
-              2,
-              1,
-              0
-            ],
-            "right": [
-              2,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80l-battle-cruiser.webp"
-        }
-      }
-    },
-    "modified-pelta-class": {
-      "_id": "05ee8562-13c4-4d85-9b41-80c539c7f6b8",
-      "type": "chassis",
-      "chassis_name": "modified-pelta-class",
-      "size": "small",
-      "hull": 5,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [],
-        "4": []
-      },
-      "shields": {
-        "front": 3,
-        "rear": 1,
-        "left": 2,
-        "right": 2,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "modified-pelta-class-assault-ship": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 5 Armada",
-          "expansion": "Phoenix Home Expansion Pack (SWM21)",
-          "_id": "89ac36d4-47c4-47b2-9bfd-816dbe5cef17",
-          "type": "ship",
-          "chassis": "modified-pelta-class",
-          "name": "Modified Pelta-class Assault Ship",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 56,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 1,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "fleet-command",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              1
-            ],
-            "front": [
-              2,
-              0,
-              2
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              1,
-              0,
-              1
-            ],
-            "right": [
-              1,
-              0,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/modified-pelta-class-assault-ship.webp"
-        },
-        "modified-pelta-class-command-ship": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 5 Armada",
-          "expansion": "Phoenix Home Expansion Pack (SWM21)",
-          "_id": "03c0dfb2-4e33-4e0b-b1ca-406f8f06c625",
-          "type": "ship",
-          "chassis": "modified-pelta-class",
-          "name": "Modified Pelta-class Command Ship",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            ""
-          ],
-          "points": 60,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "fleet-command",
-            "offensive-retro",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              2,
-              2,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              1,
-              1,
-              0
-            ],
-            "right": [
-              1,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/modified-pelta-class-command-ship.webp"
-        }
-      }
-    },
-    "nebulon-b-frigate": {
-      "_id": "fde5820d-4036-446e-a934-e1dd067d7ceb",
-      "type": "chassis",
-      "chassis_name": "nebulon-b-frigate",
-      "size": "small",
-      "hull": 5,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [
-          0,
-          1,
-          2
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 3,
-        "rear": 2,
-        "left": 1,
-        "right": 1,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 90,
-        "centerangle": 0,
-        "rearangle": 90
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "nebulon-b-escort-frigate": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 0 Armada",
-          "expansion": "Armada Core Set (SWM01)",
-          "_id": "95fd8775-4e12-4344-a21a-d09f03f842e2",
-          "type": "ship",
-          "chassis": "nebulon-b-frigate",
-          "name": "Nebulon-B Escort Frigate",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [],
-          "points": 57,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 2,
-            "def_redirect": 0,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 2,
-            "engineer": 3
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              2,
-              0
-            ],
-            "front": [
-              3,
-              0,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              1,
-              1,
-              0
-            ],
-            "right": [
-              1,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/nebulon-b-escort-frigate.webp"
-        },
-        "nebulon-b-support-refit": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 0 Armada",
-          "expansion": "Armada Core Set (SWM01)",
-          "_id": "36e82623-df64-4666-9d42-c2c5351b9af8",
-          "type": "ship",
-          "chassis": "nebulon-b-frigate",
-          "name": "Nebulon-B Support Frigate",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [],
-          "points": 51,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 2,
-            "def_redirect": 0,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 1,
-            "engineer": 3
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              3,
-              0,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              1,
-              1,
-              0
-            ],
-            "right": [
-              1,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/nebulon-b-support-refit.webp"
-        }
-      }
-    },
-    "providence-class-rebel": {
-      "_id": "f2b09e16-9c7f-4e7e-bec1-31f3f3198ded",
-      "type": "chassis",
-      "chassis_name": "providence-class-rebel",
-      "size": "large",
-      "hull": 6,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          1,
-          0
-        ],
-        "3": [],
-        "4": []
-      },
-      "shields": {
-        "front": 5,
-        "rear": 2,
-        "left": 3,
-        "right": 3,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "providence-class-carrier-rebel": {
-          "author": "Atomic Mass Games",
-          "alias": "AMG",
-          "team": "AMG",
-          "release": "Rapid Reinforcements",
-          "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "334193e4-e67f-4f6f-bb9a-8299f59a5ea8",
-          "type": "ship",
-          "chassis": "providence-class-rebel",
-          "name": "Providence-class Carrier",
-          "faction": "rebel",
-          "unique": true,
-          "traits": [
-            "comms",
-            "transport"
-          ],
-          "points": 95,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 3,
-            "squadron": 2,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "officer",
-            "weapons-team",
-            "weapons-team",
-            "offensive-retro",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "weapons-team-offensive-retro",
-            "support-team",
-            "support-team",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              2
-            ],
-            "front": [
-              2,
-              1,
-              2
-            ],
-            "rear": [
-              1,
-              1,
-              1
-            ],
-            "left": [
-              2,
-              2,
-              2
-            ],
-            "right": [
-              2,
-              2,
-              2
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/providence-class-carrier-rebel.webp"
-        }
-      }
-    },
-    "starhawk-class-battleship": {
-      "_id": "772d7112-d698-4fdd-b5d4-d22f2b1d5fe7",
-      "type": "chassis",
-      "chassis_name": "starhawk-class-battleship",
-      "size": "large",
-      "hull": 14,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [],
-        "4": []
-      },
-      "shields": {
-        "front": 6,
-        "rear": 2,
-        "left": 4,
-        "right": 4,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "starhawk-class-battleship-mark-i": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 8 Armada",
-          "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-          "_id": "4801688d-f694-4a36-b97e-5f4fa6452569",
-          "type": "ship",
-          "chassis": "starhawk-class-battleship",
-          "name": "Starhawk-class Battleship Mark I",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "starhawk-mark-i"
-          ],
-          "points": 140,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 1,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 4,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "ion-cannon",
-            "turbolaser",
-            "super-weapon",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              1
-            ],
-            "front": [
-              4,
-              2,
-              2
-            ],
-            "rear": [
-              2,
-              0,
-              1
-            ],
-            "left": [
-              2,
-              2,
-              1
-            ],
-            "right": [
-              2,
-              2,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/starhawk-class-battleship-mark-i.webp"
-        },
-        "starhawk-class-battleship-mark-ii": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 8 Armada",
-          "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-          "_id": "b1d13ed1-c044-44e0-9b72-55ffd3672373",
-          "type": "ship",
-          "chassis": "starhawk-class-battleship",
-          "name": "Starhawk-class Battleship Mark II",
-          "faction": "rebel",
-          "unique": false,
-          "traits": [
-            "starhawk-mark-ii"
-          ],
-          "points": 150,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 1,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 4,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "ion-cannon",
-            "turbolaser",
-            "super-weapon",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              1,
-              1,
-              0
-            ],
-            "front": [
-              4,
-              3,
-              1
-            ],
-            "rear": [
-              2,
-              1,
-              0
-            ],
-            "left": [
-              3,
-              2,
-              0
-            ],
-            "right": [
-              3,
-              2,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/starhawk-class-battleship-mark-ii.webp"
-        }
-      }
-    },
-    "acclamator-assault-ship": {
-      "_id": "1f3830a2-bdfe-4c15-bf17-8d1e2c06129b",
-      "type": "chassis",
-      "chassis_name": "acclamator-assault-ship",
-      "size": "medium",
-      "hull": 7,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          0
-        ],
-        "3": [
-          0,
-          1,
-          0
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 4,
-        "rear": 2,
-        "left": 2,
-        "right": 2,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "acclamator-i-class-assault-ship": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 9 Armada",
-          "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "69cc72eb-61fb-46f8-affc-3b41c5a2380b",
-          "type": "ship",
-          "chassis": "acclamator-assault-ship",
-          "name": "Acclamator I-class Assault Ship",
-          "faction": "republic",
-          "unique": false,
-          "traits": [
-            "clone",
-            "transport"
-          ],
-          "points": 66,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "offensive-retro",
-            "offensive-retro",
-            "weapons-team-offensive-retro",
-            "turbolaser",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              2
-            ],
-            "front": [
-              3,
-              0,
-              2
-            ],
-            "rear": [
-              1,
-              0,
-              1
-            ],
-            "left": [
-              2,
-              0,
-              1
-            ],
-            "right": [
-              2,
-              0,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/acclamator-i-class-assault-ship.webp"
-        },
-        "acclamator-ii-class-assault-ship": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 9 Armada",
-          "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "f89bdec5-d1c3-489e-8e54-a71111a9fc41",
-          "type": "ship",
-          "chassis": "acclamator-assault-ship",
-          "name": "Acclamator II-class Assault Ship",
-          "faction": "republic",
-          "unique": false,
-          "traits": [
-            "clone",
-            "bombard",
-            "transport"
-          ],
-          "points": 71,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 0,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 1
-          },
-          "values": {
-            "command": 3,
-            "squadron": 3,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "weapons-team",
-            "defensive-retro",
-            "turbolaser",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              1
-            ],
-            "front": [
-              3,
-              1,
-              2
-            ],
-            "rear": [
-              1,
-              1,
-              0
-            ],
-            "left": [
-              2,
-              0,
-              1
-            ],
-            "right": [
-              2,
-              0,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/acclamator-ii-class-assault-ship.webp"
-        }
-      }
-    },
-    "consular-class": {
-      "_id": "5321110d-f66e-4789-8ef7-185ce09b2210",
-      "type": "chassis",
-      "chassis_name": "consular-class",
-      "size": "small",
-      "hull": 4,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          2,
-          1
-        ],
-        "3": [
-          1,
-          1,
-          1
-        ],
-        "4": [
-          1,
-          0,
-          1,
-          1
-        ]
-      },
-      "shields": {
-        "front": 2,
-        "rear": 1,
-        "left": 2,
-        "right": 2,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "consular-class-armed-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 9 Armada",
-          "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "a0d72b47-ddc3-414e-8558-4905360e4816",
-          "type": "ship",
-          "chassis": "consular-class",
-          "name": "Consular-class Armed Cruiser",
-          "faction": "republic",
-          "unique": false,
-          "traits": [
-            "senate",
-            "comms"
-          ],
-          "points": 37,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 1,
-            "def_contain": 1,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 2
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "defensive-retro",
-            "ordnance",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              2,
-              0
-            ],
-            "front": [
-              0,
-              2,
-              1
-            ],
-            "rear": [
-              0,
-              1,
-              0
-            ],
-            "left": [
-              0,
-              1,
-              1
-            ],
-            "right": [
-              0,
-              1,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/consular-class-armed-cruiser.webp"
-        },
-        "consular-class-charger-c70": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 9 Armada",
-          "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "ae2c3ed8-31b8-4e65-97a0-2d7f048ab332",
-          "type": "ship",
-          "chassis": "consular-class",
-          "name": "Consular-class Charger c70",
-          "faction": "republic",
-          "unique": false,
-          "traits": [
-            "clone"
-          ],
-          "points": 45,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 0,
-            "def_redirect": 1,
-            "def_contain": 1,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 2
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "offensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              0,
-              1
-            ],
-            "front": [
-              2,
-              1,
-              0
-            ],
-            "rear": [
-              1,
-              1,
-              0
-            ],
-            "left": [
-              2,
-              0,
-              0
-            ],
-            "right": [
-              2,
-              0,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/consular-class-charger-c70.webp"
-        }
-      }
-    },
-    "pelta-class-frigate": {
-      "_id": "e35404b5-d6f3-4631-9fdf-63c464d38253",
-      "type": "chassis",
-      "chassis_name": "pelta-class-frigate",
-      "size": "small",
-      "hull": 5,
-      "speed": {
-        "1": [
-          2
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [],
-        "4": []
-      },
-      "shields": {
-        "front": 3,
-        "rear": 1,
-        "left": 2,
-        "right": 2,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "",
-      "blueprint": "",
-      "models": {
-        "pelta-class-medical-frigate": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 10 Armada",
-          "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-          "_id": "e78f409d-b9a4-4056-a3e7-680ae2e9c2fd",
-          "type": "ship",
-          "chassis": "pelta-class-frigate",
-          "name": "Pelta-class Medical Frigate",
-          "faction": "republic",
-          "unique": false,
-          "traits": [
-            "clone",
-            "medical"
-          ],
-          "points": 49,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 2,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "fleet-support",
-            "offensive-retro",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              0
-            ],
-            "front": [
-              2,
-              1,
-              0
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              1,
-              1,
-              0
-            ],
-            "right": [
-              1,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/pelta-class-medical-frigate.webp"
-        },
-        "pelta-class-transport-frigate": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 10 Armada",
-          "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-          "_id": "3f0891a2-1c1a-4705-952c-17f237f298dc",
-          "type": "ship",
-          "chassis": "pelta-class-frigate",
-          "name": "Pelta-class Transport Frigate",
-          "faction": "republic",
-          "unique": false,
-          "traits": [
-            "clone",
-            "transport"
-          ],
-          "points": 45,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 2,
-            "squadron": 1,
-            "engineer": 4
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "support-team",
-            "fleet-support",
-            "defensive-retro",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              0,
-              1,
-              1
-            ],
-            "front": [
-              2,
-              0,
-              1
-            ],
-            "rear": [
-              2,
-              0,
-              0
-            ],
-            "left": [
-              1,
-              0,
-              1
-            ],
-            "right": [
-              1,
-              0,
-              1
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/pelta-class-transport-frigate.webp"
-        }
-      }
-    },
     "venator-star-destroyer": {
-      "_id": "3787b4d4-df3b-4bde-a7fe-8412c0ab85c8",
+      "_id": "faecfe5b-28ec-4e27-89d2-77cc38124f49",
       "type": "chassis",
       "chassis_name": "venator-star-destroyer",
       "size": "large",
@@ -5716,7 +2231,7 @@
           "team": "FFG",
           "release": "Wave 10 Armada",
           "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-          "_id": "67c2ea53-799b-4580-8a93-a159e60b7f59",
+          "_id": "cdb70bbc-78d7-4232-97c9-c61875d95004",
           "type": "ship",
           "chassis": "venator-star-destroyer",
           "name": "Venator I-class Star Destroyer",
@@ -5804,7 +2319,7 @@
           "team": "FFG",
           "release": "Wave 10 Armada",
           "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-          "_id": "6e38fa33-f1c9-44d5-98c0-c22f3721ee9d",
+          "_id": "91a2c456-00ff-4e6f-afea-72ff3f45da2d",
           "type": "ship",
           "chassis": "venator-star-destroyer",
           "name": "Venator II-class Star Destroyer",
@@ -5884,30 +2399,68 @@
           },
           "artwork": "",
           "cardimage": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer.webp"
-        },
-        "venator-ii-class-star-destroyer-empire": {
+        }
+      }
+    },
+    "victory-star-destroyer": {
+      "_id": "fcbfc0c8-4b63-4d57-bcbf-bf72f9877d53",
+      "type": "chassis",
+      "chassis_name": "victory-star-destroyer",
+      "size": "medium",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          0,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 5,
+        "centeroffset": 0,
+        "rearoffset": 5,
+        "frontangle": 100,
+        "centerangle": 0,
+        "rearangle": 80
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "victory-i-class-star-destroyer-republic": {
           "author": "Atomic Mass Games",
           "alias": "AMG",
           "team": "AMG",
           "release": "Rapid Reinforcements",
           "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "16fca378-1852-4da8-8b03-93214add090c",
+          "_id": "fc49de2c-7a43-43a5-856d-aeebe22fc6dc",
           "type": "ship",
-          "chassis": "venator-star-destroyer",
-          "name": "Venator II-Class Star Destroyer",
-          "faction": "empire",
-          "unique": true,
+          "chassis": "victory-star-destroyer",
+          "name": "Victory I-Class Star Destroyer",
+          "faction": "republic",
+          "unique": false,
           "traits": [
-            "bombard",
-            "star-destroyer"
+            "star-destroyer",
+            "clone"
           ],
-          "points": 100,
+          "points": 75,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
             "def_brace": 1,
             "def_redirect": 1,
-            "def_contain": 1,
+            "def_contain": 0,
             "def_salvo": 1
           },
           "values": {
@@ -5919,9 +2472,1174 @@
             "commander",
             "officer",
             "weapons-team",
+            "support-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              3
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic.webp"
+        }
+      }
+    },
+    "assault-frigate-mark-ii": {
+      "_id": "9a817b94-a80a-42fd-b511-e82e4b21fed0",
+      "type": "chassis",
+      "chassis_name": "assault-frigate-mark-ii",
+      "size": "medium",
+      "hull": 6,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "assault-frigate-mark-ii-a": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 1 Armada",
+          "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+          "_id": "6567a8a1-0e13-40f3-803e-c30ec7844ce6",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-ii",
+          "name": "Assault Frigate Mark II A",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 81,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
             "defensive-retro",
             "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              1,
+              0
+            ],
+            "right": [
+              3,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-a.webp"
+        },
+        "assault-frigate-mark-ii-b": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 1 Armada",
+          "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+          "_id": "ecb8a958-d8e2-496b-a4d2-851be298fc44",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-ii",
+          "name": "Assault Frigate Mark II B",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 72,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              3,
+              1,
+              0
+            ],
+            "right": [
+              3,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-b.webp"
+        }
+      }
+    },
+    "cr90-corvette": {
+      "_id": "8b7d1a1e-8814-4591-aee1-5d7f0ba0ca37",
+      "type": "chassis",
+      "chassis_name": "cr90-corvette",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": [
+          0,
+          1,
+          1,
+          2
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 90,
+        "centerangle": 0,
+        "rearangle": 90
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "cr90-corvette-a": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "00226c9a-b3e7-45ac-988f-69e2099ddb63",
+          "type": "ship",
+          "chassis": "cr90-corvette",
+          "name": "CR90 Corvette A",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 44,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/cr90-corvette-a.webp"
+        },
+        "cr90-corvette-b": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "645311ee-303f-40bf-94ae-167e24ecc723",
+          "type": "ship",
+          "chassis": "cr90-corvette",
+          "name": "CR90 Corvette B",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 39,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              3,
+              0
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              0,
+              2,
+              0
+            ],
+            "right": [
+              0,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/cr90-corvette-b.webp"
+        }
+      }
+    },
+    "gr75-rebel-transport": {
+      "_id": "a3ef1833-aa51-432d-9ae3-746b22d33b06",
+      "type": "chassis",
+      "chassis_name": "gr75-rebel-transport",
+      "size": "small",
+      "hull": 3,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 1,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "gr75-combat-retrofits": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 3 Armada",
+          "expansion": "Rebel Transports Expansion Pack (SWM19)",
+          "_id": "b462905d-c391-4783-b284-4a996119f45c",
+          "type": "ship",
+          "chassis": "gr75-rebel-transport",
+          "name": "GR-75 Combat Retrofits",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 24,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "fleet-support",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/gr75-combat-retrofits.webp"
+        },
+        "gr75-medium-transports": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 3 Armada",
+          "expansion": "Rebel Transports Expansion Pack (SWM19)",
+          "_id": "f37fdf85-f8b2-4911-bca0-3f533b14aaf5",
+          "type": "ship",
+          "chassis": "gr75-rebel-transport",
+          "name": "GR-75 Medium Transports",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 18,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "fleet-support",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              0,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/gr75-medium-transports.webp"
+        }
+      }
+    },
+    "hammerhead-corvette": {
+      "_id": "26e3f70c-f188-4228-9cd3-134ba0bc641a",
+      "type": "chassis",
+      "chassis_name": "hammerhead-corvette",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          2,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "hammerhead-torpedo-corvette": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 6 Armada",
+          "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
+          "_id": "aa7f7140-48fd-49ab-843f-b1bd5e593b52",
+          "type": "ship",
+          "chassis": "hammerhead-corvette",
+          "name": "Hammerhead Torpedo Corvette",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 36,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
             "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              1,
+              1,
+              1
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              1
+            ],
+            "right": [
+              0,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/hammerhead-torpedo-corvette.webp"
+        },
+        "hammerhead-scout-corvette": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 6 Armada",
+          "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
+          "_id": "b6997b25-d965-4d2a-a247-eb0773d0833d",
+          "type": "ship",
+          "chassis": "hammerhead-corvette",
+          "name": "Hammerhead Scout Corvette",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 41,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/hammerhead-scout-corvette.webp"
+        }
+      }
+    },
+    "mc30c-frigate": {
+      "_id": "c93f02fa-0d6c-4030-b306-09efe16815c4",
+      "type": "chassis",
+      "chassis_name": "mc30c-frigate",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc30c-scout-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+          "_id": "71be7914-afc1-42c7-bfac-6cdf17b91873",
+          "type": "ship",
+          "chassis": "mc30c-frigate",
+          "name": "MC30c Scout Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 69,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "ordnance",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              0,
+              2
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              2,
+              0,
+              3
+            ],
+            "right": [
+              2,
+              0,
+              3
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc30c-scout-frigate.webp"
+        },
+        "mc30c-torpedo-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+          "_id": "a002dc4d-ae7b-4d5b-8fb9-39890abffa96",
+          "type": "ship",
+          "chassis": "mc30c-frigate",
+          "name": "MC30c Torpedo Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 63,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "ordnance",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              1,
+              2
+            ],
+            "rear": [
+              0,
+              1,
+              1
+            ],
+            "left": [
+              0,
+              2,
+              3
+            ],
+            "right": [
+              0,
+              2,
+              3
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc30c-torpedo-frigate.webp"
+        }
+      }
+    },
+    "mc75-cruiser": {
+      "_id": "52573ce5-5cb3-410e-92d9-0a198edd4d94",
+      "type": "chassis",
+      "chassis_name": "mc75-cruiser",
+      "size": "large",
+      "hull": 9,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 3,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 78,
+        "centerangle": 0,
+        "rearangle": 60
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc75-armored-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 7 Armada",
+          "expansion": "Profundity Expansion Pack (SWM30)",
+          "_id": "2b769dbf-ad18-4809-b3e6-79b0d8c8416b",
+          "type": "ship",
+          "chassis": "mc75-cruiser",
+          "name": "MC75 Armored Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 104,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "ion-cannon",
             "ordnance",
             "title"
           ],
@@ -5932,22 +3650,22 @@
               1
             ],
             "front": [
-              2,
-              2,
+              0,
+              3,
               2
             ],
             "rear": [
-              1,
+              0,
               1,
               1
             ],
             "left": [
-              2,
+              3,
               2,
               0
             ],
             "right": [
-              2,
+              3,
               2,
               0
             ],
@@ -5968,12 +3686,1881 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-empire.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser.webp"
+        },
+        "mc75-ordnance-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 7 Armada",
+          "expansion": "Profundity Expansion Pack (SWM30)",
+          "_id": "751d07e0-3461-4dfb-bfb9-c25faa31185b",
+          "type": "ship",
+          "chassis": "mc75-cruiser",
+          "name": "MC75 Ordnance Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 100,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "ordnance",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              2,
+              3
+            ],
+            "rear": [
+              0,
+              0,
+              2
+            ],
+            "left": [
+              3,
+              0,
+              2
+            ],
+            "right": [
+              3,
+              0,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser.webp"
+        }
+      }
+    },
+    "mc80h-cruiser": {
+      "_id": "a7f27a88-9d7c-4186-81c5-90796687f26a",
+      "type": "chassis",
+      "chassis_name": "mc80h-cruiser",
+      "size": "large",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 3,
+        "left": 4,
+        "right": 4,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc80h-assault-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "Home One Expansion Pack (SWM13)",
+          "_id": "326d9a26-631a-4aed-a397-d3e236bef555",
+          "type": "ship",
+          "chassis": "mc80h-cruiser",
+          "name": "MC80 Assault Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 114,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              4,
+              2,
+              0
+            ],
+            "right": [
+              4,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser.webp"
+        },
+        "mc80h-command-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 2 Armada",
+          "expansion": "Home One Expansion Pack (SWM13)",
+          "_id": "8c732b53-0171-4056-b834-f6ea703ac46c",
+          "type": "ship",
+          "chassis": "mc80h-cruiser",
+          "name": "MC80 Command Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 106,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              1,
+              2,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              3,
+              3,
+              0
+            ],
+            "right": [
+              3,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-command-cruiser.webp"
+        }
+      }
+    },
+    "mc80l-cruiser": {
+      "_id": "71d45867-6064-4428-9d0a-492e1fedd599",
+      "type": "chassis",
+      "chassis_name": "mc80l-cruiser",
+      "size": "large",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          0
+        ],
+        "3": [
+          1,
+          0,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 5,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc80l-star-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 4 Armada",
+          "expansion": "Liberty Expansion Pack (SWM17)",
+          "_id": "da4e1676-a2a2-460f-a939-9ff9bf6a558d",
+          "type": "ship",
+          "chassis": "mc80l-cruiser",
+          "name": "MC80 Star Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 96,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "ion-cannon",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              3,
+              4,
+              0
+            ],
+            "rear": [
+              0,
+              2,
+              0
+            ],
+            "left": [
+              2,
+              1,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80l-star-cruiser.webp"
+        },
+        "mc80l-battle-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 4 Armada",
+          "expansion": "Liberty Expansion Pack (SWM17)",
+          "_id": "5c8e4683-789c-4cb8-8d11-7c45bc49f88b",
+          "type": "ship",
+          "chassis": "mc80l-cruiser",
+          "name": "MC80 Battle Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 103,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "ion-cannon",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              4,
+              3,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              1,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80l-battle-cruiser.webp"
+        }
+      }
+    },
+    "modified-pelta-class": {
+      "_id": "60434aac-64c7-4fe6-9dd5-de03950ab968",
+      "type": "chassis",
+      "chassis_name": "modified-pelta-class",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "modified-pelta-class-assault-ship": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 5 Armada",
+          "expansion": "Phoenix Home Expansion Pack (SWM21)",
+          "_id": "b3c16b7d-0ed9-4f33-a1a7-cc714a3a1983",
+          "type": "ship",
+          "chassis": "modified-pelta-class",
+          "name": "Modified Pelta-class Assault Ship",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 56,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-command",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              2,
+              0,
+              2
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              0,
+              1
+            ],
+            "right": [
+              1,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/modified-pelta-class-assault-ship.webp"
+        },
+        "modified-pelta-class-command-ship": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 5 Armada",
+          "expansion": "Phoenix Home Expansion Pack (SWM21)",
+          "_id": "8482078f-7a79-4fc1-84bf-d076a29715ff",
+          "type": "ship",
+          "chassis": "modified-pelta-class",
+          "name": "Modified Pelta-class Command Ship",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 60,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-command",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              2,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/modified-pelta-class-command-ship.webp"
+        }
+      }
+    },
+    "nebulon-b-frigate": {
+      "_id": "a13d2506-f138-45e2-ace8-8686989842d5",
+      "type": "chassis",
+      "chassis_name": "nebulon-b-frigate",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 90,
+        "centerangle": 0,
+        "rearangle": 90
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "nebulon-b-escort-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "6c1b84d5-2731-4c65-bf01-af1d53287002",
+          "type": "ship",
+          "chassis": "nebulon-b-frigate",
+          "name": "Nebulon-B Escort Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 57,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/nebulon-b-escort-frigate.webp"
+        },
+        "nebulon-b-support-refit": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "22be4a91-520a-48af-9465-5f5a505a31c8",
+          "type": "ship",
+          "chassis": "nebulon-b-frigate",
+          "name": "Nebulon-B Support Frigate",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 51,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 2,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/nebulon-b-support-refit.webp"
+        }
+      }
+    },
+    "providence-class-rebel": {
+      "_id": "1e52e24f-1355-429e-a6c5-0a03c69c9c4b",
+      "type": "chassis",
+      "chassis_name": "providence-class-rebel",
+      "size": "large",
+      "hull": 6,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          0
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 5,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "providence-class-carrier-rebel": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "Rapid Reinforcements",
+          "expansion": "Rapid Reinforcements I (RR1)",
+          "_id": "5408a4d2-0a14-45b6-aeea-129541263e61",
+          "type": "ship",
+          "chassis": "providence-class-rebel",
+          "name": "Providence-class Carrier",
+          "faction": "rebel",
+          "unique": true,
+          "traits": [
+            "comms",
+            "transport"
+          ],
+          "points": 95,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "weapons-team",
+            "weapons-team",
+            "offensive-retro",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "weapons-team-offensive-retro",
+            "support-team",
+            "support-team",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              2,
+              1,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              2,
+              2,
+              2
+            ],
+            "right": [
+              2,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/providence-class-carrier-rebel.webp"
+        }
+      }
+    },
+    "starhawk-class-battleship": {
+      "_id": "c6ac8766-6ded-44cf-8aec-ac77481a4a75",
+      "type": "chassis",
+      "chassis_name": "starhawk-class-battleship",
+      "size": "large",
+      "hull": 14,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 6,
+        "rear": 2,
+        "left": 4,
+        "right": 4,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "starhawk-class-battleship-mark-i": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 8 Armada",
+          "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+          "_id": "a1662365-ce83-4aeb-93d0-d73aefe8de6f",
+          "type": "ship",
+          "chassis": "starhawk-class-battleship",
+          "name": "Starhawk-class Battleship Mark I",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "starhawk-mark-i"
+          ],
+          "points": 140,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 4,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              4,
+              2,
+              2
+            ],
+            "rear": [
+              2,
+              0,
+              1
+            ],
+            "left": [
+              2,
+              2,
+              1
+            ],
+            "right": [
+              2,
+              2,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/starhawk-class-battleship-mark-i.webp"
+        },
+        "starhawk-class-battleship-mark-ii": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 8 Armada",
+          "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+          "_id": "1126ee8a-b904-4998-a1f9-03fb94d27d0d",
+          "type": "ship",
+          "chassis": "starhawk-class-battleship",
+          "name": "Starhawk-class Battleship Mark II",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "starhawk-mark-ii"
+          ],
+          "points": 150,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 4,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "super-weapon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              1,
+              0
+            ],
+            "front": [
+              4,
+              3,
+              1
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              2,
+              0
+            ],
+            "right": [
+              3,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/starhawk-class-battleship-mark-ii.webp"
+        }
+      }
+    },
+    "acclamator-assault-ship": {
+      "_id": "160728e9-0c72-4eef-aa76-84208fa4ef97",
+      "type": "chassis",
+      "chassis_name": "acclamator-assault-ship",
+      "size": "medium",
+      "hull": 7,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          0
+        ],
+        "3": [
+          0,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "acclamator-i-class-assault-ship": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 9 Armada",
+          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "_id": "4b108828-a743-4055-baca-0281a553dd08",
+          "type": "ship",
+          "chassis": "acclamator-assault-ship",
+          "name": "Acclamator I-class Assault Ship",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone",
+            "transport"
+          ],
+          "points": 66,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              3,
+              0,
+              2
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/acclamator-i-class-assault-ship.webp"
+        },
+        "acclamator-ii-class-assault-ship": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 9 Armada",
+          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "_id": "d750efb5-f6d1-494f-b553-6b9d71f10e75",
+          "type": "ship",
+          "chassis": "acclamator-assault-ship",
+          "name": "Acclamator II-class Assault Ship",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone",
+            "bombard",
+            "transport"
+          ],
+          "points": 71,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "turbolaser",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              1,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/acclamator-ii-class-assault-ship.webp"
+        }
+      }
+    },
+    "consular-class": {
+      "_id": "47d4be70-435b-4f41-b02e-147f39585e87",
+      "type": "chassis",
+      "chassis_name": "consular-class",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          2,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          1
+        ],
+        "4": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "consular-class-armed-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 9 Armada",
+          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "_id": "3c841202-2cc5-4d21-8a5b-34e8281784f6",
+          "type": "ship",
+          "chassis": "consular-class",
+          "name": "Consular-class Armed Cruiser",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "senate",
+            "comms"
+          ],
+          "points": 37,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              0,
+              2,
+              1
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              1
+            ],
+            "right": [
+              0,
+              1,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/consular-class-armed-cruiser.webp"
+        },
+        "consular-class-charger-c70": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 9 Armada",
+          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "_id": "696ff5e1-ab4c-4423-a75e-ddf40d56ca49",
+          "type": "ship",
+          "chassis": "consular-class",
+          "name": "Consular-class Charger c70",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone"
+          ],
+          "points": 45,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              0
+            ],
+            "right": [
+              2,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/consular-class-charger-c70.webp"
+        }
+      }
+    },
+    "pelta-class-frigate": {
+      "_id": "009c57ab-44c6-464e-ba42-610d098ba02a",
+      "type": "chassis",
+      "chassis_name": "pelta-class-frigate",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "pelta-class-medical-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 10 Armada",
+          "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+          "_id": "5ef10d66-2a13-4bf6-9ceb-b8d2d9de41bf",
+          "type": "ship",
+          "chassis": "pelta-class-frigate",
+          "name": "Pelta-class Medical Frigate",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone",
+            "medical"
+          ],
+          "points": 49,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-support",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/pelta-class-medical-frigate.webp"
+        },
+        "pelta-class-transport-frigate": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 10 Armada",
+          "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
+          "_id": "b9f7bc3e-905b-4fb3-91a7-58cc5dc469a4",
+          "type": "ship",
+          "chassis": "pelta-class-frigate",
+          "name": "Pelta-class Transport Frigate",
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone",
+            "transport"
+          ],
+          "points": 45,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-support",
+            "defensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              2,
+              0,
+              1
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              0,
+              1
+            ],
+            "right": [
+              1,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/pelta-class-transport-frigate.webp"
         }
       }
     },
     "hardcell-class": {
-      "_id": "79ac4a12-cd8f-42c4-9f7a-0f694dae73b4",
+      "_id": "8d27d0a4-1c6b-4bdd-8fdc-9ea3a6f693b3",
       "type": "chassis",
       "chassis_name": "hardcell-class",
       "size": "small",
@@ -6018,7 +5605,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "aca75a46-0654-4f37-9804-156b4ccd269e",
+          "_id": "048636d1-eebe-4dca-8db3-d341b02b5d80",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Transport",
@@ -6101,7 +5688,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "8315b362-9796-4353-91dd-a7b5124e3945",
+          "_id": "cca24290-36be-428d-b5b5-f2270ead6b2f",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Battle Refit",
@@ -6181,7 +5768,7 @@
       }
     },
     "munificent-class-frigate": {
-      "_id": "a50df553-dc31-494b-af21-9c519a35ae36",
+      "_id": "2b4b72f1-7bd0-421d-a32a-a91e863d7bb9",
       "type": "chassis",
       "chassis_name": "munificent-class-frigate",
       "size": "medium",
@@ -6222,7 +5809,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "13750ee0-12f5-471a-a7c5-10b3f1710d17",
+          "_id": "fe8d8dc4-6168-49fc-96d3-42263a646293",
           "type": "ship",
           "chassis": "munificent-class-frigate",
           "name": "Munificent-class Star Frigate",
@@ -6307,7 +5894,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "83d8cc55-f8cb-4ee9-960c-2c34171474af",
+          "_id": "375e4d29-c0a4-41cd-8b49-4611c4903de1",
           "type": "ship",
           "chassis": "munificent-class-frigate",
           "name": "Munificent-class Comms Frigate",
@@ -6389,7 +5976,7 @@
       }
     },
     "providence-class": {
-      "_id": "a6f1a7c7-6bf8-4f9f-9068-3d9ba8fff429",
+      "_id": "75d3e747-ecaa-4fc7-82ab-db59dbfb1f8f",
       "type": "chassis",
       "chassis_name": "providence-class",
       "size": "large",
@@ -6434,7 +6021,7 @@
           "team": "FFG",
           "release": "Wave 10 Armada",
           "expansion": "Invisible Hand Expansion Pack (SWM42)",
-          "_id": "aa863d58-dd91-4603-ab34-f1b2d95e1f3d",
+          "_id": "edd86ad8-c42d-46df-a021-f5a0b4ccf426",
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Dreadnought",
@@ -6522,7 +6109,7 @@
           "team": "FFG",
           "release": "Wave 10 Armada",
           "expansion": "Invisible Hand Expansion Pack (SWM42)",
-          "_id": "946c9ada-15c4-45c2-ad9f-e6cac48660f6",
+          "_id": "2d3bd02d-a250-4055-a193-eda412f413d8",
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Carrier",
@@ -6606,7 +6193,7 @@
       }
     },
     "recusant-class-destroyer": {
-      "_id": "254cd015-ff15-40ed-8a8b-17c80b092bbd",
+      "_id": "c1c28e90-90df-4f6f-ae5f-87ff06f2c5fc",
       "type": "chassis",
       "chassis_name": "recusant-class-destroyer",
       "size": "large",
@@ -6651,7 +6238,7 @@
           "team": "FFG",
           "release": "Wave 10 Armada",
           "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-          "_id": "aed6cad6-760c-49fd-acd4-36711d472942",
+          "_id": "06566edc-d14a-4a6b-8894-90062e31d549",
           "type": "ship",
           "chassis": "recusant-class-destroyer",
           "name": "Recusant-class Light Destroyer",
@@ -6735,7 +6322,7 @@
           "team": "FFG",
           "release": "Wave 10 Armada",
           "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-          "_id": "3bb28304-74bf-46f1-a819-196d045e5da0",
+          "_id": "d0509044-db57-4725-9730-82fef2067f4a",
           "type": "ship",
           "chassis": "recusant-class-destroyer",
           "name": "Recusant-class Support Destroyer",

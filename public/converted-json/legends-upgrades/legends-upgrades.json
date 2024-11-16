@@ -1,5 +1,63 @@
 {
   "upgrades": {
+    "atropos-commander-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "3dd3f773-bbbc-49d8-bed9-1d419c2d9f7a",
+      "type": "commander",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Atropos",
+      "unique-class": [
+        "Atropos"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/atropos-commander-bsg-legends.webp"
+    },
     "clothos-commander-bsg-legends": {
       "author": [
         "TacticalFox27",
@@ -9,7 +67,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "84a29ab1-4e15-41a0-bcfc-5eebe58c1b38",
+      "_id": "9fb8f505-cbc6-47e9-914d-a74a11e12959",
       "type": "commander",
       "faction": [
         "cylon"
@@ -58,6 +116,180 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/clothos-commander-bsg-legends.webp"
     },
+    "helena-agathon-commander-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "aa832aa7-bc40-4540-984d-032d4acf9630",
+      "type": "commander",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Helena Agathon",
+      "unique-class": [
+        "Helena Agathon"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/helena-agathon-commander-bsg-legends.webp"
+    },
+    "lachesis-commander-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "cd71b4f5-7e44-4db1-a6e8-0572f2903b2a",
+      "type": "commander",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Lachesis",
+      "unique-class": [
+        "Lachesis"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 24,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lachesis-commander-bsg-legends.webp"
+    },
+    "lucinda-cain-commander-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "5774f334-bb7f-4ad4-99ac-74b7a4795f80",
+      "type": "commander",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Lucinda Cain",
+      "unique-class": [
+        "Lucinda Cain"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 38,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lucinda-cain-commander-bsg-legends.webp"
+    },
     "william-adama-commander-bsg-legends": {
       "author": [
         "TacticalFox27",
@@ -67,7 +299,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "a7b0dcd5-def3-4082-9a2f-76735fbd1248",
+      "_id": "6ac83328-3037-4eba-ba35-938579e2ed34",
       "type": "commander",
       "faction": [
         "colonial"
@@ -116,6 +348,1489 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/william-adama-commander-bsg-legends.webp"
     },
+    "dradis-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "187f9ebf-92b3-4a69-9c9d-101a48df7ab5",
+      "type": "offensive-retro",
+      "faction": [
+        "colonial"
+      ],
+      "name": "DRADIS",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "nav"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dradis-bsg-legends.webp"
+    },
+    "suppression-barrage-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "17039169-bb01-49b2-874c-d19747dbd43c",
+      "type": "offensive-retro",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Suppression Barrage",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "flak"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/suppression-barrage-bsg-legends.webp"
+    },
+    "system-reset-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "57a71f21-2c9d-4a2d-8623-507645d3d958",
+      "type": "offensive-retro",
+      "faction": [
+        "colonial"
+      ],
+      "name": "System Reset",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/system-reset-bsg-legends.webp"
+    },
+    "centurion-d7-officer-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "41577fd8-1412-4e80-97c5-e475e117cded",
+      "type": "officer",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Centurion D-7",
+      "unique-class": [
+        "Centurion D-7"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/centurion-d7-officer-bsg-legends.webp"
+    },
+    "epsilon-y16-officer-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "02661e9e-e102-48d6-936c-111d552a5ba4",
+      "type": "officer",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Epsilon Y16",
+      "unique-class": [
+        "Epsilon Y16"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/epsilon-y16-officer-bsg-legends.webp"
+    },
+    "felix-gaeta-officer-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "6f3fe965-1ec3-4d28-8782-21dce7c7af12",
+      "type": "officer",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Felix Gaeta",
+      "unique-class": [
+        "Felix Gaeta"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/felix-gaeta-officer-bsg-legends.webp"
+    },
+    "galen-tyrol-officer-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "c735603c-e054-40e0-a750-46027179b2ca",
+      "type": "officer",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Galen Tyrol",
+      "unique-class": [
+        "Galen Tyrol"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "launch"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/galen-tyrol-officer-bsg-legends.webp"
+    },
+    "lee-adama-officer-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "c6b85385-8ef2-48ec-9330-1df08b4f4e97",
+      "type": "officer",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Lee \"Apollo\" Adama",
+      "unique-class": [
+        "Lee \"Apollo\" Adama"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 12,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lee-adama-officer-bsg-legends.webp"
+    },
+    "saul-tigh-officer-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "c1d44321-f4ab-4854-87bb-b386d860c576",
+      "type": "officer",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Saul Tigh",
+      "unique-class": [
+        "Saul Tigh"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/saul-tigh-officer-bsg-legends.webp"
+    },
+    "talos-13-officer-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "44a9843a-fc3f-49f4-9654-70f7bf3bf611",
+      "type": "officer",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Talos-13",
+      "unique-class": [
+        "Talos-13"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/talos-13-officer-bsg-legends.webp"
+    },
+    "adamant-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "33ec33d3-f767-4744-934d-7de81c98c1af",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Adamant",
+      "unique-class": [
+        "Adamant"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "adamant-class-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/adamant-title-bsg-legends.webp"
+    },
+    "hesperides-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "576e5970-c42d-41b0-9b74-bc6602ad19fd",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Hesperides",
+      "unique-class": [
+        "Hesperides"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 1,
+      "modification": false,
+      "bound_shiptype": "adamant-class-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          "turbolaser",
+          "ion-cannon"
+        ],
+        "enable_upgrades": [
+          "fleet-support"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hesperides-title-bsg-legends.webp"
+    },
+    "hyperion-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "406151dc-5668-4459-8936-c32410082c17",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Hyperion",
+      "unique-class": [
+        "Hyperion"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "adamant-class-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hyperion-title-bsg-legends.webp"
+    },
+    "arachnid-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "454d53ac-02f7-4422-9556-f5af180fc281",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Arachnid",
+      "unique-class": [
+        "Arachnid"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "arachne-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/arachnid-title-bsg-legends.webp"
+    },
+    "defiant-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "7f3e5d5a-49e2-463f-a9c9-d0abff69dd60",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Arachnid",
+      "unique-class": [
+        "Arachnid"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "arachne-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/defiant-title-bsg-legends.webp"
+    },
+    "columbia-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "165d0429-147c-4e69-a487-31e711fe9a7c",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Columbia",
+      "unique-class": [
+        "Columbia"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "jupiter-class-battlestar",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/columbia-title-bsg-legends.webp"
+    },
+    "galactica-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "c4d7b713-36d8-41f8-be00-7f9528fb35a7",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Galactica",
+      "unique-class": [
+        "Galactica"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "jupiter-class-battlestar",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/galactica-title-bsg-legends.webp"
+    },
+    "icarus-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "52f5d55e-ee69-4426-8d25-0d3a6f6d161b",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Icarus",
+      "unique-class": [
+        "Icarus"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "manticore-class-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/icarus-title-bsg-legends.webp"
+    },
+    "herald-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "81ffcb04-fec0-49c4-8ac0-867e27548cf5",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Herald",
+      "unique-class": [
+        "Herald"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "minotaur-class-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/herald-title-bsg-legends.webp"
+    },
+    "dagger-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "78de44f2-2728-407a-bee9-7d2c7cbab77a",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Dagger",
+      "unique-class": [
+        "Dagger"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "nemesis-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dagger-title-bsg-legends.webp"
+    },
+    "falchion-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "aed2c8b6-461f-49ef-a1a0-27e2f91c7baf",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Falchion",
+      "unique-class": [
+        "Falchion"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "talon-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/falchion-title-bsg-legends.webp"
+    },
+    "crucible-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "076084f5-9713-4a10-a4c0-412fe8194372",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Crucible",
+      "unique-class": [
+        "Crucible"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "war-basestar",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/crucible-title-bsg-legends.webp"
+    },
+    "thanatos-title-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": "c276e635-225f-42cc-87b9-30c43a6a999d",
+      "type": "title",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Thanatos",
+      "unique-class": [
+        "Thanatos"
+      ],
+      "ability": "placeholder",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "war-basestar",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/thanatos-title-bsg-legends.webp"
+    },
+    "cluster-munitions-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "3c06b113-f562-4c94-a4c3-74d5947bd628",
+      "type": "turbolaser",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Cluster Munitions",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cluster-munitions-bsg-legends.webp"
+    },
+    "curved-trajectory-launch-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "667219d5-1f70-490b-8a66-74e422571556",
+      "type": "turbolaser",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Curved Trajectory Launch",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/curved-trajectory-launch-bsg-legends.webp"
+    },
+    "centurion-boarding-unit-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "9a556431-8c26-4313-bf01-675624cfe76d",
+      "type": "weapons-team-offensive-retro",
+      "faction": [
+        "cylon"
+      ],
+      "name": "Centurion Boarding Unit",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/centurion-boarding-unit-bsg-legends.webp"
+    },
     "ardo-moretumee-commander-halo-legends": {
       "author": [
         "SpaceNavy",
@@ -126,7 +1841,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "ab0647f7-2372-472d-b931-98f7de261c69",
+      "_id": "9e40ceae-0d15-41b7-977a-0b12776eb440",
       "type": "commander",
       "faction": [
         "covenant"
@@ -185,7 +1900,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "0b09f785-2941-4146-9304-ec085b53bc91",
+      "_id": "584df6a9-d3ce-4cce-9fd2-db689361c347",
       "type": "commander",
       "faction": [
         "covenant"
@@ -244,7 +1959,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "58299b4b-c990-4d9b-ac48-dd56974b6a1f",
+      "_id": "ed727b9e-4c18-4b29-b673-6544b74a9896",
       "type": "commander",
       "faction": [
         "unsc"
@@ -303,7 +2018,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "eb0a63eb-5ce4-4a13-a6ab-77e81af9d150",
+      "_id": "00bb3855-602e-4f8e-a4d8-470126e1aa1c",
       "type": "commander",
       "faction": [
         "unsc"
@@ -362,7 +2077,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "3787d31a-631c-4247-b804-d1714941482d",
+      "_id": "0bfa926f-fd80-49c2-bfcd-7deb40a8073a",
       "type": "commander",
       "faction": [
         "unsc"
@@ -421,7 +2136,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "98f6a47a-0c6b-4ac0-8ddd-88e4d295a047",
+      "_id": "ff03436e-94ee-4515-adcf-4216a4863462",
       "type": "commander",
       "faction": [
         "unsc"
@@ -480,7 +2195,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "65b737da-db39-4577-9110-16585dfb9a16",
+      "_id": "fbccf069-7543-4ac6-8522-1180175e61b1",
       "type": "commander",
       "faction": [
         "covenant"
@@ -539,7 +2254,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "d7cf7335-a066-4959-beda-7518e2b32fc3",
+      "_id": "bcff8f1f-b225-4c29-b0f8-6f0215c82f59",
       "type": "commander",
       "faction": [
         "covenant"
@@ -596,7 +2311,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "0e3a3fe6-a53b-4686-a6e7-9933cef3810e",
+      "_id": "22bd46c8-af11-4350-96d3-612f95620ca4",
       "type": "defensive-retro",
       "faction": [
         "unsc"
@@ -653,7 +2368,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "ab88cc62-9fbe-4fe0-bf91-15b5a8a87894",
+      "_id": "6b50db49-af27-410d-b16f-8b9097b60620",
       "type": "defensive-retro",
       "faction": [
         "covenant"
@@ -710,7 +2425,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "8b8761a2-3b9b-4e6d-ad74-c54157ae7ce7",
+      "_id": "1333bfaa-5db9-48f1-8ce6-9fc4f5345996",
       "type": "defensive-retro",
       "faction": [
         "unsc"
@@ -767,7 +2482,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "4cb8dbe4-cf0d-4a3c-b2c8-df293f7723d5",
+      "_id": "c3da0ebb-1fc4-4af7-a36f-dd6bcf105fe5",
       "type": "fleet-command",
       "faction": [
         "covenant"
@@ -824,7 +2539,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "04a5d308-336e-43b7-a086-ea67ea7e16ac",
+      "_id": "e3da4166-3d3a-47f9-a0f1-d65fd1dff78e",
       "type": "fleet-command",
       "faction": [
         "covenant"
@@ -881,7 +2596,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "a62e35aa-8156-4463-8289-fb893496c3ca",
+      "_id": "197c48fb-0a31-45ba-ac98-d438677a13b4",
       "type": "fleet-command",
       "faction": [
         "covenant"
@@ -938,7 +2653,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "e37fb89f-4759-4cdb-8210-b115fefa9d7f",
+      "_id": "c01811aa-3efa-4c89-bdc8-601b67f01d1a",
       "type": "ion-cannon",
       "faction": [
         "covenant"
@@ -995,7 +2710,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "2878007a-f926-487e-a585-c785c79f6df8",
+      "_id": "73fe86f5-d00f-4846-be57-cdb0b90ef18d",
       "type": "ion-cannon",
       "faction": [
         "unsc"
@@ -1052,7 +2767,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "a9e68efd-2d05-437a-b7ca-f15b08657886",
+      "_id": "f732954f-f3ac-4937-92c7-dc1e270874e5",
       "type": "offensive-retro",
       "faction": [
         "covenant"
@@ -1109,7 +2824,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "2d812849-b54b-4b6e-8414-a0cd992b830c",
+      "_id": "550350a1-37c4-4f4e-a5ec-9824830b1995",
       "type": "officer",
       "faction": [
         "unsc"
@@ -1166,7 +2881,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "d93515fa-4bfd-4c43-b3c0-aa06cf4fbfad",
+      "_id": "d4bb4443-9f87-4322-9f7b-e607d0cfa985",
       "type": "officer",
       "faction": [
         "unsc"
@@ -1223,7 +2938,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "9d6182cb-c0d6-401b-8628-ab83d62c6d3b",
+      "_id": "c54736ce-d065-4410-b2fa-d926c2bb4edc",
       "type": "officer",
       "faction": [
         "unsc",
@@ -1281,7 +2996,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "4ffecde1-b1dc-4525-9933-00ed9b025533",
+      "_id": "796b3c3f-8ff7-4591-b998-722115827a7a",
       "type": "officer",
       "faction": [
         "unsc"
@@ -1338,7 +3053,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "f8cde82e-cf4d-497f-a558-4bf5c89b3393",
+      "_id": "0429a9ed-e5ea-48b5-b8bc-a5fa600604f7",
       "type": "officer",
       "faction": [
         "unsc"
@@ -1395,7 +3110,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "6c60bf07-107d-424a-83b9-e1925f16d019",
+      "_id": "1a311842-e9fa-46b2-ac2c-4dc262f70924",
       "type": "officer",
       "faction": [
         "covenant"
@@ -1452,7 +3167,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "758eae32-c35b-4043-9f5d-a38e587f4bb2",
+      "_id": "21f1f3c5-a133-476e-99a7-fe467842668b",
       "type": "officer",
       "faction": [
         "unsc",
@@ -1510,7 +3225,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "71edd42c-fe3e-4402-8bf6-2792eab9fb7a",
+      "_id": "09159d24-7ca8-42b2-9c40-23d14ef6d6b0",
       "type": "officer",
       "faction": [
         "covenant"
@@ -1567,7 +3282,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "212b0b3d-849a-4a3b-afdd-d8fafbdaac4f",
+      "_id": "0d1977b5-82ff-441d-bb22-7fb3ee660b24",
       "type": "officer",
       "faction": [
         "unsc"
@@ -1624,7 +3339,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "3f396b94-a446-4702-87bf-4ea04242b086",
+      "_id": "c207bbca-add5-4d22-9703-81dfdae7fd07",
       "type": "officer",
       "faction": [
         "covenant"
@@ -1681,7 +3396,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "436c7c78-da8a-46ea-8f29-bc8940d37de6",
+      "_id": "53c26f13-9032-468b-9992-aab9733169db",
       "type": "officer",
       "faction": [
         "covenant"
@@ -1738,7 +3453,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "5d094fdf-7174-43c1-a313-a02fbdff1fcd",
+      "_id": "52634e74-6592-4696-a29d-13a2cabc85a9",
       "type": "officer",
       "faction": [
         "unsc"
@@ -1795,7 +3510,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "310e9b8a-256b-4cf9-99dd-66e2feafde94",
+      "_id": "0463ff19-1b5f-40ca-812b-03e0bec1c2cc",
       "type": "super-weapon",
       "faction": [
         "unsc"
@@ -1852,7 +3567,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "2d2fce9f-a915-4fc4-860b-83f5a5513e31",
+      "_id": "5169797f-1537-419d-88ae-cd90398c779d",
       "type": "support-team",
       "faction": [
         "covenant"
@@ -1909,7 +3624,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "c184de83-bf41-47bc-a889-fa6e818c13c3",
+      "_id": "e42ae807-d215-463d-a819-8056b15ec362",
       "type": "title",
       "faction": [
         "covenant"
@@ -1966,7 +3681,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "bfe8c8e9-b88d-4518-814d-25c43ccffe00",
+      "_id": "4a893e5c-d038-4997-944b-38d2e5ce5c15",
       "type": "title",
       "faction": [
         "covenant"
@@ -2023,7 +3738,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "d158bf83-46a7-487e-83f8-a49a065778a5",
+      "_id": "45795514-d2c3-46f5-bd69-73cf116ae007",
       "type": "title",
       "faction": [
         "unsc"
@@ -2080,7 +3795,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "fe8f8d4b-ec9a-4ee2-a9a8-d280b91ef92d",
+      "_id": "fc31c467-7cd8-4603-abe6-4947b7580de2",
       "type": "title",
       "faction": [
         "unsc"
@@ -2137,7 +3852,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "5d75b1a2-0307-4549-855a-aeb70b5037f0",
+      "_id": "5ca84653-0e62-4743-8666-acc936dbe309",
       "type": "title",
       "faction": [
         "unsc"
@@ -2194,7 +3909,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "8b8db44d-c20a-4f30-bc28-009d5b99eff4",
+      "_id": "feb5f9a7-d665-413c-adc7-f23084aab0c1",
       "type": "title",
       "faction": [
         "unsc"
@@ -2251,7 +3966,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "243d024f-925d-47f0-b56d-af923c01afb2",
+      "_id": "fbb8d6c8-f3d3-4540-b972-1bf2f4975f3f",
       "type": "title",
       "faction": [
         "unsc"
@@ -2308,7 +4023,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "88c30ac1-6a8f-4ff2-819c-e19387797d7a",
+      "_id": "17b1eccd-fe12-439d-93d7-a3cbd6d28126",
       "type": "title",
       "faction": [
         "covenant"
@@ -2365,7 +4080,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "d4afdf9d-2cbb-4344-8e55-0ba581ab4108",
+      "_id": "4a73b5b3-210f-41d2-93b8-c2081ffb2b86",
       "type": "title",
       "faction": [
         "covenant"
@@ -2422,7 +4137,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "69c24373-8bc5-43ba-81b5-a6ca82f5f43c",
+      "_id": "032a3984-fcef-4453-ab64-112a06a9493d",
       "type": "title",
       "faction": [
         "unsc"
@@ -2479,7 +4194,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "8f48ba9f-665a-42ba-9bb1-9f0274a9618d",
+      "_id": "0b13f841-d65a-482c-bf6e-646c4027634e",
       "type": "title",
       "faction": [
         "unsc"
@@ -2536,7 +4251,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "808bc313-c6b5-41fb-8492-122bdbd718e4",
+      "_id": "cc1eaeae-ed02-4424-af4c-5e737a1db7af",
       "type": "weapons-team",
       "faction": [
         "unsc"
@@ -2593,7 +4308,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "3fffd462-b68b-4ed5-9b5a-758cfe6ef25e",
+      "_id": "8af9176c-e7d7-4953-8286-19b0a60d25ff",
       "type": "weapons-team",
       "faction": [
         "unsc"
@@ -2658,7 +4373,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "6c0a87bf-30d0-4bd6-9b00-d30985dcc0e3",
+      "_id": "688a19e9-f5d3-4ea6-9690-98605a4b1717",
       "type": "officer",
       "faction": [
         "separatist"
@@ -2723,7 +4438,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "1efeaba9-fd27-4e03-b744-3b1a78023390",
+      "_id": "1ba9e467-d0ec-482d-bd6a-91974e2bd64d",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -2788,7 +4503,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "1debe57e-25d6-4845-aff5-d6f0b72f3f5e",
+      "_id": "2d82e01e-6edd-47a9-aba6-f87a94d8828b",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -2853,7 +4568,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "c7b768fd-f511-49c1-995d-e95d9b426dca",
+      "_id": "cd33a7f5-7999-4e46-98f6-b925dcac9b19",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -2910,7 +4625,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "1a1ceaca-d797-471d-9f2f-21d85550bf3c",
+      "_id": "0855074d-a62b-4a75-89e4-91b314a74962",
       "type": "title",
       "faction": [
         "rebel"
@@ -2967,7 +4682,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "09df3811-7cdc-42ce-affd-940d4f8f7f07",
+      "_id": "e0dcee33-99a4-42c4-b6d0-5541703cf6f4",
       "type": "title",
       "faction": [
         "rebel"
@@ -3024,7 +4739,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "fbed393f-fd9d-480f-96b6-2c959c691853",
+      "_id": "1b808260-f278-463e-8e5d-ca6acd3bb005",
       "type": "title",
       "faction": [
         "rebel"
@@ -3089,7 +4804,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "611bec7f-cdd7-4a7d-b628-41f24165ed02",
+      "_id": "b7ee70ed-da53-44e4-bf3d-b3bc2d13eaa9",
       "type": "title",
       "faction": [
         "separatist"
@@ -3154,7 +4869,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "75faecc3-f7da-4838-bb1b-df4557db2c9c",
+      "_id": "6d568ba5-00bd-40cd-9c75-06c466740081",
       "type": "title",
       "faction": [
         "separatist"
@@ -3219,7 +4934,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "40684195-09f9-4acc-ae73-1932180a6b7d",
+      "_id": "9e2ef69c-9165-4c55-9a0c-01f2937c3ca8",
       "type": "title",
       "faction": [
         "separatist"
