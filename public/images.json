@@ -23,11 +23,17 @@
     "blurhash": "LDBX4jH=Md.Tr=NxS5ivDOx^o#RP",
     "baseToken": "https://api.swarmada.wiki/images/gladiator-ii-class-star-destroyer-base.webp"
   },
-  "gozanti-class-cruisers-separatist": {
-    "fullsize": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/gozanti-class-cruisers-separatist.webp",
-    "blurhash": "LOFY.IMws8-;~BR*a{s.==xvxun$",
-    "baseToken": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-base.webp"
+  "gozanti-class-assault-carriers": {
+    "fullsize": "https://api.swarmada.wiki/images/gozanti-class-assault-carriers.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/gozanti-class-assault-carriers.webp",
+    "blurhash": "LAB|jLrBm+?w^Q%2xtr=Ql^,%NRO",
+    "baseToken": "https://api.swarmada.wiki/images/gozanti-class-assault-carriers-base.webp"
+  },
+  "gozanti-class-cruisers": {
+    "fullsize": "https://api.swarmada.wiki/images/gozanti-class-cruisers.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/gozanti-class-cruisers.webp",
+    "blurhash": "L9B;LKDNMc?w_NNZW;aKMx%gxvMx",
+    "baseToken": "https://api.swarmada.wiki/images/gozanti-class-cruisers-base.webp"
   },
   "imperial-i-class-star-destroyer": {
     "fullsize": "https://api.swarmada.wiki/images/imperial-i-class-star-destroyer.webp",
@@ -125,23 +131,23 @@
     "blurhash": "L7B4OE$w00EO={_4DiDh00t8x]of",
     "baseToken": "https://api.swarmada.wiki/images/star-dreadnought-command-prototype-base.webp"
   },
-  "venator-i-class-star-destroyer": {
-    "fullsize": "https://api.swarmada.wiki/images/venator-i-class-star-destroyer.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/venator-i-class-star-destroyer.webp",
-    "blurhash": "L6DmEvD4iF.SERE3D$Mv8w?wt3I9",
-    "baseToken": "https://api.swarmada.wiki/images/venator-i-class-star-destroyer-base.webp"
+  "venator-ii-class-star-destroyer-empire": {
+    "fullsize": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-empire.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/venator-ii-class-star-destroyer-empire.webp",
+    "blurhash": "L9BznTHqMc.TtTE0NGV?8w%go#My",
+    "baseToken": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-empire-base.webp"
   },
-  "venator-ii-class-star-destroyer": {
-    "fullsize": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/venator-ii-class-star-destroyer.webp",
-    "blurhash": "LSF~%HR5xZx]_4R*tRoe?bxuxvax",
-    "baseToken": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-base.webp"
+  "victory-i-class-star-destroyer": {
+    "fullsize": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-i-class-star-destroyer.webp",
+    "blurhash": "LCBzqW8wI9?w?FNeNHROQ+tSkDRP",
+    "baseToken": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-base.webp"
   },
-  "victory-i-class-star-destroyer-republic": {
-    "fullsize": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-i-class-star-destroyer-republic.webp",
-    "blurhash": "LBDcp}8wR3?wRjS5M{MxH=%gozRi",
-    "baseToken": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic-base.webp"
+  "victory-ii-class-star-destroyer": {
+    "fullsize": "https://api.swarmada.wiki/images/victory-ii-class-star-destroyer.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-ii-class-star-destroyer.webp",
+    "blurhash": "LDBglCMII8.T-po#NFR5MJ%gaxRP",
+    "baseToken": "https://api.swarmada.wiki/images/victory-ii-class-star-destroyer-base.webp"
   },
   "assault-frigate-mark-ii-a": {
     "fullsize": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-a.webp",
@@ -316,6 +322,30 @@
     "thumbnail": "https://api.swarmada.wiki/thumbnails/pelta-class-transport-frigate.webp",
     "blurhash": "L8DJhp8wiv?wohM{IqMwD4.8x^R5",
     "baseToken": "https://api.swarmada.wiki/images/pelta-class-transport-frigate-base.webp"
+  },
+  "venator-i-class-star-destroyer": {
+    "fullsize": "https://api.swarmada.wiki/images/venator-i-class-star-destroyer.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/venator-i-class-star-destroyer.webp",
+    "blurhash": "L6DmEvD4iF.SERE3D$Mv8w?wt3I9",
+    "baseToken": "https://api.swarmada.wiki/images/venator-i-class-star-destroyer-base.webp"
+  },
+  "venator-ii-class-star-destroyer": {
+    "fullsize": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/venator-ii-class-star-destroyer.webp",
+    "blurhash": "LSF~%HR5xZx]_4R*tRoe?bxuxvax",
+    "baseToken": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-base.webp"
+  },
+  "victory-i-class-star-destroyer-republic": {
+    "fullsize": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-i-class-star-destroyer-republic.webp",
+    "blurhash": "LBDcp}8wR3?wRjS5M{MxH=%gozRi",
+    "baseToken": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic-base.webp"
+  },
+  "gozanti-class-cruisers-separatist": {
+    "fullsize": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/gozanti-class-cruisers-separatist.webp",
+    "blurhash": "LOFY.IMws8-;~BR*a{s.==xvxun$",
+    "baseToken": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-base.webp"
   },
   "hardcell-class-transport": {
     "fullsize": "https://api.swarmada.wiki/images/hardcell-class-transport.webp",
@@ -3406,6 +3436,18 @@
     "thumbnail": "https://api.swarmada.wiki/thumbnails/system-reset-bsg-legends.webp",
     "blurhash": "L4J8*7?G00~W00M_~qDi00IU.8IU",
     "baseToken": "https://api.swarmada.wiki/images/system-reset-bsg-legends-base.webp"
+  },
+  "long-range-salvo-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/long-range-salvo-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/long-range-salvo-bsg-legends.webp",
+    "blurhash": "L2HetWx^00~q00-;_34n009F?bRj",
+    "baseToken": "https://api.swarmada.wiki/images/long-range-salvo-bsg-legends-base.webp"
+  },
+  "magnetic-launch-tubes-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/magnetic-launch-tubes-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/magnetic-launch-tubes-bsg-legends.webp",
+    "blurhash": "L4Hek8Vt4T~W00-;-VMJ00D%-pVY",
+    "baseToken": "https://api.swarmada.wiki/images/magnetic-launch-tubes-bsg-legends-base.webp"
   },
   "centurion-d7-officer-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/centurion-d7-officer-bsg-legends.webp",

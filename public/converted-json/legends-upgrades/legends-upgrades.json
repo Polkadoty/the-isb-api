@@ -9,7 +9,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "3dd3f773-bbbc-49d8-bed9-1d419c2d9f7a",
+      "_id": "1e1f863f-710f-4c49-a479-dfee999ef3ca",
       "type": "commander",
       "faction": [
         "cylon"
@@ -67,7 +67,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "9fb8f505-cbc6-47e9-914d-a74a11e12959",
+      "_id": "1a141956-ba9e-4553-886d-fe5a51d25312",
       "type": "commander",
       "faction": [
         "cylon"
@@ -125,7 +125,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "aa832aa7-bc40-4540-984d-032d4acf9630",
+      "_id": "dd61f52e-8b08-40c8-b1cf-c7de1ed3dc76",
       "type": "commander",
       "faction": [
         "colonial"
@@ -183,7 +183,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "cd71b4f5-7e44-4db1-a6e8-0572f2903b2a",
+      "_id": "4ad8da2c-f8f1-49d2-8800-7c36b3f7f8ea",
       "type": "commander",
       "faction": [
         "cylon"
@@ -241,7 +241,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "5774f334-bb7f-4ad4-99ac-74b7a4795f80",
+      "_id": "299b6ecf-a948-488a-973f-2f309d4436e8",
       "type": "commander",
       "faction": [
         "colonial"
@@ -299,7 +299,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "6ac83328-3037-4eba-ba35-938579e2ed34",
+      "_id": "c9f1df4e-1f0b-4819-bde8-379a07116b01",
       "type": "commander",
       "faction": [
         "colonial"
@@ -357,7 +357,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends",
       "expansion": "BSG Starter Set",
-      "_id": "187f9ebf-92b3-4a69-9c9d-101a48df7ab5",
+      "_id": "f2048eeb-4573-427e-bb09-b7d2fb213113",
       "type": "offensive-retro",
       "faction": [
         "colonial"
@@ -415,7 +415,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends",
       "expansion": "BSG Starter Set",
-      "_id": "17039169-bb01-49b2-874c-d19747dbd43c",
+      "_id": "25107aff-426b-497c-859d-57a83c915bd7",
       "type": "offensive-retro",
       "faction": [
         "colonial"
@@ -473,7 +473,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends",
       "expansion": "BSG Starter Set",
-      "_id": "57a71f21-2c9d-4a2d-8623-507645d3d958",
+      "_id": "03c8cd0e-ae00-4a4a-8c80-5781f4d5e3c4",
       "type": "offensive-retro",
       "faction": [
         "colonial"
@@ -522,6 +522,122 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/system-reset-bsg-legends.webp"
     },
+    "long-range-salvo-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "f9a1646e-dbd8-45f4-839f-ce6085d6b0d9",
+      "type": "offensive-retro",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Long Range Salvo",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/long-range-salvo-bsg-legends.webp"
+    },
+    "magnetic-launch-tubes-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends",
+      "expansion": "BSG Starter Set",
+      "_id": "1f75faa8-7a51-436d-8037-1a8976cf65c0",
+      "type": "offensive-retro",
+      "faction": [
+        "colonial"
+      ],
+      "name": "Magnetic Launch Tubes",
+      "unique-class": [
+        ""
+      ],
+      "ability": "placeholder",
+      "unique": false,
+      "points": 9,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "launch"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/magnetic-launch-tubes-bsg-legends.webp"
+    },
     "centurion-d7-officer-bsg-legends": {
       "author": [
         "TacticalFox27",
@@ -531,7 +647,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "41577fd8-1412-4e80-97c5-e475e117cded",
+      "_id": "8504a9b3-bd52-4a56-9716-4ace0d1005a0",
       "type": "officer",
       "faction": [
         "cylon"
@@ -589,7 +705,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "02661e9e-e102-48d6-936c-111d552a5ba4",
+      "_id": "845f1e94-9e3a-4da1-b2fd-4d517935ca54",
       "type": "officer",
       "faction": [
         "cylon"
@@ -647,7 +763,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "6f3fe965-1ec3-4d28-8782-21dce7c7af12",
+      "_id": "821943b4-39a1-4f9c-9f03-aac17d357c1e",
       "type": "officer",
       "faction": [
         "colonial"
@@ -705,7 +821,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "c735603c-e054-40e0-a750-46027179b2ca",
+      "_id": "5a91809c-b983-4913-99fd-f057e36285c0",
       "type": "officer",
       "faction": [
         "colonial"
@@ -763,7 +879,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "c6b85385-8ef2-48ec-9330-1df08b4f4e97",
+      "_id": "ec3f6db3-9fb8-4553-a892-a6e3fc1a2187",
       "type": "officer",
       "faction": [
         "colonial"
@@ -821,7 +937,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "c1d44321-f4ab-4854-87bb-b386d860c576",
+      "_id": "a0bd9b19-4c8f-46b5-aa41-ba5d7f999505",
       "type": "officer",
       "faction": [
         "colonial"
@@ -879,7 +995,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "44a9843a-fc3f-49f4-9654-70f7bf3bf611",
+      "_id": "21a74150-0c3a-45e5-85b9-c40bbe11b652",
       "type": "officer",
       "faction": [
         "cylon"
@@ -937,7 +1053,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "33ec33d3-f767-4744-934d-7de81c98c1af",
+      "_id": "ee0c8909-ac16-446e-a266-a0e397829a6c",
       "type": "title",
       "faction": [
         "colonial"
@@ -993,7 +1109,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "576e5970-c42d-41b0-9b74-bc6602ad19fd",
+      "_id": "ce6a4688-fb42-49ab-abd7-f2a71c07e86f",
       "type": "title",
       "faction": [
         "colonial"
@@ -1050,7 +1166,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "406151dc-5668-4459-8936-c32410082c17",
+      "_id": "cddb2af8-b430-41c2-8f8a-b8643affa034",
       "type": "title",
       "faction": [
         "colonial"
@@ -1106,7 +1222,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "454d53ac-02f7-4422-9556-f5af180fc281",
+      "_id": "210659d2-9dce-432b-a632-a3bc0047cfbd",
       "type": "title",
       "faction": [
         "colonial"
@@ -1162,7 +1278,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "7f3e5d5a-49e2-463f-a9c9-d0abff69dd60",
+      "_id": "0d2ac7a6-d588-409f-a562-08dc9ff7f9d2",
       "type": "title",
       "faction": [
         "colonial"
@@ -1218,7 +1334,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "165d0429-147c-4e69-a487-31e711fe9a7c",
+      "_id": "9a1749fb-5d34-4a97-b83d-c3263ec86d9d",
       "type": "title",
       "faction": [
         "colonial"
@@ -1274,7 +1390,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "c4d7b713-36d8-41f8-be00-7f9528fb35a7",
+      "_id": "e9a418cf-7ce2-463d-a21c-ff4e6a77b609",
       "type": "title",
       "faction": [
         "colonial"
@@ -1330,7 +1446,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "52f5d55e-ee69-4426-8d25-0d3a6f6d161b",
+      "_id": "8294de74-0308-49cc-b60c-6121e56e5a5f",
       "type": "title",
       "faction": [
         "colonial"
@@ -1386,7 +1502,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "81ffcb04-fec0-49c4-8ac0-867e27548cf5",
+      "_id": "44406823-d727-41f8-a334-b4bf8c60904a",
       "type": "title",
       "faction": [
         "colonial"
@@ -1442,7 +1558,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "78de44f2-2728-407a-bee9-7d2c7cbab77a",
+      "_id": "cda2d5de-9521-4bf6-8b0b-a9439fb8775a",
       "type": "title",
       "faction": [
         "colonial"
@@ -1498,7 +1614,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "aed2c8b6-461f-49ef-a1a0-27e2f91c7baf",
+      "_id": "70ebfac8-c7ba-41b9-9ebe-d2ec018c729d",
       "type": "title",
       "faction": [
         "colonial"
@@ -1554,7 +1670,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "076084f5-9713-4a10-a4c0-412fe8194372",
+      "_id": "c723b26d-7866-4002-846a-1e7dbf24aac5",
       "type": "title",
       "faction": [
         "colonial"
@@ -1610,7 +1726,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends Wave 1",
       "expansion": "BSG Starter Set",
-      "_id": "c276e635-225f-42cc-87b9-30c43a6a999d",
+      "_id": "035b5334-f061-4ef3-b78d-9b97ec56697d",
       "type": "title",
       "faction": [
         "colonial"
@@ -1666,7 +1782,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends",
       "expansion": "BSG Starter Set",
-      "_id": "3c06b113-f562-4c94-a4c3-74d5947bd628",
+      "_id": "ad914d73-d137-4915-baa8-045c2807c4e0",
       "type": "turbolaser",
       "faction": [
         "cylon"
@@ -1724,7 +1840,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends",
       "expansion": "BSG Starter Set",
-      "_id": "667219d5-1f70-490b-8a66-74e422571556",
+      "_id": "0299973b-c81e-4c0b-ab15-77ff6c48331d",
       "type": "turbolaser",
       "faction": [
         "cylon"
@@ -1782,7 +1898,7 @@
       "team": "Armada Legends",
       "release": "BSG Armada Legends",
       "expansion": "BSG Starter Set",
-      "_id": "9a556431-8c26-4313-bf01-675624cfe76d",
+      "_id": "a6c2334a-0778-42e4-b81c-e0c5ca93f2d9",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "cylon"
@@ -1841,7 +1957,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "9e40ceae-0d15-41b7-977a-0b12776eb440",
+      "_id": "e669cfc6-ceea-4a53-a108-f6e40e9d20ab",
       "type": "commander",
       "faction": [
         "covenant"
@@ -1900,7 +2016,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "584df6a9-d3ce-4cce-9fd2-db689361c347",
+      "_id": "a6a8cbe3-bc98-458c-82d6-eb84a45da79e",
       "type": "commander",
       "faction": [
         "covenant"
@@ -1959,7 +2075,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "ed727b9e-4c18-4b29-b673-6544b74a9896",
+      "_id": "d798ab8c-f064-4d1d-ad86-5ce6c46d1484",
       "type": "commander",
       "faction": [
         "unsc"
@@ -2018,7 +2134,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "00bb3855-602e-4f8e-a4d8-470126e1aa1c",
+      "_id": "593085ad-0b89-4a0f-aff7-178a17c21953",
       "type": "commander",
       "faction": [
         "unsc"
@@ -2077,7 +2193,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "0bfa926f-fd80-49c2-bfcd-7deb40a8073a",
+      "_id": "a95c2985-6924-4c58-a1ce-df61b572a24d",
       "type": "commander",
       "faction": [
         "unsc"
@@ -2136,7 +2252,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "ff03436e-94ee-4515-adcf-4216a4863462",
+      "_id": "def25f0e-215d-43fe-99f8-58a706fdcee8",
       "type": "commander",
       "faction": [
         "unsc"
@@ -2195,7 +2311,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "fbccf069-7543-4ac6-8522-1180175e61b1",
+      "_id": "e991c497-efd5-4b70-a97b-8d3fec2840e4",
       "type": "commander",
       "faction": [
         "covenant"
@@ -2254,7 +2370,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "bcff8f1f-b225-4c29-b0f8-6f0215c82f59",
+      "_id": "27c66e02-d4bd-488c-876d-80130dd0cba3",
       "type": "commander",
       "faction": [
         "covenant"
@@ -2311,7 +2427,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "22bd46c8-af11-4350-96d3-612f95620ca4",
+      "_id": "de0baaa3-9f01-48cc-8c7d-caf61e9d87e2",
       "type": "defensive-retro",
       "faction": [
         "unsc"
@@ -2368,7 +2484,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "6b50db49-af27-410d-b16f-8b9097b60620",
+      "_id": "b09d22c6-92a9-46c9-bdd4-95bc28ee1aca",
       "type": "defensive-retro",
       "faction": [
         "covenant"
@@ -2425,7 +2541,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "1333bfaa-5db9-48f1-8ce6-9fc4f5345996",
+      "_id": "a1c8ae03-e4b3-4012-a983-b2026b40e89d",
       "type": "defensive-retro",
       "faction": [
         "unsc"
@@ -2482,7 +2598,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "c3da0ebb-1fc4-4af7-a36f-dd6bcf105fe5",
+      "_id": "4687f4ee-d6b7-43f0-bb91-e1e29fe06e2c",
       "type": "fleet-command",
       "faction": [
         "covenant"
@@ -2539,7 +2655,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "e3da4166-3d3a-47f9-a0f1-d65fd1dff78e",
+      "_id": "4ff2e0fc-87d1-4ce7-9096-dfa3bc8cafb7",
       "type": "fleet-command",
       "faction": [
         "covenant"
@@ -2596,7 +2712,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "197c48fb-0a31-45ba-ac98-d438677a13b4",
+      "_id": "c790abe9-4793-4b87-a6e3-d3b54f69849e",
       "type": "fleet-command",
       "faction": [
         "covenant"
@@ -2653,7 +2769,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "c01811aa-3efa-4c89-bdc8-601b67f01d1a",
+      "_id": "76f775d2-1ac4-4ddf-b77e-3156fd1d5c61",
       "type": "ion-cannon",
       "faction": [
         "covenant"
@@ -2710,7 +2826,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "73fe86f5-d00f-4846-be57-cdb0b90ef18d",
+      "_id": "9c92de18-ed13-465f-b759-4f36e1a63be9",
       "type": "ion-cannon",
       "faction": [
         "unsc"
@@ -2767,7 +2883,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "f732954f-f3ac-4937-92c7-dc1e270874e5",
+      "_id": "8b957f51-90c9-405d-8ed7-28b39b768321",
       "type": "offensive-retro",
       "faction": [
         "covenant"
@@ -2824,7 +2940,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "550350a1-37c4-4f4e-a5ec-9824830b1995",
+      "_id": "b47ac91b-57dd-43b7-84c1-19d91a5a874f",
       "type": "officer",
       "faction": [
         "unsc"
@@ -2881,7 +2997,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "d4bb4443-9f87-4322-9f7b-e607d0cfa985",
+      "_id": "1cfb40ed-dd5c-4199-8490-48da0433abe9",
       "type": "officer",
       "faction": [
         "unsc"
@@ -2938,7 +3054,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "c54736ce-d065-4410-b2fa-d926c2bb4edc",
+      "_id": "d67c9ad4-a013-49ef-9927-c0dfc5ea7ac9",
       "type": "officer",
       "faction": [
         "unsc",
@@ -2996,7 +3112,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "796b3c3f-8ff7-4591-b998-722115827a7a",
+      "_id": "db8bb436-8d5c-46b1-b3d7-63d7a499bc8e",
       "type": "officer",
       "faction": [
         "unsc"
@@ -3053,7 +3169,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "0429a9ed-e5ea-48b5-b8bc-a5fa600604f7",
+      "_id": "bd66fe82-884c-4a68-94d7-d9b8957ef589",
       "type": "officer",
       "faction": [
         "unsc"
@@ -3110,7 +3226,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "1a311842-e9fa-46b2-ac2c-4dc262f70924",
+      "_id": "7a1b75f1-25d4-488e-bad9-80406a576443",
       "type": "officer",
       "faction": [
         "covenant"
@@ -3167,7 +3283,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "21f1f3c5-a133-476e-99a7-fe467842668b",
+      "_id": "2d1c8ef0-2129-4038-94e9-2ba35c3383ee",
       "type": "officer",
       "faction": [
         "unsc",
@@ -3225,7 +3341,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "09159d24-7ca8-42b2-9c40-23d14ef6d6b0",
+      "_id": "cd7f7861-4a74-4e51-8e32-eb5eb73e1400",
       "type": "officer",
       "faction": [
         "covenant"
@@ -3282,7 +3398,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "0d1977b5-82ff-441d-bb22-7fb3ee660b24",
+      "_id": "cd9bc600-2203-46e0-b603-c8ae034859d7",
       "type": "officer",
       "faction": [
         "unsc"
@@ -3339,7 +3455,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "c207bbca-add5-4d22-9703-81dfdae7fd07",
+      "_id": "09bb8b52-e81d-4170-9bb4-8e91f0bc3b16",
       "type": "officer",
       "faction": [
         "covenant"
@@ -3396,7 +3512,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "53c26f13-9032-468b-9992-aab9733169db",
+      "_id": "d1ae4d6a-669b-441d-aa1d-0dc32818d433",
       "type": "officer",
       "faction": [
         "covenant"
@@ -3453,7 +3569,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "52634e74-6592-4696-a29d-13a2cabc85a9",
+      "_id": "c9c600ae-7765-48f7-af9b-69aac75f6d65",
       "type": "officer",
       "faction": [
         "unsc"
@@ -3510,7 +3626,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "0463ff19-1b5f-40ca-812b-03e0bec1c2cc",
+      "_id": "438cbdcd-793f-4af6-b496-214d254b748a",
       "type": "super-weapon",
       "faction": [
         "unsc"
@@ -3567,7 +3683,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "5169797f-1537-419d-88ae-cd90398c779d",
+      "_id": "f3f78b78-d9e3-4e23-95ea-78d3c926b24a",
       "type": "support-team",
       "faction": [
         "covenant"
@@ -3624,7 +3740,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "e42ae807-d215-463d-a819-8056b15ec362",
+      "_id": "d90b1608-f714-4879-8ea2-7f5924890650",
       "type": "title",
       "faction": [
         "covenant"
@@ -3681,7 +3797,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "4a893e5c-d038-4997-944b-38d2e5ce5c15",
+      "_id": "27c5364f-f6e5-4216-a483-3e70d69029f7",
       "type": "title",
       "faction": [
         "covenant"
@@ -3738,7 +3854,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "45795514-d2c3-46f5-bd69-73cf116ae007",
+      "_id": "805b4814-c290-4ca5-900d-0838c0ee191f",
       "type": "title",
       "faction": [
         "unsc"
@@ -3795,7 +3911,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "fc31c467-7cd8-4603-abe6-4947b7580de2",
+      "_id": "e6f6ab20-209d-4627-8e30-68b6fb9b2bef",
       "type": "title",
       "faction": [
         "unsc"
@@ -3852,7 +3968,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "5ca84653-0e62-4743-8666-acc936dbe309",
+      "_id": "eb5353ca-0d2c-4aba-ae11-b3437a0edc87",
       "type": "title",
       "faction": [
         "unsc"
@@ -3909,7 +4025,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "feb5f9a7-d665-413c-adc7-f23084aab0c1",
+      "_id": "587cfc1b-6376-48de-a134-370495ce4097",
       "type": "title",
       "faction": [
         "unsc"
@@ -3966,7 +4082,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "fbb8d6c8-f3d3-4540-b972-1bf2f4975f3f",
+      "_id": "03293a3d-0a45-498d-a522-bf68c51ce8f7",
       "type": "title",
       "faction": [
         "unsc"
@@ -4023,7 +4139,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "17b1eccd-fe12-439d-93d7-a3cbd6d28126",
+      "_id": "ca0fe8d8-7abb-40ce-8cd0-dd0da0c8ab9e",
       "type": "title",
       "faction": [
         "covenant"
@@ -4080,7 +4196,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "4a73b5b3-210f-41d2-93b8-c2081ffb2b86",
+      "_id": "5a384564-4a91-4993-89c2-1bf33f261c8d",
       "type": "title",
       "faction": [
         "covenant"
@@ -4137,7 +4253,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "032a3984-fcef-4453-ab64-112a06a9493d",
+      "_id": "4951b9e7-90e2-4ae1-abbf-e20687434bee",
       "type": "title",
       "faction": [
         "unsc"
@@ -4194,7 +4310,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "0b13f841-d65a-482c-bf6e-646c4027634e",
+      "_id": "e07cc3b9-f2eb-4148-a50f-a3a08a9bb6a9",
       "type": "title",
       "faction": [
         "unsc"
@@ -4251,7 +4367,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "cc1eaeae-ed02-4424-af4c-5e737a1db7af",
+      "_id": "c2377d82-4dce-4891-95a1-0214bca41cc1",
       "type": "weapons-team",
       "faction": [
         "unsc"
@@ -4308,7 +4424,7 @@
       "team": "Armada Legends",
       "release": "Halo Armada Legends",
       "expansion": "Halo Starter Set",
-      "_id": "8af9176c-e7d7-4953-8286-19b0a60d25ff",
+      "_id": "be3e6b44-5c03-4714-8c7e-ae695a17a787",
       "type": "weapons-team",
       "faction": [
         "unsc"
@@ -4373,7 +4489,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "688a19e9-f5d3-4ea6-9690-98605a4b1717",
+      "_id": "01da3eb4-ef8d-45e8-bdc3-b1d73e3140bf",
       "type": "officer",
       "faction": [
         "separatist"
@@ -4438,7 +4554,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "1ba9e467-d0ec-482d-bd6a-91974e2bd64d",
+      "_id": "1e7bb050-8703-4fa5-940d-4a62e897471a",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -4503,7 +4619,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "2d82e01e-6edd-47a9-aba6-f87a94d8828b",
+      "_id": "9eeea9be-77a0-4b13-b151-7092d94d491c",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -4568,7 +4684,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "cd33a7f5-7999-4e46-98f6-b925dcac9b19",
+      "_id": "b300b4f6-813f-4dea-bed2-7fffef3b8c8b",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -4625,7 +4741,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "0855074d-a62b-4a75-89e4-91b314a74962",
+      "_id": "09a0e2aa-37cd-4a00-96d8-d66498ae0f3a",
       "type": "title",
       "faction": [
         "rebel"
@@ -4682,7 +4798,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "e0dcee33-99a4-42c4-b6d0-5541703cf6f4",
+      "_id": "ab3720f0-0600-403b-9bcb-f4357dd6a1e1",
       "type": "title",
       "faction": [
         "rebel"
@@ -4739,7 +4855,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends",
-      "_id": "1b808260-f278-463e-8e5d-ca6acd3bb005",
+      "_id": "fafa7ef8-37c6-46e2-95d7-cfaeba788f1e",
       "type": "title",
       "faction": [
         "rebel"
@@ -4804,7 +4920,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "b7ee70ed-da53-44e4-bf3d-b3bc2d13eaa9",
+      "_id": "1e796dbc-59a4-4404-a719-7061148ad136",
       "type": "title",
       "faction": [
         "separatist"
@@ -4869,7 +4985,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "6d568ba5-00bd-40cd-9c75-06c466740081",
+      "_id": "d26a1561-1981-4605-a8bc-698bb93ae161",
       "type": "title",
       "faction": [
         "separatist"
@@ -4934,7 +5050,7 @@
       "team": "Armada Legends",
       "release": "Armada Legends",
       "expansion": "Armada Legends Subjugator Expansion",
-      "_id": "9e2ef69c-9165-4c55-9a0c-01f2937c3ca8",
+      "_id": "90a93db4-36a2-478b-9a36-cfd78279cc53",
       "type": "title",
       "faction": [
         "separatist"
