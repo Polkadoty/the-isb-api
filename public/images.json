@@ -35,12 +35,6 @@
     "blurhash": "L9B;LKDNMc?w_NNZW;aKMx%gxvMx",
     "baseToken": "https://api.swarmada.wiki/images/gozanti-class-cruisers-base.webp"
   },
-  "gozanti-class-cruisers-separatist": {
-    "fullsize": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/gozanti-class-cruisers-separatist.webp",
-    "blurhash": "LOFY.IMws8-;~BR*a{s.==xvxun$",
-    "baseToken": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-base.webp"
-  },
   "imperial-i-class-star-destroyer": {
     "fullsize": "https://api.swarmada.wiki/images/imperial-i-class-star-destroyer.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/imperial-i-class-star-destroyer.webp",
@@ -137,6 +131,12 @@
     "blurhash": "L7B4OE$w00EO={_4DiDh00t8x]of",
     "baseToken": "https://api.swarmada.wiki/images/star-dreadnought-command-prototype-base.webp"
   },
+  "venator-ii-class-star-destroyer-empire": {
+    "fullsize": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-empire.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/venator-ii-class-star-destroyer-empire.webp",
+    "blurhash": "L9BznTHqMc.TtTE0NGV?8w%go#My",
+    "baseToken": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-empire-base.webp"
+  },
   "victory-i-class-star-destroyer": {
     "fullsize": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-i-class-star-destroyer.webp",
@@ -148,12 +148,6 @@
     "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-ii-class-star-destroyer.webp",
     "blurhash": "LDBglCMII8.T-po#NFR5MJ%gaxRP",
     "baseToken": "https://api.swarmada.wiki/images/victory-ii-class-star-destroyer-base.webp"
-  },
-  "victory-i-class-star-destroyer-republic": {
-    "fullsize": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-i-class-star-destroyer-republic.webp",
-    "blurhash": "LBDcp}8wR3?wRjS5M{MxH=%gozRi",
-    "baseToken": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic-base.webp"
   },
   "assault-frigate-mark-ii-a": {
     "fullsize": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-a.webp",
@@ -341,11 +335,17 @@
     "blurhash": "LSF~%HR5xZx]_4R*tRoe?bxuxvax",
     "baseToken": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-base.webp"
   },
-  "venator-ii-class-star-destroyer-empire": {
-    "fullsize": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-empire.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/venator-ii-class-star-destroyer-empire.webp",
-    "blurhash": "L9BznTHqMc.TtTE0NGV?8w%go#My",
-    "baseToken": "https://api.swarmada.wiki/images/venator-ii-class-star-destroyer-empire-base.webp"
+  "victory-i-class-star-destroyer-republic": {
+    "fullsize": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/victory-i-class-star-destroyer-republic.webp",
+    "blurhash": "LBDcp}8wR3?wRjS5M{MxH=%gozRi",
+    "baseToken": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic-base.webp"
+  },
+  "gozanti-class-cruisers-separatist": {
+    "fullsize": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/gozanti-class-cruisers-separatist.webp",
+    "blurhash": "LOFY.IMws8-;~BR*a{s.==xvxun$",
+    "baseToken": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-base.webp"
   },
   "hardcell-class-transport": {
     "fullsize": "https://api.swarmada.wiki/images/hardcell-class-transport.webp",
@@ -3119,24 +3119,6 @@
     "blurhash": "L9C7HMD4RN?wxWIpRjM_4T.8t8M_",
     "baseToken": "https://api.swarmada.wiki/images/war-basestar-mk2-bsg-legends-base.webp"
   },
-  "tector-class-star-destroyer-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/tector-class-star-destroyer-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/tector-class-star-destroyer-legends.webp",
-    "blurhash": "L7C7EDDNDN?w^hEfE2Q,HX.TS6H?",
-    "baseToken": "https://api.swarmada.wiki/images/tector-class-star-destroyer-legends-base.webp"
-  },
-  "mc40a-light-escort-carrier-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/mc40a-light-escort-carrier-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/mc40a-light-escort-carrier-legends.webp",
-    "blurhash": "L7CjIgU[Mc?w-oE1E1ad8w.9o~Mw",
-    "baseToken": "https://api.swarmada.wiki/images/mc40a-light-escort-carrier-legends-base.webp"
-  },
-  "mc40a-light-cruiser-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/mc40a-light-cruiser-legends.webp",
-    "blurhash": "L6CjLoQRVC_4.7D%IUaK4T?ctSMd",
-    "baseToken": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends-base.webp"
-  },
   "subjugator-class-prototype-legends": {
     "fullsize": "https://api.swarmada.wiki/images/subjugator-class-prototype-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/subjugator-class-prototype-legends.webp",
@@ -3200,13 +3182,13 @@
   "assault-raptor-racetrack-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/assault-raptor-racetrack-bsg-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/assault-raptor-racetrack-bsg-legends.webp",
-    "blurhash": "L3HoOL?]00^,00Io-;004U#r-=X8",
+    "blurhash": "L3HoOL?]00^,00Io-;004T#=.8X8",
     "baseToken": "https://api.swarmada.wiki/images/assault-raptor-racetrack-bsg-legends-base.webp"
   },
   "raptor-squadron-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/raptor-squadron-bsg-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/raptor-squadron-bsg-legends.webp",
-    "blurhash": "L6H2cs%g4n~q00Rk-;IUMxogt8R*",
+    "blurhash": "L5HLl2-;4m~q00M|.8IUV@t7t8WB",
     "baseToken": "https://api.swarmada.wiki/images/raptor-squadron-bsg-legends-base.webp"
   },
   "raptor-athena-bsg-legends": {
@@ -3218,7 +3200,7 @@
   "viper-mk2-squadron-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/viper-mk2-squadron-bsg-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/viper-mk2-squadron-bsg-legends.webp",
-    "blurhash": "L3HLh]%f00~q00IU_39FJA-ptTbv",
+    "blurhash": "L3HLh]%f00~q00IU_39FI@-ptSkW",
     "baseToken": "https://api.swarmada.wiki/images/viper-mk2-squadron-bsg-legends-base.webp"
   },
   "viper-mk2-hotdog-bsg-legends": {
@@ -3305,60 +3287,6 @@
     "blurhash": "LDIhmc~p9FIV00?HbI4.Rjj]W=M|",
     "baseToken": "https://api.swarmada.wiki/images/wardriver-e47-bsg-legends-base.webp"
   },
-  "cx-dagger-vessel-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/cx-dagger-vessel-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/cx-dagger-vessel-legends.webp",
-    "blurhash": "L5F~%F-;00-=00Rj?wDi00xvo~R%",
-    "baseToken": "https://api.swarmada.wiki/images/cx-dagger-vessel-legends-base.webp"
-  },
-  "cx2-cx-dagger-vessel-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/cx2-cx-dagger-vessel-legends.webp",
-    "blurhash": "L4F?Ovx[00?c00Mx_ND%00%4?cR*",
-    "baseToken": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel-legends-base.webp"
-  },
-  "tie-punisher-squadron-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/tie-punisher-squadron-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/tie-punisher-squadron-legends.webp",
-    "blurhash": "L4FsV]pZ00%M00D$~q9F00sj?wNd",
-    "baseToken": "https://api.swarmada.wiki/images/tie-punisher-squadron-legends-base.webp"
-  },
-  "deathrain-tie-punisher-squadron-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/deathrain-tie-punisher-squadron-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/deathrain-tie-punisher-squadron-legends.webp",
-    "blurhash": "L3Gv0BI,00_400IT7dDj00sABoIU",
-    "baseToken": "https://api.swarmada.wiki/images/deathrain-tie-punisher-squadron-legends-base.webp"
-  },
-  "redline-tie-punisher-squadron-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/redline-tie-punisher-squadron-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/redline-tie-punisher-squadron-legends.webp",
-    "blurhash": "LIJ8R]xuib-p|Exa?as.+tt7%Mt6",
-    "baseToken": "https://api.swarmada.wiki/images/redline-tie-punisher-squadron-legends-base.webp"
-  },
-  "xg1-starwing-squadron-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/xg1-starwing-squadron-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/xg1-starwing-squadron-legends.webp",
-    "blurhash": "L8IYa@?u00tRrBoc.TD%IV%2yEIp",
-    "baseToken": "https://api.swarmada.wiki/images/xg1-starwing-squadron-legends-base.webp"
-  },
-  "vynder-xg1-starwing-squadron-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/vynder-xg1-starwing-squadron-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/vynder-xg1-starwing-squadron-legends.webp",
-    "blurhash": "LBGSu{.T4n-=00yEyDWW00%gyDkC",
-    "baseToken": "https://api.swarmada.wiki/images/vynder-xg1-starwing-squadron-legends-base.webp"
-  },
-  "karsabi-xg1-starwing-squadron-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/karsabi-xg1-starwing-squadron-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/karsabi-xg1-starwing-squadron-legends.webp",
-    "blurhash": "L5GcDc?^00%$00%h%~E100.A.9Nt",
-    "baseToken": "https://api.swarmada.wiki/images/karsabi-xg1-starwing-squadron-legends-base.webp"
-  },
-  "tau-squadron-xg1-starwing-squadron-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/tau-squadron-xg1-starwing-squadron-legends.webp",
-    "blurhash": "L7G02?Vq00?w00H=%LS600r=%NX9",
-    "baseToken": "https://api.swarmada.wiki/images/tau-squadron-xg1-starwing-squadron-legends-base.webp"
-  },
   "longsword-bomber-squadron-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/longsword-bomber-squadron-halo-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/longsword-bomber-squadron-halo-legends.webp",
@@ -3383,17 +3311,209 @@
     "blurhash": "L5HLh?Sw00_300IU-=9F00xI_4Rj",
     "baseToken": "https://api.swarmada.wiki/images/knife26-longsword-halo-legends-base.webp"
   },
+  "atropos-commander-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/atropos-commander-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/atropos-commander-bsg-legends.webp",
+    "blurhash": "L2Hx+;Vq00^+00t7^*0000R.x]NH",
+    "baseToken": "https://api.swarmada.wiki/images/atropos-commander-bsg-legends-base.webp"
+  },
   "clothos-commander-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/clothos-commander-bsg-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/clothos-commander-bsg-legends.webp",
-    "blurhash": "L8HoI5D%00~q00ofxukC00a{-;D%",
+    "blurhash": "L8HoI5D%00~q00kCxbkC00fQ-;D%",
     "baseToken": "https://api.swarmada.wiki/images/clothos-commander-bsg-legends-base.webp"
+  },
+  "helena-agathon-commander-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/helena-agathon-commander-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/helena-agathon-commander-bsg-legends.webp",
+    "blurhash": "LPMQx2ae_N?bMxjZ_Nx]D%axS2f+",
+    "baseToken": "https://api.swarmada.wiki/images/helena-agathon-commander-bsg-legends-base.webp"
+  },
+  "lachesis-commander-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/lachesis-commander-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/lachesis-commander-bsg-legends.webp",
+    "blurhash": "L5IrEK?G00_N00RP_NE100RPx^Io",
+    "baseToken": "https://api.swarmada.wiki/images/lachesis-commander-bsg-legends-base.webp"
+  },
+  "lucinda-cain-commander-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/lucinda-cain-commander-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/lucinda-cain-commander-bsg-legends.webp",
+    "blurhash": "L2HV3fR500.S00?bcu4:00ITu59a",
+    "baseToken": "https://api.swarmada.wiki/images/lucinda-cain-commander-bsg-legends-base.webp"
   },
   "william-adama-commander-bsg-legends": {
     "fullsize": "https://api.swarmada.wiki/images/william-adama-commander-bsg-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/william-adama-commander-bsg-legends.webp",
     "blurhash": "L7I}-Q4T9v_3004m?wR+00tRM|M{",
     "baseToken": "https://api.swarmada.wiki/images/william-adama-commander-bsg-legends-base.webp"
+  },
+  "dradis-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/dradis-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dradis-bsg-legends.webp",
+    "blurhash": "L9Hxi_S]00E100xa~oxu00M~_Mog",
+    "baseToken": "https://api.swarmada.wiki/images/dradis-bsg-legends-base.webp"
+  },
+  "suppression-barrage-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/suppression-barrage-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/suppression-barrage-bsg-legends.webp",
+    "blurhash": "L3HoI6?b00?v00oL~q9Z00D%%MIV",
+    "baseToken": "https://api.swarmada.wiki/images/suppression-barrage-bsg-legends-base.webp"
+  },
+  "system-reset-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/system-reset-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/system-reset-bsg-legends.webp",
+    "blurhash": "L4J8*7?G00~W00M_~qDi00IU.8IU",
+    "baseToken": "https://api.swarmada.wiki/images/system-reset-bsg-legends-base.webp"
+  },
+  "long-range-salvo-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/long-range-salvo-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/long-range-salvo-bsg-legends.webp",
+    "blurhash": "L2HetWx^00~q00-;_34n009F?bRj",
+    "baseToken": "https://api.swarmada.wiki/images/long-range-salvo-bsg-legends-base.webp"
+  },
+  "magnetic-launch-tubes-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/magnetic-launch-tubes-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/magnetic-launch-tubes-bsg-legends.webp",
+    "blurhash": "L4Hek8Vt4T~W00-;-VMJ00D%-pVY",
+    "baseToken": "https://api.swarmada.wiki/images/magnetic-launch-tubes-bsg-legends-base.webp"
+  },
+  "centurion-d7-officer-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/centurion-d7-officer-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/centurion-d7-officer-bsg-legends.webp",
+    "blurhash": "L5IOkR%N00_N00tS-;IU00o}xtIU",
+    "baseToken": "https://api.swarmada.wiki/images/centurion-d7-officer-bsg-legends-base.webp"
+  },
+  "epsilon-y16-officer-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/epsilon-y16-officer-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/epsilon-y16-officer-bsg-legends.webp",
+    "blurhash": "LOKnrN~q-;?b00?b_3t7Dit6t6WB",
+    "baseToken": "https://api.swarmada.wiki/images/epsilon-y16-officer-bsg-legends-base.webp"
+  },
+  "felix-gaeta-officer-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/felix-gaeta-officer-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/felix-gaeta-officer-bsg-legends.webp",
+    "blurhash": "L6I}*H-?00~q00WG?wMy00M_%LMx",
+    "baseToken": "https://api.swarmada.wiki/images/felix-gaeta-officer-bsg-legends-base.webp"
+  },
+  "galen-tyrol-officer-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/galen-tyrol-officer-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/galen-tyrol-officer-bsg-legends.webp",
+    "blurhash": "L4IE@N9d0J?I009b~q4o00Ri%2In",
+    "baseToken": "https://api.swarmada.wiki/images/galen-tyrol-officer-bsg-legends-base.webp"
+  },
+  "lee-adama-officer-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/lee-adama-officer-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/lee-adama-officer-bsg-legends.webp",
+    "blurhash": "LAJuDh~q00Ip00%Mt84n00V?RPD%",
+    "baseToken": "https://api.swarmada.wiki/images/lee-adama-officer-bsg-legends-base.webp"
+  },
+  "saul-tigh-officer-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/saul-tigh-officer-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/saul-tigh-officer-bsg-legends.webp",
+    "blurhash": "L9JkZS~B00yD00-U?bIU00jF-pjF",
+    "baseToken": "https://api.swarmada.wiki/images/saul-tigh-officer-bsg-legends-base.webp"
+  },
+  "talos-13-officer-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/talos-13-officer-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/talos-13-officer-bsg-legends.webp",
+    "blurhash": "L6IF6+%#00_M00XS-;M{00MynmRP",
+    "baseToken": "https://api.swarmada.wiki/images/talos-13-officer-bsg-legends-base.webp"
+  },
+  "adamant-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/adamant-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/adamant-title-bsg-legends.webp",
+    "blurhash": "L6I#x{_300~q00xa~qIU00RP%2IU",
+    "baseToken": "https://api.swarmada.wiki/images/adamant-title-bsg-legends-base.webp"
+  },
+  "hesperides-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/hesperides-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/hesperides-title-bsg-legends.webp",
+    "blurhash": "LAJ*#Y%N4._400e.?cbI00MxWEIU",
+    "baseToken": "https://api.swarmada.wiki/images/hesperides-title-bsg-legends-base.webp"
+  },
+  "hyperion-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/hyperion-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/hyperion-title-bsg-legends.webp",
+    "blurhash": "L6IF0pxu00_400jr-;M{00IUaeMx",
+    "baseToken": "https://api.swarmada.wiki/images/hyperion-title-bsg-legends-base.webp"
+  },
+  "arachnid-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/arachnid-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/arachnid-title-bsg-legends.webp",
+    "blurhash": "L3H_[J_300?c00-:~q4o00D%niIU",
+    "baseToken": "https://api.swarmada.wiki/images/arachnid-title-bsg-legends-base.webp"
+  },
+  "defiant-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/defiant-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/defiant-title-bsg-legends.webp",
+    "blurhash": "L4IOkP-;00~q00jY~WD$00IUs,IU",
+    "baseToken": "https://api.swarmada.wiki/images/defiant-title-bsg-legends-base.webp"
+  },
+  "columbia-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/columbia-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/columbia-title-bsg-legends.webp",
+    "blurhash": "L8I=V_.99Z_N00o~_Noz00t6xuW:",
+    "baseToken": "https://api.swarmada.wiki/images/columbia-title-bsg-legends-base.webp"
+  },
+  "galactica-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/galactica-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/galactica-title-bsg-legends.webp",
+    "blurhash": "L3I5b]?v00~q00xu~qD%004n%2D%",
+    "baseToken": "https://api.swarmada.wiki/images/galactica-title-bsg-legends-base.webp"
+  },
+  "icarus-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/icarus-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/icarus-title-bsg-legends.webp",
+    "blurhash": "L4IF3w%N00~q00M_~qIU00M{t6IU",
+    "baseToken": "https://api.swarmada.wiki/images/icarus-title-bsg-legends-base.webp"
+  },
+  "herald-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/herald-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/herald-title-bsg-legends.webp",
+    "blurhash": "L5Ihplbw00_N00R*_4D%00Rjs:IU",
+    "baseToken": "https://api.swarmada.wiki/images/herald-title-bsg-legends-base.webp"
+  },
+  "dagger-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/dagger-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dagger-title-bsg-legends.webp",
+    "blurhash": "LAI}#J.9II?c00kr^-Rn00InocM{",
+    "baseToken": "https://api.swarmada.wiki/images/dagger-title-bsg-legends-base.webp"
+  },
+  "falchion-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/falchion-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/falchion-title-bsg-legends.webp",
+    "blurhash": "L4I=Py_400?b00xa~q4n00D%-:Rj",
+    "baseToken": "https://api.swarmada.wiki/images/falchion-title-bsg-legends-base.webp"
+  },
+  "crucible-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/crucible-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/crucible-title-bsg-legends.webp",
+    "blurhash": "L4H__Sxv00?b00Rj~qD$00M{s:IT",
+    "baseToken": "https://api.swarmada.wiki/images/crucible-title-bsg-legends-base.webp"
+  },
+  "thanatos-title-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/thanatos-title-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/thanatos-title-bsg-legends.webp",
+    "blurhash": "L4IF3w%M00~q00Ri~qD%00IUoIIU",
+    "baseToken": "https://api.swarmada.wiki/images/thanatos-title-bsg-legends-base.webp"
+  },
+  "cluster-munitions-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/cluster-munitions-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/cluster-munitions-bsg-legends.webp",
+    "blurhash": "L5I=Mq?b00~q00a{_3D%00D%t7IU",
+    "baseToken": "https://api.swarmada.wiki/images/cluster-munitions-bsg-legends-base.webp"
+  },
+  "curved-trajectory-launch-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/curved-trajectory-launch-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/curved-trajectory-launch-bsg-legends.webp",
+    "blurhash": "L3G[[{M{00~W00-;-;D%009F%MIU",
+    "baseToken": "https://api.swarmada.wiki/images/curved-trajectory-launch-bsg-legends-base.webp"
+  },
+  "centurion-boarding-unit-bsg-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/centurion-boarding-unit-bsg-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/centurion-boarding-unit-bsg-legends.webp",
+    "blurhash": "L2H.Ws~q00~q00.8_40000D%xZIU",
+    "baseToken": "https://api.swarmada.wiki/images/centurion-boarding-unit-bsg-legends-base.webp"
   },
   "ardo-moretumee-commander-halo-legends": {
     "fullsize": "https://api.swarmada.wiki/images/ardo-moretumee-commander-halo-legends.webp",
@@ -3680,26 +3800,8 @@
   "kyber-beam-cannon-legends": {
     "fullsize": "https://api.swarmada.wiki/images/kyber-beam-cannon-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/kyber-beam-cannon-legends.webp",
-    "blurhash": "LGMZBz}[00tRL#$h%gIp4TIpS5J7",
+    "blurhash": "LGMivY}[00tRL#$h%gIp4TIpS5J7",
     "baseToken": "https://api.swarmada.wiki/images/kyber-beam-cannon-legends-base.webp"
-  },
-  "condor-title-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/condor-title-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/condor-title-legends.webp",
-    "blurhash": null,
-    "baseToken": "https://api.swarmada.wiki/images/condor-title-legends-base.webp"
-  },
-  "lulsla-title-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/lulsla-title-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/lulsla-title-legends.webp",
-    "blurhash": null,
-    "baseToken": "https://api.swarmada.wiki/images/lulsla-title-legends-base.webp"
-  },
-  "shadow-title-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/shadow-title-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/shadow-title-legends.webp",
-    "blurhash": null,
-    "baseToken": "https://api.swarmada.wiki/images/shadow-title-legends-base.webp"
   },
   "devastation-title-legends": {
     "fullsize": "https://api.swarmada.wiki/images/devastation-title-legends.webp",

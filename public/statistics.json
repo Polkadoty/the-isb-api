@@ -1,0 +1,612 @@
+{
+  "ships": {
+    "total": 132,
+    "byFaction": {
+      "empire": 50,
+      "rebel": 46,
+      "republic": 18,
+      "separatist": 18
+    },
+    "bySize": {
+      "small": 28,
+      "large": 22,
+      "medium": 14,
+      "huge": 4
+    },
+    "byHullValue": {
+      "3": 6,
+      "4": 10,
+      "5": 12,
+      "6": 10,
+      "7": 2,
+      "8": 10,
+      "9": 8,
+      "10": 2,
+      "11": 2,
+      "14": 2,
+      "22": 2,
+      "33": 2
+    },
+    "speedDistribution": {
+      "speed1": {
+        "exists": 68,
+        "doesntExist": 0
+      },
+      "speed2": {
+        "exists": 68,
+        "doesntExist": 0
+      },
+      "speed3": {
+        "exists": 46,
+        "doesntExist": 22
+      },
+      "speed4": {
+        "exists": 8,
+        "doesntExist": 60
+      }
+    },
+    "shieldDistribution": {
+      "front": {
+        "1": 6,
+        "2": 12,
+        "3": 20,
+        "4": 16,
+        "5": 8,
+        "6": 6
+      },
+      "rear": {
+        "1": 26,
+        "2": 32,
+        "3": 10
+      },
+      "left": {
+        "1": 12,
+        "2": 24,
+        "3": 26,
+        "4": 4,
+        "5": 2
+      },
+      "right": {
+        "1": 12,
+        "2": 28,
+        "3": 22,
+        "4": 4,
+        "5": 2
+      },
+      "left_aux": {
+        "0": 64,
+        "3": 2,
+        "5": 2
+      },
+      "right_aux": {
+        "0": 64,
+        "3": 2,
+        "5": 2
+      }
+    },
+    "traits": {
+      "star-destroyer": 28,
+      "flotilla": 10,
+      "interdictor": 4,
+      "star-dreadnought": 8,
+      "bombard": 10,
+      "MC": 16,
+      "comms": 10,
+      "transport": 16,
+      "starhawk-mark-i": 2,
+      "starhawk-mark-ii": 2,
+      "clone": 16,
+      "senate": 2,
+      "medical": 2,
+      "jedi": 2,
+      "droid": 16,
+      "Droid": 2,
+      "Bombard": 2,
+      "Transport": 2
+    },
+    "pointCosts": {
+      "min": 18,
+      "max": 411,
+      "average": 88.37878787878788,
+      "distribution": {
+        "18": 2,
+        "23": 2,
+        "24": 2,
+        "27": 2,
+        "28": 2,
+        "36": 2,
+        "37": 2,
+        "39": 2,
+        "41": 2,
+        "44": 4,
+        "45": 4,
+        "47": 2,
+        "48": 2,
+        "49": 2,
+        "51": 2,
+        "52": 2,
+        "54": 4,
+        "56": 4,
+        "57": 2,
+        "59": 2,
+        "60": 2,
+        "61": 2,
+        "62": 2,
+        "63": 2,
+        "66": 2,
+        "69": 2,
+        "70": 2,
+        "71": 2,
+        "72": 2,
+        "73": 4,
+        "75": 2,
+        "81": 2,
+        "85": 4,
+        "90": 6,
+        "93": 2,
+        "95": 2,
+        "96": 2,
+        "100": 6,
+        "103": 2,
+        "104": 2,
+        "105": 4,
+        "106": 2,
+        "110": 2,
+        "112": 4,
+        "114": 2,
+        "116": 2,
+        "120": 4,
+        "140": 2,
+        "150": 2,
+        "220": 2,
+        "250": 2,
+        "381": 2,
+        "411": 2
+      }
+    },
+    "defenseTokens": {
+      "scatter": {
+        "0": 122,
+        "1": 10
+      },
+      "evade": {
+        "0": 68,
+        "1": 52,
+        "2": 12
+      },
+      "brace": {
+        "0": 30,
+        "1": 86,
+        "2": 16
+      },
+      "redirect": {
+        "0": 18,
+        "1": 82,
+        "2": 32
+      },
+      "contain": {
+        "0": 78,
+        "1": 38,
+        "2": 16
+      },
+      "salvo": {
+        "0": 98,
+        "1": 34
+      }
+    },
+    "commandValues": {
+      "1": 30,
+      "2": 36,
+      "3": 54,
+      "4": 12
+    },
+    "squadronValues": {
+      "1": 30,
+      "2": 46,
+      "3": 32,
+      "4": 14,
+      "5": 6,
+      "6": 4
+    },
+    "engineerValues": {
+      "2": 30,
+      "3": 28,
+      "4": 66,
+      "5": 8
+    },
+    "upgradeSlots": {
+      "commander": 122,
+      "officer": 160,
+      "defensive-retro": 46,
+      "turbolaser": 92,
+      "title": 132,
+      "support-team": 52,
+      "weapons-team": 90,
+      "ordnance": 48,
+      "fleet-support": 14,
+      "offensive-retro": 100,
+      "weapons-team-offensive-retro": 62,
+      "ion-cannon": 52,
+      "fleet-command": 24,
+      "experimental-retro": 6,
+      "super-weapon": 8
+    },
+    "armamentDistribution": {
+      "asa": {
+        "red": {
+          "0": 118,
+          "1": 14
+        },
+        "blue": {
+          "0": 40,
+          "1": 74,
+          "2": 18
+        },
+        "black": {
+          "0": 66,
+          "1": 54,
+          "2": 12
+        }
+      },
+      "front": {
+        "red": {
+          "0": 24,
+          "1": 16,
+          "2": 46,
+          "3": 26,
+          "4": 12,
+          "5": 8
+        },
+        "blue": {
+          "0": 34,
+          "1": 36,
+          "2": 34,
+          "3": 16,
+          "4": 10,
+          "5": 2
+        },
+        "black": {
+          "0": 70,
+          "1": 18,
+          "2": 32,
+          "3": 12
+        }
+      },
+      "rear": {
+        "red": {
+          "0": 38,
+          "1": 56,
+          "2": 38
+        },
+        "blue": {
+          "0": 58,
+          "1": 62,
+          "2": 12
+        },
+        "black": {
+          "0": 88,
+          "1": 42,
+          "2": 2
+        }
+      },
+      "left": {
+        "red": {
+          "0": 30,
+          "1": 30,
+          "2": 34,
+          "3": 34,
+          "4": 4
+        },
+        "blue": {
+          "0": 42,
+          "1": 50,
+          "2": 30,
+          "3": 10
+        },
+        "black": {
+          "0": 76,
+          "1": 36,
+          "2": 12,
+          "3": 6,
+          "4": 2
+        }
+      },
+      "right": {
+        "red": {
+          "0": 30,
+          "1": 30,
+          "2": 34,
+          "3": 34,
+          "4": 4
+        },
+        "blue": {
+          "0": 42,
+          "1": 50,
+          "2": 30,
+          "3": 10
+        },
+        "black": {
+          "0": 76,
+          "1": 36,
+          "2": 12,
+          "3": 6,
+          "4": 2
+        }
+      },
+      "left_aux": {
+        "red": {
+          "0": 124,
+          "2": 6,
+          "3": 2
+        },
+        "blue": {
+          "0": 124,
+          "1": 2,
+          "2": 2,
+          "3": 4
+        },
+        "black": {
+          "0": 124,
+          "1": 8
+        }
+      },
+      "right_aux": {
+        "red": {
+          "0": 124,
+          "2": 6,
+          "3": 2
+        },
+        "blue": {
+          "0": 124,
+          "1": 2,
+          "2": 2,
+          "3": 4
+        },
+        "black": {
+          "0": 124,
+          "1": 8
+        }
+      },
+      "special": {
+        "red": {
+          "0": 128,
+          "3": 2,
+          "4": 2
+        },
+        "blue": {
+          "0": 130,
+          "2": 2
+        },
+        "black": {
+          "0": 128,
+          "2": 2,
+          "3": 2
+        }
+      }
+    }
+  },
+  "squadrons": {
+    "total": 34,
+    "byFaction": {
+      "empire": 14,
+      "rebel": 12,
+      "republic": 4,
+      "separatist": 4
+    },
+    "byHullValue": {
+      "3": 5,
+      "4": 7,
+      "5": 9,
+      "6": 7,
+      "7": 4,
+      "8": 2
+    },
+    "bySpeed": {
+      "2": 4,
+      "3": 13,
+      "4": 13,
+      "5": 4
+    },
+    "defenseTokens": {
+      "scatter": {
+        "0": 34
+      },
+      "evade": {
+        "0": 34
+      },
+      "brace": {
+        "0": 34
+      }
+    },
+    "armamentDistribution": {
+      "antiSquadron": {
+        "red": {
+          "0": 30,
+          "1": 3,
+          "3": 1
+        },
+        "blue": {
+          "0": 4,
+          "1": 2,
+          "2": 12,
+          "3": 9,
+          "4": 7
+        },
+        "black": {
+          "0": 24,
+          "1": 5,
+          "2": 4,
+          "3": 1
+        }
+      },
+      "antiShip": {
+        "red": {
+          "0": 28,
+          "1": 5,
+          "2": 1
+        },
+        "blue": {
+          "0": 17,
+          "1": 13,
+          "2": 3,
+          "3": 1
+        },
+        "black": {
+          "0": 21,
+          "1": 13
+        }
+      }
+    },
+    "abilities": {
+      "adept": {
+        "0": 33,
+        "1": 1
+      },
+      "aiBattery": {},
+      "aiAntisquadron": {},
+      "assault": 0,
+      "bomber": 0,
+      "cloak": 0,
+      "counter": {},
+      "dodge": {},
+      "escort": 0,
+      "grit": 0,
+      "heavy": 0,
+      "intel": 0,
+      "relay": {},
+      "rogue": 0,
+      "scout": 0,
+      "screen": 0,
+      "snipe": {},
+      "strategic": 0,
+      "swarm": 0
+    },
+    "pointCosts": {
+      "min": null,
+      "max": null,
+      "average": 0,
+      "distribution": {}
+    },
+    "uniqueCount": 0,
+    "aceCount": 0
+  },
+  "upgrades": {
+    "total": 584,
+    "byType": {
+      "commander": 76,
+      "defensive-retro": 16,
+      "experimental-retro": 8,
+      "fleet-command": 16,
+      "fleet-support": 14,
+      "ion-cannon": 18,
+      "offensive-retro": 34,
+      "officer": 140,
+      "ordnance": 16,
+      "super-weapon": 6,
+      "support-team": 16,
+      "title": 158,
+      "turbolaser": 30,
+      "weapons-team": 24,
+      "weapons-team-offensive-retro": 12
+    },
+    "byFaction": {
+      "rebel": 126,
+      "empire": 146,
+      "republic": 62,
+      "separatist": 66,
+      "": 196
+    },
+    "pointCosts": {
+      "min": 0,
+      "max": 38,
+      "average": 7.842465753424658,
+      "distribution": {
+        "0": 4,
+        "1": 12,
+        "2": 52,
+        "3": 86,
+        "4": 84,
+        "5": 94,
+        "6": 62,
+        "7": 44,
+        "8": 34,
+        "9": 10,
+        "10": 20,
+        "12": 4,
+        "13": 2,
+        "20": 6,
+        "22": 2,
+        "23": 4,
+        "24": 6,
+        "25": 8,
+        "26": 10,
+        "27": 4,
+        "28": 14,
+        "30": 8,
+        "31": 2,
+        "32": 2,
+        "34": 2,
+        "35": 2,
+        "36": 4,
+        "38": 2
+      }
+    },
+    "uniqueCount": 366,
+    "modificationCount": 36,
+    "byRestriction": {
+      "traits": {
+        "": 556,
+        "interdictor": 6,
+        "star-destroyer": 4,
+        "droid": 2,
+        "star-dreadnought": 8,
+        "MC": 2,
+        "starhawk-mark-i": 4,
+        "clone": 2
+      },
+      "size": {
+        "": 570,
+        "medium": 10,
+        "large": 10,
+        "small": 4
+      },
+      "disqualUpgrades": {},
+      "disableUpgrades": {},
+      "enableUpgrades": {},
+      "flagshipCount": 2
+    },
+    "startCommands": {
+      "byType": {
+        "": 554,
+        "token": 26,
+        "dial": 4
+      },
+      "byIcon": {
+        "": 554,
+        "any": 12,
+        "nav": 6,
+        "repair": 6,
+        "confire": 6,
+        "navigate": 2,
+        "squadron": 6
+      },
+      "byAmount": {
+        "0": 554,
+        "1": 10,
+        "2": 6,
+        "3": 4,
+        "4": 4,
+        "5": 6
+      }
+    },
+    "exhaustTypes": {
+      "blank": 0,
+      "recur": 54,
+      "nonrecur": 26,
+      "discard": 0,
+      "": null,
+      "non-recur": null,
+      "nonnrecur": null
+    }
+  }
+}
