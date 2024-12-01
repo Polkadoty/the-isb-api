@@ -2,15 +2,7 @@
     "upgrades": {
         "devastation-title-legends": {
             "author": [
-                "SpaceNavy",
-                "Doty",
-                "Arslanxelan",
-                "Trogdor",
-                "TwoShotOtter",
-                "Pulsipher",
-                "Daimyousagi",
-                "ChandraRevane",
-                "Memnoch1234"
+                "Armada Legends"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
@@ -67,15 +59,7 @@
         },
         "subjugator-title-legends": {
             "author": [
-                "SpaceNavy",
-                "Doty",
-                "Arslanxelan",
-                "Trogdor",
-                "TwoShotOtter",
-                "Pulsipher",
-                "Daimyousagi",
-                "ChandraRevane",
-                "Memnoch1234"
+                "Armada Legends"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
@@ -90,9 +74,9 @@
             "unique-class": [
                 "Subjugator"
             ],
-            "ability": "At the end of the status phase, you may either exhaust 1 defense token to flip a damage card facedown, or you may discard a defense token to discard 1 damage card.",
+            "ability": "At the start of the first round, you may replace 1 of your defense tokens with a :redirect: defense token.",
             "unique": true,
-            "points": 3,
+            "points": 5,
             "modification": false,
             "bound_shiptype": "subjugator-class-legends",
             "restrictions": {
@@ -132,15 +116,7 @@
         },
         "malevolence-title-legends": {
             "author": [
-                "SpaceNavy",
-                "Doty",
-                "Arslanxelan",
-                "Trogdor",
-                "TwoShotOtter",
-                "Pulsipher",
-                "Daimyousagi",
-                "ChandraRevane",
-                "Memnoch1234"
+                "Armada Legends"
             ],
             "alias": "Legends",
             "team": "Armada Legends",
