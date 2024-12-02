@@ -94,8 +94,14 @@ Object.values(directories).forEach(directory => {
   }
 });
 
+// Create the directory if it doesn't exist
+const outputDir = path.join(__dirname, 'src', 'discord', 'public');
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
 // Write the result to a file
 fs.writeFileSync(
-  path.join(__dirname, 'public/nickname-map.json'),
+  path.join(outputDir, 'nickname-map.json'),
   JSON.stringify(nicknameMap, null, 2)
 ); 
