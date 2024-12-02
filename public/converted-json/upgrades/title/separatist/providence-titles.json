@@ -12,6 +12,9 @@
                 "separatist"
             ],
             "name": "Invincible",
+            "nicknames": [
+                "Invincible"
+            ],
             "unique-class": [
                 "Invincible"
             ],
@@ -67,6 +70,9 @@
                 "separatist"
             ],
             "name": "Invisible Hand",
+            "nicknames": [
+                "Invis Hand", "IH"
+            ],
             "unique-class": [
                 "Invisible Hand"
             ],
@@ -122,10 +128,13 @@
                 "separatist"
             ],
             "name": "Lucid Voice",
+            "nicknames": [
+                "Lucid Voice", "LV"
+            ],
             "unique-class": [
                 "Lucid Voice"
             ],
-            "ability": "Treat your rear hull zone’s printed battery armament as 3 red dice. The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.",
+            "ability": "Treat your rear hull zone's printed battery armament as 3 red dice. The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.",
             "unique": true,
             "points": 8,
             "modification": false,

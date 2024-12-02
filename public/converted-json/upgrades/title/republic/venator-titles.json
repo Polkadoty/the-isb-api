@@ -12,6 +12,9 @@
                 "republic"
             ],
             "name": "Resolute",
+            "nicknames": [
+                "Resolute"
+            ],
             "unique-class": [
                 "Resolute"
             ],
@@ -67,10 +70,13 @@
                 "republic"
             ],
             "name": "Tranquility",
+            "nicknames": [
+                "Tranquility", "TQ"
+            ],
             "unique-class": [
                 "Tranquility"
             ],
-            "ability": "While defending, after the Spend Defense Tokens step, if you spent fewer than 2 defense tokens, you may move up to 2 shields from 1 of your hull zones to the defending hull zone. If you do, the number of shields in that zone cannot exceed a maximum of “6.” You cannot recover shields while any zone is greater than its maximum shield value.",
+            "ability": "While defending, after the Spend Defense Tokens step, if you spent fewer than 2 defense tokens, you may move up to 2 shields from 1 of your hull zones to the defending hull zone. If you do, the number of shields in that zone cannot exceed a maximum of '6'. You cannot recover shields while any zone is greater than its maximum shield value.",
             "unique": true,
             "points": 7,
             "modification": false,
@@ -122,6 +128,9 @@
                 "republic"
             ],
             "name": "Triumphant",
+            "nicknames": [
+                "Triumphant"
+            ],
             "unique-class": [
                 "Triumphant"
             ],

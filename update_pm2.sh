@@ -11,6 +11,7 @@ echo $(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ") > lastModified.txt
 # Start new PM2 instances
 pm2 start index.js --name "api-server" 
 pm2 start imageServer.js --name "image-server"
+pm2 start src/discord/bot.js --name "discord-bot"
 
 # Save the PM2 process list
 pm2 save

@@ -12,10 +12,13 @@
         "republic"
       ],
       "name": "Luminara Unduli",
+      "nicknames": [
+        "Luminara", "Unduli"
+      ],
       "unique-class": [
         "Luminara Unduli"
       ],
-      "ability": "While a friendly ship or unique squadron is defending, after the Spend Defense Tokens step, if it spent fewer than 2 defense tokens, it may either ready 1 of its defense tokens it did not spend, or choose another friendly ship at distance 1-5 and ready 1 of that ship’s defense tokens.",
+      "ability": "While a friendly ship or unique squadron is defending, after the Spend Defense Tokens step, if it spent fewer than 2 defense tokens, it may either ready 1 of its defense tokens it did not spend, or choose another friendly ship at distance 1-5 and ready 1 of that ship's defense tokens.",
       "unique": true,
       "points": 25,
       "modification": false,

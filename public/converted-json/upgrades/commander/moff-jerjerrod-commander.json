@@ -12,10 +12,13 @@
         "empire"
       ],
       "name": "Moff Jerjerrod",
+      "nicknames": [
+        "JJ", "Jerjerrod"
+      ],
       "unique-class": [
         "Moff Jerjerrod"
       ],
-      "ability": "While a friendly ship executes a maneuver, during the Determine Course step, that ship may suffer 1 damage to change the first yaw value of that maneuver to “II”.",
+      "ability": "While a friendly ship executes a maneuver, during the Determine Course step, that ship may suffer 1 damage to change the first yaw value of that maneuver to 'II'.",
       "unique": true,
       "points": 23,
       "modification": false,

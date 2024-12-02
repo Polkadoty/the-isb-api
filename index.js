@@ -24,6 +24,7 @@ import aliasRoutes from './routes/aliasRoutes.js';
 import imageLinksRoutes from './routes/imageLinksRoutes.js';
 import arcRoutes from './routes/arcRoutes.js';
 import errataKeysRoutes from './routes/errataKeysRoutes.js';
+import nicknameRoutes from './routes/nicknameRoutes.js';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -58,6 +59,7 @@ app.use('/aliases', aliasRoutes);
 app.use('/image-links', imageLinksRoutes);
 app.use('/arc', arcRoutes);
 app.use('/errata-keys', errataKeysRoutes);
+app.use('/nicknames', nicknameRoutes);
 
 app.use(errorHandler);
 
