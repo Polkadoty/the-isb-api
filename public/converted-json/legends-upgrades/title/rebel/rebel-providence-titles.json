@@ -1,30 +1,28 @@
 {
     "upgrades": {
-        "ionic-plasma-rotors-legends": {
-            "author": [
-                "Armada Legends"
-            ],
+        "rebel-one-title": {
+            "author": "Armada Legends",
             "alias": "Legends",
             "team": "Armada Legends",
-            "release": "Armada Legends November 2024 Dev Cycle",
-            "expansion": "Armada Legends Subjugator Expansion",
+            "release": "Armada Legends December 2024 Dev Cycle",
+            "expansion": "December 2024 Upgrade Expansion",
             "_id": null,
-            "type": "super-weapon",
+            "type": "title",
             "faction": [
-                "separatist"
+                "rebel"
             ],
-            "name": "Ionic Plasma Rotors",
+            "name": "Rebel One",
             "nicknames": [
-                "Ionic Plasma Rotors", "IPR", "Plasma Rotors"
+                "Rebel One", "Rebel 1"
             ],
             "unique-class": [
-                ""
+                "Rebel One"
             ],
-            "ability": "Modification.\nIgnition [Long]\nIgnition,:crit:: Toggle the activation slider for each squadron within distance 1-2 of the defender to the activated side.",
-            "unique": false,
+            "ability": ":nav: : When you execute a maneuver, increase your last yaw value by 1.\n :repair: : Instead of spending engineering points, you may have up to 2 squadrons at distance 1-2 recover 1 hull point.",
+            "unique": true,
             "points": 6,
-            "modification": true,
-            "bound_shiptype": "subjugator-class-legends",
+            "modification": false,
+            "bound_shiptype": "providence-class-rebel",
             "restrictions": {
                 "traits": [
                     ""
@@ -51,14 +49,14 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "nonrecur",
+                "type": "",
                 "ready_token": [
-                    "confire"
+                    ""
                 ],
-                "ready_amount": 1
+                "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/ionic-plasma-rotors-legends.webp"
+            "cardimage": "https://api.swarmada.wiki/images/rebel-one-title.webp"
         }
     }
 }

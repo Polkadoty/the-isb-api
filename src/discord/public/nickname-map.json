@@ -5,6 +5,877 @@
   "2400": [
     "yt-2400"
   ],
+  "Arquitens-class Light Cruiser": [
+    "arquitens-class-light-cruiser",
+    "arquitens-class-light-cruiser-republic-old-legacy"
+  ],
+  "Arquitens": [
+    "arquitens-class-light-cruiser",
+    "arquitens-class-command-cruiser"
+  ],
+  "Arquitens Light": [
+    "arquitens-class-light-cruiser"
+  ],
+  "Arquitens-class Command Cruiser": [
+    "arquitens-class-command-cruiser",
+    "arquitens-class-command-cruiser-republic-old-legacy"
+  ],
+  "Arquitens Command": [
+    "arquitens-class-command-cruiser"
+  ],
+  "Gladiator I-Class Star Destroyer": [
+    "gladiator-i-class-star-destroyer"
+  ],
+  "Glad 1": [
+    "gladiator-i-class-star-destroyer"
+  ],
+  "Gladiator I": [
+    "gladiator-i-class-star-destroyer"
+  ],
+  "Gladiator II-Class Star Destroyer": [
+    "gladiator-ii-class-star-destroyer"
+  ],
+  "Glad 2": [
+    "gladiator-ii-class-star-destroyer"
+  ],
+  "Gladiator II": [
+    "gladiator-ii-class-star-destroyer"
+  ],
+  "Gozanti-class Assault Carriers": [
+    "gozanti-class-assault-carriers"
+  ],
+  "Gozanti": [
+    "gozanti-class-assault-carriers",
+    "gozanti-class-cruisers",
+    "gozanti-class-cruisers-separatist"
+  ],
+  "Gozanti Assault": [
+    "gozanti-class-assault-carriers"
+  ],
+  "Gozanti-class Cruisers": [
+    "gozanti-class-cruisers",
+    "gozanti-class-cruisers-separatist"
+  ],
+  "Gozanti Cruiser": [
+    "gozanti-class-cruisers",
+    "gozanti-class-cruisers-separatist"
+  ],
+  "Imperial I-class Star Destroyer": [
+    "imperial-i-class-star-destroyer"
+  ],
+  "Imp 1": [
+    "imperial-i-class-star-destroyer"
+  ],
+  "Imperial I": [
+    "imperial-i-class-star-destroyer"
+  ],
+  "Star Destroyer": [
+    "imperial-i-class-star-destroyer",
+    "imperial-ii-class-star-destroyer",
+    "imperial-star-destroyer-cymoon-refit",
+    "imperial-star-destroyer-kuat-refit",
+    "venator-i-class-star-destroyer",
+    "venator-ii-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Imperial II-class Star Destroyer": [
+    "imperial-ii-class-star-destroyer"
+  ],
+  "Imp 2": [
+    "imperial-ii-class-star-destroyer"
+  ],
+  "Imperial II": [
+    "imperial-ii-class-star-destroyer"
+  ],
+  "Imperial Star Destroyer Cymoon 1 Refit": [
+    "imperial-star-destroyer-cymoon-refit"
+  ],
+  "Imp Cymoon": [
+    "imperial-star-destroyer-cymoon-refit"
+  ],
+  "Imperial Cymoon": [
+    "imperial-star-destroyer-cymoon-refit"
+  ],
+  "Moon": [
+    "imperial-star-destroyer-cymoon-refit",
+    "munificent-class-star-frigate",
+    "munificent-class-comms-frigate"
+  ],
+  "Imperial Star Destroyer Kuat Refit": [
+    "imperial-star-destroyer-kuat-refit"
+  ],
+  "Imp Kuat": [
+    "imperial-star-destroyer-kuat-refit"
+  ],
+  "Imperial Kuat": [
+    "imperial-star-destroyer-kuat-refit"
+  ],
+  "Kuat": [
+    "imperial-star-destroyer-kuat-refit"
+  ],
+  "Interdictor Suppression Refit": [
+    "interdictor-suppression-refit"
+  ],
+  "Interdictor": [
+    "interdictor-suppression-refit",
+    "interdictor-combat-refit",
+    "interdictor-title"
+  ],
+  "Interdictor Suppression": [
+    "interdictor-suppression-refit"
+  ],
+  "Interdictor Combat Refit": [
+    "interdictor-combat-refit",
+    "interdictor-combat-refit-errata-old-legacy"
+  ],
+  "Interdictor Combat": [
+    "interdictor-combat-refit"
+  ],
+  "Onager-Class Star Destroyer": [
+    "onager-class-star-destroyer"
+  ],
+  "Onager": [
+    "onager-class-star-destroyer",
+    "onager-class-testbed"
+  ],
+  "Onager Star Destroyer": [
+    "onager-class-star-destroyer"
+  ],
+  "Onager-Class Testbed": [
+    "onager-class-testbed"
+  ],
+  "Onager Testbed": [
+    "onager-class-testbed"
+  ],
+  "Testbed": [
+    "onager-class-testbed",
+    "subjugator-class-testbed-legends"
+  ],
+  "Quasar Fire I-class Cruiser-Carrier": [
+    "quasar-fire-i-class-cruiser-carrier"
+  ],
+  "Quasar Fire": [
+    "quasar-fire-i-class-cruiser-carrier"
+  ],
+  "Quasar Fire Carrier": [
+    "quasar-fire-i-class-cruiser-carrier"
+  ],
+  "Quasar": [
+    "quasar-fire-i-class-cruiser-carrier",
+    "quasar-fire-ii-class-cruiser-carrier"
+  ],
+  "Quasar I": [
+    "quasar-fire-i-class-cruiser-carrier"
+  ],
+  "Quasar Fire II-class Cruiser-Carrier": [
+    "quasar-fire-ii-class-cruiser-carrier"
+  ],
+  "Quasar Fire II": [
+    "quasar-fire-ii-class-cruiser-carrier"
+  ],
+  "Quasar Fire Carrier II": [
+    "quasar-fire-ii-class-cruiser-carrier"
+  ],
+  "Quasar II": [
+    "quasar-fire-ii-class-cruiser-carrier"
+  ],
+  "Raider I-class Corvette": [
+    "raider-i-class-corvette"
+  ],
+  "Raider": [
+    "raider-i-class-corvette",
+    "raider-ii-class-corvette"
+  ],
+  "Raider I": [
+    "raider-i-class-corvette"
+  ],
+  "Raider 1": [
+    "raider-i-class-corvette"
+  ],
+  "Raider II-class Corvette": [
+    "raider-ii-class-corvette"
+  ],
+  "Raider II": [
+    "raider-ii-class-corvette"
+  ],
+  "Raider 2": [
+    "raider-ii-class-corvette"
+  ],
+  "Executor I-class Star Dreadnought": [
+    "executor-i-class-star-dreadnought"
+  ],
+  "Executor": [
+    "executor-i-class-star-dreadnought",
+    "executor-ii-class-star-dreadnought",
+    "executor-title"
+  ],
+  "Executor I": [
+    "executor-i-class-star-dreadnought"
+  ],
+  "Executor 1": [
+    "executor-i-class-star-dreadnought"
+  ],
+  "SSD": [
+    "executor-i-class-star-dreadnought",
+    "executor-ii-class-star-dreadnought",
+    "star-dreadnought-assault-prototype",
+    "star-dreadnought-command-prototype"
+  ],
+  "Super Star Destroyer": [
+    "executor-i-class-star-dreadnought",
+    "executor-ii-class-star-dreadnought",
+    "star-dreadnought-assault-prototype",
+    "star-dreadnought-command-prototype"
+  ],
+  "Executor II-class Star Dreadnought": [
+    "executor-ii-class-star-dreadnought"
+  ],
+  "Executor II": [
+    "executor-ii-class-star-dreadnought"
+  ],
+  "Executor 2": [
+    "executor-ii-class-star-dreadnought"
+  ],
+  "Star Dreadnought Assault Prototype": [
+    "star-dreadnought-assault-prototype"
+  ],
+  "Star Dreadnought": [
+    "star-dreadnought-assault-prototype",
+    "star-dreadnought-command-prototype"
+  ],
+  "Star Dreadnought Assault": [
+    "star-dreadnought-assault-prototype"
+  ],
+  "Star Dreadnought Command Prototype": [
+    "star-dreadnought-command-prototype"
+  ],
+  "Star Dreadnought Command": [
+    "star-dreadnought-command-prototype"
+  ],
+  "Venator II-Class Star Destroyer": [
+    "venator-ii-class-star-destroyer-empire"
+  ],
+  "Venator": [
+    "venator-ii-class-star-destroyer-empire",
+    "venator-i-class-star-destroyer",
+    "venator-ii-class-star-destroyer"
+  ],
+  "Venator II": [
+    "venator-ii-class-star-destroyer-empire",
+    "venator-ii-class-star-destroyer"
+  ],
+  "Venator 2": [
+    "venator-ii-class-star-destroyer-empire",
+    "venator-ii-class-star-destroyer"
+  ],
+  "Victory I-Class Star Destroyer": [
+    "victory-i-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Victory": [
+    "victory-i-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Victory I": [
+    "victory-i-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Victory 1": [
+    "victory-i-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Victory II-Class Star Destroyer": [
+    "victory-ii-class-star-destroyer",
+    "victory-ii-class-star-destroyer-errata-old-legacy"
+  ],
+  "Assault Frigate Mark II A": [
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-a-errata-old-legacy"
+  ],
+  "Assault Frigate": [
+    "assault-frigate-mark-ii-a"
+  ],
+  "Assault Frigate Mark II": [
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-b"
+  ],
+  "Assault Frigate 2": [
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-b"
+  ],
+  "AF": [
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-b"
+  ],
+  "AFMk2": [
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-b"
+  ],
+  "AFMk2A": [
+    "assault-frigate-mark-ii-a"
+  ],
+  "Assault Frigate Mark II B": [
+    "assault-frigate-mark-ii-b"
+  ],
+  "AFMk2B": [
+    "assault-frigate-mark-ii-b"
+  ],
+  "CR90 Corvette A": [
+    "cr90-corvette-a"
+  ],
+  "CR90": [
+    "cr90-corvette-a",
+    "cr90-corvette-b"
+  ],
+  "CR-90": [
+    "cr90-corvette-a",
+    "cr90-corvette-b"
+  ],
+  "CR90 Corvette": [
+    "cr90-corvette-a",
+    "cr90-corvette-b"
+  ],
+  "CR90A": [
+    "cr90-corvette-a"
+  ],
+  "CR-90A": [
+    "cr90-corvette-a"
+  ],
+  "CR90 Corvette B": [
+    "cr90-corvette-b"
+  ],
+  "CR90B": [
+    "cr90-corvette-b"
+  ],
+  "CR-90B": [
+    "cr90-corvette-b"
+  ],
+  "GR-75 Combat Retrofits": [
+    "gr75-combat-retrofits"
+  ],
+  "GR75": [
+    "gr75-combat-retrofits",
+    "gr75-medium-transports"
+  ],
+  "GR75 Combat": [
+    "gr75-combat-retrofits"
+  ],
+  "GR-75": [
+    "gr75-combat-retrofits",
+    "gr75-medium-transports"
+  ],
+  "GR-75 Medium Transports": [
+    "gr75-medium-transports"
+  ],
+  "GR75 Medium": [
+    "gr75-medium-transports"
+  ],
+  "GR-75 Medium": [
+    "gr75-medium-transports"
+  ],
+  "Hammerhead Torpedo Corvette": [
+    "hammerhead-torpedo-corvette"
+  ],
+  "Hammerhead": [
+    "hammerhead-torpedo-corvette",
+    "hammerhead-scout-corvette"
+  ],
+  "Hammerhead Corvette": [
+    "hammerhead-torpedo-corvette",
+    "hammerhead-scout-corvette"
+  ],
+  "Torpedo Corvette": [
+    "hammerhead-torpedo-corvette"
+  ],
+  "Hammerhead Scout Corvette": [
+    "hammerhead-scout-corvette"
+  ],
+  "Scout Corvette": [
+    "hammerhead-scout-corvette"
+  ],
+  "MC30c Scout Frigate": [
+    "mc30c-scout-frigate"
+  ],
+  "MC30c": [
+    "mc30c-scout-frigate",
+    "mc30c-torpedo-frigate"
+  ],
+  "MC30c Frigate": [
+    "mc30c-scout-frigate",
+    "mc30c-torpedo-frigate"
+  ],
+  "MC30c Scout": [
+    "mc30c-scout-frigate"
+  ],
+  "MC30": [
+    "mc30c-scout-frigate",
+    "mc30c-torpedo-frigate"
+  ],
+  "MC-30c": [
+    "mc30c-scout-frigate",
+    "mc30c-torpedo-frigate"
+  ],
+  "MC-30": [
+    "mc30c-scout-frigate",
+    "mc30c-torpedo-frigate"
+  ],
+  "MC30c Torpedo Frigate": [
+    "mc30c-torpedo-frigate"
+  ],
+  "MC30c Torpedo": [
+    "mc30c-torpedo-frigate"
+  ],
+  "MC75 Armored Cruiser": [
+    "mc75-armored-cruiser"
+  ],
+  "MC75": [
+    "mc75-armored-cruiser",
+    "mc75-ordnance-cruiser"
+  ],
+  "MC-75": [
+    "mc75-armored-cruiser",
+    "mc75-ordnance-cruiser"
+  ],
+  "MC75 Armored": [
+    "mc75-armored-cruiser"
+  ],
+  "MC-75 Armored": [
+    "mc75-armored-cruiser"
+  ],
+  "MC75 Ordnance Cruiser": [
+    "mc75-ordnance-cruiser"
+  ],
+  "MC75 Ordnance": [
+    "mc75-ordnance-cruiser"
+  ],
+  "MC-75 Ordnance": [
+    "mc75-ordnance-cruiser"
+  ],
+  "MC80 Assault Cruiser": [
+    "mc80h-assault-cruiser"
+  ],
+  "MC80": [
+    "mc80h-assault-cruiser",
+    "mc80h-command-cruiser",
+    "mc80l-star-cruiser",
+    "mc80l-battle-cruiser"
+  ],
+  "MC-80": [
+    "mc80h-assault-cruiser",
+    "mc80h-command-cruiser",
+    "mc80l-star-cruiser",
+    "mc80l-battle-cruiser"
+  ],
+  "MC80H": [
+    "mc80h-assault-cruiser",
+    "mc80h-command-cruiser"
+  ],
+  "MC-80H": [
+    "mc80h-assault-cruiser",
+    "mc80h-command-cruiser"
+  ],
+  "MC80 Assault": [
+    "mc80h-assault-cruiser"
+  ],
+  "MC-80 Assault": [
+    "mc80h-assault-cruiser"
+  ],
+  "MC80 Command Cruiser": [
+    "mc80h-command-cruiser"
+  ],
+  "MC80 Command": [
+    "mc80h-command-cruiser"
+  ],
+  "MC-80 Command": [
+    "mc80h-command-cruiser"
+  ],
+  "MC80 Star Cruiser": [
+    "mc80l-star-cruiser"
+  ],
+  "MC80 Star": [
+    "mc80l-star-cruiser"
+  ],
+  "MC-80 Star": [
+    "mc80l-star-cruiser"
+  ],
+  "MC80L": [
+    "mc80l-star-cruiser",
+    "mc80l-battle-cruiser"
+  ],
+  "MC-80L": [
+    "mc80l-star-cruiser",
+    "mc80l-battle-cruiser"
+  ],
+  "Liberty": [
+    "mc80l-star-cruiser",
+    "mc80l-battle-cruiser",
+    "liberty-title"
+  ],
+  "MC80 Battle Cruiser": [
+    "mc80l-battle-cruiser"
+  ],
+  "MC80 Battle": [
+    "mc80l-battle-cruiser"
+  ],
+  "Modified Pelta-class Assault Ship": [
+    "modified-pelta-class-assault-ship"
+  ],
+  "Modified Pelta": [
+    "modified-pelta-class-assault-ship",
+    "modified-pelta-class-command-ship"
+  ],
+  "Modified Pelta-class": [
+    "modified-pelta-class-assault-ship",
+    "modified-pelta-class-command-ship"
+  ],
+  "MP": [
+    "modified-pelta-class-assault-ship",
+    "modified-pelta-class-command-ship"
+  ],
+  "Pelta Assault": [
+    "modified-pelta-class-assault-ship"
+  ],
+  "Modified Pelta-class Command Ship": [
+    "modified-pelta-class-command-ship"
+  ],
+  "Pelta Command": [
+    "modified-pelta-class-command-ship"
+  ],
+  "Nebulon-B Escort Frigate": [
+    "nebulon-b-escort-frigate"
+  ],
+  "Nebulon-B": [
+    "nebulon-b-escort-frigate",
+    "nebulon-b-support-refit"
+  ],
+  "Nebulon-B Escort": [
+    "nebulon-b-escort-frigate"
+  ],
+  "Nebulon-B Frigate": [
+    "nebulon-b-escort-frigate"
+  ],
+  "Neb-B": [
+    "nebulon-b-escort-frigate",
+    "nebulon-b-support-refit"
+  ],
+  "Neb B": [
+    "nebulon-b-escort-frigate",
+    "nebulon-b-support-refit"
+  ],
+  "Nebulon-B Support Refit": [
+    "nebulon-b-support-refit"
+  ],
+  "Nebulon-B Support": [
+    "nebulon-b-support-refit"
+  ],
+  "Providence-class Carrier": [
+    "providence-class-carrier-rebel",
+    "providence-class-carrier"
+  ],
+  "Providence": [
+    "providence-class-carrier-rebel",
+    "providence-class-dreadnought",
+    "providence-class-carrier"
+  ],
+  "Providence-class": [
+    "providence-class-carrier-rebel",
+    "providence-class-dreadnought",
+    "providence-class-carrier"
+  ],
+  "Prov": [
+    "providence-class-carrier-rebel",
+    "providence-class-dreadnought",
+    "providence-class-carrier"
+  ],
+  "Rebel Prov": [
+    "providence-class-carrier-rebel"
+  ],
+  "Rebel One": [
+    "providence-class-carrier-rebel",
+    "rebel-one-title"
+  ],
+  "Rebel 1": [
+    "providence-class-carrier-rebel",
+    "rebel-one-title"
+  ],
+  "Starhawk-class Battleship Mark I": [
+    "starhawk-class-battleship-mark-i"
+  ],
+  "Starhawk": [
+    "starhawk-class-battleship-mark-i",
+    "starhawk-class-battleship-mark-ii"
+  ],
+  "Starhawk-class": [
+    "starhawk-class-battleship-mark-i",
+    "starhawk-class-battleship-mark-ii"
+  ],
+  "Starhawk Mark I": [
+    "starhawk-class-battleship-mark-i"
+  ],
+  "Starhawk Mark-I": [
+    "starhawk-class-battleship-mark-i"
+  ],
+  "Starhawk-class Battleship Mark II": [
+    "starhawk-class-battleship-mark-ii"
+  ],
+  "Starhawk Mark II": [
+    "starhawk-class-battleship-mark-ii"
+  ],
+  "Starhawk Mark-II": [
+    "starhawk-class-battleship-mark-ii"
+  ],
+  "Acclamator I-class Assault Ship": [
+    "acclamator-i-class-assault-ship"
+  ],
+  "Acclamator": [
+    "acclamator-i-class-assault-ship",
+    "acclamator-ii-class-assault-ship"
+  ],
+  "Acclamator-class": [
+    "acclamator-i-class-assault-ship",
+    "acclamator-ii-class-assault-ship"
+  ],
+  "Acclamator I": [
+    "acclamator-i-class-assault-ship"
+  ],
+  "Acclamator-I": [
+    "acclamator-i-class-assault-ship"
+  ],
+  "Acclamator 1": [
+    "acclamator-i-class-assault-ship"
+  ],
+  "Acclamator II-class Assault Ship": [
+    "acclamator-ii-class-assault-ship"
+  ],
+  "Acclamator II": [
+    "acclamator-ii-class-assault-ship"
+  ],
+  "Acclamator-II": [
+    "acclamator-ii-class-assault-ship"
+  ],
+  "Acclamator 2": [
+    "acclamator-ii-class-assault-ship"
+  ],
+  "Consular-class Armed Cruiser": [
+    "consular-class-armed-cruiser"
+  ],
+  "Consular": [
+    "consular-class-armed-cruiser",
+    "consular-class-charger-c70"
+  ],
+  "Consular-class": [
+    "consular-class-armed-cruiser",
+    "consular-class-charger-c70"
+  ],
+  "Consular Armed": [
+    "consular-class-armed-cruiser"
+  ],
+  "Consular-class Charger c70": [
+    "consular-class-charger-c70"
+  ],
+  "Consular Charger": [
+    "consular-class-charger-c70"
+  ],
+  "Consular-class Charger": [
+    "consular-class-charger-c70"
+  ],
+  "C70": [
+    "consular-class-charger-c70"
+  ],
+  "C-70": [
+    "consular-class-charger-c70"
+  ],
+  "Pelta-class Medical Frigate": [
+    "pelta-class-medical-frigate"
+  ],
+  "Pelta": [
+    "pelta-class-medical-frigate",
+    "pelta-class-transport-frigate"
+  ],
+  "Pelta-class": [
+    "pelta-class-medical-frigate",
+    "pelta-class-transport-frigate"
+  ],
+  "Pelta Medical": [
+    "pelta-class-medical-frigate"
+  ],
+  "Pelta-class Medical": [
+    "pelta-class-medical-frigate"
+  ],
+  "Pelta-class Transport Frigate": [
+    "pelta-class-transport-frigate"
+  ],
+  "Pelta Transport": [
+    "pelta-class-transport-frigate"
+  ],
+  "Pelta-class Transport": [
+    "pelta-class-transport-frigate"
+  ],
+  "Venator I-class Star Destroyer": [
+    "venator-i-class-star-destroyer"
+  ],
+  "Venator-class": [
+    "venator-i-class-star-destroyer",
+    "venator-ii-class-star-destroyer"
+  ],
+  "Venator 1": [
+    "venator-i-class-star-destroyer"
+  ],
+  "Venator-1": [
+    "venator-i-class-star-destroyer"
+  ],
+  "Venator-I": [
+    "venator-i-class-star-destroyer"
+  ],
+  "Venator I": [
+    "venator-i-class-star-destroyer"
+  ],
+  "Venator II-class Star Destroyer": [
+    "venator-ii-class-star-destroyer"
+  ],
+  "Venator-class Star Destroyer": [
+    "venator-ii-class-star-destroyer"
+  ],
+  "Venator-2": [
+    "venator-ii-class-star-destroyer"
+  ],
+  "Venator-II": [
+    "venator-ii-class-star-destroyer"
+  ],
+  "Victory-class": [
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Victory-class Star Destroyer": [
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Victory-1": [
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Victory-I": [
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "Gozanti-class": [
+    "gozanti-class-cruisers-separatist"
+  ],
+  "Gozanti-class Cruiser": [
+    "gozanti-class-cruisers-separatist"
+  ],
+  "Gozer": [
+    "gozanti-class-cruisers-separatist"
+  ],
+  "Seppy Gozanti": [
+    "gozanti-class-cruisers-separatist"
+  ],
+  "Hardcell-class Transport": [
+    "hardcell-class-transport"
+  ],
+  "Hardcell": [
+    "hardcell-class-transport",
+    "hardcell-class-battle-refit"
+  ],
+  "Hardcell-class": [
+    "hardcell-class-transport",
+    "hardcell-class-battle-refit"
+  ],
+  "Hardcell Transport": [
+    "hardcell-class-transport"
+  ],
+  "Hardcell-class Battle Refit": [
+    "hardcell-class-battle-refit"
+  ],
+  "Hardcell Battle": [
+    "hardcell-class-battle-refit"
+  ],
+  "Hardcell-class Battle": [
+    "hardcell-class-battle-refit"
+  ],
+  "Munificent-class Star Frigate": [
+    "munificent-class-star-frigate"
+  ],
+  "Munificent": [
+    "munificent-class-star-frigate",
+    "munificent-class-comms-frigate"
+  ],
+  "Munificent-class": [
+    "munificent-class-star-frigate",
+    "munificent-class-comms-frigate"
+  ],
+  "Munificent Star": [
+    "munificent-class-star-frigate"
+  ],
+  "Munificent-class Star": [
+    "munificent-class-star-frigate"
+  ],
+  "Moony": [
+    "munificent-class-star-frigate",
+    "munificent-class-comms-frigate"
+  ],
+  "Muni": [
+    "munificent-class-star-frigate",
+    "munificent-class-comms-frigate"
+  ],
+  "Star Frigate": [
+    "munificent-class-star-frigate"
+  ],
+  "Munificent-class Comms Frigate": [
+    "munificent-class-comms-frigate"
+  ],
+  "Munificent Comms": [
+    "munificent-class-comms-frigate"
+  ],
+  "Munificent-class Comms": [
+    "munificent-class-comms-frigate"
+  ],
+  "Comms Frigate": [
+    "munificent-class-comms-frigate"
+  ],
+  "Providence-class Dreadnought": [
+    "providence-class-dreadnought"
+  ],
+  "Dreadnought": [
+    "providence-class-dreadnought"
+  ],
+  "Carrier": [
+    "providence-class-carrier"
+  ],
+  "Recusant-class Light Destroyer": [
+    "recusant-class-light-destroyer"
+  ],
+  "Recusant": [
+    "recusant-class-light-destroyer",
+    "recusant-class-support-destroyer"
+  ],
+  "Recusant-class": [
+    "recusant-class-light-destroyer",
+    "recusant-class-support-destroyer"
+  ],
+  "Recusant Light": [
+    "recusant-class-light-destroyer"
+  ],
+  "Recusant-class Light": [
+    "recusant-class-light-destroyer"
+  ],
+  "Recusant Destroyer": [
+    "recusant-class-light-destroyer",
+    "recusant-class-support-destroyer"
+  ],
+  "Recusant-class Destroyer": [
+    "recusant-class-light-destroyer",
+    "recusant-class-support-destroyer"
+  ],
+  "Rec": [
+    "recusant-class-light-destroyer",
+    "recusant-class-support-destroyer"
+  ],
+  "Recusant-class Support Destroyer": [
+    "recusant-class-support-destroyer"
+  ],
+  "Recusant Support": [
+    "recusant-class-support-destroyer"
+  ],
+  "Recusant-class Support": [
+    "recusant-class-support-destroyer"
+  ],
   "Aggressor Assault Fighter": [
     "aggressor-assault-fighter"
   ],
@@ -2486,9 +3357,6 @@
   "Sovereign": [
     "sovereign-title"
   ],
-  "Interdictor": [
-    "interdictor-title"
-  ],
   "Cataclysm": [
     "cataclysm-title"
   ],
@@ -2528,9 +3396,6 @@
   ],
   "Eclipse": [
     "eclipse-title"
-  ],
-  "Executor": [
-    "executor-title"
   ],
   "Ravager": [
     "ravager-title"
@@ -2646,9 +3511,6 @@
   ],
   "Endeavor": [
     "endeavor-title"
-  ],
-  "Liberty": [
-    "liberty-title"
   ],
   "Mon Karren": [
     "mon-karren-title"
@@ -3237,6 +4099,126 @@
   "VD": [
     "volatile-deposits"
   ],
+  "Adamant-class Light Carrier": [
+    "adamant-carrier-bsg-legends"
+  ],
+  "Adamant-class Light Frigate": [
+    "adamant-frigate-bsg-legends"
+  ],
+  "Jupiter-class Battlestar Mark I": [
+    "jupiter-class-battlestar-mk1-bsg-legends"
+  ],
+  "Jupiter-class Battlestar Mark II": [
+    "jupiter-class-battlestar-mk2-bsg-legends"
+  ],
+  "Manticore-class Attack Corvette": [
+    "manticore-attack-bsg-legends"
+  ],
+  "Manticore-class Patrol Corvette": [
+    "manticore-patrol-bsg-legends"
+  ],
+  "Minotaur-class Heavy Assault Cruiser": [
+    "minotaur-assault-bsg-legends"
+  ],
+  "Minotaur-class Heavy Command Cruiser": [
+    "minotaur-command-bsg-legends"
+  ],
+  "CCS-class Command Cruiser": [
+    "ccs-class-command-cruiser-halo-legends"
+  ],
+  "CCS-class Battle Cruiser": [
+    "ccs-class-battle-cruiser-halo-legends"
+  ],
+  "SDV-class Assault Corvette": [
+    "sdv-class-assault-corvette-halo-legends"
+  ],
+  "SDV-class Heavy Corvette": [
+    "sdv-class-heavy-corvette-halo-legends"
+  ],
+  "Arachne Carrier Cruiser": [
+    "arachne-carrier-bsg-legends"
+  ],
+  "Arachne Missile Cruiser": [
+    "arachne-missile-bsg-legends"
+  ],
+  "Nemesis Attack Corvette": [
+    "nemesis-attack-bsg-legends"
+  ],
+  "Nemesis Tech Corvette": [
+    "nemesis-tech-bsg-legends"
+  ],
+  "Talon Light Carrier": [
+    "talon-carrier-bsg-legends"
+  ],
+  "Talon Light Frigate": [
+    "talon-frigate-bsg-legends"
+  ],
+  "War Basestar Mk.1": [
+    "war-basestar-mk1-bsg-legends"
+  ],
+  "War Basestar Mk.2": [
+    "war-basestar-mk2-bsg-legends"
+  ],
+  "Dreadnaught-class Heavy Cruiser": [
+    "dreadnaught-class-heavy-cruiser-republic-legends"
+  ],
+  "Heavy Cruiser": [
+    "dreadnaught-class-heavy-cruiser-republic-legends",
+    "subjugator-class-heavy-cruiser-legends"
+  ],
+  "Dreadnaught": [
+    "dreadnaught-class-heavy-cruiser-republic-legends"
+  ],
+  "Dreadnaught-class Judicial Fleet": [
+    "dreadnaught-class-judicial-fleet-legends"
+  ],
+  "Subjugator-class Prototype": [
+    "subjugator-class-prototype-legends"
+  ],
+  "Subjugator Prototype": [
+    "subjugator-class-prototype-legends"
+  ],
+  "Prototype": [
+    "subjugator-class-prototype-legends"
+  ],
+  "Subjugator": [
+    "subjugator-class-prototype-legends",
+    "subjugator-class-testbed-legends",
+    "subjugator-class-heavy-cruiser-legends",
+    "subjugator-title-legends"
+  ],
+  "Subjugator-class Testbed": [
+    "subjugator-class-testbed-legends"
+  ],
+  "Subjugator Testbed": [
+    "subjugator-class-testbed-legends"
+  ],
+  "Subjugator-class Heavy Cruiser": [
+    "subjugator-class-heavy-cruiser-legends"
+  ],
+  "Subjugator Heavy Cruiser": [
+    "subjugator-class-heavy-cruiser-legends"
+  ],
+  "Malevolence": [
+    "subjugator-class-heavy-cruiser-legends",
+    "malevolence-title-legends"
+  ],
+  "Halcyon-class Battle Refit": [
+    "halcyon-battle-halo-legends"
+  ],
+  "Halcyon-class Light Cruiser": [
+    "halcyon-light-halo-legends"
+  ],
+  "Paris-class Heavy Frigate": [
+    "paris-heavy-halo-legends"
+  ],
+  "Paris-class Missile Frigate": [
+    "paris-missile-halo-legends"
+  ],
+  "Stalwart-class Escort Frigate": [
+    "stalwart-escort-halo-legends",
+    "stalwart-light-halo-legends"
+  ],
   "Assault Raptor Squadron": [
     "assault-raptor-squadron-bsg-legends",
     "assault-raptor-racetrack-bsg-legends"
@@ -3546,23 +4528,92 @@
   "UNSC Gunners": [
     "unsc-gunners-halo-legends"
   ],
+  "External Droid Storage": [
+    "external-droid-storage"
+  ],
+  "Flak Officer": [
+    "flak-officer"
+  ],
   "Ion Pulse Emitter": [
+    "ion-pulse-emitter-legends"
+  ],
+  "IPE": [
+    "ion-pulse-emitter-legends"
+  ],
+  "Pulse Emitter": [
     "ion-pulse-emitter-legends"
   ],
   "Ionic Plasma Rotors": [
     "ionic-plasma-rotors-legends"
   ],
+  "IPR": [
+    "ionic-plasma-rotors-legends"
+  ],
+  "Plasma Rotors": [
+    "ionic-plasma-rotors-legends"
+  ],
   "Kyber Beam Cannon": [
+    "kyber-beam-cannon-legends"
+  ],
+  "KBC": [
+    "kyber-beam-cannon-legends"
+  ],
+  "Beam Cannon": [
     "kyber-beam-cannon-legends"
   ],
   "Devastation": [
     "devastation-title-legends"
   ],
-  "Subjugator": [
-    "subjugator-title-legends"
+  "AT-TE Assault Brigade": [
+    "at-te-assault-brigade"
   ],
-  "Malevolence": [
-    "malevolence-title-legends"
+  "AT-TE": [
+    "at-te-assault-brigade"
+  ],
+  "AT-TEs": [
+    "at-te-assault-brigade"
+  ],
+  "Dreadnaught-class Katana Refit": [
+    "dreadnaught-class-katana-refit-old-legacy"
+  ],
+  "Dreadnaught-class Imperial Refit": [
+    "dreadnaught-class-imperial-refit-old-legacy"
+  ],
+  "Interdictor-class Prototype": [
+    "interdictor-class-prototype-old-legacy"
+  ],
+  "Interdictor-class Star Destroyer": [
+    "interdictor-class-star-destroyer-old-legacy"
+  ],
+  "Assault Frigate Mark IA": [
+    "assault-frigate-mark-i-a-old-legacy"
+  ],
+  "Assault Frigate Mark IB": [
+    "assault-frigate-mark-i-b-old-legacy"
+  ],
+  "MC80B Command Cruiser": [
+    "mc80b-command-cruiser-old-legacy"
+  ],
+  "MC80B Heavy Cruiser": [
+    "mc80b-heavy-cruiser-old-legacy"
+  ],
+  "IPV-2C Stealth Corvette": [
+    "ipv-2c-stealth-corvette-old-legacy"
+  ],
+  "IPV-2C Support Corvette": [
+    "ipv-2c-support-corvette-old-legacy"
+  ],
+  "Lucrehulk-class Battleship": [
+    "lucrehulk-class-battleship-old-legacy"
+  ],
+  "Lucrehulk-class Droid Control Ship": [
+    "lucrehulk-class-droid-control-ship-old-legacy"
+  ],
+  "Trident-class Assault Carriers": [
+    "trident-class-assault-carriers-old-legacy"
+  ],
+  "Trident-class Assault Ships": [
+    "trident-class-assault-ships-old-legacy"
   ],
   "Turr Phennir": [
     "turr-phennir-tie-interceptor-squadron-old-legacy"

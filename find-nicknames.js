@@ -41,37 +41,54 @@ function processNicknames(directory) {
     } else if (file.endsWith('.json')) {
       try {
         const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-        
-        // For each top-level key in the JSON file
-        Object.entries(data).forEach(([category, content]) => {
-          if (typeof content === 'object') {
-            Object.entries(content).forEach(([itemKey, itemData]) => {
+        const topLevelKey = Object.keys(data)[0];
+
+        Object.entries(data[topLevelKey]).forEach(([itemKey, itemData]) => {
+          if (topLevelKey === 'ships') {
+            // Handle ships which have models
+            Object.entries(itemData.models).forEach(([modelKey, modelData]) => {
               const nicknames = new Set();
               
-              // Add the main name if it exists
-              if (itemData.name) {
-                nicknames.add(itemData.name);
+              if (modelData.name) {
+                nicknames.add(modelData.name);
               }
               
-              // Add ace-name if it exists
-              if (itemData['ace-name']) {
-                nicknames.add(itemData['ace-name']);
+              if (Array.isArray(modelData.nicknames)) {
+                modelData.nicknames.forEach(nickname => nicknames.add(nickname));
               }
-              
-              // Add all nicknames from the nicknames array
-              if (Array.isArray(itemData.nicknames)) {
-                itemData.nicknames.forEach(nickname => nicknames.add(nickname));
-              }
-              
-              // Process each nickname
+
               nicknames.forEach(nickname => {
                 if (!nicknameMap[nickname]) {
                   nicknameMap[nickname] = [];
                 }
-                if (!nicknameMap[nickname].includes(itemKey)) {
-                  nicknameMap[nickname].push(itemKey);
+                if (!nicknameMap[nickname].includes(modelKey)) {
+                  nicknameMap[nickname].push(modelKey);
                 }
               });
+            });
+          } else {
+            // Handle other types (squadrons, upgrades, objectives)
+            const nicknames = new Set();
+            
+            if (itemData.name) {
+              nicknames.add(itemData.name);
+            }
+            
+            if (itemData['ace-name']) {
+              nicknames.add(itemData['ace-name']);
+            }
+            
+            if (Array.isArray(itemData.nicknames)) {
+              itemData.nicknames.forEach(nickname => nicknames.add(nickname));
+            }
+            
+            nicknames.forEach(nickname => {
+              if (!nicknameMap[nickname]) {
+                nicknameMap[nickname] = [];
+              }
+              if (!nicknameMap[nickname].includes(itemKey)) {
+                nicknameMap[nickname].push(itemKey);
+              }
             });
           }
         });
@@ -96,12 +113,34 @@ Object.values(directories).forEach(directory => {
 
 // Create the directory if it doesn't exist
 const outputDir = path.join(__dirname, 'src', 'discord', 'public');
+console.log('Creating output directory:', outputDir);
+
 if (!fs.existsSync(outputDir)) {
+  console.log('Directory does not exist, creating...');
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// Write the result to a file
-fs.writeFileSync(
-  path.join(outputDir, 'nickname-map.json'),
-  JSON.stringify(nicknameMap, null, 2)
-); 
+const outputPath = path.join(outputDir, 'nickname-map.json');
+console.log('Writing to:', outputPath);
+
+try {
+  // Delete the existing file if it exists
+  if (fs.existsSync(outputPath)) {
+    console.log('Deleting existing nickname map...');
+    fs.unlinkSync(outputPath);
+  }
+
+  // Write the result to a file
+  fs.writeFileSync(outputPath, JSON.stringify(nicknameMap, null, 2));
+  console.log('Successfully wrote nickname map with', Object.keys(nicknameMap).length, 'entries');
+  
+  // Verify the file was written
+  const stats = fs.statSync(outputPath);
+  console.log('File size:', stats.size, 'bytes');
+  
+  // Read back the first few entries to verify content
+  const verification = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+  console.log('Sample entries:', Object.entries(verification).slice(0, 3));
+} catch (error) {
+  console.error('Error writing nickname map:', error);
+} 
