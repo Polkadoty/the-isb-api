@@ -75,7 +75,7 @@
                   "artwork": "",
                   "cardimage": "https://api.swarmada.wiki/images/dreadnaught-class-heavy-cruiser-republic-legends.webp"
               },
-              "dreadnaught-class-judicial-fleet-republic-legends": {
+              "dreadnaught-class-judicial-cruiser-republic-legends": {
                   "author": "Armada Legends",
                   "alias": "Legends",
                   "team": "Armada Legends",
@@ -84,14 +84,14 @@
                   "_id": null,
                   "type": "ship",
                   "chassis": "dreadnaught-class-republic-legends",
-                  "name": "Dreadnaught-class Judicial Fleet",
+                  "name": "Dreadnaught-class Judicial Cruiser",
                   "nicknames": [
-                    "Dreadnaught-class Judicial Fleet", "Judicial Fleet", "Dreadnaught", "Dreadnought", "Dreadnaught Judicial Fleet"
+                    "Dreadnaught-class Judicial Cruiser", "Judicial Cruiser", "Dreadnaught", "Dreadnought", "Dreadnaught Judicial Cruiser"
                   ],
                   "faction": "republic",
                   "unique": false,
                   "traits": [""],
-                  "points": 62,
+                  "points": 55,
                   "tokens": {
                       "def_scatter": 0,
                       "def_evade": 0,
@@ -117,7 +117,7 @@
                       "special": [0, 0, 0]
                   },
                   "artwork": "",
-                  "cardimage": "https://api.swarmada.wiki/images/dreadnaught-class-judicial-fleet-republic-legends.webp"
+                  "cardimage": "https://api.swarmada.wiki/images/dreadnaught-class-judicial-cruiser-republic-legends.webp"
               }
           }
       }
