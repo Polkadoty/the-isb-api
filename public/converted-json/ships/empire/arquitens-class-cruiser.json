@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Light Cruiser",
+          "nicknames": [
+            "Arquitens", "Arquitens Light"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -131,6 +134,9 @@
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Command Cruiser",
+          "nicknames": [
+            "Arquitens", "Arquitens Command"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [

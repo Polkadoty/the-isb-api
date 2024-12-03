@@ -9,6 +9,9 @@
       "_id": null,
       "type": "assault",
       "name": "Ion Storm",
+      "nicknames": [
+        "Ion Storm", "IS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -42,6 +45,9 @@
       "_id": null,
       "type": "assault",
       "name": "Marked for Destruction",
+      "nicknames": [
+        "Marked for Destruction", "MFD"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -76,6 +82,9 @@
       "_id": null,
       "type": "assault",
       "name": "Rift Assault",
+      "nicknames": [
+        "Rift Assault", "RA", "Rift"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -110,6 +119,9 @@
       "_id": null,
       "type": "assault",
       "name": "Surprise Attack",
+      "nicknames": [
+        "Surprise Attack", "SA"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

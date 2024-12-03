@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "nebulon-b-frigate",
           "name": "Nebulon-B Escort Frigate",
+          "nicknames": [
+            "Nebulon-B", "Nebulon-B Escort", "Nebulon-B Frigate", "Neb-B", "Neb B"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [],
@@ -129,6 +132,9 @@
           "type": "ship",
           "chassis": "nebulon-b-frigate",
           "name": "Nebulon-B Support Refit",
+          "nicknames": [
+            "Nebulon-B", "Nebulon-B Support", "Neb-B", "Neb B"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [],

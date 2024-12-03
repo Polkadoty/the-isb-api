@@ -58,6 +58,7 @@ app.use('/aliases', aliasRoutes);
 app.use('/image-links', imageLinksRoutes);
 app.use('/arc', arcRoutes);
 app.use('/errata-keys', errataKeysRoutes);
+// app.use('/nicknames', nicknameRoutes);
 
 app.use(errorHandler);
 

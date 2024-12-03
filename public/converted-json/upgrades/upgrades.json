@@ -6,12 +6,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "a68e5a22-2937-4ad4-822b-03b255a0bd3d",
+      "_id": "adb0948d-49f0-41f8-8b63-643f3b92ada0",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "Admiral Ackbar",
+      "nicknames": [
+        "Ackbar"
+      ],
       "unique-class": [
         "Admiral Ackbar"
       ],
@@ -61,12 +64,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "42725a9b-f177-41d4-999b-c667a06fc222",
+      "_id": "774f4a0c-d8e7-4309-98e4-e0ea48cf1b5e",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Admiral Konstantine",
+      "nicknames": [
+        "Konstantine"
+      ],
       "unique-class": [
         "Admiral Konstantine"
       ],
@@ -116,12 +122,15 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "f078bc74-2b2c-4b90-92bb-eb4aed7775c3",
+      "_id": "c25bc837-58c9-425f-8df9-f940266413a0",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Admiral Motti",
+      "nicknames": [
+        "Motti"
+      ],
       "unique-class": [
         "Admiral Motti"
       ],
@@ -171,12 +180,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "c389ac57-3958-4a9e-8616-73220be5425f",
+      "_id": "4d4afda9-3811-4a8c-8573-0571412b130c",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Admiral Ozzel",
+      "nicknames": [
+        "Ozzel"
+      ],
       "unique-class": [
         "Admiral Ozzel"
       ],
@@ -226,12 +238,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "7d9b25bf-46cc-4bea-bd62-7dba0a5238cc",
+      "_id": "dd21d8ad-1821-46b8-ad99-a1f65268e1c2",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Admiral Piett",
+      "nicknames": [
+        "Piett"
+      ],
       "unique-class": [
         "Admiral Piett"
       ],
@@ -281,12 +296,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "570ac473-7d75-4c1a-a9e4-43fbc2eac5c1",
+      "_id": "02089a3f-c924-4aba-86e1-3c04d3d5843c",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "Admiral Raddus",
+      "nicknames": [
+        "Raddus"
+      ],
       "unique-class": [
         "Admiral Raddus"
       ],
@@ -333,12 +351,15 @@
       "team": "FFG",
       "release": "Star Wars Armada Wave 1",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "631fafbb-9227-4948-bb5d-58cd05483cb1",
+      "_id": "40188d75-0d66-46d3-a18b-46655f65faf5",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Admiral Screed",
+      "nicknames": [
+        "Screed"
+      ],
       "unique-class": [
         "Admiral Screed"
       ],
@@ -385,16 +406,19 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "3f32556d-d23c-4704-a6ad-f88ce87670ef",
+      "_id": "23812c47-cb35-4b45-a5b7-1fec213dba8c",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Admiral Sloane",
+      "nicknames": [
+        "Sloane"
+      ],
       "unique-class": [
         "Admiral Sloane"
       ],
-      "ability": "While a friendly squadron without Rogue is attacking, it may spend 1 die with an :accuracy: icon to choose and spend 1 of the defender’s defense tokens. While attacking a ship, it may also reroll 1 die with a :critical: icon.",
+      "ability": "While a friendly squadron without Rogue is attacking, it may spend 1 die with an :accuracy: icon to choose and spend 1 of the defender's defense tokens. While attacking a ship, it may also reroll 1 die with a :critical: icon.",
       "unique": true,
       "points": 24,
       "modification": false,
@@ -440,12 +464,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "9016bbd4-4c52-494b-999b-f85f16d45cbf",
+      "_id": "ba233d01-1874-45ed-9a46-d70660183b53",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Admiral Tarkin",
+      "nicknames": [
+        "Tarkin"
+      ],
       "unique-class": [
         "Admiral Tarkin"
       ],
@@ -495,12 +522,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "f08fbc4c-e8a4-45ba-84bf-8dc0f31132e5",
+      "_id": "bb5afa99-2ec4-44c8-a1b0-f8cc26a7c41e",
       "type": "commander",
       "faction": [
         "separatist"
       ],
       "name": "Admiral Trench",
+      "nicknames": [
+        "Trench"
+      ],
       "unique-class": [
         "Admiral Trench"
       ],
@@ -550,12 +580,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "9896998e-8d2a-4c36-ab20-277cf669dbd7",
+      "_id": "87b69c16-4f14-40da-b81f-1e093e96097f",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Admiral Yularen",
+      "nicknames": [
+        "Yularen",
+        "Church"
+      ],
       "unique-class": [
         "Admiral Yularen"
       ],
@@ -605,12 +639,16 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "defaf56f-fa6b-4e36-b48f-14c979a1cffa",
+      "_id": "08509796-0234-4e34-b75f-c92dc1a90943",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Anakin Skywalker",
+      "nicknames": [
+        "Anakin",
+        "Commanderkin"
+      ],
       "unique-class": [
         "Anakin Skywalker"
       ],
@@ -660,12 +698,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "dc40d9dc-bf77-484b-88f3-327b208c9830",
+      "_id": "3f7e0fb6-4e0b-4ad6-9673-8a2dd683453e",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Bail Organa",
+      "nicknames": [
+        "Bail",
+        "Organa"
+      ],
       "unique-class": [
         "Bail Organa"
       ],
@@ -716,12 +758,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "56d84a97-609e-4fa6-b55f-adfc1c6e3839",
+      "_id": "1c6dabc7-7c08-4c49-a0f3-739f3f46ee1c",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "Commander Sato",
+      "nicknames": [
+        "Sato"
+      ],
       "unique-class": [
         "Commander Sato"
       ],
@@ -771,12 +816,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "c26eb0f0-d7cc-4ac4-842a-b8985837e164",
+      "_id": "50250569-fe41-494a-8e6e-e9a7b1c71fe7",
       "type": "commander",
       "faction": [
         "separatist"
       ],
       "name": "Count Dooku",
+      "nicknames": [
+        "Dooku"
+      ],
       "unique-class": [
         "Count Dooku"
       ],
@@ -826,12 +874,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "e9dc978c-5ac8-4051-855d-c1ee7c3aac84",
+      "_id": "52dcd984-0384-41d5-9596-1bc4288f18a2",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Darth Vader",
+      "nicknames": [
+        "Vader"
+      ],
       "unique-class": [
         "Darth Vader"
       ],
@@ -881,12 +932,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "5cc6ef83-56f5-436c-a5cb-93788ea0a7fd",
+      "_id": "267af51b-2a42-40ef-b050-cf154f737727",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Emperor Palpatine",
+      "nicknames": [
+        "Palpatine"
+      ],
       "unique-class": [
         "Emperor Palpatine"
       ],
@@ -936,12 +990,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "fe42541d-4132-4415-9abd-b150cd2f0e62",
+      "_id": "3dc8500e-8733-4ffb-9362-16f761a41695",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "Garm Bel Iblis",
+      "nicknames": [
+        "Garm",
+        "Iblis"
+      ],
       "unique-class": [
         "Garm Bel Iblis"
       ],
@@ -988,12 +1046,15 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "572f4f46-460f-4e66-aec0-cc1c0bb216f8",
+      "_id": "b063800d-6fb3-48e6-8a82-76416fd05e5e",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "General Cracken",
+      "nicknames": [
+        "Cracken"
+      ],
       "unique-class": [
         "General Cracken"
       ],
@@ -1040,12 +1101,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "8aaa1428-a9c7-40e8-9b6f-ba01f313a22a",
+      "_id": "06a0b661-daaa-43b4-87b6-c4618c90541f",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "General Dodonna",
+      "nicknames": [
+        "Dodonna"
+      ],
       "unique-class": [
         "General Dodonna"
       ],
@@ -1095,12 +1159,15 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "f1d2c351-7eb9-4467-bffb-6f7eda1d89be",
+      "_id": "b9aeb3bb-9056-4142-a71b-cedc2bfc08bc",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "General Draven",
+      "nicknames": [
+        "Draven"
+      ],
       "unique-class": [
         "General Draven"
       ],
@@ -1150,12 +1217,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "061ca54b-f06c-4475-8be1-20ee63d918b4",
+      "_id": "b1ddd920-f8bd-48d8-bbb2-569fe90c58f9",
       "type": "commander",
       "faction": [
         "separatist"
       ],
       "name": "General Grievous",
+      "nicknames": [
+        "Grievous",
+        "GG"
+      ],
       "unique-class": [
         "General Grievous"
       ],
@@ -1205,12 +1276,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "2a7ea5b3-fefa-44ba-837a-3ab2072f76b6",
+      "_id": "c906713d-19d4-417a-90fb-77eafcb17713",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "General Madine",
+      "nicknames": [
+        "Madine"
+      ],
       "unique-class": [
         "General Madine"
       ],
@@ -1260,12 +1334,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "1e6bef76-50e0-4948-9990-2520d8bf04e3",
+      "_id": "84d72a81-7d21-46cb-b57a-aad74b338ccc",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "General Rieekan",
+      "nicknames": [
+        "Rieekan"
+      ],
       "unique-class": [
         "General Rieekan"
       ],
@@ -1315,12 +1392,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "f0f19f60-e643-4cf7-9ce4-ac3795781285",
+      "_id": "06486238-e5ef-4f61-8551-efb99f075bdf",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "General Romodi",
+      "nicknames": [
+        "Romodi"
+      ],
       "unique-class": [
         "General Romodi"
       ],
@@ -1370,12 +1450,15 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "ad2a53e5-9763-479c-9328-df60c5eca038",
+      "_id": "55badfc7-e7f8-42d1-ad8b-2a4923b652b6",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "General Tagge",
+      "nicknames": [
+        "Tagge"
+      ],
       "unique-class": [
         "General Tagge"
       ],
@@ -1425,12 +1508,18 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "1cd85ffb-0a15-4716-bf8c-eb25acc0ec88",
+      "_id": "5f716d31-0016-4182-8daf-733709ec94f8",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Grand Admiral Thrawn",
+      "nicknames": [
+        "Thrawn",
+        "Blue Man",
+        "Blue Man Group",
+        "Blue"
+      ],
       "unique-class": [
         "Grand Admiral Thrawn"
       ],
@@ -1477,12 +1566,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "d3a8dbf1-80ca-4571-b103-8103e758f6d5",
+      "_id": "ac4676eb-f665-4c99-bae8-217fedeade28",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Grand Moff Tarkin",
+      "nicknames": [
+        "Tarkin"
+      ],
       "unique-class": [
         "Grand Moff Tarkin"
       ],
@@ -1532,12 +1624,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "e4e7a2b5-40f3-4abf-b7e9-9b1ebde37587",
+      "_id": "d0184696-ee6f-4f20-8af9-d397d436a19e",
       "type": "commander",
       "faction": [
         "separatist"
       ],
       "name": "Kraken",
+      "nicknames": [
+        "Kraken"
+      ],
       "unique-class": [
         "Kraken"
       ],
@@ -1587,12 +1682,16 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "dd09faf8-535b-4c3d-a6c2-dbfa03d225d1",
+      "_id": "8e0f1045-c58d-4c71-b171-dc146e10ad98",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "Kyrsta Agate",
+      "nicknames": [
+        "Kyrsta",
+        "Agate"
+      ],
       "unique-class": [
         "Kyrsta Agate"
       ],
@@ -1642,12 +1741,16 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "df202b63-59f8-46b8-9c54-53b5831960a8",
+      "_id": "2e5de28d-cb4b-4804-81e7-47c5b5e08cd8",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "Leia Organa",
+      "nicknames": [
+        "Leia",
+        "Organa"
+      ],
       "unique-class": [
         "Leia Organa"
       ],
@@ -1697,16 +1800,20 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "e9e70a7a-7403-4e23-b393-591cc38cd00e",
+      "_id": "3569bde2-51d0-45a4-8f8b-0d5c7a6ec37c",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Luminara Unduli",
+      "nicknames": [
+        "Luminara",
+        "Unduli"
+      ],
       "unique-class": [
         "Luminara Unduli"
       ],
-      "ability": "While a friendly ship or unique squadron is defending, after the Spend Defense Tokens step, if it spent fewer than 2 defense tokens, it may either ready 1 of its defense tokens it did not spend, or choose another friendly ship at distance 1-5 and ready 1 of that ship’s defense tokens.",
+      "ability": "While a friendly ship or unique squadron is defending, after the Spend Defense Tokens step, if it spent fewer than 2 defense tokens, it may either ready 1 of its defense tokens it did not spend, or choose another friendly ship at distance 1-5 and ready 1 of that ship's defense tokens.",
       "unique": true,
       "points": 25,
       "modification": false,
@@ -1752,12 +1859,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "d1036e2b-0c90-4e60-9615-041ca558d5df",
+      "_id": "91192ec3-7447-4ef8-8df6-f804b74e706f",
       "type": "commander",
       "faction": [
         "separatist"
       ],
       "name": "Mar Tuuk",
+      "nicknames": [
+        "Mar",
+        "Tuuk"
+      ],
       "unique-class": [
         "Mar Tuuk"
       ],
@@ -1807,16 +1918,20 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "d0b13beb-0af4-4714-9716-cc7bdb0867a5",
+      "_id": "aae0a251-b899-4124-88b6-fdb9837b5019",
       "type": "commander",
       "faction": [
         "empire"
       ],
       "name": "Moff Jerjerrod",
+      "nicknames": [
+        "JJ",
+        "Jerjerrod"
+      ],
       "unique-class": [
         "Moff Jerjerrod"
       ],
-      "ability": "While a friendly ship executes a maneuver, during the Determine Course step, that ship may suffer 1 damage to change the first yaw value of that maneuver to “II”.",
+      "ability": "While a friendly ship executes a maneuver, during the Determine Course step, that ship may suffer 1 damage to change the first yaw value of that maneuver to 'II'.",
       "unique": true,
       "points": 23,
       "modification": false,
@@ -1862,12 +1977,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "fcfae9ed-f913-40ad-b429-03928fc20314",
+      "_id": "3fac38b4-616f-4a2c-8ff6-297929581209",
       "type": "commander",
       "faction": [
         "rebel"
       ],
       "name": "Mon Mothma",
+      "nicknames": [
+        "Mon",
+        "Mothma"
+      ],
       "unique-class": [
         "Mon Mothma"
       ],
@@ -1917,12 +2036,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "4f321416-6632-4c59-8398-2e31f8932994",
+      "_id": "fce7d649-6cd2-4140-9115-99570bab8983",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Obi-Wan Kenobi",
+      "nicknames": [
+        "Obi-Wan",
+        "Kenobi"
+      ],
       "unique-class": [
         "Obi-Wan Kenobi"
       ],
@@ -1972,12 +2095,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "c462abce-73a5-4338-9b2c-8ac8c29deb31",
+      "_id": "2d3d6152-06d9-410d-bee9-bb60e8f3e98e",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Plo Koon",
+      "nicknames": [
+        "Plo",
+        "Koon"
+      ],
       "unique-class": [
         "Plo Koon"
       ],
@@ -2027,12 +2154,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "cf6f7d7d-c800-49c1-b998-ababb8f8d2c6",
+      "_id": "a040805d-d674-4f82-88b8-4eade5e153bb",
       "type": "commander",
       "faction": [
         "separatist"
       ],
       "name": "TF-1726",
+      "nicknames": [
+        "TF"
+      ],
       "unique-class": [
         "TF-1726"
       ],
@@ -2082,12 +2212,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "b7eea348-0767-4018-a091-82d5f143aacb",
+      "_id": "225d6f2b-f513-4913-8786-da94c5afac1d",
       "type": "defensive-retro",
       "faction": [
         ""
       ],
       "name": "Advanced Projectors",
+      "nicknames": [
+        "Projectors",
+        "APs"
+      ],
       "unique-class": [
         ""
       ],
@@ -2134,12 +2268,17 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "6730fd78-d521-4fdc-8353-6915db64a341",
+      "_id": "3963ac5a-83b7-44f4-abc0-6f1f2de9ab7a",
       "type": "defensive-retro",
       "faction": [
         ""
       ],
       "name": "Cluster Bombs",
+      "nicknames": [
+        "Cluster",
+        "Clusters",
+        "Bombs"
+      ],
       "unique-class": [
         ""
       ],
@@ -2186,12 +2325,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "faf8c0c7-880e-46ef-8e6a-3da16e18b098",
+      "_id": "5f9c50aa-0979-4c94-92d1-7763e7efe19f",
       "type": "defensive-retro",
       "faction": [
         ""
       ],
       "name": "Early Warning System",
+      "nicknames": [
+        "EWS"
+      ],
       "unique-class": [
         ""
       ],
@@ -2238,12 +2380,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "37c7bb14-3a54-40b4-9d00-9f8d94391209",
+      "_id": "9de7c4ec-0176-44cf-a859-187f7d02efd6",
       "type": "defensive-retro",
       "faction": [
         ""
       ],
       "name": "Electronic Countermeasures",
+      "nicknames": [
+        "ECM"
+      ],
       "unique-class": [
         ""
       ],
@@ -2293,12 +2438,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "45389a81-7f5f-46cc-86b6-8c04727770f9",
+      "_id": "00c9fe5d-3e49-4097-9e77-0c52333a2f48",
       "type": "defensive-retro",
       "faction": [
         ""
       ],
       "name": "Reactive Gunnery",
+      "nicknames": [
+        "RG"
+      ],
       "unique-class": [
         ""
       ],
@@ -2348,12 +2496,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "87381465-d91b-465e-b7bf-f4a6d86303e0",
+      "_id": "c299366e-3966-449f-a13a-10bf939f3a86",
       "type": "defensive-retro",
       "faction": [
         ""
       ],
       "name": "Redundant Shields",
+      "nicknames": [
+        "RS"
+      ],
       "unique-class": [
         ""
       ],
@@ -2400,12 +2551,16 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "649d890b-95e1-46a5-9197-e3f25b5efae0",
+      "_id": "f2750876-3238-4f77-8731-e4817de96477",
       "type": "defensive-retro",
       "faction": [
         ""
       ],
       "name": "Reinforced Blast Doors",
+      "nicknames": [
+        "RBDs",
+        "Blast Doors"
+      ],
       "unique-class": [
         ""
       ],
@@ -2452,13 +2607,18 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "b81c6ab4-6099-4bf9-9154-af434d20040b",
+      "_id": "e3a0cd27-a420-4ba7-b8e1-b2a0dc5750f4",
       "type": "defensive-retro",
       "faction": [
         "republic",
         "separatist"
       ],
       "name": "Thermal Shields",
+      "nicknames": [
+        "Thermal",
+        "Thermals",
+        "TS"
+      ],
       "unique-class": [
         ""
       ],
@@ -2506,12 +2666,17 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "d65e4967-9654-4f25-9b49-6d52cde099a2",
+      "_id": "57c4ace8-d5b9-45ff-9461-5901d947cd16",
       "type": "experimental-retro",
       "faction": [
         ""
       ],
       "name": "G7-X Grav Well Projector",
+      "nicknames": [
+        "Grav Well",
+        "G7X",
+        "G7s"
+      ],
       "unique-class": [
         ""
       ],
@@ -2561,12 +2726,17 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "ada62fc3-57be-4ec9-beab-39c7e4c13189",
+      "_id": "585fcfc8-ac36-400f-88a5-289014708507",
       "type": "experimental-retro",
       "faction": [
         ""
       ],
       "name": "G-8 Experimental Projector",
+      "nicknames": [
+        "G8",
+        "G8s",
+        "Projectors"
+      ],
       "unique-class": [
         "G-8 Experimental Projector"
       ],
@@ -2616,12 +2786,17 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "d4682cf8-7408-40b4-9d80-7863f8df653c",
+      "_id": "5413df47-e913-472f-8536-91df4ccd27f3",
       "type": "experimental-retro",
       "faction": [
         ""
       ],
       "name": "Grav Shift Reroute",
+      "nicknames": [
+        "GShift",
+        "GShiftReroute",
+        "GSR"
+      ],
       "unique-class": [
         ""
       ],
@@ -2671,12 +2846,16 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "2b8e3c00-0766-44e4-96c6-698130b99ced",
+      "_id": "e40a5f88-5d97-48a2-9c29-7d7e1c8d313f",
       "type": "experimental-retro",
       "faction": [
         ""
       ],
       "name": "Targeting Scrambler",
+      "nicknames": [
+        "TS",
+        "Scramblers"
+      ],
       "unique-class": [
         ""
       ],
@@ -2726,12 +2905,18 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "944466ad-5ab5-422b-a7e3-05512b994561",
+      "_id": "5dee789f-12f4-4635-8d59-f72e3c236050",
       "type": "fleet-command",
       "faction": [
         ""
       ],
       "name": "All Fighters, Follow Me!",
+      "nicknames": [
+        "AFMM",
+        "AFM",
+        "All Fighters",
+        "Follow Me"
+      ],
       "unique-class": [
         "All Fighters, Follow Me!"
       ],
@@ -2781,12 +2966,16 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "73fe98d8-7909-4d07-83ef-ba3ca15bd8e9",
+      "_id": "a06a1343-c032-4abc-89bb-cdc46f8eccfe",
       "type": "fleet-command",
       "faction": [
         ""
       ],
       "name": "Entrapment Formation!",
+      "nicknames": [
+        "EF",
+        "Entrapment"
+      ],
       "unique-class": [
         "Entrapment Formation!"
       ],
@@ -2836,13 +3025,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "7aee8807-e951-467f-bac4-dea4c22b6467",
+      "_id": "c736c0bc-a3bb-430b-99d8-42c85c1cbf40",
       "type": "fleet-command",
       "faction": [
         "republic",
         "separatist"
       ],
       "name": "Hot Landing",
+      "nicknames": [
+        "HL"
+      ],
       "unique-class": [
         "Hot Landing"
       ],
@@ -2892,12 +3084,16 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "0aa6faf9-5b60-4763-9869-bfe628435177",
+      "_id": "cb7f54e9-a089-4211-a8b7-0a6ec9c0ec47",
       "type": "fleet-command",
       "faction": [
         ""
       ],
       "name": "Intensify Firepower!",
+      "nicknames": [
+        "IF",
+        "Intensify"
+      ],
       "unique-class": [
         "Intensify Firepower!"
       ],
@@ -2947,12 +3143,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "cc69143d-6192-460f-9634-f196ae8f93d3",
+      "_id": "d55e37dd-93b3-4b52-9a57-12079aed80c1",
       "type": "fleet-command",
       "faction": [
         "separatist"
       ],
       "name": "Jedi Hostage",
+      "nicknames": [
+        "JH",
+        "Hostage"
+      ],
       "unique-class": [
         "Jedi Hostage"
       ],
@@ -3002,12 +3202,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "a12d32e9-0362-4d5f-bddb-9f6390bf929b",
+      "_id": "036bfed1-dc53-4c00-b31b-8bed98142724",
       "type": "fleet-command",
       "faction": [
         "republic"
       ],
       "name": "Mercy Mission",
+      "nicknames": [
+        "MM"
+      ],
       "unique-class": [
         "Mercy Mission"
       ],
@@ -3057,12 +3260,16 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "a4412d96-171c-42d3-be22-61c452611b25",
+      "_id": "27d79fb3-dbc5-42c4-b39c-8e51f5455e86",
       "type": "fleet-command",
       "faction": [
         ""
       ],
       "name": "Shields to Maximum!",
+      "nicknames": [
+        "SToM",
+        "Shields to Max"
+      ],
       "unique-class": [
         "Shields to Maximum!"
       ],
@@ -3112,12 +3319,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "9d6062fc-4ff6-4aa6-8e64-e93648be5c14",
+      "_id": "dd7f7b6f-4152-4d6e-9438-2e5aff38aa23",
       "type": "fleet-command",
       "faction": [
         ""
       ],
       "name": "Take Evasive Action!",
+      "nicknames": [
+        "TEA",
+        "Take Evasive"
+      ],
       "unique-class": [
         "Take Evasive Action!"
       ],
@@ -3167,12 +3378,16 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "55fee9f8-7321-4cb4-bc42-347af500e5e9",
+      "_id": "6e22eadf-9c09-421f-9c99-add7b3706647",
       "type": "fleet-support",
       "faction": [
         ""
       ],
       "name": "Bomber Command Center",
+      "nicknames": [
+        "BCC",
+        "Bomber CC"
+      ],
       "unique-class": [
         ""
       ],
@@ -3222,12 +3437,16 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "3bf06c1d-ec99-48b6-8ed2-7dbe313e6bca",
+      "_id": "48a90696-4c05-4970-a4dd-75d64f213368",
       "type": "fleet-support",
       "faction": [
         ""
       ],
       "name": "Comms Net",
+      "nicknames": [
+        "CN",
+        "Comms"
+      ],
       "unique-class": [
         ""
       ],
@@ -3277,12 +3496,16 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "a0e5ba5e-d95d-401f-b906-708dc9f12889",
+      "_id": "a1c7df0a-c481-4563-a985-b19ef685ce6e",
       "type": "fleet-support",
       "faction": [
         ""
       ],
       "name": "Jamming Field",
+      "nicknames": [
+        "JF",
+        "Jamming"
+      ],
       "unique-class": [
         ""
       ],
@@ -3332,12 +3555,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "4278e01e-1267-4578-8520-d0b50b652145",
+      "_id": "45661025-6879-4e08-8c47-41d360c397e4",
       "type": "fleet-support",
       "faction": [
         ""
       ],
       "name": "Munitions Resupply",
+      "nicknames": [
+        "MR",
+        "Munitions Resupp"
+      ],
       "unique-class": [
         ""
       ],
@@ -3389,12 +3616,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "337f570b-83ce-4bfe-a84f-d779dfcdfcc6",
+      "_id": "acdd4a6b-8512-4c10-b6d4-657b46a8ba03",
       "type": "fleet-support",
       "faction": [
         ""
       ],
       "name": "Parts Resupply",
+      "nicknames": [
+        "PR",
+        "Parts"
+      ],
       "unique-class": [
         ""
       ],
@@ -3446,12 +3677,16 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "6f5554cf-debe-4f1a-a779-9c314b5007f1",
+      "_id": "01e3443f-0397-4ca2-8a9f-bac67c24a969",
       "type": "fleet-support",
       "faction": [
         ""
       ],
       "name": "Repair Crews",
+      "nicknames": [
+        "RCs",
+        "Repair"
+      ],
       "unique-class": [
         ""
       ],
@@ -3501,12 +3736,16 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "fd5e2ae9-a05d-4114-8e1b-927a64a4a4d2",
+      "_id": "de9f408e-64dd-478f-870a-828838b3188d",
       "type": "fleet-support",
       "faction": [
         ""
       ],
       "name": "Slicer Tools",
+      "nicknames": [
+        "ST",
+        "Slicers"
+      ],
       "unique-class": [
         ""
       ],
@@ -3556,12 +3795,16 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "c33a7406-9ca6-4375-a303-75e0adc3d2e3",
+      "_id": "236b0b82-7211-4ea2-857b-29b12ac934fc",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "Heavy Ion Emplacements",
+      "nicknames": [
+        "HIE",
+        "Heavy Ion"
+      ],
       "unique-class": [
         ""
       ],
@@ -3611,12 +3854,17 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "507964cf-4d25-43be-9f9f-dd4466291f9a",
+      "_id": "24c0e295-4659-440c-9aa2-b37b0e37fec2",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "High-Capacity Ion Turbines",
+      "nicknames": [
+        "HCT",
+        "High Capacity",
+        "HCIT"
+      ],
       "unique-class": [
         ""
       ],
@@ -3666,12 +3914,15 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "7e239a34-c4cd-48f4-b0c5-ee6d09bd235b",
+      "_id": "de23072a-da88-4eba-baba-7707e7038a4f",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "Ion Cannon Batteries",
+      "nicknames": [
+        "ICB"
+      ],
       "unique-class": [
         ""
       ],
@@ -3721,12 +3972,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "f5c1c33c-8ec0-435e-a9e7-4b0b594d36ea",
+      "_id": "171688bd-9d7b-4848-b7cc-9573d7a7d6b3",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "Leading Shots",
+      "nicknames": [
+        "LS"
+      ],
       "unique-class": [
         ""
       ],
@@ -3776,12 +4030,18 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "1fae992d-d5a8-43bf-b36d-09afbbe90b08",
+      "_id": "771d1fec-2a44-41c3-ba78-57117d44a3fb",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "MS-1 Ion Cannon",
+      "nicknames": [
+        "MS1",
+        "MS1s",
+        "MS-1s",
+        "MS-1"
+      ],
       "unique-class": [
         ""
       ],
@@ -3831,12 +4091,18 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "6633356b-758b-4be0-93a7-dd7d6cf41ca8",
+      "_id": "98ed8b89-3475-43bc-be4b-44adb029d3f5",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "NK-7 Ion Cannons",
+      "nicknames": [
+        "NK7",
+        "NK-7",
+        "NK-7s",
+        "NK7s"
+      ],
       "unique-class": [
         ""
       ],
@@ -3883,12 +4149,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a4e168dd-182d-4a9e-b5d3-815319fd7b66",
+      "_id": "b15b3087-e90c-4457-bacf-08ba9d8fbfa2",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "Overload Pulse",
+      "nicknames": [
+        "OP"
+      ],
       "unique-class": [
         ""
       ],
@@ -3938,12 +4207,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "6d93a73e-1ad1-47bc-a6ac-2edab34ae7e9",
+      "_id": "57bec019-113f-4c8b-8f91-e907ed125f32",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "Point Defense Ion Cannons",
+      "nicknames": [
+        "PDIC",
+        "PDICs"
+      ],
       "unique-class": [
         ""
       ],
@@ -3992,12 +4265,18 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "5640681d-85b1-4aec-8f42-b8677f717ed2",
+      "_id": "acc1a3fb-23b5-44f2-94c9-ccf7530d860f",
       "type": "ion-cannon",
       "faction": [
         ""
       ],
       "name": "SW-7 Ion Batteries",
+      "nicknames": [
+        "SW7",
+        "SW-7",
+        "SW-7s",
+        "SW7s"
+      ],
       "unique-class": [
         ""
       ],
@@ -4044,12 +4323,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "3a40c7a4-590c-4922-9f17-f0bc50abdf7a",
+      "_id": "af917700-74b6-497a-a0ad-08870266510f",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Advanced Transponder Net",
+      "nicknames": [
+        "ATN"
+      ],
       "unique-class": [
         ""
       ],
@@ -4096,12 +4378,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "26d0ffc0-fda1-4d28-8848-ef00fdfe3da4",
+      "_id": "803bea47-ef26-4184-a028-9e71c463f551",
       "type": "offensive-retro",
       "faction": [
         "separatist"
       ],
       "name": "B2 Rocket Troopers",
+      "nicknames": [
+        "B2s",
+        "B2"
+      ],
       "unique-class": [
         ""
       ],
@@ -4148,12 +4434,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "3c49ae78-167d-498d-9b61-b34080a076e3",
+      "_id": "a17e3742-2f36-4550-b9dd-3bbbfadeb636",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Boosted Comms",
+      "nicknames": [
+        "BC",
+        "Boosted"
+      ],
       "unique-class": [
         ""
       ],
@@ -4200,12 +4490,17 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "7baa8cce-eeb0-49b9-a9fd-6952c914230c",
+      "_id": "a3663c14-4812-49ad-8d21-d490b83c884a",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Disposable Capacitors",
+      "nicknames": [
+        "DC",
+        "DCaps",
+        "DCap"
+      ],
       "unique-class": [
         ""
       ],
@@ -4253,12 +4548,16 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a9f45d09-02e4-4963-a9b4-92e24926aa7b",
+      "_id": "5cc16714-1884-40c3-a3fe-85b194db4513",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Expanded Hangar Bay",
+      "nicknames": [
+        "EHB",
+        "Expanded"
+      ],
       "unique-class": [
         ""
       ],
@@ -4308,7 +4607,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "06ffe30e-bd46-4f92-a313-60ac0ab4b964",
+      "_id": "5aea9edc-10e5-4117-933c-812793009571",
       "type": "offensive-retro",
       "faction": [
         "empire",
@@ -4317,6 +4616,10 @@
         "separatist"
       ],
       "name": "Flag Bridge",
+      "nicknames": [
+        "FB",
+        "Flag"
+      ],
       "unique-class": [
         ""
       ],
@@ -4367,12 +4670,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "fd8877c7-7075-4f89-b03e-ffe7282af6e2",
+      "_id": "e59f5102-3b49-465f-8273-111c23ee8d7f",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Flak Guns",
+      "nicknames": [
+        "FG",
+        "Flak"
+      ],
       "unique-class": [
         ""
       ],
@@ -4419,12 +4726,17 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "f44c3a4d-98e7-47f5-a48a-91fc6fbd0a00",
+      "_id": "e7656279-9045-4b24-868b-75376c599ab0",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Hardened Bulkheads",
+      "nicknames": [
+        "HB",
+        "Hardened",
+        "Bulkheads"
+      ],
       "unique-class": [
         ""
       ],
@@ -4471,12 +4783,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "86ab1a78-2a1e-4d5f-a9ce-c792cbd6f582",
+      "_id": "ca504b1e-1686-4907-9d07-b099979c74c2",
       "type": "offensive-retro",
       "faction": [
         "republic"
       ],
       "name": "Hyperspace Rings",
+      "nicknames": [
+        "HR",
+        "Rings"
+      ],
       "unique-class": [
         ""
       ],
@@ -4526,12 +4842,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "d8d88c4c-e6db-49c2-bf9a-0009854e6db4",
+      "_id": "6befd156-ecdd-4f8e-be2d-d36d6bb8620e",
       "type": "offensive-retro",
       "faction": [
         "separatist"
       ],
       "name": "Hyperwave Signal Boost",
+      "nicknames": [
+        "HSB",
+        "Hyperwave"
+      ],
       "unique-class": [
         ""
       ],
@@ -4582,12 +4902,17 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "c05837c5-8849-4524-a7b0-7819f43f0aae",
+      "_id": "08ef53bc-73b7-4d09-81ad-633b022a97fd",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Phylon Q7 Tractor Beams",
+      "nicknames": [
+        "PTB",
+        "Phylon",
+        "Phylons"
+      ],
       "unique-class": [
         ""
       ],
@@ -4634,12 +4959,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "b7c212e0-598c-4ce0-9cc3-c7131cff389c",
+      "_id": "db492e0b-57d4-4056-a34c-9769300d3a19",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Point-Defense Reroute",
+      "nicknames": [
+        "PDR",
+        "Point Defense"
+      ],
       "unique-class": [
         ""
       ],
@@ -4686,12 +5015,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "abcbd413-250e-4b56-9b06-7aab4f5149a3",
+      "_id": "a6887539-d9da-4ae1-bcd0-ade9e07f2d70",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Proximity Mines",
+      "nicknames": [
+        "PM",
+        "P Mines"
+      ],
       "unique-class": [
         ""
       ],
@@ -4738,12 +5071,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "8e12a523-9110-4379-92e4-33eb350cc7b6",
+      "_id": "6ec3e431-fb02-4db9-95e4-f7b57af924a5",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Quad Laser Turrets",
+      "nicknames": [
+        "QLT",
+        "Quads"
+      ],
       "unique-class": [
         ""
       ],
@@ -4790,12 +5127,17 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "a2fbd7c0-2f0f-4a9a-babf-3d6e279af7c6",
+      "_id": "db715e3f-564a-4e3c-903e-1da4767c5aa0",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Rapid Launch Bays",
+      "nicknames": [
+        "RLB",
+        "RLBs",
+        "Launch Bays"
+      ],
       "unique-class": [
         ""
       ],
@@ -4842,12 +5184,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "5bf6fe05-a88c-4eb1-8194-88b127f8551e",
+      "_id": "635d48bb-9b0b-4073-bc81-6ae1b3bacd2f",
       "type": "offensive-retro",
       "faction": [
         ""
       ],
       "name": "Reserve Hangar Deck",
+      "nicknames": [
+        "RHD",
+        "RHDs"
+      ],
       "unique-class": [
         ""
       ],
@@ -4894,12 +5240,17 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "0f509eca-36a9-4ab2-b48b-0d792ef3169e",
+      "_id": "26f0ef20-2ae1-4bf3-8155-4f14ee36b260",
       "type": "offensive-retro",
       "faction": [
         "republic"
       ],
       "name": "SPHA-T",
+      "nicknames": [
+        "SPHAT",
+        "SPHATs",
+        "SPHA-Ts"
+      ],
       "unique-class": [
         ""
       ],
@@ -4946,12 +5297,17 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
-      "_id": "bc3a95ee-ff16-473d-a21f-82d8d2160735",
+      "_id": "6f017374-bfb6-4367-96bb-214f8bbf5f87",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Adar Tallon",
+      "nicknames": [
+        "Adar",
+        "Tallon",
+        "AT"
+      ],
       "unique-class": [
         "Adar Tallon"
       ],
@@ -4998,12 +5354,17 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "32e4ba6e-494b-4568-94bd-f2e9f15ed8cb",
+      "_id": "f1406483-5f1d-4ace-8e6c-88efd4c03369",
       "type": "officer",
       "faction": [
         "republic"
       ],
       "name": "Adi Gallia",
+      "nicknames": [
+        "Adi",
+        "Gallia",
+        "AG Officer"
+      ],
       "unique-class": [
         "Adi Gallia"
       ],
@@ -5053,12 +5414,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "0b4309ec-8951-4341-b599-4b158eeac798",
+      "_id": "1921ab31-10fd-45fd-8c85-06911235ec84",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Admiral Chiraneau",
+      "nicknames": [
+        "Chiraneau"
+      ],
       "unique-class": [
         "Admiral Chiraneau"
       ],
@@ -5105,12 +5469,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "5982c541-e399-49a0-90a9-c0bd6f2a1fc8",
+      "_id": "3bf83b2d-f08b-4ddd-8a1b-a7755a5364e9",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Admiral Montferrat",
+      "nicknames": [
+        "Montferrat"
+      ],
       "unique-class": [
         "Admiral Montferrat"
       ],
@@ -5160,12 +5527,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "85f890b5-cd39-44b7-abbe-92a7da016b8a",
+      "_id": "e17acc8f-a482-4627-be72-a98486c2b3e0",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Admiral Ozzel",
+      "nicknames": [
+        "Ozzel"
+      ],
       "unique-class": [
         "Admiral Ozzel"
       ],
@@ -5215,12 +5585,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "23767fe9-abae-4d31-965b-2fa022437502",
+      "_id": "0718384f-d852-49c3-9a28-374d5dd4069f",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Admiral Titus",
+      "nicknames": [
+        "Titus"
+      ],
       "unique-class": [
         "Admiral Titus"
       ],
@@ -5270,12 +5643,15 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "08516ab5-25ad-40b3-bb88-b4fdf0a457ac",
+      "_id": "b83232ff-136e-4052-82c2-986549d5b75a",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Agent Kallus",
+      "nicknames": [
+        "Kallus"
+      ],
       "unique-class": [
         "Agent Kallus"
       ],
@@ -5325,12 +5701,16 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "ac367dd7-3f67-4100-bfc3-5ed999953fd3",
+      "_id": "720db788-9279-4461-93e4-3bb385fbf351",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Ahsoka Tano",
+      "nicknames": [
+        "Ahsoka",
+        "Tano"
+      ],
       "unique-class": [
         "Ahsoka Tano"
       ],
@@ -5380,12 +5760,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "710818c4-03eb-47fd-a857-dfe08ac4ad06",
+      "_id": "23cb6297-1d23-4678-b015-7ae7b7d92985",
       "type": "officer",
       "faction": [
         "republic"
       ],
       "name": "Ahsoka Tano",
+      "nicknames": [
+        "Ahsoka",
+        "Tano"
+      ],
       "unique-class": [
         "Ahsoka Tano"
       ],
@@ -5435,12 +5819,16 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "0dae1697-999a-45cc-ae92-88b87e9eb5fe",
+      "_id": "3396e6ef-c313-4c92-a77e-a8b8ca918091",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "Asajj Ventress",
+      "nicknames": [
+        "Asajj",
+        "Ventress"
+      ],
       "unique-class": [
         "Asajj Ventress"
       ],
@@ -5490,12 +5878,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "61c1b16d-f703-448f-bf06-2c4c4f0c7485",
+      "_id": "76a8df75-a325-412e-baf7-8e359d031c55",
       "type": "officer",
       "faction": [
         "republic"
       ],
       "name": "Barriss Offee",
+      "nicknames": [
+        "Barriss",
+        "Offee"
+      ],
       "unique-class": [
         "Barriss Offee"
       ],
@@ -5545,12 +5937,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "0b38a128-dc02-4950-82f4-e390b3d3d0b9",
+      "_id": "9962fd0c-83c6-4d7f-af7d-688d093bcd8a",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Captain Brunson",
+      "nicknames": [
+        "Brunson"
+      ],
       "unique-class": [
         "Captain Brunson"
       ],
@@ -5597,12 +5992,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "350bedd7-5d49-4b45-87d4-6bc403c8d4a7",
+      "_id": "7c06ddf0-1d9a-4d9e-969c-c8670d090525",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Captain Needa",
+      "nicknames": [
+        "Needa"
+      ],
       "unique-class": [
         "Captain Needa"
       ],
@@ -5652,12 +6050,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "c80bb3a3-7084-4d6d-8bb5-1c595714d0b8",
+      "_id": "f5c3a906-ac86-42a4-b2c9-a5c4945d3496",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Captain Rex",
+      "nicknames": [
+        "Rex"
+      ],
       "unique-class": [
         "Captain Rex"
       ],
@@ -5704,12 +6105,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "7ed10e1d-07e0-44ff-b407-d84fed8290e9",
+      "_id": "bf3df92c-ce5d-4cc9-a080-206fbced4f2f",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Chart Officer",
+      "nicknames": [
+        "CO"
+      ],
       "unique-class": [
         ""
       ],
@@ -5759,12 +6163,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "2a798dcc-c939-48fb-b264-6a671f47a095",
+      "_id": "a418305d-242a-444a-9805-3eb27e87b8d6",
       "type": "officer",
       "faction": [
         "republic"
       ],
       "name": "Clone Captain Silver",
+      "nicknames": [
+        "CCS",
+        "Silver"
+      ],
       "unique-class": [
         "Clone Captain Silver"
       ],
@@ -5814,12 +6222,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "cf81a806-700c-43f3-822c-3cc31079cc40",
+      "_id": "65d21424-8a56-4070-8aac-c9b9b06a2d4c",
       "type": "officer",
       "faction": [
         "republic"
       ],
       "name": "Clone Captain Zak",
+      "nicknames": [
+        "Cz",
+        "Zak"
+      ],
       "unique-class": [
         "Clone Captain Zak"
       ],
@@ -5869,12 +6281,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "f98c7b2f-9635-4e97-904a-139ab3a1e3ab",
+      "_id": "c9cced47-aef5-42b5-bc9b-a97f4eb57d1a",
       "type": "officer",
       "faction": [
         "republic"
       ],
       "name": "Clone Commander Wolffe",
+      "nicknames": [
+        "CCW",
+        "Wolffe"
+      ],
       "unique-class": [
         "Clone Commander Wolffe"
       ],
@@ -5924,12 +6340,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "66e86fa7-1c31-4791-be8e-a8471d354e1e",
+      "_id": "e304208b-3725-4625-9078-ce2e2637a601",
       "type": "officer",
       "faction": [
         "republic"
       ],
       "name": "Clone Navigation Officer",
+      "nicknames": [
+        "CNO"
+      ],
       "unique-class": [
         ""
       ],
@@ -5979,12 +6398,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "1687da90-185f-4c9b-9f95-acc16f7e8977",
+      "_id": "33a54c97-9792-4629-be7b-3336cc4a5f38",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Commandant Aresko",
+      "nicknames": [
+        "Aresko"
+      ],
       "unique-class": [
         "Commandant Aresko"
       ],
@@ -6034,12 +6456,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "38d2b063-2116-49ac-a68b-db4bfa78b3d4",
+      "_id": "38d9cb2e-3216-4ef6-a46d-c567ccf149ec",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Commander Beck",
+      "nicknames": [
+        "Beck"
+      ],
       "unique-class": [
         "Commander Beck"
       ],
@@ -6089,12 +6514,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "42c810b1-a325-49ff-b55f-64e66263af7b",
+      "_id": "7a6a0bb5-7d7b-40e9-b44f-6b0180e74616",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Commander Gherant",
+      "nicknames": [
+        "Gherant"
+      ],
       "unique-class": [
         "Commander Gherant"
       ],
@@ -6144,12 +6572,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "5dc42bce-46de-453a-8e74-2c9977574b80",
+      "_id": "c3136952-f80b-4680-b340-c03ceca9f7d3",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Commander Vanto",
+      "nicknames": [
+        "Vanto"
+      ],
       "unique-class": [
         "Commander Vanto"
       ],
@@ -6196,12 +6627,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "12e9791a-a5bd-4e44-bd48-ac3f5e828f9f",
+      "_id": "edc91dbe-ae38-404e-be4f-0954843928c0",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Commander Woldar",
+      "nicknames": [
+        "Woldar"
+      ],
       "unique-class": [
         "Commander Woldar"
       ],
@@ -6248,12 +6682,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "478c8c1a-b815-4e2d-b547-be8603c3e426",
+      "_id": "2c057d6f-a426-44a4-b840-e5e8846426e9",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Damage Control Officer",
+      "nicknames": [
+        "DCO"
+      ],
       "unique-class": [
         ""
       ],
@@ -6303,12 +6740,16 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "b688be73-c290-4e11-8131-1ac9ad2ab4fe",
+      "_id": "14a6ce29-3c9e-469f-a15c-9500687c2b01",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Darth Vader",
+      "nicknames": [
+        "Vader",
+        "Vader Officer"
+      ],
       "unique-class": [
         "Darth Vader"
       ],
@@ -6358,12 +6799,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "0c73e029-f4b4-4ffe-923a-b0698eb0a15f",
+      "_id": "89b9263f-9b8f-4e93-bd0b-b5bce89f02b8",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Defense Liaison",
+      "nicknames": [
+        "DL"
+      ],
       "unique-class": [
         ""
       ],
@@ -6413,12 +6857,15 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "39df1886-a777-4d41-a25d-a526a7e116eb",
+      "_id": "47e23605-bcb7-4ba0-bba3-e5079be22e79",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Director Isard",
+      "nicknames": [
+        "Isard"
+      ],
       "unique-class": [
         "Director Isard"
       ],
@@ -6468,12 +6915,16 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "0ac683c6-ef75-4361-a2bf-20350f86cdeb",
+      "_id": "5f7ea5fa-6afb-44db-ba11-3bbe5bba9c75",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Director Krennic",
+      "nicknames": [
+        "DK",
+        "Krennic"
+      ],
       "unique-class": [
         "Director Krennic"
       ],
@@ -6523,12 +6974,16 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "541af799-4f81-4b05-be2f-4e68f8a08c90",
+      "_id": "a49c6717-0293-4581-923f-6b66294f14eb",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Emperor Palpatine",
+      "nicknames": [
+        "Palpatine Officer",
+        "Palpatine"
+      ],
       "unique-class": [
         "Emperor Palpatine"
       ],
@@ -6578,12 +7033,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "91f82b3b-79d5-4da2-919c-822b68d0b330",
+      "_id": "013aab43-1dd8-4b25-bfd0-2c8017262607",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Engineering Captain",
+      "nicknames": [
+        "EC"
+      ],
       "unique-class": [
         ""
       ],
@@ -6633,12 +7091,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "572242db-0999-4b75-a578-f5f7692d9e13",
+      "_id": "372f3726-562d-44b7-bf0b-7b5b7714ab12",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Expert Shield Tech",
+      "nicknames": [
+        "EST"
+      ],
       "unique-class": [
         ""
       ],
@@ -6688,12 +7149,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "606b5be9-e216-47a3-b340-45a7969c073d",
+      "_id": "5682da73-e59c-46d6-957a-0bd376c30828",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Ezra Bridger",
+      "nicknames": [
+        "Bridger",
+        "Ezra"
+      ],
       "unique-class": [
         "Ezra Bridger"
       ],
@@ -6740,12 +7205,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "4071b476-3401-4c72-b4e6-df6faa01f67b",
+      "_id": "249babdd-2e02-41fd-9111-3f93c3640841",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Flight Commander",
+      "nicknames": [
+        "FC"
+      ],
       "unique-class": [
         ""
       ],
@@ -6795,12 +7263,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "f7d71f87-a483-4dbf-82d1-978129780d18",
+      "_id": "0d5cd984-5cf4-41f9-a940-7c551de10c18",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "General Draven",
+      "nicknames": [
+        "Draven"
+      ],
       "unique-class": [
         "General Draven"
       ],
@@ -6847,12 +7318,15 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "200c105b-0700-498d-b52d-f3fcbeeba19e",
+      "_id": "6a72c989-c262-458c-b866-e67e24825a7a",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Governor Pryce",
+      "nicknames": [
+        "Pryce"
+      ],
       "unique-class": [
         "Governor Pryce"
       ],
@@ -6902,12 +7376,16 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "b91cfb53-9a5c-46c1-8a15-06be4d4013b4",
+      "_id": "926f9810-cf3b-4400-8a64-913e10a84aeb",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Hondo Ohnaka",
+      "nicknames": [
+        "Hondo",
+        "Ohnaka"
+      ],
       "unique-class": [
         "Hondo Ohnaka"
       ],
@@ -6957,12 +7435,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "9f5d3c66-a148-44a7-8ab6-25084581fd54",
+      "_id": "fd0f814c-efbb-4fe1-a6e2-c4d7fa712906",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Iden Versio",
+      "nicknames": [
+        "Iden",
+        "Versio"
+      ],
       "unique-class": [
         "Iden Versio"
       ],
@@ -7009,12 +7491,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "89095a27-1880-48ec-9504-bbf81ffaa6ca",
+      "_id": "fb48b878-330c-4c68-bfd1-2c59c08d4204",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Instructor Goran",
+      "nicknames": [
+        "Goran"
+      ],
       "unique-class": [
         "Instructor Goran"
       ],
@@ -7061,12 +7546,15 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "7cb4d7af-0bd0-4b78-89d8-89ee6dfda513",
+      "_id": "f19d390c-af44-4d74-92c3-1e1af5fe0ec3",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Intel Officer",
+      "nicknames": [
+        "Intel"
+      ],
       "unique-class": [
         ""
       ],
@@ -7116,12 +7604,16 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "193bfe85-f52e-488e-8079-e3269e003b9d",
+      "_id": "724d6845-5ff5-493f-a3c1-2966ed425366",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Kyrsta Agate",
+      "nicknames": [
+        "Kyrsta",
+        "Agate"
+      ],
       "unique-class": [
         "Kyrsta Agate"
       ],
@@ -7171,12 +7663,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "13b53d1e-1cf7-4a36-8e59-254ead17a4da",
+      "_id": "1a633aa0-97c6-4bcf-b386-bc694ccaee3a",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Lando Calrissian",
+      "nicknames": [
+        "Lando",
+        "Calrissian"
+      ],
       "unique-class": [
         "Lando Calrissian"
       ],
@@ -7226,12 +7722,16 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "c24adf9c-010a-46f5-a4e9-116b63b9bfdb",
+      "_id": "8276dc7d-f3c0-40dd-b7e3-858b7d04e010",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Leia Organa",
+      "nicknames": [
+        "Leia",
+        "Organa"
+      ],
       "unique-class": [
         "Leia Organa"
       ],
@@ -7281,12 +7781,16 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "b14d8e8e-9eea-4310-a252-9f95cb4a88c3",
+      "_id": "5d2ad280-ce1a-407e-a5c1-636a32ccac65",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Lira Wessex",
+      "nicknames": [
+        "Lira",
+        "Wessex"
+      ],
       "unique-class": [
         "Lira Wessex"
       ],
@@ -7336,12 +7840,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "fb2aa745-dc51-4715-a62e-a1e1fd070eba",
+      "_id": "46b68702-0e36-4c92-a9b7-6cac2fa54d3c",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Major Derlin",
+      "nicknames": [
+        "Derlin"
+      ],
       "unique-class": [
         "Major Derlin"
       ],
@@ -7391,12 +7898,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "df9251b0-098b-4510-ad83-b05db7593a37",
+      "_id": "76747583-afab-4672-b930-a5d257ddc900",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Minister Tua",
+      "nicknames": [
+        "Tua"
+      ],
       "unique-class": [
         "Minister Tua"
       ],
@@ -7453,12 +7963,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "1d5e1df1-7c02-44ce-a86d-e4ac939e5f38",
+      "_id": "a1b36993-6e85-4776-937a-613fd696bdde",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Navigation Officer",
+      "nicknames": [
+        "Nav Officer",
+        "NO"
+      ],
       "unique-class": [
         ""
       ],
@@ -7508,12 +8022,17 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "69b265d9-9411-40c4-bea9-65e35c39369c",
+      "_id": "95f6750d-2e20-495b-9019-5190bc506226",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "Passel Argente",
+      "nicknames": [
+        "Passel",
+        "Argente",
+        "Pasta Argentina"
+      ],
       "unique-class": [
         "Passel Argente"
       ],
@@ -7563,12 +8082,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "86d0a05f-eccb-4056-9cbe-668d91aaba77",
+      "_id": "2f637649-b61f-4e3c-98a5-a5f8fc74b7c2",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Raymus Antilles",
+      "nicknames": [
+        "Raymus",
+        "Antilles"
+      ],
       "unique-class": [
         "Raymus Antilles"
       ],
@@ -7615,12 +8138,16 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "67ebb388-6f4d-41f1-802d-f09cc00800dd",
+      "_id": "d0cc4c70-490e-4f2c-b777-2446b1ed8fab",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Reeva Demesne",
+      "nicknames": [
+        "Reeva",
+        "Demesne"
+      ],
       "unique-class": [
         "Reeva Demesne"
       ],
@@ -7670,12 +8197,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "02207baa-7956-4bf1-afd5-6c18f12be6cd",
+      "_id": "de7f1156-8613-4026-8987-532d2d4a4e24",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "Rune Haako",
+      "nicknames": [
+        "Rune",
+        "Haako"
+      ],
       "unique-class": [
         "Rune Haako"
       ],
@@ -7725,12 +8256,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "1bad756b-a7d3-41a7-bbfb-1d0031a5c249",
+      "_id": "d40c656d-5a7f-47e1-bb79-9fce34326575",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Sabine Wren",
+      "nicknames": [
+        "Sabine",
+        "Wren"
+      ],
       "unique-class": [
         "Sabine Wren"
       ],
@@ -7777,12 +8312,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "0f3e5f26-10ee-440c-bb0e-a4bb18684004",
+      "_id": "6f0c3684-2255-4d76-bd74-314d92b14971",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "San Hill",
+      "nicknames": [
+        "San",
+        "Hill"
+      ],
       "unique-class": [
         "San Hill"
       ],
@@ -7832,12 +8371,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "c222a1c8-8235-40ba-b41d-8ddb0d44b534",
+      "_id": "1286474a-f4f2-4c81-a983-ee2c406550e0",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "Shu Mai",
+      "nicknames": [
+        "Shu",
+        "Mai"
+      ],
       "unique-class": [
         "Shu Mai"
       ],
@@ -7887,12 +8430,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "19554d24-1c77-4593-8e45-4fb405dbe28a",
+      "_id": "ec393f55-c8cb-4461-b3ea-a9b6767f18f1",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Skilled First Officer",
+      "nicknames": [
+        "SFO"
+      ],
       "unique-class": [
         ""
       ],
@@ -7942,12 +8488,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "77ff1ec9-ace1-4282-a68f-102812330b54",
+      "_id": "89abe191-d9d5-4c89-806d-1aab49fba8f5",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Support Officer",
+      "nicknames": [
+        "SO"
+      ],
       "unique-class": [
         ""
       ],
@@ -7997,12 +8546,17 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "bf0f63e9-25f9-4b31-8946-37415b587e8f",
+      "_id": "72d458a6-2098-4fc5-aea3-267b5e1bdd52",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "T-series Tactical Droid",
+      "nicknames": [
+        "T-series",
+        "Tactical Droid",
+        "TTD"
+      ],
       "unique-class": [
         ""
       ],
@@ -8052,12 +8606,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "18781a10-46f6-4d39-b484-4c8280098e13",
+      "_id": "3383f3c4-1336-4730-a92b-5f5e916c500d",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Tactical Expert",
+      "nicknames": [
+        "TE"
+      ],
       "unique-class": [
         ""
       ],
@@ -8107,12 +8664,16 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "0d0d5653-9bc6-4a10-9942-905e88bcdf14",
+      "_id": "9bc55f8f-fd2c-4d21-bc3d-3c15abdffccb",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Taskmaster Grint",
+      "nicknames": [
+        "TG",
+        "Grint"
+      ],
       "unique-class": [
         "Taskmaster Grint"
       ],
@@ -8159,12 +8720,16 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "77225ee5-b80d-4b30-af11-edf400bdd61a",
+      "_id": "36dc7acf-40d7-4026-9dd4-5cbe8984b9aa",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "The Grand Inquisitor",
+      "nicknames": [
+        "TGI",
+        "Inquisitor"
+      ],
       "unique-class": [
         "The Grand Inquisitor"
       ],
@@ -8214,12 +8779,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "ecf9eaeb-1d2c-42d0-b3da-b919a0afea1d",
+      "_id": "4e01898b-2466-4ab9-9a2d-fb1c99e2b59d",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "TI-99",
+      "nicknames": [
+        "TI99"
+      ],
       "unique-class": [
         "TI-99"
       ],
@@ -8269,12 +8837,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "da94c755-85f9-4f16-8452-6633161034e9",
+      "_id": "48086800-5b8b-4d60-a52b-8ba46d37f562",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "Tikkes",
+      "nicknames": [
+        "Tikkes"
+      ],
       "unique-class": [
         "Tikkes"
       ],
@@ -8324,12 +8895,16 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "c390e8b2-fb77-4095-af18-021d5389927d",
+      "_id": "cf076061-6459-4668-9ec7-8e95a358c366",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Toryn Farr",
+      "nicknames": [
+        "Toryn",
+        "Farr"
+      ],
       "unique-class": [
         "Toryn Farr"
       ],
@@ -8379,12 +8954,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "3babd995-b721-4ef9-a865-bb7d24ee0002",
+      "_id": "174b9bdf-bffa-482f-95f0-3124a637ab68",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Veteran Captain",
+      "nicknames": [
+        "VC"
+      ],
       "unique-class": [
         ""
       ],
@@ -8431,12 +9009,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "931d6420-ece6-4a91-80d6-50af732ef5e0",
+      "_id": "bd5f98ed-1e77-418b-8830-ac3303726817",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Walex Blissex",
+      "nicknames": [
+        "Walex",
+        "Blissex"
+      ],
       "unique-class": [
         "Walex Blissex"
       ],
@@ -8486,12 +9068,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "93df2e02-3000-4a1e-b84c-46e081c5f280",
+      "_id": "023227fe-c8d1-4c15-b76b-4e9a1cfba82a",
       "type": "officer",
       "faction": [
         "separatist"
       ],
       "name": "Wat Tambor",
+      "nicknames": [
+        "Wat",
+        "Tambor"
+      ],
       "unique-class": [
         "Wat Tambor"
       ],
@@ -8541,12 +9127,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "ed4fa366-1478-4f93-acc4-09ed3f2af875",
+      "_id": "df3c1173-d36e-4c9d-a335-4be5dbcb54fe",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Weapons Liaison",
+      "nicknames": [
+        "WL"
+      ],
       "unique-class": [
         ""
       ],
@@ -8596,12 +9185,16 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "190eafb4-8d81-489b-8b93-b1a6419ae916",
+      "_id": "04c7fd1a-009b-4257-b941-6bef502bba50",
       "type": "officer",
       "faction": [
         "rebel"
       ],
       "name": "Wedge Antilles",
+      "nicknames": [
+        "Wedge",
+        "Antilles"
+      ],
       "unique-class": [
         "Wedge Antilles"
       ],
@@ -8651,12 +9244,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "5c4cc1b7-9fb4-4075-8032-891f64fdd685",
+      "_id": "7b1a8a6e-c867-4586-a764-075a52e34a13",
       "type": "officer",
       "faction": [
         ""
       ],
       "name": "Wing Commander",
+      "nicknames": [
+        "WC"
+      ],
       "unique-class": [
         ""
       ],
@@ -8706,12 +9302,16 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a2af74cd-6e89-4b67-b2ca-f1138c640d2b",
+      "_id": "fb7b045b-56d5-4531-841a-ba9d789a4547",
       "type": "officer",
       "faction": [
         "empire"
       ],
       "name": "Wullf Yularen",
+      "nicknames": [
+        "Wullf",
+        "Yularen"
+      ],
       "unique-class": [
         "Wullf Yularen"
       ],
@@ -8761,12 +9361,16 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "37bd1b41-913c-44ec-878e-efab53c05058",
+      "_id": "e4f71aa5-7dec-46fc-924c-3162d2bd8371",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "Assault Concussion Missiles",
+      "nicknames": [
+        "ACM",
+        "ACMs"
+      ],
       "unique-class": [
         ""
       ],
@@ -8816,12 +9420,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "815c2ee4-4a7f-4c29-9e94-712d6247280d",
+      "_id": "6fa781a1-8ddc-45f4-9839-80b764f19aeb",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "Assault Proton Torpedoes",
+      "nicknames": [
+        "APT",
+        "APTs"
+      ],
       "unique-class": [
         ""
       ],
@@ -8871,12 +9479,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "7153c115-9cac-429b-9840-12d3b3c57868",
+      "_id": "c8529747-1e5d-458b-9c4c-935d3d6858fc",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "Expanded Launchers",
+      "nicknames": [
+        "EL",
+        "Launchers"
+      ],
       "unique-class": [
         ""
       ],
@@ -8923,12 +9535,16 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "09c355f2-4c26-475f-9a40-ae6c8cc8e798",
+      "_id": "6533bda0-4c36-4bad-81f8-867efeec7388",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "External Racks",
+      "nicknames": [
+        "Rack",
+        "Racks"
+      ],
       "unique-class": [
         ""
       ],
@@ -8978,12 +9594,17 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "b2596ada-c0af-4d1b-8652-2f928be60595",
+      "_id": "4c91cf41-a947-41c4-9f27-066e6781f930",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "Flechette Torpedoes",
+      "nicknames": [
+        "FT",
+        "FTs",
+        "Flechettes"
+      ],
       "unique-class": [
         ""
       ],
@@ -9030,12 +9651,17 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "9ed78157-774f-4907-b650-cd6353b85a54",
+      "_id": "11374b92-2987-4523-98ae-6ed35df02f51",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "Ordnance Pods",
+      "nicknames": [
+        "OP",
+        "Ops",
+        "Pods"
+      ],
       "unique-class": [
         ""
       ],
@@ -9083,12 +9709,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "eb9e7220-1bbb-4db7-b9f5-0d69938c8b79",
+      "_id": "3e55b82d-9c10-4a84-bead-10423eb2e3c8",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "Rapid Reload",
+      "nicknames": [
+        "RR"
+      ],
       "unique-class": [
         ""
       ],
@@ -9135,12 +9764,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "c7c41a7b-9963-4971-ac7c-32a15d7911a3",
+      "_id": "106f031b-1212-4897-99f8-57a9f9892946",
       "type": "ordnance",
       "faction": [
         ""
       ],
       "name": "Wide-Area Barrage",
+      "nicknames": [
+        "WAB"
+      ],
       "unique-class": [
         ""
       ],
@@ -9187,12 +9819,16 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "a6c6b61b-4f26-4c18-aa4b-f4998816323b",
+      "_id": "fb9d0707-573e-4dc0-ad75-6fd8b8ff4774",
       "type": "super-weapon",
       "faction": [
         "rebel"
       ],
       "name": "Magnite Crystal Tractor Beam Array",
+      "nicknames": [
+        "MCTBA",
+        "Magnites"
+      ],
       "unique-class": [
         ""
       ],
@@ -9242,12 +9878,16 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "fc4cfc7e-a4ea-4ff3-bb7f-0c516142aaa1",
+      "_id": "9164601f-eeca-49be-ad36-4905ffee6fa3",
       "type": "super-weapon",
       "faction": [
         "empire"
       ],
       "name": "Orbital Bombardment Particle Cannons",
+      "nicknames": [
+        "OBC",
+        "Red Beam"
+      ],
       "unique-class": [
         ""
       ],
@@ -9297,12 +9937,16 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "04c3e7ee-32a5-4097-9f3f-f5443ba56148",
+      "_id": "0c309c72-8686-48da-b876-3a5c9c21e399",
       "type": "super-weapon",
       "faction": [
         "empire"
       ],
       "name": "Superheavy Composite Beam Turbolasers",
+      "nicknames": [
+        "SCT",
+        "Blue Beam"
+      ],
       "unique-class": [
         ""
       ],
@@ -9352,12 +9996,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "a2a4c77f-384c-4640-9429-b0bf4acda646",
+      "_id": "4684e9b1-02bb-4f9a-a121-6a2ec19b771e",
       "type": "support-team",
       "faction": [
         ""
       ],
       "name": "Auxiliary Shields Team",
+      "nicknames": [
+        "AST",
+        "Shields Team"
+      ],
       "unique-class": [
         ""
       ],
@@ -9407,12 +10055,17 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "7a7ac3b2-bca0-4998-8741-48676fc424cf",
+      "_id": "fcd695d7-71c6-49c6-aad2-2fa640028b9a",
       "type": "support-team",
       "faction": [
         "separatist"
       ],
       "name": "Battle Droid Reserves",
+      "nicknames": [
+        "BDR",
+        "Droids",
+        "B1s"
+      ],
       "unique-class": [
         ""
       ],
@@ -9462,12 +10115,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "b61bbed7-3cac-49b8-ac69-ed40fe1f8c4c",
+      "_id": "15cd990c-cb8c-4d91-9096-2f7f167f9ead",
       "type": "support-team",
       "faction": [
         ""
       ],
       "name": "Engine Techs",
+      "nicknames": [
+        "ET",
+        "E Techs"
+      ],
       "unique-class": [
         ""
       ],
@@ -9514,12 +10171,16 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a3db7374-81c1-406f-8447-29fac55c3c9a",
+      "_id": "b1c5cd36-ccba-484b-b82e-01c19e48bcc9",
       "type": "support-team",
       "faction": [
         ""
       ],
       "name": "Engineering Team",
+      "nicknames": [
+        "ET",
+        "E Team"
+      ],
       "unique-class": [
         ""
       ],
@@ -9569,12 +10230,16 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "0b1cdbe4-7760-475e-b782-a1320432ad6d",
+      "_id": "8aa2ee1b-6213-4c8f-8c14-2e2b841432e8",
       "type": "support-team",
       "faction": [
         ""
       ],
       "name": "Fighter Coordination Team",
+      "nicknames": [
+        "FCT",
+        "FCTs"
+      ],
       "unique-class": [
         ""
       ],
@@ -9621,12 +10286,16 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "b6383c08-8607-4488-b9c1-ba80fa5a97b9",
+      "_id": "fdfd97ea-df4b-4b09-a47d-665646543391",
       "type": "support-team",
       "faction": [
         ""
       ],
       "name": "Medical Team",
+      "nicknames": [
+        "MT",
+        "Med Team"
+      ],
       "unique-class": [
         ""
       ],
@@ -9676,12 +10345,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e5b6ebde-d8a1-4ca4-984c-b2a5f534c729",
+      "_id": "35a4e45b-ad12-49f9-bfb5-b000786c59c7",
       "type": "support-team",
       "faction": [
         ""
       ],
       "name": "Nav Team",
+      "nicknames": [],
       "unique-class": [
         ""
       ],
@@ -9731,12 +10401,17 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "8fdc68e4-b559-4fc4-8e4f-9b639427d480",
+      "_id": "c127df15-2297-4446-9f6e-9a644ee19d7f",
       "type": "support-team",
       "faction": [
         ""
       ],
       "name": "Projection Experts",
+      "nicknames": [
+        "PE",
+        "PEs",
+        "Projections"
+      ],
       "unique-class": [
         ""
       ],
@@ -9783,12 +10458,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "f1ab2829-d32b-4f28-b577-c5f782f20969",
+      "_id": "90bd5188-202e-4b6b-9696-e7fb27d5a3aa",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Centicore",
+      "nicknames": [
+        "Centicore"
+      ],
       "unique-class": [
         "Centicore"
       ],
@@ -9838,12 +10516,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "60ea0c70-5044-4057-917e-3baa084d490b",
+      "_id": "5b397054-1ba3-47ae-be97-08a6fa6f9dd9",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Hand of Justice",
+      "nicknames": [
+        "HoJ"
+      ],
       "unique-class": [
         "Hand of Justice"
       ],
@@ -9893,12 +10574,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "0591880d-e103-459a-a016-ac7126939cc9",
+      "_id": "932c52ea-5b76-438f-8505-e2f0ae29cbe1",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Demolisher",
+      "nicknames": [
+        "Demo"
+      ],
       "unique-class": [
         "Demolisher"
       ],
@@ -9945,12 +10629,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "0d92d13a-79d8-4590-b486-b46c7576475d",
+      "_id": "486d4d81-262a-4056-a69d-bc3b63192555",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Insidious",
+      "nicknames": [
+        "Insidious"
+      ],
       "unique-class": [
         "Insidious"
       ],
@@ -9997,12 +10684,15 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "281a2834-4ecb-4d92-9090-a373d389ce20",
+      "_id": "bd01ba5c-0031-4ca2-8f4f-2e53bd22707e",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Suppressor",
+      "nicknames": [
+        "Suppressor"
+      ],
       "unique-class": [
         "Suppressor"
       ],
@@ -10052,12 +10742,15 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "2a99f6fd-a719-4152-8e9b-646e1346f228",
+      "_id": "d00b47ba-66a5-44c8-b1cd-acf6093eab4d",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Vector",
+      "nicknames": [
+        "Vector"
+      ],
       "unique-class": [
         "Vector"
       ],
@@ -10107,12 +10800,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "69584207-69b2-458d-ace7-1144860c1242",
+      "_id": "eaf2a1a7-0251-415d-aaae-e7635cce2c72",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Avenger",
+      "nicknames": [
+        "Avenger"
+      ],
       "unique-class": [
         "Avenger"
       ],
@@ -10162,12 +10858,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "8fe3d2d4-2488-40df-a7ff-260978830b4c",
+      "_id": "af42e0c4-6cf7-4b5f-ae74-ea10702e1126",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Chimaera",
+      "nicknames": [
+        "Chimaera"
+      ],
       "unique-class": [
         "Chimaera"
       ],
@@ -10217,12 +10916,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "f9b1f1aa-1af4-4d2f-8623-e796afbfecd3",
+      "_id": "6f7342e8-8590-4ad2-8ebf-a6ada0535f63",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Devastator",
+      "nicknames": [
+        "Devastator"
+      ],
       "unique-class": [
         "Devastator"
       ],
@@ -10272,12 +10974,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "822b4004-aabd-4f23-9a8f-253fbdc06270",
+      "_id": "26f7c34a-bbfb-48f6-85a8-3dfde6beb0c9",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Relentless",
+      "nicknames": [
+        "Relentless"
+      ],
       "unique-class": [
         "Relentless"
       ],
@@ -10327,12 +11032,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "9b4338f9-5129-429c-b866-60afe2dbdcba",
+      "_id": "a3201f91-2bf5-491a-b188-4b83aca4cd7e",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Sovereign",
+      "nicknames": [
+        "Sovereign"
+      ],
       "unique-class": [
         "Sovereign"
       ],
@@ -10379,12 +11087,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "88a4efee-f696-4403-9547-611df783da2c",
+      "_id": "d7ae1c83-365d-4cca-8318-f52c8b74f7e2",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Interdictor",
+      "nicknames": [
+        "Interdictor"
+      ],
       "unique-class": [
         "Interdictor"
       ],
@@ -10434,12 +11145,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "f06775c7-b1fd-4963-914e-9f336cacfe00",
+      "_id": "3f950b1d-37c2-4f29-8ae3-9dc5e83737ce",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Cataclysm",
+      "nicknames": [
+        "Cataclysm"
+      ],
       "unique-class": [
         "Cataclysm"
       ],
@@ -10489,12 +11203,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "76bbbaef-f9d4-48b2-a7b7-3bdc51a3787d",
+      "_id": "a6372cea-4417-44e5-923a-c59e8dab5828",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Rakehell",
+      "nicknames": [
+        "Rakehell"
+      ],
       "unique-class": [
         "Rakehell"
       ],
@@ -10544,12 +11261,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "bdcaae42-e6a7-4f7f-a580-0a5c25a369ec",
+      "_id": "1a659b5e-66d0-463e-810d-9b8fcac57de6",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Sunder",
+      "nicknames": [
+        "Sunder"
+      ],
       "unique-class": [
         "Sunder"
       ],
@@ -10599,12 +11319,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "4148dc6a-28a3-448e-acff-d3cca2647598",
+      "_id": "fee9a653-c769-40c4-aecb-b1760073a88d",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Pursuant",
+      "nicknames": [
+        "Pursuant"
+      ],
       "unique-class": [
         "Pursuant"
       ],
@@ -10654,12 +11377,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "4b5eccc2-eaec-427c-8ea8-23d96b572d6a",
+      "_id": "7f6a24c8-c8f2-4066-b2fa-ac3129100c9d",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Squall",
+      "nicknames": [
+        "Squall"
+      ],
       "unique-class": [
         "Squall"
       ],
@@ -10709,7 +11435,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "cef6ec4b-2c61-4188-b085-853b969b4143",
+      "_id": "227d4348-84f7-4467-8f2e-7653a4294c15",
       "type": "title",
       "faction": [
         "empire"
@@ -10764,12 +11490,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "efde0150-bdf3-47b0-9bcc-4659525399de",
+      "_id": "a288f6fa-946c-4e0d-86c9-168e2b6193b0",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Corvus",
+      "nicknames": [
+        "Corvus"
+      ],
       "unique-class": [
         "Corvus"
       ],
@@ -10819,12 +11548,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "a436e00d-8385-4ee0-9639-e283f81c506f",
+      "_id": "c64d26d6-9515-4185-b94a-eebfa0661d72",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Impetuous",
+      "nicknames": [
+        "Impetuous"
+      ],
       "unique-class": [
         "Impetuous"
       ],
@@ -10874,7 +11606,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "e667b030-d05b-4526-a50f-6acab2d74086",
+      "_id": "1ff5635e-1234-409f-b0c3-bdbbd656aadb",
       "type": "title",
       "faction": [
         "empire"
@@ -10929,12 +11661,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "04bcedf6-c421-4914-8ff5-0af15416fa91",
+      "_id": "485813e6-9c76-4d7a-bbb5-7f7fa937887b",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Seventh Fleet Star Destroyer",
+      "nicknames": [
+        "Seventh Fleet"
+      ],
       "unique-class": [
         ""
       ],
@@ -10981,12 +11716,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "e8c3f5fe-e758-4f84-b7a0-7b73875984ee",
+      "_id": "a1eff109-5ce0-4c6c-a1bf-44ffbede16d3",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Annihilator",
+      "nicknames": [
+        "Annihilator"
+      ],
       "unique-class": [
         "Annihilator"
       ],
@@ -11036,12 +11774,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "39b8717e-c4b7-4028-af92-7853691a5b7b",
+      "_id": "06a18f00-5280-46a2-a2a9-cdc5598c7d2d",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Eclipse",
+      "nicknames": [
+        "Eclipse"
+      ],
       "unique-class": [
         "Eclipse"
       ],
@@ -11091,12 +11832,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "745e1701-5a58-48b1-bfc9-61ecd3e4d546",
+      "_id": "3964ab34-735e-4f8d-854f-ad3ad4e4b112",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Executor",
+      "nicknames": [
+        "Executor"
+      ],
       "unique-class": [
         "Executor"
       ],
@@ -11146,12 +11890,15 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "aaab59aa-0f5a-4fb1-a8c8-7c002ba3b9de",
+      "_id": "a9365df3-dc6b-4699-9907-1a523b31cf12",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Ravager",
+      "nicknames": [
+        "Ravager"
+      ],
       "unique-class": [
         "Ravager"
       ],
@@ -11201,12 +11948,15 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "2db45ad0-16bd-49c7-83e8-3eb4d11ae210",
+      "_id": "ab68a936-d91c-4b69-8c71-89f7d2307e97",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Corrupter",
+      "nicknames": [
+        "Corrupter"
+      ],
       "unique-class": [
         "Corrupter"
       ],
@@ -11256,12 +12006,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "98331f8e-6956-42a8-a5ac-7a8f1562a623",
+      "_id": "a7c87a96-0eac-4691-9a34-f4ed95bfc1e8",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Dominator",
+      "nicknames": [
+        "Dominator"
+      ],
       "unique-class": [
         "Dominator"
       ],
@@ -11311,12 +12064,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "dd748778-4f05-4917-be05-a647eb3d4a4d",
+      "_id": "bfe568c7-7cab-4c91-b809-e0af800c1457",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Harrow",
+      "nicknames": [
+        "Harrow"
+      ],
       "unique-class": [
         "Harrow"
       ],
@@ -11366,12 +12122,15 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "c2784c07-26b7-4b97-8406-cd4b72ebce19",
+      "_id": "56c59bd8-ea96-4e0e-bbc0-6faddf3c0a9b",
       "type": "title",
       "faction": [
         "empire"
       ],
       "name": "Warlord",
+      "nicknames": [
+        "Warlord"
+      ],
       "unique-class": [
         "Warlord"
       ],
@@ -11421,12 +12180,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "409f307b-244d-430c-bbd0-90d725fdaed1",
+      "_id": "db2da788-8bc8-4828-bf00-b43218c7ce5a",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Gallant Haven",
+      "nicknames": [
+        "GH"
+      ],
       "unique-class": [
         "Gallant Haven"
       ],
@@ -11473,12 +12235,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "6c3b4a06-6121-457c-a0c0-ce5827c389e8",
+      "_id": "163a23ad-f320-48ad-b719-d007daef8a11",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Paragon",
+      "nicknames": [
+        "Paragon"
+      ],
       "unique-class": [
         "Paragon"
       ],
@@ -11525,12 +12290,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "4527d970-3663-4787-8e04-9ecd77113df2",
+      "_id": "57dbc792-7a52-4397-9a29-8d707a8a05a6",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Dodonna's Pride",
+      "nicknames": [
+        "D Pride"
+      ],
       "unique-class": [
         "Dodonna's Pride"
       ],
@@ -11580,12 +12348,17 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "7ea8552e-66c7-4d0f-8dd9-b3c3fe9d4c63",
+      "_id": "b95c163e-3a2a-4105-91e7-92b07cbdf413",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Jaina's Light",
+      "nicknames": [
+        "Jaina's",
+        "Jainas",
+        "JL"
+      ],
       "unique-class": [
         "Jaina's Light"
       ],
@@ -11635,12 +12408,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "cda3042f-3bef-41e0-8052-0c8dec9dcb80",
+      "_id": "0df94290-6ff0-4135-ad62-3caee20f7e95",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Liberator",
+      "nicknames": [
+        "Lib"
+      ],
       "unique-class": [
         "Liberator"
       ],
@@ -11690,12 +12466,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "13655e7a-9db2-4525-b7a5-317bc981f46b",
+      "_id": "3c21b31e-e6bf-422a-a9b7-f808d2259c4a",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Tantive IV",
+      "nicknames": [
+        "Tantive"
+      ],
       "unique-class": [
         "Tantive IV"
       ],
@@ -11745,12 +12524,15 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "1f09a97b-a868-455e-adc0-f644d2e7e800",
+      "_id": "45bf41b9-6832-4a8d-b708-143423a531f2",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Bright Hope",
+      "nicknames": [
+        "BH"
+      ],
       "unique-class": [
         "Bright Hope"
       ],
@@ -11800,12 +12582,15 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "05e74b38-555b-4730-b702-5e6c5b11e89c",
+      "_id": "e10027e0-ead2-40b3-a056-9d30d5e63eaa",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Quantum Storm",
+      "nicknames": [
+        "QS"
+      ],
       "unique-class": [
         "Quantum Storm"
       ],
@@ -11855,12 +12640,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "2b26366d-a16f-4e79-a17f-7e1e9dcc3f9d",
+      "_id": "c3fc8b45-711e-4edc-8b74-270b56a79101",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Garel's Honor",
+      "nicknames": [
+        "GH"
+      ],
       "unique-class": [
         "Garel's Honor"
       ],
@@ -11910,12 +12698,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "8b5aa241-5c3b-4f2a-abe3-e5a5e6003932",
+      "_id": "9aeeca9b-d6df-4db8-8451-7f5c01d9d794",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Task Force Antilles",
+      "nicknames": [
+        "TF Antilles"
+      ],
       "unique-class": [
         ""
       ],
@@ -11965,12 +12756,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "f8490da5-a19d-440c-8043-c25737e9defe",
+      "_id": "22875575-c91e-4260-a532-5688000c65ad",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Task Force Organa",
+      "nicknames": [
+        "TF Organa"
+      ],
       "unique-class": [
         ""
       ],
@@ -12020,12 +12814,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "a7017c00-e4fc-442b-9fd8-aa49a666c212",
+      "_id": "a17d6ff6-9f4b-4524-a06b-3e48fb9e44d6",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Admonition",
+      "nicknames": [
+        "ADM"
+      ],
       "unique-class": [
         "Admonition"
       ],
@@ -12075,12 +12872,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "7f163e10-0a8b-4aa8-9d0b-072bf38f2773",
+      "_id": "d6e345a5-3c52-4233-acfe-b0dedb25da81",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Foresight",
+      "nicknames": [
+        "Foresight",
+        "FS"
+      ],
       "unique-class": [
         "Foresight"
       ],
@@ -12130,12 +12931,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "b9f4c040-856d-4a80-98b8-9a0be7912d4e",
+      "_id": "73962131-af40-451f-ad42-2144ac614460",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Aspiration",
+      "nicknames": [
+        "Aspiration"
+      ],
       "unique-class": [
         "Aspiration"
       ],
@@ -12182,12 +12986,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "a7c6f02c-60ec-4d8f-8d63-900e90cdfeff",
+      "_id": "bd9126f0-e475-46b5-a1f7-45706af62e2b",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Profundity",
+      "nicknames": [
+        "Profundity"
+      ],
       "unique-class": [
         "Profundity"
       ],
@@ -12234,12 +13041,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM130)",
-      "_id": "6dfc8ea3-394a-4cbf-8619-cf92953d48a2",
+      "_id": "dde9d74e-f37d-4614-9fcf-23782cb7805d",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Defiance",
+      "nicknames": [
+        "Defiance"
+      ],
       "unique-class": [
         "Defiance"
       ],
@@ -12289,12 +13099,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM130)",
-      "_id": "33e2e1ae-69f9-4c7e-be65-c498131a40a7",
+      "_id": "39d70181-ebf2-4760-84f2-409b65df6fa3",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Home One",
+      "nicknames": [
+        "Home One",
+        "Useless"
+      ],
       "unique-class": [
         "Home One"
       ],
@@ -12344,12 +13158,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM130)",
-      "_id": "4febff9f-7c53-4b7c-a425-a7207651f710",
+      "_id": "562be6ad-12da-4f03-9e19-2584d836624c",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Independence",
+      "nicknames": [
+        "Independence"
+      ],
       "unique-class": [
         "Independence"
       ],
@@ -12399,12 +13216,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "28429957-6baa-4499-be99-5601469cbbad",
+      "_id": "b09e9c89-807c-4bbd-9f1c-f8ae537950f2",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Endeavor",
+      "nicknames": [
+        "Endeavor"
+      ],
       "unique-class": [
         "Endeavor"
       ],
@@ -12454,12 +13274,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "19a844e2-c331-4971-ad40-ab3af638f53d",
+      "_id": "e8d28906-4983-4359-8cda-fbc127b5203c",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Liberty",
+      "nicknames": [
+        "Liberty"
+      ],
       "unique-class": [
         "Liberty"
       ],
@@ -12509,12 +13332,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "b3aca7e9-1dd8-49fe-b6ea-dfc56ffb04b2",
+      "_id": "373c5c0d-c6d8-4656-ae8b-794f382029da",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Mon Karren",
+      "nicknames": [
+        "Mon Karren"
+      ],
       "unique-class": [
         "Mon Karren"
       ],
@@ -12564,12 +13390,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "0cf2480c-ae57-4a63-ae48-1959186498d3",
+      "_id": "bb5db2c3-9a1a-47ed-8d0d-d1592d46ffc3",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Phoenix Home",
+      "nicknames": [
+        "PH"
+      ],
       "unique-class": [
         "Phoenix Home"
       ],
@@ -12619,12 +13448,16 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "c5fc0d75-4eb6-4005-a958-73539113f453",
+      "_id": "8c54bd91-add2-4e2a-aafb-b414abed24ee",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Mon Calamari Exodus Fleet",
+      "nicknames": [
+        "Exodus",
+        "MC Fleet"
+      ],
       "unique-class": [
         "Mon Calamari Exodus Fleet"
       ],
@@ -12671,12 +13504,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "1aafb561-7423-402c-a1f3-ac21b2cbf031",
+      "_id": "ed76a275-c84d-4312-b664-6b20f727f8c8",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Redemption",
+      "nicknames": [
+        "Redemption"
+      ],
       "unique-class": [
         "Redemption"
       ],
@@ -12726,12 +13562,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-      "_id": "80085125-4fce-4d2a-be1c-b6f000bc341f",
+      "_id": "3e653cd0-ac2d-48f4-961a-7f39a0d0473e",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Salvation",
+      "nicknames": [
+        "Salvation"
+      ],
       "unique-class": [
         "Salvation"
       ],
@@ -12781,12 +13620,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "72c88469-53e6-4cf8-9b4f-6fff79202364",
+      "_id": "12a4528a-a9b9-4619-8294-44def20b922a",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Vanguard",
+      "nicknames": [
+        "Vanguard"
+      ],
       "unique-class": [
         "Vanguard"
       ],
@@ -12836,12 +13678,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-      "_id": "84a30878-3c72-45f5-b036-10cec5833de9",
+      "_id": "c3936fe6-9a5f-4821-b3c8-cac6246291d2",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Yavaris",
+      "nicknames": [
+        "Yavaris"
+      ],
       "unique-class": [
         "Yavaris"
       ],
@@ -12891,12 +13736,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "daf257e8-bc45-4602-bffb-26391d625668",
+      "_id": "7a77102b-f91a-41ab-a4c3-9e139889cd9e",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Amity",
+      "nicknames": [
+        "Amity"
+      ],
       "unique-class": [
         "Amity"
       ],
@@ -12946,12 +13794,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "7082a6e4-f6b4-4713-83d3-6ddb3dff0d24",
+      "_id": "f50fa45e-e04a-4b44-9351-4db836b47d27",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Concord",
+      "nicknames": [
+        "Concord"
+      ],
       "unique-class": [
         "Concord"
       ],
@@ -13001,12 +13852,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "c815a80f-86a5-44ea-8671-4054aabcd765",
+      "_id": "210e110b-b351-4962-887c-f56e7d8e8d1f",
       "type": "title",
       "faction": [
         "rebel"
       ],
       "name": "Unity",
+      "nicknames": [
+        "Unity"
+      ],
       "unique-class": [
         "Unity"
       ],
@@ -13056,12 +13910,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "f4b06af1-305e-4f9d-9923-31c51dade0e2",
+      "_id": "84e2e934-2d93-48ca-b5cc-2b8bb32e3370",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "Implacable",
+      "nicknames": [
+        "Implacable"
+      ],
       "unique-class": [
         "Implacable"
       ],
@@ -13111,12 +13968,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "d3522a20-8fe6-49df-a845-62ccfcf48c57",
+      "_id": "f64ff3d4-6eaf-409d-9db5-5d33de791775",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "Nevoota Bee",
+      "nicknames": [
+        "Nevoota Bee"
+      ],
       "unique-class": [
         "Nevoota Bee"
       ],
@@ -13166,12 +14026,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "a8f05a23-6129-4027-80db-8e62736e3487",
+      "_id": "66450601-ab3e-47e0-b4d3-d832fda0f8c8",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "Radiant VII",
+      "nicknames": [
+        "Radiant 7",
+        "Radiant"
+      ],
       "unique-class": [
         "Radiant VII"
       ],
@@ -13222,12 +14086,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "3038b0d3-a1b0-4594-bf2c-f6b6a9525228",
+      "_id": "544feb9f-a127-4a8d-8b24-404a14b53d06",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "Swift Return",
+      "nicknames": [
+        "Swift Return"
+      ],
       "unique-class": [
         "Swift Return"
       ],
@@ -13277,12 +14144,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "cc82622b-a9c3-454b-b4b4-19b152567e0c",
+      "_id": "f0f78242-8154-4b94-8e41-f01ee3651ee9",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "FB-88",
+      "nicknames": [
+        "FB"
+      ],
       "unique-class": [
         "FB-88"
       ],
@@ -13332,12 +14202,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "638a589f-56d2-4e97-ae98-991a1a4720be",
+      "_id": "6a5a1f2b-8989-4457-ac95-f58f2e5b6a3b",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "TB-73",
+      "nicknames": [
+        "TB"
+      ],
       "unique-class": [
         "TB-73"
       ],
@@ -13387,12 +14260,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "bc38b2f1-0179-4397-ba5d-b70ae0226764",
+      "_id": "82c1cf91-1f18-46cb-b5c3-bbefb7d7e495",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "Resolute",
+      "nicknames": [
+        "Resolute"
+      ],
       "unique-class": [
         "Resolute"
       ],
@@ -13442,16 +14318,20 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "24a8f739-9a28-4657-a4c0-108c6be0a581",
+      "_id": "1e912ae7-6386-416f-b75c-38b7da794272",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "Tranquility",
+      "nicknames": [
+        "Tranquility",
+        "TQ"
+      ],
       "unique-class": [
         "Tranquility"
       ],
-      "ability": "While defending, after the Spend Defense Tokens step, if you spent fewer than 2 defense tokens, you may move up to 2 shields from 1 of your hull zones to the defending hull zone. If you do, the number of shields in that zone cannot exceed a maximum of “6.” You cannot recover shields while any zone is greater than its maximum shield value.",
+      "ability": "While defending, after the Spend Defense Tokens step, if you spent fewer than 2 defense tokens, you may move up to 2 shields from 1 of your hull zones to the defending hull zone. If you do, the number of shields in that zone cannot exceed a maximum of '6'. You cannot recover shields while any zone is greater than its maximum shield value.",
       "unique": true,
       "points": 7,
       "modification": false,
@@ -13497,12 +14377,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "5d048250-b884-40a1-9a6a-a997320b7207",
+      "_id": "5b344114-cdfd-4edb-81b2-474eedd154d7",
       "type": "title",
       "faction": [
         "republic"
       ],
       "name": "Triumphant",
+      "nicknames": [
+        "Triumphant"
+      ],
       "unique-class": [
         "Triumphant"
       ],
@@ -13552,12 +14435,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "a9276781-1b93-4753-a615-7cdda7e8d304",
+      "_id": "47bd647d-a85c-4adb-adbc-27149b1970b3",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Beast of Burden",
+      "nicknames": [
+        "BOB"
+      ],
       "unique-class": [
         "Beast of Burden"
       ],
@@ -13607,12 +14493,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "2e2da0c7-a763-466b-9603-022bed5488a8",
+      "_id": "28cb352e-8279-4451-b64d-4a1221a069b6",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Foreman's Labor",
+      "nicknames": [
+        "FL",
+        "Labor"
+      ],
       "unique-class": [
         "Foreman's Labor"
       ],
@@ -13662,12 +14552,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "7d98c927-76c2-44e9-91ed-0d9254c26a19",
+      "_id": "afedc52b-839c-42cc-8eca-d64f55c65db0",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Sa Nalaor",
+      "nicknames": [
+        "SaNa"
+      ],
       "unique-class": [
         "Sa Nalaor"
       ],
@@ -13717,12 +14610,17 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "d6a3c968-70e4-4a72-88d2-796ea719abb7",
+      "_id": "acc59d7a-01fe-4470-8028-a0e51fa65e0c",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Tide of Progress XII",
+      "nicknames": [
+        "Tide of Progress",
+        "Top",
+        "Tide of Progress 12"
+      ],
       "unique-class": [
         "Tide of Progress XII"
       ],
@@ -13772,12 +14670,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "8e2c09e8-1b09-4f1e-90fb-a96886514be1",
+      "_id": "382e0768-c04d-4fd4-967b-540f170697d8",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Invincible",
+      "nicknames": [
+        "Invincible"
+      ],
       "unique-class": [
         "Invincible"
       ],
@@ -13827,12 +14728,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "cf9c4f25-af60-4b51-af45-f1e53b5601b0",
+      "_id": "71c2660a-a8dc-4809-9074-43294b5ddf39",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Invisible Hand",
+      "nicknames": [
+        "Invis Hand",
+        "IH"
+      ],
       "unique-class": [
         "Invisible Hand"
       ],
@@ -13882,16 +14787,20 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "a2b291aa-4be0-41f2-9071-94e891dbaea5",
+      "_id": "0ebef015-f24f-4fd9-834a-fe896e8681ab",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Lucid Voice",
+      "nicknames": [
+        "Lucid Voice",
+        "LV"
+      ],
       "unique-class": [
         "Lucid Voice"
       ],
-      "ability": "Treat your rear hull zone’s printed battery armament as 3 red dice. The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.",
+      "ability": "Treat your rear hull zone's printed battery armament as 3 red dice. The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.",
       "unique": true,
       "points": 8,
       "modification": false,
@@ -13937,12 +14846,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "efacebe8-1461-4b3a-9941-d6f008d07410",
+      "_id": "3a4ba1a6-e74e-47eb-82a5-0b9557dc272f",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Gilded Aegis",
+      "nicknames": [
+        "GA"
+      ],
       "unique-class": [
         "Gilded Aegis"
       ],
@@ -13992,12 +14904,15 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "d306acc4-1bf5-432e-966e-fa689a5e8c97",
+      "_id": "b15df2f1-926d-4fbc-9fed-d26e6be790f7",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Nova Defiant",
+      "nicknames": [
+        "ND"
+      ],
       "unique-class": [
         "Nova Defiant"
       ],
@@ -14050,12 +14965,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "d9db81e7-634f-41bb-91ef-17e0cd44d6a9",
+      "_id": "735bb8f1-fbf5-443f-b0c2-8b3c54c5dc6d",
       "type": "title",
       "faction": [
         "separatist"
       ],
       "name": "Patriot Fist",
+      "nicknames": [
+        "PF",
+        "PFist"
+      ],
       "unique-class": [
         "Patriot Fist"
       ],
@@ -14105,12 +15024,16 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "d616973f-0c1c-4a5a-bb56-296f846a1de4",
+      "_id": "b4336cc0-950e-4f4b-9fb7-419610ab6b00",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "DBY-827 Heavy Turbolasers",
+      "nicknames": [
+        "DBY",
+        "DBYs"
+      ],
       "unique-class": [
         ""
       ],
@@ -14160,12 +15083,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "3431cbb9-f9cd-411a-938e-7b8570dd9d2d",
+      "_id": "65017b4d-311d-4580-a49f-d8e1be805be1",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Dual Turbolaser Turrets",
+      "nicknames": [
+        "DTT"
+      ],
       "unique-class": [
         ""
       ],
@@ -14215,12 +15141,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "5885f03d-2156-4a7e-8243-2b00c3d68e48",
+      "_id": "712c9050-9f8c-44e3-8953-f80baae5680b",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Enhanced Armament",
+      "nicknames": [
+        "EA"
+      ],
       "unique-class": [
         ""
       ],
@@ -14270,12 +15199,16 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "7121525e-86fc-4fa4-aaa5-095c441f5630",
+      "_id": "d471b165-665e-4dca-8b6f-d4643d3954a8",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "H9 Turbolasers",
+      "nicknames": [
+        "H9",
+        "H9s"
+      ],
       "unique-class": [
         ""
       ],
@@ -14325,12 +15258,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "f4e7c743-b593-4291-90f8-fc93ab66e0c8",
+      "_id": "86a25548-cb86-4de0-a837-dc971f9f794c",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Heavy Fire Zone",
+      "nicknames": [
+        "HFZ"
+      ],
       "unique-class": [
         ""
       ],
@@ -14380,12 +15316,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "51fd5d20-7c36-4c1b-8838-2c0cf5559dd3",
+      "_id": "246b3197-5967-409d-8e25-155db5ad14bb",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Heavy Turbolaser Turrets",
+      "nicknames": [
+        "HTT",
+        "HTTs"
+      ],
       "unique-class": [
         ""
       ],
@@ -14432,12 +15372,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "835c455c-6103-4191-ab64-a12d517b75b0",
+      "_id": "9ea22dc4-66b0-4af6-a497-77a57ed7f3bb",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Linked Turbolaser Towers",
+      "nicknames": [
+        "LTT"
+      ],
       "unique-class": [
         ""
       ],
@@ -14487,12 +15430,16 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "6a4a18d7-d081-4d2f-a0be-7a3bd9e056b5",
+      "_id": "25be9424-1217-4ad2-88ce-ed17b958c8db",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Quad Battery Turrets",
+      "nicknames": [
+        "QBT",
+        "QBTs"
+      ],
       "unique-class": [
         ""
       ],
@@ -14539,12 +15486,16 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "ca1b2958-5599-4b61-9ef8-30fa786b1b17",
+      "_id": "16185a4a-611e-42da-981b-14ab1176ddf1",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Quad Turbolaser Cannons",
+      "nicknames": [
+        "QTC",
+        "QTCs"
+      ],
       "unique-class": [
         ""
       ],
@@ -14591,12 +15542,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "e07ac5f1-1652-4b5b-97c0-d7e2cfd71d72",
+      "_id": "84d9b4a4-cbc9-4108-89ce-f40a0322de35",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Slaved Turrets",
+      "nicknames": [
+        "Slaved"
+      ],
       "unique-class": [
         ""
       ],
@@ -14643,12 +15597,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "50365902-33d8-4a82-820b-839a81b979bb",
+      "_id": "68d25ac4-409d-4758-8732-6f401b63a546",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Spinal Armament",
+      "nicknames": [
+        "Spinals"
+      ],
       "unique-class": [
         ""
       ],
@@ -14695,13 +15652,17 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "52b6fc77-63fa-421f-ba66-29fbe81a61a7",
+      "_id": "6ed15bad-1501-4fea-858c-24e9caf29da8",
       "type": "turbolaser",
       "faction": [
         "republic",
         "separatist"
       ],
       "name": "Swivel-Mount Batteries",
+      "nicknames": [
+        "SMB",
+        "Swivels"
+      ],
       "unique-class": [
         ""
       ],
@@ -14751,12 +15712,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "1f85b3c8-b1c4-4173-9af0-3a316bac2519",
+      "_id": "2f0f0d8c-2429-4d66-a21a-38307399701a",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "Turbolaser Reroute Circuits",
+      "nicknames": [
+        "TRC",
+        "TRCs"
+      ],
       "unique-class": [
         ""
       ],
@@ -14803,12 +15768,16 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-      "_id": "a6a3151b-fb74-456b-bdf9-bad8ca059e13",
+      "_id": "eeda50a6-a8e6-454a-bf06-b4df7655a093",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "XI7 Turbolasers",
+      "nicknames": [
+        "XI7s",
+        "XI7"
+      ],
       "unique-class": [
         ""
       ],
@@ -14855,12 +15824,18 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
-      "_id": "6ce7b996-d576-4d94-a0c0-e7b469e23e88",
+      "_id": "5ca4e5cf-d31c-4437-85e3-102afe3f6860",
       "type": "turbolaser",
       "faction": [
         ""
       ],
       "name": "XX-9 Turbolasers",
+      "nicknames": [
+        "XX9",
+        "XX9s",
+        "XX-9",
+        "XX-9s"
+      ],
       "unique-class": [
         ""
       ],
@@ -14907,12 +15882,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "39d0f51f-83e3-448b-8057-2e33bab58b0c",
+      "_id": "14974dd0-f894-417a-a2d5-c8a83d38f14a",
       "type": "weapons-team",
       "faction": [
         "rebel"
       ],
       "name": "Caitken and Shollan",
+      "nicknames": [
+        "C&S"
+      ],
       "unique-class": [
         ""
       ],
@@ -14959,12 +15937,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "3fb89b12-9aba-4aeb-80da-a87c08277c3c",
+      "_id": "ca87d510-b6e9-4752-9a94-a6b1590950d0",
       "type": "weapons-team",
       "faction": [
         "republic"
       ],
       "name": "Clone Gunners",
+      "nicknames": [
+        "CG"
+      ],
       "unique-class": [
         ""
       ],
@@ -15014,12 +15995,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "352cc749-54e0-4f77-b87f-f27494849c60",
+      "_id": "9f3437f6-8eff-4c6f-a390-b2333de85747",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Fire-Control Team",
+      "nicknames": [
+        "FCT"
+      ],
       "unique-class": [
         ""
       ],
@@ -15069,12 +16053,15 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "433c5684-8f70-4789-9b8f-d4498b01b3bb",
+      "_id": "26dc8ce0-8c94-4e58-9e1c-b9a9bd65ca59",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Flight Controllers",
+      "nicknames": [
+        "FC"
+      ],
       "unique-class": [
         ""
       ],
@@ -15124,12 +16111,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "0b78a7de-2e86-4cc4-a9f3-f24765059fba",
+      "_id": "70657dbb-decd-4d37-ba66-c1e732ecefac",
       "type": "weapons-team",
       "faction": [
         "empire"
       ],
       "name": "Gunnery Chief Varnillian",
+      "nicknames": [
+        "Varnillian"
+      ],
       "unique-class": [
         "Gunnery Chief Varnillian"
       ],
@@ -15179,12 +16169,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "c850834d-755e-4108-bdcd-62f783b03b21",
+      "_id": "ec6c825a-74d1-4d1c-96fa-23dbe93f6b54",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Gunnery Team",
+      "nicknames": [
+        "GT"
+      ],
       "unique-class": [
         ""
       ],
@@ -15234,12 +16227,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "a4528d38-51cf-49b4-a754-1540abed44d6",
+      "_id": "674003ed-a3a1-44c3-8b8b-5d19e2915843",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Local Fire Control",
+      "nicknames": [
+        "LFC"
+      ],
       "unique-class": [
         ""
       ],
@@ -15289,12 +16285,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "b30b18c4-8624-4c98-aaf0-25ec48894164",
+      "_id": "17227b18-9a86-44ca-965f-e0dd1c92090c",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Ordnance Experts",
+      "nicknames": [
+        "OE",
+        "Ordnance"
+      ],
       "unique-class": [
         ""
       ],
@@ -15341,12 +16341,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "48b3f744-c7e0-4fdd-a973-cbe8b0fba86c",
+      "_id": "c010ee6e-2371-4bf3-8c15-68ec39f5f4b7",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Ruthless Strategists",
+      "nicknames": [
+        "RS",
+        "Ruthless"
+      ],
       "unique-class": [
         ""
       ],
@@ -15393,12 +16397,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "dd447ce6-1ed6-47e5-91f8-007df5b6ee88",
+      "_id": "b5afb0f2-4097-4201-92a2-0c18e69f68ad",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Sensor Team",
+      "nicknames": [
+        "Sensor"
+      ],
       "unique-class": [
         ""
       ],
@@ -15448,12 +16455,15 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "23869cfd-b5a7-4789-a4c1-0a5023031df5",
+      "_id": "6562ee46-a770-49ae-8c9e-cf5672cab7a0",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Veteran Gunners",
+      "nicknames": [
+        "Vet Gunners"
+      ],
       "unique-class": [
         ""
       ],
@@ -15503,12 +16513,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "f12d0b88-1158-4c93-bbc1-905a40bb8461",
+      "_id": "675f1568-2e06-4759-ae3d-5a58bf8aba5a",
       "type": "weapons-team",
       "faction": [
         ""
       ],
       "name": "Weapons Battery Techs",
+      "nicknames": [
+        "WBT",
+        "WBTs"
+      ],
       "unique-class": [
         ""
       ],
@@ -15558,12 +16572,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "e0878294-d0d1-47bb-a27e-7790c3f0673e",
+      "_id": "bc10f78d-5d4d-4c36-b6f7-711ded5ec7a7",
       "type": "weapons-team-offensive-retro",
       "faction": [
         ""
       ],
       "name": "Boarding Engineers",
+      "nicknames": [
+        "BEs"
+      ],
       "unique-class": [
         ""
       ],
@@ -15613,12 +16630,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "349077c7-119e-4f20-ae6f-faff22a6bf0b",
+      "_id": "8b545bcc-34c3-4d1c-b4a2-9358ee95027a",
       "type": "weapons-team-offensive-retro",
       "faction": [
         ""
       ],
       "name": "Boarding Troopers",
+      "nicknames": [
+        "BTs"
+      ],
       "unique-class": [
         ""
       ],
@@ -15668,12 +16688,15 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "769a7f33-a3fa-4049-b084-7b9842d6820b",
+      "_id": "c2d81347-d84c-4817-b3b6-eef02b4678d0",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "rebel"
       ],
       "name": "Cham Syndulla",
+      "nicknames": [
+        "Cham"
+      ],
       "unique-class": [
         "Cham Syndulla"
       ],
@@ -15723,12 +16746,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "b260600b-7187-4d01-bb0e-26fedaafd6eb",
+      "_id": "b194ca84-7656-4a55-86d8-b790571be114",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "empire"
       ],
       "name": "Darth Vader",
+      "nicknames": [
+        "Vader"
+      ],
       "unique-class": [
         "Darth Vader"
       ],
@@ -15775,12 +16801,15 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "99d4a29b-66bb-4273-9322-a75ac4f5c1fa",
+      "_id": "5a0e2efc-4150-42c3-883b-0ba71dbb113d",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "rebel"
       ],
       "name": "Jyn Erso",
+      "nicknames": [
+        "Jyn"
+      ],
       "unique-class": [
         "Jyn Erso"
       ],
@@ -15827,12 +16856,15 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "1e53e39d-9e0b-4cbd-8b98-9b425b637d18",
+      "_id": "3e5776b2-f48a-491b-9d27-5521e6308c28",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "rebel"
       ],
       "name": "Shriv Suurgav",
+      "nicknames": [
+        "Shriv"
+      ],
       "unique-class": [
         "Shriv Suurgav"
       ],

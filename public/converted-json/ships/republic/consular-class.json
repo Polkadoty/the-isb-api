@@ -55,6 +55,9 @@
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Armed Cruiser",
+          "nicknames": [
+            "Consular", "Consular-class", "Consular Armed"
+          ],
           "faction": "republic",
           "unique": false,
           "traits": [
@@ -138,6 +141,9 @@
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Charger c70",
+          "nicknames": [
+            "Consular", "Consular-class", "Consular Charger", "Consular-class Charger", "C70", "C-70"
+          ],
           "faction": "republic",
           "unique": false,
           "traits": [

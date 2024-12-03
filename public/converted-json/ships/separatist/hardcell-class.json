@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Transport",
+          "nicknames": [
+            "Hardcell", "Hardcell-class", "Hardcell Transport", "Hardcell-class Transport"
+          ],
           "faction": "separatist",
           "unique": false,
           "traits": [
@@ -133,6 +136,9 @@
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Battle Refit",
+          "nicknames": [
+            "Hardcell", "Hardcell-class", "Hardcell Battle", "Hardcell-class Battle"
+          ],
           "faction": "separatist",
           "unique": false,
           "traits": [

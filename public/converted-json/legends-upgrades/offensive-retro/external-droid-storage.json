@@ -1,0 +1,65 @@
+{
+    "upgrades": {
+        "external-droid-storage": {
+            "author": "Armada Legends",
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends December 2024 Dev Cycle",
+            "expansion": "December 2024 Upgrade Expansion",
+            "_id": null,
+            "type": "offensive-retro",
+            "faction": [
+                "separatist"
+            ],
+            "name": "External Droid Storage",
+            "nicknames": [
+                "External Droid Storage"
+            ],
+            "unique-class": [
+                ""
+            ],
+            "ability": "*Non-flotilla only.* \n:squadron: : You may discard up to 2 tokens from this card to activate that many additional squadrons with **AI**.",
+            "unique": false,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false,
+                "disqualify_if": {
+                    "traits": ["flotilla"]
+                }
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/external-droid-storage.webp"
+        }
+    }
+}

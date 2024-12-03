@@ -55,6 +55,9 @@
           "type": "ship",
           "chassis": "mc30c-frigate",
           "name": "MC30c Scout Frigate",
+          "nicknames": [
+            "MC30c", "MC30c Frigate", "MC30c Scout", "MC30", "MC-30c", "MC-30"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [
@@ -138,6 +141,9 @@
           "type": "ship",
           "chassis": "mc30c-frigate",
           "name": "MC30c Torpedo Frigate",
+          "nicknames": [
+            "MC30c", "MC30c Frigate", "MC30c Torpedo", "MC30", "MC-30c", "MC-30"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [

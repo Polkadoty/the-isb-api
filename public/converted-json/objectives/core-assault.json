@@ -9,6 +9,9 @@
       "_id": null,
       "type": "assault",
       "name": "Advanced Gunnery",
+      "nicknames": [
+        "Advanced Gunnery", "AG"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "assault",
       "name": "Most Wanted",
+      "nicknames": [
+        "Most Wanted", "MW"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -77,6 +83,9 @@
       "_id": null,
       "type": "assault",
       "name": "Opening Salvo",
+      "nicknames": [
+        "Opening Salvo", "OS", "Salvo"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -111,6 +120,9 @@
       "_id": null,
       "type": "assault",
       "name": "Precision Strike",
+      "nicknames": [
+        "Precision Strike", "PS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

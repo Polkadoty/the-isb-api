@@ -46,6 +46,9 @@
           "type": "ship",
           "chassis": "pelta-class-frigate",
           "name": "Pelta-class Medical Frigate",
+          "nicknames": [
+            "Pelta", "Pelta-class", "Pelta Medical", "Pelta-class Medical"
+          ],
           "faction": "republic",
           "unique": false,
           "traits": [
@@ -129,6 +132,9 @@
           "type": "ship",
           "chassis": "pelta-class-frigate",
           "name": "Pelta-class Transport Frigate",
+          "nicknames": [
+            "Pelta", "Pelta-class", "Pelta Transport", "Pelta-class Transport"
+          ],
           "faction": "republic",
           "unique": false,
           "traits": [

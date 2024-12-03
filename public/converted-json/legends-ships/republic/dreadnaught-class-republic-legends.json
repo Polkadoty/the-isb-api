@@ -1,0 +1,125 @@
+{
+  "ships": {
+      "dreadnaught-class-republic-legends": {
+          "_id": null,
+          "type": "chassis",
+          "chassis_name": "dreadnaught-class-republic-legends",
+          "size": "medium",
+          "hull": 7,
+          "speed": {
+              "1": [1],
+              "2": [1, 1],
+              "3": [],
+              "4": []
+          },
+          "shields": {
+              "front": 3,
+              "rear": 1,
+              "left": 2,
+              "right": 2,
+              "left_aux": 0,
+              "right_aux": 0
+          },
+          "hull_zones": {
+              "frontoffset": 0,
+              "centeroffset": 0,
+              "rearoffset": 0,
+              "frontangle": 0,
+              "centerangle": 0,
+              "rearangle": 0
+          },
+          "silhouette": "",
+          "blueprint": "",
+          "models": {
+              "dreadnaught-class-heavy-cruiser-republic-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends December 2024 Dev Cycle",
+                  "expansion": "Dreadnaught Heavy Cruiser Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "dreadnaught-class-republic-legends",
+                  "name": "Dreadnaught-class Heavy Cruiser",
+                  "nicknames": [
+                    "Dreadnaught-class Heavy Cruiser", "Heavy Cruiser", "Dreadnaught", "Dreadnought", "Dreadnaught Heavy Cruiser"
+                  ],
+                  "faction": "republic",
+                  "unique": false,
+                  "traits": ["clone"],
+                  "points": 64,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 0,
+                      "def_brace": 2,
+                      "def_redirect": 1,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 3,
+                      "squadron": 2,
+                      "engineer": 4
+                  },
+                  "upgrades": ["commander", "officer", "officer", "weapons-team", "ordnance", "turbolaser", "title"],
+                  "armament": {
+                      "asa": [0, 1, 0],
+                      "front": [1, 1, 1],
+                      "rear": [2, 0, 0],
+                      "left": [3, 0, 1],
+                      "right": [3, 0, 1],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/dreadnaught-class-heavy-cruiser-republic-legends.webp"
+              },
+              "dreadnaught-class-judicial-fleet-republic-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends December 2024 Dev Cycle",
+                  "expansion": "Dreadnaught Heavy Cruiser Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "dreadnaught-class-republic-legends",
+                  "name": "Dreadnaught-class Judicial Fleet",
+                  "nicknames": [
+                    "Dreadnaught-class Judicial Fleet", "Judicial Fleet", "Dreadnaught", "Dreadnought", "Dreadnaught Judicial Fleet"
+                  ],
+                  "faction": "republic",
+                  "unique": false,
+                  "traits": [""],
+                  "points": 62,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 0,
+                      "def_brace": 2,
+                      "def_redirect": 1,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 3,
+                      "squadron": 2,
+                      "engineer": 4
+                  },
+                  "upgrades": ["commander", "officer", "officer", "support-team", "offensive-retro", "turbolaser", "title"],
+                  "armament": {
+                      "asa": [0, 1, 0],
+                      "front": [1, 2, 0],
+                      "rear": [1, 1, 0],
+                      "left": [1, 3, 0],
+                      "right": [1, 3, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/dreadnaught-class-judicial-fleet-republic-legends.webp"
+              }
+          }
+      }
+  }
+}

@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Dreadnought",
+          "nicknames": [
+            "Providence", "Providence-class", "Prov", "Dreadnought"
+          ],
           "faction": "separatist",
           "unique": false,
           "traits": [
@@ -138,6 +141,9 @@
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Carrier",
+          "nicknames": [
+            "Providence", "Providence-class", "Prov", "Carrier"
+          ],
           "faction": "separatist",
           "unique": false,
           "traits": [

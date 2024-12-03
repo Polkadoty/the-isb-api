@@ -9,6 +9,9 @@
       "_id": null,
       "type": "defense",
       "name": "Capture the VIP",
+      "nicknames": [
+        "VIP", "Capture the VIP"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "defense",
       "name": "Fighter Ambush",
+      "nicknames": [
+        "Fighter Ambush"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -77,6 +83,9 @@
       "_id": null,
       "type": "defense",
       "name": "Jamming Barrier",
+      "nicknames": [
+        "Jamming", "Jamming Barrier"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -111,6 +120,9 @@
       "_id": null,
       "type": "defense",
       "name": "Planetary Ion Cannon",
+      "nicknames": [
+        "Ion Cannon", "Planetary Ion Cannon"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

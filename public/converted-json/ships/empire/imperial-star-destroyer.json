@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial I-class Star Destroyer",
+          "nicknames": [
+            "Imp 1", "Imperial I", "Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -135,6 +138,9 @@
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial II-class Star Destroyer",
+          "nicknames": [
+            "Imp 2", "Imperial II", "Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -220,6 +226,9 @@
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial Star Destroyer Cymoon 1 Refit",
+          "nicknames": [
+            "Imp Cymoon", "Imperial Cymoon", "Moon", "Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -305,6 +314,9 @@
           "type": "ship",
           "chassis": "imperial-star-destroyer",
           "name": "Imperial Star Destroyer Kuat Refit",
+          "nicknames": [
+            "Imp Kuat", "Imperial Kuat", "Kuat", "Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [

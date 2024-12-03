@@ -9,6 +9,9 @@
       "_id": null,
       "type": "defense",
       "name": "Contested Outpost",
+      "nicknames": [
+        "CO", "Outpost"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "defense",
       "name": "Fire Lanes",
+      "nicknames": [
+        "Fire Lanes", "FL"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -77,6 +83,9 @@
       "_id": null,
       "type": "defense",
       "name": "Fleet Ambush",
+      "nicknames": [
+        "Fleet Ambush"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -111,6 +120,9 @@
       "_id": null,
       "type": "defense",
       "name": "Hyperspace Assault",
+      "nicknames": [
+        "Hyperspace Assault", "HA"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "hammerhead-corvette",
           "name": "Hammerhead Torpedo Corvette",
+          "nicknames": [
+            "Hammerhead", "Hammerhead Corvette", "Torpedo Corvette"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [
@@ -133,6 +136,9 @@
           "type": "ship",
           "chassis": "hammerhead-corvette",
           "name": "Hammerhead Scout Corvette",
+          "nicknames": [
+            "Hammerhead", "Hammerhead Corvette", "Scout Corvette"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [

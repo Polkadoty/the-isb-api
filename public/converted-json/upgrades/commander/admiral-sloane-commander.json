@@ -12,10 +12,13 @@
         "empire"
       ],
       "name": "Admiral Sloane",
+      "nicknames": [
+        "Sloane"
+      ],
       "unique-class": [
         "Admiral Sloane"
       ],
-      "ability": "While a friendly squadron without Rogue is attacking, it may spend 1 die with an :accuracy: icon to choose and spend 1 of the defender’s defense tokens. While attacking a ship, it may also reroll 1 die with a :critical: icon.",
+      "ability": "While a friendly squadron without Rogue is attacking, it may spend 1 die with an :accuracy: icon to choose and spend 1 of the defender's defense tokens. While attacking a ship, it may also reroll 1 die with a :critical: icon.",
       "unique": true,
       "points": 24,
       "modification": false,

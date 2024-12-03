@@ -14,3 +14,6 @@ Start-Process -File "node" -ArgumentList "generateThumbnails.js" -Wait
 
 # Run findErrata.js
 Start-Process -File "node" -ArgumentList "find-errata.js" -Wait
+
+# Run findNicknames.js
+Start-Process -File "node" -ArgumentList "find-nicknames.js" -Wait

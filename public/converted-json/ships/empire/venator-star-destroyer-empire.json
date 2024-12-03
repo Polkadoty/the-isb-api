@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "venator-star-destroyer",
           "name": "Venator II-Class Star Destroyer",
+          "nicknames": [
+            "Venator", "Venator II", "Venator 2"
+          ],
           "faction": "empire",
           "unique": true,
           "traits": [

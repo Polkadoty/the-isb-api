@@ -42,12 +42,15 @@
                     ],
                     "alias": "Legends",
                     "team": "Armada Legends",
-                    "release": "Armada Legends",
+                    "release": "Armada Legends November 2024 Dev Cycle",
                     "expansion": "Armada Legends Subjugator Expansion",
                     "_id": null,
                     "type": "ship",
                     "chassis": "subjugator-class-legends",
                     "name": "Subjugator-class Prototype",
+                    "nicknames": [
+                        "Subjugator Prototype", "Prototype", "Subjugator"
+                    ],
                     "faction": "separatist",
                     "unique": false,
                     "traits": [
@@ -132,12 +135,15 @@
                     ],
                     "alias": "Legends",
                     "team": "Armada Legends",
-                    "release": "Armada Legends",
+                    "release": "Armada Legends November 2024 Dev Cycle",
                     "expansion": "Armada Legends Subjugator Expansion",
                     "_id": null,
                     "type": "ship",
                     "chassis": "subjugator-class-legends",
                     "name": "Subjugator-class Testbed",
+                    "nicknames": [
+                        "Subjugator Testbed", "Testbed", "Subjugator"
+                    ],
                     "faction": "separatist",
                     "unique": true,
                     "traits": [
@@ -222,12 +228,15 @@
                     ],
                     "alias": "Legends",
                     "team": "Armada Legends",
-                    "release": "Armada Legends",
+                    "release": "Armada Legends November 2024 Dev Cycle",
                     "expansion": "Armada Legends Subjugator Expansion",
                     "_id": null,
                     "type": "ship",
                     "chassis": "subjugator-class-legends",
                     "name": "Subjugator-class Heavy Cruiser",
+                    "nicknames": [
+                        "Subjugator Heavy Cruiser", "Heavy Cruiser", "Subjugator", "Malevolence"
+                    ],
                     "faction": "separatist",
                     "unique": false,
                     "traits": [

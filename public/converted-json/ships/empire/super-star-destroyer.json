@@ -46,6 +46,9 @@
           "type": "ship",
           "chassis": "executor-super-star-destroyer",
           "name": "Executor I-class Star Dreadnought",
+          "nicknames": [
+            "Executor", "Executor I", "Executor 1", "SSD", "Super Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -137,6 +140,9 @@
           "type": "ship",
           "chassis": "executor-super-star-destroyer",
           "name": "Executor II-class Star Dreadnought",
+          "nicknames": [
+            "Executor", "Executor II", "Executor 2", "SSD", "Super Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -253,8 +259,8 @@
         "centerangle": 180,
         "rearangle": 152
       },
-      "silhouette": "[link to image]",
-      "blueprint": "[link to image]",
+      "silhouette": "",
+      "blueprint": "",
       "models": {
         "star-dreadnought-assault-prototype": {
           "author": "Fantasy Flight Games",
@@ -266,6 +272,9 @@
           "type": "ship",
           "chassis": "prototype-super-star-destroyer",
           "name": "Star Dreadnought Assault Prototype",
+          "nicknames": [
+            "Star Dreadnought", "Star Dreadnought Assault", "SSD", "Super Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -355,6 +364,9 @@
           "type": "ship",
           "chassis": "prototype-super-star-destroyer",
           "name": "Star Dreadnought Command Prototype",
+          "nicknames": [
+            "Star Dreadnought", "Star Dreadnought Command", "SSD", "Super Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
