@@ -42,7 +42,7 @@
                   "chassis": "dreadnaught-class-republic-legends",
                   "name": "Dreadnaught-class Heavy Cruiser",
                   "nicknames": [
-                    "Dreadnaught-class Heavy Cruiser", "Heavy Cruiser", "Dreadnaught"
+                    "Dreadnaught-class Heavy Cruiser", "Heavy Cruiser", "Dreadnaught", "Dreadnought", "Dreadnaught Heavy Cruiser"
                   ],
                   "faction": "republic",
                   "unique": false,
@@ -85,6 +85,9 @@
                   "type": "ship",
                   "chassis": "dreadnaught-class-republic-legends",
                   "name": "Dreadnaught-class Judicial Fleet",
+                  "nicknames": [
+                    "Dreadnaught-class Judicial Fleet", "Judicial Fleet", "Dreadnaught", "Dreadnought", "Dreadnaught Judicial Fleet"
+                  ],
                   "faction": "republic",
                   "unique": false,
                   "traits": [""],

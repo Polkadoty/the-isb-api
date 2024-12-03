@@ -833,7 +833,9 @@
     "providence-class-dreadnought"
   ],
   "Dreadnought": [
-    "providence-class-dreadnought"
+    "providence-class-dreadnought",
+    "dreadnaught-class-heavy-cruiser-republic-legends",
+    "dreadnaught-class-judicial-fleet-legends"
   ],
   "Carrier": [
     "providence-class-carrier"
@@ -4167,9 +4169,19 @@
     "subjugator-class-heavy-cruiser-legends"
   ],
   "Dreadnaught": [
+    "dreadnaught-class-heavy-cruiser-republic-legends",
+    "dreadnaught-class-judicial-fleet-legends"
+  ],
+  "Dreadnaught Heavy Cruiser": [
     "dreadnaught-class-heavy-cruiser-republic-legends"
   ],
   "Dreadnaught-class Judicial Fleet": [
+    "dreadnaught-class-judicial-fleet-legends"
+  ],
+  "Judicial Fleet": [
+    "dreadnaught-class-judicial-fleet-legends"
+  ],
+  "Dreadnaught Judicial Fleet": [
     "dreadnaught-class-judicial-fleet-legends"
   ],
   "Subjugator-class Prototype": [
