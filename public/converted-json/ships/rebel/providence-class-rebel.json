@@ -46,6 +46,9 @@
             "type": "ship",
             "chassis": "providence-class-rebel",
             "name": "Providence-class Carrier",
+            "nicknames": [
+              "Providence", "Providence-class", "Prov", "Rebel Prov"
+            ],
             "faction": "rebel",
             "unique": true,
             "traits": [

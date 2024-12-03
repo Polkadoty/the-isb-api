@@ -1457,7 +1457,8 @@
     "intensify-firepower"
   ],
   "IF": [
-    "intensify-firepower"
+    "intensify-firepower",
+    "infested-fields"
   ],
   "Intensify": [
     "intensify-firepower"
@@ -1520,7 +1521,8 @@
     "jamming-field"
   ],
   "Jamming": [
-    "jamming-field"
+    "jamming-field",
+    "jamming-barrier"
   ],
   "Munitions Resupply": [
     "munitions-resupply"
@@ -1830,7 +1832,8 @@
     "adar-tallon-officer"
   ],
   "AT": [
-    "adar-tallon-officer"
+    "adar-tallon-officer",
+    "asteroid-tactics"
   ],
   "Adi Gallia": [
     "adi-gallia-officer"
@@ -1917,7 +1920,8 @@
     "chart-officer"
   ],
   "CO": [
-    "chart-officer"
+    "chart-officer",
+    "contested-outpost"
   ],
   "Clone Captain Silver": [
     "clone-captain-silver-officer"
@@ -2734,7 +2738,8 @@
     "foremans-labor-title"
   ],
   "FL": [
-    "foremans-labor-title"
+    "foremans-labor-title",
+    "fire-lanes"
   ],
   "Labor": [
     "foremans-labor-title"
@@ -3026,16 +3031,34 @@
   "Blockade Run": [
     "blockade-run"
   ],
+  "Blockade": [
+    "blockade-run"
+  ],
   "Close-Range Intel Scan": [
+    "close-range-intel-scan"
+  ],
+  "Intel Scan": [
+    "close-range-intel-scan"
+  ],
+  "CRIS": [
     "close-range-intel-scan"
   ],
   "Station Assault": [
     "station-assault"
   ],
+  "Station": [
+    "station-assault"
+  ],
   "Targeting Beacons": [
     "targeting-beacons"
   ],
+  "Beacons": [
+    "targeting-beacons"
+  ],
   "Capture the VIP": [
+    "capture-the-vip"
+  ],
+  "VIP": [
     "capture-the-vip"
   ],
   "Fighter Ambush": [
@@ -3047,10 +3070,19 @@
   "Planetary Ion Cannon": [
     "planetary-ion-cannon"
   ],
+  "Ion Cannon": [
+    "planetary-ion-cannon"
+  ],
   "Navigational Hazards": [
     "navigational-hazards"
   ],
+  "Hazards": [
+    "navigational-hazards"
+  ],
   "Salvage Run": [
+    "salvage-run"
+  ],
+  "Salvage": [
     "salvage-run"
   ],
   "Sensor Net": [
@@ -3060,21 +3092,42 @@
   "Solar Corona": [
     "solar-corona"
   ],
+  "Corona": [
+    "solar-corona"
+  ],
   "Advanced Gunnery": [
     "advanced-gunnery",
     "advanced-gunnery-errata-arc"
+  ],
+  "AG": [
+    "advanced-gunnery"
   ],
   "Most Wanted": [
     "most-wanted",
     "most-wanted-errata-arc"
   ],
+  "MW": [
+    "most-wanted"
+  ],
   "Opening Salvo": [
+    "opening-salvo"
+  ],
+  "OS": [
+    "opening-salvo"
+  ],
+  "Salvo": [
     "opening-salvo"
   ],
   "Precision Strike": [
     "precision-strike"
   ],
+  "PS": [
+    "precision-strike"
+  ],
   "Contested Outpost": [
+    "contested-outpost"
+  ],
+  "Outpost": [
     "contested-outpost"
   ],
   "Fire Lanes": [
@@ -3087,6 +3140,9 @@
   "Hyperspace Assault": [
     "hyperspace-assault"
   ],
+  "HA": [
+    "hyperspace-assault"
+  ],
   "Dangerous Territory": [
     "dangerous-territory"
   ],
@@ -3094,10 +3150,20 @@
     "intel-sweep",
     "intel-sweep-errata-arc"
   ],
+  "IS": [
+    "intel-sweep",
+    "ion-storm"
+  ],
   "Minefields": [
     "minefields"
   ],
+  "MF": [
+    "minefields"
+  ],
   "Superior Positions": [
+    "superior-positions"
+  ],
+  "SP": [
     "superior-positions"
   ],
   "Ion Storm": [
@@ -3106,20 +3172,41 @@
   "Marked for Destruction": [
     "marked-for-destruction"
   ],
+  "MFD": [
+    "marked-for-destruction"
+  ],
   "Rift Assault": [
     "rift-assault"
   ],
+  "RA": [
+    "rift-assault",
+    "rift-ambush"
+  ],
+  "Rift": [
+    "rift-assault",
+    "rift-ambush",
+    "doomed-station"
+  ],
   "Surprise Attack": [
+    "surprise-attack"
+  ],
+  "SA": [
     "surprise-attack"
   ],
   "Abandoned Mining Facility": [
     "abandoned-mining-facility",
     "abandoned-mining-facility-errata-arc"
   ],
+  "AMF": [
+    "abandoned-mining-facility"
+  ],
   "Asteroid Tactics": [
     "asteroid-tactics"
   ],
   "Fleet in Being": [
+    "fleet-in-being"
+  ],
+  "FIB": [
     "fleet-in-being"
   ],
   "Rift Ambush": [
@@ -3128,7 +3215,16 @@
   "Doomed Station": [
     "doomed-station"
   ],
+  "DS": [
+    "doomed-station"
+  ],
   "Hyperspace Migration": [
+    "hyperspace-migration"
+  ],
+  "HM": [
+    "hyperspace-migration"
+  ],
+  "Purrgil": [
     "hyperspace-migration"
   ],
   "Infested Fields": [
@@ -3137,6 +3233,9 @@
   "Volatile Deposits": [
     "volatile-deposits",
     "volatile-deposits-errata-arc"
+  ],
+  "VD": [
+    "volatile-deposits"
   ],
   "Assault Raptor Squadron": [
     "assault-raptor-squadron-bsg-legends",

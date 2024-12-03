@@ -9,6 +9,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Dangerous Territory",
+      "nicknames": [
+        "Dangerous Territory"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Intel Sweep",
+      "nicknames": [
+        "Intel Sweep", "IS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -77,6 +83,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Minefields",
+      "nicknames": [
+        "Minefields", "MF"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -111,6 +120,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Superior Positions",
+      "nicknames": [
+        "Superior Positions", "SP"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

@@ -9,6 +9,9 @@
       "_id": null,
       "type": "assault",
       "name": "Blockade Run",
+      "nicknames": [
+        "Blockade", "Blockade Run"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "assault",
       "name": "Close-Range Intel Scan",
+      "nicknames": [
+        "Intel Scan", "CRIS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -77,6 +83,9 @@
       "_id": null,
       "type": "assault",
       "name": "Station Assault",
+      "nicknames": [
+        "Station", "Station Assault"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -111,6 +120,9 @@
       "_id": null,
       "type": "assault",
       "name": "Targeting Beacons",
+      "nicknames": [
+        "Beacons", "Targeting Beacons"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

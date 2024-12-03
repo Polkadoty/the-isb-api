@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "gr75-rebel-transport",
           "name": "GR-75 Combat Retrofits",
+          "nicknames": [
+            "GR75", "GR75 Combat", "GR-75"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [
@@ -130,6 +133,9 @@
           "type": "ship",
           "chassis": "gr75-rebel-transport",
           "name": "GR-75 Medium Transports",
+          "nicknames": [
+            "GR75 Medium", "GR-75 Medium", "GR75", "GR-75"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [

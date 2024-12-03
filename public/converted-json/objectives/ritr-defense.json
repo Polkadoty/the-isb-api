@@ -9,6 +9,9 @@
       "_id": null,
       "type": "defense",
       "name": "Abandoned Mining Facility",
+      "nicknames": [
+        "Abandoned Mining Facility", "AMF"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "defense",
       "name": "Asteroid Tactics",
+      "nicknames": [
+        "Asteroid Tactics", "AT"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -76,6 +82,9 @@
       "_id": null,
       "type": "defense",
       "name": "Fleet in Being",
+      "nicknames": [
+        "Fleet in Being", "FIB"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -110,6 +119,9 @@
       "_id": null,
       "type": "defense",
       "name": "Rift Ambush",
+      "nicknames": [
+        "Rift Ambush", "RA", "Rift"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

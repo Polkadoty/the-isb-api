@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Assault Carriers",
+          "nicknames": [
+            "Gozanti", "Gozanti Assault"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -130,6 +133,9 @@
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
+          "nicknames": [
+            "Gozanti", "Gozanti Cruiser"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [

@@ -9,6 +9,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Doomed Station",
+      "nicknames": [
+        "Doomed Station", "DS", "Rift"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Hyperspace Migration",
+      "nicknames": [
+        "Hyperspace Migration", "HM", "Purrgil"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -76,6 +82,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Infested Fields",
+      "nicknames": [
+        "Infested Fields", "IF"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -110,6 +119,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Volatile Deposits",
+      "nicknames": [
+        "Volatile Deposits", "VD"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

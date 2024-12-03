@@ -46,6 +46,9 @@
           "type": "ship",
           "chassis": "interdictor-cruiser",
           "name": "Interdictor Suppression Refit",
+          "nicknames": [
+            "Interdictor", "Interdictor Suppression"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -130,6 +133,9 @@
           "type": "ship",
           "chassis": "interdictor-cruiser",
           "name": "Interdictor Combat Refit",
+          "nicknames": [
+            "Interdictor", "Interdictor Combat"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [

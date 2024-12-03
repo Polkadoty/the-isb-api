@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "recusant-class-destroyer",
           "name": "Recusant-class Light Destroyer",
+          "nicknames": [
+            "Recusant", "Recusant-class", "Recusant Light", "Recusant-class Light", "Recusant Destroyer", "Recusant-class Destroyer", "Rec"
+          ],
           "faction": "separatist",
           "unique": false,
           "traits": [
@@ -134,6 +137,9 @@
           "type": "ship",
           "chassis": "recusant-class-destroyer",
           "name": "Recusant-class Support Destroyer",
+          "nicknames": [
+            "Recusant", "Recusant-class", "Recusant Support", "Recusant-class Support", "Recusant Destroyer", "Recusant-class Destroyer", "Rec"
+          ],
           "faction": "separatist",
           "unique": false,
           "traits": [

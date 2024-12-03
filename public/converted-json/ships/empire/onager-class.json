@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "onager-class",
           "name": "Onager-Class Star Destroyer",
+          "nicknames": [
+            "Onager", "Onager Star Destroyer"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -133,6 +136,9 @@
           "type": "ship",
           "chassis": "onager-class",
           "name": "Onager-Class Testbed",
+          "nicknames": [
+            "Onager Testbed", "Testbed", "Onager"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [

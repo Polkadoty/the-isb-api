@@ -9,6 +9,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Navigational Hazards",
+      "nicknames": [
+        "Hazards", "Navigational Hazards"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -43,6 +46,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Salvage Run",
+      "nicknames": [
+        "Salvage", "Salvage Run"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -77,6 +83,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Sensor Net",
+      "nicknames": [
+        "Sensor Net"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -111,6 +120,9 @@
       "_id": null,
       "type": "navigation",
       "name": "Solar Corona",
+      "nicknames": [
+        "Corona", "Solar Corona"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

@@ -6,9 +6,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "1f92fa39-f356-4f25-ae39-728907653f67",
+      "_id": "e3a553e5-17e0-4a16-af51-5ae78158b0c3",
       "type": "assault",
       "name": "Blockade Run",
+      "nicknames": [
+        "Blockade",
+        "Blockade Run"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -40,9 +44,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "af2c541a-6320-46cd-9b3e-9ea460fa867c",
+      "_id": "4c8384f2-661b-49a9-b246-dc69753b1b2e",
       "type": "assault",
       "name": "Close-Range Intel Scan",
+      "nicknames": [
+        "Intel Scan",
+        "CRIS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -74,9 +82,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "bf033983-57ba-40a2-b7de-f75021df4396",
+      "_id": "379f8b68-6e68-4ac0-a1c5-116f9688030f",
       "type": "assault",
       "name": "Station Assault",
+      "nicknames": [
+        "Station",
+        "Station Assault"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -108,9 +120,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "8025278a-5e84-4014-b6c0-ba0364b599e3",
+      "_id": "b88488bb-bf28-4cdf-9678-dc8372bed9a1",
       "type": "assault",
       "name": "Targeting Beacons",
+      "nicknames": [
+        "Beacons",
+        "Targeting Beacons"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -142,9 +158,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "7f88206f-309f-40fc-883f-79955a5960b0",
+      "_id": "c4cf34f7-df4f-4535-8489-561d21431f3b",
       "type": "defense",
       "name": "Capture the VIP",
+      "nicknames": [
+        "VIP",
+        "Capture the VIP"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -176,9 +196,12 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "273e130d-bfcd-42ac-9b4f-248e38ef5785",
+      "_id": "0d61e044-fea7-48de-9411-4db3fedc25fd",
       "type": "defense",
       "name": "Fighter Ambush",
+      "nicknames": [
+        "Fighter Ambush"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -210,9 +233,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "6fba85e0-daba-48b8-bcf1-8b722de1c907",
+      "_id": "42b84a84-a246-4477-bd2f-23a897c83a77",
       "type": "defense",
       "name": "Jamming Barrier",
+      "nicknames": [
+        "Jamming",
+        "Jamming Barrier"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -244,9 +271,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "fdfa7aad-7017-41c9-933e-870c548d7a3d",
+      "_id": "2659c0f3-7936-4875-8d41-338f67dab39d",
       "type": "defense",
       "name": "Planetary Ion Cannon",
+      "nicknames": [
+        "Ion Cannon",
+        "Planetary Ion Cannon"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -278,9 +309,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "81f0c6fc-f3c6-4e1f-922f-8c99928282ac",
+      "_id": "9d66e3b1-b21b-44e1-b1a1-185a689839a4",
       "type": "navigation",
       "name": "Navigational Hazards",
+      "nicknames": [
+        "Hazards",
+        "Navigational Hazards"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -312,9 +347,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "8878b280-95d8-4783-b16d-b9416b715028",
+      "_id": "12bdb006-e94f-4630-9c1e-daeca9bb9445",
       "type": "navigation",
       "name": "Salvage Run",
+      "nicknames": [
+        "Salvage",
+        "Salvage Run"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -346,9 +385,12 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "e249ced8-50fb-422a-9604-99db28d7d499",
+      "_id": "300eed1c-bbda-4bfb-9c6a-a95dcb2bf172",
       "type": "navigation",
       "name": "Sensor Net",
+      "nicknames": [
+        "Sensor Net"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -380,9 +422,13 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "92e9ac4e-eb49-4637-8cc6-a3f79475d7b0",
+      "_id": "c90cdf0b-06eb-4d51-a158-0e1c2d1ee8c7",
       "type": "navigation",
       "name": "Solar Corona",
+      "nicknames": [
+        "Corona",
+        "Solar Corona"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -414,9 +460,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "ef0adf8f-5da5-4fd4-ae3a-cb438c019ea5",
+      "_id": "ec562185-30b5-4ea5-afa8-2e7702fbde0b",
       "type": "assault",
       "name": "Advanced Gunnery",
+      "nicknames": [
+        "Advanced Gunnery",
+        "AG"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -448,9 +498,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "0da7ab80-3d3c-4339-a776-2f5997530cfe",
+      "_id": "45c4d3fb-8631-46c2-afc4-3dc5d54d3646",
       "type": "assault",
       "name": "Most Wanted",
+      "nicknames": [
+        "Most Wanted",
+        "MW"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -482,9 +536,14 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "64dfc707-7351-485a-a519-f33c2213f0a4",
+      "_id": "5da3dabb-5134-4504-a252-014e0e8e6016",
       "type": "assault",
       "name": "Opening Salvo",
+      "nicknames": [
+        "Opening Salvo",
+        "OS",
+        "Salvo"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -516,9 +575,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "bef810fd-f40c-4119-8c44-e03fa5fe77e4",
+      "_id": "159afb29-fcbd-4e3e-a2af-04aefd63f1e7",
       "type": "assault",
       "name": "Precision Strike",
+      "nicknames": [
+        "Precision Strike",
+        "PS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -550,9 +613,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "2ec814c2-edd5-404c-9349-56270c247c67",
+      "_id": "b0618dfa-3a9b-4ac8-b9b0-c10bc381fc35",
       "type": "defense",
       "name": "Contested Outpost",
+      "nicknames": [
+        "CO",
+        "Outpost"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -584,9 +651,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "67ff33c7-41ef-4d47-89b7-3dfebcba62c1",
+      "_id": "6175c55b-cb62-4732-926c-3445174c7e70",
       "type": "defense",
       "name": "Fire Lanes",
+      "nicknames": [
+        "Fire Lanes",
+        "FL"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -618,9 +689,12 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "d91b44b2-6ca1-423e-8a6c-f1f528436180",
+      "_id": "e942db1d-db32-4f02-aac4-3c24d1d9c347",
       "type": "defense",
       "name": "Fleet Ambush",
+      "nicknames": [
+        "Fleet Ambush"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -652,9 +726,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "456e294b-0795-4b53-a19f-7850543856b3",
+      "_id": "2f0b711a-9428-46cf-94ed-6bccd7476a08",
       "type": "defense",
       "name": "Hyperspace Assault",
+      "nicknames": [
+        "Hyperspace Assault",
+        "HA"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -686,9 +764,12 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "bc96bdb1-59e0-4854-9015-38b9450377e9",
+      "_id": "3f8baa62-91e8-4bd3-9b1c-0e48240bae8e",
       "type": "navigation",
       "name": "Dangerous Territory",
+      "nicknames": [
+        "Dangerous Territory"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -720,9 +801,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "70ae0bba-f3c4-412e-950f-b9c42a80f281",
+      "_id": "d3b3ba7b-509b-4846-b846-6820fe39744a",
       "type": "navigation",
       "name": "Intel Sweep",
+      "nicknames": [
+        "Intel Sweep",
+        "IS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -754,9 +839,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "f2028d17-99b6-482e-9e94-6d86de6e7b08",
+      "_id": "e9a06ba6-4cb6-4110-90c5-fbc59185a69a",
       "type": "navigation",
       "name": "Minefields",
+      "nicknames": [
+        "Minefields",
+        "MF"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -788,9 +877,13 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "b3e393c7-df69-49f2-8468-afd6bbce5894",
+      "_id": "67255284-a9d8-4737-b467-f49cd71d35c9",
       "type": "navigation",
       "name": "Superior Positions",
+      "nicknames": [
+        "Superior Positions",
+        "SP"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -822,9 +915,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "c0e741b0-93e5-456c-9a75-b3841a3b9b27",
+      "_id": "5437d4cc-35f9-4099-94fc-8641ed016484",
       "type": "assault",
       "name": "Ion Storm",
+      "nicknames": [
+        "Ion Storm",
+        "IS"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -855,9 +952,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "2d6e8e02-2ff6-4587-bf1d-0cfca9a3febc",
+      "_id": "cb406c2f-3e9d-42ce-a085-67006d809d32",
       "type": "assault",
       "name": "Marked for Destruction",
+      "nicknames": [
+        "Marked for Destruction",
+        "MFD"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -889,9 +990,14 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "57d25c82-e8c2-405f-a21e-1330ba174fa2",
+      "_id": "4b8666ec-add5-41aa-bb2a-e4275a73b57a",
       "type": "assault",
       "name": "Rift Assault",
+      "nicknames": [
+        "Rift Assault",
+        "RA",
+        "Rift"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -923,9 +1029,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "1b95aaf3-4f9d-4c4a-9093-ed96d05121e4",
+      "_id": "ed34514a-5c72-4a2e-8325-18167f189f06",
       "type": "assault",
       "name": "Surprise Attack",
+      "nicknames": [
+        "Surprise Attack",
+        "SA"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -957,9 +1067,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "51471c3b-0d38-405a-94fc-c5ae3dc9835e",
+      "_id": "d8c9bd56-3cbc-406b-b3bf-ec2cdf836f79",
       "type": "defense",
       "name": "Abandoned Mining Facility",
+      "nicknames": [
+        "Abandoned Mining Facility",
+        "AMF"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -991,9 +1105,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "e6f25e0e-6ce5-4bff-81c5-04d9bc28f411",
+      "_id": "7d2c1291-ded5-44b1-ab0b-ba6774618762",
       "type": "defense",
       "name": "Asteroid Tactics",
+      "nicknames": [
+        "Asteroid Tactics",
+        "AT"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -1024,9 +1142,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "84c219a5-79e4-4e3a-8a10-ec0f56198983",
+      "_id": "cadd8ac9-82a5-4931-8db1-625682cef00d",
       "type": "defense",
       "name": "Fleet in Being",
+      "nicknames": [
+        "Fleet in Being",
+        "FIB"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -1058,9 +1180,14 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "4088706d-6512-4cc7-91ce-48b01d3410f1",
+      "_id": "1794c0a0-6828-4c3a-a3fe-7f7166005a8e",
       "type": "defense",
       "name": "Rift Ambush",
+      "nicknames": [
+        "Rift Ambush",
+        "RA",
+        "Rift"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -1092,9 +1219,14 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "8c2d996b-17b7-44da-bb8f-2dcc31c04e9e",
+      "_id": "b18ce083-d919-4836-9868-f8bdaeea0074",
       "type": "navigation",
       "name": "Doomed Station",
+      "nicknames": [
+        "Doomed Station",
+        "DS",
+        "Rift"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -1126,9 +1258,14 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "fd15c077-69cb-4602-a7ea-7f7fb2351b80",
+      "_id": "46ee8926-520c-4c75-9f85-5d55432b86ba",
       "type": "navigation",
       "name": "Hyperspace Migration",
+      "nicknames": [
+        "Hyperspace Migration",
+        "HM",
+        "Purrgil"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -1159,9 +1296,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "a7982e5c-5c23-4f33-a5db-b76fedc65d6e",
+      "_id": "d8caff81-a3cc-47cc-aa7b-de8adf5a7445",
       "type": "navigation",
       "name": "Infested Fields",
+      "nicknames": [
+        "Infested Fields",
+        "IF"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",
@@ -1193,9 +1334,13 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "26b557b8-01e5-41f3-9f6d-6df2f16499bc",
+      "_id": "d9a7314d-c5fb-4b1b-8869-5e049d7d9341",
       "type": "navigation",
       "name": "Volatile Deposits",
+      "nicknames": [
+        "Volatile Deposits",
+        "VD"
+      ],
       "obstacles": [
         "asteroid_1",
         "asteroid_2",

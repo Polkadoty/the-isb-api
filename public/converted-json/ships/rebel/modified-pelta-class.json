@@ -46,6 +46,9 @@
           "type": "ship",
           "chassis": "modified-pelta-class",
           "name": "Modified Pelta-class Assault Ship",
+          "nicknames": [
+            "Modified Pelta", "Modified Pelta-class", "MP", "Pelta Assault"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [
@@ -128,6 +131,9 @@
           "type": "ship",
           "chassis": "modified-pelta-class",
           "name": "Modified Pelta-class Command Ship",
+          "nicknames": [
+            "Modified Pelta", "Modified Pelta-class", "MP", "Pelta Command"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [

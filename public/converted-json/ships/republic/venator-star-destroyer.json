@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "venator-star-destroyer",
           "name": "Venator I-class Star Destroyer",
+          "nicknames": [
+            "Venator", "Venator-class", "Star Destroyer", "Venator 1", "Venator-1", "Venator-I", "Venator I"
+          ],
           "faction": "republic",
           "unique": false,
           "traits": [
@@ -138,6 +141,9 @@
           "type": "ship",
           "chassis": "venator-star-destroyer",
           "name": "Venator II-class Star Destroyer",
+          "nicknames": [
+            "Venator", "Venator-class", "Star Destroyer", "Venator-class Star Destroyer", "Venator 2", "Venator-2", "Venator-II", "Venator II"
+          ],
           "faction": "republic",
           "unique": false,
           "traits": [

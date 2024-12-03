@@ -46,6 +46,9 @@
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Assault Cruiser",
+          "nicknames": [
+            "MC80", "MC-80", "MC80H", "MC-80H", "MC80 Assault", "MC-80 Assault"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [
@@ -130,6 +133,9 @@
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Command Cruiser",
+          "nicknames": [
+            "MC80", "MC-80", "MC80H", "MC-80H", "MC80 Command", "MC-80 Command"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [

@@ -55,6 +55,9 @@
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette A",
+          "nicknames": [
+            "CR90", "CR-90", "CR90 Corvette", "CR90A", "CR-90A"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [],
@@ -135,6 +138,9 @@
           "type": "ship",
           "chassis": "cr90-corvette",
           "name": "CR90 Corvette B",
+          "nicknames": [
+            "CR90", "CR-90", "CR90 Corvette", "CR90B", "CR-90B"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [],

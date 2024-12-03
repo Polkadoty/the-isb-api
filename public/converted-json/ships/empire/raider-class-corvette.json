@@ -55,6 +55,9 @@
           "type": "ship",
           "chassis": "raider-class-corvette",
           "name": "Raider I-class Corvette",
+          "nicknames": [
+            "Raider", "Raider I", "Raider 1"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -138,6 +141,9 @@
           "type": "ship",
           "chassis": "raider-class-corvette",
           "name": "Raider II-class Corvette",
+          "nicknames": [
+            "Raider", "Raider II", "Raider 2"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [

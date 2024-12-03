@@ -46,6 +46,9 @@
           "type": "ship",
           "chassis": "starhawk-class-battleship",
           "name": "Starhawk-class Battleship Mark I",
+          "nicknames": [
+            "Starhawk", "Starhawk-class", "Starhawk Mark I", "Starhawk Mark-I"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [
@@ -132,6 +135,9 @@
           "type": "ship",
           "chassis": "starhawk-class-battleship",
           "name": "Starhawk-class Battleship Mark II",
+          "nicknames": [
+            "Starhawk", "Starhawk-class", "Starhawk Mark II", "Starhawk Mark-II"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [

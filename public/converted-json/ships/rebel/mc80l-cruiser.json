@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "mc80l-cruiser",
           "name": "MC80 Star Cruiser",
+          "nicknames": [
+            "MC80", "MC-80", "MC80 Star", "MC-80 Star", "MC80L", "MC-80L", "Liberty"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [
@@ -134,6 +137,9 @@
           "type": "ship",
           "chassis": "mc80l-cruiser",
           "name": "MC80 Battle Cruiser",
+          "nicknames": [
+            "MC80", "MC-80", "MC80L", "MC-80L", "Liberty", "MC80 Battle"
+          ],
           "faction": "rebel",
           "unique": false,
           "traits": [

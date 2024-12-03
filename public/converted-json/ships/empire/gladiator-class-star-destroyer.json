@@ -50,6 +50,9 @@
           "type": "ship",
           "chassis": "gladiator-class-star-destroyer",
           "name": "Gladiator I-Class Star Destroyer",
+          "nicknames": [
+            "Glad 1", "Gladiator I"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
@@ -132,6 +135,9 @@
           "type": "ship",
           "chassis": "gladiator-class-star-destroyer",
           "name": "Gladiator II-Class Star Destroyer",
+          "nicknames": [
+            "Glad 2", "Gladiator II"
+          ],
           "faction": "empire",
           "unique": false,
           "traits": [
