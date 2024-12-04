@@ -46,7 +46,7 @@
                   ],
                   "faction": "republic",
                   "unique": false,
-                  "traits": ["clone"],
+                  "traits": ["clone", "bombard"],
                   "points": 58,
                   "tokens": {
                       "def_scatter": 0,
@@ -90,7 +90,7 @@
                   ],
                   "faction": "republic",
                   "unique": false,
-                  "traits": [""],
+                  "traits": ["senate", "comms"],
                   "points": 55,
                   "tokens": {
                       "def_scatter": 0,
