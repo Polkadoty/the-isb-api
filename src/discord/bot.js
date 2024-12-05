@@ -37,7 +37,7 @@ client.on('messageCreate', async message => {
       .addFields(
         { 
           name: '🎲 Dice Rolling',
-          value: '`!holo-dice [quantity][color]`\nRoll Armada dice and get statistics.\nExample: `!holo-dice 2red 2blue 1black`\nAvailable colors: red, blue, black'
+          value: '`!dice [quantity][color]`\nRoll Armada dice and get statistics.\nExample: `!dice 2red 2blue 1black`\nAvailable colors: red, blue, black'
         },
         {
           name: '🔍 Card Search',
@@ -56,6 +56,29 @@ client.on('messageCreate', async message => {
       .setFooter({ text: 'For bug reports or feature requests, visit our GitHub repository' });
 
     return message.reply({ embeds: [embed] });
+  }
+
+  if (message.content.toLowerCase().startsWith('!dice')) {
+    const args = message.content.slice(6).trim().split(' ');
+    const dicePool = parseDicePool(args);
+    
+    if (!dicePool.valid) {
+      return message.reply('Please provide a valid dice pool. Example: `!dice 2red 2blue`');
+    }
+
+    const rollResults = rollDice(dicePool.counts);
+    const stats = calculateStats(dicePool.counts);
+
+    const embed = new EmbedBuilder()
+      .setTitle('Dice Roll Results')
+      .setDescription(formatRollResults(rollResults))
+      .addFields(
+        { name: 'Average Damage', value: stats.averageDamage.toFixed(2), inline: true },
+        { name: 'Accuracy Chance', value: `${(stats.accuracyChance * 100).toFixed(1)}%`, inline: true },
+        { name: 'Critical Chance', value: `${(stats.criticalChance * 100).toFixed(1)}%`, inline: true }
+      );
+
+    message.reply({ embeds: [embed] });
   }
 
   if (message.content.toLowerCase().startsWith('!holo')) {
@@ -112,28 +135,7 @@ client.on('messageCreate', async message => {
     }
   }
 
-  if (message.content.toLowerCase().startsWith('!holo-dice')) {
-    const args = message.content.slice(11).trim().split(' ');
-    const dicePool = parseDicePool(args);
-    
-    if (!dicePool.valid) {
-      return message.reply('Please provide a valid dice pool. Example: `!holo-dice 2red 2blue`');
-    }
 
-    const rollResults = rollDice(dicePool.counts);
-    const stats = calculateStats(dicePool.counts);
-
-    const embed = new EmbedBuilder()
-      .setTitle('Dice Roll Results')
-      .setDescription(formatRollResults(rollResults))
-      .addFields(
-        { name: 'Average Damage', value: stats.averageDamage.toFixed(2), inline: true },
-        { name: 'Accuracy Chance', value: `${(stats.accuracyChance * 100).toFixed(1)}%`, inline: true },
-        { name: 'Critical Chance', value: `${(stats.criticalChance * 100).toFixed(1)}%`, inline: true }
-      );
-
-    message.reply({ embeds: [embed] });
-  }
 });
 
 client.login(process.env.DISCORD_TOKEN);
