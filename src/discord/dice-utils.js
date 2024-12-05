@@ -132,7 +132,17 @@ function calculateStats(counts) {
 }
 
 function formatRollResults(results) {
-  return results.map(result => result.emoji).join(' ');
+  // Group dice by color
+  const groupedResults = results.reduce((acc, result) => {
+    if (!acc[result.color]) acc[result.color] = [];
+    acc[result.color].push(result.emoji);
+    return acc;
+  }, {});
+
+  // Format each color group on its own line
+  return Object.entries(groupedResults)
+    .map(([color, emojis]) => `${color.toUpperCase()}: ${emojis.join(' ')}`)
+    .join('\n');
 }
 
 export { parseDicePool, rollDice, calculateStats, formatRollResults }; 
