@@ -38,22 +38,65 @@ function calculateStats(counts) {
     criticalChance: 0
   };
 
-  // Calculate probabilities for each die type
+  // Calculate average damage for each die type
   if (counts.red > 0) {
-    stats.averageDamage += counts.red * (2/8 * 2 + 2/8 * 1); // doubles and hits
-    stats.accuracyChance = 1 - Math.pow(7/8, counts.red); // chance of at least one accuracy
-    stats.criticalChance = 1 - Math.pow(6/8, counts.red); // chance of at least one crit
+    // Red dice: 1 double (2 damage), 2 hits (1 damage each), 2 crits (1 damage each)
+    stats.averageDamage += counts.red * ((1/8 * 2) + (2/8 * 1) + (2/8 * 1));
   }
 
   if (counts.blue > 0) {
-    stats.averageDamage += counts.blue * (4/8 * 1); // hits
-    stats.accuracyChance = Math.max(stats.accuracyChance, 1 - Math.pow(6/8, counts.blue));
-    stats.criticalChance = Math.max(stats.criticalChance, 1 - Math.pow(6/8, counts.blue));
+    // Blue dice: 4 hits (1 damage each), 2 crits (1 damage each)
+    stats.averageDamage += counts.blue * ((4/8 * 1) + (2/8 * 1));
   }
 
   if (counts.black > 0) {
-    stats.averageDamage += counts.black * (2/8 * 2 + 4/8 * 1); // hitcrits and hits
-    stats.criticalChance = Math.max(stats.criticalChance, 1 - Math.pow(6/8, counts.black));
+    // Black dice: 2 hit+crit (1 damage each), 4 hits (1 damage each)
+    stats.averageDamage += counts.black * ((2/8 * 1) + (4/8 * 1));
+  }
+
+  // Calculate accuracy chance across all dice
+  const noAccuracyChances = [];
+  
+  if (counts.red > 0) {
+    // Red dice have 1 accuracy face
+    noAccuracyChances.push(Math.pow(7/8, counts.red));
+  }
+  
+  if (counts.blue > 0) {
+    // Blue dice have 2 accuracy faces
+    noAccuracyChances.push(Math.pow(6/8, counts.blue));
+  }
+
+  // Calculate probability of at least one accuracy across all dice
+  if (noAccuracyChances.length > 0) {
+    // Probability of no accuracies = product of individual no-accuracy probabilities
+    const noAccuracyProbability = noAccuracyChances.reduce((a, b) => a * b, 1);
+    stats.accuracyChance = 1 - noAccuracyProbability;
+  }
+
+  // Calculate critical chance across all dice
+  const noCritChances = [];
+  
+  if (counts.red > 0) {
+    // Red dice have 2 crit faces
+    noCritChances.push(Math.pow(6/8, counts.red));
+  }
+  
+  if (counts.blue > 0) {
+    // Blue dice have 2 crit faces
+    noCritChances.push(Math.pow(6/8, counts.blue));
+  }
+  
+  if (counts.black > 0) {
+    // Black dice have 2 hit+crit faces
+    noCritChances.push(Math.pow(6/8, counts.black));
+  }
+
+  // Calculate probability of at least one crit across all dice
+  if (noCritChances.length > 0) {
+    // Probability of no crits = product of individual no-crit probabilities
+    const noCritProbability = noCritChances.reduce((a, b) => a * b, 1);
+    stats.criticalChance = 1 - noCritProbability;
   }
 
   return stats;
