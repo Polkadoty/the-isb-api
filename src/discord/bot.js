@@ -29,6 +29,35 @@ client.on('ready', () => {
 client.on('messageCreate', async message => {
   if (message.author.bot) return;
   
+  // Help commands
+  if (message.content.toLowerCase().match(/^!holo(?:-)?help$/)) {
+    const embed = new EmbedBuilder()
+      .setTitle('Holocron Bot Help')
+      .setDescription('Welcome to the Holocron Bot! Here are the available commands:')
+      .addFields(
+        { 
+          name: '🎲 Dice Rolling',
+          value: '`!holo-dice [quantity][color]`\nRoll Armada dice and get statistics.\nExample: `!holo-dice 2red 2blue 1black`\nAvailable colors: red, blue, black'
+        },
+        {
+          name: '🔍 Card Search',
+          value: '`!holo [card name]`\nSearch for cards by name or nickname.\nExample: `!holo Vader` or `!holo TEA`'
+        },
+        {
+          name: '💡 Tips',
+          value: [
+            '• Card searches are not case-sensitive',
+            '• Many cards have common nicknames (like "TEA" for "Take Evasive Action!")',
+            '• If no exact match is found, the bot will suggest similar cards',
+            '• For dice rolls, you can combine any number of dice'
+          ].join('\n')
+        }
+      )
+      .setFooter({ text: 'For bug reports or feature requests, visit our GitHub repository' });
+
+    return message.reply({ embeds: [embed] });
+  }
+
   if (message.content.toLowerCase().startsWith('!holo')) {
     const nickname = message.content.slice(6).trim();
     
@@ -81,6 +110,29 @@ client.on('messageCreate', async message => {
     if (matches.length > 5) {
       message.channel.send(`...and ${matches.length - 5} more results.`);
     }
+  }
+
+  if (message.content.toLowerCase().startsWith('!holo-dice')) {
+    const args = message.content.slice(11).trim().split(' ');
+    const dicePool = parseDicePool(args);
+    
+    if (!dicePool.valid) {
+      return message.reply('Please provide a valid dice pool. Example: `!holo-dice 2red 2blue`');
+    }
+
+    const rollResults = rollDice(dicePool.counts);
+    const stats = calculateStats(dicePool.counts);
+
+    const embed = new EmbedBuilder()
+      .setTitle('Dice Roll Results')
+      .setDescription(formatRollResults(rollResults))
+      .addFields(
+        { name: 'Average Damage', value: stats.averageDamage.toFixed(2), inline: true },
+        { name: 'Accuracy Chance', value: `${(stats.accuracyChance * 100).toFixed(1)}%`, inline: true },
+        { name: 'Critical Chance', value: `${(stats.criticalChance * 100).toFixed(1)}%`, inline: true }
+      );
+
+    message.reply({ embeds: [embed] });
   }
 });
 
