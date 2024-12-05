@@ -125,13 +125,13 @@ client.on('messageCreate', async message => {
     const embed = new EmbedBuilder()
       .setTitle('🎲 Dice Roll Results')
       .setDescription([
-        '# Roll Results',
+        '## 🎲 Roll Results',
         formatRollResults(rollResults),
         '',
         '## 📊 Statistics',
-        `• Average Damage: ${stats.averageDamage.toFixed(2)}`,
-        `• Accuracy Chance: ${(stats.accuracyChance * 100).toFixed(1)}%`,
-        `• Critical Chance: ${(stats.criticalChance * 100).toFixed(1)}%`
+        `### • Average Damage: ${stats.averageDamage.toFixed(2)}`,
+        `### • Accuracy Chance: ${(stats.accuracyChance * 100).toFixed(1)}%`,
+        `### • Critical Chance: ${(stats.criticalChance * 100).toFixed(1)}%`
       ].join('\n'));
 
     message.reply({ embeds: [embed] });

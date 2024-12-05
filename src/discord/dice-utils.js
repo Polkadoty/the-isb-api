@@ -141,7 +141,7 @@ function formatRollResults(results) {
 
   // Format each color group on its own line
   return Object.entries(groupedResults)
-    .map(([color, emojis]) => `${color.toUpperCase()}: ${emojis.join(' ')}`)
+    .map(([, emojis]) => `# ${emojis.join(' ')}`)
     .join('\n');
 }
 
