@@ -40,7 +40,7 @@ client.on('messageCreate', async message => {
       .addFields(
         { 
           name: '🎲 Dice Rolling',
-          value: '`!dice [quantity][color]`\nRoll Armada dice and get statistics.\nExample: `!holo-dice 2red 2blue 1black`\nAvailable colors: red, blue, black'
+          value: '`!dice [quantity][color]`\nRoll Armada dice and get statistics.\nExample: `!dice 2red 2blue 1black`\nAvailable colors: red, blue, black'
         },
         {
           name: '🔍 Card Search',
@@ -92,26 +92,22 @@ client.on('messageCreate', async message => {
       return message.reply('No cards found with that nickname.');
     }
 
-    // Send first image immediately
-    const embed = new EmbedBuilder()
-      .setTitle(`Card Results for "${nickname}"`)
-      .setImage(`https://api.swarmada.wiki/images/${matches[0]}.webp`)
-      .setFooter({ text: `1/${matches.length}` });
-    
-    await message.channel.send({ embeds: [embed] });
+    // Create an array of embeds for all matches (up to 10 - Discord's limit)
+    const embeds = matches.slice(0, 10).map((match, index) => 
+      new EmbedBuilder()
+        .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+        .setFooter({ text: `${index + 1}/${Math.min(matches.length, 10)}` })
+    );
 
-    // Send remaining images (if any) with a slight delay to avoid rate limits
-    for (let i = 1; i < Math.min(matches.length, 5); i++) {
-      const additionalEmbed = new EmbedBuilder()
-        .setImage(`https://api.swarmada.wiki/images/${matches[i]}.webp`)
-        .setFooter({ text: `${i + 1}/${matches.length}` });
-      
-      await message.channel.send({ embeds: [additionalEmbed] });
-      await new Promise(resolve => setTimeout(resolve, 1000));
-    }
+    // Set the title only on the first embed
+    embeds[0].setTitle(`Card Results for "${nickname}"`);
 
-    if (matches.length > 5) {
-      message.channel.send(`...and ${matches.length - 5} more results.`);
+    // Send all embeds in a single message
+    await message.reply({ embeds });
+
+    // If there are more than 10 matches, let the user know
+    if (matches.length > 10) {
+      message.channel.send(`...and ${matches.length - 10} more results.`);
     }
   }
 
@@ -128,11 +124,17 @@ client.on('messageCreate', async message => {
 
     const embed = new EmbedBuilder()
       .setTitle('Dice Roll Results')
-      .setDescription(formatRollResults(rollResults))
+      .setDescription(`# 🎲 Roll Results:\n${formatRollResults(rollResults)}`)
       .addFields(
-        { name: 'Average Damage', value: stats.averageDamage.toFixed(2), inline: true },
-        { name: 'Accuracy Chance', value: `${(stats.accuracyChance * 100).toFixed(1)}%`, inline: true },
-        { name: 'Critical Chance', value: `${(stats.criticalChance * 100).toFixed(1)}%`, inline: true }
+        { 
+          name: '📊 Statistics', 
+          value: [
+            `Average Damage: ${stats.averageDamage.toFixed(2)}`,
+            `Accuracy Chance: ${(stats.accuracyChance * 100).toFixed(1)}%`,
+            `Critical Chance: ${(stats.criticalChance * 100).toFixed(1)}%`
+          ].join('\n'),
+          inline: false 
+        }
       );
 
     message.reply({ embeds: [embed] });
