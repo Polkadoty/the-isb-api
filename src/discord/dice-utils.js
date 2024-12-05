@@ -1,3 +1,32 @@
+const DICE_FACES = {
+  red: {
+    faces: ['double', 'accuracy', 'hit', 'hit', 'crit', 'crit', 'blank', 'blank'],
+    emojis: {
+      double: ':reddbl:',
+      accuracy: ':redacc:',
+      hit: ':redhit:',
+      crit: ':redcrit:',
+      blank: ':redblank:'
+    }
+  },
+  blue: {
+    faces: ['accuracy', 'accuracy', 'hit', 'hit', 'hit', 'hit', 'crit', 'crit'],
+    emojis: {
+      accuracy: ':blueacc:',
+      hit: ':bluehit:',
+      crit: ':bluecrit:'
+    }
+  },
+  black: {
+    faces: ['hitcrit', 'hitcrit', 'hit', 'hit', 'hit', 'hit', 'blank', 'blank'],
+    emojis: {
+      hitcrit: ':blackhitcrit:',
+      hit: ':blackhit:',
+      blank: ':blackblank:'
+    }
+  }
+};
+
 function parseDicePool(args) {
   const counts = { red: 0, blue: 0, black: 0 };
   let valid = true;

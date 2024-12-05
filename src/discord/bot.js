@@ -15,34 +15,7 @@ const nicknameMap = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'public/nickname-map.json'), 'utf8')
 );
 
-const DICE_FACES = {
-  red: {
-    faces: ['double', 'accuracy', 'hit', 'hit', 'crit', 'crit', 'blank', 'blank'],
-    emojis: {
-      double: ':reddbl:',
-      accuracy: ':redacc:',
-      hit: ':redhit:',
-      crit: ':redcrit:',
-      blank: ':redblank:'
-    }
-  },
-  blue: {
-    faces: ['accuracy', 'accuracy', 'hit', 'hit', 'hit', 'hit', 'crit', 'crit'],
-    emojis: {
-      accuracy: ':blueacc:',
-      hit: ':bluehit:',
-      crit: ':bluecrit:'
-    }
-  },
-  black: {
-    faces: ['hitcrit', 'hitcrit', 'hit', 'hit', 'hit', 'hit', 'blank', 'blank'],
-    emojis: {
-      hitcrit: ':blackhitcrit:',
-      hit: ':blackhit:',
-      blank: ':blackblank:'
-    }
-  }
-};
+
 
 const client = new Client({
   intents: [
