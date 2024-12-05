@@ -125,7 +125,6 @@ client.on('messageCreate', async message => {
     const embed = new EmbedBuilder()
       .setTitle('🎲 Dice Roll Results')
       .setDescription([
-        '## 🎲 Roll Results',
         formatRollResults(rollResults),
         '',
         '## 📊 Statistics',
