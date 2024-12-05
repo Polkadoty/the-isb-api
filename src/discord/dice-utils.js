@@ -2,27 +2,27 @@ const DICE_FACES = {
   red: {
     faces: ['double', 'accuracy', 'hit', 'hit', 'crit', 'crit', 'blank', 'blank'],
     emojis: {
-      double: ':reddbl:',
-      accuracy: ':redacc:',
-      hit: ':redhit:',
-      crit: ':redcrit:',
-      blank: ':redblank:'
+      double: '<:reddbl:1260990898443911229>',
+      accuracy: '<:redacc:1260990874360348813>',
+      hit: '<:redhit:1260990912885035078>',
+      crit: '<:redcrit:1260990887526268979>',
+      blank: '<:redblank:1260991705566679060>'
     }
   },
   blue: {
     faces: ['accuracy', 'accuracy', 'hit', 'hit', 'hit', 'hit', 'crit', 'crit'],
     emojis: {
-      accuracy: ':blueacc:',
-      hit: ':bluehit:',
-      crit: ':bluecrit:'
+      accuracy: '<:blueacc:1260990975803916339>',
+      hit: '<:bluehit:1260990988160077865>',
+      crit: '<:bluecrit:1260990962512040146>'
     }
   },
   black: {
     faces: ['hitcrit', 'hitcrit', 'hit', 'hit', 'hit', 'hit', 'blank', 'blank'],
     emojis: {
-      hitcrit: ':blackhitcrit:',
-      hit: ':blackhit:',
-      blank: ':blackblank:'
+      hitcrit: '<:blackhitcrit:1260990950692491295>',
+      hit: '<:blackhit:1260991760017133639>',
+      blank: '<:blackblank:1260991683060039720>'
     }
   }
 };

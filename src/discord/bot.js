@@ -116,7 +116,7 @@ client.on('messageCreate', async message => {
   }
 
   if (message.content.toLowerCase().startsWith('!dice')) {
-    const args = message.content.slice(11).trim().split(' ');
+    const args = message.content.slice(5).trim().split(' ');
     const dicePool = parseDicePool(args);
     
     if (!dicePool.valid) {
