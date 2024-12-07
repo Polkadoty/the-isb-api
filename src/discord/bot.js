@@ -116,10 +116,10 @@ client.on('messageCreate', async message => {
     const dicePool = parseDicePool(args);
     
     if (!dicePool.valid) {
-      return message.reply('Please provide a valid dice pool. Example: `!dice 2red 2blue`');
+      return message.reply('Please provide a valid dice pool. Example: `!dice 2red 2blue [-reroll2red]`');
     }
 
-    const rollResults = rollDice(dicePool.counts);
+    const rollResults = rollDice(dicePool.counts, dicePool.rerolls);
     const stats = calculateStats(dicePool.counts);
 
     const embed = new EmbedBuilder()
@@ -128,9 +128,11 @@ client.on('messageCreate', async message => {
         formatRollResults(rollResults),
         '',
         '## 📊 Statistics',
-        `### • Average Damage: ${stats.averageDamage.toFixed(2)}`,
+        `### • Average Damage (with crits): ${stats.averageDamage.toFixed(2)}`,
+        `### • Average Damage (no crits): ${stats.averageDamageNoCrits.toFixed(2)}`,
         `### • Accuracy Chance: ${(stats.accuracyChance * 100).toFixed(1)}%`,
-        `### • Critical Chance: ${(stats.criticalChance * 100).toFixed(1)}%`
+        `### • Critical Chance: ${(stats.criticalChance * 100).toFixed(1)}%`,
+        `### • Average Accuracy Count: ${stats.averageAccuracies.toFixed(2)}`
       ].join('\n'));
 
     message.reply({ embeds: [embed] });
