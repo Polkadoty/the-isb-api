@@ -3,11 +3,13 @@ services:
   isb-api:
     build: .
     ports:
-      - "4000:4000"
-      - "5000:5000"
+      - "80:4000"
+      - "443:4000"
     volumes:
       - .:/app
       - /app/node_modules
     environment:
       - NODE_ENV=production
+    env_file:
+      - .env
     restart: always

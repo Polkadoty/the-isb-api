@@ -17,11 +17,10 @@ COPY . .
 RUN echo '#!/bin/sh\n\
 echo $(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ") > lastModified.txt\n\
 node index.js & \n\
-node imageServer.js & \n\
 node src/discord/bot.js & \n\
-wait' > /app/docker-start.sh
+wait' > docker-start.sh
 
-RUN chmod +x /app/docker-start.sh
+RUN chmod +x docker-start.sh
 
 # Start the services
-CMD ["/app/docker-start.sh"]
+CMD ["/docker-start.sh"]
