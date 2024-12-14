@@ -7,7 +7,7 @@
       "release": "Armada Legends December 2024 Dev Cycle",
       "expansion": "December 2024 Upgrade Expansion",
       "_id": null,
-      "type": "weapons-team-offensive-retro",
+      "type": "offensive-retro",
       "faction": [
         "republic"
       ],
@@ -22,15 +22,16 @@
       ],
       "ability": "During your activation, you may discard this card. If you do, until the end of that activation, when attacking squadrons you may reroll 1 blue or black die.",
       "unique": false,
-      "points": 4,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "clone"
+          ""
         ],
         "size": [
-          ""
+          "medium",
+          "large"
         ],
         "disqual_upgrades": [
           ""
