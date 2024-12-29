@@ -140,11 +140,11 @@ client.on('messageCreate', async message => {
         formatRollResults(rollResults),
         '\n',
         '## 📊 Statistics',
-        '### ▫️ Average Damage (with crits): ' + stats.averageDamage.toFixed(2),
-        '### ▫️ Average Damage (no crits): ' + stats.averageDamageNoCrits.toFixed(2),
-        '### ▫️ Accuracy Chance: ' + (stats.accuracyChance * 100).toFixed(1) + '%',
-        '### ▫️ Critical Chance: ' + (stats.criticalChance * 100).toFixed(1) + '%',
-        '### ▫️ Average Accuracy Count: ' + stats.averageAccuracies.toFixed(2)
+        '▫️ Average Damage (with crits): ' + stats.averageDamage.toFixed(2),
+        '▫️ Average Damage (no crits): ' + stats.averageDamageNoCrits.toFixed(2),
+        '▫️ Accuracy Chance: ' + (stats.accuracyChance * 100).toFixed(1) + '%',
+        '▫️ Critical Chance: ' + (stats.criticalChance * 100).toFixed(1) + '%',
+        '▫️ Average Accuracy Count: ' + stats.averageAccuracies.toFixed(2)
       ].join('\n'));
 
     message.reply({ embeds: [embed] });
