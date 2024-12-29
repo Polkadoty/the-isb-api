@@ -30,12 +30,14 @@ const DICE_FACES = {
 function parseDicePool(args) {
   const counts = { red: 0, blue: 0, black: 0 };
   let valid = true;
-  let rerolls = 0;
+  let rerolls = { red: 0, blue: 0, black: 0 };
 
   args.forEach(arg => {
-    const rerollMatch = arg.match(/^-reroll(\d*)(?:black)?$/i);
+    const rerollMatch = arg.match(/^-reroll(\d*)(red|blue|black)?$/i);
     if (rerollMatch) {
-      rerolls = rerollMatch[1] ? parseInt(rerollMatch[1]) : 1;
+      const count = rerollMatch[1] ? parseInt(rerollMatch[1]) : 1;
+      const color = (rerollMatch[2] || 'black').toLowerCase();
+      rerolls[color] = count;
     } else {
       const match = arg.match(/(\d+)(red|blue|black)/i);
       if (match) {
@@ -49,7 +51,7 @@ function parseDicePool(args) {
   return { valid, counts, rerolls };
 }
 
-function rollDice(counts, rerolls = 0) {
+function rollDice(counts, rerolls = { red: 0, blue: 0, black: 0 }) {
   const results = [];
   const rerollResults = [];
   
@@ -65,21 +67,22 @@ function rollDice(counts, rerolls = 0) {
     }
   });
 
-  // Handle rerolls if specified
-  if (rerolls > 0) {
-    const blanks = results.filter(r => r.face === 'blank' && (r.color === 'red' || r.color === 'black'));
-    const rerollCount = Math.min(rerolls, blanks.length);
-    
-    for (let i = 0; i < rerollCount; i++) {
-      const color = blanks[i].color;
-      const face = DICE_FACES[color].faces[Math.floor(Math.random() * 8)];
-      rerollResults.push({
-        color,
-        face,
-        emoji: DICE_FACES[color].emojis[face]
-      });
+  // Handle rerolls for each color
+  Object.entries(rerolls).forEach(([color, rerollCount]) => {
+    if (rerollCount > 0) {
+      const blanks = results.filter(r => r.face === 'blank' && r.color === color);
+      const actualRerolls = Math.min(rerollCount, blanks.length);
+      
+      for (let i = 0; i < actualRerolls; i++) {
+        const face = DICE_FACES[color].faces[Math.floor(Math.random() * 8)];
+        rerollResults.push({
+          color,
+          face,
+          emoji: DICE_FACES[color].emojis[face]
+        });
+      }
     }
-  }
+  });
 
   return { initial: results, rerolls: rerollResults };
 }
