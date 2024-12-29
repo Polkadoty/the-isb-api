@@ -162,14 +162,14 @@ function formatRollResults(results) {
     }, {});
 
     return Object.entries(groupedResults)
-      .map(([, emojis]) => emojis.join(' '))
-      .join(' ');
+      .map(([, emojis]) => emojis.join('  '))
+      .join('  ');
   };
 
-  let output = [`# Initial: ${formatGroup(results.initial)}`];
+  let output = ['🎲 **Initial Roll**\n' + formatGroup(results.initial)];
   
   if (results.rerolls.length > 0) {
-    output.push(`# Reroll: ${formatGroup(results.rerolls)}`);
+    output.push('\n🎯 **Reroll Results**\n' + formatGroup(results.rerolls));
   }
 
   return output.join('\n');

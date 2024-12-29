@@ -26,10 +26,47 @@ const directories = {
   'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
 };
 
+const legacyDirectories = {
+  ships: path.join(__dirname, 'public/converted-json/ships'),
+  squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
+  upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
+  objectives: path.join(__dirname, 'public/converted-json/objectives'),
+  'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
+  'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
+  'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
+  // 'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
+  // 'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
+  // 'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades')
+};
+
+const legendsDirectories = {
+  ships: path.join(__dirname, 'public/converted-json/ships'),
+  squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
+  upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
+  objectives: path.join(__dirname, 'public/converted-json/objectives'),
+  'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
+  'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
+  'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
+  // 'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
+  // 'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
+  // 'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
+  'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
+  'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
+  'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
+  'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
+  'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
+  'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
+  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
+};
+
+// Create two maps
+const legacyNicknameMap = {};
+const legendsNicknameMap = {};
+
 // Initialize result object for nickname mappings
 const nicknameMap = {};
 
-function processNicknames(directory) {
+function processNicknames(directory, nicknameMap) {
   const files = fs.readdirSync(directory);
 
   files.forEach(file => {
@@ -104,43 +141,26 @@ function processNicknames(directory) {
   });
 }
 
-// Process each directory
-Object.values(directories).forEach(directory => {
+// Generate both maps
+Object.values(legacyDirectories).forEach(directory => {
   if (fs.existsSync(directory)) {
-    processNicknames(directory);
+    processNicknames(directory, legacyNicknameMap);
   }
 });
 
-// Create the directory if it doesn't exist
-const outputDir = path.join(__dirname, 'src', 'discord', 'public');
-console.log('Creating output directory:', outputDir);
-
-if (!fs.existsSync(outputDir)) {
-  console.log('Directory does not exist, creating...');
-  fs.mkdirSync(outputDir, { recursive: true });
-}
-
-const outputPath = path.join(outputDir, 'nickname-map.json');
-console.log('Writing to:', outputPath);
-
-try {
-  // Delete the existing file if it exists
-  if (fs.existsSync(outputPath)) {
-    console.log('Deleting existing nickname map...');
-    fs.unlinkSync(outputPath);
+Object.values(legendsDirectories).forEach(directory => {
+  if (fs.existsSync(directory)) {
+    processNicknames(directory, legendsNicknameMap);
   }
+});
 
-  // Write the result to a file
-  fs.writeFileSync(outputPath, JSON.stringify(nicknameMap, null, 2));
-  console.log('Successfully wrote nickname map with', Object.keys(nicknameMap).length, 'entries');
-  
-  // Verify the file was written
-  const stats = fs.statSync(outputPath);
-  console.log('File size:', stats.size, 'bytes');
-  
-  // Read back the first few entries to verify content
-  const verification = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
-  console.log('Sample entries:', Object.entries(verification).slice(0, 3));
-} catch (error) {
-  console.error('Error writing nickname map:', error);
-} 
+// Write both maps
+fs.writeFileSync(
+  path.join(outputDir, 'legacy-nickname-map.json'), 
+  JSON.stringify(legacyNicknameMap, null, 2)
+);
+
+fs.writeFileSync(
+  path.join(outputDir, 'legends-nickname-map.json'), 
+  JSON.stringify(legendsNicknameMap, null, 2)
+); 

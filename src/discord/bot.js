@@ -11,11 +11,16 @@ const __dirname = path.dirname(__filename);
 dotenv.config();
 
 // Load the nickname mappings
-const nicknameMap = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'public/nickname-map.json'), 'utf8')
+const legacyNicknameMap = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'public/legacy-nickname-map.json'), 'utf8')
+);
+const legendsNicknameMap = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'public/legends-nickname-map.json'), 'utf8')
 );
 
-
+// Define server IDs as constants
+const LEGACY_SERVER_ID = '1128659616222425141';
+const LEGENDS_SERVER_ID = '1256627568627421205';
 
 const client = new Client({
   intents: [
@@ -32,6 +37,13 @@ client.on('ready', () => {
 client.on('messageCreate', async message => {
   if (message.author.bot) return;
   
+  // Get the appropriate nickname map based on server ID
+  const nicknameMap = message.guild?.id === LEGACY_SERVER_ID 
+    ? legacyNicknameMap 
+    : message.guild?.id === LEGENDS_SERVER_ID
+      ? legendsNicknameMap
+      : legendsNicknameMap; // default to legends for any other server
+
   // Help commands
   if (message.content.toLowerCase().match(/^!holo(?:-)?help$/)) {
     const embed = new EmbedBuilder()
@@ -126,13 +138,13 @@ client.on('messageCreate', async message => {
       .setTitle('🎲 Dice Roll Results')
       .setDescription([
         formatRollResults(rollResults),
-        '',
-        '## 📊 Statistics',
-        `### • Average Damage (with crits): ${stats.averageDamage.toFixed(2)}`,
-        `### • Average Damage (no crits): ${stats.averageDamageNoCrits.toFixed(2)}`,
-        `### • Accuracy Chance: ${(stats.accuracyChance * 100).toFixed(1)}%`,
-        `### • Critical Chance: ${(stats.criticalChance * 100).toFixed(1)}%`,
-        `### • Average Accuracy Count: ${stats.averageAccuracies.toFixed(2)}`
+        '\n',
+        '📊 **Statistics**',
+        '▫️ Average Damage (with crits): ' + stats.averageDamage.toFixed(2),
+        '▫️ Average Damage (no crits): ' + stats.averageDamageNoCrits.toFixed(2),
+        '▫️ Accuracy Chance: ' + (stats.accuracyChance * 100).toFixed(1) + '%',
+        '▫️ Critical Chance: ' + (stats.criticalChance * 100).toFixed(1) + '%',
+        '▫️ Average Accuracy Count: ' + stats.averageAccuracies.toFixed(2)
       ].join('\n'));
 
     message.reply({ embeds: [embed] });
