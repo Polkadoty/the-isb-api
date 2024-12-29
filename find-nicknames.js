@@ -5,26 +5,26 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Using the same directory structure as other scripts
-const directories = {
-  ships: path.join(__dirname, 'public/converted-json/ships'),
-  squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
-  upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
-  objectives: path.join(__dirname, 'public/converted-json/objectives'),
-  'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
-  'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
-  'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
-//   'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
-//   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
-//   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
-  'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
-  'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
-  'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
-  'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
-  'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
-  'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
-  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
-};
+// // Using the same directory structure as other scripts
+// const directories = {
+//   ships: path.join(__dirname, 'public/converted-json/ships'),
+//   squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
+//   upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
+//   objectives: path.join(__dirname, 'public/converted-json/objectives'),
+//   'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
+//   'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
+//   'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
+// //   'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
+// //   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
+// //   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
+//   'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
+//   'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
+//   'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
+//   'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
+//   'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
+//   'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
+//   'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
+// };
 
 const legacyDirectories = {
   ships: path.join(__dirname, 'public/converted-json/ships'),
@@ -63,9 +63,6 @@ const legendsDirectories = {
 const legacyNicknameMap = {};
 const legendsNicknameMap = {};
 
-// Initialize result object for nickname mappings
-const nicknameMap = {};
-
 function processNicknames(directory, nicknameMap) {
   const files = fs.readdirSync(directory);
 
@@ -74,7 +71,7 @@ function processNicknames(directory, nicknameMap) {
     const stat = fs.statSync(filePath);
 
     if (stat.isDirectory()) {
-      processNicknames(filePath);
+      processNicknames(filePath, nicknameMap);
     } else if (file.endsWith('.json')) {
       try {
         const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -154,13 +151,28 @@ Object.values(legendsDirectories).forEach(directory => {
   }
 });
 
-// Write both maps
-fs.writeFileSync(
-  path.join(outputDir, 'legacy-nickname-map.json'), 
-  JSON.stringify(legacyNicknameMap, null, 2)
-);
+// Create the output directory if it doesn't exist
+const outputDir = path.join(__dirname, 'src', 'discord', 'public');
+console.log('Creating output directory:', outputDir);
 
-fs.writeFileSync(
-  path.join(outputDir, 'legends-nickname-map.json'), 
-  JSON.stringify(legendsNicknameMap, null, 2)
-); 
+if (!fs.existsSync(outputDir)) {
+  console.log('Directory does not exist, creating...');
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+const legacyOutputPath = path.join(outputDir, 'legacy-nickname-map.json');
+const legendsOutputPath = path.join(outputDir, 'legends-nickname-map.json');
+console.log('Writing to:', legacyOutputPath);
+console.log('Writing to:', legendsOutputPath);
+
+try {
+  // Write both maps
+  fs.writeFileSync(legacyOutputPath, JSON.stringify(legacyNicknameMap, null, 2));
+  fs.writeFileSync(legendsOutputPath, JSON.stringify(legendsNicknameMap, null, 2));
+  
+  console.log('Successfully wrote nickname maps');
+  console.log('Legacy entries:', Object.keys(legacyNicknameMap).length);
+  console.log('Legends entries:', Object.keys(legendsNicknameMap).length);
+} catch (error) {
+  console.error('Error writing nickname maps:', error);
+} 
