@@ -1,6 +1,6 @@
 {
   "squadrons": {
-    "star-courier-legacy": {
+    "nu-class-transport-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -8,16 +8,19 @@
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
       "_id": null,
       "type": "squadron",
-      "faction": "separatist",
-      "squadron_type": "star-courier-legacy",
-      "name": "Star Courier",
+      "faction": "republic",
+      "squadron_type": "nu-class-transport-shuttle-legacy",
+      "name": "Nu-class Transport Shuttle",
+      "nicknames": [
+        "Nu-Class Transport Shuttle", "Nu Shuttle", "Nu", "Republic Shuttle", "GAR Shuttle"
+      ],
       "ace-name": "",
       "unique-class": [
         ""
       ],
       "irregular": true,
       "hull": 7,
-      "speed": 3,
+      "speed": 2,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 0,
@@ -25,13 +28,13 @@
       },
       "armament": {
         "anti-squadron": [
-          1,
+          0,
           2,
-          0
+          1
         ],
         "anti-ship": [
           0,
-          2,
+          1,
           0
         ]
       },
@@ -46,24 +49,24 @@
         "dodge": 0,
         "escort": false,
         "grit": false,
-        "heavy": false,
-        "intel": true,
-        "relay": 0,
-        "rogue": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 0,
-        "strategic": false,
+        "strategic": true,
         "swarm": false
       },
       "ability": "",
       "unique": false,
-      "points": 17,
+      "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/star-courier-legacy.webp"
+      "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle-legacy.webp"
     },
-    "darth-maul-scimitar": {
+    "delta-squad-nu-class-transport-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -71,17 +74,19 @@
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
       "_id": null,
       "type": "squadron",
-      "faction": "separatist",
-      "squadron_type": "star-courier-legacy",
-      "name": "Scimitar",
-      "ace-name": "Darth Maul",
+      "faction": "republic",
+      "squadron_type": "nu-class-transport-shuttle-legacy",
+      "name": "Nu-class Transport Shuttle",
+      "nicknames": [
+        "Delta Squad Nu Shuttle", "Delta Squad Nu", "Delta Squad", "Deltas", "Delta"
+      ],
+      "ace-name": "Delta Squad",
       "unique-class": [
-        "Darth Maul",
-        "Scimitar"
+        "Delta Squad"
       ],
       "irregular": true,
       "hull": 7,
-      "speed": 3,
+      "speed": 2,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 0,
@@ -89,43 +94,43 @@
       },
       "armament": {
         "anti-squadron": [
-          1,
+          0,
           2,
           1
         ],
         "anti-ship": [
           0,
-          1,
-          1
+          2,
+          0
         ]
       },
       "abilities": {
         "adept": 0,
         "ai-battery": 0,
         "ai-antisquadron": 0,
-        "assault": false,
+        "assault": true,
         "bomber": false,
-        "cloak": true,
+        "cloak": false,
         "counter": 0,
-        "dodge": 1,
+        "dodge": 0,
         "escort": false,
-        "grit": false,
-        "heavy": false,
+        "grit": true,
+        "heavy": true,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 0,
         "strategic": false,
         "swarm": false
       },
-      "ability": "If you are engaged with at least 2 enemy squadrons, gain ADEPT 1. For every 2 additional squadrons you are engaged with, increase your ADEPT value by 1.",
+      "ability": "When you assign a raid token, you may discard 1 command token from the detender. Enemy ships at distance 1 with a raid token cannot gain a matching command token from upgrade cards equipped to that ship.",
       "unique": true,
-      "points": 22,
+      "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/darth-maul-scimitar.webp"
+      "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-class-transport-shuttle-legacy.webp"
     }
   }
 }

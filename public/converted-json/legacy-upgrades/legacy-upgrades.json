@@ -1,76 +1,29 @@
 {
   "upgrades": {
-    "admiral-coburn-commander-legacy": {
-      "author": "Armada Legacy",
-      "alias": "Legacy",
-      "team": "Armada Legacy",
-      "release": "Legacy Wave 1",
-      "expansion": "Republic Light Cruiser Expansion",
-      "_id": "ef680419-8676-4c1c-a8eb-be070b5c8262",
-      "type": "commander",
-      "faction": [
-        "republic"
-      ],
-      "name": "Admiral Coburn",
-      "unique-class": [
-        "Admiral Coburn"
-      ],
-      "ability": "Once per activation, while a friendly ship is attacking a ship, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If you do, it may add 1 red die to the attack pool.",
-      "unique": true,
-      "points": 25,
-      "modification": false,
-      "bound_shiptype": "",
-      "restrictions": {
-        "traits": [
-          ""
-        ],
-        "size": [
-          ""
-        ],
-        "disqual_upgrades": [
-          ""
-        ],
-        "disable_upgrades": [
-          ""
-        ],
-        "enable_upgrades": [
-          ""
-        ],
-        "flagship": false
-      },
-      "start_command": {
-        "type": "",
-        "start_icon": [
-          ""
-        ],
-        "start_amount": 0
-      },
-      "exhaust": {
-        "type": "",
-        "ready_token": [
-          ""
-        ],
-        "ready_amount": 0
-      },
-      "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/admiral-coburn-commander-legacy.webp"
-    },
-    "daultay-dofine-commander": {
+    "daultay-dofine-commander-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "8ce99076-7461-495a-87a2-de14f93d9569",
+      "_id": "ed6b1467-0ab2-4a90-9d38-4d7dafda6e68",
       "type": "commander",
       "faction": [
         "separatist"
       ],
-      "name": "Daulty Dofine",
-      "unique-class": [
-        "Daulty Dofine"
+      "name": "Daultay Dofine",
+      "nicknames": [
+        "Daultay Dofine",
+        "Daulty Dofine",
+        "Daultay",
+        "Dofine",
+        "Daulty Dofine",
+        "Daulty"
       ],
-      "ability": "When activated by a ship, friendly non-unique squadrons with AI: ANTI-SQUADRON may add a die of any color using AI: ANTI-SQUADRON instead Of a color already in their attack pool and friendly non-unique squadrons with AI: BATTERY may reroll one die in their attack pool when attacking a ship.",
+      "unique-class": [
+        "Daultay Dofine"
+      ],
+      "ability": "When activated by a ship, friendly non-unique squadrons with AI: ANTI-SQUADRON may add a die of any color using AI: ANTI-SQUADRON instead of a color already in their attack pool and friendly non-unique squadrons with AI: BATTERY may reroll one die in their attack pool when attacking a ship.",
       "unique": true,
       "points": 28,
       "modification": false,
@@ -105,20 +58,27 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/daultay-dofine-commander.webp"
+      "cardimage": "https://api.swarmada.wiki/images/daultay-dofine-commander-legacy.webp"
     },
-    "ki-adi-mundi-commander": {
+    "ki-adi-mundi-commander-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "638b34b9-01fa-48bb-965f-c3ca4bc4a64d",
+      "_id": "f9f1bb66-c7c9-4e7f-8ed5-a706744138b7",
       "type": "commander",
       "faction": [
         "republic"
       ],
       "name": "Ki-Adi-Mundi",
+      "nicknames": [
+        "Ki-Adi-Mundi",
+        "Ki-Adi",
+        "Mundi",
+        "Ki",
+        "Ki Adi"
+      ],
       "unique-class": [
         "Ki-Adi-Mundi"
       ],
@@ -160,7 +120,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/ki-adi-mundi-commander.webp"
+      "cardimage": "https://api.swarmada.wiki/images/ki-adi-mundi-commander-legacy.webp"
     }
   }
 }

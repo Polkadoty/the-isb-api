@@ -6,11 +6,20 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "7989d7ee-fc94-4c0c-8ed7-263d916c804c",
+      "_id": "f1ce367e-1df3-402d-a256-c4cd4f446f4f",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "g9-rigger-class-freighter-legacy",
       "name": "G9 Rigger-class Freighter",
+      "nicknames": [
+        "G9 Rigger-class Freighter",
+        "G9",
+        "Republic Freighter",
+        "GAR Freighter",
+        "G-9",
+        "G9",
+        "Twilight"
+      ],
       "ace-name": "",
       "unique-class": [
         ""
@@ -69,11 +78,20 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "6d89dd2c-1793-44b4-ba08-cfa96ca35a51",
+      "_id": "48029cee-77fc-4d2f-8bec-5f3a4b025675",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "g9-rigger-class-freighter-legacy",
       "name": "Twilight",
+      "nicknames": [
+        "Anakin Skywalker Twilight",
+        "Anakin Skywalker",
+        "Twilight",
+        "G9 Twilight",
+        "G9",
+        "GAR Twilight",
+        "Riggerkin"
+      ],
       "ace-name": "Anakin Skywalker",
       "unique-class": [
         "Twilight",
@@ -133,11 +151,18 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "c2f6be50-1a75-47f9-a199-b58215da86b4",
+      "_id": "9315db79-6eae-4239-abb6-ee17e019da2c",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "nu-class-transport-shuttle-legacy",
       "name": "Nu-class Transport Shuttle",
+      "nicknames": [
+        "Nu-Class Transport Shuttle",
+        "Nu Shuttle",
+        "Nu",
+        "Republic Shuttle",
+        "GAR Shuttle"
+      ],
       "ace-name": "",
       "unique-class": [
         ""
@@ -196,11 +221,18 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "91e53e37-0f39-4d9c-9675-fb8b771df9a9",
+      "_id": "c31c4c75-5033-4de1-8fd1-197a89f8fbea",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "nu-class-transport-shuttle-legacy",
       "name": "Nu-class Transport Shuttle",
+      "nicknames": [
+        "Delta Squad Nu Shuttle",
+        "Delta Squad Nu",
+        "Delta Squad",
+        "Deltas",
+        "Delta"
+      ],
       "ace-name": "Delta Squad",
       "unique-class": [
         "Delta Squad"
@@ -259,11 +291,17 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "8a6dd98b-69e9-43f9-b090-9ba205b08a44",
+      "_id": "031ad822-1aac-4317-b31c-7bbd4fed5282",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "sheathipede-class-shuttle-legacy",
       "name": "Sheathipede-class Shuttle",
+      "nicknames": [
+        "Sheathipede Shuttle",
+        "Sheathipede",
+        "CIS Shuttle",
+        "Separatist Shuttle"
+      ],
       "ace-name": "",
       "unique-class": [
         ""
@@ -322,11 +360,18 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "1e192e5e-7f5e-4ad1-9f07-4d9c72e2d546",
+      "_id": "22679ac5-d75c-4cde-a5da-61f18ea4a8b2",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "sheathipede-class-shuttle-legacy",
       "name": "Sheathipede-class Shuttle",
+      "nicknames": [
+        "Kalani Sheathipede Shuttle",
+        "Kalani Sheathipede",
+        "Kalani",
+        "CIS Shuttle",
+        "Separatist Shuttle"
+      ],
       "ace-name": "Kalani",
       "unique-class": [
         "Kalani"
@@ -385,11 +430,17 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "3d3b2c15-1c10-4619-890a-0703b6cb2981",
+      "_id": "94b56a6e-a3f4-49c2-bf24-8616449aaf54",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "star-courier-legacy",
       "name": "Star Courier",
+      "nicknames": [
+        "Star Courier",
+        "Sith Infiltrator",
+        "Courier",
+        "Episode 1 Ship"
+      ],
       "ace-name": "",
       "unique-class": [
         ""
@@ -437,22 +488,30 @@
       },
       "ability": "",
       "unique": false,
-      "points": 17,
+      "points": 18,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/star-courier-legacy.webp"
     },
-    "darth-maul-scimitar": {
+    "darth-maul-scimitar-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "e51feb21-7f48-4370-a425-b92c69745682",
+      "_id": "1bd7dec8-57f3-444b-8601-ab5cb4745f4b",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "star-courier-legacy",
       "name": "Scimitar",
+      "nicknames": [
+        "Darth Maul Scimitar",
+        "Darth Maul",
+        "Scimitar",
+        "Sith Infiltrator",
+        "Maul",
+        "Maul Scimitar"
+      ],
       "ace-name": "Darth Maul",
       "unique-class": [
         "Darth Maul",
@@ -499,12 +558,12 @@
         "strategic": false,
         "swarm": false
       },
-      "ability": "If you are engaged with at least 2 enemy squadrons, gain ADEPT 1. For every 2 additional squadrons you are engaged with, increase your ADEPT value by 1.",
+      "ability": "If you are engaged with at least 2 enemy squadrons, gain ADEPT 1. For each additional squadron you are engaged with, increase your ADEPT value by 1.",
       "unique": true,
-      "points": 22,
+      "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/darth-maul-scimitar.webp"
+      "cardimage": "https://api.swarmada.wiki/images/darth-maul-scimitar-legacy.webp"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "squadrons": {
-    "nu-class-transport-shuttle-legacy": {
+    "sheathipede-class-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -8,15 +8,18 @@
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
       "_id": null,
       "type": "squadron",
-      "faction": "republic",
-      "squadron_type": "nu-class-transport-shuttle-legacy",
-      "name": "Nu-class Transport Shuttle",
+      "faction": "separatist",
+      "squadron_type": "sheathipede-class-shuttle-legacy",
+      "name": "Sheathipede-class Shuttle",
+      "nicknames": [
+        "Sheathipede Shuttle", "Sheathipede", "CIS Shuttle", "Separatist Shuttle"
+      ],
       "ace-name": "",
       "unique-class": [
         ""
       ],
       "irregular": true,
-      "hull": 7,
+      "hull": 5,
       "speed": 2,
       "tokens": {
         "def_scatter": 0,
@@ -27,7 +30,7 @@
         "anti-squadron": [
           0,
           2,
-          1
+          0
         ],
         "anti-ship": [
           0,
@@ -46,12 +49,12 @@
         "dodge": 0,
         "escort": false,
         "grit": false,
-        "heavy": true,
+        "heavy": false,
         "intel": false,
-        "relay": 1,
+        "relay": 2,
         "rogue": false,
         "scout": false,
-        "screen": false,
+        "screen": true,
         "snipe": 0,
         "strategic": true,
         "swarm": false
@@ -61,9 +64,9 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle-legacy.webp"
+      "cardimage": "https://api.swarmada.wiki/images/sheathipede-class-shuttle-legacy.webp"
     },
-    "delta-squad-nu-class-transport-shuttle-legacy": {
+    "kalani-sheathipede-class-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -71,30 +74,33 @@
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
       "_id": null,
       "type": "squadron",
-      "faction": "republic",
-      "squadron_type": "nu-class-transport-shuttle-legacy",
-      "name": "Nu-class Transport Shuttle",
-      "ace-name": "Delta Squad",
+      "faction": "separatist",
+      "squadron_type": "sheathipede-class-shuttle-legacy",
+      "name": "Sheathipede-class Shuttle",
+      "nicknames": [
+        "Kalani Sheathipede Shuttle", "Kalani Sheathipede", "Kalani", "CIS Shuttle", "Separatist Shuttle"
+      ],
+      "ace-name": "Kalani",
       "unique-class": [
-        "Delta Squad"
+        "Kalani"
       ],
       "irregular": true,
-      "hull": 7,
+      "hull": 5,
       "speed": 2,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 0,
-        "def_brace": 1
+        "def_brace": 2
       },
       "armament": {
         "anti-squadron": [
           0,
           2,
-          1
+          0
         ],
         "anti-ship": [
           0,
-          2,
+          1,
           0
         ]
       },
@@ -102,29 +108,29 @@
         "adept": 0,
         "ai-battery": 0,
         "ai-antisquadron": 0,
-        "assault": true,
+        "assault": false,
         "bomber": false,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
         "escort": false,
-        "grit": true,
-        "heavy": true,
+        "grit": false,
+        "heavy": false,
         "intel": false,
-        "relay": 0,
+        "relay": 2,
         "rogue": false,
         "scout": false,
-        "screen": false,
+        "screen": true,
         "snipe": 0,
         "strategic": false,
         "swarm": false
       },
-      "ability": "When you assign a raid token, you may discard 1 command token from the detender. Enemy ships at distance 1 with a raid token cannot gain a matching command token from upgrade cards equipped to that ship.",
+      "ability": "At the start of the squadron phase, you may toggle your activation slider to the activated side. If you do, the first time it is your fleet's turn to activate squadrons, up to 4 non-unique squadrons with AI at distance 1-3 that you activate may move before attacking.",
       "unique": true,
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-class-transport-shuttle-legacy.webp"
+      "cardimage": "https://api.swarmada.wiki/images/kalani-sheathipede-class-shuttle-legacy.webp"
     }
   }
 }
