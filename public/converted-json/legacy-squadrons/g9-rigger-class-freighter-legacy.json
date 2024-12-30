@@ -1,6 +1,6 @@
 {
   "squadrons": {
-    "g9-rigger-class-freighter": {
+    "g9-rigger-class-freighter-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -9,7 +9,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "g9-rigger-class-freighter",
+      "squadron_type": "g9-rigger-class-freighter-legacy",
       "name": "G9 Rigger-class Freighter",
       "ace-name": "",
       "unique-class": [
@@ -61,9 +61,9 @@
       "points": 16,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/g9-rigger-class-freighter.webp"
+      "cardimage": "https://api.swarmada.wiki/images/g9-rigger-class-freighter-legacy.webp"
     },
-    "anakin-skywalker-twilight": {
+    "anakin-skywalker-twilight-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -72,7 +72,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "g9-rigger-class-freighter",
+      "squadron_type": "g9-rigger-class-freighter-legacy",
       "name": "Twilight",
       "ace-name": "Anakin Skywalker",
       "unique-class": [
@@ -125,7 +125,7 @@
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight.webp"
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight-legacy.webp"
     }
   }
 }

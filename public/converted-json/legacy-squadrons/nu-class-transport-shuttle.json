@@ -1,6 +1,6 @@
 {
   "squadrons": {
-    "nu-class-transport-shuttle": {
+    "nu-class-transport-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -9,7 +9,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "nu-class-transport-shuttle",
+      "squadron_type": "nu-class-transport-shuttle-legacy",
       "name": "Nu-class Transport Shuttle",
       "ace-name": "",
       "unique-class": [
@@ -61,9 +61,9 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle.webp"
+      "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle-legacy.webp"
     },
-    "delta-squad-nu-shuttle": {
+    "delta-squad-nu-class-transport-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -72,7 +72,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "nu-class-transport-shuttle",
+      "squadron_type": "nu-class-transport-shuttle-legacy",
       "name": "Nu-class Transport Shuttle",
       "ace-name": "Delta Squad",
       "unique-class": [
@@ -124,7 +124,7 @@
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-shuttle.webp"
+      "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-class-transport-shuttle-legacy.webp"
     }
   }
 }

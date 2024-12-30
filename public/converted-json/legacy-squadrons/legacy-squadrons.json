@@ -1,15 +1,15 @@
 {
   "squadrons": {
-    "g9-rigger-class-freighter": {
+    "g9-rigger-class-freighter-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "d4ffc3da-34bc-40b9-b950-1bcce92affa6",
+      "_id": "7989d7ee-fc94-4c0c-8ed7-263d916c804c",
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "g9-rigger-class-freighter",
+      "squadron_type": "g9-rigger-class-freighter-legacy",
       "name": "G9 Rigger-class Freighter",
       "ace-name": "",
       "unique-class": [
@@ -61,18 +61,18 @@
       "points": 16,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/g9-rigger-class-freighter.webp"
+      "cardimage": "https://api.swarmada.wiki/images/g9-rigger-class-freighter-legacy.webp"
     },
-    "anakin-skywalker-twilight": {
+    "anakin-skywalker-twilight-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "dd6688ef-8886-4606-97a2-07b26631cd1a",
+      "_id": "6d89dd2c-1793-44b4-ba08-cfa96ca35a51",
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "g9-rigger-class-freighter",
+      "squadron_type": "g9-rigger-class-freighter-legacy",
       "name": "Twilight",
       "ace-name": "Anakin Skywalker",
       "unique-class": [
@@ -125,18 +125,18 @@
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight.webp"
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight-legacy.webp"
     },
-    "nu-class-transport-shuttle": {
+    "nu-class-transport-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "dfc365c5-4a0d-4ed1-beea-a1b3de360dea",
+      "_id": "c2f6be50-1a75-47f9-a199-b58215da86b4",
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "nu-class-transport-shuttle",
+      "squadron_type": "nu-class-transport-shuttle-legacy",
       "name": "Nu-class Transport Shuttle",
       "ace-name": "",
       "unique-class": [
@@ -188,18 +188,18 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle.webp"
+      "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle-legacy.webp"
     },
-    "delta-squad-nu-shuttle": {
+    "delta-squad-nu-class-transport-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "931bb683-e924-48e9-a26b-59c96504db13",
+      "_id": "91e53e37-0f39-4d9c-9675-fb8b771df9a9",
       "type": "squadron",
       "faction": "republic",
-      "squadron_type": "nu-class-transport-shuttle",
+      "squadron_type": "nu-class-transport-shuttle-legacy",
       "name": "Nu-class Transport Shuttle",
       "ace-name": "Delta Squad",
       "unique-class": [
@@ -251,18 +251,18 @@
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-shuttle.webp"
+      "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-class-transport-shuttle-legacy.webp"
     },
-    "sheathipede-class-shuttle": {
+    "sheathipede-class-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "ecabf828-29c7-4216-93af-994d5118bdfd",
+      "_id": "8a6dd98b-69e9-43f9-b090-9ba205b08a44",
       "type": "squadron",
       "faction": "separatist",
-      "squadron_type": "sheathipede-class-shuttle",
+      "squadron_type": "sheathipede-class-shuttle-legacy",
       "name": "Sheathipede-class Shuttle",
       "ace-name": "",
       "unique-class": [
@@ -314,18 +314,18 @@
       "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/sheathipede-class-shuttle.webp"
+      "cardimage": "https://api.swarmada.wiki/images/sheathipede-class-shuttle-legacy.webp"
     },
-    "kalani-sheathipede-class-shuttle": {
+    "kalani-sheathipede-class-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "c1ed6921-021b-44bb-8335-a00c586a05fe",
+      "_id": "1e192e5e-7f5e-4ad1-9f07-4d9c72e2d546",
       "type": "squadron",
       "faction": "separatist",
-      "squadron_type": "sheathipede-class-shuttle",
+      "squadron_type": "sheathipede-class-shuttle-legacy",
       "name": "Sheathipede-class Shuttle",
       "ace-name": "Kalani",
       "unique-class": [
@@ -377,18 +377,18 @@
       "points": 24,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/kalani-sheathipede-class-shuttle.webp"
+      "cardimage": "https://api.swarmada.wiki/images/kalani-sheathipede-class-shuttle-legacy.webp"
     },
-    "star-courier": {
+    "star-courier-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "194b81b0-08bf-4ea1-a992-3cfbe45df691",
+      "_id": "3d3b2c15-1c10-4619-890a-0703b6cb2981",
       "type": "squadron",
       "faction": "separatist",
-      "squadron_type": "star-courier",
+      "squadron_type": "star-courier-legacy",
       "name": "Star Courier",
       "ace-name": "",
       "unique-class": [
@@ -440,7 +440,7 @@
       "points": 17,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/star-courier.webp"
+      "cardimage": "https://api.swarmada.wiki/images/star-courier-legacy.webp"
     },
     "darth-maul-scimitar": {
       "author": "Armada Legacy Team",
@@ -448,10 +448,10 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "6dfb5003-3b97-4511-8362-bc8c8d4a0070",
+      "_id": "e51feb21-7f48-4370-a425-b92c69745682",
       "type": "squadron",
       "faction": "separatist",
-      "squadron_type": "star-courier",
+      "squadron_type": "star-courier-legacy",
       "name": "Scimitar",
       "ace-name": "Darth Maul",
       "unique-class": [

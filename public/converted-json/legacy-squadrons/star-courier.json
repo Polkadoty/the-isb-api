@@ -1,6 +1,6 @@
 {
   "squadrons": {
-    "star-courier": {
+    "star-courier-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
@@ -9,7 +9,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "separatist",
-      "squadron_type": "star-courier",
+      "squadron_type": "star-courier-legacy",
       "name": "Star Courier",
       "ace-name": "",
       "unique-class": [
@@ -61,7 +61,7 @@
       "points": 17,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/star-courier.webp"
+      "cardimage": "https://api.swarmada.wiki/images/star-courier-legacy.webp"
     },
     "darth-maul-scimitar": {
       "author": "Armada Legacy Team",
@@ -72,7 +72,7 @@
       "_id": null,
       "type": "squadron",
       "faction": "separatist",
-      "squadron_type": "star-courier",
+      "squadron_type": "star-courier-legacy",
       "name": "Scimitar",
       "ace-name": "Darth Maul",
       "unique-class": [
