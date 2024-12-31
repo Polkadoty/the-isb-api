@@ -112,9 +112,9 @@ function calculateStats(counts) {
   }
 
   if (counts.black > 0) {
-    // Black dice: 2 hit+crit (1), 4 hits (1), 2 blanks
-    stats.averageDamageNoCrits += counts.black * ((2/8 * 1) + (4/8 * 1)); // all hits
-    stats.averageDamage = stats.averageDamageNoCrits; // black dice hits are the same with/without crits
+    // Black dice: 2 hit+crit (1+1), 4 hits (1), 2 blanks
+    stats.averageDamageNoCrits += counts.black * ((2/8 * 1) + (4/8 * 1)); // just hits from all faces
+    stats.averageDamage += counts.black * ((2/8 * 2) + (4/8 * 1)); // counting hitcrit as 2 damage
   }
 
   // Calculate accuracy chance across all dice
