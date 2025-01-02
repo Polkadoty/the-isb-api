@@ -43,6 +43,7 @@ const allowedOrigins = [
   'https://legacy.swarmada.wiki',
   'https://builder.swarmada.wiki',
   'https://api.swarmada.wiki',
+  'https://star-forge.tools',
   'http://localhost:3000',
   'http://localhost:5000'
 ];

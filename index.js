@@ -27,7 +27,32 @@ import { fileURLToPath } from 'url';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-app.use(cors());
+const allowedOrigins = [
+  'https://test.swarmada.wiki',
+  'https://legacy.swarmada.wiki',
+  'https://builder.swarmada.wiki',
+  'https://api.swarmada.wiki',
+  'https://star-forge.tools',
+  'http://localhost:3000',
+  'http://localhost:5000'
+];
+
+app.use(cors({
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    
+    // Check if the origin matches our allowed domains
+    if (allowedOrigins.indexOf(origin) === -1) {
+      const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
+      return callback(new Error(msg), false);
+    }
+    return callback(null, true);
+  },
+  methods: ['GET', 'HEAD'],
+  credentials: true,
+  maxAge: 86400 // 24 hours
+}));
 app.use(helmet());
 app.use(express.json());
 
