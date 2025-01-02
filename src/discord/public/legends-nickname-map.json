@@ -1706,6 +1706,7 @@
     "anakin-skywalker-btl-b-y-wing-squadron",
     "anakin-skywalker-delta-7-aethersprite-squadron",
     "anakin-skywalker-commander",
+    "anakin-skywalker-twilight-legacy",
     "anakin-skywalker-eta-2-actis-squadron-old-legacy",
     "anakin-skywalker-twilight-old-legacy"
   ],
@@ -1730,10 +1731,12 @@
     "anakin-skywalker-delta-7-aethersprite-squadron"
   ],
   "Delta": [
-    "delta-7-aethersprite-squadron"
+    "delta-7-aethersprite-squadron",
+    "delta-squad-nu-class-transport-shuttle-legacy"
   ],
   "Deltas": [
-    "delta-7-aethersprite-squadron"
+    "delta-7-aethersprite-squadron",
+    "delta-squad-nu-class-transport-shuttle-legacy"
   ],
   "Ahsoka Tano": [
     "ahsoka-tano-delta-7-aethersprite-squadron",
@@ -4611,6 +4614,156 @@
   "Devastation": [
     "devastation-title-legends"
   ],
+  "G9 Rigger-class Freighter": [
+    "g9-rigger-class-freighter-legacy",
+    "g9-rigger-old-old-legacy"
+  ],
+  "G9": [
+    "g9-rigger-class-freighter-legacy",
+    "anakin-skywalker-twilight-legacy"
+  ],
+  "Republic Freighter": [
+    "g9-rigger-class-freighter-legacy"
+  ],
+  "GAR Freighter": [
+    "g9-rigger-class-freighter-legacy"
+  ],
+  "G-9": [
+    "g9-rigger-class-freighter-legacy"
+  ],
+  "Twilight": [
+    "g9-rigger-class-freighter-legacy",
+    "anakin-skywalker-twilight-legacy",
+    "anakin-skywalker-twilight-old-legacy"
+  ],
+  "Anakin Skywalker Twilight": [
+    "anakin-skywalker-twilight-legacy"
+  ],
+  "G9 Twilight": [
+    "anakin-skywalker-twilight-legacy"
+  ],
+  "GAR Twilight": [
+    "anakin-skywalker-twilight-legacy"
+  ],
+  "Riggerkin": [
+    "anakin-skywalker-twilight-legacy"
+  ],
+  "Nu-class Transport Shuttle": [
+    "nu-class-transport-shuttle-legacy",
+    "delta-squad-nu-class-transport-shuttle-legacy"
+  ],
+  "Nu-Class Transport Shuttle": [
+    "nu-class-transport-shuttle-legacy"
+  ],
+  "Nu Shuttle": [
+    "nu-class-transport-shuttle-legacy"
+  ],
+  "Nu": [
+    "nu-class-transport-shuttle-legacy"
+  ],
+  "Republic Shuttle": [
+    "nu-class-transport-shuttle-legacy"
+  ],
+  "GAR Shuttle": [
+    "nu-class-transport-shuttle-legacy"
+  ],
+  "Delta Squad": [
+    "delta-squad-nu-class-transport-shuttle-legacy"
+  ],
+  "Delta Squad Nu Shuttle": [
+    "delta-squad-nu-class-transport-shuttle-legacy"
+  ],
+  "Delta Squad Nu": [
+    "delta-squad-nu-class-transport-shuttle-legacy"
+  ],
+  "Sheathipede-class Shuttle": [
+    "sheathipede-class-shuttle-legacy",
+    "kalani-sheathipede-class-shuttle-legacy"
+  ],
+  "Sheathipede Shuttle": [
+    "sheathipede-class-shuttle-legacy"
+  ],
+  "Sheathipede": [
+    "sheathipede-class-shuttle-legacy"
+  ],
+  "CIS Shuttle": [
+    "sheathipede-class-shuttle-legacy",
+    "kalani-sheathipede-class-shuttle-legacy"
+  ],
+  "Separatist Shuttle": [
+    "sheathipede-class-shuttle-legacy",
+    "kalani-sheathipede-class-shuttle-legacy"
+  ],
+  "Kalani": [
+    "kalani-sheathipede-class-shuttle-legacy"
+  ],
+  "Kalani Sheathipede Shuttle": [
+    "kalani-sheathipede-class-shuttle-legacy"
+  ],
+  "Kalani Sheathipede": [
+    "kalani-sheathipede-class-shuttle-legacy"
+  ],
+  "Star Courier": [
+    "star-courier-legacy"
+  ],
+  "Sith Infiltrator": [
+    "star-courier-legacy",
+    "darth-maul-scimitar-legacy",
+    "sith-infiltrator-scimitar-old-legacy"
+  ],
+  "Courier": [
+    "star-courier-legacy"
+  ],
+  "Episode 1 Ship": [
+    "star-courier-legacy"
+  ],
+  "Scimitar": [
+    "darth-maul-scimitar-legacy",
+    "sith-infiltrator-scimitar-old-legacy",
+    "count-dooku-scimitar-old-legacy"
+  ],
+  "Darth Maul": [
+    "darth-maul-scimitar-legacy"
+  ],
+  "Darth Maul Scimitar": [
+    "darth-maul-scimitar-legacy"
+  ],
+  "Maul": [
+    "darth-maul-scimitar-legacy"
+  ],
+  "Maul Scimitar": [
+    "darth-maul-scimitar-legacy"
+  ],
+  "Daultay Dofine": [
+    "daultay-dofine-commander-legacy"
+  ],
+  "Daulty Dofine": [
+    "daultay-dofine-commander-legacy"
+  ],
+  "Daultay": [
+    "daultay-dofine-commander-legacy"
+  ],
+  "Dofine": [
+    "daultay-dofine-commander-legacy"
+  ],
+  "Daulty": [
+    "daultay-dofine-commander-legacy"
+  ],
+  "Ki-Adi-Mundi": [
+    "ki-adi-mundi-commander-legacy"
+  ],
+  "Ki-Adi": [
+    "ki-adi-mundi-commander-legacy"
+  ],
+  "Mundi": [
+    "ki-adi-mundi-commander-legacy"
+  ],
+  "Ki": [
+    "ki-adi-mundi-commander-legacy"
+  ],
+  "Ki Adi": [
+    "ki-adi-mundi-commander-legacy"
+  ],
   "Dreadnaught-class Katana Refit": [
     "dreadnaught-class-katana-refit-old-legacy"
   ],
@@ -4689,12 +4842,6 @@
   "Shaak Ti": [
     "shaak-ti-eta-2-actis-squadron-old-legacy"
   ],
-  "G9 Rigger-class Freighter": [
-    "g9-rigger-old-old-legacy"
-  ],
-  "Twilight": [
-    "anakin-skywalker-twilight-old-legacy"
-  ],
   "LAAT/i Gunship": [
     "laat-i-gunship-old-legacy",
     "hawk-laat-i-gunship-old-legacy"
@@ -4733,13 +4880,6 @@
   ],
   "Cad Bane": [
     "cad-bane-xanadu-blood-old-legacy"
-  ],
-  "Scimitar": [
-    "sith-infiltrator-scimitar-old-legacy",
-    "count-dooku-scimitar-old-legacy"
-  ],
-  "Sith Infiltrator": [
-    "sith-infiltrator-scimitar-old-legacy"
   ],
   "Admiral Coburn": [
     "admiral-coburn-commander-old-legacy"
