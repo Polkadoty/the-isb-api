@@ -131,11 +131,31 @@ client.on('messageCreate', async message => {
       .addFields(
         { 
           name: '🎲 Dice Rolling',
-          value: '`!dice [quantity][color]`\nRoll Armada dice and get statistics.\nExample: `!dice 2red 2blue 1black`\nAvailable colors: red, blue, black'
+          value: [
+            '`!dice [quantity][color]`',
+            'Roll Armada dice and get detailed statistics.',
+            '**Example:** `!dice 2red 2blue 1black`',
+            '**Available colors:** red, blue, black',
+            '**Stats include:** Average damage, accuracy chance, crit chance, and more!'
+          ].join('\n')
         },
         {
           name: '🔍 Card Search',
-          value: '`!holo [card name]`\nSearch for cards by name or nickname.\nExample: `!holo Vader` or `!holo TEA`'
+          value: [
+            '`!holo [card name]`',
+            'Search for cards by name or nickname.',
+            '**Basic search:** `!holo Vader`',
+            '**Card comparison:** `!holo Vader -compare Thrawn`',
+            'Shows all matching cards for the first term and compares with the second!'
+          ].join('\n')
+        },
+        {
+          name: '📋 Fleet Links',
+          value: [
+            'Simply paste a Star Forge fleet link to get a formatted view!',
+            '**Example:** `https://star-forge.tools/share/12345`',
+            'Shows ships, squadrons, upgrades, and objectives with clickable card links.'
+          ].join('\n')
         },
         {
           name: '💡 Tips',
@@ -143,20 +163,63 @@ client.on('messageCreate', async message => {
             '• Card searches are not case-sensitive',
             '• Many cards have common nicknames (like "TEA" for "Take Evasive Action!")',
             '• If no exact match is found, the bot will suggest similar cards',
+            '• Click the 🔍 reaction on fleet posts to expand card images',
             '• For dice rolls, you can combine any number of dice'
           ].join('\n')
         }
       )
+      .setColor('#0099ff')
       .setFooter({ text: 'For bug reports or feature requests, visit our GitHub repository' });
 
     return message.reply({ embeds: [embed] });
   }
 
   if (message.content.toLowerCase().startsWith('!holo')) {
-    const nickname = message.content.slice(6).trim();
+    const input = message.content.slice(6).trim();
+    
+    // Check if this is a comparison request
+    const compareMatch = input.match(/^(.*?)\s*-\s*compare\s+(.*)$/i);
+    
+    if (compareMatch) {
+      // Handle comparison
+      const [, card1, card2] = compareMatch;
+      
+      const matches1 = nicknameMap[card1.trim()] || findSimilarCards(card1.trim(), nicknameMap);
+      const matches2 = nicknameMap[card2.trim()] || findSimilarCards(card2.trim(), nicknameMap);
+      
+      if (!matches1 || !matches2) {
+        const notFound = !matches1 ? card1 : card2;
+        return message.reply(`Could not find card: ${notFound}`);
+      }
+
+      // Create embeds for all matches of first card and one of second card
+      const embeds = [
+        // First card's matches (up to 10)
+        ...matches1.slice(0, 10).map((match, index) => 
+          new EmbedBuilder()
+            .setTitle(index === 0 ? `Comparing: ${card1.trim()} vs ${card2.trim()}` : undefined)
+            .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+            .setFooter({ text: `${card1.trim()} (${index + 1}/${Math.min(matches1.length, 10)})` })
+        ),
+        // Second card
+        new EmbedBuilder()
+          .setImage(`https://api.swarmada.wiki/images/${matches2[0]}.webp`)
+          .setFooter({ text: card2.trim() })
+      ];
+
+      // If there are more matches for the first card than we can show, add a message
+      if (matches1.length > 10) {
+        message.channel.send(`...and ${matches1.length - 10} more results for ${card1.trim()}.`);
+      }
+
+      return message.reply({ embeds });
+    }
+
+    // Original !holo logic continues here...
+    const nickname = input;
     
     if (!nickname) {
-      return message.reply('Please provide a card name to search for. Example: `!holo Vader`');
+      return message.reply('Please provide a card name to search for. Example: `!holo Vader` or `!holo Vader -compare Thrawn`');
     }
 
     // Find exact match first
@@ -177,7 +240,18 @@ client.on('messageCreate', async message => {
         .filter(name => name.toLowerCase().includes(nickname.toLowerCase()))
         .slice(0, 5);
       
-      if (suggestions.length > 0) {
+      if (suggestions.length === 1) {
+        // If there's exactly one suggestion, show that card
+        matches = nicknameMap[suggestions[0]];
+        // Create embeds for the single match
+        const embeds = matches.map((match, index) => 
+          new EmbedBuilder()
+            .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+            .setFooter({ text: `${index + 1}/${matches.length}` })
+        );
+        embeds[0].setTitle(`Card Result for "${suggestions[0]}"`);
+        return message.reply({ embeds });
+      } else if (suggestions.length > 0) {
         return message.reply(`No exact matches found. Did you mean: ${suggestions.join(', ')}?`);
       }
       return message.reply('No cards found with that nickname.');
@@ -324,6 +398,15 @@ function findCardInNicknameMaps(cardName, faction = '') {
   
   // Default to the card name if no matches found
   return cardName.toLowerCase().replace(/\s+/g, '-');
+}
+
+// Add this helper function
+function findSimilarCards(name, nicknameMap) {
+  const lowercaseName = name.toLowerCase();
+  const possibleMatch = Object.keys(nicknameMap).find(
+    key => key.toLowerCase() === lowercaseName
+  );
+  return possibleMatch ? nicknameMap[possibleMatch] : null;
 }
 
 client.login(process.env.DISCORD_TOKEN);
