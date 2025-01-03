@@ -41,9 +41,46 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+// Add this near the top with other constants
+const KEYWORD_RESPONSES = {
+  'tragedy': {
+    reaction: '😢',
+    gifUrl: 'https://media1.giphy.com/media/l3diT8stVH9qImalO/giphy.gif?cid=6c09b9525fdxdlzp64duce6cahijwny0yfn1nc546o905q5v&ep=v1_gifs_search&rid=giphy.gif&ct=g'
+  }
+  // Add more keywords and responses as needed, for example:
+  // 'hello': {
+  //   reaction: '👋',
+  //   gifUrl: 'some_gif_url_here'
+  // }
+};
+
 client.on('messageCreate', async message => {
+  // Ignore bot messages
   if (message.author.bot) return;
+
+  // Check message content against keywords
+  const messageContent = message.content.toLowerCase();
   
+  for (const [keyword, response] of Object.entries(KEYWORD_RESPONSES)) {
+    if (messageContent.includes(keyword)) {
+      try {
+        // Add reaction
+        await message.react(response.reaction);
+        
+        // If there's a gif URL, send it as an embed reply
+        if (response.gifUrl) {
+          const embed = new EmbedBuilder()
+            .setColor(0x0099FF)
+            .setImage(response.gifUrl);
+          
+          await message.reply({ embeds: [embed] });
+        }
+      } catch (error) {
+        console.error(`Error responding to keyword "${keyword}":`, error);
+      }
+    }
+  }
+
   // Check if message contains only a star-forge.tools/share link
   const fleetLinkRegex = /^https?:\/\/star-forge\.tools\/share\/(\d+)\/?$/;
   if (message.content.trim().match(fleetLinkRegex)) {
