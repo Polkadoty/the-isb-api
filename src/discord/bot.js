@@ -50,7 +50,9 @@ client.on('messageCreate', async message => {
     const fleetId = message.content.match(fleetLinkRegex)[1];
     
     try {
-      // Fetch fleet data from Supabase
+      console.log('Fetching fleet:', fleetId); // Debug log
+
+      // Fetch fleet data from Supabase with better error handling
       const { data: fleet, error } = await supabase
         .from('fleets')
         .select('*')
@@ -58,10 +60,16 @@ client.on('messageCreate', async message => {
         .eq('shared', true)
         .single();
 
-      if (error) throw error;
+      if (error) {
+        console.error('Supabase error:', error); // Debug log
+        throw error;
+      }
+
       if (!fleet) {
         return message.reply('Fleet not found or not shared.');
       }
+
+      console.log('Fleet data retrieved:', fleet); // Debug log
 
       // Parse the fleet data
       const fleetData = fleet.fleet_data;
@@ -86,8 +94,8 @@ client.on('messageCreate', async message => {
       // Add reaction to indicate clickable elements
       await response.react('🔍');
     } catch (error) {
-      console.error('Error processing fleet link:', error);
-      message.reply('Error loading fleet data.');
+      console.error('Detailed error:', error); // More detailed error logging
+      message.reply(`Error loading fleet data: ${error.message}`);
     }
   }
 
