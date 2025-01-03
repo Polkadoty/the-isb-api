@@ -201,15 +201,20 @@ client.on('messageCreate', async message => {
             .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
             .setFooter({ text: `${card1.trim()} (${index + 1}/${Math.min(matches1.length, 10)})` })
         ),
-        // Second card
-        new EmbedBuilder()
-          .setImage(`https://api.swarmada.wiki/images/${matches2[0]}.webp`)
-          .setFooter({ text: card2.trim() })
+        // Second card's matches (up to 10)
+        ...matches2.slice(0, 10).map((match, index) => 
+          new EmbedBuilder()
+            .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+            .setFooter({ text: `${card2.trim()} (${index + 1}/${Math.min(matches2.length, 10)})` })
+        )
       ];
 
-      // If there are more matches for the first card than we can show, add a message
+      // If there are more matches than we can show, add messages
       if (matches1.length > 10) {
         message.channel.send(`...and ${matches1.length - 10} more results for ${card1.trim()}.`);
+      }
+      if (matches2.length > 10) {
+        message.channel.send(`...and ${matches2.length - 10} more results for ${card2.trim()}.`);
       }
 
       return message.reply({ embeds });
