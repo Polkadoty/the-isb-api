@@ -1,4 +1,4 @@
-import { Client, GatewayIntentBits, EmbedBuilder } from 'discord.js';
+import { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder, StringSelectMenuBuilder } from 'discord.js';
 import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
@@ -67,9 +67,21 @@ client.on('messageCreate', async message => {
       const fleetData = fleet.fleet_data;
       const embed = await formatFleetEmbed(fleetData);
 
-      // Delete original message and send embed
+      // Create action row with buttons for each card
+      const row = new ActionRowBuilder()
+        .addComponents(
+          new ButtonBuilder()
+            .setCustomId('view_cards')
+            .setLabel('View Cards')
+            .setStyle('PRIMARY')
+        );
+
+      // Delete original message and send embed with button
       await message.delete();
-      const response = await message.channel.send({ embeds: [embed] });
+      const response = await message.channel.send({ 
+        embeds: [embed],
+        components: [row]
+      });
 
       // Add reaction to indicate clickable elements
       await response.react('🔍');
@@ -211,14 +223,14 @@ function formatFleetEmbed(fleetData) {
       const points = line.match(/\((\d+)\)/)?.[1] || '';
       embed.addFields({ 
         name: 'Commander', 
-        value: `[${commander}](card:${commander}) (${points})`, 
+        value: `${commander} (${points})`, 
         inline: true 
       });
     } else if (line.match(/^(Assault|Defense|Navigation):/)) {
       const objective = line.split(': ')[1];
       currentSection = 'Objectives';
       if (!currentField.name) currentField.name = 'Objectives';
-      currentField.value += `[${objective}](card:${objective})\n`;
+      currentField.value += `${objective}\n`;
     } else if (line.match(/^[A-Za-z].*\(\d+\)$/) || line === 'Squadrons:') {
       // Ship or Squadron header
       if (currentField.name) {
@@ -232,7 +244,7 @@ function formatFleetEmbed(fleetData) {
       const upgrade = line.replace('• ', '');
       const name = upgrade.split('(')[0].trim();
       const points = upgrade.match(/\((\d+)\)/)?.[1] || '';
-      currentField.value += `• [${name}](card:${name}) (${points})\n`;
+      currentField.value += `• ${name} (${points})\n`;
     }
   }
 
@@ -250,46 +262,45 @@ function formatFleetEmbed(fleetData) {
   return embed;
 }
 
-// Add message component handler for clickable links
+// Handle button interactions
 client.on('interactionCreate', async interaction => {
-  if (!interaction.isMessageComponent()) return;
+  if (!interaction.isButton()) return;
 
-  // Extract the card name from the command
-  const [command, cardName] = interaction.customId.split(':');
-  if (command === 'card') {
-    try {
-      // Get the appropriate nickname map based on server ID
-      const nicknameMap = interaction.guild?.id === LEGACY_SERVER_ID 
-        ? legacyNicknameMap 
-        : interaction.guild?.id === LEGENDS_SERVER_ID
-          ? legendsNicknameMap
-          : legendsNicknameMap;
+  if (interaction.customId === 'view_cards') {
+    // Get the message content
+    const embedDescription = interaction.message.embeds[0].fields;
+    
+    // Extract all card names from the embed fields
+    const cardNames = [];
+    embedDescription.forEach(field => {
+      const lines = field.value.split('\n');
+      lines.forEach(line => {
+        if (line.startsWith('•')) {
+          const name = line.split('(')[0].replace('•', '').trim();
+          cardNames.push(name);
+        }
+      });
+    });
 
-      // Find matches for the card
-      let matches = nicknameMap[cardName];
-      
-      if (!matches) {
-        await interaction.reply({ content: 'Card not found.', ephemeral: true });
-        return;
-      }
-
-      // Create embeds for the matches (up to 10)
-      const embeds = matches.slice(0, 10).map((match, index) => 
-        new EmbedBuilder()
-          .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
-          .setFooter({ text: `${index + 1}/${Math.min(matches.length, 10)}` })
+    // Create a select menu for the cards
+    const row = new ActionRowBuilder()
+      .addComponents(
+        new StringSelectMenuBuilder()
+          .setCustomId('select_card')
+          .setPlaceholder('Select a card to view')
+          .addOptions(
+            cardNames.map(name => ({
+              label: name,
+              value: name,
+            }))
+          )
       );
 
-      // Set the title only on the first embed
-      embeds[0].setTitle(`Card: ${cardName}`);
-
-      // Reply with the embeds
-      await interaction.reply({ embeds, ephemeral: false });
-
-    } catch (error) {
-      console.error('Error handling card interaction:', error);
-      await interaction.reply({ content: 'Error displaying card.', ephemeral: true });
-    }
+    await interaction.reply({
+      content: 'Select a card to view:',
+      components: [row],
+      ephemeral: true
+    });
   }
 });
 
