@@ -274,8 +274,9 @@ function formatFleetEmbed(fleetData, fleetId) {
         const shipName = line.split('(')[0].trim();
         const points = line.match(/\((\d+)\)/)?.[1] || '';
         const cardId = findCardInNicknameMaps(shipName);
-        currentField.name = `**[${shipName}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})**`;
-        currentField.value = '';
+        // Format the ship header without showing the URL
+        currentField.name = `**${shipName} (${points})**`;
+        currentField.value = `[View Ship Card](https://api.swarmada.wiki/images/${cardId}.webp)\n`;
       }
     } else if (line.startsWith('•')) {
       // Upgrade or Squadron
