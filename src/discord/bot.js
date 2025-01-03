@@ -65,7 +65,7 @@ client.on('messageCreate', async message => {
 
       // Parse the fleet data
       const fleetData = fleet.fleet_data;
-      const embed = await formatFleetEmbed(fleetData);
+      const embed = await formatFleetEmbed(fleetData, fleetId);
 
       // Delete original message and send embed
       await message.delete();
@@ -193,11 +193,11 @@ client.on('messageCreate', async message => {
   }
 });
 
-function formatFleetEmbed(fleetData) {
+function formatFleetEmbed(fleetData, fleetId) {
   const lines = fleetData.split('\n');
   const embed = new EmbedBuilder()
     .setColor('#0099ff')
-    .setTitle(lines[0].replace('Name: ', ''))
+    .setTitle(`[${lines[0].replace('Name: ', '')}](https://star-forge.tools/share/${fleetId})`)
     .setDescription('Click on any card name to view it!');
 
   let currentSection = '';
@@ -209,18 +209,19 @@ function formatFleetEmbed(fleetData) {
     } else if (line.startsWith('Commander:')) {
       const commander = line.replace('Commander: ', '').split('(')[0].trim();
       const points = line.match(/\((\d+)\)/)?.[1] || '';
+      const cardId = findCardInNicknameMaps(commander);
       embed.addFields({ 
         name: 'Commander', 
-        value: `${commander} (${points})`, 
+        value: `[${commander}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})`, 
         inline: true 
       });
     } else if (line.match(/^(Assault|Defense|Navigation):/)) {
       const objective = line.split(': ')[1];
+      const cardId = findCardInNicknameMaps(objective);
       currentSection = 'Objectives';
       if (!currentField.name) currentField.name = 'Objectives';
-      currentField.value += `${objective}\n`;
+      currentField.value += `[${objective}](https://api.swarmada.wiki/images/${cardId}.webp)\n`;
     } else if (line.match(/^[A-Za-z].*\(\d+\)$/) || line === 'Squadrons:') {
-      // Ship or Squadron header
       if (currentField.name) {
         embed.addFields(currentField);
         currentField = { name: '', value: '' };
@@ -228,20 +229,18 @@ function formatFleetEmbed(fleetData) {
       currentField.name = line.endsWith(':') ? '**Squadrons**' : `**${line}**`;
       currentField.value = '';
     } else if (line.startsWith('•')) {
-      // Upgrade or Squadron
       const upgrade = line.replace('• ', '');
       const name = upgrade.split('(')[0].trim();
       const points = upgrade.match(/\((\d+)\)/)?.[1] || '';
-      currentField.value += `• ${name} (${points})\n`;
+      const cardId = findCardInNicknameMaps(name);
+      currentField.value += `• [${name}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})\n`;
     }
   }
 
-  // Add final field if exists
   if (currentField.name) {
     embed.addFields(currentField);
   }
 
-  // Add total points
   const totalPoints = lines.find(line => line.startsWith('Total Points:'));
   if (totalPoints) {
     embed.setFooter({ text: totalPoints });
@@ -250,47 +249,14 @@ function formatFleetEmbed(fleetData) {
   return embed;
 }
 
-// Add message component handler for clickable links
-client.on('interactionCreate', async interaction => {
-  if (!interaction.isMessageComponent()) return;
-
-  // Extract the card name from the command
-  const [command, cardName] = interaction.customId.split(':');
-  if (command === 'card') {
-    try {
-      // Get the appropriate nickname map based on server ID
-      const nicknameMap = interaction.guild?.id === LEGACY_SERVER_ID 
-        ? legacyNicknameMap 
-        : interaction.guild?.id === LEGENDS_SERVER_ID
-          ? legendsNicknameMap
-          : legendsNicknameMap;
-
-      // Find matches for the card
-      let matches = nicknameMap[cardName];
-      
-      if (!matches) {
-        await interaction.reply({ content: 'Card not found.', ephemeral: true });
-        return;
-      }
-
-      // Create embeds for the matches (up to 10)
-      const embeds = matches.slice(0, 10).map((match, index) => 
-        new EmbedBuilder()
-          .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
-          .setFooter({ text: `${index + 1}/${Math.min(matches.length, 10)}` })
-      );
-
-      // Set the title only on the first embed
-      embeds[0].setTitle(`Card: ${cardName}`);
-
-      // Reply with the embeds
-      await interaction.reply({ embeds, ephemeral: false });
-
-    } catch (error) {
-      console.error('Error handling card interaction:', error);
-      await interaction.reply({ content: 'Error displaying card.', ephemeral: true });
-    }
-  }
-});
+// Helper function to find card ID in nickname maps
+function findCardInNicknameMaps(cardName) {
+  // Try both nickname maps
+  const legacyMatch = legacyNicknameMap[cardName];
+  const legendsMatch = legendsNicknameMap[cardName];
+  
+  // Return the first match found, defaulting to the card name if no match
+  return (legacyMatch?.[0] || legendsMatch?.[0] || cardName).toLowerCase().replace(/\s+/g, '-');
+}
 
 client.login(process.env.DISCORD_TOKEN);
