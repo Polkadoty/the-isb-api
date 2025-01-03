@@ -124,7 +124,7 @@ client.on('messageCreate', async message => {
       : legendsNicknameMap; // default to legends for any other server
 
   // Help commands
-  if (message.content.toLowerCase().match(/^!holo(?:-)?help$/)) {
+  if (message.content.toLowerCase().match(/^!help$/)) {
     const embed = new EmbedBuilder()
       .setTitle('Holocron Bot Help')
       .setDescription('Welcome to the Holocron Bot! Here are the available commands:')
@@ -233,6 +233,8 @@ client.on('messageCreate', async message => {
 function formatFleetEmbed(fleetData, fleetId) {
   const lines = fleetData.split('\n');
   const fleetName = lines[0].replace('Name: ', '');
+  let currentFaction = '';
+  
   const embed = new EmbedBuilder()
     .setColor('#0099ff')
     .setTitle(fleetName)
@@ -244,11 +246,12 @@ function formatFleetEmbed(fleetData, fleetId) {
 
   for (const line of lines) {
     if (line.startsWith('Faction:')) {
+      currentFaction = line.replace('Faction: ', '').toLowerCase();
       embed.addFields({ name: 'Faction', value: line.replace('Faction: ', ''), inline: true });
     } else if (line.startsWith('Commander:')) {
       const commander = line.replace('Commander: ', '').split('(')[0].trim();
       const points = line.match(/\((\d+)\)/)?.[1] || '';
-      const cardId = findCardInNicknameMaps(commander);
+      const cardId = findCardInNicknameMaps(commander, currentFaction);
       embed.addFields({ 
         name: 'Commander', 
         value: `[${commander}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})`, 
@@ -256,12 +259,11 @@ function formatFleetEmbed(fleetData, fleetId) {
       });
     } else if (line.match(/^(Assault|Defense|Navigation):/)) {
       const objective = line.split(': ')[1];
-      const cardId = findCardInNicknameMaps(objective);
+      const cardId = findCardInNicknameMaps(objective, currentFaction);
       currentSection = 'Objectives';
       if (!currentField.name) currentField.name = 'Objectives';
       currentField.value += `[${objective}](https://api.swarmada.wiki/images/${cardId}.webp)\n`;
     } else if (line.match(/^[A-Za-z].*\(\d+\)$/) || line === 'Squadrons:') {
-      // Ship or Squadron header
       if (currentField.name) {
         embed.addFields(currentField);
         currentField = { name: '', value: '' };
@@ -270,20 +272,17 @@ function formatFleetEmbed(fleetData, fleetId) {
         currentField.name = '**Squadrons**';
         currentField.value = '';
       } else {
-        // Handle ship headers
         const shipName = line.split('(')[0].trim();
         const points = line.match(/\((\d+)\)/)?.[1] || '';
-        const cardId = findCardInNicknameMaps(shipName);
-        // Format the ship header without showing the URL
+        const cardId = findCardInNicknameMaps(shipName, currentFaction);
         currentField.name = `**${shipName} (${points})**`;
         currentField.value = `[View Ship Card](https://api.swarmada.wiki/images/${cardId}.webp)\n`;
       }
     } else if (line.startsWith('•')) {
-      // Upgrade or Squadron
       const upgrade = line.replace('• ', '');
       const name = upgrade.split('(')[0].trim();
       const points = upgrade.match(/\((\d+)\)/)?.[1] || '';
-      const cardId = findCardInNicknameMaps(name);
+      const cardId = findCardInNicknameMaps(name, currentFaction);
       currentField.value += `• [${name}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})\n`;
     }
   }
@@ -301,13 +300,30 @@ function formatFleetEmbed(fleetData, fleetId) {
 }
 
 // Helper function to find card ID in nickname maps
-function findCardInNicknameMaps(cardName) {
+function findCardInNicknameMaps(cardName, faction = '') {
   // Try both nickname maps
   const legacyMatch = legacyNicknameMap[cardName];
   const legendsMatch = legendsNicknameMap[cardName];
   
-  // Return the first match found, defaulting to the card name if no match
-  return (legacyMatch?.[0] || legendsMatch?.[0] || cardName).toLowerCase().replace(/\s+/g, '-');
+  // Combine matches and remove duplicates
+  const allMatches = [...new Set([...(legacyMatch || []), ...(legendsMatch || [])])];
+  
+  if (allMatches.length > 0) {
+    // If we have a faction, try to find a faction-specific match first
+    if (faction) {
+      const factionMatch = allMatches.find(match => 
+        match.toLowerCase().includes(faction.toLowerCase())
+      );
+      if (factionMatch) {
+        return factionMatch.toLowerCase().replace(/\s+/g, '-');
+      }
+    }
+    // If no faction match found, return the first match
+    return allMatches[0].toLowerCase().replace(/\s+/g, '-');
+  }
+  
+  // Default to the card name if no matches found
+  return cardName.toLowerCase().replace(/\s+/g, '-');
 }
 
 client.login(process.env.DISCORD_TOKEN);
