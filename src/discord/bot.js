@@ -75,7 +75,7 @@ client.on('messageCreate', async message => {
       await response.react('🔍');
     } catch (error) {
       console.error('Error processing fleet link:', error);
-      message.reply('Error loading fleet data.');
+      message.reply('This fleet is not shared to the public.');
     }
   }
 
@@ -195,9 +195,11 @@ client.on('messageCreate', async message => {
 
 function formatFleetEmbed(fleetData, fleetId) {
   const lines = fleetData.split('\n');
+  const fleetName = lines[0].replace('Name: ', '');
   const embed = new EmbedBuilder()
     .setColor('#0099ff')
-    .setTitle(`[${lines[0].replace('Name: ', '')}](https://star-forge.tools/share/${fleetId})`)
+    .setTitle(fleetName)
+    .setURL(`https://star-forge.tools/share/${fleetId}`)
     .setDescription('Click on any card name to view it!');
 
   let currentSection = '';
@@ -222,13 +224,24 @@ function formatFleetEmbed(fleetData, fleetId) {
       if (!currentField.name) currentField.name = 'Objectives';
       currentField.value += `[${objective}](https://api.swarmada.wiki/images/${cardId}.webp)\n`;
     } else if (line.match(/^[A-Za-z].*\(\d+\)$/) || line === 'Squadrons:') {
+      // Ship or Squadron header
       if (currentField.name) {
         embed.addFields(currentField);
         currentField = { name: '', value: '' };
       }
-      currentField.name = line.endsWith(':') ? '**Squadrons**' : `**${line}**`;
-      currentField.value = '';
+      if (line === 'Squadrons:') {
+        currentField.name = '**Squadrons**';
+        currentField.value = '';
+      } else {
+        // Handle ship headers
+        const shipName = line.split('(')[0].trim();
+        const points = line.match(/\((\d+)\)/)?.[1] || '';
+        const cardId = findCardInNicknameMaps(shipName);
+        currentField.name = `**[${shipName}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})**`;
+        currentField.value = '';
+      }
     } else if (line.startsWith('•')) {
+      // Upgrade or Squadron
       const upgrade = line.replace('• ', '');
       const name = upgrade.split('(')[0].trim();
       const points = upgrade.match(/\((\d+)\)/)?.[1] || '';
