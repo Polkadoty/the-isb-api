@@ -207,30 +207,32 @@ function formatFleetEmbed(fleetData) {
     if (line.startsWith('Faction:')) {
       embed.addFields({ name: 'Faction', value: line.replace('Faction: ', ''), inline: true });
     } else if (line.startsWith('Commander:')) {
-      const commander = line.replace('Commander: ', '');
+      const commander = line.replace('Commander: ', '').split('(')[0].trim();
+      const points = line.match(/\((\d+)\)/)?.[1] || '';
       embed.addFields({ 
         name: 'Commander', 
-        value: `[${commander}](card:${commander})`, 
+        value: `[${commander}](card:${commander}) (${points})`, 
         inline: true 
       });
     } else if (line.match(/^(Assault|Defense|Navigation):/)) {
       const objective = line.split(': ')[1];
       currentSection = 'Objectives';
       if (!currentField.name) currentField.name = 'Objectives';
-      currentField.value += `[${objective}](command:!holo ${objective})\n`;
-    } else if (line.match(/^[A-Za-z].*\(\d+\)$/)) {
+      currentField.value += `[${objective}](card:${objective})\n`;
+    } else if (line.match(/^[A-Za-z].*\(\d+\)$/) || line === 'Squadrons:') {
       // Ship or Squadron header
       if (currentField.name) {
         embed.addFields(currentField);
         currentField = { name: '', value: '' };
       }
-      currentSection = line;
-      currentField.name = line;
+      currentField.name = line.endsWith(':') ? 'Squadrons' : line;
       currentField.value = '';
     } else if (line.startsWith('•')) {
       // Upgrade or Squadron
       const upgrade = line.replace('• ', '');
-      currentField.value += `[${upgrade}](command:!holo ${upgrade})\n`;
+      const name = upgrade.split('(')[0].trim();
+      const points = upgrade.match(/\((\d+)\)/)?.[1] || '';
+      currentField.value += `• [${name}](card:${name}) (${points})\n`;
     }
   }
 
