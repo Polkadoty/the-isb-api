@@ -61,7 +61,7 @@
             "artwork": "",
             "cardimage": "https://api.swarmada.wiki/images/rendili-defender-title-legends.webp"
         },
-        "katana-fleet1-title-legends": {
+        "katana-fleet-title-legends": {
             "author": [
                 "Armada Legends"
             ],
@@ -77,68 +77,6 @@
             "name": "Katana Fleet 1",
             "nicknames": [
                 "Katana Fleet 1",
-                "Katana Fleet",
-                "Katana"
-            ],
-            "unique-class": [
-                ""
-            ],
-            "ability": "placeholder",
-            "unique": false,
-            "points": 4,
-            "modification": false,
-            "bound_shiptype": "dreadnaught-class-republic-legends",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/katana-fleet1-title-legends.webp"
-        },
-        "katana-fleet2-title-legends": {
-            "author": [
-                "Armada Legends"
-            ],
-            "alias": "Legends",
-            "team": "Armada Legends",
-            "release": "Armada Legends December 2024 Dev Cycle",
-            "expansion": "Armada Legends Dreadnaught Expansion",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "republic"
-            ],
-            "name": "Katana Fleet 2",
-            "nicknames": [
-                "Katana Fleet 2",
                 "Katana Fleet",
                 "Katana"
             ],
@@ -183,7 +121,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/katana-fleet2-title-legends.webp"
+            "cardimage": "https://api.swarmada.wiki/images/katana-fleet-title-legends.webp"
         }
     }
 }
