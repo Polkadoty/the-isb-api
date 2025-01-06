@@ -329,18 +329,32 @@ function formatFleetEmbed(fleetData, fleetId) {
   let currentField = { name: '', value: '' };
 
   for (const line of lines) {
+    // Only add fields when they have both name and value
+    if (currentField.name && currentField.value && 
+        (line.match(/^[A-Za-z].*\(\d+\)$/) || 
+         line === 'Squadrons:' || 
+         line.startsWith('Total Points:'))) {
+      embed.addFields(currentField);
+      currentField = { name: '', value: '' };
+    }
+
     if (line.startsWith('Faction:')) {
       currentFaction = line.replace('Faction: ', '').toLowerCase();
-      embed.addFields({ name: 'Faction', value: line.replace('Faction: ', ''), inline: true });
+      const factionValue = line.replace('Faction: ', '');
+      if (factionValue) {
+        embed.addFields({ name: 'Faction', value: factionValue, inline: true });
+      }
     } else if (line.startsWith('Commander:')) {
       const commander = line.replace('Commander: ', '').split('(')[0].trim();
       const points = line.match(/\((\d+)\)/)?.[1] || '';
-      const cardId = findCardInNicknameMaps(commander, currentFaction);
-      embed.addFields({ 
-        name: 'Commander', 
-        value: `[${commander}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})`, 
-        inline: true 
-      });
+      if (commander) {
+        const cardId = findCardInNicknameMaps(commander, currentFaction);
+        embed.addFields({ 
+          name: 'Commander', 
+          value: `[${commander}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})`, 
+          inline: true 
+        });
+      }
     } else if (line.match(/^(Assault|Defense|Navigation):/)) {
       const objective = line.split(': ')[1];
       const cardId = findCardInNicknameMaps(objective, currentFaction);
@@ -371,7 +385,8 @@ function formatFleetEmbed(fleetData, fleetId) {
     }
   }
 
-  if (currentField.name) {
+  // Add the final field if it has content
+  if (currentField.name && currentField.value) {
     embed.addFields(currentField);
   }
 
