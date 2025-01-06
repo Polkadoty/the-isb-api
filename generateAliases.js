@@ -1,10 +1,9 @@
- // Start of Selection
- import fs from 'fs';
- import path from 'path';
- import { fileURLToPath } from 'url';
- 
- const __filename = fileURLToPath(import.meta.url);
- const __dirname = path.dirname(__filename);
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const directories = {
   ships: path.join(__dirname, 'public/converted-json/ships'),
@@ -32,6 +31,7 @@ function capitalizeFirstLetter(string) {
 
 function generateAliases() {
   let aliases = {};
+  const discordAliasMap = {};
 
   Object.entries(directories).forEach(([dirKey, dirPath]) => {
     const jsonFileName = `${dirKey}.json`;
@@ -46,10 +46,14 @@ function generateAliases() {
           Object.entries(itemData.models).forEach(([modelKey, modelData]) => {
             const exportText = `${modelData.name}${modelData.alias !== 'AMG' && modelData.alias !== 'FFG' ? ` [${modelData.alias}]` : ''} (${modelData.points})`;
             aliases[exportText] = modelKey;
+            discordAliasMap[exportText] = modelKey;
+            discordAliasMap[modelData.name] = modelKey;
           });
         } else if (topLevelKey === 'objectives') {
           const exportText = `${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''}`;
           aliases[exportText] = itemKey;
+          discordAliasMap[exportText] = itemKey;
+          discordAliasMap[itemData.name] = itemKey;
         } else {
           const exportText = itemData['ace-name'] 
             ? `${itemData['ace-name']} - ${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`
@@ -60,6 +64,13 @@ function generateAliases() {
           if (dirKey === 'squadrons' && jsonFileName === 'squadrons.json' && itemData['ace-name']) {
             const shortExportText = `${itemData['ace-name']}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`;
             aliases[shortExportText] = itemKey;
+          }
+          discordAliasMap[exportText] = itemKey;
+          
+          discordAliasMap[itemData.name] = itemKey;
+          
+          if (itemData['ace-name']) {
+            discordAliasMap[itemData['ace-name']] = itemKey;
           }
         }
       });
@@ -89,6 +100,11 @@ aliases = Object.fromEntries(
 
   // Write aliases to a JSON file
   fs.writeFileSync(path.join(__dirname, 'public/aliases.json'), JSON.stringify(aliases, null, 2));
+
+  fs.writeFileSync(
+    path.join(__dirname, 'src/discord/public/discord-aliases.json'),
+    JSON.stringify(discordAliasMap, null, 2)
+  );
 }
 
 generateAliases();

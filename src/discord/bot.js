@@ -184,8 +184,9 @@ client.on('messageCreate', async message => {
       // Handle comparison
       const [, card1, card2] = compareMatch;
       
-      const matches1 = nicknameMap[card1.trim()] || findSimilarCards(card1.trim(), nicknameMap);
-      const matches2 = nicknameMap[card2.trim()] || findSimilarCards(card2.trim(), nicknameMap);
+      // Keep points values in the search
+      const matches1 = nicknameMap[card1.trim()] || findSimilarCardsWithPoints(card1.trim(), nicknameMap);
+      const matches2 = nicknameMap[card2.trim()] || findSimilarCardsWithPoints(card2.trim(), nicknameMap);
       
       if (!matches1 || !matches2) {
         const notFound = !matches1 ? card1 : card2;
@@ -220,19 +221,19 @@ client.on('messageCreate', async message => {
       return message.reply({ embeds });
     }
 
-    // Original !holo logic continues here...
-    const nickname = input;
+    // Original !holo logic
+    const cardQuery = input;
     
-    if (!nickname) {
-      return message.reply('Please provide a card name to search for. Example: `!holo Vader` or `!holo Vader -compare Thrawn`');
+    if (!cardQuery) {
+      return message.reply('Please provide a card name to search for. Example: `!holo Vader (28)` or `!holo "Vader (28)" -compare "Thrawn (32)"`');
     }
 
     // Find exact match first
-    let matches = nicknameMap[nickname];
+    let matches = nicknameMap[cardQuery];
     
     // If no exact match, try case-insensitive search
     if (!matches) {
-      const lowercaseNickname = nickname.toLowerCase();
+      const lowercaseNickname = cardQuery.toLowerCase();
       const possibleMatch = Object.keys(nicknameMap).find(
         key => key.toLowerCase() === lowercaseNickname
       );
@@ -242,7 +243,7 @@ client.on('messageCreate', async message => {
     if (!matches) {
       // Find similar nicknames for suggestions
       const suggestions = Object.keys(nicknameMap)
-        .filter(name => name.toLowerCase().includes(nickname.toLowerCase()))
+        .filter(name => name.toLowerCase().includes(cardQuery.toLowerCase()))
         .slice(0, 5);
       
       if (suggestions.length === 1) {
@@ -270,7 +271,7 @@ client.on('messageCreate', async message => {
     );
 
     // Set the title only on the first embed
-    embeds[0].setTitle(`Card Results for "${nickname}"`);
+    embeds[0].setTitle(`Card Results for "${cardQuery}"`);
 
     // Send all embeds in a single message
     await message.reply({ embeds });
@@ -380,7 +381,17 @@ function formatFleetEmbed(fleetData, fleetId) {
 
 // Helper function to find card ID in nickname maps
 function findCardInNicknameMaps(cardName, faction = '') {
-  // Try both nickname maps
+  // Load aliases for fleet embeds
+  const aliases = JSON.parse(
+    fs.readFileSync(path.join(__dirname, 'public/aliases.json'), 'utf8')
+  );
+
+  // First try to find exact match in aliases (includes points)
+  if (aliases[cardName]) {
+    return aliases[cardName];
+  }
+
+  // If no alias match, fall back to nickname maps
   const legacyMatch = legacyNicknameMap[cardName];
   const legendsMatch = legendsNicknameMap[cardName];
   
@@ -394,11 +405,11 @@ function findCardInNicknameMaps(cardName, faction = '') {
         match.toLowerCase().includes(faction.toLowerCase())
       );
       if (factionMatch) {
-        return factionMatch.toLowerCase().replace(/\s+/g, '-');
+        return factionMatch;
       }
     }
     // If no faction match found, return the first match
-    return allMatches[0].toLowerCase().replace(/\s+/g, '-');
+    return allMatches[0];
   }
   
   // Default to the card name if no matches found
@@ -411,6 +422,39 @@ function findSimilarCards(name, nicknameMap) {
   const possibleMatch = Object.keys(nicknameMap).find(
     key => key.toLowerCase() === lowercaseName
   );
+  return possibleMatch ? nicknameMap[possibleMatch] : null;
+}
+
+function findSimilarCardsWithPoints(query, nicknameMap) {
+  // First try exact match with points
+  if (nicknameMap[query]) return nicknameMap[query];
+  
+  // Extract name and points if present
+  const pointsMatch = query.match(/(.*?)\s*\((\d+)\)\s*$/);
+  if (pointsMatch) {
+    const [, name, points] = pointsMatch;
+    
+    // Search for exact matches including points
+    const exactMatches = Object.keys(nicknameMap).filter(key => {
+      const keyMatch = key.match(/(.*?)\s*\((\d+)\)\s*$/);
+      if (!keyMatch) return false;
+      const [, keyName, keyPoints] = keyMatch;
+      return keyName.toLowerCase() === name.toLowerCase() && keyPoints === points;
+    });
+    
+    if (exactMatches.length > 0) {
+      return nicknameMap[exactMatches[0]];
+    }
+  }
+  
+  // If no matches with points, try without points
+  const nameOnly = pointsMatch ? pointsMatch[1] : query;
+  const lowercaseName = nameOnly.toLowerCase();
+  
+  const possibleMatch = Object.keys(nicknameMap).find(
+    key => key.toLowerCase().includes(lowercaseName)
+  );
+  
   return possibleMatch ? nicknameMap[possibleMatch] : null;
 }
 
