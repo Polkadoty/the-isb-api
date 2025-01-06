@@ -420,46 +420,4 @@ function findCardInNicknameMaps(cardName, faction = '') {
   return cardName.toLowerCase().replace(/\s+/g, '-');
 }
 
-// Add this helper function
-function findSimilarCards(name, nicknameMap) {
-  const lowercaseName = name.toLowerCase();
-  const possibleMatch = Object.keys(nicknameMap).find(
-    key => key.toLowerCase() === lowercaseName
-  );
-  return possibleMatch ? nicknameMap[possibleMatch] : null;
-}
-
-function findSimilarCardsWithPoints(query, nicknameMap) {
-  // First try exact match with points
-  if (nicknameMap[query]) return nicknameMap[query];
-  
-  // Extract name and points if present
-  const pointsMatch = query.match(/(.*?)\s*\((\d+)\)\s*$/);
-  if (pointsMatch) {
-    const [, name, points] = pointsMatch;
-    
-    // Search for exact matches including points
-    const exactMatches = Object.keys(nicknameMap).filter(key => {
-      const keyMatch = key.match(/(.*?)\s*\((\d+)\)\s*$/);
-      if (!keyMatch) return false;
-      const [, keyName, keyPoints] = keyMatch;
-      return keyName.toLowerCase() === name.toLowerCase() && keyPoints === points;
-    });
-    
-    if (exactMatches.length > 0) {
-      return nicknameMap[exactMatches[0]];
-    }
-  }
-  
-  // If no matches with points, try without points
-  const nameOnly = pointsMatch ? pointsMatch[1] : query;
-  const lowercaseName = nameOnly.toLowerCase();
-  
-  const possibleMatch = Object.keys(nicknameMap).find(
-    key => key.toLowerCase().includes(lowercaseName)
-  );
-  
-  return possibleMatch ? nicknameMap[possibleMatch] : null;
-}
-
 client.login(process.env.DISCORD_TOKEN);
