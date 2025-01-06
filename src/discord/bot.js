@@ -95,9 +95,13 @@ client.on('messageCreate', async message => {
         .eq('shared', true)
         .single();
 
-      if (error) throw error;
+      if (error) {
+        console.error('Supabase error:', error);
+        return message.reply(`Database error: ${error.message}`);
+      }
+      
       if (!fleet) {
-        return message.reply('Fleet not found or not shared.');
+        return message.reply('Fleet not found or not marked as shared.');
       }
 
       // Parse the fleet data
@@ -112,7 +116,7 @@ client.on('messageCreate', async message => {
       await response.react('🔍');
     } catch (error) {
       console.error('Error processing fleet link:', error);
-      message.reply('This fleet is not shared to the public.');
+      message.reply(`Error processing fleet: ${error.message}`);
     }
   }
 

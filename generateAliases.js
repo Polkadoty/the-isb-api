@@ -102,7 +102,7 @@ aliases = Object.fromEntries(
   fs.writeFileSync(path.join(__dirname, 'public/aliases.json'), JSON.stringify(aliases, null, 2));
 
   fs.writeFileSync(
-    path.join(__dirname, 'src/discord/public/discord-aliases.json'),
+    path.join(__dirname, 'src/discord/public/aliases.json'),
     JSON.stringify(discordAliasMap, null, 2)
   );
 }
