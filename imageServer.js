@@ -77,6 +77,7 @@ const allowedOrigins = [
 
 // TTS-specific allowed origins
 const ttsAllowedOrigins = [
+  'https://api.swarmada.wiki',
   'http://localhost:39999', // TTS local testing
   'https://steamcommunity.com',
   'https://workshop.steamcommunity.com'
