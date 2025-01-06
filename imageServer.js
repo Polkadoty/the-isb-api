@@ -4,6 +4,8 @@ import fs from 'fs';
 import { fileURLToPath } from 'url';
 import cors from 'cors';
 import helmet from 'helmet';
+import NodeCache from 'node-cache';
+import compression from 'compression';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -17,6 +19,27 @@ const jpegImagesPath = path.join(__dirname, 'jpeg-images');
 // Cache to store file paths
 const imageCache = new Map();
 const jpegImageCache = new Map();
+
+const imageStatsCache = new NodeCache({ 
+  stdTTL: 3600, // 1 hour
+  checkperiod: 120 // Check for expired entries every 2 minutes
+});
+
+// Add before image serving middleware
+const pendingRequests = new Map();
+
+function coalesceRequests(key, operation) {
+  if (pendingRequests.has(key)) {
+    return pendingRequests.get(key);
+  }
+  
+  const promise = operation().finally(() => {
+    pendingRequests.delete(key);
+  });
+  
+  pendingRequests.set(key, promise);
+  return promise;
+}
 
 // Function to recursively scan and cache image file paths
 function cacheImagePaths(dir, cache) {
@@ -91,10 +114,10 @@ const cacheControl = (maxAge = '2d') => (req, res, next) => {
   if (process.env.NODE_ENV === 'development') return next();
 
   res.set({
-    'Cache-Control': 'public, max-age=172800, immutable',
+    'Cache-Control': 'public, max-age=172800, immutable, stale-while-revalidate=86400',
     'X-Content-Type-Options': 'nosniff',
-    'Vary': 'Origin',
-    // Add header to help debug Cloudflare caching
+    'Vary': 'Accept-Encoding, Origin',
+    'Accept-Ranges': 'bytes',
     'X-Cache-Status': 'Origin'
   });
   next();
@@ -113,8 +136,20 @@ app.use((req, res, next) => {
   next();
 });
 
+const cloudflareHeaders = (req, res, next) => {
+  // Help debug cache status
+  res.set({
+    'CF-Cache-Status': 'DYNAMIC',
+    'CDN-Cache-Control': 'public, max-age=172800, immutable',
+    'Cache-Tag': 'images,v1',
+    'Surrogate-Control': 'max-age=172800',
+    'Surrogate-Key': 'images'
+  });
+  next();
+};
+
 // Regular WebP images route
-app.use('/images', regularCors, cacheControl(), (req, res, next) => {
+app.use('/images', regularCors, cloudflareHeaders, cacheControl(), (req, res, next) => {
   const imageName = path.basename(req.url);
   const cachedPath = imageCache.get(imageName);
   
@@ -127,10 +162,12 @@ app.use('/images', regularCors, cacheControl(), (req, res, next) => {
   next();
 }, express.static(imagesPath, {
   maxAge: '2d',
-  immutable: true,
-  // Let Cloudflare handle compression
+  etag: true,
+  lastModified: true,
   setHeaders: (res, path) => {
-    res.setHeader('Cache-Control', 'public, max-age=172800, immutable');
+    res.setHeader('Cache-Control', 'public, max-age=172800, immutable, stale-while-revalidate=86400');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('CF-Cache-Status', 'DYNAMIC');
   }
 }));
 
@@ -164,10 +201,56 @@ app.use((req, res, next) => {
   res.status(404).send('Not Found');
 });
 
+app.use(compression({
+  filter: (req, res) => {
+    // Don't compress already compressed images
+    if (req.path.match(/\.(webp|jpg|jpeg|png)$/)) return false;
+    return compression.filter(req, res);
+  },
+  level: 6 // Balance between compression and CPU usage
+}));
+
+app.post('/purge-cache', async (req, res) => {
+  if (req.headers['x-purge-key'] !== process.env.PURGE_KEY) {
+    return res.status(403).json({ error: 'Invalid purge key' });
+  }
+
+  try {
+    const response = await fetch(`https://api.cloudflare.com/client/v4/zones/${process.env.CF_ZONE_ID}/purge_cache`, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.CF_API_TOKEN}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        files: [
+          'https://api.swarmada.wiki/images/*',
+          'https://api.swarmada.wiki/thumbnails/*'
+        ]
+      })
+    });
+
+    const data = await response.json();
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to purge cache' });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Image server listening at http://localhost:${port}`);
   console.log(`Serving WebP images from: ${imagesPath}`);
   console.log(`Serving JPEG images from: ${jpegImagesPath}`);
 });
+
+const used = process.memoryUsage();
+setInterval(() => {
+  console.log({
+    rss: `${Math.round(used.heapUsed / 1024 / 1024 * 100) / 100} MB`,
+    heapTotal: `${Math.round(used.heapTotal / 1024 / 1024 * 100) / 100} MB`,
+    heapUsed: `${Math.round(used.heapUsed / 1024 / 1024 * 100) / 100} MB`,
+    external: `${Math.round(used.external / 1024 / 1024 * 100) / 100} MB`,
+  });
+}, 30000);
 
 export default app;
