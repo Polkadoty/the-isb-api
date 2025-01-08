@@ -341,6 +341,96 @@
     "blurhash": "LBDcp}8wR3?wRjS5M{MxH=%gozRi",
     "baseToken": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic-base.webp"
   },
+  "dummy-ship-commander": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-commander.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-commander.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-commander-base.webp"
+  },
+  "dummy-ship-officer": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-officer.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-officer.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-officer-base.webp"
+  },
+  "dummy-ship-weapons-team": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-weapons-team.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-weapons-team.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-weapons-team-base.webp"
+  },
+  "dummy-ship-support-team": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-support-team.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-support-team.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-support-team-base.webp"
+  },
+  "dummy-ship-fleet-command": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-fleet-command.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-fleet-command.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-fleet-command-base.webp"
+  },
+  "dummy-ship-fleet-support": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-fleet-support.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-fleet-support.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-fleet-support-base.webp"
+  },
+  "dummy-ship-offensive-retro": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-offensive-retro.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-offensive-retro.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-offensive-retro-base.webp"
+  },
+  "dummy-ship-weapons-team-offensive-retro": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-weapons-team-offensive-retro.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-weapons-team-offensive-retro.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-weapons-team-offensive-retro-base.webp"
+  },
+  "dummy-ship-defensive-retro": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-defensive-retro.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-defensive-retro.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-defensive-retro-base.webp"
+  },
+  "dummy-ship-experimental-retro": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-experimental-retro.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-experimental-retro.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-experimental-retro-base.webp"
+  },
+  "dummy-ship-turbolaser": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-turbolaser.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-turbolaser.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-turbolaser-base.webp"
+  },
+  "dummy-ship-ion-cannon": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-ion-cannon.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-ion-cannon.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-ion-cannon-base.webp"
+  },
+  "dummy-ship-ordnance": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-ordnance.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-ordnance.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-ordnance-base.webp"
+  },
+  "dummy-ship-super-weapon": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-super-weapon.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-super-weapon.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-super-weapon-base.webp"
+  },
+  "dummy-ship-title": {
+    "fullsize": "https://api.swarmada.wiki/images/dummy-ship-title.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dummy-ship-title.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dummy-ship-title-base.webp"
+  },
   "gozanti-class-cruisers-separatist": {
     "fullsize": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/gozanti-class-cruisers-separatist.webp",
@@ -2516,7 +2606,7 @@
   "tranquility-title": {
     "fullsize": "https://api.swarmada.wiki/images/tranquility-title.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/tranquility-title.webp",
-    "blurhash": "LFIOtp.A00%N00OH_4W?00Rox]M|",
+    "blurhash": "LEIF6..A00%g00Oa_3W?00NLtSM|",
     "baseToken": "https://api.swarmada.wiki/images/tranquility-title-base.webp"
   },
   "triumphant-title": {

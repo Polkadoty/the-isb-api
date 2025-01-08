@@ -54,6 +54,17 @@ const KEYWORD_RESPONSES = {
   // }
 };
 
+// Add this helper function before the messageCreate event handler
+function isDummyCard(cardName) {
+  return cardName.toLowerCase().includes('dummy');
+}
+
+// In the messageCreate event handler, modify the !holo logic:
+function filterDummyCards(matches) {
+  if (!matches) return null;
+  return matches.filter(match => !match.includes('dummy'));
+}
+
 client.on('messageCreate', async message => {
   // Ignore bot messages
   if (message.author.bot) return;
@@ -234,19 +245,23 @@ client.on('messageCreate', async message => {
 
     // Find exact match first
     let matches = nicknameMap[cardQuery];
-    
-    // If no exact match, try case-insensitive search
+
+    // Filter out dummy cards from matches
+    matches = filterDummyCards(matches);
+
+    // If no exact match or all matches were dummy cards, try case-insensitive search
     if (!matches) {
       const lowercaseNickname = cardQuery.toLowerCase();
-      const possibleMatch = Object.keys(nicknameMap).find(
-        key => key.toLowerCase() === lowercaseNickname
-      );
-      matches = possibleMatch ? nicknameMap[possibleMatch] : null;
+      const possibleMatch = Object.keys(nicknameMap)
+        .filter(key => !isDummyCard(key))
+        .find(key => key.toLowerCase() === lowercaseNickname);
+      matches = possibleMatch ? filterDummyCards(nicknameMap[possibleMatch]) : null;
     }
 
     if (!matches) {
-      // Find similar nicknames for suggestions
+      // Find similar nicknames for suggestions, excluding dummy cards
       const suggestions = Object.keys(nicknameMap)
+        .filter(name => !isDummyCard(name))
         .filter(name => name.toLowerCase().includes(cardQuery.toLowerCase()))
         .slice(0, 5);
       
