@@ -11,7 +11,6 @@ const directories = {
   squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
   upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
   objectives: path.join(__dirname, 'public/converted-json/objectives'),
-  //
   'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
   'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
   'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),

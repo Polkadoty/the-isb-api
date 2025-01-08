@@ -46,8 +46,8 @@ function updateIdsAndCombine(directory, outputFileName) {
           function updateIds(obj) {
             if (obj && typeof obj === 'object') {
               for (let key in obj) {
-                if (key === '_id' && (obj[key] === null || !obj[key])) {
-                  obj[key] = uuidv4(); // Generate a unique ID
+                if (key === '_id') {
+                  obj[key] = uuidv4(); // Always generate a new ID
                 } else {
                   updateIds(obj[key]);
                 }
