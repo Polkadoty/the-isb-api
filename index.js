@@ -105,6 +105,7 @@ app.use('/image-links', imageLinksRoutes);
 app.use('/arc', arcRoutes);
 app.use('/errata-keys', errataKeysRoutes);
 app.use('/expansions', expansionRoutes);
+app.use('/releases', releaseRoutes);
 
 // Image server middleware
 app.use('/images', (req, res, next) => {
