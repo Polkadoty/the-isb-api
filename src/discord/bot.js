@@ -131,7 +131,7 @@ client.on('messageCreate', async message => {
   if (message.content.toLowerCase().match(/^!help$/)) {
     const embed = new EmbedBuilder()
       .setTitle('Holocron Bot Help')
-      .setDescription('Welcome to the Holocron Bot! Here are the available commands:')
+      .setDescription('Welcome to the Holocron Bot! Use !help to get a list of commands in any channel:')
       .addFields(
         { 
           name: '🎲 Dice Rolling',
