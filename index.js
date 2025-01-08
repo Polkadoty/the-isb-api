@@ -21,6 +21,7 @@ import imageLinksRoutes from './routes/imageLinksRoutes.js';
 import arcRoutes from './routes/arcRoutes.js';
 import errataKeysRoutes from './routes/errataKeysRoutes.js';
 import expansionRoutes from './routes/expansionRoutes.js';
+import releaseRoutes from './routes/releaseRoutes.js';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
