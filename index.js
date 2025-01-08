@@ -20,6 +20,7 @@ import aliasRoutes from './routes/aliasRoutes.js';
 import imageLinksRoutes from './routes/imageLinksRoutes.js';
 import arcRoutes from './routes/arcRoutes.js';
 import errataKeysRoutes from './routes/errataKeysRoutes.js';
+import expansionRoutes from './routes/expansionRoutes.js';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
@@ -103,6 +104,7 @@ app.use('/aliases', aliasRoutes);
 app.use('/image-links', imageLinksRoutes);
 app.use('/arc', arcRoutes);
 app.use('/errata-keys', errataKeysRoutes);
+app.use('/expansions', expansionRoutes);
 
 // Image server middleware
 app.use('/images', (req, res, next) => {
