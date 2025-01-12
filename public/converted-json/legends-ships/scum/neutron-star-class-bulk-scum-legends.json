@@ -1,0 +1,125 @@
+{
+  "ships": {
+      "neutron-star-class-bulk-scum-legends": {
+          "_id": null,
+          "type": "chassis",
+          "chassis_name": "neutron-star-class-bulk-scum-legends",
+          "size": "medium",
+          "hull": 7,
+          "speed": {
+              "1": [2],
+              "2": [1, 0],
+              "3": [1, 0, 2],
+              "4": []
+          },
+          "shields": {
+              "front": 3,
+              "rear": 1,
+              "left": 2,
+              "right": 2,
+              "left_aux": 0,
+              "right_aux": 0
+          },
+          "hull_zones": {
+              "frontoffset": 0,
+              "centeroffset": 0,
+              "rearoffset": 0,
+              "frontangle": 0,
+              "centerangle": 0,
+              "rearangle": 0
+          },
+          "silhouette": "",
+          "blueprint": "",
+          "models": {
+              "neutron-star-class-bulk-carrier-scum-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends Scum and Villainy Wave 1",
+                  "expansion": "Neutron Star Class Bulk Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "neutron-star-class-bulk-scum-legends",
+                  "name": "Neutron Star-class Bulk Carrier",
+                  "nicknames": [
+                    "Neutron Star-class Bulk Carrier", "Bulk Carrier", "Neutron Star", "Neutron Star Class", "Neutron Star Class Bulk Carrier"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["scum", "transport"],
+                  "points": 83,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 0,
+                      "def_brace": 2,
+                      "def_redirect": 2,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 3,
+                      "squadron": 3,
+                      "engineer": 4
+                  },
+                  "upgrades": ["commander", "officer", "fleet-command", "fleet-support", "weapons-team", "defensive-retro", "offensive-retro", "turbolaser","title"],
+                  "armament": {
+                      "asa": [0, 1, 0],
+                      "front": [2, 1, 0],
+                      "rear": [1, 1, 0],
+                      "left": [2, 1, 0],
+                      "right": [2, 1, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/neutron-star-class-bulk-carrier-scum-legends.webp"
+              },
+              "neutron-star-class-bulk-cruiser-scum-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends Scum and Villainy Wave 1",
+                  "expansion": "Neutron Star Class Bulk Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "neutron-star-class-bulk-scum-legends",
+                  "name": "Neutron Star-class Bulk Cruiser",
+                  "nicknames": [
+                    "Neutron Star-class Bulk Cruiser", "Bulk Cruiser", "Neutron Star", "Neutron Star Class", "Neutron Star Class Bulk Cruiser"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["scum", "bombard"],
+                  "points": 87,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 0,
+                      "def_brace": 2,
+                      "def_redirect": 2,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 3,
+                      "squadron": 2,
+                      "engineer": 4
+                  },
+                  "upgrades": ["commander", "officer", "weapons-team", "defensive-retro", "defensive-retro", "offensive-retro", "turbolaser","title"],
+                  "armament": {
+                      "asa": [0, 2, 0],
+                      "front": [2, 2, 0],
+                      "rear": [1, 2, 0],
+                      "left": [2, 2, 0],
+                      "right": [2, 2, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/neutron-star-class-bulk-cruiser-scum-legends.webp"
+              }
+          }
+      }
+  }
+}

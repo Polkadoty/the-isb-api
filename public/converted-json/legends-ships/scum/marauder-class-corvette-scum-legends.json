@@ -1,0 +1,125 @@
+{
+  "ships": {
+      "marauder-class-corvette-scum-legends": {
+          "_id": null,
+          "type": "chassis",
+          "chassis_name": "marauder-class-corvette-scum-legends",
+          "size": "small",
+          "hull": 5,
+          "speed": {
+              "1": [2],
+              "2": [1, 1],
+              "3": [1, 0, 1],
+              "4": []
+          },
+          "shields": {
+              "front": 3,
+              "rear": 1,
+              "left": 2,
+              "right": 2,
+              "left_aux": 0,
+              "right_aux": 0
+          },
+          "hull_zones": {
+              "frontoffset": 0,
+              "centeroffset": 0,
+              "rearoffset": 0,
+              "frontangle": 0,
+              "centerangle": 0,
+              "rearangle": 0
+          },
+          "silhouette": "",
+          "blueprint": "",
+          "models": {
+              "marauder-artillery-corvette-scum-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends Scum and Villainy Wave 1",
+                  "expansion": "Marauder Heavy Cruiser Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "marauder-class-corvette-scum-legends",
+                  "name": "Marauder Artillery Corvette",
+                  "nicknames": [
+                    "Marauder Artillery Corvette", "Artillery Corvette", "Marauder", "Marauder Corvette", "Artillery"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["scum", "bombard"],
+                  "points": 60,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 1,
+                      "def_brace": 1,
+                      "def_redirect": 1,
+                      "def_contain": 0,
+                      "def_salvo": 1
+                  },
+                  "values": {
+                      "command": 2,
+                      "squadron": 1,
+                      "engineer": 3
+                  },
+                  "upgrades": ["commander", "officer", "officer", "weapons-team", "offensive-retro", "turbolaser", "turbolaser", "title"],
+                  "armament": {
+                      "asa": [1, 0, 0],
+                      "front": [3, 0, 0],
+                      "rear": [1, 0, 0],
+                      "left": [2, 0, 0],
+                      "right": [2, 0, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/marauder-artillery-corvette-scum-legends.webp"
+              },
+              "marauder-picket-corvette-scum-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends Scum and Villainy Wave 1",
+                  "expansion": "Marauder Heavy Cruiser Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "marauder-class-corvette-scum-legends",
+                  "name": "Marauder Picket Corvette",
+                  "nicknames": [
+                    "Marauder Picket Corvette", "Picket Corvette", "Marauder", "Marauder Corvette", "Picket"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["scum", "pirate"],
+                  "points": 55,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 1,
+                      "def_brace": 1,
+                      "def_redirect": 1,
+                      "def_contain": 0,
+                      "def_salvo": 1
+                  },
+                  "values": {
+                      "command": 2,
+                      "squadron": 2,
+                      "engineer": 3
+                  },
+                  "upgrades": ["commander", "officer", "support-team", "weapons-team", "offensive-retro", "defensive-retro", "turbolaser", "title"],
+                  "armament": {
+                      "asa": [0, 1, 1],
+                      "front": [2, 1, 0],
+                      "rear": [0, 1, 0],
+                      "left": [1, 1, 0],
+                      "right": [1, 1, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/marauder-picket-corvette-scum-legends.webp"
+              }
+          }
+      }
+  }
+}
