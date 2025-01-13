@@ -1,6 +1,6 @@
 # The ISB API
 
-The ISB API (Imperial Security Bureau API) is a RESTful API for managing Star Wars Armada game data, including ships, squadrons, upgrade cards, and objectives. Built with Node.js and Express, this API serves static JSON files and optimized images through a dedicated image server.
+The ISB API (Imperial Security Bureau API) is a RESTful API for managing Star Wars Armada game data, including ships, squadrons, upgrade cards, and objectives. Built with Node.js, ExpressJS, and Golang, this API serves static JSON files and optimized images through a dedicated image server.
 
 ## Features
 
