@@ -1,0 +1,313 @@
+{
+    "damage-cards": {
+        "blinded-gunners": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "_id": null,
+            "type": "damage",
+            "name": "Blinded Gunners",
+            "nicknames": [
+              "Blinded Gunners"
+            ],
+            "ability": "While attacking, you cannot spend :accuracy: icons.",
+            "cardimage": "https://api.swarmada.wiki/images/blinded-gunners.webp"
+        },
+        "capacitor-failure": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Capacitor Failure",
+            "nicknames": [
+              "Capacitor Failure"
+            ],
+            "ability": "If a hull zone has no remaining shields, you cannot recover shields in it nor move shields to it. If that hull zone is defending, you cannot spend :redirect: tokens.",
+            "cardimage": "https://api.swarmada.wiki/images/capacitor-failure.webp"
+        },
+        "comm-noise": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Comm Noise",
+            "nicknames": [
+              "Comm Noise"
+            ],
+            "ability": "Your opponent may either reduce your speed by 1 or choose a new command on your top command dial. Then flip this card facedown.",
+            "cardimage": "https://api.swarmada.wiki/images/comm-noise.webp"
+        },
+        "compartment-fire": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Compartment Fire",
+            "nicknames": [
+              "Compartment Fire"
+            ],
+            "ability": "You cannot ready your defense tokens.",
+            "cardimage": "https://api.swarmada.wiki/images/compartment-fire.webp"
+        },
+        "coolant-discharge": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Coolant Discharge",
+            "nicknames": [
+              "Coolant Discharge"
+            ],
+            "ability": "Only one attack you perform each round can target a ship.",
+            "cardimage": "https://api.swarmada.wiki/images/coolant-discharge.webp"
+        },
+        "crew-panic": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Crew Panic",
+            "nicknames": [
+              "Crew Panic"
+            ],
+            "ability": "Before you reveal a command dial, you must either suffer 1 damage or discard that dial. If you discard it, do not reveal a dial this round.",
+            "cardimage": "https://api.swarmada.wiki/images/crew-panic.webp"
+        },
+        "damaged-controls": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Damaged Controls",
+            "nicknames": [
+              "Damaged Controls"
+            ],
+            "ability": "When you overlap a ship or obstacle, deal 1 facedown damage card to your ship (in addition to all other obstacle effects).",
+            "cardimage": "https://api.swarmada.wiki/images/damaged-controls.webp"
+        },
+        "damaged-munitions": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Damaged Munitions",
+            "nicknames": [
+              "Damaged Munitions"
+            ],
+            "ability": "While attacking a ship, before you roll your attack pool, remove 1 die of your choice.",
+            "cardimage": "https://api.swarmada.wiki/images/damaged-munitions.webp"
+        },
+        "depowered-armament": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Depowered Armament",
+            "nicknames": [
+              "Depowered Armament"
+            ],
+            "ability": "You cannot attack at long range.",
+            "cardimage": "https://api.swarmada.wiki/images/depowered-armament.webp"
+        },
+        "disengaged-fire-control": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Disengaged Fire Control",
+            "nicknames": [
+              "Disengaged Fire Control"
+            ],
+            "ability": "When declaring the target of an attack, you cannot choose a target against whom the attack would be obstructed.",
+            "cardimage": "https://api.swarmada.wiki/images/disengaged-fire-control.webp"
+        },
+        "faulty-countermeasures": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Faulty Countermeasures",
+            "nicknames": [
+              "Faulty Countermeasures"
+            ],
+            "ability": "You cannot spend exhausted defense tokens.",
+            "cardimage": "https://api.swarmada.wiki/images/faulty-countermeasures.webp"
+        },
+        "injured-crew": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Injured Crew",
+            "nicknames": [
+              "Injured Crew"
+            ],
+            "ability": "Choose and discard 1 of your defense tokens. Then flip this card facedown.",
+            "cardimage": "https://api.swarmada.wiki/images/injured-crew.webp"
+        },
+        "life-support-failure": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Life Support Failure",
+            "nicknames": [
+              "Life Support Failure"
+            ],
+            "ability": "Discard all of your command tokens.\n\nYou cannot have any command tokens.",
+            "cardimage": "https://api.swarmada.wiki/images/life-support-failure.webp"
+        },
+        "point-defense-failure": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Point Defense Failure",
+            "nicknames": [
+              "Point Defense Failure"
+            ],
+            "ability": "While attacking a squadron, before you roll your attack pool, remove 1 die of your choice.",
+            "cardimage": "https://api.swarmada.wiki/images/point-defense-failure.webp"
+        },
+        "power-failure": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Power Failure",
+            "nicknames": [
+              "Power Failure"
+            ],
+            "ability": "Your engineering value is reduced to half its value, rounded down.",
+            "cardimage": "https://api.swarmada.wiki/images/power-failure.webp"
+        },
+        "projector-misaligned": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Projector Misaligned",
+            "nicknames": [
+              "Projector Misaligned"
+            ],
+            "ability": "Your hull zone with the most remaining shields loses all of its shields. If multiple hull zones are tied for the most, choose between the tied hull zones. Then flip this card facedown.",
+            "cardimage": "https://api.swarmada.wiki/images/projector-misaligned.webp"
+        },
+        "ruptured-engine": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Ruptured Engine",
+            "nicknames": [
+              "Ruptured Engine"
+            ],
+            "ability": "After you execute a maneuver, if the speed on your speed dial is greater than 1, suffer 1 damage.",
+            "cardimage": "https://api.swarmada.wiki/images/ruptured-engine.webp"
+        },
+        "shield-failure": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Shield Failure",
+            "nicknames": [
+              "Shield Failure"
+            ],
+            "ability": "Your opponent may choose up to 2 of your hull zones. Each of the chosen hull zones loses 1 shield. Then flip this card facedown.",
+            "cardimage": "https://api.swarmada.wiki/images/shield-failure.webp"
+        },
+        "structural-damage": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Structural Damage",
+            "nicknames": [
+              "Structural Damage"
+            ],
+            "ability": "Deal 1 facedown damage card to your ship. Then flip this card facedown.",
+            "cardimage": "https://api.swarmada.wiki/images/structural-damage.webp"
+        },
+        "targeter-disruption": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Targeter Disruption",
+            "nicknames": [
+              "Targeter Disruption"
+            ],
+            "ability": "While attacking, you cannot resolve critical effects.",
+            "cardimage": "https://api.swarmada.wiki/images/targeter-disruption.webp"
+        },
+        "thrust-control-malfunction": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Thrust Control Malfunction",
+            "nicknames": [
+              "Thrust Control Malfunction"
+            ],
+            "ability": "The yaw value for the last adjustable join at your current speed is reduced by 1.",
+            "cardimage": "https://api.swarmada.wiki/images/thrust-control-malfunction.webp"
+        },
+        "thruster-fissure": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 0 Armada",
+            "expansion": "Armada Core Set (SWM01)",
+            "type": "damage",
+            "name": "Thruster Fissure",
+            "nicknames": [
+              "Thruster Fissure"
+            ],
+            "ability": "When you change your speed by 1 or more, suffer 1 damage.",
+            "cardimage": "https://api.swarmada.wiki/images/thruster-fissure.webp"
+        }
+    }
+}

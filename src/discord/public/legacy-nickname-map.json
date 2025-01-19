@@ -1942,6 +1942,12 @@
   "DFS": [
     "dfs-311-vulture-droid-squadron"
   ],
+  "Armed Station": [
+    "armed-station"
+  ],
+  "Unarmed Station": [
+    "unarmed-station"
+  ],
   "Admiral Ackbar": [
     "admiral-ackbar-commander"
   ],
@@ -2430,7 +2436,8 @@
     "parts-resupply"
   ],
   "PR": [
-    "parts-resupply"
+    "parts-resupply",
+    "prototype-recovery"
   ],
   "Parts": [
     "parts-resupply"
@@ -3134,7 +3141,8 @@
     "veteran-captain-officer"
   ],
   "VC": [
-    "veteran-captain-officer"
+    "veteran-captain-officer",
+    "volatile-cargo"
   ],
   "Walex Blissex": [
     "walex-blissex-officer"
@@ -3929,6 +3937,44 @@
   "Beacons": [
     "targeting-beacons"
   ],
+  "Hyperlane Raid": [
+    "hyperlane-raid"
+  ],
+  "Hyperlane": [
+    "hyperlane-raid"
+  ],
+  "Show of Force": [
+    "show-of-force"
+  ],
+  "Base Defense - Armed Station": [
+    "base-defense-armed-station-cc",
+    "base-defense-armed-station-ritr"
+  ],
+  "Base Defense": [
+    "base-defense-armed-station-cc",
+    "base-defense-fighter-wing-cc",
+    "base-defense-ion-cannon-cc",
+    "base-defense-armed-station-ritr",
+    "base-defense-fighter-wing-ritr",
+    "base-defense-ion-cannon-ritr"
+  ],
+  "Base Defense - Fighter Wing": [
+    "base-defense-fighter-wing-cc",
+    "base-defense-fighter-wing-ritr"
+  ],
+  "Base Defense - Ion Cannon": [
+    "base-defense-ion-cannon-cc",
+    "base-defense-ion-cannon-ritr"
+  ],
+  "Asteroids": [
+    "asteroids"
+  ],
+  "Independent Station": [
+    "independent-station"
+  ],
+  "Nebula Outskirts": [
+    "nebula-outskirts"
+  ],
   "Capture the VIP": [
     "capture-the-vip"
   ],
@@ -4035,6 +4081,72 @@
   "SP": [
     "superior-positions"
   ],
+  "Blinded Gunners": [
+    "blinded-gunners"
+  ],
+  "Capacitor Failure": [
+    "capacitor-failure"
+  ],
+  "Comm Noise": [
+    "comm-noise"
+  ],
+  "Compartment Fire": [
+    "compartment-fire"
+  ],
+  "Coolant Discharge": [
+    "coolant-discharge"
+  ],
+  "Crew Panic": [
+    "crew-panic"
+  ],
+  "Damaged Controls": [
+    "damaged-controls"
+  ],
+  "Damaged Munitions": [
+    "damaged-munitions"
+  ],
+  "Depowered Armament": [
+    "depowered-armament"
+  ],
+  "Disengaged Fire Control": [
+    "disengaged-fire-control"
+  ],
+  "Faulty Countermeasures": [
+    "faulty-countermeasures"
+  ],
+  "Injured Crew": [
+    "injured-crew"
+  ],
+  "Life Support Failure": [
+    "life-support-failure"
+  ],
+  "Point Defense Failure": [
+    "point-defense-failure"
+  ],
+  "Power Failure": [
+    "power-failure"
+  ],
+  "Projector Misaligned": [
+    "projector-misaligned"
+  ],
+  "Ruptured Engine": [
+    "ruptured-engine"
+  ],
+  "Shield Failure": [
+    "shield-failure"
+  ],
+  "Structural Damage": [
+    "structural-damage"
+  ],
+  "Targeter Disruption": [
+    "targeter-disruption"
+  ],
+  "Thrust Control Malfunction": [
+    "thrust-control-malfunction"
+  ],
+  "Thruster Fissure": [
+    "thruster-fissure"
+  ],
   "Ion Storm": [
     "ion-storm"
   ],
@@ -4049,6 +4161,7 @@
   ],
   "RA": [
     "rift-assault",
+    "recruit-allies",
     "rift-ambush"
   ],
   "Rift": [
@@ -4061,6 +4174,45 @@
   ],
   "SA": [
     "surprise-attack"
+  ],
+  "Double Agent": [
+    "double-agent"
+  ],
+  "DA": [
+    "double-agent"
+  ],
+  "Hired Scum": [
+    "hired-scum"
+  ],
+  "HS": [
+    "hired-scum"
+  ],
+  "Holonet Override": [
+    "holonet-override"
+  ],
+  "HO": [
+    "holonet-override"
+  ],
+  "Pilot Defection": [
+    "pilot-defection"
+  ],
+  "PD": [
+    "pilot-defection"
+  ],
+  "Prototype Recovery": [
+    "prototype-recovery"
+  ],
+  "Recruit Allies": [
+    "recruit-allies"
+  ],
+  "Steal Supplies": [
+    "steal-supplies"
+  ],
+  "SS": [
+    "steal-supplies"
+  ],
+  "Volatile Cargo": [
+    "volatile-cargo"
   ],
   "Abandoned Mining Facility": [
     "abandoned-mining-facility"

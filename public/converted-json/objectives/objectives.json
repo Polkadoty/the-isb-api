@@ -6,7 +6,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "1e1070f7-0bb4-499c-8004-4080c4e5771a",
+      "_id": "cdd9bd4f-12a5-48c8-a96d-7bafb49a65a2",
       "type": "assault",
       "name": "Blockade Run",
       "nicknames": [
@@ -44,7 +44,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "2efad4ae-7281-475a-9bae-4fc5eb6659ca",
+      "_id": "8f8a0343-643d-46eb-9f03-a3bb9c47b2ce",
       "type": "assault",
       "name": "Close-Range Intel Scan",
       "nicknames": [
@@ -82,7 +82,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "f22af324-ed6b-4aa4-8def-6cba615e39fe",
+      "_id": "3c0421b4-64bc-4479-93ee-f7c044b6b7fb",
       "type": "assault",
       "name": "Station Assault",
       "nicknames": [
@@ -120,7 +120,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "690233a2-48f5-411f-8ba8-b85fe7c87975",
+      "_id": "42764acc-47b4-4cfc-a858-f0426728a112",
       "type": "assault",
       "name": "Targeting Beacons",
       "nicknames": [
@@ -152,13 +152,315 @@
       "artwork": "[link to image]",
       "cardimage": "https://api.swarmada.wiki/images/targeting-beacons.webp"
     },
+    "hyperlane-raid": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "cba2d3cc-a234-4605-8971-778d5ab471fb",
+      "type": "campaign",
+      "name": "Hyperlane Raid",
+      "nicknames": [
+        "Hyperlane",
+        "Hyperlane Raid"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "The 3' edges of the play area become the player edges. The second player places all obstacles. Obstacles must be placed beyond 2 range ruler lengths of both player edges, and beyond distance 1 of other obstacles.",
+      "special_rule": "The second player assigns a total of 4 objective tokens to his ships or squadrons. He must assign them to ships, if able, and no ship or squadron can have more than 1. The first player gains 1 victory token for each objective token that cannot be assigned.\nWhen a ship or squadron with an objective token is destroyed, the first player gains 1 victory token.",
+      "end_of_round": "",
+      "end_of_game": "The second player gains 1 victory token for each ship (not squadron) with an objective token within 2 range ruler lengths of the first player's edge. The first player's team gains 20 resource points per victory token he gained. The winner's team also gains 40 resource points. If scores are equal, the first player wins.",
+      "victory_tokens": true,
+      "victory_tokens_points": 15,
+      "objective_tokens": true,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 4,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/hyperlane-raid.webp"
+    },
+    "show-of-force": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "84baf03a-531e-4d88-b31b-e5efec580701",
+      "type": "campaign",
+      "name": "Show of Force",
+      "nicknames": [
+        "Show of Force"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station",
+        "station"
+      ],
+      "setup": "Place obstacles as normal, excluding the station. Then the second player places 2 stations in the setup area. Each station must be placed beyond distance 1 of all obstacles and beyond distance 3 of both players' edges. Both stations are Unarmed Stations; place both Unarmed Station cards near the second player's ship cards.",
+      "special_rule": "The first player's ships and squadrons cannot resolve an unarmed station's effect to discard damage cards or recover hull points when they overlap it.",
+      "end_of_round": "",
+      "end_of_game": "The second player gains 1 victory token for each unarmed station that is not destroyed. The first player gains 1 victory token and his team gains 40 resource pointsfor each station that is destroyed. Th winner's team also gains 40 resource points if he wins the game.",
+      "victory_tokens": true,
+      "victory_tokens_points": 20,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/show-of-force.webp"
+    },
+    "base-defense-armed-station-cc": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "66921a70-76d1-4684-9c9a-93e76433de2e",
+      "type": "campaign",
+      "name": "Base Defense - Armed Station",
+      "nicknames": [
+        "Base Defense",
+        "Base Defense - Armed Station"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Place obstacles as normal, excluding the station. Then the second player places the station in the setup area beyond distance 1 of all obstacles and beyond distance 5 of the first player's edge. The station is an armed station; place the Armed Station card near the second player's ship cards.",
+      "special_rule": "The first player's ships and squadrons cannot resolve the armed station's effect to discard damage cards or recover hull points when they overlap it.\nOnce per round, instead of activating a ship, the second player can perform 1 attack with the armed station.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/base-defense-armed-station-cc.webp"
+    },
+    "base-defense-fighter-wing-cc": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "7eaf5802-749c-4975-8faf-2d8d2ce19f15",
+      "type": "campaign",
+      "name": "Base Defense - Fighter Wing",
+      "nicknames": [
+        "Base Defense",
+        "Base Defense - Fighter Wing"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Before deploying fleets, the second player may choose up to 40 fleet points of additional non-unique squadrons and add them to his fleet (even if this exceeds the number of fleet points he could normally spend on squadrons). Assign squadron ID tokens of a different color to these squadrons.",
+      "special_rule": "",
+      "end_of_round": "",
+      "end_of_game": "The fleet point cost of the additional squadrons is added to the first player's score as normal if they are destroyed. After the winner is determined, the second player removes the additional squadrons from his fleet.",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/base-defense-fighter-wing-cc.webp"
+    },
+    "base-defense-ion-cannon-cc": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "5ad4424c-f721-4f94-970f-54b8e6cb2adf",
+      "type": "campaign",
+      "name": "Base Defense - Ion Cannon",
+      "nicknames": [
+        "Base Defense",
+        "Base Defense - Ion Cannon"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "The second player must deploy all of his ships and squadrons before the first player. After deploying fleets, the second player places 3 objective tokens anywhere in the play area.",
+      "special_rule": "At the end of the Command Phase, the second player may select 1 enemy ship at distance 1-3 of an objective token and perform an attack against that ship. The attacker is treated as if it is a ship with a battery armament of 4 blue dice, but is not friendly to any ship or squadron. The attack is treated as being at medium range, cannot be obstructed, can target any of the defender's hull zones, and has the following critical effect:\n**Blue :crit:**: The defender must choose and exhaust 1 of his defense tokens.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": true,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 3,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/base-defense-ion-cannon-cc.webp"
+    },
+    "asteroids": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "24fb4be5-1eda-4e46-bc67-4b12aadbb86b",
+      "type": "campaign",
+      "name": "Asteroids",
+      "nicknames": [
+        "Asteroids"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2"
+      ],
+      "setup": "Place obstacles as normal, replacing the station with 3 additional asteroid fields. There cannot be more than 2 copies of each asteroid field.",
+      "special_rule": "When one of the second player's ships overlaps an asteroid field, that obstacle has no effect.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/asteroids.webp"
+    },
+    "independent-station": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "688c525b-b15c-4dea-86aa-158637b32db6",
+      "type": "campaign",
+      "name": "Independent Station",
+      "nicknames": [
+        "Independent Station"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "dust-field_1",
+        "dust-field_2",
+        "station"
+      ],
+      "setup": "Place obstacles as normal, excluding the station and replacing the 2 debris fields with 2 dust fields. Then, the second player places the station in the setup area beyond distance 1 of all obstacles beyond distance 5 of both players' edges. The station is an armed station; place the Armed Station card near the second player's ship cards.",
+      "special_rule": "The armed station does not have the ability to discard damage cards or recover hull points for ships and squadrons that overlap it.\nAfter the Command Phase of each round, the armed station performs 1 attack against the first player's closest ship. If there are no ships at attack range, the station performs attacks against all of the first player's squadrons that are at attack range.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/independent-station.webp"
+    },
+    "nebula-outskirts": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Corellian Conflict Campaign Armada",
+      "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
+      "_id": "2e13bd79-0a38-4564-8e78-fab2c2a8f61c",
+      "type": "campaign",
+      "name": "Nebula Outskirts",
+      "nicknames": [
+        "Nebula Outskirts"
+      ],
+      "obstacles": [
+        "dust-field_1",
+        "dust-field_2",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Place obstacles as normal, replacing the 3 asteroid fields with 2 dust fields.",
+      "special_rule": "The total number of command dials that must be assigned to each of the first player's ships during each Command Phase is increased by 1.\nThe total number of command dials that must be assigned to each of the second player's ships during each Command Phase is decreased by 1 to a minimum of 1.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nebula-outskirts.webp"
+    },
     "capture-the-vip": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "9b115729-052e-4186-9f8b-973b4c02b49d",
+      "_id": "9a31cc48-3578-40c7-be42-0d2364cf6b46",
       "type": "defense",
       "name": "Capture the VIP",
       "nicknames": [
@@ -196,7 +498,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "1f4c32da-6692-4d0d-834c-56d0ccea5adc",
+      "_id": "25a5821c-f6ea-4b47-998d-9c8f0ada676d",
       "type": "defense",
       "name": "Fighter Ambush",
       "nicknames": [
@@ -233,7 +535,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "7415e618-d202-4fe9-99fe-420bdea1debe",
+      "_id": "2a50c112-e985-4ac1-8a0b-b6e745939204",
       "type": "defense",
       "name": "Jamming Barrier",
       "nicknames": [
@@ -271,7 +573,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "88ffb323-e2d9-4c22-bc62-feb9308f0081",
+      "_id": "7d69b9c0-323a-4e6a-869e-cc39ce661f53",
       "type": "defense",
       "name": "Planetary Ion Cannon",
       "nicknames": [
@@ -309,7 +611,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "b1ad0c0d-ed8b-43aa-84c2-af8590ecc29f",
+      "_id": "987c215d-db04-4071-9eea-3aa669f6534e",
       "type": "navigation",
       "name": "Navigational Hazards",
       "nicknames": [
@@ -347,7 +649,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "1a9a9449-0353-4947-b49d-71d7cf680cdb",
+      "_id": "ded62166-5146-4e6f-9aa3-5b4ac39ea7df",
       "type": "navigation",
       "name": "Salvage Run",
       "nicknames": [
@@ -385,7 +687,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "0b8e0062-a4ca-4140-ac2a-e3dd17cc9207",
+      "_id": "0a355ad6-22f9-4420-bcf9-4741835fc0ae",
       "type": "navigation",
       "name": "Sensor Net",
       "nicknames": [
@@ -422,7 +724,7 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "5f4e0c52-e40a-465d-b56e-8339ffc58547",
+      "_id": "af792b08-194f-4928-8b72-7f02a116a1fa",
       "type": "navigation",
       "name": "Solar Corona",
       "nicknames": [
@@ -460,7 +762,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "69b95d7f-51a1-4678-8e26-2698e51ae06e",
+      "_id": "12411563-845e-4199-9a5e-19c3f275a6f0",
       "type": "assault",
       "name": "Advanced Gunnery",
       "nicknames": [
@@ -498,7 +800,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "285b4298-8b35-45dc-90a9-f1972c989123",
+      "_id": "c31ee1b9-427e-4bd3-b26a-11871e183a03",
       "type": "assault",
       "name": "Most Wanted",
       "nicknames": [
@@ -536,7 +838,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "7dcefbb3-3130-4f49-9032-0174f65eddfa",
+      "_id": "db5c87ce-1278-491c-90c8-58edeb052bb1",
       "type": "assault",
       "name": "Opening Salvo",
       "nicknames": [
@@ -575,7 +877,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e5085f91-c20e-4729-9f41-b9aa8d4059a9",
+      "_id": "9d642381-f27f-45db-996b-2936a774498d",
       "type": "assault",
       "name": "Precision Strike",
       "nicknames": [
@@ -613,7 +915,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "9a8dc3c2-586b-4488-8e31-ba153d1b6101",
+      "_id": "68d7be9c-3f19-4ab3-be96-27bfb9830aae",
       "type": "defense",
       "name": "Contested Outpost",
       "nicknames": [
@@ -651,7 +953,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "86b02153-c37e-4e36-9a19-53e8e19be02a",
+      "_id": "281590a9-2ea0-40cb-9ffe-5e5a1841fa57",
       "type": "defense",
       "name": "Fire Lanes",
       "nicknames": [
@@ -689,7 +991,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "dfd7ceef-f54d-4076-8928-10e58d914116",
+      "_id": "939feae8-5245-4dba-bed5-8837e433fb3f",
       "type": "defense",
       "name": "Fleet Ambush",
       "nicknames": [
@@ -726,7 +1028,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "9c3a6795-fbc3-42b4-b0bb-78f059ec66b9",
+      "_id": "798b80eb-9f59-4239-bb88-7072624cbc15",
       "type": "defense",
       "name": "Hyperspace Assault",
       "nicknames": [
@@ -764,7 +1066,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "d56b0460-3c74-47b3-acfa-3476c469747f",
+      "_id": "36fa6e97-397d-4055-b0a4-1e712a7ddf31",
       "type": "navigation",
       "name": "Dangerous Territory",
       "nicknames": [
@@ -801,7 +1103,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "cea2a5ad-a558-48cb-8d11-256c711a12ca",
+      "_id": "6f1d41c9-c059-4fff-a423-479cd0c1b490",
       "type": "navigation",
       "name": "Intel Sweep",
       "nicknames": [
@@ -839,7 +1141,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "9b43ae25-01d9-4ef4-8d49-17b56321b4d1",
+      "_id": "a910a199-d5da-4aab-b2a0-a8ce272588cc",
       "type": "navigation",
       "name": "Minefields",
       "nicknames": [
@@ -877,7 +1179,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "abfa668b-c056-4649-860f-04759ce41bc4",
+      "_id": "e952d52f-cc98-4fa2-bed9-8941c092bc96",
       "type": "navigation",
       "name": "Superior Positions",
       "nicknames": [
@@ -915,7 +1217,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "25f3dd9c-3fe5-47b0-b3fc-0b0baa17c4a7",
+      "_id": "aff9509f-0d7b-468b-ab5d-7c728ab80b7a",
       "type": "assault",
       "name": "Ion Storm",
       "nicknames": [
@@ -952,7 +1254,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "3caea145-5faa-43f4-b910-f9ded4049251",
+      "_id": "d2ae1f65-269f-4cf4-8890-551b43a4347a",
       "type": "assault",
       "name": "Marked for Destruction",
       "nicknames": [
@@ -990,7 +1292,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "f62161f9-bc09-4831-8143-09ca8cc71828",
+      "_id": "527db26d-a689-4d2f-baad-eee5f8381f9c",
       "type": "assault",
       "name": "Rift Assault",
       "nicknames": [
@@ -1029,7 +1331,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "9f82fd86-7531-4a02-9219-67e3b0d2e918",
+      "_id": "5a88c46c-facd-4499-b730-faef88df7e82",
       "type": "assault",
       "name": "Surprise Attack",
       "nicknames": [
@@ -1061,13 +1363,426 @@
       "artwork": "[link to image]",
       "cardimage": "https://api.swarmada.wiki/images/surprise-attack.webp"
     },
+    "base-defense-armed-station-ritr": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "06264690-7876-44cd-9f6c-5531ee72d06e",
+      "type": "campaign",
+      "name": "Base Defense - Armed Station",
+      "nicknames": [
+        "Base Defense",
+        "Base Defense - Armed Station"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Place obstacles as normal, excluding the station. Then the defending team places the station in the setup area beyond distance 1 of all obstacles and beyond distance 5 of the assaulting team's edge. The station is an armed station; place the Armed Station card near the defending team's ship cards.",
+      "special_rule": "The assaulting team's ships and squadrons cannot resolve the armed station's effect to discard damage cards or recover hull points when they overlap it.\nOnce per round, when it is the defending team's turn to activate, instead of activating a ship, the defending team can perform 1 attack with the armed station.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": true,
+      "victory_tokens_points": 15,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/base-defense-armed-station-ritr.webp"
+    },
+    "base-defense-fighter-wing-ritr": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "b3f116bd-b7de-40ce-ae95-7946b7207f47",
+      "type": "campaign",
+      "name": "Base Defense - Fighter Wing",
+      "nicknames": [
+        "Base Defense",
+        "Base Defense - Fighter Wing"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Before deploying fleets, the defending team may choose up to 40 fleet points of additional non-unique squadrons and add them to the fleet of one of that team's players for the remainder of the game.",
+      "special_rule": "",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": true,
+      "victory_tokens_points": 15,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/base-defense-fighter-wing-ritr.webp"
+    },
+    "base-defense-ion-cannon-ritr": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "9ade69c7-8312-4038-ad53-bb598446c632",
+      "type": "campaign",
+      "name": "Base Defense - Ion Cannon",
+      "nicknames": [
+        "Base Defense",
+        "Base Defense - Ion Cannon"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "After placing obstacles, the defending team places 3 objective tokens anywhere in the play area. The defending team must deploy all of their ships and squadrons before the assaulting team.",
+      "special_rule": "At the end of the Command Phase, the defending team may discard 1 command token from one of their ships, then select 1 enemy ship at distance 1-3 of an objective token and perform an attack against that ship. The attacker is treated as if it is a ship with a battery armament of 4 blue dice, but is not friendly to any ship or squadron. The attack is treated as being at medium range, cannot be obstructed, can target any of the defender's hull zones, and has the following critical effect:\n**Blue :crit:**: The defender must choose and exhaust 1 of their defense tokens.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": true,
+      "victory_tokens_points": 15,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/base-defense-ion-cannon-ritr.webp"
+    },
+    "double-agent": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "ba09c141-69f5-430d-a5f2-f6b6c3a8d95a",
+      "type": "campaign",
+      "name": "Double Agent",
+      "nicknames": [
+        "Double Agent",
+        "DA"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2"
+      ],
+      "setup": "Place obstacles as normal, excluding the station. After deploying fleets, the second player chooses one of their ships to be the objective ship.",
+      "special_rule": "When the objective ship reveals a command dial, it may gain 1 matching command token without spending the command dial. When the objective ship is destroyed, the opposing fleet's owner gains 1 victory token. Then the opposin gplayer placed the objective token in the play area at distance 1 of the destroyed ship.\nAt the start of any round after the second round, if no player has a victory token, the first player may remove the objective token from the objective ship and place the objective token in the play area at distance 1 of that ship. When a ship overlaps the objective token, remove the token from the play area. Then that ship becomes the objective ship and that ships's owner gains 1 victory token.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": true,
+      "victory_tokens_points": 20,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/double-agent.webp"
+    },
+    "hired-scum": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "6b0737e5-9aaa-45bb-a6d4-6115c175809b",
+      "type": "campaign",
+      "name": "Hired Scum",
+      "nicknames": [
+        "Hired Scum",
+        "HS"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2"
+      ],
+      "setup": "The second player places all obstacles, excluding the station. Then the second player chooses 3 obstacles and places 1 objective token on each. Before deploying fleets, the second player chooses up to 40 points of non-unique, irregular squadron and adds them to their fleet for this game. These squadrons are SCUM and are set aside.",
+      "special_rule": "At the start of any round after the first round, the second player can deploy up to 2 of the SCUM squadrons at distance 1 of an obstacle with an objective token. Then remove that objective token and 1 other objective token, if able.\n While a scum squadron is defending, the attacker may reroll 1 die for each friendly ship or squadron at distance 1 of the defender.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": true,
+      "victory_tokens_points": 20,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hired-scum.webp"
+    },
+    "holonet-override": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "8d7236ce-4717-4b32-8857-cc1fb76564f2",
+      "type": "campaign",
+      "name": "Holonet Override",
+      "nicknames": [
+        "Holonet Override",
+        "HO"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "The second player places all obstacles. The station must be placed beyond distance 1 of all obstacles and beyond distance 5 of both players' edges.",
+      "special_rule": "The station does not have the ability to discard damage cards or revoer hull points. Each ship can resolve the following effect:\n**:engineering:**: If you are at distance 1-2 of the station, you may spend engineering points to place (or remove) objective tokens on this card. For each 2 points you spend, you may place (or remove) 1 objective token.\nWhen one of the second player's ships resolved this effect, that ship's owner gains 1 victory token for each objective token it removes.",
+      "end_of_round": "",
+      "end_of_game": "The first player gains 1 victory token for each objective token on this card.",
+      "victory_tokens": true,
+      "victory_tokens_points": 20,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/holonet-override.webp"
+    },
+    "pilot-defection": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "6f380a0f-4cd0-4658-93b5-c9c240abdab2",
+      "type": "campaign",
+      "name": "Pilot Defection",
+      "nicknames": [
+        "Pilot Defection",
+        "PD"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Before deploying fleets, the first player must choose 3 additional non-unique squadrons of the opposing faction with a total value of up to 40 fleet points and add them to teh second player's fleet for this battle.",
+      "special_rule": "Once per game, at the start of any Squadron Phase, the first player may assign 1 objective token to 1 of the 3 chosen squadrons. This squadron is the **DEFECTOR** and is added to the first player's fleet for the remainder of the game. When the defector is destroyted, the second player gains 1 victory token.",
+      "end_of_round": "",
+      "end_of_game": "If the defector is at distance 1 of one of the first player's ships and beyond distance 1 of enemy ships or squadrons, the first player gains 1 victory token.",
+      "victory_tokens": true,
+      "victory_tokens_points": 25,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/pilot-defection.webp"
+    },
+    "prototype-recovery": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "4e590711-2e9d-4c0e-b6ac-2d036af5bd67",
+      "type": "campaign",
+      "name": "Prototype Recovery",
+      "nicknames": [
+        "Prototype Recovery",
+        "PR"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Before deploying fleets, the second player must choose 1 additional non-unique squadron with a total value of 8-20 fleet points. This is the **PROTOTYPE**, and it is set aside. After placing obstacles, the first player places an objective token in the center of the play area.",
+      "special_rule": "When a ship at distance 1 of the objective token resolves a :squadron: command, instead of activating squadrons, that ship's owner may roll 1 blue die. If a :crit: icon is rolled, the prototype is added to that player's fleet for the remainder of the game. If that ship belongs to the second player, the prototype is added if a :hit: is rolled instead. Then the controlling player deploys the prototype at distance 1 of the objective token and discards the token. While the prototype is attacking, each :crit: icon adds 1 to the damage total.",
+      "end_of_round": "",
+      "end_of_game": "If the prototype is in the play area, the controlling player gains 1 victory token.",
+      "victory_tokens": true,
+      "victory_tokens_points": 30,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/prototype-recovery.webp"
+    },
+    "recruit-allies": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "6c4d05de-43b8-4405-b7b2-a322e7377716",
+      "type": "campaign",
+      "name": "Recruit Allies",
+      "nicknames": [
+        "Recruit Allies",
+        "RA"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2"
+      ],
+      "setup": "Place obstacles as normal, excluding the station. Before deploying fleets, the first player must choose 30-50 fleet points of non-unique, irregular squadrons or ships with no upgrades equipped. These forces are **ALLIES** and are set aside. Then the second player places 1 objective token in the play area beyond distance 5 of both players' edges.",
+      "special_rule": "At the end of the third round, each player sums the command value of their ships at distance 1 of the objective token. The player with the highest total adds the allies to their fleet for the remainder of the game. Then that player deploys the allies at distance 1 of the objective token. If the command value totals are equal, the second player adds the allies to their fleet.",
+      "end_of_round": "",
+      "end_of_game": "The player controlling the allies adds the fleet value of allies remaining in the play area to their score.",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/recruit-allies.webp"
+    },
+    "steal-supplies": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "713edfc5-bc5c-48f6-a6d1-8fc5e4fd3ce5",
+      "type": "campaign",
+      "name": "Steal Supplies",
+      "nicknames": [
+        "Steal Supplies",
+        "SS"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2"
+      ],
+      "setup": "Place obstacles as normal, excluding the station. Then the second player places the station beyond distance 5 of both players' edges and beyond distance 1 of other obstacles. Then the second player places 6 objective tokens on this card.",
+      "special_rule": "When one of the first player's ships at distance 1 of the station reveals its command dial, it may remove 1 objective token from this card and place it on the ship;s card or a friendly irregular squadron at distance 1 of that ship. A ship cannot have more objective tokens than its command value. A squadron can only hae 1 objective token on it. When a ship or squadron with at least 1 objective token is destroyed, the second player gains 1 victory token.",
+      "end_of_round": "",
+      "end_of_game": "The first player gains 1 victory token for each objective token on their ships or squadrons that are beyond distance 2 of enemy ships. The second player gains 1 victory token for each objective token on this card.",
+      "victory_tokens": true,
+      "victory_tokens_points": 15,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/steal-supplies.webp"
+    },
+    "volatile-cargo": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": "8b2fad04-ce0b-417f-a4d2-2e8b8b1e3036",
+      "type": "campaign",
+      "name": "Volatile Cargo",
+      "nicknames": [
+        "Volatile Cargo",
+        "VC"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2"
+      ],
+      "setup": "Place obstacles as normal, excluding the station.",
+      "special_rule": "The second player chooses 3 of their ships or squadrons (at least 1 must be a ship) to be objective ships or squadrons and assigns an objective token to each. The first player gains 1 victory token for each objective token that cannot be assigned.\nWhile an objective ship or squadron is defending, before it suffers damage, it may reduce the total damage by 1. If the defender is destroyed during that attack, each other ship and squadron at distance 1-2 of the defender suffers damage equal to half of the total number of :hit: icons in the attack pool, rounded up. Then the first player gains 1 victory token.",
+      "end_of_round": "",
+      "end_of_game": "The second player gains 2 victory tokens for each objective ship or squadron at distance 1-3 of the first player's edge.",
+      "victory_tokens": true,
+      "victory_tokens_points": 15,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/volatile-cargo.webp"
+    },
     "abandoned-mining-facility": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "3c9de0e8-2a12-403e-a96e-62cdea19e06e",
+      "_id": "633ab0fe-d574-400d-a756-04eeccaf635c",
       "type": "defense",
       "name": "Abandoned Mining Facility",
       "nicknames": [
@@ -1105,7 +1820,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "e5ef925a-dc40-425c-9891-f7d3f04a3140",
+      "_id": "26669b9f-5f7e-4ce8-8862-fc7209f4211a",
       "type": "defense",
       "name": "Asteroid Tactics",
       "nicknames": [
@@ -1142,7 +1857,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "def968ac-8f50-48d8-8476-5a11f7826aa4",
+      "_id": "435844b1-2f65-4275-a13b-9fca29d80c04",
       "type": "defense",
       "name": "Fleet in Being",
       "nicknames": [
@@ -1180,7 +1895,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "3e0f3142-ccc5-4dae-9722-cba48ce7b43f",
+      "_id": "6cbfb3be-1687-479b-bbb2-15d941295885",
       "type": "defense",
       "name": "Rift Ambush",
       "nicknames": [
@@ -1219,7 +1934,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "54afabb3-2469-4b3d-a2fc-f5616adcc039",
+      "_id": "f78afa8c-d0f1-4dd0-ab57-e111c6e04137",
       "type": "navigation",
       "name": "Doomed Station",
       "nicknames": [
@@ -1258,7 +1973,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "b9af24e2-a89b-415e-bd33-d560ec8f1c60",
+      "_id": "55db7bc1-d8d5-45f3-8be6-5d823bf5984d",
       "type": "navigation",
       "name": "Hyperspace Migration",
       "nicknames": [
@@ -1296,7 +2011,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "38867fcf-c416-47de-8c65-c405b5e3c00b",
+      "_id": "f3cd9274-bd4a-47cb-9c42-eaacc607edbe",
       "type": "navigation",
       "name": "Infested Fields",
       "nicknames": [
@@ -1334,7 +2049,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "46cac09d-d9fe-4d7e-aecb-7e5b69f92138",
+      "_id": "7dd46be3-d5aa-4b64-aef2-07a75d6df184",
       "type": "navigation",
       "name": "Volatile Deposits",
       "nicknames": [
@@ -1365,6 +2080,317 @@
       "errata": "",
       "artwork": "[link to image]",
       "cardimage": "https://api.swarmada.wiki/images/volatile-deposits.webp"
+    }
+  },
+  "damage-cards": {
+    "blinded-gunners": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": "0de57245-f85b-4127-85af-15f1714387cd",
+      "type": "damage",
+      "name": "Blinded Gunners",
+      "nicknames": [
+        "Blinded Gunners"
+      ],
+      "ability": "While attacking, you cannot spend :accuracy: icons.",
+      "cardimage": "https://api.swarmada.wiki/images/blinded-gunners.webp"
+    },
+    "capacitor-failure": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Capacitor Failure",
+      "nicknames": [
+        "Capacitor Failure"
+      ],
+      "ability": "If a hull zone has no remaining shields, you cannot recover shields in it nor move shields to it. If that hull zone is defending, you cannot spend :redirect: tokens.",
+      "cardimage": "https://api.swarmada.wiki/images/capacitor-failure.webp"
+    },
+    "comm-noise": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Comm Noise",
+      "nicknames": [
+        "Comm Noise"
+      ],
+      "ability": "Your opponent may either reduce your speed by 1 or choose a new command on your top command dial. Then flip this card facedown.",
+      "cardimage": "https://api.swarmada.wiki/images/comm-noise.webp"
+    },
+    "compartment-fire": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Compartment Fire",
+      "nicknames": [
+        "Compartment Fire"
+      ],
+      "ability": "You cannot ready your defense tokens.",
+      "cardimage": "https://api.swarmada.wiki/images/compartment-fire.webp"
+    },
+    "coolant-discharge": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Coolant Discharge",
+      "nicknames": [
+        "Coolant Discharge"
+      ],
+      "ability": "Only one attack you perform each round can target a ship.",
+      "cardimage": "https://api.swarmada.wiki/images/coolant-discharge.webp"
+    },
+    "crew-panic": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Crew Panic",
+      "nicknames": [
+        "Crew Panic"
+      ],
+      "ability": "Before you reveal a command dial, you must either suffer 1 damage or discard that dial. If you discard it, do not reveal a dial this round.",
+      "cardimage": "https://api.swarmada.wiki/images/crew-panic.webp"
+    },
+    "damaged-controls": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Damaged Controls",
+      "nicknames": [
+        "Damaged Controls"
+      ],
+      "ability": "When you overlap a ship or obstacle, deal 1 facedown damage card to your ship (in addition to all other obstacle effects).",
+      "cardimage": "https://api.swarmada.wiki/images/damaged-controls.webp"
+    },
+    "damaged-munitions": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Damaged Munitions",
+      "nicknames": [
+        "Damaged Munitions"
+      ],
+      "ability": "While attacking a ship, before you roll your attack pool, remove 1 die of your choice.",
+      "cardimage": "https://api.swarmada.wiki/images/damaged-munitions.webp"
+    },
+    "depowered-armament": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Depowered Armament",
+      "nicknames": [
+        "Depowered Armament"
+      ],
+      "ability": "You cannot attack at long range.",
+      "cardimage": "https://api.swarmada.wiki/images/depowered-armament.webp"
+    },
+    "disengaged-fire-control": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Disengaged Fire Control",
+      "nicknames": [
+        "Disengaged Fire Control"
+      ],
+      "ability": "When declaring the target of an attack, you cannot choose a target against whom the attack would be obstructed.",
+      "cardimage": "https://api.swarmada.wiki/images/disengaged-fire-control.webp"
+    },
+    "faulty-countermeasures": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Faulty Countermeasures",
+      "nicknames": [
+        "Faulty Countermeasures"
+      ],
+      "ability": "You cannot spend exhausted defense tokens.",
+      "cardimage": "https://api.swarmada.wiki/images/faulty-countermeasures.webp"
+    },
+    "injured-crew": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Injured Crew",
+      "nicknames": [
+        "Injured Crew"
+      ],
+      "ability": "Choose and discard 1 of your defense tokens. Then flip this card facedown.",
+      "cardimage": "https://api.swarmada.wiki/images/injured-crew.webp"
+    },
+    "life-support-failure": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Life Support Failure",
+      "nicknames": [
+        "Life Support Failure"
+      ],
+      "ability": "Discard all of your command tokens.\n\nYou cannot have any command tokens.",
+      "cardimage": "https://api.swarmada.wiki/images/life-support-failure.webp"
+    },
+    "point-defense-failure": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Point Defense Failure",
+      "nicknames": [
+        "Point Defense Failure"
+      ],
+      "ability": "While attacking a squadron, before you roll your attack pool, remove 1 die of your choice.",
+      "cardimage": "https://api.swarmada.wiki/images/point-defense-failure.webp"
+    },
+    "power-failure": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Power Failure",
+      "nicknames": [
+        "Power Failure"
+      ],
+      "ability": "Your engineering value is reduced to half its value, rounded down.",
+      "cardimage": "https://api.swarmada.wiki/images/power-failure.webp"
+    },
+    "projector-misaligned": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Projector Misaligned",
+      "nicknames": [
+        "Projector Misaligned"
+      ],
+      "ability": "Your hull zone with the most remaining shields loses all of its shields. If multiple hull zones are tied for the most, choose between the tied hull zones. Then flip this card facedown.",
+      "cardimage": "https://api.swarmada.wiki/images/projector-misaligned.webp"
+    },
+    "ruptured-engine": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Ruptured Engine",
+      "nicknames": [
+        "Ruptured Engine"
+      ],
+      "ability": "After you execute a maneuver, if the speed on your speed dial is greater than 1, suffer 1 damage.",
+      "cardimage": "https://api.swarmada.wiki/images/ruptured-engine.webp"
+    },
+    "shield-failure": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Shield Failure",
+      "nicknames": [
+        "Shield Failure"
+      ],
+      "ability": "Your opponent may choose up to 2 of your hull zones. Each of the chosen hull zones loses 1 shield. Then flip this card facedown.",
+      "cardimage": "https://api.swarmada.wiki/images/shield-failure.webp"
+    },
+    "structural-damage": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Structural Damage",
+      "nicknames": [
+        "Structural Damage"
+      ],
+      "ability": "Deal 1 facedown damage card to your ship. Then flip this card facedown.",
+      "cardimage": "https://api.swarmada.wiki/images/structural-damage.webp"
+    },
+    "targeter-disruption": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Targeter Disruption",
+      "nicknames": [
+        "Targeter Disruption"
+      ],
+      "ability": "While attacking, you cannot resolve critical effects.",
+      "cardimage": "https://api.swarmada.wiki/images/targeter-disruption.webp"
+    },
+    "thrust-control-malfunction": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Thrust Control Malfunction",
+      "nicknames": [
+        "Thrust Control Malfunction"
+      ],
+      "ability": "The yaw value for the last adjustable join at your current speed is reduced by 1.",
+      "cardimage": "https://api.swarmada.wiki/images/thrust-control-malfunction.webp"
+    },
+    "thruster-fissure": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "type": "damage",
+      "name": "Thruster Fissure",
+      "nicknames": [
+        "Thruster Fissure"
+      ],
+      "ability": "When you change your speed by 1 or more, suffer 1 damage.",
+      "cardimage": "https://api.swarmada.wiki/images/thruster-fissure.webp"
     }
   }
 }

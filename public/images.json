@@ -1121,6 +1121,18 @@
     "blurhash": "L5JbK*Kk00~q00Ou#+4n0Z?ws:IT",
     "baseToken": "https://api.swarmada.wiki/images/dfs-311-vulture-droid-squadron-base.webp"
   },
+  "armed-station": {
+    "fullsize": "https://api.swarmada.wiki/images/armed-station.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/armed-station.webp",
+    "blurhash": "LAFPmWVB9cxa00H;.SIU?]xaWZob",
+    "baseToken": "https://api.swarmada.wiki/images/armed-station-base.webp"
+  },
+  "unarmed-station": {
+    "fullsize": "https://api.swarmada.wiki/images/unarmed-station.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/unarmed-station.webp",
+    "blurhash": "LAGIy2D%00-:00D%tPfk_M%LIUx[",
+    "baseToken": "https://api.swarmada.wiki/images/unarmed-station-base.webp"
+  },
   "admiral-ackbar-commander": {
     "fullsize": "https://api.swarmada.wiki/images/admiral-ackbar-commander.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/admiral-ackbar-commander.webp",
@@ -2897,6 +2909,54 @@
     "blurhash": "LANc{J-V00~q00Mx.SE100a0?vW;",
     "baseToken": "https://api.swarmada.wiki/images/targeting-beacons-base.webp"
   },
+  "hyperlane-raid": {
+    "fullsize": "https://api.swarmada.wiki/images/hyperlane-raid.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/hyperlane-raid.webp",
+    "blurhash": "LAL#Rgx[00~q0wRj-pIU00NG?Ija",
+    "baseToken": "https://api.swarmada.wiki/images/hyperlane-raid-base.webp"
+  },
+  "show-of-force": {
+    "fullsize": "https://api.swarmada.wiki/images/show-of-force.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/show-of-force.webp",
+    "blurhash": "LAK-^1Sw00~q0cWB-qIU00W--qj[",
+    "baseToken": "https://api.swarmada.wiki/images/show-of-force-base.webp"
+  },
+  "base-defense-armed-station-cc": {
+    "fullsize": "https://api.swarmada.wiki/images/base-defense-armed-station-cc.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/base-defense-armed-station-cc.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/base-defense-armed-station-cc-base.webp"
+  },
+  "base-defense-fighter-wing-cc": {
+    "fullsize": "https://api.swarmada.wiki/images/base-defense-fighter-wing-cc.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/base-defense-fighter-wing-cc.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/base-defense-fighter-wing-cc-base.webp"
+  },
+  "base-defense-ion-cannon-cc": {
+    "fullsize": "https://api.swarmada.wiki/images/base-defense-ion-cannon-cc.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/base-defense-ion-cannon-cc.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/base-defense-ion-cannon-cc-base.webp"
+  },
+  "asteroids": {
+    "fullsize": "https://api.swarmada.wiki/images/asteroids.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/asteroids.webp",
+    "blurhash": "LCM*Kn%f00~q00IU?IIU00M{^laf",
+    "baseToken": "https://api.swarmada.wiki/images/asteroids-base.webp"
+  },
+  "independent-station": {
+    "fullsize": "https://api.swarmada.wiki/images/independent-station.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/independent-station.webp",
+    "blurhash": "LCK-^6b^00_N0_Rj-pIU00R%-qf6",
+    "baseToken": "https://api.swarmada.wiki/images/independent-station-base.webp"
+  },
+  "nebula-outskirts": {
+    "fullsize": "https://api.swarmada.wiki/images/nebula-outskirts.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/nebula-outskirts.webp",
+    "blurhash": "LAMtv[%f00~q00IU?IIU00NG?IoM",
+    "baseToken": "https://api.swarmada.wiki/images/nebula-outskirts-base.webp"
+  },
   "capture-the-vip": {
     "fullsize": "https://api.swarmada.wiki/images/capture-the-vip.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/capture-the-vip.webp",
@@ -3040,6 +3100,72 @@
     "thumbnail": "https://api.swarmada.wiki/thumbnails/surprise-attack.webp",
     "blurhash": "L8MG@q$%00~p8wVt%#D%00nO%#of",
     "baseToken": "https://api.swarmada.wiki/images/surprise-attack-base.webp"
+  },
+  "base-defense-armed-station-ritr": {
+    "fullsize": "https://api.swarmada.wiki/images/base-defense-armed-station-ritr.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/base-defense-armed-station-ritr.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/base-defense-armed-station-ritr-base.webp"
+  },
+  "base-defense-fighter-wing-ritr": {
+    "fullsize": "https://api.swarmada.wiki/images/base-defense-fighter-wing-ritr.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/base-defense-fighter-wing-ritr.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/base-defense-fighter-wing-ritr-base.webp"
+  },
+  "base-defense-ion-cannon-ritr": {
+    "fullsize": "https://api.swarmada.wiki/images/base-defense-ion-cannon-ritr.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/base-defense-ion-cannon-ritr.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/base-defense-ion-cannon-ritr-base.webp"
+  },
+  "double-agent": {
+    "fullsize": "https://api.swarmada.wiki/images/double-agent.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/double-agent.webp",
+    "blurhash": "LALEpEkp00~q0^Rj%2IU00NF-qof",
+    "baseToken": "https://api.swarmada.wiki/images/double-agent-base.webp"
+  },
+  "hired-scum": {
+    "fullsize": "https://api.swarmada.wiki/images/hired-scum.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/hired-scum.webp",
+    "blurhash": "L9L55eXR00~q0cNF?HIU00R%$,s;",
+    "baseToken": "https://api.swarmada.wiki/images/hired-scum-base.webp"
+  },
+  "holonet-override": {
+    "fullsize": "https://api.swarmada.wiki/images/holonet-override.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/holonet-override.webp",
+    "blurhash": "LBLEm2Sw00~p0JNG%MIU00Wn-qWC",
+    "baseToken": "https://api.swarmada.wiki/images/holonet-override-base.webp"
+  },
+  "pilot-defection": {
+    "fullsize": "https://api.swarmada.wiki/images/pilot-defection.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/pilot-defection.webp",
+    "blurhash": "LALq,]tk00~q00M{?IIU00R%-qof",
+    "baseToken": "https://api.swarmada.wiki/images/pilot-defection-base.webp"
+  },
+  "prototype-recovery": {
+    "fullsize": "https://api.swarmada.wiki/images/prototype-recovery.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/prototype-recovery.webp",
+    "blurhash": "L9KxVNR%00~q0JR--qD%00NF%4t7",
+    "baseToken": "https://api.swarmada.wiki/images/prototype-recovery-base.webp"
+  },
+  "recruit-allies": {
+    "fullsize": "https://api.swarmada.wiki/images/recruit-allies.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/recruit-allies.webp",
+    "blurhash": "LALEpDgM00~q0cWB-qD%00Rj-Wt7",
+    "baseToken": "https://api.swarmada.wiki/images/recruit-allies-base.webp"
+  },
+  "steal-supplies": {
+    "fullsize": "https://api.swarmada.wiki/images/steal-supplies.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/steal-supplies.webp",
+    "blurhash": "L9KeQ0XQ00~q0vR,%3D%00Rj-qs;",
+    "baseToken": "https://api.swarmada.wiki/images/steal-supplies-base.webp"
+  },
+  "volatile-cargo": {
+    "fullsize": "https://api.swarmada.wiki/images/volatile-cargo.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/volatile-cargo.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/volatile-cargo-base.webp"
   },
   "abandoned-mining-facility": {
     "fullsize": "https://api.swarmada.wiki/images/abandoned-mining-facility.webp",
@@ -4064,7 +4190,7 @@
   "delta-squad-nu-class-transport-shuttle-legacy": {
     "fullsize": "https://api.swarmada.wiki/images/delta-squad-nu-class-transport-shuttle-legacy.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/delta-squad-nu-class-transport-shuttle-legacy.webp",
-    "blurhash": "L7J*hsOs00~W00JWt-IA4,kYp0xX",
+    "blurhash": "L7J*hsOs00~W00JWt-IA4,kYpJxY",
     "baseToken": "https://api.swarmada.wiki/images/delta-squad-nu-class-transport-shuttle-legacy-base.webp"
   },
   "sheathipede-class-shuttle-legacy": {
@@ -4076,31 +4202,31 @@
   "kalani-sheathipede-class-shuttle-legacy": {
     "fullsize": "https://api.swarmada.wiki/images/kalani-sheathipede-class-shuttle-legacy.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/kalani-sheathipede-class-shuttle-legacy.webp",
-    "blurhash": "LRIFlJu6E1xt0Npet6ROERpJt6ac",
+    "blurhash": "LRIFlJu6E1xt0Npet6ROERpJt6ad",
     "baseToken": "https://api.swarmada.wiki/images/kalani-sheathipede-class-shuttle-legacy-base.webp"
   },
   "star-courier-legacy": {
     "fullsize": "https://api.swarmada.wiki/images/star-courier-legacy.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/star-courier-legacy.webp",
-    "blurhash": "L9J*PG}[00-=00,q^+D%D4?Ho}M{",
+    "blurhash": "L9J*PG}[00-=00,X^+D%D4?Ho}M{",
     "baseToken": "https://api.swarmada.wiki/images/star-courier-legacy-base.webp"
   },
   "darth-maul-scimitar-legacy": {
     "fullsize": "https://api.swarmada.wiki/images/darth-maul-scimitar-legacy.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/darth-maul-scimitar-legacy.webp",
-    "blurhash": "L5IF9^ox00~q00Rj_39F00xb%gRj",
+    "blurhash": "L5IF9^ox00~q00Rj_39F00t8%NRj",
     "baseToken": "https://api.swarmada.wiki/images/darth-maul-scimitar-legacy-base.webp"
   },
   "daultay-dofine-commander-legacy": {
     "fullsize": "https://api.swarmada.wiki/images/daultay-dofine-commander-legacy.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/daultay-dofine-commander-legacy.webp",
-    "blurhash": "L9HVPF?b00%M00IA~qRQ00V@xbMy",
+    "blurhash": "LBH.c:?b00xu00IU~qRj00Rjs;M{",
     "baseToken": "https://api.swarmada.wiki/images/daultay-dofine-commander-legacy-base.webp"
   },
   "ki-adi-mundi-commander-legacy": {
     "fullsize": "https://api.swarmada.wiki/images/ki-adi-mundi-commander-legacy.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/ki-adi-mundi-commander-legacy.webp",
-    "blurhash": "LCIhy=?b00?b00IU~qtR00M{ogRQ",
+    "blurhash": "LCIhy=?b00?b00IU~qxu00M{ogRQ",
     "baseToken": "https://api.swarmada.wiki/images/ki-adi-mundi-commander-legacy-base.webp"
   },
   "dreadnaught-class-katana-refit-old-legacy": {

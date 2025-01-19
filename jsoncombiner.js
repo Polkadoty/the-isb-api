@@ -23,7 +23,8 @@ const directories = {
   'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
   'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
   'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
-  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
+  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
+  'damage': path.join(__dirname, 'public/converted-json/damage')
 };
 
 function updateIdsAndCombine(directory, outputFileName) {
