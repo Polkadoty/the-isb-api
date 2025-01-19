@@ -1,6 +1,6 @@
 {
     "upgrades": {
-        "flak-officer": {
+        "general-romodi-officer": {
             "author": "Armada Legends",
             "alias": "Legends",
             "team": "Armada Legends",
@@ -11,16 +11,16 @@
             "faction": [
                 "empire"
             ],
-            "name": "Flak Officer",
+            "name": "General Romodi",
             "nicknames": [
-                "Flak Officer"
+                "General Romodi", "Flak Officer"
             ],
             "unique-class": [
-                ""
+                "General Romodi"
             ],
-            "ability": "During your activation, you may discard this card. If you do, until the end of that activation, when attacking squadrons you may reroll 1 blue or black die.",
-            "unique": false,
-            "points": 2,
+            "ability": "Non-huge ship only.\nWhen attacking a squadron, if the attack is obstructed by a ship or obstacle, the attacked does not remove a die, and may add 1 blue die to the attack pool.",
+            "unique": true,
+            "points": 5,
             "modification": false,
             "bound_shiptype": "",
             "restrictions": {
@@ -28,7 +28,7 @@
                     ""
                 ],
                 "size": [
-                    ""
+                    "small","medium","large"
                 ],
                 "disqual_upgrades": [
                     ""
@@ -56,7 +56,7 @@
                 "ready_amount": 0
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/flak-officer.webp"
+            "cardimage": "https://api.swarmada.wiki/images/general-romodi-officer.webp"
         }
     }
 }
