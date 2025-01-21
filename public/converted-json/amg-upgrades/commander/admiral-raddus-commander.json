@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "admiral-raddus-commander-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Admiral Raddus",
+      "nicknames": [
+        "Raddus"
+      ],
+      "unique-class": [
+        "Admiral Raddus"
+      ],
+      "ability": "Before deploying fleets, you may set aside 1 other friendly ship *with a command value of 3 or less*. At the start of any round, you may deploy that ship at distance *1-2 of you*. That ship cannot be deployed overlapping squadrons and cannot be the first ship to activate that round.",
+      "unique": true,
+      "points": 26,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-raddus-commander-errata.webp"
+    }
+  }
+}
