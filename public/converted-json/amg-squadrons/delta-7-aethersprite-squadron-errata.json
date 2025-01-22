@@ -1,0 +1,71 @@
+{
+  "squadrons": {
+    "kit-fisto-delta-7-aethersprite-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "nicknames": [
+        "Deltakit"
+      ],
+      "ace-name": "Kit Fisto",
+      "unique-class": [
+        "Kit Fisto"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you spend a defense token, you may discard it. If you do, reduce the total damage by 3 instead of resolving that token's effect.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kit-fisto-delta-7-aethersprite-squadron-errata.webp"
+    }
+  }
+}

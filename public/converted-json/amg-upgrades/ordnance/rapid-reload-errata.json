@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "rapid-reload-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Rapid Reload",
+      "nicknames": [
+        "RR"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nThe battery armaments for your left and right hull zones are increased by 1 black die.",
+      "unique": false,
+      "points": 4,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rapid-reload-errata.webp"
+    }
+  }
+}

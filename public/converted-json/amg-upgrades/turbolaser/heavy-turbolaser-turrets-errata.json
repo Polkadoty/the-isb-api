@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "heavy-turbolaser-turrets-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Heavy Turbolaser Turrets",
+      "nicknames": [
+        "HTT", "HTTs"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking, the :brace: defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/heavy-turbolaser-turrets-errata.webp"
+    }
+  }
+}

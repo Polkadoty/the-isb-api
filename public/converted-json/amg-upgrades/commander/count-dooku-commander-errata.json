@@ -1,26 +1,26 @@
 {
   "upgrades": {
-    "taskmaster-grint-officer": {
+    "count-dooku-commander-errata": {
       "author": "Fantasy Flight Games",
       "alias": "FFG",
       "team": "FFG",
-      "release": "Wave 7 Armada",
-      "expansion": "Chimaera Expansion Pack (SWM29)",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
       "_id": null,
-      "type": "officer",
+      "type": "commander",
       "faction": [
-        "empire"
+        "separatist"
       ],
-      "name": "Taskmaster Grint",
+      "name": "Count Dooku",
       "nicknames": [
-        "TG", "Grint"
+        "Dooku"
       ],
       "unique-class": [
-        "Taskmaster Grint"
+        "Count Dooku"
       ],
-      "ability": "Choose the command token for this card after deploying fleets.\nWhen you reveal a command matching the token on this card, you may gain 1 matching command token without spending the command dial.",
+      "ability": "You must choose at least 2 types of command tokens for this card. At the start of each Ship Phase, you may discard 1 command token from this card. If you do, each enemy ship gains a raid token matching that command token.",
       "unique": true,
-      "points": 5,
+      "points": 27,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -36,6 +36,9 @@
         "disable_upgrades": [
           ""
         ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": false
       },
       "start_command": {
@@ -43,7 +46,7 @@
         "start_icon": [
           "any"
         ],
-        "start_amount": 1
+        "start_amount": 3
       },
       "exhaust": {
         "type": "",
@@ -53,7 +56,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/taskmaster-grint-officer.webp"
+      "cardimage": "https://api.swarmada.wiki/images/count-dooku-commander-errata.webp"
     }
   }
 }

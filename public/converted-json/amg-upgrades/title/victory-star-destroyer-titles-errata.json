@@ -1,0 +1,120 @@
+{
+    "upgrades": {
+        "corrupter-title-errata": {
+            "author": "Fantasy Flight Games",
+            "alias": "AMG",
+            "team": "AMG",
+            "release": "AMG Final Errata",
+            "expansion": "AMG Final Errata",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Corrupter",
+            "nicknames": [
+                "Corrupter"
+            ],
+            "unique-class": [
+                "Corrupter"
+            ],
+            "ability": ":squadron:: The speed of each squadron with BOMBER you activate is increased by 1 until the end of its activation",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "victory-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/corrupter-title-errata.webp"
+        },
+        "dominator-title-errata": {
+            "author": "Fantasy Flight Games",
+            "alias": "AMG",
+            "team": "AMG",
+            "release": "AMG Final Errata",
+            "expansion": "AMG Final Errata",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Dominator",
+            "nicknames": [
+                "Dominator"
+            ],
+            "unique-class": [
+                "Dominator"
+            ],
+            "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "victory-star-destroyer",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "[link to image]",
+            "cardimage": "https://api.swarmada.wiki/images/dominator-title-errata.webp"
+        }
+    }
+}

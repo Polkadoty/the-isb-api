@@ -1,0 +1,114 @@
+{
+  "objectives": {
+    "jamming-barrier-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "defense",
+      "name": "Jamming Barrier",
+      "nicknames": [
+        "Jamming", "Jamming Barrier"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "Place obstacles as normal, excluding the station and replacing the 2 debris fields with the 2 dust fields.\nAfter deploying fleets, the second player places 2 objective tokens in the setup area at distance 1-5 of each other. ",
+      "special_rule": "While attacking, if neither the attacker or defender are overlapping an objective token and line of sight is traced across an objective token or the line between the two objective tokens, the attacker must choose and remove half of the dice from the attack pool, rounded down, before rolling.",
+      "end_of_round": "",
+      "end_of_game": "",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "While attacking, if neither the attacker or defender are overlapping an objective token and line of sight is traced across an objective token or the line between the two objective tokens, the attacker must choose and remove half of the dice from the attack pool, rounded down, before rolling.",
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/jamming-barrier-errata.webp"
+    },
+    "most-wanted-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "assault",
+      "name": "Most Wanted",
+      "nicknames": [
+        "Most Wanted", "MW"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2",
+        "station"
+      ],
+      "setup": "After deploying fleets, the second player chooses 1 of his ships and 1 of the first player's ships to be objective ships.",
+      "special_rule": "While a ship is attacking an objective ship, it may add 1 die of any color that is already in its attack pool to its attack pool.",
+      "end_of_round": "",
+      "end_of_game": "The fleet point cost of a destroyed objective ship is doubled. Do not double the cost of its upgrade cards.",
+      "victory_tokens": false,
+      "victory_tokens_points": 0,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/most-wanted-errata.webp"
+    },
+    "hyperspace-migration-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "navigation",
+      "name": "Hyperspace Migration",
+      "nicknames": [
+        "Hyperspace Migration", "HM", "Purrgil"
+      ],
+      "obstacles": [
+        "asteroid_1",
+        "asteroid_2",
+        "asteroid_3",
+        "debris_1",
+        "debris_2"
+      ],
+      "setup": "Place obstacles as normal, excluding the station. Then the second player places 1 objective token in the play area at distance 1 of a 3' edge and another objective token at distance 1 of the opposite 3' edge.",
+      "special_rule": "At the start of the Ship Phase of the first and third rounds, the second player places 1 purrgil not in the play area at distance 1 of 1 objective token (the objective token must be the same during both rounds).\nWhen a purrgil moves, it must move toward the objective token at the opposite 3' edge. When a purrgil touches that objective token, that purrgil is removed from the play area.",
+      "end_of_round": "For each ship, if it has an objective token on it, remove that token and the ship's owner gains 1 victory token; if it has no objective token on it, place 1 objective token on the ship. Then players move each purrgil.",
+      "end_of_game": "",
+      "victory_tokens": true,
+      "victory_tokens_points": 20,
+      "objective_tokens": false,
+      "objective_tokens_type": "",
+      "objective_tokens_count": 0,
+      "command_tokens": false,
+      "command_tokens_type": "",
+      "command_tokens_value": "",
+      "command_tokens_count": 0,
+      "errata": "",
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/hyperspace-migration-errata.webp"
+    }
+  }
+}

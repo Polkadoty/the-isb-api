@@ -1,0 +1,72 @@
+{
+  "squadrons": {
+    "lando-calrissian-millennium-falcon-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "yt-1300",
+      "name": "Millennium Falcon",
+      "nicknames": [
+        "Falcon", "Lando", "Calrissian"
+      ],
+      "ace-name": "Lando Calrissian",
+      "unique-class": [
+        "Lando Calrissian",
+        "Millennium Falcon"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": false,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": false,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, you may discard a defense token to set 1 die to any face. That die cannot be modified again.\nWhile defending you may spend 1 of your defense tokens to force the attacker to reroll 1 or more dice of your choice.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lando-calrissian-millennium-falcon-errata.webp"
+    }
+  }
+}

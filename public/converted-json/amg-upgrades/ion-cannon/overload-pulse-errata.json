@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "overload-pulse-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Overload Pulse",
+      "nicknames": [
+        "OP"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "BLUE :crit: : Exhaust all of the defender's defense tokens.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/overload-pulse-errata.webp"
+    }
+  }
+}

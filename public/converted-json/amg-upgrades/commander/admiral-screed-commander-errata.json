@@ -1,26 +1,26 @@
 {
   "upgrades": {
-    "taskmaster-grint-officer": {
+    "admiral-screed-commander-errata": {
       "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 7 Armada",
-      "expansion": "Chimaera Expansion Pack (SWM29)",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
-      "type": "officer",
+      "type": "commander",
       "faction": [
         "empire"
       ],
-      "name": "Taskmaster Grint",
+      "name": "Admiral Screed",
       "nicknames": [
-        "TG", "Grint"
+        "Screed"
       ],
       "unique-class": [
-        "Taskmaster Grint"
+        "Admiral Screed"
       ],
-      "ability": "Choose the command token for this card after deploying fleets.\nWhen you reveal a command matching the token on this card, you may gain 1 matching command token without spending the command dial.",
+      "ability": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a :critical: icon.",
       "unique": true,
-      "points": 5,
+      "points": 24,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -39,11 +39,11 @@
         "flagship": false
       },
       "start_command": {
-        "type": "token",
+        "type": "",
         "start_icon": [
-          "any"
+          ""
         ],
-        "start_amount": 1
+        "start_amount": 0
       },
       "exhaust": {
         "type": "",
@@ -53,7 +53,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/taskmaster-grint-officer.webp"
+      "cardimage": "https://api.swarmada.wiki/images/admiral-screed-commander-errata.webp"
     }
   }
 }

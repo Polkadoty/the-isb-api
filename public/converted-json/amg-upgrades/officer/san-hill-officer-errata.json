@@ -1,26 +1,26 @@
 {
   "upgrades": {
-    "taskmaster-grint-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 7 Armada",
-      "expansion": "Chimaera Expansion Pack (SWM29)",
+    "san-hill-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
-        "empire"
+        "separatist"
       ],
-      "name": "Taskmaster Grint",
+      "name": "San Hill",
       "nicknames": [
-        "TG", "Grint"
+        "San", "Hill"
       ],
       "unique-class": [
-        "Taskmaster Grint"
+        "San Hill"
       ],
-      "ability": "Choose the command token for this card after deploying fleets.\nWhen you reveal a command matching the token on this card, you may gain 1 matching command token without spending the command dial.",
+      "ability": "When a friendly ship at distance 1-5 resolves a :squad: command, you may discard 1 :squad: token from this card. If you do, that friendly ship may activate 1 additional squadron during that command.",
       "unique": true,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -36,14 +36,17 @@
         "disable_upgrades": [
           ""
         ],
+        "enable_upgrades": [
+          ""
+        ],
         "flagship": false
       },
       "start_command": {
         "type": "token",
         "start_icon": [
-          "any"
+          "squadron"
         ],
-        "start_amount": 1
+        "start_amount": 2
       },
       "exhaust": {
         "type": "",
@@ -53,7 +56,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/taskmaster-grint-officer.webp"
+      "cardimage": "https://api.swarmada.wiki/images/san-hill-officer-errata.webp"
     }
   }
 }

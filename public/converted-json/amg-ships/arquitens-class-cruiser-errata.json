@@ -1,0 +1,215 @@
+{
+  "ships": {
+    "arquitens-class-cruiser": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "arquitens-class-cruiser",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          0,
+          2
+        ],
+        "3": [
+          0,
+          0,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "arquitens-class-light-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": null,
+          "type": "ship",
+          "chassis": "arquitens-class-cruiser",
+          "name": "Arquitens-class Light Cruiser",
+          "nicknames": [
+            "Arquitens", "Arquitens Light"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 52,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              1,
+              0,
+              1
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              3,
+              0,
+              0
+            ],
+            "right": [
+              3,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser-errata.webp"
+        },
+        "arquitens-class-command-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": null,
+          "type": "ship",
+          "chassis": "arquitens-class-cruiser",
+          "name": "Arquitens-class Command Cruiser",
+          "nicknames": [
+            "Arquitens", "Arquitens Command"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 55,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              0,
+              0
+            ],
+            "right": [
+              3,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-command-cruiser-errata.webp"
+        }
+      }
+    }
+  }
+}
