@@ -177,7 +177,6 @@ function parseArgs() {
     squadrons: args.includes('-squadrons'),
     upgrades: args.includes('-upgrades'),
     objectives: args.includes('-objectives'),
-    'legacy-ships': args.includes('-legacy-ships'),
     'legacy-squadrons': args.includes('-legacy-squadrons'),
     'legacy-upgrades': args.includes('-legacy-upgrades'),
     'legends-ships': args.includes('-legends-ships'),

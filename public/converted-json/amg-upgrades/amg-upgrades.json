@@ -1,0 +1,3017 @@
+{
+  "upgrades": {
+    "admiral-screed-commander-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "00d41bf8-307e-4b8e-8b62-fb7c9334aacd",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Screed",
+      "nicknames": [
+        "Screed"
+      ],
+      "unique-class": [
+        "Admiral Screed"
+      ],
+      "ability": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a :critical: icon.",
+      "unique": true,
+      "points": 24,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-screed-commander-errata.webp"
+    },
+    "admiral-trench-commander-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "6b2c2297-24e8-4518-85aa-cbcc96b3bcaa",
+      "type": "commander",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Admiral Trench",
+      "nicknames": [
+        "Trench"
+      ],
+      "unique-class": [
+        "Admiral Trench"
+      ],
+      "ability": "At the start of each Ship Phase, you may reveal and discard 1 command dial from this card. If you do, until the end of the round, when a friendly ship spends only a matching command token to resolve a command, that ship resolves that command as if it had spent a dial and token of the same type instead.",
+      "unique": true,
+      "points": 32,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 4
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-trench-commander-errata.webp"
+    },
+    "anakin-skywalker-commander-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "96158fa8-fcb9-4d0f-9de2-efcec986e357",
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Anakin Skywalker",
+      "nicknames": [
+        "Anakin",
+        "Commanderkin"
+      ],
+      "unique-class": [
+        "Anakin Skywalker"
+      ],
+      "ability": "While a friendly ship is attacking a ship, if the defender is at distance 1-5 of at least 2 other friendly ships, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If it does, the attacker may reroll up to 3 dice.",
+      "unique": true,
+      "points": 27,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-commander-errata.webp"
+    },
+    "count-dooku-commander-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "_id": "4f9d739e-0cca-4e44-87d0-56a8ef5820e1",
+      "type": "commander",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Count Dooku",
+      "nicknames": [
+        "Dooku"
+      ],
+      "unique-class": [
+        "Count Dooku"
+      ],
+      "ability": "You must choose at least 2 types of command tokens for this card. At the start of each Ship Phase, you may discard 1 command token from this card. If you do, each enemy ship gains a raid token matching that command token.",
+      "unique": true,
+      "points": 27,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 3
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/count-dooku-commander-errata.webp"
+    },
+    "darth-vader-commander-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "5f50447c-69bc-40bc-a423-8e378b78a3ed",
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Darth Vader",
+      "nicknames": [
+        "Vader"
+      ],
+      "unique-class": [
+        "Darth Vader"
+      ],
+      "ability": "While a friendly ship is attacking a ship, it may spend 1 defense token to reroll any number of dice in its attack pool.",
+      "unique": true,
+      "points": 34,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/darth-vader-commander-errata.webp"
+    },
+    "general-draven-commander-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "c4bf139e-47d2-43db-ba60-2ea70b950106",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Draven",
+      "nicknames": [
+        "Draven"
+      ],
+      "unique-class": [
+        "General Draven"
+      ],
+      "ability": "Choose command dials for this card after deploying fleets.\nAt the start of each Ship Phase, you may reveal and discard 1 command dial from this card. If you do, until the end of the round, when an enemy ship spends a matching command dial, it resolves that dial as though it spent a token of the same type instead. .",
+      "unique": true,
+      "points": 20,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "dial",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 2
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/general-draven-commander-errata.webp"
+    },
+    "general-madine-commander-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "12787550-6680-4190-a243-79d25f8f2535",
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Madine",
+      "nicknames": [
+        "Madine"
+      ],
+      "unique-class": [
+        "General Madine"
+      ],
+      "ability": "When a friendly ship is executing its first maneuver during its activation, during the Determine Course step, it may increase 1 yaw value by 1.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/general-madine-commander-errata.webp"
+    },
+    "obi-wan-kenobi-commander-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "0e1e7646-7bac-4d19-a1b1-e63c86478bca",
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Obi-Wan Kenobi",
+      "nicknames": [
+        "Obi-Wan",
+        "Kenobi"
+      ],
+      "unique-class": [
+        "Obi-Wan Kenobi"
+      ],
+      "ability": "While a friendly ship is defending, when it spends a readied :redirect: token, it may reduce the total damage by 1 before it suffers damage.",
+      "unique": true,
+      "points": 22,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/obi-wan-kenobi-commander-errata.webp"
+    },
+    "mercy-mission-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "1cce509c-fe85-46a1-80d3-eef954dcc22a",
+      "type": "fleet-command",
+      "faction": [
+        "republic"
+      ],
+      "name": "Mercy Mission",
+      "nicknames": [
+        "MM"
+      ],
+      "unique-class": [
+        "Mercy Mission"
+      ],
+      "ability": "Before deploying fleets, un-equip this card and choose 1 friendly small ship that is not your flagship. Equip this card to the chosen ship (even if it does not have a :fleet command: icon in its upgrade bar). At the end of the game, if you are within the enemy deployment zone, increase your score by 40 points; if you were destroyed, increase your opponent's score by 15 points.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/mercy-mission-errata.webp"
+    },
+    "repair-crews-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "8b9c2e7f-80ac-48f9-9850-0865e8475743",
+      "type": "fleet-support",
+      "faction": [
+        ""
+      ],
+      "name": "Repair Crews",
+      "nicknames": [
+        "RCs",
+        "Repair"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": ":repair:: Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/repair-crews-errata.webp"
+    },
+    "slicer-tools-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "08cb0b38-9b88-4986-a012-71b8c8332b27",
+      "type": "fleet-support",
+      "faction": [
+        ""
+      ],
+      "name": "Slicer Tools",
+      "nicknames": [
+        "ST",
+        "Slicers"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3. Look at the top command dial assigned to that ship. Then you may either choose a new command on its top command dial or that ship gains 1 raid token of your choice that does not match its top command dial. If the chosen ship has no top command dial, it gains 1 raid token of your choice.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "repair"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/slicer-tools-errata.webp"
+    },
+    "high-capacity-ion-turbines-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "c74fd37a-970b-4731-9db8-6c56b04f8348",
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "High-Capacity Ion Turbines",
+      "nicknames": [
+        "HCT",
+        "High Capacity",
+        "HCIT"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification.\nThe battery armaments for your left and right hull zones are increased by 1 blue die.",
+      "unique": false,
+      "points": 6,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/high-capacity-ion-turbines-errata.webp"
+    },
+    "leading-shots-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "c5a4396c-a4b1-4310-98c0-cfed75d225ea",
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Leading Shots",
+      "nicknames": [
+        "LS"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking, you may spend 1 blue die to reroll any number of dice in your attack pool.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/leading-shots-errata.webp"
+    },
+    "nk-7-ion-cannons-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "21ef9cbc-2717-4960-8f3d-51732c710e8a",
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "NK-7 Ion Cannons",
+      "nicknames": [
+        "NK7",
+        "NK-7",
+        "NK-7s",
+        "NK7s"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "Blue :critical: : Exhaust this card to force the defender to choose and discard 1 of its defense tokens.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nk-7-ion-cannons-errata.webp"
+    },
+    "overload-pulse-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "7bf219cf-0921-4885-b8b9-bb6f30165dab",
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Overload Pulse",
+      "nicknames": [
+        "OP"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "BLUE :crit: : Exhaust all of the defender's defense tokens.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/overload-pulse-errata.webp"
+    },
+    "point-defense-ion-cannons-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "563d7822-418a-461d-bb5d-30e5193e1293",
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Point Defense Ion Cannons",
+      "nicknames": [
+        "PDIC",
+        "PDICs"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/point-defense-ion-cannons-errata.webp"
+    },
+    "rapid-launch-bays-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "4f1e1b76-0734-4a98-90a2-56fc3b9ad3e3",
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Rapid Launch Bays",
+      "nicknames": [
+        "RLB",
+        "RLBs",
+        "Launch Bays"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card. When you reveal a command, you may discard this card. If you do, place each squadron set aside with this card within distance 1-2 of you. Those squadrons cannot move during your activation.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rapid-launch-bays-errata.webp"
+    },
+    "reserve-hangar-deck-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "8f7a7156-d771-4081-9e72-25d45454b012",
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Reserve Hangar Deck",
+      "nicknames": [
+        "RHD",
+        "RHDs"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "When a friendly non-unique squadron with swarm at distance 1-5 is destroyed, you may discard this card. If you do, you may set that squadron's hull points to \"2\" and place that squadron unengaged at distance 1 with its activation slider toggled to the activated side.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/reserve-hangar-deck-errata.webp"
+    },
+    "asajj-ventress-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "c18ed26c-996a-48b1-b527-38b49f5d0486",
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Asajj Ventress",
+      "nicknames": [
+        "Asajj",
+        "Ventress"
+      ],
+      "unique-class": [
+        "Asajj Ventress"
+      ],
+      "ability": "After you perform an attack targeting a ship that has 1 or more raid tokens, if the defender suffered one or more damage, you may remove 1 raid token and 1 command token from the defender. If you do, gain a matching command token.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/asajj-ventress-officer-errata.webp"
+    },
+    "clone-commander-wolffe-officer-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "870ef37c-326a-4607-90ea-49d73a6aa23c",
+      "type": "officer",
+      "faction": [
+        "republic"
+      ],
+      "name": "Clone Commander Wolffe",
+      "nicknames": [
+        "CCW",
+        "Wolffe"
+      ],
+      "unique-class": [
+        "Clone Commander Wolffe"
+      ],
+      "ability": ":squadron: : You may exhaust this card. If you do: Each of up to 3 squadrons that you activate without adept gain assault until the end of its activation. Each squadron that you activate with the *assault* keyword can spend a die with a :hit: or :accuracy: icon to resolve the assault effect. You can spend tokens from this card to ready it.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "squadron"
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "nonrecur",
+        "ready_token": [
+          "squadron"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/clone-commander-wolffe-officer-errata.webp"
+    },
+    "damage-control-officer-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "037c989f-42e7-4bf9-934a-782759f5630f",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Damage Control Officer",
+      "nicknames": [
+        "DCO"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "When you resolve the :contain: defense effect, you can prevent the attacker from resolving any critical effects.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/damage-control-officer-errata.webp"
+    },
+    "darth-vader-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "7a79d5bf-3117-478d-b4f6-5612f9e9af48",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Darth Vader",
+      "nicknames": [
+        "Vader",
+        "Vader Officer"
+      ],
+      "unique-class": [
+        "Darth Vader"
+      ],
+      "ability": "While a friendly ship at distance 1-5 attacking a ship, it may discard 1 of its :commander: or :officer: cards (other than Darth Vader) to reroll any number of dice in its attack pool.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/darth-vader-officer-errata.webp"
+    },
+    "governor-pryce-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "eb82846f-d69c-4eea-a1a6-16cdd6602dce",
+      "type": "officer",
+      "faction": [
+        "empire"
+      ],
+      "name": "Governor Pryce",
+      "nicknames": [
+        "Pryce"
+      ],
+      "unique-class": [
+        "Governor Pryce"
+      ],
+      "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any face without an :accuracy: icon.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/governor-pryce-officer-errata.webp"
+    },
+    "san-hill-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "2935a34f-6ced-44c0-bdd8-d55011ed9127",
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "San Hill",
+      "nicknames": [
+        "San",
+        "Hill"
+      ],
+      "unique-class": [
+        "San Hill"
+      ],
+      "ability": "When a friendly ship at distance 1-5 resolves a :squad: command, you may discard 1 :squad: token from this card. If you do, that friendly ship may activate 1 additional squadron during that command.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "squadron"
+        ],
+        "start_amount": 2
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/san-hill-officer-errata.webp"
+    },
+    "support-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "c6f2494f-99fa-4b2f-b366-b1a3d24f95e5",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Support Officer",
+      "nicknames": [
+        "SO"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "At the start of the Command Phase, you may discard this card to discard all of your command dials.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/support-officer-errata.webp"
+    },
+    "veteran-captain-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "f2fa6c3e-e64e-4447-a32e-71ae713b6700",
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Veteran Captain",
+      "nicknames": [
+        "VC"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "When you reveal a command, you may discard this card to gain 1 command token of your choice.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/veteran-captain-officer-errata.webp"
+    },
+    "expanded-launchers-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "510e4069-c247-439b-99dd-6dede0c82b59",
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Expanded Launchers",
+      "nicknames": [
+        "EL",
+        "Launchers"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "Modification\nThe battery armament for your front hull zone is increased by 2 black dice.",
+      "unique": false,
+      "points": 8,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/expanded-launchers-errata.webp"
+    },
+    "rapid-reload-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "854e0c50-1cc7-4c21-ae38-c25cb6be7fdf",
+      "type": "ordnance",
+      "faction": [
+        ""
+      ],
+      "name": "Rapid Reload",
+      "nicknames": [
+        "RR"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nThe battery armaments for your left and right hull zones are increased by 1 black die.",
+      "unique": false,
+      "points": 4,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rapid-reload-errata.webp"
+    },
+    "engineering-team-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "6dc2526a-1a92-4292-900a-50658cb72fdf",
+      "type": "support-team",
+      "faction": [
+        ""
+      ],
+      "name": "Engineering Team",
+      "nicknames": [
+        "ET",
+        "E Team"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": ":repair: : Gain 1 additional engineering point.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/engineering-team-errata.webp"
+    },
+    "nav-team-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "7710403d-7311-48db-bd32-0b2b9ed8ca9b",
+      "type": "support-team",
+      "faction": [
+        ""
+      ],
+      "name": "Nav Team",
+      "nicknames": [],
+      "unique-class": [
+        ""
+      ],
+      "ability": ":nav: If you spent a :nav: token, once during this maneuver, when you would change your speed, you may instead increase 1 yaw value by 1.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/nav-team-errata.webp"
+    },
+    "hand-of-justice-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "e34d4d3c-d5e4-4be8-b6ab-79eebd2e7edc",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Hand of Justice",
+      "nicknames": [
+        "HoJ"
+      ],
+      "unique-class": [
+        "Hand of Justice"
+      ],
+      "ability": "Before you reveal a command, you may exhaust this card to choose another friendly ship at distance 1-5 and ready 1 of its defense tokens.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hand-of-justice-title-errata.webp"
+    },
+    "dodonnas-pride-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "0a3e02c9-fd77-4d0a-bfa4-4782dc2e9697",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Dodonna's Pride",
+      "nicknames": [
+        "D Pride"
+      ],
+      "unique-class": [
+        "Dodonna's Pride"
+      ],
+      "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/dodonnas-pride-title-errata.webp"
+    },
+    "jainas-light-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "6be2e7e8-555b-49ee-949f-6c4ed69fa5e0",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Jaina's Light",
+      "nicknames": [
+        "Jaina's",
+        "Jainas",
+        "JL"
+      ],
+      "unique-class": [
+        "Jaina's Light"
+      ],
+      "ability": "You can ignore the effects of overlapping obstacles.\nYour attacks cannot be obstructed.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/jainas-light-title-errata.webp"
+    },
+    "admonition-title-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "69bdb958-301f-4b4a-8796-d7fbc53cd05e",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Admonition",
+      "nicknames": [
+        "ADM"
+      ],
+      "unique-class": [
+        "Admonition"
+      ],
+      "ability": "While defending, during the Spend Defense Tokens step, you may discard a defense token to cancel 1 attack die.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "mc30c-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admonition-title-errata.webp"
+    },
+    "foresight-title-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "ed9dc0bf-ba0c-4d46-b768-856daa198cf4",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Foresight",
+      "nicknames": [
+        "Foresight",
+        "FS"
+      ],
+      "unique-class": [
+        "Foresight"
+      ],
+      "ability": "When you resolve the :evade: defense effect, you can affect 1 additional die. When you resolve the :redirect: defense effect, you can choose 1 additional adjacent hull zone to suffer damage.",
+      "unique": true,
+      "points": 10,
+      "modification": false,
+      "bound_shiptype": "mc30c-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/foresight-title-errata.webp"
+    },
+    "home-one-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "3b6aff4e-29e3-4b47-9139-2da21d671470",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Home One",
+      "nicknames": [
+        "Home One",
+        "Useless"
+      ],
+      "unique-class": [
+        "Home One"
+      ],
+      "ability": "While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an :accuracy: icon.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc80h-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/home-one-title-errata.webp"
+    },
+    "redemption-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "25388ed3-c640-4ac2-ba1e-906c0622ea7f",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Redemption",
+      "nicknames": [
+        "Redemption"
+      ],
+      "unique-class": [
+        "Redemption"
+      ],
+      "ability": "When a friendly ship at distance 1-5 resolves a :repair: command, it gains 1 additional engineering point.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "nebulon-b-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/redemption-title-errata.webp"
+    },
+    "invisible-hand-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "83356212-a755-4be7-a15c-51974155fa7a",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Invisible Hand",
+      "nicknames": [
+        "Invis Hand",
+        "IH"
+      ],
+      "unique-class": [
+        "Invisible Hand"
+      ],
+      "ability": "While deploying fleets, if you are in the play area, when you would deploy a squadron with SWARM, you may set that squadron aside next to your ship card instead. You may set aside up to 5 squadrons this way. :squadron: : Choose any number of squadrons set aside with this card. Then place them within distance 1-3 of you. During your activation, those squadrons cannot move, and if they have AI, may increase their AI value by 1.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "providence-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/invisible-hand-title-errata.webp"
+    },
+    "lucid-voice-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "9f419c0a-ac7d-49f6-9002-fd6cbbbd65a6",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Lucid Voice",
+      "nicknames": [
+        "Lucid Voice",
+        "LV"
+      ],
+      "unique-class": [
+        "Lucid Voice"
+      ],
+      "ability": "Treat your rear hull zone's printed battery armament as 3 red dice. The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "providence-class",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lucid-voice-title-errata.webp"
+    },
+    "squall-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "1ac3eb07-b608-47e6-bc65-2f36a8d31e24",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Squall",
+      "nicknames": [
+        "Squall"
+      ],
+      "unique-class": [
+        "Squall"
+      ],
+      "ability": "When you activate, you may choose up to 3 unengaged, friendly squadrons at close-medium range. Those squadrons may move up to distance 2. If they do, they cannot end their movement engaged.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "quasar-fire-class-cruiser-carrier",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/squall-title-errata.webp"
+    },
+    "stronghold-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "4eb125e8-0e40-4fd1-9d98-21452f5d8d7e",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Stronghold",
+      "unique-class": [
+        "Stronghold"
+      ],
+      "ability": "While a friendly squadron with Swarm at distance 1-2 is defending, the attack is treated as obstructed.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "quasar-fire-class-cruiser-carrier",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/stronghold-title-errata.webp"
+    },
+    "resolute-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "9267abc3-a363-453b-ae44-07dab63449d8",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Resolute",
+      "nicknames": [
+        "Resolute"
+      ],
+      "unique-class": [
+        "Resolute"
+      ],
+      "ability": "You must choose at least 2 types of command tokens for this card. After you resolve a command by spending a dial, you may discard 1 matching command token from this card to gain that token.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "venator-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/resolute-title-errata.webp"
+    },
+    "corrupter-title-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "a35ae021-b5f8-4f49-80d4-e278c97de2b1",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Corrupter",
+      "nicknames": [
+        "Corrupter"
+      ],
+      "unique-class": [
+        "Corrupter"
+      ],
+      "ability": ":squadron:: The speed of each squadron with BOMBER you activate is increased by 1 until the end of its activation",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/corrupter-title-errata.webp"
+    },
+    "dominator-title-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "7d0badf2-4a7d-48d6-8c22-4bb5f7de0d90",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Dominator",
+      "nicknames": [
+        "Dominator"
+      ],
+      "unique-class": [
+        "Dominator"
+      ],
+      "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/dominator-title-errata.webp"
+    },
+    "dual-turbolaser-turrets-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "fb54d88f-a4ee-4662-895e-86cd62a0c39f",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Dual Turbolaser Turrets",
+      "nicknames": [
+        "DTT"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. \nWhile attacking you may exhaust this card to add 1 red die to your attack pool. If you do, remove 1 die from the attack pool.",
+      "unique": false,
+      "points": 4,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dual-turbolaser-turrets-errata.webp"
+    },
+    "heavy-fire-zone-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "65a652a0-7222-4c3d-865a-ac7f27ff399d",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Heavy Fire Zone",
+      "nicknames": [
+        "HFZ"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a squadron, before you gather dice, if the defender is not engaged with a friendly squadron you may replace all of the blue dice in your anti-squadron armament with red dice.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/heavy-fire-zone-errata.webp"
+    },
+    "heavy-turbolaser-turrets-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "f443bc36-8958-48b3-90a7-ef4520100395",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Heavy Turbolaser Turrets",
+      "nicknames": [
+        "HTT",
+        "HTTs"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking, the :brace: defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/heavy-turbolaser-turrets-errata.webp"
+    },
+    "linked-turbolaser-towers-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "99b9be1c-c20d-4e2e-95da-a08e2b8c2d9b",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Linked Turbolaser Towers",
+      "nicknames": [
+        "LTT"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a squadron, you may reroll 1 red die in your attack pool.\nWhile attacking a ship, if you have the bombard tag, you may reroll 1 red die in your attack pool.\nDuring your activation, while attacking the first squadron during an attack, you may exhaust this card to add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/linked-turbolaser-towers-errata.webp"
+    },
+    "xx-9-turbolasers-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "df777da9-6885-4853-85bf-7c1a466dfbf3",
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "XX-9 Turbolasers",
+      "nicknames": [
+        "XX9",
+        "XX9s",
+        "XX-9",
+        "XX-9s"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": ":critical:: The first 2 damage cards dealt to the defender by this attack are dealt faceup.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/xx-9-turbolasers-errata.webp"
+    },
+    "weapons-battery-techs-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "dbc62215-b8f6-4a72-af4c-5997e07bd6a9",
+      "type": "weapons-team",
+      "faction": [
+        ""
+      ],
+      "name": "Weapons Battery Techs",
+      "nicknames": [
+        "WBT",
+        "WBTs"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a ship, you may change 1 die face with a :accuracy: icon to a face with :crit: icon.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/weapons-battery-techs-errata.webp"
+    },
+    "cham-syndulla-boarding-team-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "e7485aa9-9227-4e6c-874f-b609b92837e1",
+      "type": "weapons-team-offensive-retro",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Cham Syndulla",
+      "nicknames": [
+        "Cham"
+      ],
+      "unique-class": [
+        "Cham Syndulla"
+      ],
+      "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If you do you may choose a new command for each command dial assigned to that ship. Then you may choose a new command dial for each of those command dials to be set to.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cham-syndulla-boarding-team-errata.webp"
+    },
+    "shriv-suurgav-boarding-team-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "685d07c8-0ce9-46cc-bb56-1d12b3184d8b",
+      "type": "weapons-team-offensive-retro",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Shriv Suurgav",
+      "nicknames": [
+        "Shriv"
+      ],
+      "unique-class": [
+        "Shriv Suurgav"
+      ],
+      "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. Choose and discard 1 :weapons-team:, :support-team:, :offensive-retro:, :defensive-retro:, :ordnance:, :ion-cannon:, or :turbolaser: upgrade card equipped to that ship.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/shriv-suurgav-boarding-team-errata.webp"
+    }
+  }
+}

@@ -14,7 +14,6 @@ const directories = {
   'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
   'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
   'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
-  'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
   'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
