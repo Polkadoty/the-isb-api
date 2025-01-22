@@ -65,9 +65,21 @@ const legendsDirectories = {
   'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives'),
 };
 
+const armadaDirectories = {
+  ships: path.join(__dirname, 'public/converted-json/ships'),
+  squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
+  upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
+  objectives: path.join(__dirname, 'public/converted-json/objectives'),
+  'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
+  'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
+  'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
+  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
+};
+
 // Create two maps
 const legacyNicknameMap = {};
 const legendsNicknameMap = {};
+const armadaNicknameMap = {};
 
 function processNicknames(directory, nicknameMap) {
   const files = fs.readdirSync(directory);
@@ -157,6 +169,12 @@ Object.values(legendsDirectories).forEach(directory => {
   }
 });
 
+Object.values(armadaDirectories).forEach(directory => {
+  if (fs.existsSync(directory)) {
+    processNicknames(directory, armadaNicknameMap);
+  }
+});
+
 // Create the output directory if it doesn't exist
 const outputDir = path.join(__dirname, 'src', 'discord', 'public');
 console.log('Creating output directory:', outputDir);
@@ -168,17 +186,21 @@ if (!fs.existsSync(outputDir)) {
 
 const legacyOutputPath = path.join(outputDir, 'legacy-nickname-map.json');
 const legendsOutputPath = path.join(outputDir, 'legends-nickname-map.json');
+const armadaOutputPath = path.join(outputDir, 'armada-nickname-map.json');
 console.log('Writing to:', legacyOutputPath);
 console.log('Writing to:', legendsOutputPath);
+console.log('Writing to:', armadaOutputPath);
 
 try {
   // Write both maps
   fs.writeFileSync(legacyOutputPath, JSON.stringify(legacyNicknameMap, null, 2));
   fs.writeFileSync(legendsOutputPath, JSON.stringify(legendsNicknameMap, null, 2));
-  
+  fs.writeFileSync(armadaOutputPath, JSON.stringify(armadaNicknameMap, null, 2));
+
   console.log('Successfully wrote nickname maps');
   console.log('Legacy entries:', Object.keys(legacyNicknameMap).length);
   console.log('Legends entries:', Object.keys(legendsNicknameMap).length);
+  console.log('Armada entries:', Object.keys(armadaNicknameMap).length);
 } catch (error) {
   console.error('Error writing nickname maps:', error);
 } 
