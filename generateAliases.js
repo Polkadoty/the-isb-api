@@ -47,7 +47,7 @@ function generateAliases() {
       Object.entries(data[topLevelKey]).forEach(([itemKey, itemData]) => {
         if (topLevelKey === 'ships') {
           Object.entries(itemData.models).forEach(([modelKey, modelData]) => {
-            const exportText = `${modelData.name}${modelData.alias !== 'AMG' && modelData.alias !== 'FFG' ? ` [${modelData.alias}]` : ''}(${modelData.points})`;
+            const exportText = `${modelData.name}${modelData.alias !== 'AMG' && modelData.alias !== 'FFG' ? ` [${modelData.alias}]` : ''} (${modelData.points})`;
             aliases[exportText] = modelKey;
             discordAliasMap[exportText] = modelKey;
             discordAliasMap[modelData.name] = modelKey;
@@ -59,13 +59,13 @@ function generateAliases() {
           discordAliasMap[itemData.name] = itemKey;
         } else {
           const exportText = itemData['ace-name'] 
-            ? `${itemData['ace-name']} - ${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''}(${itemData.points})`
-            : `${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''}(${itemData.points})`;
+            ? `${itemData['ace-name']} - ${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`
+            : `${itemData.name}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`;
           aliases[exportText] = itemKey;
 
           // Add additional alias without squadron name for named squadrons in base-game squadrons.json
           if (dirKey === 'squadrons' && jsonFileName === 'squadrons.json' && itemData['ace-name']) {
-            const shortExportText = `${itemData['ace-name']}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''}(${itemData.points})`;
+            const shortExportText = `${itemData['ace-name']}${itemData.alias !== 'AMG' && itemData.alias !== 'FFG' ? ` [${itemData.alias}]` : ''} (${itemData.points})`;
             aliases[shortExportText] = itemKey;
           }
           discordAliasMap[exportText] = itemKey;
