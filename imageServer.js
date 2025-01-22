@@ -21,7 +21,7 @@ const imageCache = new Map();
 const jpegImageCache = new Map();
 
 const imageStatsCache = new NodeCache({ 
-  stdTTL: 3600, // 1 hour
+  stdTTL: 60, // 1 minute
   checkperiod: 120 // Check for expired entries every 2 minutes
 });
 
