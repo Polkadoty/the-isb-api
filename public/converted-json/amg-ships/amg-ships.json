@@ -1,7 +1,7 @@
 {
   "ships": {
     "acclamator-assault-ship": {
-      "_id": "09caa98e-f6f6-4557-b358-19c980b8dd4f",
+      "_id": "c913023e-a569-4af5-9e3c-63bf9a6d095d",
       "type": "chassis",
       "chassis_name": "acclamator-assault-ship",
       "size": "medium",
@@ -46,7 +46,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "148917c2-4441-481a-8f9a-63c44a63cfe2",
+          "_id": "aca9c443-0ad4-4861-8ebd-08bb191cbac9",
           "type": "ship",
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator I-class Assault Ship",
@@ -139,7 +139,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "ca3a8bef-dc7a-4066-996f-247ec8d12b26",
+          "_id": "99ba7b22-b1e6-44cc-998c-820791d99e58",
           "type": "ship",
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator II-class Assault Ship",
@@ -228,7 +228,7 @@
       }
     },
     "arquitens-class-cruiser": {
-      "_id": "b65400e6-306a-40ea-a0d1-762dd695f8a5",
+      "_id": "37fc0da0-3708-4818-9415-875425080205",
       "type": "chassis",
       "chassis_name": "arquitens-class-cruiser",
       "size": "small",
@@ -273,7 +273,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "4ead125a-f06c-49f9-8df0-823597897477",
+          "_id": "23f7579c-0520-4a57-bea6-ee82b8a6da6a",
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Light Cruiser",
@@ -358,7 +358,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "f1426407-ebe7-462b-8f42-4d1d1db7df99",
+          "_id": "b422327d-08a9-498a-a640-dd9e61a4adcd",
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Command Cruiser",
@@ -441,7 +441,7 @@
       }
     },
     "assault-frigate-mark-ii": {
-      "_id": "dc1c94ac-bfef-4d5e-9bea-12adca9219a1",
+      "_id": "97db5929-c19e-463a-922a-f628f27dfd35",
       "type": "chassis",
       "chassis_name": "assault-frigate-mark-ii",
       "size": "medium",
@@ -486,7 +486,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "78a6b45b-218c-48b5-a8cc-5b19fb672f1c",
+          "_id": "cf1bbe8a-401d-42ce-ab38-65ea54f334c2",
           "type": "ship",
           "chassis": "assault-frigate-mark-ii",
           "name": "Assault Frigate Mark II A",
@@ -576,7 +576,7 @@
           "team": "FFG",
           "release": "Wave 1 Armada",
           "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
-          "_id": "e018e874-2fdb-4cfb-a671-e26fabd0e6ca",
+          "_id": "69353d43-7eef-4b5b-9a3a-9cc94a70d43e",
           "type": "ship",
           "chassis": "assault-frigate-mark-ii",
           "name": "Assault Frigate Mark II B",
@@ -662,7 +662,7 @@
       }
     },
     "consular-class": {
-      "_id": "640cf634-199d-415e-bc63-8e10820bf7d2",
+      "_id": "5199d35c-8209-41fe-846c-c3fe0215ed8d",
       "type": "chassis",
       "chassis_name": "consular-class",
       "size": "small",
@@ -712,7 +712,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "10cc491a-56fc-4f0b-9b9a-6688a4d0bdaa",
+          "_id": "6b3f1ae1-d617-477f-a08e-0ca58e066a3b",
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Armed Cruiser",
@@ -800,7 +800,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "a8072d9c-5101-449c-b810-6295dab31f94",
+          "_id": "b0dabedf-e7e5-447d-b23c-69ad383979ed",
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Charger c70",
@@ -887,7 +887,7 @@
       }
     },
     "gozanti-class-cis": {
-      "_id": "8f425136-b005-4d54-bed5-116fd114b683",
+      "_id": "436c3aad-e541-4fac-80a1-aaadad6aae5b",
       "type": "chassis",
       "chassis_name": "gozanti-class",
       "size": "small",
@@ -926,13 +926,13 @@
       "silhouette": "",
       "blueprint": "",
       "models": {
-        "gozanti-class-cruisers-separatist": {
+        "gozanti-class-cruisers-separatist-errata": {
           "author": "Atomic Mass Games",
           "alias": "AMG",
           "team": "AMG",
-          "release": "Rapid Reinforcements",
-          "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "f570c186-e19f-4157-9c68-3bb306114eb2",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "13bce737-f4fe-4c7a-869a-32d29e342461",
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
@@ -1013,12 +1013,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist.webp"
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-errata.webp"
         }
       }
     },
     "gozanti-class": {
-      "_id": "274cf76c-3445-41dd-ad1a-32d26d7b80a0",
+      "_id": "ea9d42a7-680f-4f3a-9207-265167e4f8e9",
       "type": "chassis",
       "chassis_name": "gozanti-class",
       "size": "small",
@@ -1063,7 +1063,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "9c7f9dd8-2a13-477f-9f4b-73cb465198b8",
+          "_id": "7ad2e927-b786-44d0-a15b-7dc47c2be8c3",
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Assault Carriers",
@@ -1147,7 +1147,7 @@
           "team": "FFG",
           "release": "Wave 3 Armada",
           "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-          "_id": "72716892-59f5-4b12-ad7d-8605a299b273",
+          "_id": "ff54137b-5506-4e2f-a476-60b97163eae5",
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
@@ -1228,7 +1228,7 @@
       }
     },
     "hardcell-class": {
-      "_id": "308f9720-e539-4c4e-b2f9-969dd6552789",
+      "_id": "b88d4f62-dc57-4814-9ca5-1be3263e618e",
       "type": "chassis",
       "chassis_name": "hardcell-class",
       "size": "small",
@@ -1273,7 +1273,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "3832532f-097e-4803-8814-25767f4be5d8",
+          "_id": "9d29d9a9-70a9-495f-985e-c33d07a6cf0b",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Transport",
@@ -1362,7 +1362,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "01748dc7-c16f-45f0-970a-a4710d584c17",
+          "_id": "e688f2ed-c6c3-40cb-8a6a-be750b51162d",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Battle Refit",
@@ -1448,7 +1448,7 @@
       }
     },
     "mc75-cruiser": {
-      "_id": "e35299c1-8844-4dda-a057-1a430bbd9d0f",
+      "_id": "b89e766f-e30c-4509-84ce-bf59130ba90a",
       "type": "chassis",
       "chassis_name": "mc75-cruiser",
       "size": "large",
@@ -1493,7 +1493,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "4adab362-baf6-4b84-9f9d-f64b01a52c72",
+          "_id": "e075fd8d-2236-47a0-b06d-11245082f1a3",
           "type": "ship",
           "chassis": "mc75-cruiser",
           "name": "MC75 Armored Cruiser",
@@ -1585,7 +1585,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "0a6aed37-e2a9-4c47-837c-59fd9406617c",
+          "_id": "f2edff88-39c9-4b87-8786-853943a4fe08",
           "type": "ship",
           "chassis": "mc75-cruiser",
           "name": "MC75 Ordnance Cruiser",
@@ -1673,7 +1673,7 @@
       }
     },
     "mc80h-cruiser": {
-      "_id": "7d066f78-a17b-4cfc-a85d-0ecc79cd5484",
+      "_id": "c61d6ee6-80c5-45ad-a79f-9121bb1b74f0",
       "type": "chassis",
       "chassis_name": "mc80h-cruiser",
       "size": "large",
@@ -1714,7 +1714,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "0daf1f29-70ab-4ccc-95a4-f5cd520753d9",
+          "_id": "4ac88d2f-2603-4c03-afa7-e6e71cdf6f9c",
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Assault Cruiser",
@@ -1806,7 +1806,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "522f2120-c690-4570-8faf-0b398f421829",
+          "_id": "968c057b-13c8-49bf-9c5e-7a10c4895678",
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Command Cruiser",
@@ -1895,7 +1895,7 @@
       }
     },
     "providence-class": {
-      "_id": "764b1b3f-2082-4bd8-aa94-52c6bf2d30ad",
+      "_id": "4290a60c-898f-4cf7-817d-3741c6cf0490",
       "type": "chassis",
       "chassis_name": "providence-class",
       "size": "large",
@@ -1940,7 +1940,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "26dda46d-e6bd-4c86-b132-c99eee0eb7e0",
+          "_id": "5a27ea7b-5580-4a8b-a6f8-8956ba17ed7b",
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Dreadnought",
@@ -2034,7 +2034,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "4e1b6fce-cde5-42c6-86b3-fa6a206e3cc4",
+          "_id": "3968d372-de78-4487-82be-b4fd6f1ce674",
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Carrier",
@@ -2124,7 +2124,7 @@
       }
     },
     "victory-star-destroyer": {
-      "_id": "13b2cf08-fbe0-415f-810d-d8365bd5fd02",
+      "_id": "a5f3c41a-a19c-4bba-a48b-1ffac543f9a0",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -2165,7 +2165,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "623eb612-3246-4a2b-b728-03ddad844339",
+          "_id": "70dc183b-2f9f-4aeb-ae54-6ec1416d8c42",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
@@ -2254,7 +2254,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "c6cefa3b-980f-4bed-9b6c-9fb589189cf6",
+          "_id": "3902d42a-7a09-464c-9e17-ad47333d0e24",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory II-Class Star Destroyer",
@@ -2335,7 +2335,7 @@
       }
     },
     "victory-star-destroyer-gar": {
-      "_id": "76e6c4f5-e139-4b43-b07f-b950e30fb0a2",
+      "_id": "ecea7792-fa84-441b-b31a-90b7a1f46ff1",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -2376,7 +2376,7 @@
           "team": "AMG",
           "release": "Rapid Reinforcements",
           "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "9a1593da-5150-4ada-ac0b-7657c9c0a70d",
+          "_id": "5bd521d9-9ded-431e-b292-b20ec50f3214",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
