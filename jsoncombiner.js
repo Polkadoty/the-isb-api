@@ -24,31 +24,42 @@ const directories = {
   'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
   'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
   'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
-  'damage': path.join(__dirname, 'public/converted-json/damage')
+  'damage': path.join(__dirname, 'public/converted-json/damage'),
+  'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
+  'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
+  'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
+  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
 };
 
 function updateIdsAndCombine(directory, outputFileName) {
   const result = {};
+  let fileCount = 0;
 
   function processDirectory(dir) {
     const files = fs.readdirSync(dir);
+    console.log(`Processing directory: ${dir}`);
+    console.log(`Found ${files.length} files/directories`);
 
     files.forEach(file => {
       const filePath = path.join(dir, file);
       const stat = fs.statSync(filePath);
 
       if (stat.isDirectory()) {
-        processDirectory(filePath); // Recursively process subdirectories
+        processDirectory(filePath);
       } else if (file.endsWith('.json') && file !== outputFileName) {
         try {
+          console.log(`Processing file: ${file}`);
           const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          fileCount++;
 
           // Recursively update _id fields
           function updateIds(obj) {
-            if (obj && typeof obj === 'object') {
+            if (Array.isArray(obj)) {
+              obj.forEach(item => updateIds(item));
+            } else if (obj && typeof obj === 'object') {
               for (let key in obj) {
                 if (key === '_id') {
-                  obj[key] = uuidv4(); // Always generate a new ID
+                  obj[key] = uuidv4();
                 } else {
                   updateIds(obj[key]);
                 }
@@ -58,23 +69,34 @@ function updateIdsAndCombine(directory, outputFileName) {
 
           updateIds(data);
 
-          // Combine data under the top-level key (e.g., "ships" or "squadrons")
+          // Handle both array and object structures
           for (let topKey in data) {
             if (!result[topKey]) {
-              result[topKey] = {};
+              result[topKey] = Array.isArray(data[topKey]) ? [] : {};
             }
-            Object.assign(result[topKey], data[topKey]);
+            
+            if (Array.isArray(data[topKey])) {
+              result[topKey].push(...data[topKey]);
+            } else {
+              Object.assign(result[topKey], data[topKey]);
+            }
           }
         } catch (error) {
-          console.error(`Error parsing JSON file: ${filePath}`, error);
+          console.error(`Error processing file ${filePath}:`, error);
         }
       }
     });
   }
 
   processDirectory(directory);
-
-  fs.writeFileSync(path.join(directory, outputFileName), JSON.stringify(result, null, 2));
+  console.log(`Processed ${fileCount} files for ${outputFileName}`);
+  
+  if (fileCount > 0) {
+    fs.writeFileSync(path.join(directory, outputFileName), JSON.stringify(result, null, 2));
+    console.log(`Successfully wrote ${outputFileName}`);
+  } else {
+    console.warn(`No files were processed for ${outputFileName}`);
+  }
 }
 
 // New function to parse command-line arguments
@@ -98,7 +120,11 @@ function parseArgs() {
     'arc-upgrades': args.includes('-arc-upgrades'),
     'arc-ships': args.includes('-arc-ships'),
     'arc-squadrons': args.includes('-arc-squadrons'),
-    'arc-objectives': args.includes('-arc-objectives')
+    'arc-objectives': args.includes('-arc-objectives'),
+    'amg-upgrades': args.includes('-amg-upgrades'),
+    'amg-ships': args.includes('-amg-ships'),
+    'amg-squadrons': args.includes('-amg-squadrons'),
+    'amg-objectives': args.includes('-amg-objectives')
   };
 
   if (flags.all) {

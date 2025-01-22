@@ -25,7 +25,7 @@ import releaseRoutes from './routes/releaseRoutes.js';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
-
+import amgRoutes from './routes/amgRoutes.js';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
@@ -107,6 +107,7 @@ app.use('/arc', arcRoutes);
 app.use('/errata-keys', errataKeysRoutes);
 app.use('/expansions', expansionRoutes);
 app.use('/releases', releaseRoutes);
+app.use('/amg', amgRoutes);
 
 // Image server middleware
 app.use('/images', (req, res, next) => {
