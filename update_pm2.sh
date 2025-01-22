@@ -6,12 +6,13 @@ pm2 stop all
 # Delete all PM2 processes
 pm2 delete all
 
-echo $(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ") > lastModified.txt
+# Update lastModified timestamp (fixed command)
+date -u +"%Y-%m-%dT%H:%M:%S.%3NZ" > lastModified.txt
 
-# Start new PM2 instances
-pm2 start index.js --name "api-server" 
-pm2 start imageServer.js --name "image-server"
-pm2 start src/discord/bot.js --name "discord-bot"
+# Start new PM2 instances with proper paths
+pm2 start /var/www/the-isb-api/index.js --name "api-server" 
+pm2 start /var/www/the-isb-api/imageServer.js --name "image-server"
+pm2 start /var/www/the-isb-api/src/discord/bot.js --name "discord-bot"
 
 # Save the PM2 process list
 pm2 save
