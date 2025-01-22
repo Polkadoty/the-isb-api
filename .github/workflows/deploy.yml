@@ -2,7 +2,7 @@ name: Deploy to Digital Ocean
 on:
   push:
     branches:
-      - main  # or your default branch
+      - main
 
 jobs:
   deploy:
@@ -14,6 +14,7 @@ jobs:
           host: ${{ secrets.DROPLET_IP }}
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
           script: |
             cd /var/www/the-isb-api
             git pull
