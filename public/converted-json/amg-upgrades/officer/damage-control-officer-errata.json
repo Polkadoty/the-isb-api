@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "damage-control-officer-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Damage Control Officer",
+      "nicknames": [
+        "DCO"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "When you resolve the :contain: defense effect, you can prevent the attacker from resolving any critical effects.",
+      "unique": false,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/damage-control-officer-errata.webp"
+    }
+  }
+}

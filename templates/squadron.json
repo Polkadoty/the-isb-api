@@ -13,6 +13,9 @@
             "faction": "faction_name",
             "squadron_type": "squadron_uid",
             "name": "squadron_name",
+            "nicknames": [
+                "string"
+            ],
             "ace-name": "string",
             "unique-class": [
                 "string"

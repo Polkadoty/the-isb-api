@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "support-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Support Officer",
+      "nicknames": [
+        "SO"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "At the start of the Command Phase, you may discard this card to discard all of your command dials.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/support-officer-errata.webp"
+    }
+  }
+}

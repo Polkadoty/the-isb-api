@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "reserve-hangar-deck-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        ""
+      ],
+      "name": "Reserve Hangar Deck",
+      "nicknames": [
+        "RHD", "RHDs"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "When a friendly non-unique squadron with swarm at distance 1-5 is destroyed, you may discard this card. If you do, you may set that squadron's hull points to \"2\" and place that squadron unengaged at distance 1 with its activation slider toggled to the activated side.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/reserve-hangar-deck-errata.webp"
+    }
+  }
+}

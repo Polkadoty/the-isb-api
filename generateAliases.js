@@ -13,16 +13,19 @@ const directories = {
   'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
   'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
   'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
-  'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
   'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
   'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
   'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
-  'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
-  'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
-  'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
-  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
+  // 'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
+  // 'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
+  // 'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
+  // 'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
+  'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
+  'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
+  'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
+  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
 };
 
 function capitalizeFirstLetter(string) {

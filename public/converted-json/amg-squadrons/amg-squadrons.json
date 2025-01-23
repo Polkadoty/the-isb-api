@@ -1,0 +1,1304 @@
+{
+  "squadrons": {
+    "aggressor-assault-fighter-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "36ee6013-f932-4416-82c4-c817ab22f464",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "aggressor-assault-fighter",
+      "name": "Aggressor Assault Fighter",
+      "nicknames": [
+        "Aggressor",
+        "Aggressors",
+        "AAF",
+        "AAFs"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/aggressor-assault-fighter-errata.webp"
+    },
+    "ig-88-ig-2000-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "5c80b0b1-7143-4ca4-93e4-f43f998a51d9",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "aggressor-assault-fighter",
+      "name": "IG-2000",
+      "nicknames": [
+        "IG-2000",
+        "IG-88"
+      ],
+      "ace-name": "IG-88",
+      "unique-class": [
+        "IG-88",
+        "IG-2000"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "You ignore the escort and counter keywords on enemy squadrons.",
+      "unique": true,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ig-88-ig-2000-errata.webp"
+    },
+    "ig-88b-ig-2000b-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "c188284c-9237-4976-9f17-ca2cbf6643c4",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "aggressor-assault-fighter",
+      "name": "IG-2000B",
+      "nicknames": [
+        "IG-2000B",
+        "IG-88B"
+      ],
+      "ace-name": "IG-88B",
+      "unique-class": [
+        "IG-88B",
+        "IG-2000B"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "At the start of the Squadron Phase, you may toggle your activation slider to the activated side. If you do, you may perform an anti-squadron attack against each enemy squadron at distance 1. Treat these attacks as obstructed.",
+      "unique": true,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ig-88b-ig-2000b-errata.webp"
+    },
+    "oddball-arc-170-starfighter-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "021c16c1-c2be-4ed4-b1d1-86cc5f0e4151",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "arc-170-starfighter-squadron",
+      "name": "ARC-170 Starfighter Squadron",
+      "nicknames": [
+        "Odd Ball",
+        "Odd ARC"
+      ],
+      "ace-name": "Odd Ball",
+      "unique-class": [
+        "Odd Ball"
+      ],
+      "irregular": false,
+      "hull": 7,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, if you moved during this activation, you may reroll up to 2 dice.",
+      "unique": true,
+      "ace": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/oddball-arc-170-starfighter-squadron-errata.webp"
+    },
+    "keyan-farlander-b-wing-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "db6e51cd-3a60-4ed8-817e-54e589cbf15a",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "b-wing-squadron",
+      "name": "B-Wing Squadron",
+      "nicknames": [
+        "Keyan",
+        "Keyan Farlander"
+      ],
+      "ace-name": "Keyan Farlander",
+      "unique-class": [
+        "Keyan Farlander"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a ship, if the defending hull zone has no shields, you may reroll any number of dice in your attack pool.",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/keyan-farlander-b-wing-squadron-errata.webp"
+    },
+    "anakin-skywalker-btl-b-y-wing-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "81988b80-6844-4f04-93f9-96eb9c2167d9",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "btl-b-y-wing-squadron",
+      "name": "BTL-B Y-wing Squadron",
+      "nicknames": [
+        "Y-wingakin",
+        "Y-wing Anakin",
+        "Anakin Y-wing"
+      ],
+      "ace-name": "Anakin Skywalker",
+      "unique-class": [
+        "Anakin Skywalker"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "During your activation, you may spend 1 defense token to ignore engagement until the end of your activation.",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-btl-b-y-wing-squadron-errata.webp"
+    },
+    "kit-fisto-delta-7-aethersprite-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "0a91642b-6466-432f-ab18-c618331e3955",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "delta-7-aethersprite-squadron",
+      "name": "Delta-7 Aethersprite Squadron",
+      "nicknames": [
+        "Deltakit"
+      ],
+      "ace-name": "Kit Fisto",
+      "unique-class": [
+        "Kit Fisto"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you spend a defense token, you may discard it. If you do, reduce the total damage by 3 instead of resolving that token's effect.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kit-fisto-delta-7-aethersprite-squadron-errata.webp"
+    },
+    "phlac-arphocc-droid-tri-fighter-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "17e352af-019e-44be-a58d-80e09e7c9171",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "droid-tri-fighter-squadron",
+      "name": "Droid Tri-Fighter Squadron",
+      "nicknames": [
+        "Phlac-Arphocc",
+        "Phlac",
+        "Phlac Arphocc Prototype"
+      ],
+      "ace-name": "Phlac-Arphocc Prototype",
+      "unique-class": [
+        "Phlac-Arphocc Prototype"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 2,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "After an enemy squadron ends its activation at distance 1, that squadron suffers 1 damage.",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/phlac-arphocc-droid-tri-fighter-squadron-errata.webp"
+    },
+    "e-wing-squadron-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+      "_id": "5903bcb3-a769-4480-aa28-0b8f168e605c",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "e-wing-squadron",
+      "name": "E-wing Squadron",
+      "nicknames": [
+        "E-Wings",
+        "E-Wing"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 3,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/e-wing-squadron-errata.webp"
+    },
+    "boba-fett-slave-i-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "7e0d0ec1-668b-4997-b3d6-712949c31b6e",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "firespray-31",
+      "name": "Slave I",
+      "nicknames": [
+        "Slave I",
+        "Boba Fett"
+      ],
+      "ace-name": "Boba Fett",
+      "unique-class": [
+        "Slave I",
+        "Boba Fett"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/boba-fett-slave-i-errata.webp"
+    },
+    "jango-fett-slave-i": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "b85f8102-6402-4198-8065-60d6c95ec55d",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "firespray-31",
+      "name": "Slave I",
+      "nicknames": [
+        "Slave I",
+        "Jango Fett"
+      ],
+      "ace-name": "Jango Fett",
+      "unique-class": [
+        "Jango Fett",
+        "Slave I"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a unique squadron during your activation, you may deal 1 damage to another friendly squadron at distance 1 of the defender. If you do, you may change 1 die to any face.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/jango-fett-slave-i.webp"
+    },
+    "colonel-jendon-lambda-class-shuttle-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "4c38f228-e09f-43a6-8cd9-042a17e076cc",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "lambda-class-shuttle",
+      "name": "Lambda-class Shuttle",
+      "nicknames": [
+        "Jendon",
+        "CJ"
+      ],
+      "ace-name": "Colonel Jendon",
+      "unique-class": [
+        "Colonel Jendon"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          2
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 2,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "During your activation, instead of attacking, you may choose 1 friendly squadron at distance 1-2. That squadron may perform an attack (even if it has already activated).",
+      "unique": true,
+      "ace": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/colonel-jendon-lambda-class-shuttle-errata.webp"
+    },
+    "lancer-class-pursuit-craft-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "8f087561-8347-4b14-a5df-6d80c5554ccf",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "lancer-class-pursuit-craft",
+      "name": "Lancer-class Pursuit Craft",
+      "nicknames": [
+        "Lancers",
+        "Lancer"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lancer-class-pursuit-craft-errata.webp"
+    },
+    "mandalorian-gauntlet-fighter-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "a21455e6-13e8-4b9c-863c-79abca75fb1e",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "nicknames": [
+        "Gauntlet",
+        "Gauntlets"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/mandalorian-gauntlet-fighter-errata.webp"
+    },
+    "gar-saxon-mandalorian-gauntlet-fighter-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "dcde7fcd-b9a1-4faa-8662-1fc353a8e774",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "nicknames": [
+        "Gar",
+        "Gar Saxon",
+        "GS"
+      ],
+      "ace-name": "Gar Saxon",
+      "unique-class": [
+        "Gar Saxon"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When an enemy squadron with INTEL or RELAY at distance 1 activates, it suffers 1 damage.",
+      "unique": true,
+      "ace": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/gar-saxon-mandalorian-gauntlet-fighter-errata.webp"
+    },
+    "malee-hurra-scurrg-h-6-bomber-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "e1548782-775a-4e5d-ac9d-a58605c059c3",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "scurrg-h-6-bomber",
+      "name": "Scurrg H-6 Bomber",
+      "nicknames": [
+        "Malee"
+      ],
+      "ace-name": "Malee Hurra",
+      "unique-class": [
+        "Malee Hurra"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": false,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Once per activation, while a friendly ship is attacking a ship at distance 1 of you and you are engaged by 1 or fewer squadrons, the attacker may spend 1 die to change 1 die to a face with a :crit: icon.",
+      "unique": true,
+      "ace": true,
+      "points": 21,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/malee-hurra-scurrg-h-6-bomber-errata.webp"
+    },
+    "whisper-tie-phantom-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "8101759a-be10-4dd6-8dc7-8610091f3314",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-phantom-squadron",
+      "name": "TIE Phantom Squadron",
+      "nicknames": [
+        "Whisper"
+      ],
+      "ace-name": "Whisper",
+      "unique-class": [
+        "Whisper"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          2,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After defending against an attack, if you spent a defense token, you may move up to distance 1, even if you are engaged.",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/whisper-tie-phantom-squadron-errata.webp"
+    },
+    "dfs-311-vulture-droid-squadron-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "ca81720d-a1dc-43cc-92c7-b45802669c0b",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "vulture-droid-squadron",
+      "name": "Vulture-class Droid Fighter Squadron",
+      "nicknames": [
+        "DFS-311",
+        "DFS"
+      ],
+      "ace-name": "DFS-311",
+      "unique-class": [
+        "DFS-311"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          0,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "While you are defending, if the attack is obstructed, you may force the attacker to reroll 1 die of your choice.",
+      "unique": true,
+      "ace": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dfs-311-vulture-droid-squadron-errata.webp"
+    },
+    "lando-calrissian-millennium-falcon-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "4a1fbf72-86b6-44e0-892d-16c28afeaa8b",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "yt-1300",
+      "name": "Millennium Falcon",
+      "nicknames": [
+        "Falcon",
+        "Lando",
+        "Calrissian"
+      ],
+      "ace-name": "Lando Calrissian",
+      "unique-class": [
+        "Lando Calrissian",
+        "Millennium Falcon"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": false,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": false,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, you may discard a defense token to set 1 die to any face. That die cannot be modified again.\nWhile defending you may spend 1 of your defense tokens to force the attacker to reroll 1 or more dice of your choice.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lando-calrissian-millennium-falcon-errata.webp"
+    }
+  }
+}

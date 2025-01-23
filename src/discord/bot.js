@@ -22,6 +22,8 @@ const legendsNicknameMap = JSON.parse(
 // Define server IDs as constants
 const LEGACY_SERVER_ID = '1128659616222425141';
 const LEGENDS_SERVER_ID = '1256627568627421205';
+const TEXAS_SERVER_ID = '1256627568627421205';
+const ARMADA_SERVER_ID = '219608175333081088';
 
 const client = new Client({
   intents: [
@@ -136,7 +138,11 @@ client.on('messageCreate', async message => {
     ? legacyNicknameMap 
     : message.guild?.id === LEGENDS_SERVER_ID
       ? legendsNicknameMap
-      : legendsNicknameMap; // default to legends for any other server
+      : message.guild?.id === TEXAS_SERVER_ID
+        ? legacyNicknameMap
+        : message.guild?.id === ARMADA_SERVER_ID
+          ? armadaNicknameMap
+          : legendsNicknameMap; // default to legends for any other server
 
   // Help commands
   if (message.content.toLowerCase().match(/^!help$/)) {

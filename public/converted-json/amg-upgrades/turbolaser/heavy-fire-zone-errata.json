@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "heavy-fire-zone-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "turbolaser",
+      "faction": [
+        ""
+      ],
+      "name": "Heavy Fire Zone",
+      "nicknames": [
+        "HFZ"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a squadron, before you gather dice, if the defender is not engaged with a friendly squadron you may replace all of the blue dice in your anti-squadron armament with red dice.",
+      "unique": false,
+      "points": 2 ,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/heavy-fire-zone-errata.webp"
+    }
+  }
+}

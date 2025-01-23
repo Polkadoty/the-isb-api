@@ -1,0 +1,120 @@
+{
+    "upgrades": {
+        "invisible-hand-title-errata": {
+            "author": "Atomic Mass Games",
+            "alias": "AMG",
+            "team": "AMG",
+            "release": "AMG Final Errata",
+            "expansion": "AMG Final Errata",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Invisible Hand",
+            "nicknames": [
+                "Invis Hand", "IH"
+            ],
+            "unique-class": [
+                "Invisible Hand"
+            ],
+            "ability": "While deploying fleets, if you are in the play area, when you would deploy a squadron with SWARM, you may set that squadron aside next to your ship card instead. You may set aside up to 5 squadrons this way. :squadron: : Choose any number of squadrons set aside with this card. Then place them within distance 1-3 of you. During your activation, those squadrons cannot move, and if they have AI, may increase their AI value by 1.",
+            "unique": true,
+            "points": 8,
+            "modification": false,
+            "bound_shiptype": "providence-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/invisible-hand-title-errata.webp"
+        },
+        "lucid-voice-title-errata": {
+            "author": "Atomic Mass Games",
+            "alias": "AMG",
+            "team": "AMG",
+            "release": "AMG Final Errata",
+            "expansion": "AMG Final Errata",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Lucid Voice",
+            "nicknames": [
+                "Lucid Voice", "LV"
+            ],
+            "unique-class": [
+                "Lucid Voice"
+            ],
+            "ability": "Treat your rear hull zone's printed battery armament as 3 red dice. The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "providence-class",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/lucid-voice-title-errata.webp"
+        }
+    }
+}

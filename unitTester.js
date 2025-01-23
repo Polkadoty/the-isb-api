@@ -23,7 +23,11 @@ const directories = {
   'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
   'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
   'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
-  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives')
+  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
+  'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
+  'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
+  'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
+  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
 };
 
 // Load tests from YAML file
@@ -173,7 +177,6 @@ function parseArgs() {
     squadrons: args.includes('-squadrons'),
     upgrades: args.includes('-upgrades'),
     objectives: args.includes('-objectives'),
-    'legacy-ships': args.includes('-legacy-ships'),
     'legacy-squadrons': args.includes('-legacy-squadrons'),
     'legacy-upgrades': args.includes('-legacy-upgrades'),
     'legends-ships': args.includes('-legends-ships'),
@@ -188,7 +191,11 @@ function parseArgs() {
     'arc-objectives': args.includes('-arc-objectives'),
     noModifications: args.includes('--no-modifications'),
     noTests: args.includes('--no-tests'),
-    force: args.includes('--force')
+    force: args.includes('--force'),
+    'amg-upgrades': args.includes('-amg-upgrades'),
+    'amg-ships': args.includes('-amg-ships'),
+    'amg-squadrons': args.includes('-amg-squadrons'),
+    'amg-objectives': args.includes('-amg-objectives')
   };
 
   if (flags.all) {

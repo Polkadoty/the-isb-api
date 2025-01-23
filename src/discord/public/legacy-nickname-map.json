@@ -6,20 +6,26 @@
     "yt-2400"
   ],
   "Arquitens-class Light Cruiser": [
-    "arquitens-class-light-cruiser"
+    "arquitens-class-light-cruiser",
+    "arquitens-class-light-cruiser-errata"
   ],
   "Arquitens": [
     "arquitens-class-light-cruiser",
-    "arquitens-class-command-cruiser"
+    "arquitens-class-command-cruiser",
+    "arquitens-class-light-cruiser-errata",
+    "arquitens-class-command-cruiser-errata"
   ],
   "Arquitens Light": [
-    "arquitens-class-light-cruiser"
+    "arquitens-class-light-cruiser",
+    "arquitens-class-light-cruiser-errata"
   ],
   "Arquitens-class Command Cruiser": [
-    "arquitens-class-command-cruiser"
+    "arquitens-class-command-cruiser",
+    "arquitens-class-command-cruiser-errata"
   ],
   "Arquitens Command": [
-    "arquitens-class-command-cruiser"
+    "arquitens-class-command-cruiser",
+    "arquitens-class-command-cruiser-errata"
   ],
   "Gladiator I-Class Star Destroyer": [
     "gladiator-i-class-star-destroyer"
@@ -40,23 +46,29 @@
     "gladiator-ii-class-star-destroyer"
   ],
   "Gozanti-class Assault Carriers": [
-    "gozanti-class-assault-carriers"
+    "gozanti-class-assault-carriers",
+    "gozanti-class-assault-carriers-errata"
   ],
   "Gozanti": [
     "gozanti-class-assault-carriers",
     "gozanti-class-cruisers",
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers-separatist",
+    "gozanti-class-cruisers-separatist-errata",
+    "gozanti-class-assault-carriers-errata"
   ],
   "Gozanti Assault": [
-    "gozanti-class-assault-carriers"
+    "gozanti-class-assault-carriers",
+    "gozanti-class-assault-carriers-errata"
   ],
   "Gozanti-class Cruisers": [
     "gozanti-class-cruisers",
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers-separatist",
+    "gozanti-class-cruisers-separatist-errata"
   ],
   "Gozanti Cruiser": [
     "gozanti-class-cruisers",
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers-separatist",
+    "gozanti-class-cruisers-separatist-errata"
   ],
   "Imperial I-class Star Destroyer": [
     "imperial-i-class-star-destroyer"
@@ -74,7 +86,20 @@
     "imperial-star-destroyer-kuat-refit",
     "venator-i-class-star-destroyer",
     "venator-ii-class-star-destroyer",
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
+  ],
+  "Imperial Star Destroyer": [
+    "imperial-i-class-star-destroyer",
+    "imperial-ii-class-star-destroyer",
+    "imperial-star-destroyer-cymoon-refit",
+    "imperial-star-destroyer-kuat-refit"
+  ],
+  "ISD": [
+    "imperial-i-class-star-destroyer",
+    "imperial-ii-class-star-destroyer",
+    "imperial-star-destroyer-cymoon-refit",
+    "imperial-star-destroyer-kuat-refit"
   ],
   "Imperial II-class Star Destroyer": [
     "imperial-ii-class-star-destroyer"
@@ -264,49 +289,59 @@
     "venator-ii-class-star-destroyer-empire",
     "venator-ii-class-star-destroyer"
   ],
-  "Victory I-Class Star Destroyer": [
-    "victory-i-class-star-destroyer",
-    "victory-i-class-star-destroyer-republic"
+  "Victory I-class Star Destroyer": [
+    "victory-i-class-star-destroyer"
   ],
   "Victory": [
     "victory-i-class-star-destroyer",
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
   ],
   "Victory I": [
     "victory-i-class-star-destroyer",
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
   ],
   "Victory 1": [
     "victory-i-class-star-destroyer",
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
   ],
   "Victory II-Class Star Destroyer": [
-    "victory-ii-class-star-destroyer"
+    "victory-ii-class-star-destroyer",
+    "victory-ii-class-star-destroyer-errata"
   ],
   "Assault Frigate Mark II A": [
-    "assault-frigate-mark-ii-a"
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-a-errata"
   ],
   "Assault Frigate": [
-    "assault-frigate-mark-ii-a"
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-a-errata"
   ],
   "Assault Frigate Mark II": [
     "assault-frigate-mark-ii-a",
-    "assault-frigate-mark-ii-b"
+    "assault-frigate-mark-ii-b",
+    "assault-frigate-mark-ii-a-errata"
   ],
   "Assault Frigate 2": [
     "assault-frigate-mark-ii-a",
-    "assault-frigate-mark-ii-b"
+    "assault-frigate-mark-ii-b",
+    "assault-frigate-mark-ii-a-errata"
   ],
   "AF": [
     "assault-frigate-mark-ii-a",
-    "assault-frigate-mark-ii-b"
+    "assault-frigate-mark-ii-b",
+    "assault-frigate-mark-ii-a-errata"
   ],
   "AFMk2": [
     "assault-frigate-mark-ii-a",
-    "assault-frigate-mark-ii-b"
+    "assault-frigate-mark-ii-b",
+    "assault-frigate-mark-ii-a-errata"
   ],
   "AFMk2A": [
-    "assault-frigate-mark-ii-a"
+    "assault-frigate-mark-ii-a",
+    "assault-frigate-mark-ii-a-errata"
   ],
   "Assault Frigate Mark II B": [
     "assault-frigate-mark-ii-b"
@@ -420,68 +455,92 @@
     "mc30c-torpedo-frigate"
   ],
   "MC75 Armored Cruiser": [
-    "mc75-armored-cruiser"
+    "mc75-armored-cruiser",
+    "mc75-armored-cruiser-errata"
   ],
   "MC75": [
     "mc75-armored-cruiser",
-    "mc75-ordnance-cruiser"
+    "mc75-ordnance-cruiser",
+    "mc75-armored-cruiser-errata",
+    "mc75-ordnance-cruiser-errata"
   ],
   "MC-75": [
     "mc75-armored-cruiser",
-    "mc75-ordnance-cruiser"
+    "mc75-ordnance-cruiser",
+    "mc75-armored-cruiser-errata",
+    "mc75-ordnance-cruiser-errata"
   ],
   "MC75 Armored": [
-    "mc75-armored-cruiser"
+    "mc75-armored-cruiser",
+    "mc75-armored-cruiser-errata"
   ],
   "MC-75 Armored": [
-    "mc75-armored-cruiser"
+    "mc75-armored-cruiser",
+    "mc75-armored-cruiser-errata"
   ],
   "MC75 Ordnance Cruiser": [
-    "mc75-ordnance-cruiser"
+    "mc75-ordnance-cruiser",
+    "mc75-ordnance-cruiser-errata"
   ],
   "MC75 Ordnance": [
-    "mc75-ordnance-cruiser"
+    "mc75-ordnance-cruiser",
+    "mc75-ordnance-cruiser-errata"
   ],
   "MC-75 Ordnance": [
-    "mc75-ordnance-cruiser"
+    "mc75-ordnance-cruiser",
+    "mc75-ordnance-cruiser-errata"
   ],
   "MC80 Assault Cruiser": [
-    "mc80h-assault-cruiser"
+    "mc80h-assault-cruiser",
+    "mc80h-assault-cruiser-errata"
   ],
   "MC80": [
     "mc80h-assault-cruiser",
     "mc80h-command-cruiser",
     "mc80l-star-cruiser",
-    "mc80l-battle-cruiser"
+    "mc80l-battle-cruiser",
+    "mc80h-assault-cruiser-errata",
+    "mc80h-command-cruiser-errata"
   ],
   "MC-80": [
     "mc80h-assault-cruiser",
     "mc80h-command-cruiser",
     "mc80l-star-cruiser",
-    "mc80l-battle-cruiser"
+    "mc80l-battle-cruiser",
+    "mc80h-assault-cruiser-errata",
+    "mc80h-command-cruiser-errata"
   ],
   "MC80H": [
     "mc80h-assault-cruiser",
-    "mc80h-command-cruiser"
+    "mc80h-command-cruiser",
+    "mc80h-assault-cruiser-errata",
+    "mc80h-command-cruiser-errata"
   ],
   "MC-80H": [
     "mc80h-assault-cruiser",
-    "mc80h-command-cruiser"
+    "mc80h-command-cruiser",
+    "mc80h-assault-cruiser-errata",
+    "mc80h-command-cruiser-errata"
   ],
   "MC80 Assault": [
-    "mc80h-assault-cruiser"
+    "mc80h-assault-cruiser",
+    "mc80h-assault-cruiser-errata"
   ],
   "MC-80 Assault": [
-    "mc80h-assault-cruiser"
+    "mc80h-assault-cruiser",
+    "mc80h-assault-cruiser-errata"
   ],
   "MC80 Command Cruiser": [
-    "mc80h-command-cruiser"
+    "mc80h-command-cruiser",
+    "mc80h-command-cruiser-errata"
   ],
   "MC80 Command": [
-    "mc80h-command-cruiser"
+    "mc80h-command-cruiser",
+    "mc80h-command-cruiser-errata"
   ],
   "MC-80 Command": [
-    "mc80h-command-cruiser"
+    "mc80h-command-cruiser",
+    "mc80h-command-cruiser-errata"
   ],
   "MC80 Star Cruiser": [
     "mc80l-star-cruiser"
@@ -564,22 +623,29 @@
   ],
   "Providence-class Carrier": [
     "providence-class-carrier-rebel",
-    "providence-class-carrier"
+    "providence-class-carrier",
+    "providence-class-carrier-errata"
   ],
   "Providence": [
     "providence-class-carrier-rebel",
     "providence-class-dreadnought",
-    "providence-class-carrier"
+    "providence-class-carrier",
+    "providence-class-dreadnought-errata",
+    "providence-class-carrier-errata"
   ],
   "Providence-class": [
     "providence-class-carrier-rebel",
     "providence-class-dreadnought",
-    "providence-class-carrier"
+    "providence-class-carrier",
+    "providence-class-dreadnought-errata",
+    "providence-class-carrier-errata"
   ],
   "Prov": [
     "providence-class-carrier-rebel",
     "providence-class-dreadnought",
-    "providence-class-carrier"
+    "providence-class-carrier",
+    "providence-class-dreadnought-errata",
+    "providence-class-carrier-errata"
   ],
   "Rebel Prov": [
     "providence-class-carrier-rebel"
@@ -617,24 +683,30 @@
     "starhawk-class-battleship-mark-ii"
   ],
   "Acclamator I-class Assault Ship": [
-    "acclamator-i-class-assault-ship"
+    "acclamator-i-class-assault-ship",
+    "acclamator-i-class-assault-ship-errata"
   ],
   "Acclamator": [
     "acclamator-i-class-assault-ship",
-    "acclamator-ii-class-assault-ship"
+    "acclamator-ii-class-assault-ship",
+    "acclamator-i-class-assault-ship-errata"
   ],
   "Acclamator-class": [
     "acclamator-i-class-assault-ship",
-    "acclamator-ii-class-assault-ship"
+    "acclamator-ii-class-assault-ship",
+    "acclamator-i-class-assault-ship-errata"
   ],
   "Acclamator I": [
-    "acclamator-i-class-assault-ship"
+    "acclamator-i-class-assault-ship",
+    "acclamator-i-class-assault-ship-errata"
   ],
   "Acclamator-I": [
-    "acclamator-i-class-assault-ship"
+    "acclamator-i-class-assault-ship",
+    "acclamator-i-class-assault-ship-errata"
   ],
   "Acclamator 1": [
-    "acclamator-i-class-assault-ship"
+    "acclamator-i-class-assault-ship",
+    "acclamator-i-class-assault-ship-errata"
   ],
   "Acclamator II-class Assault Ship": [
     "acclamator-ii-class-assault-ship"
@@ -653,29 +725,36 @@
   ],
   "Consular": [
     "consular-class-armed-cruiser",
-    "consular-class-charger-c70"
+    "consular-class-charger-c70",
+    "consular-class-charger-c70-errata"
   ],
   "Consular-class": [
     "consular-class-armed-cruiser",
-    "consular-class-charger-c70"
+    "consular-class-charger-c70",
+    "consular-class-charger-c70-errata"
   ],
   "Consular Armed": [
     "consular-class-armed-cruiser"
   ],
   "Consular-class Charger c70": [
-    "consular-class-charger-c70"
+    "consular-class-charger-c70",
+    "consular-class-charger-c70-errata"
   ],
   "Consular Charger": [
-    "consular-class-charger-c70"
+    "consular-class-charger-c70",
+    "consular-class-charger-c70-errata"
   ],
   "Consular-class Charger": [
-    "consular-class-charger-c70"
+    "consular-class-charger-c70",
+    "consular-class-charger-c70-errata"
   ],
   "C70": [
-    "consular-class-charger-c70"
+    "consular-class-charger-c70",
+    "consular-class-charger-c70-errata"
   ],
   "C-70": [
-    "consular-class-charger-c70"
+    "consular-class-charger-c70",
+    "consular-class-charger-c70-errata"
   ],
   "Pelta-class Medical Frigate": [
     "pelta-class-medical-frigate"
@@ -734,17 +813,25 @@
   "Venator-II": [
     "venator-ii-class-star-destroyer"
   ],
+  "Victory I-Class Star Destroyer": [
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
+  ],
   "Victory-class": [
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
   ],
   "Victory-class Star Destroyer": [
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
   ],
   "Victory-1": [
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
   ],
   "Victory-I": [
-    "victory-i-class-star-destroyer-republic"
+    "victory-i-class-star-destroyer-republic",
+    "victory-i-class-star-destroyer-republic-errata"
   ],
   "Dummy Commander": [
     "dummy-ship-commander"
@@ -792,39 +879,48 @@
     "dummy-ship-title"
   ],
   "Gozanti-class": [
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers-separatist",
+    "gozanti-class-cruisers-separatist-errata"
   ],
   "Gozanti-class Cruiser": [
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers-separatist",
+    "gozanti-class-cruisers-separatist-errata"
   ],
   "Gozer": [
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers-separatist",
+    "gozanti-class-cruisers-separatist-errata"
   ],
   "Seppy Gozanti": [
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers-separatist",
+    "gozanti-class-cruisers-separatist-errata"
   ],
   "Hardcell-class Transport": [
     "hardcell-class-transport"
   ],
   "Hardcell": [
     "hardcell-class-transport",
-    "hardcell-class-battle-refit"
+    "hardcell-class-battle-refit",
+    "hardcell-class-battle-refit-errata"
   ],
   "Hardcell-class": [
     "hardcell-class-transport",
-    "hardcell-class-battle-refit"
+    "hardcell-class-battle-refit",
+    "hardcell-class-battle-refit-errata"
   ],
   "Hardcell Transport": [
     "hardcell-class-transport"
   ],
   "Hardcell-class Battle Refit": [
-    "hardcell-class-battle-refit"
+    "hardcell-class-battle-refit",
+    "hardcell-class-battle-refit-errata"
   ],
   "Hardcell Battle": [
-    "hardcell-class-battle-refit"
+    "hardcell-class-battle-refit",
+    "hardcell-class-battle-refit-errata"
   ],
   "Hardcell-class Battle": [
-    "hardcell-class-battle-refit"
+    "hardcell-class-battle-refit",
+    "hardcell-class-battle-refit-errata"
   ],
   "Munificent-class Star Frigate": [
     "munificent-class-star-frigate"
@@ -867,13 +963,16 @@
     "munificent-class-comms-frigate"
   ],
   "Providence-class Dreadnought": [
-    "providence-class-dreadnought"
+    "providence-class-dreadnought",
+    "providence-class-dreadnought-errata"
   ],
   "Dreadnought": [
-    "providence-class-dreadnought"
+    "providence-class-dreadnought",
+    "providence-class-dreadnought-errata"
   ],
   "Carrier": [
-    "providence-class-carrier"
+    "providence-class-carrier",
+    "providence-class-carrier-errata"
   ],
   "Recusant-class Light Destroyer": [
     "recusant-class-light-destroyer"
@@ -914,31 +1013,40 @@
     "recusant-class-support-destroyer"
   ],
   "Aggressor Assault Fighter": [
-    "aggressor-assault-fighter"
+    "aggressor-assault-fighter",
+    "aggressor-assault-fighter-errata"
   ],
   "Aggressor": [
-    "aggressor-assault-fighter"
+    "aggressor-assault-fighter",
+    "aggressor-assault-fighter-errata"
   ],
   "Aggressors": [
-    "aggressor-assault-fighter"
+    "aggressor-assault-fighter",
+    "aggressor-assault-fighter-errata"
   ],
   "AAF": [
-    "aggressor-assault-fighter"
+    "aggressor-assault-fighter",
+    "aggressor-assault-fighter-errata"
   ],
   "AAFs": [
-    "aggressor-assault-fighter"
+    "aggressor-assault-fighter",
+    "aggressor-assault-fighter-errata"
   ],
   "IG-2000": [
-    "ig-88-ig-2000"
+    "ig-88-ig-2000",
+    "ig-88-ig-2000-errata"
   ],
   "IG-88": [
-    "ig-88-ig-2000"
+    "ig-88-ig-2000",
+    "ig-88-ig-2000-errata"
   ],
   "IG-2000B": [
-    "ig-88b-ig-2000b"
+    "ig-88b-ig-2000b",
+    "ig-88b-ig-2000b-errata"
   ],
   "IG-88B": [
-    "ig-88b-ig-2000b"
+    "ig-88b-ig-2000b",
+    "ig-88b-ig-2000b-errata"
   ],
   "Firespray-31": [
     "firespray-31"
@@ -954,10 +1062,13 @@
   ],
   "Slave I": [
     "boba-fett-slave-i",
-    "hondo-ohnaka-slave-i"
+    "hondo-ohnaka-slave-i",
+    "boba-fett-slave-i-errata",
+    "jango-fett-slave-i"
   ],
   "Boba Fett": [
-    "boba-fett-slave-i"
+    "boba-fett-slave-i",
+    "boba-fett-slave-i-errata"
   ],
   "Hondo Ohnaka": [
     "hondo-ohnaka-slave-i",
@@ -1003,7 +1114,8 @@
   ],
   "Lambda-class Shuttle": [
     "lambda-class-shuttle",
-    "colonel-jendon-lambda-class-shuttle"
+    "colonel-jendon-lambda-class-shuttle",
+    "colonel-jendon-lambda-class-shuttle-errata"
   ],
   "Lambda": [
     "lambda-class-shuttle"
@@ -1012,33 +1124,43 @@
     "lambda-class-shuttle"
   ],
   "Colonel Jendon": [
-    "colonel-jendon-lambda-class-shuttle"
+    "colonel-jendon-lambda-class-shuttle",
+    "colonel-jendon-lambda-class-shuttle-errata"
   ],
   "Jendon": [
-    "colonel-jendon-lambda-class-shuttle"
+    "colonel-jendon-lambda-class-shuttle",
+    "colonel-jendon-lambda-class-shuttle-errata"
   ],
   "CJ": [
-    "colonel-jendon-lambda-class-shuttle"
+    "colonel-jendon-lambda-class-shuttle",
+    "colonel-jendon-lambda-class-shuttle-errata"
   ],
   "Mandalorian Gauntlet Fighter": [
     "mandalorian-gauntlet-fighter",
     "gar-saxon-mandalorian-gauntlet-fighter",
-    "fenn-rau-mandalorian-gauntlet-fighter"
+    "fenn-rau-mandalorian-gauntlet-fighter",
+    "mandalorian-gauntlet-fighter-errata",
+    "gar-saxon-mandalorian-gauntlet-fighter-errata"
   ],
   "Gauntlet": [
-    "mandalorian-gauntlet-fighter"
+    "mandalorian-gauntlet-fighter",
+    "mandalorian-gauntlet-fighter-errata"
   ],
   "Gauntlets": [
-    "mandalorian-gauntlet-fighter"
+    "mandalorian-gauntlet-fighter",
+    "mandalorian-gauntlet-fighter-errata"
   ],
   "Gar Saxon": [
-    "gar-saxon-mandalorian-gauntlet-fighter"
+    "gar-saxon-mandalorian-gauntlet-fighter",
+    "gar-saxon-mandalorian-gauntlet-fighter-errata"
   ],
   "Gar": [
-    "gar-saxon-mandalorian-gauntlet-fighter"
+    "gar-saxon-mandalorian-gauntlet-fighter",
+    "gar-saxon-mandalorian-gauntlet-fighter-errata"
   ],
   "GS": [
-    "gar-saxon-mandalorian-gauntlet-fighter"
+    "gar-saxon-mandalorian-gauntlet-fighter",
+    "gar-saxon-mandalorian-gauntlet-fighter-errata"
   ],
   "Fenn Rau": [
     "fenn-rau-mandalorian-gauntlet-fighter"
@@ -1066,7 +1188,9 @@
     "darth-vader-tie-defender-squadron",
     "darth-vader-commander",
     "darth-vader-officer",
-    "darth-vader-boarding-team"
+    "darth-vader-boarding-team",
+    "darth-vader-commander-errata",
+    "darth-vader-officer-errata"
   ],
   "Vader Advanced": [
     "darth-vader-tie-advanced-squadron"
@@ -1233,7 +1357,8 @@
   ],
   "TIE Phantom Squadron": [
     "tie-phantom-squadron",
-    "whisper-tie-phantom-squadron"
+    "whisper-tie-phantom-squadron",
+    "whisper-tie-phantom-squadron-errata"
   ],
   "Phantom": [
     "tie-phantom-squadron"
@@ -1242,7 +1367,8 @@
     "tie-phantom-squadron"
   ],
   "Whisper": [
-    "whisper-tie-phantom-squadron"
+    "whisper-tie-phantom-squadron",
+    "whisper-tie-phantom-squadron-errata"
   ],
   "VT-49 Decimator": [
     "vt-49-decimator",
@@ -1325,7 +1451,8 @@
     "b-wing-squadron",
     "keyan-farlander-b-wing-squadron",
     "ten-numb-b-wing-squadron",
-    "dagger-squadron-b-wing-squadron"
+    "dagger-squadron-b-wing-squadron",
+    "keyan-farlander-b-wing-squadron-errata"
   ],
   "B-Wings": [
     "b-wing-squadron"
@@ -1337,10 +1464,12 @@
     "b-wing-squadron"
   ],
   "Keyan Farlander": [
-    "keyan-farlander-b-wing-squadron"
+    "keyan-farlander-b-wing-squadron",
+    "keyan-farlander-b-wing-squadron-errata"
   ],
   "Keyan": [
-    "keyan-farlander-b-wing-squadron"
+    "keyan-farlander-b-wing-squadron",
+    "keyan-farlander-b-wing-squadron-errata"
   ],
   "Ten Numb": [
     "ten-numb-b-wing-squadron"
@@ -1356,13 +1485,16 @@
   ],
   "E-wing Squadron": [
     "e-wing-squadron",
-    "corran-horn-e-wing-squadron"
+    "corran-horn-e-wing-squadron",
+    "e-wing-squadron-errata"
   ],
   "E-Wings": [
-    "e-wing-squadron"
+    "e-wing-squadron",
+    "e-wing-squadron-errata"
   ],
   "E-Wing": [
-    "e-wing-squadron"
+    "e-wing-squadron",
+    "e-wing-squadron-errata"
   ],
   "Corran Horn": [
     "corran-horn-e-wing-squadron"
@@ -1402,13 +1534,16 @@
     "kanan-jarrus-hwk-290"
   ],
   "Lancer-class Pursuit Craft": [
-    "lancer-class-pursuit-craft"
+    "lancer-class-pursuit-craft",
+    "lancer-class-pursuit-craft-errata"
   ],
   "Lancers": [
-    "lancer-class-pursuit-craft"
+    "lancer-class-pursuit-craft",
+    "lancer-class-pursuit-craft-errata"
   ],
   "Lancer": [
-    "lancer-class-pursuit-craft"
+    "lancer-class-pursuit-craft",
+    "lancer-class-pursuit-craft-errata"
   ],
   "Shadow Caster": [
     "ketsu-onyo-lancer-class-pursuit-craft"
@@ -1421,7 +1556,8 @@
   ],
   "Scurrg H-6 Bomber": [
     "scurrg-h-6-bomber",
-    "malee-hurra-scurrg-h-6-bomber"
+    "malee-hurra-scurrg-h-6-bomber",
+    "malee-hurra-scurrg-h-6-bomber-errata"
   ],
   "Scurrg": [
     "scurrg-h-6-bomber"
@@ -1448,10 +1584,12 @@
     "nym-havoc"
   ],
   "Malee Hurra": [
-    "malee-hurra-scurrg-h-6-bomber"
+    "malee-hurra-scurrg-h-6-bomber",
+    "malee-hurra-scurrg-h-6-bomber-errata"
   ],
   "Malee": [
-    "malee-hurra-scurrg-h-6-bomber"
+    "malee-hurra-scurrg-h-6-bomber",
+    "malee-hurra-scurrg-h-6-bomber-errata"
   ],
   "Overpriced": [
     "malee-hurra-scurrg-h-6-bomber"
@@ -1595,14 +1733,16 @@
   ],
   "Millennium Falcon": [
     "han-solo-millennium-falcon",
-    "lando-calrissian-millennium-falcon"
+    "lando-calrissian-millennium-falcon",
+    "lando-calrissian-millennium-falcon-errata"
   ],
   "Han Solo": [
     "han-solo-millennium-falcon"
   ],
   "Falcon": [
     "han-solo-millennium-falcon",
-    "lando-calrissian-millennium-falcon"
+    "lando-calrissian-millennium-falcon",
+    "lando-calrissian-millennium-falcon-errata"
   ],
   "Han": [
     "han-solo-millennium-falcon"
@@ -1615,15 +1755,18 @@
   ],
   "Lando Calrissian": [
     "lando-calrissian-millennium-falcon",
-    "lando-calrissian-officer"
+    "lando-calrissian-officer",
+    "lando-calrissian-millennium-falcon-errata"
   ],
   "Lando": [
     "lando-calrissian-millennium-falcon",
-    "lando-calrissian-officer"
+    "lando-calrissian-officer",
+    "lando-calrissian-millennium-falcon-errata"
   ],
   "Calrissian": [
     "lando-calrissian-millennium-falcon",
-    "lando-calrissian-officer"
+    "lando-calrissian-officer",
+    "lando-calrissian-millennium-falcon-errata"
   ],
   "YT-2400": [
     "yt-2400"
@@ -1680,7 +1823,8 @@
   ],
   "ARC-170 Starfighter Squadron": [
     "arc-170-starfighter-squadron",
-    "oddball-arc170-starfighter-squadron"
+    "oddball-arc-170-starfighter-squadron",
+    "oddball-arc-170-starfighter-squadron-errata"
   ],
   "ARC": [
     "arc-170-starfighter-squadron"
@@ -1692,15 +1836,18 @@
     "arc-170-starfighter-squadron"
   ],
   "Odd Ball": [
-    "oddball-arc170-starfighter-squadron"
+    "oddball-arc-170-starfighter-squadron",
+    "oddball-arc-170-starfighter-squadron-errata"
   ],
   "Odd ARC": [
-    "oddball-arc170-starfighter-squadron"
+    "oddball-arc-170-starfighter-squadron",
+    "oddball-arc-170-starfighter-squadron-errata"
   ],
   "BTL-B Y-wing Squadron": [
     "btl-b-y-wing-squadron",
     "anakin-skywalker-btl-b-y-wing-squadron",
-    "matchstick-btl-b-y-wing-squadron"
+    "matchstick-btl-b-y-wing-squadron",
+    "anakin-skywalker-btl-b-y-wing-squadron-errata"
   ],
   "BTL": [
     "btl-b-y-wing-squadron"
@@ -1721,16 +1868,21 @@
     "anakin-skywalker-btl-b-y-wing-squadron",
     "anakin-skywalker-delta-7-aethersprite-squadron",
     "anakin-skywalker-commander",
-    "anakin-skywalker-twilight-legacy"
+    "anakin-skywalker-twilight-legacy",
+    "anakin-skywalker-commander-errata",
+    "anakin-skywalker-btl-b-y-wing-squadron-errata"
   ],
   "Y-wingakin": [
-    "anakin-skywalker-btl-b-y-wing-squadron"
+    "anakin-skywalker-btl-b-y-wing-squadron",
+    "anakin-skywalker-btl-b-y-wing-squadron-errata"
   ],
   "Y-wing Anakin": [
-    "anakin-skywalker-btl-b-y-wing-squadron"
+    "anakin-skywalker-btl-b-y-wing-squadron",
+    "anakin-skywalker-btl-b-y-wing-squadron-errata"
   ],
   "Anakin Y-wing": [
-    "anakin-skywalker-btl-b-y-wing-squadron"
+    "anakin-skywalker-btl-b-y-wing-squadron",
+    "anakin-skywalker-btl-b-y-wing-squadron-errata"
   ],
   "Matchstick": [
     "matchstick-btl-b-y-wing-squadron"
@@ -1741,7 +1893,8 @@
     "kit-fisto-delta-7-aethersprite-squadron",
     "luminara-unduli-delta-7-aethersprite-squadron",
     "plo-koon-delta-7-aethersprite-squadron",
-    "anakin-skywalker-delta-7-aethersprite-squadron"
+    "anakin-skywalker-delta-7-aethersprite-squadron",
+    "kit-fisto-delta-7-aethersprite-squadron-errata"
   ],
   "Delta": [
     "delta-7-aethersprite-squadron",
@@ -1760,10 +1913,12 @@
     "ahsoka-tano-delta-7-aethersprite-squadron"
   ],
   "Kit Fisto": [
-    "kit-fisto-delta-7-aethersprite-squadron"
+    "kit-fisto-delta-7-aethersprite-squadron",
+    "kit-fisto-delta-7-aethersprite-squadron-errata"
   ],
   "Deltakit": [
-    "kit-fisto-delta-7-aethersprite-squadron"
+    "kit-fisto-delta-7-aethersprite-squadron",
+    "kit-fisto-delta-7-aethersprite-squadron-errata"
   ],
   "Luminara Unduli": [
     "luminara-unduli-delta-7-aethersprite-squadron",
@@ -1846,7 +2001,8 @@
   "Droid Tri-Fighter Squadron": [
     "droid-tri-fighter-squadron",
     "phlac-arphocc-droid-tri-fighter-squadron",
-    "dis-t81-droid-tri-fighter-squadron"
+    "dis-t81-droid-tri-fighter-squadron",
+    "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
   "Droid Tri-Fighters": [
     "droid-tri-fighter-squadron"
@@ -1858,16 +2014,20 @@
     "droid-tri-fighter-squadron"
   ],
   "Phlac-Arphocc Prototype": [
-    "phlac-arphocc-droid-tri-fighter-squadron"
+    "phlac-arphocc-droid-tri-fighter-squadron",
+    "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
   "Phlac-Arphocc": [
-    "phlac-arphocc-droid-tri-fighter-squadron"
+    "phlac-arphocc-droid-tri-fighter-squadron",
+    "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
   "Phlac": [
-    "phlac-arphocc-droid-tri-fighter-squadron"
+    "phlac-arphocc-droid-tri-fighter-squadron",
+    "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
   "Phlac Arphocc Prototype": [
-    "phlac-arphocc-droid-tri-fighter-squadron"
+    "phlac-arphocc-droid-tri-fighter-squadron",
+    "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
   "DIS-T81": [
     "dis-t81-droid-tri-fighter-squadron"
@@ -1910,7 +2070,8 @@
   "Vulture-class Droid Fighter Squadron": [
     "vulture-droid-squadron",
     "haor-chall-vulture-droid-squadron",
-    "dfs-311-vulture-droid-squadron"
+    "dfs-311-vulture-droid-squadron",
+    "dfs-311-vulture-droid-squadron-errata"
   ],
   "Vultures": [
     "vulture-droid-squadron"
@@ -1937,10 +2098,18 @@
     "haor-chall-vulture-droid-squadron"
   ],
   "DFS-311": [
-    "dfs-311-vulture-droid-squadron"
+    "dfs-311-vulture-droid-squadron",
+    "dfs-311-vulture-droid-squadron-errata"
   ],
   "DFS": [
-    "dfs-311-vulture-droid-squadron"
+    "dfs-311-vulture-droid-squadron",
+    "dfs-311-vulture-droid-squadron-errata"
+  ],
+  "Armed Station": [
+    "armed-station"
+  ],
+  "Unarmed Station": [
+    "unarmed-station"
   ],
   "Admiral Ackbar": [
     "admiral-ackbar-commander"
@@ -1981,10 +2150,12 @@
     "admiral-raddus-commander"
   ],
   "Admiral Screed": [
-    "admiral-screed-commander"
+    "admiral-screed-commander",
+    "admiral-screed-commander-errata"
   ],
   "Screed": [
-    "admiral-screed-commander"
+    "admiral-screed-commander",
+    "admiral-screed-commander-errata"
   ],
   "Admiral Sloane": [
     "admiral-sloane-commander"
@@ -2000,10 +2171,12 @@
     "grand-moff-tarkin-commander"
   ],
   "Admiral Trench": [
-    "admiral-trench-commander"
+    "admiral-trench-commander",
+    "admiral-trench-commander-errata"
   ],
   "Trench": [
-    "admiral-trench-commander"
+    "admiral-trench-commander",
+    "admiral-trench-commander-errata"
   ],
   "Admiral Yularen": [
     "admiral-yularen-commander"
@@ -2016,10 +2189,12 @@
     "admiral-yularen-commander"
   ],
   "Anakin": [
-    "anakin-skywalker-commander"
+    "anakin-skywalker-commander",
+    "anakin-skywalker-commander-errata"
   ],
   "Commanderkin": [
-    "anakin-skywalker-commander"
+    "anakin-skywalker-commander",
+    "anakin-skywalker-commander-errata"
   ],
   "Bail Organa": [
     "bail-organa-commander"
@@ -2036,15 +2211,19 @@
     "commander-sato-commander"
   ],
   "Count Dooku": [
-    "count-dooku-commander"
+    "count-dooku-commander",
+    "count-dooku-commander-errata"
   ],
   "Dooku": [
-    "count-dooku-commander"
+    "count-dooku-commander",
+    "count-dooku-commander-errata"
   ],
   "Vader": [
     "darth-vader-commander",
     "darth-vader-officer",
-    "darth-vader-boarding-team"
+    "darth-vader-boarding-team",
+    "darth-vader-commander-errata",
+    "darth-vader-officer-errata"
   ],
   "Emperor Palpatine": [
     "emperor-palpatine-commander",
@@ -2077,11 +2256,13 @@
   ],
   "General Draven": [
     "general-draven-commander",
-    "general-draven-officer"
+    "general-draven-officer",
+    "general-draven-commander-errata"
   ],
   "Draven": [
     "general-draven-commander",
-    "general-draven-officer"
+    "general-draven-officer",
+    "general-draven-commander-errata"
   ],
   "Grievous": [
     "general-grievous-commander"
@@ -2090,10 +2271,12 @@
     "general-grievous-commander"
   ],
   "General Madine": [
-    "general-madine-commander"
+    "general-madine-commander",
+    "general-madine-commander-errata"
   ],
   "Madine": [
-    "general-madine-commander"
+    "general-madine-commander",
+    "general-madine-commander-errata"
   ],
   "General Rieekan": [
     "general-rieekan-commander"
@@ -2188,13 +2371,16 @@
     "mon-mothma-commander"
   ],
   "Obi-Wan Kenobi": [
-    "obi-wan-kenobi-commander"
+    "obi-wan-kenobi-commander",
+    "obi-wan-kenobi-commander-errata"
   ],
   "Obi-Wan": [
-    "obi-wan-kenobi-commander"
+    "obi-wan-kenobi-commander",
+    "obi-wan-kenobi-commander-errata"
   ],
   "Kenobi": [
-    "obi-wan-kenobi-commander"
+    "obi-wan-kenobi-commander",
+    "obi-wan-kenobi-commander-errata"
   ],
   "Plo": [
     "plo-koon-commander"
@@ -2366,10 +2552,12 @@
     "jedi-hostage"
   ],
   "Mercy Mission": [
-    "mercy-mission"
+    "mercy-mission",
+    "mercy-mission-errata"
   ],
   "MM": [
-    "mercy-mission"
+    "mercy-mission",
+    "mercy-mission-errata"
   ],
   "Shields to Maximum!": [
     "shields-to-maximum"
@@ -2415,7 +2603,8 @@
   ],
   "Jamming": [
     "jamming-field",
-    "jamming-barrier"
+    "jamming-barrier",
+    "jamming-barrier-errata"
   ],
   "Munitions Resupply": [
     "munitions-resupply"
@@ -2430,28 +2619,35 @@
     "parts-resupply"
   ],
   "PR": [
-    "parts-resupply"
+    "parts-resupply",
+    "prototype-recovery"
   ],
   "Parts": [
     "parts-resupply"
   ],
   "Repair Crews": [
-    "repair-crews"
+    "repair-crews",
+    "repair-crews-errata"
   ],
   "RCs": [
-    "repair-crews"
+    "repair-crews",
+    "repair-crews-errata"
   ],
   "Repair": [
-    "repair-crews"
+    "repair-crews",
+    "repair-crews-errata"
   ],
   "Slicer Tools": [
-    "slicer-tools"
+    "slicer-tools",
+    "slicer-tools-errata"
   ],
   "ST": [
-    "slicer-tools"
+    "slicer-tools",
+    "slicer-tools-errata"
   ],
   "Slicers": [
-    "slicer-tools"
+    "slicer-tools",
+    "slicer-tools-errata"
   ],
   "Heavy Ion Emplacements": [
     "heavy-ion-emplacements"
@@ -2463,16 +2659,20 @@
     "heavy-ion-emplacements"
   ],
   "High-Capacity Ion Turbines": [
-    "high-capacity-ion-turbines"
+    "high-capacity-ion-turbines",
+    "high-capacity-ion-turbines-errata"
   ],
   "HCT": [
-    "high-capacity-ion-turbines"
+    "high-capacity-ion-turbines",
+    "high-capacity-ion-turbines-errata"
   ],
   "High Capacity": [
-    "high-capacity-ion-turbines"
+    "high-capacity-ion-turbines",
+    "high-capacity-ion-turbines-errata"
   ],
   "HCIT": [
-    "high-capacity-ion-turbines"
+    "high-capacity-ion-turbines",
+    "high-capacity-ion-turbines-errata"
   ],
   "Ion Cannon Batteries": [
     "ion-cannon-batteries"
@@ -2481,10 +2681,12 @@
     "ion-cannon-batteries"
   ],
   "Leading Shots": [
-    "leading-shots"
+    "leading-shots",
+    "leading-shots-errata"
   ],
   "LS": [
-    "leading-shots"
+    "leading-shots",
+    "leading-shots-errata"
   ],
   "MS-1 Ion Cannon": [
     "ms1-ion-cannon"
@@ -2502,35 +2704,45 @@
     "ms1-ion-cannon"
   ],
   "NK-7 Ion Cannons": [
-    "nk-7-ion-cannons"
+    "nk-7-ion-cannons",
+    "nk-7-ion-cannons-errata"
   ],
   "NK7": [
-    "nk-7-ion-cannons"
+    "nk-7-ion-cannons",
+    "nk-7-ion-cannons-errata"
   ],
   "NK-7": [
-    "nk-7-ion-cannons"
+    "nk-7-ion-cannons",
+    "nk-7-ion-cannons-errata"
   ],
   "NK-7s": [
-    "nk-7-ion-cannons"
+    "nk-7-ion-cannons",
+    "nk-7-ion-cannons-errata"
   ],
   "NK7s": [
-    "nk-7-ion-cannons"
+    "nk-7-ion-cannons",
+    "nk-7-ion-cannons-errata"
   ],
   "Overload Pulse": [
-    "overload-pulse"
+    "overload-pulse",
+    "overload-pulse-errata"
   ],
   "OP": [
     "overload-pulse",
-    "ordnance-pods"
+    "ordnance-pods",
+    "overload-pulse-errata"
   ],
   "Point Defense Ion Cannons": [
-    "point-defense-ion-cannons"
+    "point-defense-ion-cannons",
+    "point-defense-ion-cannons-errata"
   ],
   "PDIC": [
-    "point-defense-ion-cannons"
+    "point-defense-ion-cannons",
+    "point-defense-ion-cannons-errata"
   ],
   "PDICs": [
-    "point-defense-ion-cannons"
+    "point-defense-ion-cannons",
+    "point-defense-ion-cannons-errata"
   ],
   "SW-7 Ion Batteries": [
     "sw-7-ion-batteries"
@@ -2681,25 +2893,32 @@
     "quad-laser-turrets"
   ],
   "Rapid Launch Bays": [
-    "rapid-launch-bays"
+    "rapid-launch-bays",
+    "rapid-launch-bays-errata"
   ],
   "RLB": [
-    "rapid-launch-bays"
+    "rapid-launch-bays",
+    "rapid-launch-bays-errata"
   ],
   "RLBs": [
-    "rapid-launch-bays"
+    "rapid-launch-bays",
+    "rapid-launch-bays-errata"
   ],
   "Launch Bays": [
-    "rapid-launch-bays"
+    "rapid-launch-bays",
+    "rapid-launch-bays-errata"
   ],
   "Reserve Hangar Deck": [
-    "reserve-hangar-deck"
+    "reserve-hangar-deck",
+    "reserve-hangar-deck-errata"
   ],
   "RHD": [
-    "reserve-hangar-deck"
+    "reserve-hangar-deck",
+    "reserve-hangar-deck-errata"
   ],
   "RHDs": [
-    "reserve-hangar-deck"
+    "reserve-hangar-deck",
+    "reserve-hangar-deck-errata"
   ],
   "SPHA-T": [
     "spha-t"
@@ -2771,13 +2990,16 @@
     "ahsoka-tano-officer-republic"
   ],
   "Asajj Ventress": [
-    "asajj-ventress-officer"
+    "asajj-ventress-officer",
+    "asajj-ventress-officer-errata"
   ],
   "Asajj": [
-    "asajj-ventress-officer"
+    "asajj-ventress-officer",
+    "asajj-ventress-officer-errata"
   ],
   "Ventress": [
-    "asajj-ventress-officer"
+    "asajj-ventress-officer",
+    "asajj-ventress-officer-errata"
   ],
   "Barriss Offee": [
     "barriss-offee-officer"
@@ -2832,13 +3054,16 @@
     "clone-captain-zak-officer"
   ],
   "Clone Commander Wolffe": [
-    "clone-commander-wolffe-officer"
+    "clone-commander-wolffe-officer",
+    "clone-commander-wolffe-officer-errata"
   ],
   "CCW": [
-    "clone-commander-wolffe-officer"
+    "clone-commander-wolffe-officer",
+    "clone-commander-wolffe-officer-errata"
   ],
   "Wolffe": [
-    "clone-commander-wolffe-officer"
+    "clone-commander-wolffe-officer",
+    "clone-commander-wolffe-officer-errata"
   ],
   "Clone Navigation Officer": [
     "clone-navigation-officer"
@@ -2877,13 +3102,16 @@
     "commander-woldar-officer"
   ],
   "Damage Control Officer": [
-    "damage-control-officer"
+    "damage-control-officer",
+    "damage-control-officer-errata"
   ],
   "DCO": [
-    "damage-control-officer"
+    "damage-control-officer",
+    "damage-control-officer-errata"
   ],
   "Vader Officer": [
-    "darth-vader-officer"
+    "darth-vader-officer",
+    "darth-vader-officer-errata"
   ],
   "Defense Liaison": [
     "defense-liaison-officer"
@@ -2938,10 +3166,12 @@
     "flight-controllers"
   ],
   "Governor Pryce": [
-    "governor-pryce-officer"
+    "governor-pryce-officer",
+    "governor-pryce-officer-errata"
   ],
   "Pryce": [
-    "governor-pryce-officer"
+    "governor-pryce-officer",
+    "governor-pryce-officer-errata"
   ],
   "Ohnaka": [
     "hondo-ohnaka-officer"
@@ -3047,13 +3277,16 @@
     "sabine-wren-officer"
   ],
   "San Hill": [
-    "san-hill-officer"
+    "san-hill-officer",
+    "san-hill-officer-errata"
   ],
   "San": [
-    "san-hill-officer"
+    "san-hill-officer",
+    "san-hill-officer-errata"
   ],
   "Hill": [
-    "san-hill-officer"
+    "san-hill-officer",
+    "san-hill-officer-errata"
   ],
   "Shu Mai": [
     "shu-mai-officer"
@@ -3071,10 +3304,12 @@
     "skilled-first-officer"
   ],
   "Support Officer": [
-    "support-officer"
+    "support-officer",
+    "support-officer-errata"
   ],
   "SO": [
-    "support-officer"
+    "support-officer",
+    "support-officer-errata"
   ],
   "T-series Tactical Droid": [
     "t-series-tactical-droid-officer"
@@ -3131,10 +3366,13 @@
     "toryn-farr-officer"
   ],
   "Veteran Captain": [
-    "veteran-captain-officer"
+    "veteran-captain-officer",
+    "veteran-captain-officer-errata"
   ],
   "VC": [
-    "veteran-captain-officer"
+    "veteran-captain-officer",
+    "volatile-cargo",
+    "veteran-captain-officer-errata"
   ],
   "Walex Blissex": [
     "walex-blissex-officer"
@@ -3185,13 +3423,16 @@
     "assault-proton-torpedoes"
   ],
   "Expanded Launchers": [
-    "expanded-launchers"
+    "expanded-launchers",
+    "expanded-launchers-errata"
   ],
   "EL": [
-    "expanded-launchers"
+    "expanded-launchers",
+    "expanded-launchers-errata"
   ],
   "Launchers": [
-    "expanded-launchers"
+    "expanded-launchers",
+    "expanded-launchers-errata"
   ],
   "External Racks": [
     "external-racks"
@@ -3224,10 +3465,12 @@
     "ordnance-pods"
   ],
   "Rapid Reload": [
-    "rapid-reload"
+    "rapid-reload",
+    "rapid-reload-errata"
   ],
   "RR": [
-    "rapid-reload"
+    "rapid-reload",
+    "rapid-reload-errata"
   ],
   "Wide-Area Barrage": [
     "wide-area-barrage"
@@ -3288,16 +3531,19 @@
   ],
   "ET": [
     "engine-techs",
-    "engineering-team"
+    "engineering-team",
+    "engineering-team-errata"
   ],
   "E Techs": [
     "engine-techs"
   ],
   "Engineering Team": [
-    "engineering-team"
+    "engineering-team",
+    "engineering-team-errata"
   ],
   "E Team": [
-    "engineering-team"
+    "engineering-team",
+    "engineering-team-errata"
   ],
   "Fighter Coordination Team": [
     "fighter-coordination-team"
@@ -3319,7 +3565,8 @@
     "medical-team"
   ],
   "Nav Team": [
-    "nav-team"
+    "nav-team",
+    "nav-team-errata"
   ],
   "Projection Experts": [
     "projection-experts"
@@ -3337,10 +3584,12 @@
     "centicore-title"
   ],
   "Hand of Justice": [
-    "hand-of-justice-title"
+    "hand-of-justice-title",
+    "hand-of-justice-title-errata"
   ],
   "HoJ": [
-    "hand-of-justice-title"
+    "hand-of-justice-title",
+    "hand-of-justice-title-errata"
   ],
   "Demolisher": [
     "demolisher-title"
@@ -3385,10 +3634,12 @@
     "pursuant-title"
   ],
   "Squall": [
-    "squall-title"
+    "squall-title",
+    "squall-title-errata"
   ],
   "Stronghold": [
-    "stronghold-title"
+    "stronghold-title",
+    "stronghold-title-errata"
   ],
   "Corvus": [
     "corvus-title"
@@ -3415,10 +3666,12 @@
     "ravager-title"
   ],
   "Corrupter": [
-    "corrupter-title"
+    "corrupter-title",
+    "corrupter-title-errata"
   ],
   "Dominator": [
-    "dominator-title"
+    "dominator-title",
+    "dominator-title-errata"
   ],
   "Harrow": [
     "harrow-title"
@@ -3437,22 +3690,28 @@
     "paragon-title"
   ],
   "Dodonna's Pride": [
-    "dodonnas-pride-title"
+    "dodonnas-pride-title",
+    "dodonnas-pride-title-errata"
   ],
   "D Pride": [
-    "dodonnas-pride-title"
+    "dodonnas-pride-title",
+    "dodonnas-pride-title-errata"
   ],
   "Jaina's Light": [
-    "jainas-light-title"
+    "jainas-light-title",
+    "jainas-light-title-errata"
   ],
   "Jaina's": [
-    "jainas-light-title"
+    "jainas-light-title",
+    "jainas-light-title-errata"
   ],
   "Jainas": [
-    "jainas-light-title"
+    "jainas-light-title",
+    "jainas-light-title-errata"
   ],
   "JL": [
-    "jainas-light-title"
+    "jainas-light-title",
+    "jainas-light-title-errata"
   ],
   "Liberator": [
     "liberator-title"
@@ -3494,16 +3753,20 @@
     "task-force-organa-title"
   ],
   "Admonition": [
-    "admonition-title"
+    "admonition-title",
+    "admonition-title-errata"
   ],
   "ADM": [
-    "admonition-title"
+    "admonition-title",
+    "admonition-title-errata"
   ],
   "Foresight": [
-    "foresight-title"
+    "foresight-title",
+    "foresight-title-errata"
   ],
   "FS": [
-    "foresight-title"
+    "foresight-title",
+    "foresight-title-errata"
   ],
   "Aspiration": [
     "aspiration-title"
@@ -3515,10 +3778,12 @@
     "defiance-title"
   ],
   "Home One": [
-    "home-one-title"
+    "home-one-title",
+    "home-one-title-errata"
   ],
   "Useless": [
-    "home-one-title"
+    "home-one-title",
+    "home-one-title-errata"
   ],
   "Independence": [
     "independence-title"
@@ -3545,7 +3810,8 @@
     "mon-calamari-exodus-fleet-title"
   ],
   "Redemption": [
-    "redemption-title"
+    "redemption-title",
+    "redemption-title-errata"
   ],
   "Salvation": [
     "salvation-title"
@@ -3593,7 +3859,8 @@
     "tb-73-title"
   ],
   "Resolute": [
-    "resolute-title"
+    "resolute-title",
+    "resolute-title-errata"
   ],
   "Tranquility": [
     "tranquility-title"
@@ -3642,19 +3909,24 @@
     "invincible-title"
   ],
   "Invisible Hand": [
-    "invisible-hand-title"
+    "invisible-hand-title",
+    "invisible-hand-title-errata"
   ],
   "Invis Hand": [
-    "invisible-hand-title"
+    "invisible-hand-title",
+    "invisible-hand-title-errata"
   ],
   "IH": [
-    "invisible-hand-title"
+    "invisible-hand-title",
+    "invisible-hand-title-errata"
   ],
   "Lucid Voice": [
-    "lucid-voice-title"
+    "lucid-voice-title",
+    "lucid-voice-title-errata"
   ],
   "LV": [
-    "lucid-voice-title"
+    "lucid-voice-title",
+    "lucid-voice-title-errata"
   ],
   "Gilded Aegis": [
     "gilded-aegis-title"
@@ -3687,10 +3959,12 @@
     "dby-827-heavy-turbolasers"
   ],
   "Dual Turbolaser Turrets": [
-    "dual-turbolaser-turrets"
+    "dual-turbolaser-turrets",
+    "dual-turbolaser-turrets-errata"
   ],
   "DTT": [
-    "dual-turbolaser-turrets"
+    "dual-turbolaser-turrets",
+    "dual-turbolaser-turrets-errata"
   ],
   "Enhanced Armament": [
     "enhanced-armament"
@@ -3708,25 +3982,32 @@
     "h9-turbolasers"
   ],
   "Heavy Fire Zone": [
-    "heavy-fire-zone"
+    "heavy-fire-zone",
+    "heavy-fire-zone-errata"
   ],
   "HFZ": [
-    "heavy-fire-zone"
+    "heavy-fire-zone",
+    "heavy-fire-zone-errata"
   ],
   "Heavy Turbolaser Turrets": [
-    "heavy-turbolaser-turrets"
+    "heavy-turbolaser-turrets",
+    "heavy-turbolaser-turrets-errata"
   ],
   "HTT": [
-    "heavy-turbolaser-turrets"
+    "heavy-turbolaser-turrets",
+    "heavy-turbolaser-turrets-errata"
   ],
   "HTTs": [
-    "heavy-turbolaser-turrets"
+    "heavy-turbolaser-turrets",
+    "heavy-turbolaser-turrets-errata"
   ],
   "Linked Turbolaser Towers": [
-    "linked-turbolaser-towers"
+    "linked-turbolaser-towers",
+    "linked-turbolaser-towers-errata"
   ],
   "LTT": [
-    "linked-turbolaser-towers"
+    "linked-turbolaser-towers",
+    "linked-turbolaser-towers-errata"
   ],
   "Quad Battery Turrets": [
     "quad-battery-turrets"
@@ -3786,19 +4067,24 @@
     "xi7-turbolasers"
   ],
   "XX-9 Turbolasers": [
-    "xx-9-turbolasers"
+    "xx-9-turbolasers",
+    "xx-9-turbolasers-errata"
   ],
   "XX9": [
-    "xx-9-turbolasers"
+    "xx-9-turbolasers",
+    "xx-9-turbolasers-errata"
   ],
   "XX9s": [
-    "xx-9-turbolasers"
+    "xx-9-turbolasers",
+    "xx-9-turbolasers-errata"
   ],
   "XX-9": [
-    "xx-9-turbolasers"
+    "xx-9-turbolasers",
+    "xx-9-turbolasers-errata"
   ],
   "XX-9s": [
-    "xx-9-turbolasers"
+    "xx-9-turbolasers",
+    "xx-9-turbolasers-errata"
   ],
   "Caitken and Shollan": [
     "caitken-and-shollan"
@@ -3864,13 +4150,16 @@
     "veteran-gunners"
   ],
   "Weapons Battery Techs": [
-    "weapons-battery-techs"
+    "weapons-battery-techs",
+    "weapons-battery-techs-errata"
   ],
   "WBT": [
-    "weapons-battery-techs"
+    "weapons-battery-techs",
+    "weapons-battery-techs-errata"
   ],
   "WBTs": [
-    "weapons-battery-techs"
+    "weapons-battery-techs",
+    "weapons-battery-techs-errata"
   ],
   "Boarding Engineers": [
     "boarding-engineers-boarding-team"
@@ -3885,10 +4174,12 @@
     "boarding-troopers-boarding-team"
   ],
   "Cham Syndulla": [
-    "cham-syndulla-boarding-team"
+    "cham-syndulla-boarding-team",
+    "cham-syndulla-boarding-team-errata"
   ],
   "Cham": [
-    "cham-syndulla-boarding-team"
+    "cham-syndulla-boarding-team",
+    "cham-syndulla-boarding-team-errata"
   ],
   "Jyn Erso": [
     "jyn-erso-boarding-team"
@@ -3897,10 +4188,12 @@
     "jyn-erso-boarding-team"
   ],
   "Shriv Suurgav": [
-    "shriv-suurgav-boarding-team"
+    "shriv-suurgav-boarding-team",
+    "shriv-suurgav-boarding-team-errata"
   ],
   "Shriv": [
-    "shriv-suurgav-boarding-team"
+    "shriv-suurgav-boarding-team",
+    "shriv-suurgav-boarding-team-errata"
   ],
   "Blockade Run": [
     "blockade-run"
@@ -3929,6 +4222,44 @@
   "Beacons": [
     "targeting-beacons"
   ],
+  "Hyperlane Raid": [
+    "hyperlane-raid"
+  ],
+  "Hyperlane": [
+    "hyperlane-raid"
+  ],
+  "Show of Force": [
+    "show-of-force"
+  ],
+  "Base Defense - Armed Station": [
+    "base-defense-armed-station-cc",
+    "base-defense-armed-station-ritr"
+  ],
+  "Base Defense": [
+    "base-defense-armed-station-cc",
+    "base-defense-fighter-wing-cc",
+    "base-defense-ion-cannon-cc",
+    "base-defense-armed-station-ritr",
+    "base-defense-fighter-wing-ritr",
+    "base-defense-ion-cannon-ritr"
+  ],
+  "Base Defense - Fighter Wing": [
+    "base-defense-fighter-wing-cc",
+    "base-defense-fighter-wing-ritr"
+  ],
+  "Base Defense - Ion Cannon": [
+    "base-defense-ion-cannon-cc",
+    "base-defense-ion-cannon-ritr"
+  ],
+  "Asteroids": [
+    "asteroids"
+  ],
+  "Independent Station": [
+    "independent-station"
+  ],
+  "Nebula Outskirts": [
+    "nebula-outskirts"
+  ],
   "Capture the VIP": [
     "capture-the-vip"
   ],
@@ -3939,7 +4270,8 @@
     "fighter-ambush"
   ],
   "Jamming Barrier": [
-    "jamming-barrier"
+    "jamming-barrier",
+    "jamming-barrier-errata"
   ],
   "Planetary Ion Cannon": [
     "planetary-ion-cannon"
@@ -3975,10 +4307,12 @@
     "advanced-gunnery"
   ],
   "Most Wanted": [
-    "most-wanted"
+    "most-wanted",
+    "most-wanted-errata"
   ],
   "MW": [
-    "most-wanted"
+    "most-wanted",
+    "most-wanted-errata"
   ],
   "Opening Salvo": [
     "opening-salvo"
@@ -4035,6 +4369,72 @@
   "SP": [
     "superior-positions"
   ],
+  "Blinded Gunners": [
+    "blinded-gunners"
+  ],
+  "Capacitor Failure": [
+    "capacitor-failure"
+  ],
+  "Comm Noise": [
+    "comm-noise"
+  ],
+  "Compartment Fire": [
+    "compartment-fire"
+  ],
+  "Coolant Discharge": [
+    "coolant-discharge"
+  ],
+  "Crew Panic": [
+    "crew-panic"
+  ],
+  "Damaged Controls": [
+    "damaged-controls"
+  ],
+  "Damaged Munitions": [
+    "damaged-munitions"
+  ],
+  "Depowered Armament": [
+    "depowered-armament"
+  ],
+  "Disengaged Fire Control": [
+    "disengaged-fire-control"
+  ],
+  "Faulty Countermeasures": [
+    "faulty-countermeasures"
+  ],
+  "Injured Crew": [
+    "injured-crew"
+  ],
+  "Life Support Failure": [
+    "life-support-failure"
+  ],
+  "Point Defense Failure": [
+    "point-defense-failure"
+  ],
+  "Power Failure": [
+    "power-failure"
+  ],
+  "Projector Misaligned": [
+    "projector-misaligned"
+  ],
+  "Ruptured Engine": [
+    "ruptured-engine"
+  ],
+  "Shield Failure": [
+    "shield-failure"
+  ],
+  "Structural Damage": [
+    "structural-damage"
+  ],
+  "Targeter Disruption": [
+    "targeter-disruption"
+  ],
+  "Thrust Control Malfunction": [
+    "thrust-control-malfunction"
+  ],
+  "Thruster Fissure": [
+    "thruster-fissure"
+  ],
   "Ion Storm": [
     "ion-storm"
   ],
@@ -4049,6 +4449,7 @@
   ],
   "RA": [
     "rift-assault",
+    "recruit-allies",
     "rift-ambush"
   ],
   "Rift": [
@@ -4061,6 +4462,45 @@
   ],
   "SA": [
     "surprise-attack"
+  ],
+  "Double Agent": [
+    "double-agent"
+  ],
+  "DA": [
+    "double-agent"
+  ],
+  "Hired Scum": [
+    "hired-scum"
+  ],
+  "HS": [
+    "hired-scum"
+  ],
+  "Holonet Override": [
+    "holonet-override"
+  ],
+  "HO": [
+    "holonet-override"
+  ],
+  "Pilot Defection": [
+    "pilot-defection"
+  ],
+  "PD": [
+    "pilot-defection"
+  ],
+  "Prototype Recovery": [
+    "prototype-recovery"
+  ],
+  "Recruit Allies": [
+    "recruit-allies"
+  ],
+  "Steal Supplies": [
+    "steal-supplies"
+  ],
+  "SS": [
+    "steal-supplies"
+  ],
+  "Volatile Cargo": [
+    "volatile-cargo"
   ],
   "Abandoned Mining Facility": [
     "abandoned-mining-facility"
@@ -4087,13 +4527,16 @@
     "doomed-station"
   ],
   "Hyperspace Migration": [
-    "hyperspace-migration"
+    "hyperspace-migration",
+    "hyperspace-migration-errata"
   ],
   "HM": [
-    "hyperspace-migration"
+    "hyperspace-migration",
+    "hyperspace-migration-errata"
   ],
   "Purrgil": [
-    "hyperspace-migration"
+    "hyperspace-migration",
+    "hyperspace-migration-errata"
   ],
   "Infested Fields": [
     "infested-fields"
@@ -4248,5 +4691,8 @@
   ],
   "Ki Adi": [
     "ki-adi-mundi-commander-legacy"
+  ],
+  "Jango Fett": [
+    "jango-fett-slave-i"
   ]
 }

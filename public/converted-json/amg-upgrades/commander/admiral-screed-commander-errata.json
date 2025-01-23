@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "admiral-screed-commander-errata": {
+      "author": "Fantasy Flight Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "empire"
+      ],
+      "name": "Admiral Screed",
+      "nicknames": [
+        "Screed"
+      ],
+      "unique-class": [
+        "Admiral Screed"
+      ],
+      "ability": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a :critical: icon.",
+      "unique": true,
+      "points": 24,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-screed-commander-errata.webp"
+    }
+  }
+}

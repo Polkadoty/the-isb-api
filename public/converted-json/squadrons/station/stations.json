@@ -1,0 +1,136 @@
+{
+  "squadrons": {
+    "armed-station": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "sandbox",
+      "squadron_type": "armed-station",
+      "name": "Armed Station",
+      "nicknames": [
+        "Armed Station"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 13,
+      "speed": 0,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          0
+        ],
+        "anti-ship": [
+          2,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "This station cannot suffer critical effects.\nTo determine line of sight to or from this station, trace to the point of its token that is closest to the squadron or hull zone that is attacking or defending.",
+      "unique": false,
+      "points": 0,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/armed-station.webp"
+    },
+    "unarmed-station": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "unarmed-station",
+      "name": "Unarmed Station",
+      "nicknames": [
+        "Unarmed Station"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 10,
+      "speed": 0,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "This station cannot suffer critical effects.\nTo determine line of sight to or from this station, trace to the point of its token that is closest to the attacking squadron or hull zone.",
+      "unique": false,
+      "points": 0,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/unarmed-station.webp"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "general-romodi-officer": {
+            "author": "Armada Legends",
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends December 2024 Dev Cycle",
+            "expansion": "December 2024 Upgrade Expansion",
+            "_id": null,
+            "type": "officer",
+            "faction": [
+                "empire"
+            ],
+            "name": "General Romodi",
+            "nicknames": [
+                "General Romodi", "Flak Officer"
+            ],
+            "unique-class": [
+                "General Romodi"
+            ],
+            "ability": "Non-huge ship only.\nWhen attacking a squadron, if the attack is obstructed by a ship or obstacle, the attacked does not remove a die, and may add 1 blue die to the attack pool.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    "small","medium","large"
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/general-romodi-officer.webp"
+        }
+    }
+}

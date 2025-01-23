@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "asajj-ventress-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Asajj Ventress",
+      "nicknames": [
+        "Asajj", "Ventress"
+      ],
+      "unique-class": [
+        "Asajj Ventress"
+      ],
+      "ability": "After you perform an attack targeting a ship that has 1 or more raid tokens, if the defender suffered one or more damage, you may remove 1 raid token and 1 command token from the defender. If you do, gain a matching command token.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/asajj-ventress-officer-errata.webp"
+    }
+  }
+}

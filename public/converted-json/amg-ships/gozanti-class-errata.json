@@ -1,0 +1,212 @@
+{
+  "ships": {
+    "gozanti-class": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "gozanti-class",
+      "size": "small",
+      "hull": 3,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 1,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "gozanti-class-assault-carriers-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": null,
+          "type": "ship",
+          "chassis": "gozanti-class",
+          "name": "Gozanti-class Assault Carriers",
+          "nicknames": [
+            "Gozanti", "Gozanti Assault"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 26,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "fleet-support",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              0,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-assault-carriers-errata.webp"
+        },
+        "gozanti-class-cruisers": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 3 Armada",
+          "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "gozanti-class",
+          "name": "Gozanti-class Cruisers",
+          "nicknames": [
+            "Gozanti", "Gozanti Cruiser"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 23,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "fleet-support",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers.webp"
+        }
+      }
+    }
+  }
+}

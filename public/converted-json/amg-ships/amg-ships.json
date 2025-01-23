@@ -1,0 +1,2472 @@
+{
+  "ships": {
+    "acclamator-assault-ship": {
+      "_id": "b29c6399-b637-40bf-94a5-dea32c9fc137",
+      "type": "chassis",
+      "chassis_name": "acclamator-assault-ship",
+      "size": "medium",
+      "hull": 7,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          0
+        ],
+        "3": [
+          0,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "acclamator-i-class-assault-ship-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "89195eeb-dc6b-4506-94f4-2da13a41e463",
+          "type": "ship",
+          "chassis": "acclamator-assault-ship",
+          "name": "Acclamator I-class Assault Ship",
+          "nicknames": [
+            "Acclamator",
+            "Acclamator-class",
+            "Acclamator I",
+            "Acclamator-I",
+            "Acclamator 1"
+          ],
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone",
+            "transport"
+          ],
+          "points": 64,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              3,
+              0,
+              2
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/acclamator-i-class-assault-ship-errata.webp"
+        },
+        "acclamator-ii-class-assault-ship": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 9 Armada",
+          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "_id": "16b8c87e-5fb3-4a9d-b97a-ca32516d69b0",
+          "type": "ship",
+          "chassis": "acclamator-assault-ship",
+          "name": "Acclamator II-class Assault Ship",
+          "nicknames": [
+            "Acclamator",
+            "Acclamator-class",
+            "Acclamator II",
+            "Acclamator-II",
+            "Acclamator 2"
+          ],
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone",
+            "bombard",
+            "transport"
+          ],
+          "points": 71,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "turbolaser",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              1,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/acclamator-ii-class-assault-ship.webp"
+        }
+      }
+    },
+    "arquitens-class-cruiser": {
+      "_id": "d68ba40d-f55a-4132-a50c-69323ff404b3",
+      "type": "chassis",
+      "chassis_name": "arquitens-class-cruiser",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          0,
+          2
+        ],
+        "3": [
+          0,
+          0,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "arquitens-class-light-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "d907acea-e330-40a8-808e-e7fc070f12ea",
+          "type": "ship",
+          "chassis": "arquitens-class-cruiser",
+          "name": "Arquitens-class Light Cruiser",
+          "nicknames": [
+            "Arquitens",
+            "Arquitens Light"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 52,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              1,
+              0,
+              1
+            ],
+            "rear": [
+              1,
+              0,
+              1
+            ],
+            "left": [
+              3,
+              0,
+              0
+            ],
+            "right": [
+              3,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser-errata.webp"
+        },
+        "arquitens-class-command-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "7ebc008b-4448-4772-a4df-ba24ee632f01",
+          "type": "ship",
+          "chassis": "arquitens-class-cruiser",
+          "name": "Arquitens-class Command Cruiser",
+          "nicknames": [
+            "Arquitens",
+            "Arquitens Command"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            ""
+          ],
+          "points": 55,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              0,
+              0
+            ],
+            "right": [
+              3,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-command-cruiser-errata.webp"
+        }
+      }
+    },
+    "assault-frigate-mark-ii": {
+      "_id": "f6f8d693-1284-4014-9a1b-20d4e5b7eb14",
+      "type": "chassis",
+      "chassis_name": "assault-frigate-mark-ii",
+      "size": "medium",
+      "hull": 6,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "assault-frigate-mark-ii-a-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "7b8c1d5c-b2ec-45a1-8854-3e276152da39",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-ii",
+          "name": "Assault Frigate Mark II A",
+          "nicknames": [
+            "Assault Frigate",
+            "Assault Frigate Mark II",
+            "Assault Frigate 2",
+            "AF",
+            "AFMk2",
+            "AFMk2A"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 77,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              3,
+              1,
+              0
+            ],
+            "right": [
+              3,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-a-errata.webp"
+        },
+        "assault-frigate-mark-ii-b": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 1 Armada",
+          "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+          "_id": "d5551b84-5c9e-4460-b824-05ff02c121cd",
+          "type": "ship",
+          "chassis": "assault-frigate-mark-ii",
+          "name": "Assault Frigate Mark II B",
+          "nicknames": [
+            "Assault Frigate Mark II",
+            "Assault Frigate 2",
+            "AF",
+            "AFMk2",
+            "AFMk2B"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [],
+          "points": 72,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              0,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              3,
+              1,
+              0
+            ],
+            "right": [
+              3,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-b.webp"
+        }
+      }
+    },
+    "consular-class": {
+      "_id": "cc83c208-2bfb-4a21-8057-154c870b3d9b",
+      "type": "chassis",
+      "chassis_name": "consular-class",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          2,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          1
+        ],
+        "4": [
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "consular-class-armed-cruiser": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 9 Armada",
+          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "_id": "f68d48a4-4b87-49cd-9bd8-baf3b39c2ad6",
+          "type": "ship",
+          "chassis": "consular-class",
+          "name": "Consular-class Armed Cruiser",
+          "nicknames": [
+            "Consular",
+            "Consular-class",
+            "Consular Armed"
+          ],
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "senate",
+            "comms"
+          ],
+          "points": 37,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              0,
+              2,
+              1
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              1
+            ],
+            "right": [
+              0,
+              1,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/consular-class-armed-cruiser.webp"
+        },
+        "consular-class-charger-c70-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "50b8d75c-d14b-4c92-9a07-dff938de4c5a",
+          "type": "ship",
+          "chassis": "consular-class",
+          "name": "Consular-class Charger c70",
+          "nicknames": [
+            "Consular",
+            "Consular-class",
+            "Consular Charger",
+            "Consular-class Charger",
+            "C70",
+            "C-70"
+          ],
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "clone"
+          ],
+          "points": 42,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              0
+            ],
+            "right": [
+              2,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/consular-class-charger-c70-errata.webp"
+        }
+      }
+    },
+    "gozanti-class-cis": {
+      "_id": "c01b6489-67d6-4873-94af-6becf585c2b5",
+      "type": "chassis",
+      "chassis_name": "gozanti-class",
+      "size": "small",
+      "hull": 3,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 1,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "gozanti-class-cruisers-separatist-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "57a00607-5e0b-4730-9af5-85507f83de7f",
+          "type": "ship",
+          "chassis": "gozanti-class",
+          "name": "Gozanti-class Cruisers",
+          "nicknames": [
+            "Gozanti",
+            "Gozanti-class",
+            "Gozanti Cruiser",
+            "Gozanti-class Cruiser",
+            "Gozer",
+            "Seppy Gozanti"
+          ],
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "flotilla",
+            "droid"
+          ],
+          "points": 24,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "weapons-team",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-errata.webp"
+        }
+      }
+    },
+    "gozanti-class": {
+      "_id": "74165184-a3a4-45ba-baf4-1cb73fae5c33",
+      "type": "chassis",
+      "chassis_name": "gozanti-class",
+      "size": "small",
+      "hull": 3,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 1,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "gozanti-class-assault-carriers-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "c8d063e5-05e9-48d4-a9d0-ed95231b329d",
+          "type": "ship",
+          "chassis": "gozanti-class",
+          "name": "Gozanti-class Assault Carriers",
+          "nicknames": [
+            "Gozanti",
+            "Gozanti Assault"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 26,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "fleet-support",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              1,
+              0,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-assault-carriers-errata.webp"
+        },
+        "gozanti-class-cruisers": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 3 Armada",
+          "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
+          "_id": "239b353d-b3ae-4c32-aff7-2b7221a2dcd6",
+          "type": "ship",
+          "chassis": "gozanti-class",
+          "name": "Gozanti-class Cruisers",
+          "nicknames": [
+            "Gozanti",
+            "Gozanti Cruiser"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "flotilla"
+          ],
+          "points": 23,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "fleet-support",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers.webp"
+        }
+      }
+    },
+    "hardcell-class": {
+      "_id": "e73b7a42-cdcd-440a-9823-8c037697e58c",
+      "type": "chassis",
+      "chassis_name": "hardcell-class",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          1,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 2,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "hardcell-class-transport": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 9 Armada",
+          "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+          "_id": "f81a8ec4-a772-4daa-b1ee-7c4b6841b447",
+          "type": "ship",
+          "chassis": "hardcell-class",
+          "name": "Hardcell-class Transport",
+          "nicknames": [
+            "Hardcell",
+            "Hardcell-class",
+            "Hardcell Transport",
+            "Hardcell-class Transport"
+          ],
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "droid",
+            "transport"
+          ],
+          "points": 47,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "support-team",
+            "fleet-support",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              1,
+              0
+            ],
+            "right": [
+              0,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/hardcell-class-transport.webp"
+        },
+        "hardcell-class-battle-refit-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "76546fd2-f680-4036-8ac8-25801f50eb69",
+          "type": "ship",
+          "chassis": "hardcell-class",
+          "name": "Hardcell-class Battle Refit",
+          "nicknames": [
+            "Hardcell",
+            "Hardcell-class",
+            "Hardcell Battle",
+            "Hardcell-class Battle"
+          ],
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "droid",
+            "transport"
+          ],
+          "points": 50,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              0,
+              0
+            ],
+            "right": [
+              1,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/hardcell-class-battle-refit-errata.webp"
+        }
+      }
+    },
+    "mc75-cruiser": {
+      "_id": "637e9286-0491-47ae-bf37-76436b4b8086",
+      "type": "chassis",
+      "chassis_name": "mc75-cruiser",
+      "size": "large",
+      "hull": 9,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 3,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 78,
+        "centerangle": 0,
+        "rearangle": 60
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc75-armored-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "0320b152-1e01-4003-9359-d1f54a38e531",
+          "type": "ship",
+          "chassis": "mc75-cruiser",
+          "name": "MC75 Armored Cruiser",
+          "nicknames": [
+            "MC75",
+            "MC-75",
+            "MC75 Armored",
+            "MC-75 Armored"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 99,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "ion-cannon",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              3,
+              2
+            ],
+            "rear": [
+              0,
+              1,
+              1
+            ],
+            "left": [
+              3,
+              2,
+              0
+            ],
+            "right": [
+              3,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser-errata.webp"
+        },
+        "mc75-ordnance-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "05111c90-21f8-403c-9294-db398a59f3b6",
+          "type": "ship",
+          "chassis": "mc75-cruiser",
+          "name": "MC75 Ordnance Cruiser",
+          "nicknames": [
+            "MC75",
+            "MC-75",
+            "MC75 Ordnance",
+            "MC-75 Ordnance"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 95,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "ordnance",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              2,
+              3
+            ],
+            "rear": [
+              0,
+              0,
+              2
+            ],
+            "left": [
+              3,
+              0,
+              2
+            ],
+            "right": [
+              3,
+              0,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser-errata.webp"
+        }
+      }
+    },
+    "mc80h-cruiser": {
+      "_id": "db1e368d-0e45-4acb-bc9f-eff38694bbdc",
+      "type": "chassis",
+      "chassis_name": "mc80h-cruiser",
+      "size": "large",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 3,
+        "left": 4,
+        "right": 4,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc80h-assault-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "45e2bff7-512e-43e3-983a-be7ba6f09223",
+          "type": "ship",
+          "chassis": "mc80h-cruiser",
+          "name": "MC80 Assault Cruiser",
+          "nicknames": [
+            "MC80",
+            "MC-80",
+            "MC80H",
+            "MC-80H",
+            "MC80 Assault",
+            "MC-80 Assault"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 110,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              1,
+              0
+            ],
+            "left": [
+              4,
+              2,
+              0
+            ],
+            "right": [
+              4,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser-errata.webp"
+        },
+        "mc80h-command-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "88edfc58-d227-4d3d-87ac-7b6951211ef5",
+          "type": "ship",
+          "chassis": "mc80h-cruiser",
+          "name": "MC80 Command Cruiser",
+          "nicknames": [
+            "MC80",
+            "MC-80",
+            "MC80H",
+            "MC-80H",
+            "MC80 Command",
+            "MC-80 Command"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 102,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 1,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              1,
+              2,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              3,
+              3,
+              0
+            ],
+            "right": [
+              3,
+              3,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-command-cruiser-errata.webp"
+        }
+      }
+    },
+    "providence-class": {
+      "_id": "6a6f882a-2abe-4838-b925-28d39882a7de",
+      "type": "chassis",
+      "chassis_name": "providence-class",
+      "size": "large",
+      "hull": 6,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 5,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "providence-class-dreadnought-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "a007495b-7167-4af5-b0b7-3ba7764b9631",
+          "type": "ship",
+          "chassis": "providence-class",
+          "name": "Providence-class Dreadnought",
+          "nicknames": [
+            "Providence",
+            "Providence-class",
+            "Prov",
+            "Dreadnought"
+          ],
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "Droid",
+            "Bombard",
+            "Transport"
+          ],
+          "points": 97,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "ion-cannon",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              3,
+              2,
+              1
+            ],
+            "right": [
+              3,
+              2,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/providence-class-dreadnought-errata.webp"
+        },
+        "providence-class-carrier-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": "e1e3e2b9-6125-449c-86c4-3755d34befb2",
+          "type": "ship",
+          "chassis": "providence-class",
+          "name": "Providence-class Carrier",
+          "nicknames": [
+            "Providence",
+            "Providence-class",
+            "Prov",
+            "Carrier"
+          ],
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "droid",
+            "comms",
+            "transport"
+          ],
+          "points": 102,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "defensive-retro",
+            "fleet-command",
+            "offensive-retro",
+            "ordnance",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              2,
+              1,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              2,
+              2,
+              2
+            ],
+            "right": [
+              2,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/providence-class-carrier-errata.webp"
+        }
+      }
+    },
+    "victory-star-destroyer": {
+      "_id": "8b0dc072-4191-4f5a-991f-d8f877d1db43",
+      "type": "chassis",
+      "chassis_name": "victory-star-destroyer",
+      "size": "medium",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          0,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 5,
+        "centeroffset": 0,
+        "rearoffset": 5,
+        "frontangle": 100,
+        "centerangle": 0,
+        "rearangle": 80
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "victory-i-class-star-destroyer": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "9745854b-13f0-4a71-b608-945c14468438",
+          "type": "ship",
+          "chassis": "victory-star-destroyer",
+          "name": "Victory I-class Star Destroyer",
+          "nicknames": [
+            "Victory",
+            "Victory I",
+            "Victory 1"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 73,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              3
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer.webp"
+        },
+        "victory-ii-class-star-destroyer-errata": {
+          "author": "Fantasy Flight Games",
+          "alias": "FFG",
+          "team": "FFG",
+          "release": "Wave 0 Armada",
+          "expansion": "Armada Core Set (SWM01)",
+          "_id": "c588f8d8-3afe-4c2f-8c3f-76623fd5c0f8",
+          "type": "ship",
+          "chassis": "victory-star-destroyer",
+          "name": "Victory II-Class Star Destroyer",
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "star-destroyer"
+          ],
+          "points": 80,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              3,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              2,
+              1,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/victory-ii-class-star-destroyer-errata.webp"
+        }
+      }
+    },
+    "victory-star-destroyer-gar": {
+      "_id": "716c802f-e88e-4ca1-9f39-c82300d6046f",
+      "type": "chassis",
+      "chassis_name": "victory-star-destroyer",
+      "size": "medium",
+      "hull": 8,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          0,
+          1
+        ],
+        "3": [],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 5,
+        "centeroffset": 0,
+        "rearoffset": 5,
+        "frontangle": 100,
+        "centerangle": 0,
+        "rearangle": 80
+      },
+      "silhouette": "[link to image]",
+      "blueprint": "[link to image]",
+      "models": {
+        "victory-i-class-star-destroyer-republic-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "Rapid Reinforcements",
+          "expansion": "Rapid Reinforcements I (RR1)",
+          "_id": "c5307690-9580-4a73-8cd1-06da8aad7c00",
+          "type": "ship",
+          "chassis": "victory-star-destroyer",
+          "name": "Victory I-Class Star Destroyer",
+          "nicknames": [
+            "Victory",
+            "Victory-class",
+            "Star Destroyer",
+            "Victory-class Star Destroyer",
+            "Victory 1",
+            "Victory-1",
+            "Victory-I",
+            "Victory I"
+          ],
+          "faction": "republic",
+          "unique": false,
+          "traits": [
+            "star-destroyer",
+            "clone"
+          ],
+          "points": 73,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "support-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              3
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer-republic-errata.webp"
+        }
+      }
+    }
+  }
+}

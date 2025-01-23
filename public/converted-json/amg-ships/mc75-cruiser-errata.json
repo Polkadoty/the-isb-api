@@ -1,0 +1,223 @@
+{
+  "ships": {
+    "mc75-cruiser": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "mc75-cruiser",
+      "size": "large",
+      "hull": 9,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 3,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 78,
+        "centerangle": 0,
+        "rearangle": 60
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc75-armored-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": null,
+          "type": "ship",
+          "chassis": "mc75-cruiser",
+          "name": "MC75 Armored Cruiser",
+          "nicknames": [
+            "MC75", "MC-75", "MC75 Armored", "MC-75 Armored"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 99,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "ion-cannon",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              3,
+              2
+            ],
+            "rear": [
+              0,
+              1,
+              1
+            ],
+            "left": [
+              3,
+              2,
+              0
+            ],
+            "right": [
+              3,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser-errata.webp"
+        },
+        "mc75-ordnance-cruiser-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": null,
+          "type": "ship",
+          "chassis": "mc75-cruiser",
+          "name": "MC75 Ordnance Cruiser",
+          "nicknames": [
+            "MC75", "MC-75", "MC75 Ordnance", "MC-75 Ordnance"
+          ],
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 95,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 2,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "ordnance",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              2,
+              3
+            ],
+            "rear": [
+              0,
+              0,
+              2
+            ],
+            "left": [
+              3,
+              0,
+              2
+            ],
+            "right": [
+              3,
+              0,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser-errata.webp"
+        }
+      }
+    }
+  }
+}

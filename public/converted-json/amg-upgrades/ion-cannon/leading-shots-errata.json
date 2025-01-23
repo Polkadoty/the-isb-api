@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "leading-shots-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "ion-cannon",
+      "faction": [
+        ""
+      ],
+      "name": "Leading Shots",
+      "nicknames": [
+        "LS"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking, you may spend 1 blue die to reroll any number of dice in your attack pool.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/leading-shots-errata.webp"
+    }
+  }
+}

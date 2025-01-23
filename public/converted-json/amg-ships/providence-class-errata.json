@@ -1,0 +1,227 @@
+{
+  "ships": {
+    "providence-class": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "providence-class",
+      "size": "large",
+      "hull": 6,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          0
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 5,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "providence-class-dreadnought-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": null,
+          "type": "ship",
+          "chassis": "providence-class",
+          "name": "Providence-class Dreadnought",
+          "nicknames": [
+            "Providence", "Providence-class", "Prov", "Dreadnought"
+          ],
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "Droid",
+            "Bombard",
+            "Transport"
+          ],
+          "points": 97,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "ion-cannon",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              3,
+              2,
+              1
+            ],
+            "right": [
+              3,
+              2,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/providence-class-dreadnought-errata.webp"
+        },
+        "providence-class-carrier-errata": {
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
+          "_id": null,
+          "type": "ship",
+          "chassis": "providence-class",
+          "name": "Providence-class Carrier",
+          "nicknames": [
+            "Providence", "Providence-class", "Prov", "Carrier"
+          ],
+          "faction": "separatist",
+          "unique": false,
+          "traits": [
+            "droid",
+            "comms",
+            "transport"
+          ],
+          "points": 102,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 1,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 4,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "defensive-retro",
+            "fleet-command",
+            "offensive-retro",
+            "ordnance",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              2
+            ],
+            "front": [
+              2,
+              1,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              2,
+              2,
+              2
+            ],
+            "right": [
+              2,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/providence-class-carrier-errata.webp"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "general-madine-commander-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Madine",
+      "nicknames": [
+        "Madine"
+      ],
+      "unique-class": [
+        "General Madine"
+      ],
+      "ability": "When a friendly ship is executing its first maneuver during its activation, during the Determine Course step, it may increase 1 yaw value by 1.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/general-madine-commander-errata.webp"
+    }
+  }
+}

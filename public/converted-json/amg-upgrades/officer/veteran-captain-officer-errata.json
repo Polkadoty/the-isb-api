@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "veteran-captain-officer-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        ""
+      ],
+      "name": "Veteran Captain",
+      "nicknames": [
+        "VC"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "When you reveal a command, you may discard this card to gain 1 command token of your choice.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/veteran-captain-officer-errata.webp"
+    }
+  }
+}
