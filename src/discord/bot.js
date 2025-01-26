@@ -19,6 +19,10 @@ const legendsNicknameMap = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'public/legends-nickname-map.json'), 'utf8')
 );
 
+const armadaNicknameMap = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'public/armada-nickname-map.json'), 'utf8')
+);
+
 // Define server IDs as constants
 const LEGACY_SERVER_ID = '1128659616222425141';
 const LEGENDS_SERVER_ID = '1256627568627421205';
