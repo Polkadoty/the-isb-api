@@ -64,6 +64,15 @@ cacheImagePaths(imagesPath, imageCache);
 cacheImagePaths(jpegImagesPath, jpegImageCache);
 console.log(`Cached ${imageCache.size} WebP images and ${jpegImageCache.size} JPEG images`);
 
+// Add this near the start of your server, after directory definitions
+if (!fs.existsSync(jpegImagesPath)) {
+  console.error(`JPEG images directory does not exist: ${jpegImagesPath}`);
+  fs.mkdirSync(jpegImagesPath, { recursive: true });
+}
+
+// After caching images
+console.log('JPEG images directory contents:', fs.readdirSync(jpegImagesPath));
+
 // Regular allowed origins
 const allowedOrigins = [
   'https://test.swarmada.wiki',
@@ -185,7 +194,8 @@ app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, re
     fullUrl: req.url,
     method: req.method,
     headers: req.headers,
-    jpegCacheSize: jpegImageCache.size
+    jpegCacheSize: jpegImageCache.size,
+    cacheContents: Array.from(jpegImageCache.keys())
   });
   
   if (cachedPath) {
@@ -193,8 +203,14 @@ app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, re
     req.url = '/' + cachedPath;
   } else {
     console.error(`JPEG image not found in cache: ${imageName}`);
+    console.error('Available images:', Array.from(jpegImageCache.keys()));
     // Return 404 instead of continuing
-    return res.status(404).send('Image not found');
+    return res.status(404).json({
+      error: 'Image not found',
+      requestedImage: imageName,
+      availableImages: Array.from(jpegImageCache.keys()),
+      cacheSize: jpegImageCache.size
+    });
   }
   
   next();
