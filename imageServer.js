@@ -179,11 +179,22 @@ app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, re
   const imageName = path.basename(req.url);
   const cachedPath = jpegImageCache.get(imageName);
   
+  console.log('JPEG request received:', {
+    imageName,
+    cachedPath,
+    fullUrl: req.url,
+    method: req.method,
+    headers: req.headers,
+    jpegCacheSize: jpegImageCache.size
+  });
+  
   if (cachedPath) {
     console.log(`JPEG image found in cache: ${cachedPath}`);
     req.url = '/' + cachedPath;
   } else {
     console.error(`JPEG image not found in cache: ${imageName}`);
+    // Return 404 instead of continuing
+    return res.status(404).send('Image not found');
   }
   
   next();
@@ -195,6 +206,7 @@ app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, re
     res.setHeader('Cache-Control', 'public, max-age=172800, immutable, stale-while-revalidate=86400');
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('CF-Cache-Status', 'DYNAMIC');
+    res.setHeader('Content-Type', 'image/jpeg');
   }
 }));
 
