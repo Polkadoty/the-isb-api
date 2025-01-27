@@ -13,6 +13,17 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = process.env.PORT || 5000;
 
+// Add this right after creating the Express app (after line 13)
+app.use((req, res, next) => {
+  console.log('Incoming request:', {
+    method: req.method,
+    url: req.url,
+    path: req.path,
+    headers: req.headers
+  });
+  next();
+});
+
 const imagesPath = path.join(__dirname, 'images');
 const jpegImagesPath = path.join(__dirname, 'jpeg-images');
 
@@ -159,6 +170,8 @@ const cloudflareHeaders = (req, res, next) => {
   });
   next();
 };
+
+
 
 // Regular WebP images route
 app.use('/images', regularCors, cloudflareHeaders, cacheControl(), (req, res, next) => {
