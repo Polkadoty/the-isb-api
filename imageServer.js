@@ -220,18 +220,9 @@ app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, re
   const imageName = path.basename(req.url);
   const cachedPath = jpegImageCache.get(imageName);
   
-  console.log('JPEG request received:', {
-    imageName,
-    cachedPath,
-    fullUrl: req.url,
-    method: req.method,
-    jpegCacheSize: jpegImageCache.size
-  });
-  
   if (cachedPath) {
-    console.log(`JPEG image found in cache: ${cachedPath}`);
     req.url = '/' + cachedPath;
-  } else {
+  } else { 
     console.error(`JPEG image not found in cache: ${imageName}`);
     return res.status(404).json({
       error: 'Image not found',
@@ -303,15 +294,5 @@ app.listen(port, () => {
   console.log(`Serving WebP images from: ${imagesPath}`);
   console.log(`Serving JPEG images from: ${jpegImagesPath}`);
 });
-
-const used = process.memoryUsage();
-setInterval(() => {
-  console.log({
-    rss: `${Math.round(used.heapUsed / 1024 / 1024 * 100) / 100} MB`,
-    heapTotal: `${Math.round(used.heapTotal / 1024 / 1024 * 100) / 100} MB`,
-    heapUsed: `${Math.round(used.heapUsed / 1024 / 1024 * 100) / 100} MB`,
-    external: `${Math.round(used.external / 1024 / 1024 * 100) / 100} MB`,
-  });
-}, 30000);
 
 export default app;
