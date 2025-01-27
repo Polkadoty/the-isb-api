@@ -82,13 +82,6 @@ for (const [filename, filepath] of imageCache.entries()) {
       part.endsWith('.webp') ? part.replace('.webp', '.jpg') : part
     ).join('/');
     
-    console.log('Adding to JPEG cache:', {
-      jpegFilename,
-      jpegFilepath,
-      originalFilename: filename,
-      originalFilepath: filepath
-    });
-    
     jpegImageCache.set(jpegFilename, jpegFilepath);
   }
 }
