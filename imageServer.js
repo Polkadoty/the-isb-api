@@ -63,8 +63,9 @@ function cacheImagePaths(dir, cache) {
     if (stat.isDirectory()) {
       cacheImagePaths(filePath, cache);
     } else if (file.endsWith('.webp') || file.endsWith('.png') || file.endsWith('.jpg') || file.endsWith('.jpeg')) {
-      const relativePath = path.relative(dir === jpegImagesPath ? jpegImagesPath : imagesPath, filePath);
-      cache.set(file, relativePath);
+      const relativePath = path.relative(dir, filePath);
+      const fileName = path.basename(file);
+      cache.set(fileName, relativePath);
     }
   }
 }
@@ -206,22 +207,20 @@ app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, re
     cachedPath,
     fullUrl: req.url,
     method: req.method,
-    headers: req.headers,
-    jpegCacheSize: jpegImageCache.size,
-    cacheContents: Array.from(jpegImageCache.keys())
+    jpegCacheSize: jpegImageCache.size
   });
   
   if (cachedPath) {
     console.log(`JPEG image found in cache: ${cachedPath}`);
-    req.url = '/' + cachedPath;
+    // Remove any '../' from the path to prevent directory traversal
+    const safePath = cachedPath.replace(/\.\.\//g, '');
+    req.url = '/' + safePath;
+    console.log(`Modified URL: ${req.url}`);
   } else {
     console.error(`JPEG image not found in cache: ${imageName}`);
-    console.error('Available images:', Array.from(jpegImageCache.keys()));
-    // Return 404 instead of continuing
     return res.status(404).json({
       error: 'Image not found',
       requestedImage: imageName,
-      availableImages: Array.from(jpegImageCache.keys()),
       cacheSize: jpegImageCache.size
     });
   }
