@@ -1,0 +1,134 @@
+{
+  "ships": {
+    "cr90-corvette-new-republic-legends": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "cr90-corvette-new-republic-legends",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          2
+        ],
+        "3": [
+          0,
+          1,
+          2
+        ],
+        "4": [
+          0,
+          1,
+          1,
+          2
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 90,
+        "centerangle": 0,
+        "rearangle": 90
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "cr90-corvette-a-new-republic-legends": {
+          "author": "Armada Legends",
+          "alias": "Legends",
+          "team": "Legends",
+          "release": "New Republic Wave 0",
+          "expansion": "New Republic Wave 0",
+          "_id": null,
+          "type": "ship",
+          "chassis": "cr90-corvette-new-republic-legends",
+          "name": "CR90 Corvette A",
+          "nicknames": [
+            "CR90", "CR-90", "CR90 Corvette", "CR90A", "CR-90A"
+          ],
+          "faction": "new-republic",
+          "unique": false,
+          "traits": [],
+          "points": 45,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 2,
+            "def_brace": 0,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "support-team",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "[link to image]",
+          "cardimage": "https://api.swarmada.wiki/images/cr90-corvette-a-new-republic-legends.webp"
+        }
+      }
+    }
+  }
+}

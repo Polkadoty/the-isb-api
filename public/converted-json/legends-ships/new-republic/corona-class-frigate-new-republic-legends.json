@@ -1,0 +1,211 @@
+{
+  "ships": {
+    "corona-class-frigate-new-republic-legends": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "corona-class-frigate-new-republic-legends",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 90,
+        "centerangle": 0,
+        "rearangle": 90
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "corona-class-escort-frigate-new-republic-legends": {
+          "author": "Armada Legends",
+          "alias": "Legends",
+          "team": "Legends",
+          "release": "New Republic Wave 0",
+          "expansion": "New Republic Wave 0",
+          "_id": null,
+          "type": "ship",
+          "chassis": "corona-class-frigate-new-republic-legends",
+          "name": "Corona Class Escort Frigate",
+          "nicknames": [
+            "Corona Class", "Corona Class Escort", "Corona Class Frigate", "Corona-Class", "Corona-Class Escort", "Corona-Class Frigate"
+          ],
+          "faction": "new-republic",
+          "unique": false,
+          "traits": [],
+          "points": 52,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/corona-class-escort-frigate-new-republic-legends.webp"
+        },
+        "corona-class-support-frigate-new-republic-legends": {
+          "author": "Armada Legends",
+          "alias": "Legends",
+          "team": "Legends",
+          "release": "New Republic Wave 0",
+          "expansion": "New Republic Wave 0",
+          "_id": null,
+          "type": "ship",
+          "chassis": "corona-class-frigate-new-republic-legends",
+          "name": "Corona Class Support Frigate",
+          "nicknames": [
+            "Corona Class", "Corona Class Support", "Corona-Class", "Corona-Class Support"
+          ],
+          "faction": "new-republic",
+          "unique": false,
+          "traits": [],
+          "points": 50,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "fleet-support",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              0,
+              1
+            ],
+            "rear": [
+              2,
+              0,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/corona-class-support-frigate-new-republic-legends.webp"
+        }
+      }
+    }
+  }
+}
