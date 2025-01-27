@@ -80,7 +80,9 @@ const ttsAllowedOrigins = [
   'https://api.swarmada.wiki',
   'http://localhost:39999', // TTS local testing
   'https://steamcommunity.com',
-  'https://workshop.steamcommunity.com'
+  'https://workshop.steamcommunity.com',
+  'http://localhost:3000',
+  'https://star-forge.tools'
 ];
 
 // Regular CORS middleware
@@ -173,7 +175,7 @@ app.use('/images', regularCors, cloudflareHeaders, cacheControl(), (req, res, ne
 }));
 
 // TTS-specific JPEG images route
-app.use('/jpeg-images', ttsCors, (req, res, next) => {
+app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, res, next) => {
   const imageName = path.basename(req.url);
   const cachedPath = jpegImageCache.get(imageName);
   
@@ -187,9 +189,12 @@ app.use('/jpeg-images', ttsCors, (req, res, next) => {
   next();
 }, express.static(jpegImagesPath, {
   maxAge: '2d',
+  etag: true,
+  lastModified: true,
   setHeaders: (res, path) => {
-    res.setHeader('Cache-Control', 'public, max-age=172800, immutable');
+    res.setHeader('Cache-Control', 'public, max-age=172800, immutable, stale-while-revalidate=86400');
     res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('CF-Cache-Status', 'DYNAMIC');
   }
 }));
 
