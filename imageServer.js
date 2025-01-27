@@ -63,9 +63,8 @@ function cacheImagePaths(dir, cache) {
     if (stat.isDirectory()) {
       cacheImagePaths(filePath, cache);
     } else if (file.endsWith('.webp') || file.endsWith('.png') || file.endsWith('.jpg') || file.endsWith('.jpeg')) {
-      const relativePath = path.relative(dir, filePath);
-      const fileName = path.basename(file);
-      cache.set(fileName, relativePath);
+      const relativePath = path.relative(dir === jpegImagesPath ? jpegImagesPath : imagesPath, filePath);
+      cache.set(file, relativePath);
     }
   }
 }
