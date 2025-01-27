@@ -211,10 +211,7 @@ app.use('/jpeg-images', regularCors, cloudflareHeaders, cacheControl(), (req, re
   
   if (cachedPath) {
     console.log(`JPEG image found in cache: ${cachedPath}`);
-    // Remove any '../' from the path to prevent directory traversal
-    const safePath = cachedPath.replace(/\.\.\//g, '');
-    req.url = '/' + safePath;
-    console.log(`Modified URL: ${req.url}`);
+    req.url = '/' + cachedPath;
   } else {
     console.error(`JPEG image not found in cache: ${imageName}`);
     return res.status(404).json({
