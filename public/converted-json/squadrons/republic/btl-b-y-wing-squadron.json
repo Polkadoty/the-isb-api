@@ -12,7 +12,11 @@
       "squadron_type": "btl-b-y-wing-squadron",
       "name": "BTL-B Y-wing Squadron",
       "nicknames": [
-        "BTL", "BTLs", "Y-wings", "GAR-Ys", "BTL-Bs"
+        "BTL",
+        "BTLs",
+        "Y-wings",
+        "GAR-Ys",
+        "BTL-Bs"
       ],
       "ace-name": "",
       "unique-class": [
@@ -68,18 +72,20 @@
       "cardimage": "https://api.swarmada.wiki/images/btl-b-y-wing-squadron.webp"
     },
     "anakin-skywalker-btl-b-y-wing-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "btl-b-y-wing-squadron",
       "name": "BTL-B Y-wing Squadron",
       "nicknames": [
-        "Y-wingakin", "Y-wing Anakin", "Anakin Y-wing"
+        "Y-wingakin",
+        "Y-wing Anakin",
+        "Anakin Y-wing"
       ],
       "ace-name": "Anakin Skywalker",
       "unique-class": [
@@ -129,7 +135,7 @@
       "ability": "During your activation, you may spend 1 defense token to ignore engagement until the end of your activation.",
       "unique": true,
       "ace": true,
-      "points": 19,
+      "points": 18,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-btl-b-y-wing-squadron.webp"

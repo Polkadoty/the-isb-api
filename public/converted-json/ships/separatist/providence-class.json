@@ -41,17 +41,20 @@
       "blueprint": "",
       "models": {
         "providence-class-dreadnought": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 10 Armada",
-          "expansion": "Invisible Hand Expansion Pack (SWM42)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Dreadnought",
           "nicknames": [
-            "Providence", "Providence-class", "Prov", "Dreadnought"
+            "Providence",
+            "Providence-class",
+            "Prov",
+            "Dreadnought"
           ],
           "faction": "separatist",
           "unique": false,
@@ -60,7 +63,7 @@
             "Bombard",
             "Transport"
           ],
-          "points": 105,
+          "points": 97,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -132,17 +135,20 @@
           "cardimage": "https://api.swarmada.wiki/images/providence-class-dreadnought.webp"
         },
         "providence-class-carrier": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 10 Armada",
-          "expansion": "Invisible Hand Expansion Pack (SWM42)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Carrier",
           "nicknames": [
-            "Providence", "Providence-class", "Prov", "Carrier"
+            "Providence",
+            "Providence-class",
+            "Prov",
+            "Carrier"
           ],
           "faction": "separatist",
           "unique": false,
@@ -151,7 +157,7 @@
             "comms",
             "transport"
           ],
-          "points": 105,
+          "points": 102,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,

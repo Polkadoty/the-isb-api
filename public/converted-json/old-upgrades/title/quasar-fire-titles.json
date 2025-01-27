@@ -1,0 +1,175 @@
+{
+    "upgrades": {
+        "pursuant-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 6 Armada",
+            "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Pursuant",
+            "nicknames": [
+                "Pursuant"
+            ],
+            "unique-class": [
+                "Pursuant"
+            ],
+            "ability": "When you reveal a command other than a :squadron: command, you may discard this card to resolve a :squadron: Command. You treat this command as if you spent a :squadron: dial.",
+            "unique": true,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "quasar-fire-class-cruiser-carrier",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/pursuant-title.webp"
+        },
+        "squall-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 6 Armada",
+            "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Squall",
+            "nicknames": [
+                "Squall"
+            ],
+            "unique-class": [
+                "Squall"
+            ],
+            "ability": "When you activate, you may choose up to 3 unengaged friendly squadrons at close-medium range. Those squadrons may move up to distance 2. If they do, they cannot end their movement engaged.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "quasar-fire-class-cruiser-carrier",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/squall-title.webp"
+        },
+        "stronghold-title": {
+            "author": "Fantasy Flight Games",
+            "alias": "FFG",
+            "team": "FFG",
+            "release": "Wave 6 Armada",
+            "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Stronghold",
+            "unique-class": [
+                "Stronghold"
+            ],
+            "ability": "While a friendly squadron with Swarm at distance 1-2 is defending, the attack is treated as obstructed.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "quasar-fire-class-cruiser-carrier",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/stronghold-title.webp"
+        }
+    }
+}

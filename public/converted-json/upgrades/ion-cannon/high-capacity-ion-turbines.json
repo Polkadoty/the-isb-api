@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "high-capacity-ion-turbines": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 4 Armada",
-      "expansion": "Liberty Expansion Pack (SWM17)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "ion-cannon",
       "faction": [
@@ -13,14 +13,16 @@
       ],
       "name": "High-Capacity Ion Turbines",
       "nicknames": [
-        "HCT", "High Capacity", "HCIT"
+        "HCT",
+        "High Capacity",
+        "HCIT"
       ],
       "unique-class": [
         ""
       ],
       "ability": "Modification.\nThe battery armaments for your left and right hull zones are increased by 1 blue die.",
       "unique": false,
-      "points": 8,
+      "points": 6,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {

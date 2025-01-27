@@ -41,24 +41,25 @@
       "blueprint": "",
       "models": {
         "arquitens-class-light-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 5 Armada",
-          "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Light Cruiser",
           "nicknames": [
-            "Arquitens", "Arquitens Light"
+            "Arquitens",
+            "Arquitens Light"
           ],
           "faction": "empire",
           "unique": false,
           "traits": [
             ""
           ],
-          "points": 54,
+          "points": 52,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,
@@ -125,24 +126,25 @@
           "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser.webp"
         },
         "arquitens-class-command-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 5 Armada",
-          "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Command Cruiser",
           "nicknames": [
-            "Arquitens", "Arquitens Command"
+            "Arquitens",
+            "Arquitens Command"
           ],
           "faction": "empire",
           "unique": false,
           "traits": [
             ""
           ],
-          "points": 59,
+          "points": 55,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,

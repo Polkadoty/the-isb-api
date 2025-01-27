@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "slicer-tools": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 3 Armada",
-      "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "fleet-support",
       "faction": [
@@ -13,12 +13,13 @@
       ],
       "name": "Slicer Tools",
       "nicknames": [
-        "ST", "Slicers"
+        "ST",
+        "Slicers"
       ],
       "unique-class": [
         ""
       ],
-      "ability": "After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3. You may choose a new command on its top command dial.",
+      "ability": "After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3. Look at the top command dial assigned to that ship. Then you may either choose a new command on its top command dial or that ship gains 1 raid token of your choice that does not match its top command dial. If the chosen ship has no top command dial, it gains 1 raid token of your choice.",
       "unique": false,
       "points": 7,
       "modification": false,

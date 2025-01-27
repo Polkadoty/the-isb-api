@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "shriv-suurgav-boarding-team": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 8 Armada",
-      "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "weapons-team-offensive-retro",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. Choose and discard 1 :weapons-team:, :support-team:, :offensive-retro:, :defensive-retro:, :ordnance:, :ion-cannon:, or :turbolaser: upgrade card equipped to that ship.",
       "unique": true,
-      "points": 6,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

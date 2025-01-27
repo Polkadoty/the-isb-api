@@ -12,7 +12,9 @@
       "squadron_type": "b-wing-squadron",
       "name": "B-Wing Squadron",
       "nicknames": [
-        "B-Wings", "B-Wing", "Bs"
+        "B-Wings",
+        "B-Wing",
+        "Bs"
       ],
       "ace-name": "",
       "unique-class": [
@@ -68,18 +70,19 @@
       "cardimage": "https://api.swarmada.wiki/images/b-wing-squadron.webp"
     },
     "keyan-farlander-b-wing-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "b-wing-squadron",
       "name": "B-Wing Squadron",
       "nicknames": [
-        "Keyan", "Keyan Farlander"
+        "Keyan",
+        "Keyan Farlander"
       ],
       "ace-name": "Keyan Farlander",
       "unique-class": [
@@ -129,7 +132,7 @@
       "ability": "While attacking a ship, if the defending hull zone has no shields, you may reroll any number of dice in your attack pool.",
       "unique": true,
       "ace": true,
-      "points": 20,
+      "points": 18,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/keyan-farlander-b-wing-squadron.webp"
@@ -146,7 +149,8 @@
       "squadron_type": "b-wing-squadron",
       "name": "B-Wing Squadron",
       "nicknames": [
-        "Ten", "Ten Numb"
+        "Ten",
+        "Ten Numb"
       ],
       "ace-name": "Ten Numb",
       "unique-class": [
@@ -213,7 +217,8 @@
       "squadron_type": "b-wing-squadron",
       "name": "B-Wing Squadron",
       "nicknames": [
-        "Dagger", "Dagger Squadron"
+        "Dagger",
+        "Dagger Squadron"
       ],
       "ace-name": "Dagger Squadron",
       "unique-class": [

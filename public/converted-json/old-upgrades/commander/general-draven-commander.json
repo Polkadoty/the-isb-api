@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "general-draven-commander": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "Rapid Reinforcements",
+      "expansion": "Rapid Reinforcements II (RR2)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "rebel"
+      ],
+      "name": "General Draven",
+      "nicknames": [
+        "Draven"
+      ],
+      "unique-class": [
+        "General Draven"
+      ],
+      "ability": "Choose command dials for this card after deploying fleets.\nAt the start of each Ship Phase, you may reveal and discard 1 command dial from this card. If you do, until the end of the round, when an enemy ship spends a matching command dial, it resolves that dial as though it spent a token of the same type instead. .",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "dial",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 2
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/general-draven-commander.webp"
+    }
+  }
+}

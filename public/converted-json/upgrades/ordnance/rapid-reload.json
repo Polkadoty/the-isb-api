@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "rapid-reload": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "ordnance",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "_Modification_. \nThe battery armaments for your left and right hull zones are increased by 1 black die.",
       "unique": false,
-      "points": 8,
+      "points": 4,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {

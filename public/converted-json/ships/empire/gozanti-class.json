@@ -41,24 +41,25 @@
       "blueprint": "",
       "models": {
         "gozanti-class-assault-carriers": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 3 Armada",
-          "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Assault Carriers",
           "nicknames": [
-            "Gozanti", "Gozanti Assault"
+            "Gozanti",
+            "Gozanti Assault"
           ],
           "faction": "empire",
           "unique": false,
           "traits": [
             "flotilla"
           ],
-          "points": 28,
+          "points": 26,
           "tokens": {
             "def_scatter": 1,
             "def_evade": 1,
@@ -134,7 +135,8 @@
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
           "nicknames": [
-            "Gozanti", "Gozanti Cruiser"
+            "Gozanti",
+            "Gozanti Cruiser"
           ],
           "faction": "empire",
           "unique": false,

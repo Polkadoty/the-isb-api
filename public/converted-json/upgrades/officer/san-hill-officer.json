@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "san-hill-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
@@ -13,12 +13,13 @@
       ],
       "name": "San Hill",
       "nicknames": [
-        "San", "Hill"
+        "San",
+        "Hill"
       ],
       "unique-class": [
         "San Hill"
       ],
-      "ability": "At the start of the Squadron Phase, you may discard any number of tokens from this card. For each token you discard in this way, 1 additional squadron at close-long range of you may be activated during each of your fleet's turns to activate squadrons this phase.",
+      "ability": "When a friendly ship at distance 1-5 resolves a :squad: command, you may discard 1 :squad: token from this card. If you do, that friendly ship may activate 1 additional squadron during that command.",
       "unique": true,
       "points": 3,
       "modification": false,

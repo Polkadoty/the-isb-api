@@ -1,236 +1,238 @@
 {
-    "upgrades": {
-        "dodonnas-pride-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Dodonna's Pride",
-            "nicknames": [
-                "D Pride"
-            ],
-            "unique-class": [
-                "Dodonna's Pride"
-            ],
-            "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
-            "unique": true,
-            "points": 6,
-            "modification": false,
-            "bound_shiptype": "cr90-corvette",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/dodonnas-pride-title.webp"
-        },
-        "jainas-light-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Jaina's Light",
-            "nicknames": [
-                "Jaina's", "Jainas", "JL"
-            ],
-            "unique-class": [
-                "Jaina's Light"
-            ],
-            "ability": "You can ignore the effects of overlapping obstacles.\nYour attacks cannot be obstructed.",
-            "unique": true,
-            "points": 2,
-            "modification": false,
-            "bound_shiptype": "cr90-corvette",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/jainas-light-title.webp"
-        },
-        "liberator-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Rebellion in the Rim Campaign Armada",
-            "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Liberator",
-            "nicknames": [
-                "Lib"
-            ],
-            "unique-class": [
-                "Liberator"
-            ],
-            "ability": "You gain 1 additional :fleet-command: icon in you upgrade bar.\nYou cannot equip this card if you have a :fleet-command: icon in your upgrade bar.\nYou cannot spend a command token to resolve a :fleet-command: card's effect.",
-            "unique": true,
-            "points": 2,
-            "modification": false,
-            "bound_shiptype": "cr90-corvette",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    "fleet-command"
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    "fleet-command"
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/liberator-title.webp"
-        },
-        "tantive-iv-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Tantive IV",
-            "nicknames": [
-                "Tantive"
-            ],
-            "unique-class": [
-                "Tantive IV"
-            ],
-            "ability": "Before you gain a command token, 1 friendly ship at distance 1-5 may gain that token instead.",
-            "unique": true,
-            "points": 3,
-            "modification": false,
-            "bound_shiptype": "cr90-corvette",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/tantive-iv-title.webp"
-        }
+  "upgrades": {
+    "dodonnas-pride-title": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Dodonna's Pride",
+      "nicknames": [
+        "D Pride"
+      ],
+      "unique-class": [
+        "Dodonna's Pride"
+      ],
+      "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/dodonnas-pride-title.webp"
+    },
+    "jainas-light-title": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Jaina's Light",
+      "nicknames": [
+        "Jaina's",
+        "Jainas",
+        "JL"
+      ],
+      "unique-class": [
+        "Jaina's Light"
+      ],
+      "ability": "You can ignore the effects of overlapping obstacles.\nYour attacks cannot be obstructed.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/jainas-light-title.webp"
+    },
+    "liberator-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Liberator",
+      "nicknames": [
+        "Lib"
+      ],
+      "unique-class": [
+        "Liberator"
+      ],
+      "ability": "You gain 1 additional :fleet-command: icon in you upgrade bar.\nYou cannot equip this card if you have a :fleet-command: icon in your upgrade bar.\nYou cannot spend a command token to resolve a :fleet-command: card's effect.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          "fleet-command"
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          "fleet-command"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/liberator-title.webp"
+    },
+    "tantive-iv-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Tantive IV",
+      "nicknames": [
+        "Tantive"
+      ],
+      "unique-class": [
+        "Tantive IV"
+      ],
+      "ability": "Before you gain a command token, 1 friendly ship at distance 1-5 may gain that token instead.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/tantive-iv-title.webp"
     }
+  }
 }

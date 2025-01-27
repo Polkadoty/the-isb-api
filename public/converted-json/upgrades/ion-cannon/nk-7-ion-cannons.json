@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "nk-7-ion-cannons": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "ion-cannon",
       "faction": [
@@ -13,14 +13,17 @@
       ],
       "name": "NK-7 Ion Cannons",
       "nicknames": [
-        "NK7", "NK-7", "NK-7s", "NK7s"
+        "NK7",
+        "NK-7",
+        "NK-7s",
+        "NK7s"
       ],
       "unique-class": [
         ""
       ],
       "ability": "Blue :critical: : Exhaust this card to force the defender to choose and discard 1 of its defense tokens.",
       "unique": false,
-      "points": 10,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

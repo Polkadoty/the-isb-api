@@ -12,7 +12,9 @@
       "squadron_type": "firespray-31",
       "name": "Firespray-31",
       "nicknames": [
-        "Firespray", "Firesprays", "31s"
+        "Firespray",
+        "Firesprays",
+        "31s"
       ],
       "ace-name": "",
       "unique-class": [
@@ -68,18 +70,19 @@
       "cardimage": "https://api.swarmada.wiki/images/firespray-31.webp"
     },
     "boba-fett-slave-i": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
       "name": "Slave I",
       "nicknames": [
-        "Slave I", "Boba Fett"
+        "Slave I",
+        "Boba Fett"
       ],
       "ace-name": "Boba Fett",
       "unique-class": [
@@ -130,7 +133,7 @@
       "ability": "When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.",
       "unique": true,
       "ace": true,
-      "points": 26,
+      "points": 24,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/boba-fett-slave-i.webp"
@@ -147,7 +150,9 @@
       "squadron_type": "firespray-31",
       "name": "Slave I",
       "nicknames": [
-        "Slave I", "Hondo", "Hondo Firespray"
+        "Slave I",
+        "Hondo",
+        "Hondo Firespray"
       ],
       "ace-name": "Hondo Ohnaka",
       "unique-class": [

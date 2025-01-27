@@ -12,7 +12,8 @@
       "squadron_type": "tie-phantom-squadron",
       "name": "TIE Phantom Squadron",
       "nicknames": [
-        "Phantom", "Phantoms"
+        "Phantom",
+        "Phantoms"
       ],
       "ace-name": "",
       "unique-class": [
@@ -68,11 +69,11 @@
       "cardimage": "https://api.swarmada.wiki/images/tie-phantom-squadron.webp"
     },
     "whisper-tie-phantom-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
@@ -129,7 +130,7 @@
       "ability": "After defending against an attack, if you spent a defense token, you may move up to distance 1, even if you are engaged.",
       "unique": true,
       "ace": true,
-      "points": 20,
+      "points": 18,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/whisper-tie-phantom-squadron.webp"

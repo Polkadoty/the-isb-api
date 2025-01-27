@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "expanded-launchers": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "ordnance",
       "faction": [
@@ -13,14 +13,15 @@
       ],
       "name": "Expanded Launchers",
       "nicknames": [
-        "EL", "Launchers"
+        "EL",
+        "Launchers"
       ],
       "unique-class": [
         ""
       ],
       "ability": "Modification\nThe battery armament for your front hull zone is increased by 2 black dice.",
       "unique": false,
-      "points": 13,
+      "points": 8,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {

@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "damage-control-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "When you resolve the :contain: defense effect, you can prevent the attacker from resolving any critical effects.",
       "unique": false,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

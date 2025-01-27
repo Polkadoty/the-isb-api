@@ -41,17 +41,21 @@
       "blueprint": "",
       "models": {
         "acclamator-i-class-assault-ship": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 9 Armada",
-          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator I-class Assault Ship",
           "nicknames": [
-            "Acclamator", "Acclamator-class", "Acclamator I", "Acclamator-I", "Acclamator 1"
+            "Acclamator",
+            "Acclamator-class",
+            "Acclamator I",
+            "Acclamator-I",
+            "Acclamator 1"
           ],
           "faction": "republic",
           "unique": false,
@@ -59,7 +63,7 @@
             "clone",
             "transport"
           ],
-          "points": 66,
+          "points": 64,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -140,7 +144,11 @@
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator II-class Assault Ship",
           "nicknames": [
-            "Acclamator", "Acclamator-class", "Acclamator II", "Acclamator-II", "Acclamator 2"
+            "Acclamator",
+            "Acclamator-class",
+            "Acclamator II",
+            "Acclamator-II",
+            "Acclamator 2"
           ],
           "faction": "republic",
           "unique": false,

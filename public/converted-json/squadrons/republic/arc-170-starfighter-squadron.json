@@ -12,7 +12,9 @@
       "squadron_type": "arc-170-starfighter-squadron",
       "name": "ARC-170 Starfighter Squadron",
       "nicknames": [
-        "ARC", "Arcs", "170s"
+        "ARC",
+        "Arcs",
+        "170s"
       ],
       "ace-name": "",
       "unique-class": [
@@ -68,18 +70,19 @@
       "cardimage": "https://api.swarmada.wiki/images/arc-170-starfighter-squadron.webp"
     },
     "oddball-arc-170-starfighter-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "arc-170-starfighter-squadron",
       "name": "ARC-170 Starfighter Squadron",
       "nicknames": [
-        "Odd Ball", "Odd ARC"
+        "Odd Ball",
+        "Odd ARC"
       ],
       "ace-name": "Odd Ball",
       "unique-class": [
@@ -129,7 +132,7 @@
       "ability": "While attacking, if you moved during this activation, you may reroll up to 2 dice.",
       "unique": true,
       "ace": true,
-      "points": 23,
+      "points": 20,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/oddball-arc-170-starfighter-squadron.webp"

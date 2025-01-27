@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "support-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "At the start of the Command Phase, you may discard this card to discard all of your command dials.",
       "unique": false,
-      "points": 4,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

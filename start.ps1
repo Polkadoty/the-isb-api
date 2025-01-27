@@ -17,3 +17,6 @@ Start-Process -File "node" -ArgumentList "find-errata.js" -Wait
 
 # Run findNicknames.js
 Start-Process -File "node" -ArgumentList "find-nicknames.js" -Wait
+
+# Run webpToJpegConverter.js
+Start-Process -File "node" -ArgumentList "webpToJpegConverter.js C:\GitHub\the-isb-api\images" -Wait

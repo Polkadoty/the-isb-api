@@ -841,6 +841,12 @@
     "victory-i-class-star-destroyer-republic",
     "victory-i-class-star-destroyer-republic-errata"
   ],
+  "GAR Victory": [
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "GAR Vic": [
+    "victory-i-class-star-destroyer-republic"
+  ],
   "Dummy Commander": [
     "dummy-ship-commander"
   ],
@@ -1073,8 +1079,8 @@
   "Slave I": [
     "boba-fett-slave-i",
     "hondo-ohnaka-slave-i",
-    "boba-fett-slave-i-errata",
-    "jango-fett-slave-i"
+    "jango-fett-slave-i",
+    "boba-fett-slave-i-errata"
   ],
   "Boba Fett": [
     "boba-fett-slave-i",
@@ -1616,9 +1622,6 @@
     "malee-hurra-scurrg-h-6-bomber",
     "malee-hurra-scurrg-h-6-bomber-errata"
   ],
-  "Overpriced": [
-    "malee-hurra-scurrg-h-6-bomber"
-  ],
   "VCX-100 Freighter": [
     "vcx-100-freighter"
   ],
@@ -2045,8 +2048,12 @@
   "Tris": [
     "droid-tri-fighter-squadron"
   ],
-  "Phlac-Arphocc Prototype": [
-    "phlac-arphocc-droid-tri-fighter-squadron"
+  "Trifighters": [
+    "droid-tri-fighter-squadron"
+  ],
+  "Phlac-Arphocc Prototypes": [
+    "phlac-arphocc-droid-tri-fighter-squadron",
+    "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
   "Phlac-Arphocc": [
     "phlac-arphocc-droid-tri-fighter-squadron",
@@ -2056,8 +2063,9 @@
     "phlac-arphocc-droid-tri-fighter-squadron",
     "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
-  "Phlac Arphocc Prototype": [
-    "phlac-arphocc-droid-tri-fighter-squadron"
+  "Phlac Arphocc Prototypes": [
+    "phlac-arphocc-droid-tri-fighter-squadron",
+    "phlac-arphocc-droid-tri-fighter-squadron-errata"
   ],
   "DIS-T81": [
     "dis-t81-droid-tri-fighter-squadron"
@@ -2067,6 +2075,9 @@
   ],
   "DIS": [
     "dis-t81-droid-tri-fighter-squadron"
+  ],
+  "Jango Fett": [
+    "jango-fett-slave-i"
   ],
   "Hyena-class Droid Bomber Squadron": [
     "hyena-droid-bomber-squadron",
@@ -5710,14 +5721,5 @@
   ],
   "BX Commando Droids": [
     "bx-commando-droids-boarding-team-old-legacy"
-  ],
-  "Phlac-Arphocc Prototypes": [
-    "phlac-arphocc-droid-tri-fighter-squadron-errata"
-  ],
-  "Phlac Arphocc Prototypes": [
-    "phlac-arphocc-droid-tri-fighter-squadron-errata"
-  ],
-  "Jango Fett": [
-    "jango-fett-slave-i"
   ]
 }

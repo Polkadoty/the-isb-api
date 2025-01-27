@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "linked-turbolaser-towers": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Rebellion in the Rim Campaign Armada",
-      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "turbolaser",
       "faction": [
@@ -18,7 +18,7 @@
       "unique-class": [
         ""
       ],
-      "ability": "You may reroll 1 red die in your attack pool.\nWhile attacking the first squadron during your activation, you may add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.",
+      "ability": "While attacking a squadron, you may reroll 1 red die in your attack pool.\nWhile attacking a ship, if you have the bombard tag, you may reroll 1 red die in your attack pool.\nDuring your activation, while attacking the first squadron during an attack, you may exhaust this card to add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.",
       "unique": false,
       "points": 7,
       "modification": false,

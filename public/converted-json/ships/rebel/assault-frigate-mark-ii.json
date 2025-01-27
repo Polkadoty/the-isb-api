@@ -41,22 +41,27 @@
       "blueprint": "",
       "models": {
         "assault-frigate-mark-ii-a": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 1 Armada",
-          "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "assault-frigate-mark-ii",
           "name": "Assault Frigate Mark II A",
           "nicknames": [
-            "Assault Frigate", "Assault Frigate Mark II", "Assault Frigate 2", "AF", "AFMk2", "AFMk2A"
+            "Assault Frigate",
+            "Assault Frigate Mark II",
+            "Assault Frigate 2",
+            "AF",
+            "AFMk2",
+            "AFMk2A"
           ],
           "faction": "rebel",
           "unique": false,
           "traits": [],
-          "points": 81,
+          "points": 77,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,
@@ -136,7 +141,11 @@
           "chassis": "assault-frigate-mark-ii",
           "name": "Assault Frigate Mark II B",
           "nicknames": [
-            "Assault Frigate Mark II", "Assault Frigate 2", "AF", "AFMk2", "AFMk2B"
+            "Assault Frigate Mark II",
+            "Assault Frigate 2",
+            "AF",
+            "AFMk2",
+            "AFMk2B"
           ],
           "faction": "rebel",
           "unique": false,

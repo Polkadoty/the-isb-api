@@ -12,7 +12,11 @@
       "squadron_type": "scurrg-h-6-bomber",
       "name": "Scurrg H-6 Bomber",
       "nicknames": [
-        "Scurrg", "Scurrgs", "H6s", "H6", "H-6"
+        "Scurrg",
+        "Scurrgs",
+        "H6s",
+        "H6",
+        "H-6"
       ],
       "ace-name": "",
       "unique-class": [
@@ -79,7 +83,8 @@
       "squadron_type": "scurrg-h-6-bomber",
       "name": "Havoc",
       "nicknames": [
-        "Nym", "Nym Havoc"
+        "Nym",
+        "Nym Havoc"
       ],
       "ace-name": "Nym",
       "unique-class": [
@@ -136,18 +141,18 @@
       "cardimage": "https://api.swarmada.wiki/images/nym-havoc.webp"
     },
     "malee-hurra-scurrg-h-6-bomber": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Rebellion in the Rim Campaign Armada",
-      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "scurrg-h-6-bomber",
       "name": "Scurrg H-6 Bomber",
       "nicknames": [
-        "Malee", "Overpriced"
+        "Malee"
       ],
       "ace-name": "Malee Hurra",
       "unique-class": [
@@ -197,7 +202,7 @@
       "ability": "Once per activation, while a friendly ship is attacking a ship at distance 1 of you and you are engaged by 1 or fewer squadrons, the attacker may spend 1 die to change 1 die to a face with a :crit: icon.",
       "unique": true,
       "ace": true,
-      "points": 26,
+      "points": 21,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/malee-hurra-scurrg-h-6-bomber.webp"

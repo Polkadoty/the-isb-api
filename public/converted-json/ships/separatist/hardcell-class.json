@@ -51,7 +51,10 @@
           "chassis": "hardcell-class",
           "name": "Hardcell-class Transport",
           "nicknames": [
-            "Hardcell", "Hardcell-class", "Hardcell Transport", "Hardcell-class Transport"
+            "Hardcell",
+            "Hardcell-class",
+            "Hardcell Transport",
+            "Hardcell-class Transport"
           ],
           "faction": "separatist",
           "unique": false,
@@ -127,17 +130,20 @@
           "cardimage": "https://api.swarmada.wiki/images/hardcell-class-transport.webp"
         },
         "hardcell-class-battle-refit": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 9 Armada",
-          "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Battle Refit",
           "nicknames": [
-            "Hardcell", "Hardcell-class", "Hardcell Battle", "Hardcell-class Battle"
+            "Hardcell",
+            "Hardcell-class",
+            "Hardcell Battle",
+            "Hardcell-class Battle"
           ],
           "faction": "separatist",
           "unique": false,
@@ -145,7 +151,7 @@
             "droid",
             "transport"
           ],
-          "points": 52,
+          "points": 50,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,

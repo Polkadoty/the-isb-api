@@ -4,8 +4,8 @@
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
-      "release": "Rapid Reinforcements",
-      "expansion": "Rapid Reinforcements II (RR2)",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
@@ -13,14 +13,15 @@
       ],
       "name": "Asajj Ventress",
       "nicknames": [
-        "Asajj", "Ventress"
+        "Asajj",
+        "Ventress"
       ],
       "unique-class": [
         "Asajj Ventress"
       ],
       "ability": "After you perform an attack targeting a ship that has 1 or more raid tokens, if the defender suffered one or more damage, you may remove 1 raid token and 1 command token from the defender. If you do, gain a matching command token.",
       "unique": true,
-      "points": 4,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -49,7 +50,7 @@
         "start_amount": 0
       },
       "exhaust": {
-        "type": "",
+        "type": "recur",
         "ready_token": [
           ""
         ],

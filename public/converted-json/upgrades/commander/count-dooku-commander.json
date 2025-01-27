@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "count-dooku-commander": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "commander",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "You must choose at least 2 types of command tokens for this card. At the start of each Ship Phase, you may discard 1 command token from this card. If you do, each enemy ship gains a raid token matching that command token.",
       "unique": true,
-      "points": 30,
+      "points": 27,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

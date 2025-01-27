@@ -1,0 +1,72 @@
+{
+  "squadrons": {
+    "jango-fett-slave-i": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "firespray-31",
+      "name": "Slave I",
+      "nicknames": [
+        "Slave I", "Jango Fett"
+      ],
+      "ace-name": "Jango Fett",
+      "unique-class": [
+        "Jango Fett",
+        "Slave I"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a unique squadron during your activation, you may deal 1 damage to another friendly squadron at distance 1 of the defender. If you do, you may change 1 die to any face.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/jango-fett-slave-i.webp"
+    }
+  }
+}

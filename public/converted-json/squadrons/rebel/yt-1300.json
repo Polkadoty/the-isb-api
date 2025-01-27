@@ -12,7 +12,9 @@
       "squadron_type": "yt-1300",
       "name": "YT-1300",
       "nicknames": [
-        "1300s", "YT", "YTs"
+        "1300s",
+        "YT",
+        "YTs"
       ],
       "ace-name": "",
       "unique-class": [
@@ -79,7 +81,10 @@
       "squadron_type": "yt-1300",
       "name": "Millennium Falcon",
       "nicknames": [
-        "Falcon", "Han", "Solo", "Shoots First"
+        "Falcon",
+        "Han",
+        "Solo",
+        "Shoots First"
       ],
       "ace-name": "Han Solo",
       "unique-class": [
@@ -136,18 +141,20 @@
       "cardimage": "https://api.swarmada.wiki/images/han-solo-millennium-falcon.webp"
     },
     "lando-calrissian-millennium-falcon": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Rebellion in the Rim Campaign Armada",
-      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "yt-1300",
       "name": "Millennium Falcon",
       "nicknames": [
-        "Falcon", "Lando", "Calrissian"
+        "Falcon",
+        "Lando",
+        "Calrissian"
       ],
       "ace-name": "Lando Calrissian",
       "unique-class": [
@@ -198,7 +205,7 @@
       "ability": "While attacking, you may discard a defense token to set 1 die to any face. That die cannot be modified again.\nWhile defending you may spend 1 of your defense tokens to force the attacker to reroll 1 or more dice of your choice.",
       "unique": true,
       "ace": true,
-      "points": 23,
+      "points": 24,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/lando-calrissian-millennium-falcon.webp"

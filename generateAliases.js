@@ -25,7 +25,10 @@ const directories = {
   'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
   'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
   'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
-  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
+  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives'),
+  'old-ships': path.join(__dirname, 'public/converted-json/old-ships'),
+  'old-squadrons': path.join(__dirname, 'public/converted-json/old-squadrons'),
+  'old-upgrades': path.join(__dirname, 'public/converted-json/old-upgrades'),
 };
 
 function capitalizeFirstLetter(string) {

@@ -1,18 +1,21 @@
 {
   "squadrons": {
     "aggressor-assault-fighter": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "aggressor-assault-fighter",
       "name": "Aggressor Assault Fighter",
       "nicknames": [
-        "Aggressor", "Aggressors", "AAF", "AAFs"
+        "Aggressor",
+        "Aggressors",
+        "AAF",
+        "AAFs"
       ],
       "ace-name": "",
       "unique-class": [
@@ -62,24 +65,25 @@
       "ability": "",
       "unique": false,
       "ace": false,
-      "points": 16,
+      "points": 15,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/aggressor-assault-fighter.webp"
     },
     "ig-88-ig-2000": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Rogues and Villains Expansion Pack (SWM14)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "aggressor-assault-fighter",
       "name": "IG-2000",
       "nicknames": [
-        "IG-2000", "IG-88"
+        "IG-2000",
+        "IG-88"
       ],
       "ace-name": "IG-88",
       "unique-class": [
@@ -130,24 +134,25 @@
       "ability": "You ignore the escort and counter keywords on enemy squadrons.",
       "unique": true,
       "ace": true,
-      "points": 21,
+      "points": 19,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/ig-88-ig-2000.webp"
     },
     "ig-88b-ig-2000b": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Rebellion in the Rim Campaign Armada",
-      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "aggressor-assault-fighter",
       "name": "IG-2000B",
       "nicknames": [
-        "IG-2000B", "IG-88B"
+        "IG-2000B",
+        "IG-88B"
       ],
       "ace-name": "IG-88B",
       "unique-class": [
@@ -198,7 +203,7 @@
       "ability": "At the start of the Squadron Phase, you may toggle your activation slider to the activated side. If you do, you may perform an anti-squadron attack against each enemy squadron at distance 1. Treat these attacks as obstructed.",
       "unique": true,
       "ace": true,
-      "points": 21,
+      "points": 19,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/ig-88b-ig-2000b.webp"

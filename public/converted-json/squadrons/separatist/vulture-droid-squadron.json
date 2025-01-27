@@ -12,7 +12,11 @@
       "squadron_type": "vulture-droid-squadron",
       "name": "Vulture-class Droid Fighter Squadron",
       "nicknames": [
-        "Vultures", "Vulture Squadron", "Vulture", "Vulture Droid", "Vulture Droids"
+        "Vultures",
+        "Vulture Squadron",
+        "Vulture",
+        "Vulture Droid",
+        "Vulture Droids"
       ],
       "ace-name": "",
       "unique-class": [
@@ -79,7 +83,9 @@
       "squadron_type": "vulture-droid-squadron",
       "name": "Vulture-class Droid Fighter Squadron",
       "nicknames": [
-        "Haor Chall", "Haor Challs", "Haor Chall Prototypes"
+        "Haor Chall",
+        "Haor Challs",
+        "Haor Chall Prototypes"
       ],
       "ace-name": "Haor Chall Prototypes",
       "unique-class": [
@@ -135,18 +141,19 @@
       "cardimage": "https://api.swarmada.wiki/images/haor-chall-vulture-droid-squadron.webp"
     },
     "dfs-311-vulture-droid-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "vulture-droid-squadron",
       "name": "Vulture-class Droid Fighter Squadron",
       "nicknames": [
-        "DFS-311", "DFS"
+        "DFS-311",
+        "DFS"
       ],
       "ace-name": "DFS-311",
       "unique-class": [
@@ -196,7 +203,7 @@
       "ability": "While you are defending, if the attack is obstructed, you may force the attacker to reroll 1 die of your choice.",
       "unique": true,
       "ace": true,
-      "points": 18,
+      "points": 16,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/dfs-311-vulture-droid-squadron.webp"

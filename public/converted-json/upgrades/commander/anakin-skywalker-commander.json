@@ -4,8 +4,8 @@
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
-      "release": "Rapid Reinforcements",
-      "expansion": "Rapid Reinforcements II (RR2)",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "commander",
       "faction": [
@@ -13,14 +13,15 @@
       ],
       "name": "Anakin Skywalker",
       "nicknames": [
-        "Anakin", "Commanderkin"
+        "Anakin",
+        "Commanderkin"
       ],
       "unique-class": [
         "Anakin Skywalker"
       ],
       "ability": "While a friendly ship is attacking a ship, if the defender is at distance 1-5 of at least 2 other friendly ships, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If it does, the attacker may reroll up to 3 dice.",
       "unique": true,
-      "points": 31,
+      "points": 27,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

@@ -1,0 +1,61 @@
+{
+  "upgrades": {
+    "nav-team": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 0 Armada",
+      "expansion": "Armada Core Set (SWM01)",
+      "_id": null,
+      "type": "support-team",
+      "faction": [
+        ""
+      ],
+      "name": "Nav Team",
+      "nicknames": [
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": ":nav: : Your :nav: tokens can either change your speed or increase 1 yaw value by 1.",
+      "unique": false,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/nav-team.webp"
+    }
+  }
+}

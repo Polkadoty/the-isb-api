@@ -37,24 +37,29 @@
       "blueprint": "",
       "models": {
         "mc80h-assault-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 2 Armada",
-          "expansion": "Home One Expansion Pack (SWM13)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Assault Cruiser",
           "nicknames": [
-            "MC80", "MC-80", "MC80H", "MC-80H", "MC80 Assault", "MC-80 Assault"
+            "MC80",
+            "MC-80",
+            "MC80H",
+            "MC-80H",
+            "MC80 Assault",
+            "MC-80 Assault"
           ],
           "faction": "rebel",
           "unique": false,
           "traits": [
             "MC"
           ],
-          "points": 114,
+          "points": 110,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -124,24 +129,29 @@
           "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser.webp"
         },
         "mc80h-command-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 2 Armada",
-          "expansion": "Home One Expansion Pack (SWM13)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Command Cruiser",
           "nicknames": [
-            "MC80", "MC-80", "MC80H", "MC-80H", "MC80 Command", "MC-80 Command"
+            "MC80",
+            "MC-80",
+            "MC80H",
+            "MC-80H",
+            "MC80 Command",
+            "MC-80 Command"
           ],
           "faction": "rebel",
           "unique": false,
           "traits": [
             "MC"
           ],
-          "points": 106,
+          "points": 102,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,

@@ -1,236 +1,236 @@
 {
-    "upgrades": {
-        "redemption-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Redemption",
-            "nicknames": [
-                "Redemption"
-            ],
-            "unique-class": [
-                "Redemption"
-            ],
-            "ability": "When a friendly ship at distance 1-5 resolves a :repair: command, it gains 1 additional engineering point.",
-            "unique": true,
-            "points": 8,
-            "modification": false,
-            "bound_shiptype": "nebulon-b-frigate",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/redemption-title.webp"
-        },
-        "salvation-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Salvation",
-            "nicknames": [
-                "Salvation"
-            ],
-            "unique-class": [
-                "Salvation"
-            ],
-            "ability": "While attacking a ship from your front hull zone, your :crit: icons count as 2 damage instead of 1.",
-            "unique": true,
-            "points": 7,
-            "modification": false,
-            "bound_shiptype": "nebulon-b-frigate",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/salvation-title.webp"
-        },
-        "vanguard-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Rebellion in the Rim Campaign Armada",
-            "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Vanguard",
-            "nicknames": [
-                "Vanguard"
-            ],
-            "unique-class": [
-                "Vanguard"
-            ],
-            "ability": "You gain 1 additional :weapons-team: icon in your upgrade bar.\nAt the start of the first round, you may replace 1 of your defense tokens with a :redirect: defense token.",
-            "unique": true,
-            "points": 4,
-            "modification": false,
-            "bound_shiptype": "nebulon-b-frigate",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    "weapons-team"
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/vanguard-title.webp"
-        },
-        "yavaris-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 1 Armada",
-            "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Yavaris",
-            "nicknames": [
-                "Yavaris"
-            ],
-            "unique-class": [
-                "Yavaris"
-            ],
-            "ability": ":squadron:: Each squadron you activate may choose to only attack during your activation. If it does, while attacking, it may add 1 die to its attack pool of a color already in its attack pool.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "nebulon-b-frigate",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/yavaris-title.webp"
-        }
+  "upgrades": {
+    "redemption-title": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Redemption",
+      "nicknames": [
+        "Redemption"
+      ],
+      "unique-class": [
+        "Redemption"
+      ],
+      "ability": "When a friendly ship at distance 1-5 resolves a :repair: command, it gains 1 additional engineering point.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "nebulon-b-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/redemption-title.webp"
+    },
+    "salvation-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Salvation",
+      "nicknames": [
+        "Salvation"
+      ],
+      "unique-class": [
+        "Salvation"
+      ],
+      "ability": "While attacking a ship from your front hull zone, your :crit: icons count as 2 damage instead of 1.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "nebulon-b-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/salvation-title.webp"
+    },
+    "vanguard-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Vanguard",
+      "nicknames": [
+        "Vanguard"
+      ],
+      "unique-class": [
+        "Vanguard"
+      ],
+      "ability": "You gain 1 additional :weapons-team: icon in your upgrade bar.\nAt the start of the first round, you may replace 1 of your defense tokens with a :redirect: defense token.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "nebulon-b-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          "weapons-team"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/vanguard-title.webp"
+    },
+    "yavaris-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 1 Armada",
+      "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Yavaris",
+      "nicknames": [
+        "Yavaris"
+      ],
+      "unique-class": [
+        "Yavaris"
+      ],
+      "ability": ":squadron:: Each squadron you activate may choose to only attack during your activation. If it does, while attacking, it may add 1 die to its attack pool of a color already in its attack pool.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "nebulon-b-frigate",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/yavaris-title.webp"
     }
+  }
 }

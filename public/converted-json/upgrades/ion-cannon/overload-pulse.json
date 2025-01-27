@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "overload-pulse": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "ion-cannon",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "BLUE :crit: : Exhaust all of the defender's defense tokens.",
       "unique": false,
-      "points": 8,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

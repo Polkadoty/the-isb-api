@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "veteran-captain-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "When you reveal a command, you may discard this card to gain 1 command token of your choice.",
       "unique": false,
-      "points": 3,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

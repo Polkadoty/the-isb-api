@@ -12,7 +12,10 @@
       "squadron_type": "droid-tri-fighter-squadron",
       "name": "Droid Tri-Fighter Squadron",
       "nicknames": [
-        "Droid Tri-Fighters", "Tri-Fighters", "Tris"
+        "Droid Tri-Fighters",
+        "Tri-Fighters",
+        "Tris",
+        "Trifighters"
       ],
       "ace-name": "",
       "unique-class": [
@@ -68,22 +71,24 @@
       "cardimage": "https://api.swarmada.wiki/images/droid-tri-fighter-squadron.webp"
     },
     "phlac-arphocc-droid-tri-fighter-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "droid-tri-fighter-squadron",
       "name": "Droid Tri-Fighter Squadron",
       "nicknames": [
-        "Phlac-Arphocc", "Phlac", "Phlac Arphocc Prototype"
+        "Phlac-Arphocc",
+        "Phlac",
+        "Phlac Arphocc Prototypes"
       ],
-      "ace-name": "Phlac-Arphocc Prototype",
+      "ace-name": "Phlac-Arphocc Prototypes",
       "unique-class": [
-        "Phlac-Arphocc Prototype"
+        "Phlac-Arphocc Prototypes"
       ],
       "irregular": false,
       "hull": 3,
@@ -129,7 +134,7 @@
       "ability": "After an enemy squadron ends its activation at distance 1, that squadron suffers 1 damage.",
       "unique": true,
       "ace": true,
-      "points": 19,
+      "points": 18,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/phlac-arphocc-droid-tri-fighter-squadron.webp"
@@ -146,7 +151,9 @@
       "squadron_type": "droid-tri-fighter-squadron",
       "name": "Droid Tri-Fighter Squadron",
       "nicknames": [
-        "DIS-T81", "T81s", "DIS"
+        "DIS-T81",
+        "T81s",
+        "DIS"
       ],
       "ace-name": "DIS-T81",
       "unique-class": [

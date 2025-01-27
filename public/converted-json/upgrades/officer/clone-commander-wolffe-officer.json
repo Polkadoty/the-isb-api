@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "clone-commander-wolffe-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
@@ -13,12 +13,13 @@
       ],
       "name": "Clone Commander Wolffe",
       "nicknames": [
-        "CCW", "Wolffe"
+        "CCW",
+        "Wolffe"
       ],
       "unique-class": [
         "Clone Commander Wolffe"
       ],
-      "ability": ":squadron: : You may exhaust this card. If you do: Each of up to 3 squadrons that you activate without adept gain assault until the end of its activation. Each squadron that you activate with the printed assault keyword can spend a die with a :hit: or :accuracy: icon to resolve the assault effect. You can spend tokens from this card to ready it.",
+      "ability": ":squadron: : You may exhaust this card. If you do: Each of up to 3 squadrons that you activate without adept gain assault until the end of its activation. Each squadron that you activate with the *assault* keyword can spend a die with a :hit: or :accuracy: icon to resolve the assault effect. You can spend tokens from this card to ready it.",
       "unique": true,
       "points": 6,
       "modification": false,

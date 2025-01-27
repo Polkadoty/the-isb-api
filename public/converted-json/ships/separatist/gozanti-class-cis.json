@@ -44,14 +44,19 @@
           "author": "Atomic Mass Games",
           "alias": "AMG",
           "team": "AMG",
-          "release": "Rapid Reinforcements",
-          "expansion": "Rapid Reinforcements I (RR1)",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
           "nicknames": [
-            "Gozanti", "Gozanti-class", "Gozanti Cruiser", "Gozanti-class Cruiser", "Gozer", "Seppy Gozanti"
+            "Gozanti",
+            "Gozanti-class",
+            "Gozanti Cruiser",
+            "Gozanti-class Cruiser",
+            "Gozer",
+            "Seppy Gozanti"
           ],
           "faction": "separatist",
           "unique": false,
@@ -59,7 +64,7 @@
             "flotilla",
             "droid"
           ],
-          "points": 27,
+          "points": 24,
           "tokens": {
             "def_scatter": 1,
             "def_evade": 1,

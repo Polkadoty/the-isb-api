@@ -1,18 +1,19 @@
 {
   "squadrons": {
     "mandalorian-gauntlet-fighter": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 7 Armada",
-      "expansion": "Chimaera Expansion Pack (SWM29)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "mandalorian-gauntlet-fighter",
       "name": "Mandalorian Gauntlet Fighter",
       "nicknames": [
-        "Gauntlet", "Gauntlets"
+        "Gauntlet",
+        "Gauntlets"
       ],
       "ace-name": "",
       "unique-class": [
@@ -62,24 +63,26 @@
       "ability": "",
       "unique": false,
       "ace": false,
-      "points": 20,
+      "points": 18,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/mandalorian-gauntlet-fighter.webp"
     },
     "gar-saxon-mandalorian-gauntlet-fighter": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 7 Armada",
-      "expansion": "Chimaera Expansion Pack (SWM29)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "mandalorian-gauntlet-fighter",
       "name": "Mandalorian Gauntlet Fighter",
       "nicknames": [
-        "Gar", "Gar Saxon", "GS"
+        "Gar",
+        "Gar Saxon",
+        "GS"
       ],
       "ace-name": "Gar Saxon",
       "unique-class": [
@@ -129,7 +132,7 @@
       "ability": "When an enemy squadron with INTEL or RELAY at distance 1 activates, it suffers 1 damage.",
       "unique": true,
       "ace": true,
-      "points": 23,
+      "points": 20,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/gar-saxon-mandalorian-gauntlet-fighter.webp"
@@ -146,7 +149,8 @@
       "squadron_type": "mandalorian-gauntlet-fighter",
       "name": "Mandalorian Gauntlet Fighter",
       "nicknames": [
-        "Fenn", "Fenn Rau"
+        "Fenn",
+        "Fenn Rau"
       ],
       "ace-name": "Fenn Rau",
       "unique-class": [

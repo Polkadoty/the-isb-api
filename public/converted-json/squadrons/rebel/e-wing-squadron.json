@@ -1,18 +1,19 @@
 {
   "squadrons": {
     "e-wing-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "e-wing-squadron",
       "name": "E-wing Squadron",
       "nicknames": [
-        "E-Wings", "E-Wing"
+        "E-Wings",
+        "E-Wing"
       ],
       "ace-name": "",
       "unique-class": [
@@ -62,7 +63,7 @@
       "ability": "",
       "unique": false,
       "ace": false,
-      "points": 15,
+      "points": 14,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/e-wing-squadron.webp"
@@ -79,7 +80,8 @@
       "squadron_type": "e-wing-squadron",
       "name": "E-wing Squadron",
       "nicknames": [
-        "Corran Horn", "Corran"
+        "Corran Horn",
+        "Corran"
       ],
       "ace-name": "Corran Horn",
       "unique-class": [

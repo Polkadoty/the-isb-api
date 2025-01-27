@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "weapons-battery-techs": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "weapons-team",
+      "faction": [
+        ""
+      ],
+      "name": "Weapons Battery Techs",
+      "nicknames": [
+        "WBT", "WBTs"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While attacking a ship, you may change 1 die face with a :accuracy: icon to a face with :crit: icon.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/weapons-battery-techs.webp"
+    }
+  }
+}

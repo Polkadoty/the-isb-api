@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "leading-shots": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "ion-cannon",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "While attacking, you may spend 1 blue die to reroll any number of dice in your attack pool.",
       "unique": false,
-      "points": 6,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

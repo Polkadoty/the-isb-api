@@ -12,7 +12,8 @@
       "squadron_type": "delta-7-aethersprite-squadron",
       "name": "Delta-7 Aethersprite Squadron",
       "nicknames": [
-        "Delta", "Deltas"
+        "Delta",
+        "Deltas"
       ],
       "ace-name": "",
       "unique-class": [
@@ -135,11 +136,11 @@
       "cardimage": "https://api.swarmada.wiki/images/ahsoka-tano-delta-7-aethersprite-squadron.webp"
     },
     "kit-fisto-delta-7-aethersprite-squadron": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "republic",
@@ -196,7 +197,7 @@
       "ability": "When you spend a defense token, you may discard it. If you do, reduce the total damage by 3 instead of resolving that token's effect.",
       "unique": true,
       "ace": true,
-      "points": 26,
+      "points": 24,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/kit-fisto-delta-7-aethersprite-squadron.webp"

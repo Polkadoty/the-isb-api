@@ -1,178 +1,179 @@
 {
-    "upgrades": {
-        "resolute-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "republic"
-            ],
-            "name": "Resolute",
-            "nicknames": [
-                "Resolute"
-            ],
-            "unique-class": [
-                "Resolute"
-            ],
-            "ability": "You must choose at least 2 types of command tokens for this card. After you resolve a command by spending a dial, you may discard 1 matching command token from this card to gain that token.",
-            "unique": true,
-            "points": 6,
-            "modification": false,
-            "bound_shiptype": "venator-star-destroyer",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/resolute-title.webp"
-        },
-        "tranquility-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "republic"
-            ],
-            "name": "Tranquility",
-            "nicknames": [
-                "Tranquility", "TQ"
-            ],
-            "unique-class": [
-                "Tranquility"
-            ],
-            "ability": "While defending, after the Spend Defense Tokens step, if you spent fewer than 2 defense tokens, you may move up to 2 shields from 1 of your hull zones to the defending hull zone. If you do, the number of shields in that zone cannot exceed a maximum of '6'. You cannot recover shields while any zone is greater than its maximum shield value.",
-            "unique": true,
-            "points": 7,
-            "modification": false,
-            "bound_shiptype": "venator-star-destroyer",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/tranquility-title.webp"
-        },
-        "triumphant-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 10 Armada",
-            "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "republic"
-            ],
-            "name": "Triumphant",
-            "nicknames": [
-                "Triumphant"
-            ],
-            "unique-class": [
-                "Triumphant"
-            ],
-            "ability": "While another friendly non-flotilla ship resolves a :squadron: command, up to 3 squadrons without adept that it activates can be at close range of you (even if the squadrons are beyond close-medium range of that ship). This effect is not active during the first round.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "venator-star-destroyer",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/triumphant-title.webp"
-        }
+  "upgrades": {
+    "resolute-title": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Resolute",
+      "nicknames": [
+        "Resolute"
+      ],
+      "unique-class": [
+        "Resolute"
+      ],
+      "ability": "You must choose at least 2 types of command tokens for this card. After you resolve a command by spending a dial, you may discard 1 matching command token from this card to gain that token.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "venator-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/resolute-title.webp"
+    },
+    "tranquility-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Tranquility",
+      "nicknames": [
+        "Tranquility",
+        "TQ"
+      ],
+      "unique-class": [
+        "Tranquility"
+      ],
+      "ability": "While defending, after the Spend Defense Tokens step, if you spent fewer than 2 defense tokens, you may move up to 2 shields from 1 of your hull zones to the defending hull zone. If you do, the number of shields in that zone cannot exceed a maximum of '6'. You cannot recover shields while any zone is greater than its maximum shield value.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "venator-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tranquility-title.webp"
+    },
+    "triumphant-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 10 Armada",
+      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Triumphant",
+      "nicknames": [
+        "Triumphant"
+      ],
+      "unique-class": [
+        "Triumphant"
+      ],
+      "ability": "While another friendly non-flotilla ship resolves a :squadron: command, up to 3 squadrons without adept that it activates can be at close range of you (even if the squadrons are beyond close-medium range of that ship). This effect is not active during the first round.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "venator-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/triumphant-title.webp"
     }
+  }
 }

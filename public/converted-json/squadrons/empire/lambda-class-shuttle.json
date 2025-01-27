@@ -12,7 +12,8 @@
       "squadron_type": "lambda-class-shuttle",
       "name": "Lambda-class Shuttle",
       "nicknames": [
-        "Lambda", "Lambdas"
+        "Lambda",
+        "Lambdas"
       ],
       "ace-name": "",
       "unique-class": [
@@ -68,18 +69,19 @@
       "cardimage": "https://api.swarmada.wiki/images/lambda-class-shuttle.webp"
     },
     "colonel-jendon-lambda-class-shuttle": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "lambda-class-shuttle",
       "name": "Lambda-class Shuttle",
       "nicknames": [
-        "Jendon", "CJ"
+        "Jendon",
+        "CJ"
       ],
       "ace-name": "Colonel Jendon",
       "unique-class": [
@@ -129,7 +131,7 @@
       "ability": "During your activation, instead of attacking, you may choose 1 friendly squadron at distance 1-2. That squadron may perform an attack (even if it has already activated).",
       "unique": true,
       "ace": true,
-      "points": 20,
+      "points": 23,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/colonel-jendon-lambda-class-shuttle.webp"

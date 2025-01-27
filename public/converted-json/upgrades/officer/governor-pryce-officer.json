@@ -4,8 +4,8 @@
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
-      "release": "Rapid Reinforcements",
-      "expansion": "Rapid Reinforcements II (RR2)",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "officer",
       "faction": [
@@ -18,9 +18,9 @@
       "unique-class": [
         "Governor Pryce"
       ],
-      "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result..",
+      "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any face without an :accuracy: icon.",
       "unique": true,
-      "points": 7,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

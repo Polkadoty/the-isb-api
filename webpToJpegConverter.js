@@ -25,12 +25,46 @@ function processFile(filePath, relativePath) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    // Use sharp library directly instead of CLI
+    // Pipeline for extreme compression
     sharp(filePath)
-      .jpeg({ quality: 65 })
+      // First pass: reduce noise and prepare for compression
+      .median(3) // Remove noise
+      .resize({
+        width: 500,  // Further reduced dimensions
+        height: 700,
+        fit: 'inside',
+        withoutEnlargement: true,
+        kernel: 'lanczos3' // Better quality downscaling
+      })
+      // Reduce color palette
+      .gamma(1.1) // Slightly brighten midtones
+      .modulate({
+        saturation: 0.9 // Slightly reduce saturation
+      })
+      // Enhanced sharpening for perceived quality
+      .sharpen({
+        sigma: 1.2,
+        m1: 0.5,
+        m2: 0.7,
+        x1: 2,
+        y2: 10,
+        y3: 20
+      })
+      // Extreme JPEG compression with mozjpeg
+      .jpeg({
+        quality: 15,  // Even more aggressive quality reduction
+        mozjpeg: true,
+        chromaSubsampling: '4:2:0',
+        trellisQuantisation: true,
+        overshootDeringing: true,
+        optimizeScans: true,
+        optimizeCoding: true,
+        quantisationTable: 5, // Most aggressive quantisation
+        force: true
+      })
       .toFile(outputPath)
       .then(() => {
-        console.log(`Converted ${filePath} to JPEG`);
+        console.log(`Converted ${filePath} to low-res JPEG`);
         resolve();
       })
       .catch(error => {

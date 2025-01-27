@@ -2,10 +2,10 @@
   "upgrades": {
     "darth-vader-commander": {
       "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "commander",
       "faction": [
@@ -20,7 +20,7 @@
       ],
       "ability": "While a friendly ship is attacking a ship, it may spend 1 defense token to reroll any number of dice in its attack pool.",
       "unique": true,
-      "points": 36,
+      "points": 34,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

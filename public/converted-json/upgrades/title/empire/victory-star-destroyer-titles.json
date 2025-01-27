@@ -1,236 +1,236 @@
 {
-    "upgrades": {
-        "corrupter-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Armada Wave 1",
-            "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "empire"
-            ],
-            "name": "Corrupter",
-            "nicknames": [
-                "Corrupter"
-            ],
-            "unique-class": [
-                "Corrupter"
-            ],
-            "ability": ":squadron:: The speed of each squadron with BOMBER you activate is increased by 1 until the end of its activation",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "victory-star-destroyer",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/corrupter-title.webp"
-        },
-        "dominator-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Wave 0 Armada",
-            "expansion": "Armada Core Set (SWM01)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "empire"
-            ],
-            "name": "Dominator",
-            "nicknames": [
-                "Dominator"
-            ],
-            "unique-class": [
-                "Dominator"
-            ],
-            "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
-            "unique": true,
-            "points": 12,
-            "modification": false,
-            "bound_shiptype": "victory-star-destroyer",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/dominator-title.webp"
-        },
-        "harrow-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Rebellion in the Rim Campaign Armada",
-            "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "empire"
-            ],
-            "name": "Harrow",
-            "nicknames": [
-                "Harrow"
-            ],
-            "unique-class": [
-                "Harrow"
-            ],
-            "ability": "You gain 1 additional :support-team: icon in your upgrade bar.\nWhen you execute a speed-1 maneuver, during your Determine Course step, you may change your first yaw value to \"II\" until the end of your activation.",
-            "unique": true,
-            "points": 3,
-            "modification": false,
-            "bound_shiptype": "victory-star-destroyer",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    "support-team"
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/harrow-title.webp"
-        },
-        "warlord-title": {
-            "author": "Fantasy Flight Games",
-            "alias": "FFG",
-            "team": "FFG",
-            "release": "Armada Wave 1",
-            "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "empire"
-            ],
-            "name": "Warlord",
-            "nicknames": [
-                "Warlord"
-            ],
-            "unique-class": [
-                "Warlord"
-            ],
-            "ability": "While attack, you may change 1 die face with an :accuracy: icon to a face with a :hit: icon.",
-            "unique": true,
-            "points": 8,
-            "modification": false,
-            "bound_shiptype": "victory-star-destroyer",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/warlord-title.webp"
-        }
+  "upgrades": {
+    "corrupter-title": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Corrupter",
+      "nicknames": [
+        "Corrupter"
+      ],
+      "unique-class": [
+        "Corrupter"
+      ],
+      "ability": ":squadron:: The speed of each squadron with BOMBER you activate is increased by 1 until the end of its activation",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/corrupter-title.webp"
+    },
+    "dominator-title": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Dominator",
+      "nicknames": [
+        "Dominator"
+      ],
+      "unique-class": [
+        "Dominator"
+      ],
+      "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/dominator-title.webp"
+    },
+    "harrow-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Rebellion in the Rim Campaign Armada",
+      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Harrow",
+      "nicknames": [
+        "Harrow"
+      ],
+      "unique-class": [
+        "Harrow"
+      ],
+      "ability": "You gain 1 additional :support-team: icon in your upgrade bar.\nWhen you execute a speed-1 maneuver, during your Determine Course step, you may change your first yaw value to \"II\" until the end of your activation.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          "support-team"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/harrow-title.webp"
+    },
+    "warlord-title": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Armada Wave 1",
+      "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Warlord",
+      "nicknames": [
+        "Warlord"
+      ],
+      "unique-class": [
+        "Warlord"
+      ],
+      "ability": "While attack, you may change 1 die face with an :accuracy: icon to a face with a :hit: icon.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/warlord-title.webp"
     }
+  }
 }

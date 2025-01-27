@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "obi-wan-kenobi-commander": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 9 Armada",
+      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Obi-Wan Kenobi",
+      "nicknames": [
+        "Obi-Wan", "Kenobi"
+      ],
+      "unique-class": [
+        "Obi-Wan Kenobi"
+      ],
+      "ability": "While a friendly ship is defending, when it spends a readied :redirect: token, it may reduce the total damage by 1 before it suffers damage.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/obi-wan-kenobi-commander.webp"
+    }
+  }
+}

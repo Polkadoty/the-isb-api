@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "xx-9-turbolasers": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "turbolaser",
       "faction": [
@@ -13,14 +13,17 @@
       ],
       "name": "XX-9 Turbolasers",
       "nicknames": [
-        "XX9", "XX9s", "XX-9", "XX-9s"
+        "XX9",
+        "XX9s",
+        "XX-9",
+        "XX-9s"
       ],
       "unique-class": [
         ""
       ],
       "ability": ":critical:: The first 2 damage cards dealt to the defender by this attack are dealt faceup.",
       "unique": false,
-      "points": 5,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

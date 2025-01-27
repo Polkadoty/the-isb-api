@@ -47,7 +47,9 @@
           "chassis": "victory-star-destroyer",
           "name": "Victory I-class Star Destroyer",
           "nicknames": [
-            "Victory", "Victory I", "Victory 1"
+            "Victory",
+            "Victory I",
+            "Victory 1"
           ],
           "faction": "empire",
           "unique": false,
@@ -124,11 +126,11 @@
           "cardimage": "https://api.swarmada.wiki/images/victory-i-class-star-destroyer.webp"
         },
         "victory-ii-class-star-destroyer": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 0 Armada",
-          "expansion": "Armada Core Set (SWM01)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "victory-star-destroyer",
@@ -138,7 +140,7 @@
           "traits": [
             "star-destroyer"
           ],
-          "points": 85,
+          "points": 80,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,

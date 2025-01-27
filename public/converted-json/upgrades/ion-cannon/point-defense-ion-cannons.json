@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "point-defense-ion-cannons": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Invisible Hand Expansion Pack (SWM42)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "ion-cannon",
       "faction": [
@@ -13,14 +13,15 @@
       ],
       "name": "Point Defense Ion Cannons",
       "nicknames": [
-        "PDIC", "PDICs"
+        "PDIC",
+        "PDICs"
       ],
       "unique-class": [
         ""
       ],
       "ability": "While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.",
       "unique": false,
-      "points": 4,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -28,7 +29,9 @@
           ""
         ],
         "size": [
-          "small","medium","large"
+          "small",
+          "medium",
+          "large"
         ],
         "disqual_upgrades": [
           ""

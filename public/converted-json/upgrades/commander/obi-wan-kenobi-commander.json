@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "obi-wan-kenobi-commander": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Galactic Republic Fleet Starter (SWM34)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "commander",
       "faction": [
@@ -13,14 +13,15 @@
       ],
       "name": "Obi-Wan Kenobi",
       "nicknames": [
-        "Obi-Wan", "Kenobi"
+        "Obi-Wan",
+        "Kenobi"
       ],
       "unique-class": [
         "Obi-Wan Kenobi"
       ],
       "ability": "While a friendly ship is defending, when it spends a readied :redirect: token, it may reduce the total damage by 1 before it suffers damage.",
       "unique": true,
-      "points": 28,
+      "points": 22,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

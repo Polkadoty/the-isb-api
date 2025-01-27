@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "rapid-launch-bays": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Phoenix Home Expansion Pack (SWM21)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "offensive-retro",
       "faction": [
@@ -13,12 +13,14 @@
       ],
       "name": "Rapid Launch Bays",
       "nicknames": [
-        "RLB", "RLBs","Launch Bays"
+        "RLB",
+        "RLBs",
+        "Launch Bays"
       ],
       "unique-class": [
         ""
       ],
-      "ability": "Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card. :squadron: : For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 1. It cannot move this activation.",
+      "ability": "Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card. When you reveal a command, you may discard this card. If you do, place each squadron set aside with this card within distance 1-2 of you. Those squadrons cannot move during your activation.",
       "unique": false,
       "points": 6,
       "modification": false,

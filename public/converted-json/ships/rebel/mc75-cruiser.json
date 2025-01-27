@@ -41,24 +41,27 @@
       "blueprint": "",
       "models": {
         "mc75-armored-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 7 Armada",
-          "expansion": "Profundity Expansion Pack (SWM30)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "mc75-cruiser",
           "name": "MC75 Armored Cruiser",
           "nicknames": [
-            "MC75", "MC-75", "MC75 Armored", "MC-75 Armored"
+            "MC75",
+            "MC-75",
+            "MC75 Armored",
+            "MC-75 Armored"
           ],
           "faction": "rebel",
           "unique": false,
           "traits": [
             "MC"
           ],
-          "points": 104,
+          "points": 99,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -130,24 +133,27 @@
           "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser.webp"
         },
         "mc75-ordnance-cruiser": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 7 Armada",
-          "expansion": "Profundity Expansion Pack (SWM30)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "mc75-cruiser",
           "name": "MC75 Ordnance Cruiser",
           "nicknames": [
-            "MC75", "MC-75", "MC75 Ordnance", "MC-75 Ordnance"
+            "MC75",
+            "MC-75",
+            "MC75 Ordnance",
+            "MC-75 Ordnance"
           ],
           "faction": "rebel",
           "unique": false,
           "traits": [
             "MC"
           ],
-          "points": 100,
+          "points": 95,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,

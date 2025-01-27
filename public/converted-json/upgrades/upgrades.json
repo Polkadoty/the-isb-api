@@ -6,7 +6,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "59a5e5a8-5f8b-48fd-b170-7a6c156ade92",
+      "_id": "78002ad6-4652-4e0e-b021-d656b66c805d",
       "type": "commander",
       "faction": [
         "rebel"
@@ -64,7 +64,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "5b5607c0-7060-4a80-be24-b0a255cd03a8",
+      "_id": "2abea5bc-c2f6-4f8e-9024-ae9c8ceb578d",
       "type": "commander",
       "faction": [
         "empire"
@@ -122,7 +122,7 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "7fcdf23a-fb65-4500-8bff-c22693bb3004",
+      "_id": "67e49b72-0445-49d4-88bf-ae645551d61f",
       "type": "commander",
       "faction": [
         "empire"
@@ -180,7 +180,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "5133c6ce-f89a-4b37-8cb6-5e4d9d179a22",
+      "_id": "a5909735-d446-4e73-a657-ea50b67bfccd",
       "type": "commander",
       "faction": [
         "empire"
@@ -238,7 +238,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "40993e2d-4186-45c2-875a-348b5f2bff1d",
+      "_id": "03e45804-10aa-4aba-ba39-94d2b2ac3ae5",
       "type": "commander",
       "faction": [
         "empire"
@@ -296,7 +296,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "e8ccccf7-bb93-433d-ada5-b642296f39d3",
+      "_id": "317a89e0-ae03-4c11-be08-6b0f5362cb3f",
       "type": "commander",
       "faction": [
         "rebel"
@@ -346,12 +346,12 @@
       "cardimage": "https://api.swarmada.wiki/images/admiral-raddus-commander.webp"
     },
     "admiral-screed-commander": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Star Wars Armada Wave 1",
-      "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "68e6e3c5-3e38-4516-98b2-39f5ac5369f5",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "48fcd949-87fc-4258-be09-6ed2730fa5d9",
       "type": "commander",
       "faction": [
         "empire"
@@ -365,7 +365,7 @@
       ],
       "ability": "Once per activation, when a friendly ship is attacking, it may spend 1 die to change a die to a face with a :critical: icon.",
       "unique": true,
-      "points": 26,
+      "points": 24,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -406,7 +406,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "8fd87325-2fcf-48ea-8cc2-5e24c8c7702d",
+      "_id": "0fec5c03-322c-4760-bb5a-f0e815613750",
       "type": "commander",
       "faction": [
         "empire"
@@ -464,7 +464,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "33da4796-96c6-4a13-be41-e98b8212397f",
+      "_id": "8efb8f06-551b-4fcb-8bd9-917ca0bcb5b4",
       "type": "commander",
       "faction": [
         "republic"
@@ -517,12 +517,12 @@
       "cardimage": "https://api.swarmada.wiki/images/admiral-tarkin-commander.webp"
     },
     "admiral-trench-commander": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "45ce8e22-5f47-4ed4-a2f6-b868e94b335c",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "65a4264d-ce84-4cd7-bcba-f48a691e7153",
       "type": "commander",
       "faction": [
         "separatist"
@@ -536,7 +536,7 @@
       ],
       "ability": "At the start of each Ship Phase, you may reveal and discard 1 command dial from this card. If you do, until the end of the round, when a friendly ship spends only a matching command token to resolve a command, that ship resolves that command as if it had spent a dial and token of the same type instead.",
       "unique": true,
-      "points": 36,
+      "points": 32,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -580,7 +580,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "5dd8c632-8521-4511-ac38-c1f26b291a30",
+      "_id": "5a05c14e-ff0a-4b34-9a74-b1870b146e05",
       "type": "commander",
       "faction": [
         "republic"
@@ -637,9 +637,9 @@
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
-      "release": "Rapid Reinforcements",
-      "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "3bb18a49-4fe7-404f-b6d9-5449f46b1e47",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "ad73e833-dff6-4448-b355-3a41abb0cca8",
       "type": "commander",
       "faction": [
         "republic"
@@ -654,7 +654,7 @@
       ],
       "ability": "While a friendly ship is attacking a ship, if the defender is at distance 1-5 of at least 2 other friendly ships, 1 other friendly ship at distance 1-5 of the defender may spend 1 defense token. If it does, the attacker may reroll up to 3 dice.",
       "unique": true,
-      "points": 31,
+      "points": 27,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -698,7 +698,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "8c8805c5-9fca-4735-99a4-1b2bd492d168",
+      "_id": "fb0abf36-7915-4e9b-9968-d1ac05d5b0c8",
       "type": "commander",
       "faction": [
         "republic"
@@ -758,7 +758,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "9ad56505-4581-43ba-960f-4f6879832efc",
+      "_id": "0bc0f5a0-bfe6-45ba-ab91-756f2c55a5c1",
       "type": "commander",
       "faction": [
         "rebel"
@@ -811,12 +811,12 @@
       "cardimage": "https://api.swarmada.wiki/images/commander-sato-commander.webp"
     },
     "count-dooku-commander": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "d262328b-dae6-4eb7-8fe1-45bbe451f5cf",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "a3cb2897-b387-4e74-9577-d42b4c29a6bb",
       "type": "commander",
       "faction": [
         "separatist"
@@ -830,7 +830,7 @@
       ],
       "ability": "You must choose at least 2 types of command tokens for this card. At the start of each Ship Phase, you may discard 1 command token from this card. If you do, each enemy ship gains a raid token matching that command token.",
       "unique": true,
-      "points": 30,
+      "points": 27,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -870,11 +870,11 @@
     },
     "darth-vader-commander": {
       "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "e9179464-1c40-414c-94c6-01c2889f121f",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "bf4282d4-f40a-4e94-851f-6fd98283bac7",
       "type": "commander",
       "faction": [
         "empire"
@@ -888,7 +888,7 @@
       ],
       "ability": "While a friendly ship is attacking a ship, it may spend 1 defense token to reroll any number of dice in its attack pool.",
       "unique": true,
-      "points": 36,
+      "points": 34,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -932,7 +932,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "12a9351e-1ff2-4e3f-bbc4-a6fe8fc29ebe",
+      "_id": "7c572b1d-5917-4a56-a3f5-e194ab8484a0",
       "type": "commander",
       "faction": [
         "empire"
@@ -990,7 +990,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "a47d969f-73a6-429f-a0ce-12da43a12eaf",
+      "_id": "1c4ca009-65be-46fa-b619-14464e5e7c1a",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1046,7 +1046,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "466de3b8-fab8-41c5-8d15-dcc2a0d4f0c7",
+      "_id": "434ceba3-dd0e-46a9-a715-19e48b13bd0d",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1101,7 +1101,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "4f3bc1a4-f73d-43f4-ae53-052270b77f06",
+      "_id": "bb9e415f-c93a-4bb6-be05-ca1fcb380313",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1157,9 +1157,9 @@
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
-      "release": "Rapid Reinforcements",
-      "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "d27a90f2-7de1-4573-992f-b48c1b765ca8",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "1104ed0e-bb0e-4025-a816-292db7d0cce1",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1173,7 +1173,7 @@
       ],
       "ability": "Choose command dials for this card after deploying fleets.\nAt the start of each Ship Phase, you may reveal and discard 1 command dial from this card. If you do, until the end of the round, when an enemy ship spends a matching command dial, it resolves that dial as though it spent a token of the same type instead. .",
       "unique": true,
-      "points": 28,
+      "points": 20,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -1217,7 +1217,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "3d2f551e-7fc7-4a32-b317-90db16befe33",
+      "_id": "f8f97b02-b8a6-49cb-b5e3-c15e37376cce",
       "type": "commander",
       "faction": [
         "separatist"
@@ -1271,12 +1271,12 @@
       "cardimage": "https://api.swarmada.wiki/images/general-grievous-commander.webp"
     },
     "general-madine-commander": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 4 Armada",
-      "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "1cbfe089-24e9-429d-b362-6ed805d68266",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "d9086260-1159-494e-bde6-680f3020d151",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1288,7 +1288,7 @@
       "unique-class": [
         "General Madine"
       ],
-      "ability": "When a friendly ship resolves a Icon Command Navigate command, if it spent a Icon Command Navigate dial it may increase 1 additional yaw value by 1. If it spent a Icon Command Navigate token, it may either change its speed or increase 1 yaw value by 1.",
+      "ability": "When a friendly ship is executing its first maneuver during its activation, during the Determine Course step, it may increase 1 yaw value by 1.",
       "unique": true,
       "points": 30,
       "modification": false,
@@ -1334,7 +1334,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "59c96808-0da1-420a-b35f-ce92515fe8b5",
+      "_id": "f7dbaac9-4e83-463f-9153-8d0eeefc2adc",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1392,7 +1392,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "3871af6b-8889-4902-b9e1-18690abdff89",
+      "_id": "f0341004-17c8-4810-a26d-02b1c20a74bb",
       "type": "commander",
       "faction": [
         "empire"
@@ -1450,7 +1450,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "7a411e95-49c5-4e50-be41-6a24a3d08ad6",
+      "_id": "80f0a0df-c357-480f-a1d2-0a7b2dc89552",
       "type": "commander",
       "faction": [
         "empire"
@@ -1508,7 +1508,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "06de4263-bb17-4dc0-b22f-b8c6352f761a",
+      "_id": "4726f680-3b1b-4441-aef0-3193a73b1b48",
       "type": "commander",
       "faction": [
         "empire"
@@ -1566,7 +1566,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "69ba08bf-bd3c-44ff-939c-da8510a40129",
+      "_id": "485ac719-0934-42a6-b6cc-ca8e0a151aa8",
       "type": "commander",
       "faction": [
         "empire"
@@ -1624,7 +1624,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "779fe152-e50f-4683-9036-0b190f1cd4ca",
+      "_id": "d99e1762-eff7-47e2-b8bb-d5432b61663b",
       "type": "commander",
       "faction": [
         "separatist"
@@ -1682,7 +1682,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "e9506e47-33c1-4865-8370-f95e3ab0316a",
+      "_id": "448e6441-9f0d-4726-b9e1-93994279f7f0",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1741,7 +1741,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "f7beba1b-f8c9-460e-a44f-1ee334c3dc68",
+      "_id": "2bd84e28-34af-45fa-855b-74c4a701e064",
       "type": "commander",
       "faction": [
         "rebel"
@@ -1800,7 +1800,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "bcfc972f-12ca-46ac-a4e4-347431790399",
+      "_id": "d5415899-6fe5-4d1c-b231-3b7ad15ebe83",
       "type": "commander",
       "faction": [
         "republic"
@@ -1859,7 +1859,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "c0933e17-03b4-48df-a882-6a3b9fe26361",
+      "_id": "ae4a3ea4-ba08-4b30-8cd3-06105dc73c50",
       "type": "commander",
       "faction": [
         "separatist"
@@ -1918,7 +1918,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "43cbe7a7-736d-4d54-afd1-d3a845e64fd5",
+      "_id": "e6ee4934-8c25-4c02-86fc-84a02e4163c5",
       "type": "commander",
       "faction": [
         "empire"
@@ -1977,7 +1977,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "b5366ef9-7cc9-49fb-8a13-59769cd22aa9",
+      "_id": "d57f6738-0b0b-4ee0-b7d6-32c26bd67674",
       "type": "commander",
       "faction": [
         "rebel"
@@ -2031,12 +2031,12 @@
       "cardimage": "https://api.swarmada.wiki/images/mon-mothma-commander.webp"
     },
     "obi-wan-kenobi-commander": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 9 Armada",
-      "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "666e4144-49ec-4f0f-b4d6-e73735eaf878",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "399e23f9-5338-4a8a-ad21-4ad7d406d6d5",
       "type": "commander",
       "faction": [
         "republic"
@@ -2051,7 +2051,7 @@
       ],
       "ability": "While a friendly ship is defending, when it spends a readied :redirect: token, it may reduce the total damage by 1 before it suffers damage.",
       "unique": true,
-      "points": 28,
+      "points": 22,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -2095,7 +2095,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "ba08cb28-ad37-4a89-b203-a70f63d8ea47",
+      "_id": "a713663d-b3b7-44b4-bf26-68ce9070ad2b",
       "type": "commander",
       "faction": [
         "republic"
@@ -2154,7 +2154,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "8be9fbaa-fe7b-41b9-b9bb-1d773487e32d",
+      "_id": "77250e02-0bae-4c79-8f0c-c444638e4b12",
       "type": "commander",
       "faction": [
         "separatist"
@@ -2212,7 +2212,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "2719a0e5-1f25-4767-aa66-75981b01772b",
+      "_id": "db2105b1-ac0d-41ab-b746-322e898625cb",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -2268,7 +2268,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "2abe7930-a3e5-4946-95b6-c59606cfadc9",
+      "_id": "528f9b02-6e91-46d8-9596-efe85b913e7d",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -2325,7 +2325,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "3efcc728-ba51-4786-ba1d-3aec8eed3cab",
+      "_id": "b5c6ca6e-ef58-4275-8d43-4e53f574bcfa",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -2380,7 +2380,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "816741e2-b62a-4d41-a7d5-91d1f7f7891d",
+      "_id": "37eb7beb-53a8-4622-bd75-fcadeb75c342",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -2438,7 +2438,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "5c9dd1ad-470b-43cb-bf7a-8a4ca73b3610",
+      "_id": "8219705f-43ec-4847-8efc-d5281becbc53",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -2496,7 +2496,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "03a970d9-1650-44ae-a731-2b2ee5caee08",
+      "_id": "8da69694-746c-4057-a4bb-25902affe24e",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -2551,7 +2551,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "806eef57-b952-4127-ada9-d081c8662c95",
+      "_id": "a89de122-6430-4a40-88dc-a6d4534e3b9a",
       "type": "defensive-retro",
       "faction": [
         ""
@@ -2607,7 +2607,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "bbf6c428-584a-4bb9-b75c-ff07792fdf44",
+      "_id": "24b1809c-ee4a-4b7b-96f1-f9f489417494",
       "type": "defensive-retro",
       "faction": [
         "republic",
@@ -2666,7 +2666,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "c267eabe-a3b8-44ef-b0e5-b2a28b9f9090",
+      "_id": "56c68424-38f8-4bc0-906e-72634b43d850",
       "type": "experimental-retro",
       "faction": [
         ""
@@ -2726,7 +2726,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "faf8056d-0e0f-4c8e-8548-439aef8d2714",
+      "_id": "e75548e8-ede2-48c1-b91f-5f9a002f78ad",
       "type": "experimental-retro",
       "faction": [
         ""
@@ -2786,7 +2786,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "fabc3180-d6a0-4a1b-9eda-ed9256b9239a",
+      "_id": "c79cbb97-5f93-4f22-9e3b-21c60c8bf540",
       "type": "experimental-retro",
       "faction": [
         ""
@@ -2846,7 +2846,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "c7969862-dec9-4a2f-a955-00c8bbb18d72",
+      "_id": "7837bd07-b8e6-4031-82dc-814e8d991fbb",
       "type": "experimental-retro",
       "faction": [
         ""
@@ -2905,7 +2905,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "ff211db5-ffb7-4e34-a219-232bb0d99b07",
+      "_id": "5c5e0fe8-b2e1-48aa-ab59-10186f4463c6",
       "type": "fleet-command",
       "faction": [
         ""
@@ -2966,7 +2966,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "52159206-446c-4de1-8073-c08e7f9fdb0a",
+      "_id": "cab674a3-6b52-4934-ac86-a80732b6116b",
       "type": "fleet-command",
       "faction": [
         ""
@@ -3025,7 +3025,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "e5caa3aa-b225-4cc3-8789-f0c8a84d4e03",
+      "_id": "94cc4380-f986-4502-bc71-98b8204a28de",
       "type": "fleet-command",
       "faction": [
         "republic",
@@ -3084,7 +3084,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "08d2903b-85bf-4640-812b-e512791dd9de",
+      "_id": "92274d1c-916f-4605-bdd0-e2490477b701",
       "type": "fleet-command",
       "faction": [
         ""
@@ -3143,7 +3143,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "85877f80-8026-4337-95b6-cb7f312cf18e",
+      "_id": "49a770f8-ffdc-4ab3-a136-3e745a0c0266",
       "type": "fleet-command",
       "faction": [
         "separatist"
@@ -3197,12 +3197,12 @@
       "cardimage": "https://api.swarmada.wiki/images/jedi-hostage.webp"
     },
     "mercy-mission": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "05fbfa52-6707-4d6d-8886-126039067607",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "2220dfe7-905b-4581-8e1f-9e67743f7241",
       "type": "fleet-command",
       "faction": [
         "republic"
@@ -3214,9 +3214,9 @@
       "unique-class": [
         "Mercy Mission"
       ],
-      "ability": "Before deploying fleets, un-equip this card and choose 1 friendly small ship that is not your flagship. Equip this card to the chosen ship (even if it does not have a :fleet command: icon in its upgrade bar). At the end of the game, if you are within the enemy deployment zone, increase your score by 40 points; if you were destroyed, increase your fleet value by 20 points.",
+      "ability": "Before deploying fleets, un-equip this card and choose 1 friendly small ship that is not your flagship. Equip this card to the chosen ship (even if it does not have a :fleet command: icon in its upgrade bar). At the end of the game, if you are within the enemy deployment zone, increase your score by 40 points; if you were destroyed, increase your opponent's score by 15 points.",
       "unique": true,
-      "points": 0,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -3260,7 +3260,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "d6a21262-26b6-4816-a78a-e3d2dbe44727",
+      "_id": "f3e4b52b-9cdb-4305-a486-cc531d1ad7db",
       "type": "fleet-command",
       "faction": [
         ""
@@ -3319,7 +3319,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "8f455a30-f86a-470e-bc9a-1a6ae4b14f6d",
+      "_id": "daf9cc3f-9608-4bcc-b5dd-19937d8c8140",
       "type": "fleet-command",
       "faction": [
         ""
@@ -3378,7 +3378,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "ccf87a36-5748-44eb-9d25-36c9bea022e6",
+      "_id": "f5f8fbe6-cc85-464b-ade3-000ed1253b15",
       "type": "fleet-support",
       "faction": [
         ""
@@ -3437,7 +3437,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "e5beaf7b-964c-4deb-bbe9-38b84d290c43",
+      "_id": "04c625c2-2de3-4470-9ad4-b557061d7e38",
       "type": "fleet-support",
       "faction": [
         ""
@@ -3496,7 +3496,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "e1538267-5b2c-4bf5-9a56-0848eb0db270",
+      "_id": "c148da8f-186e-407b-9566-9347f3da261e",
       "type": "fleet-support",
       "faction": [
         ""
@@ -3555,7 +3555,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "54c4ac83-fc04-4f18-8bc3-de8e096b298c",
+      "_id": "6a24a9cf-119f-4aea-aec0-b49facdd85a3",
       "type": "fleet-support",
       "faction": [
         ""
@@ -3616,7 +3616,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "f6091ef8-5805-459a-8b09-cdd6be637e24",
+      "_id": "bf714095-254e-45ba-93b5-b12e62a6c50f",
       "type": "fleet-support",
       "faction": [
         ""
@@ -3672,12 +3672,12 @@
       "cardimage": "https://api.swarmada.wiki/images/parts-resupply.webp"
     },
     "repair-crews": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 3 Armada",
-      "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "d2589d3a-fe2b-4556-9507-32d432eb43ad",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "946acd69-dee8-415b-8840-72e717227e1b",
       "type": "fleet-support",
       "faction": [
         ""
@@ -3692,7 +3692,7 @@
       ],
       "ability": ":repair:: Instead of spending engineering points, you may discard 1 damage card from 1 friendly ship at distance 1-2.",
       "unique": false,
-      "points": 4,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -3731,12 +3731,12 @@
       "cardimage": "https://api.swarmada.wiki/images/repair-crews.webp"
     },
     "slicer-tools": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 3 Armada",
-      "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "59c21d20-6eab-4e07-ad69-224df5247f97",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "ee976979-76ef-4faa-87c5-01a371b6e539",
       "type": "fleet-support",
       "faction": [
         ""
@@ -3749,7 +3749,7 @@
       "unique-class": [
         ""
       ],
-      "ability": "After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3. You may choose a new command on its top command dial.",
+      "ability": "After you execute a maneuver, you may exhaust this card to choose an enemy ship at distance 1-3. Look at the top command dial assigned to that ship. Then you may either choose a new command on its top command dial or that ship gains 1 raid token of your choice that does not match its top command dial. If the chosen ship has no top command dial, it gains 1 raid token of your choice.",
       "unique": false,
       "points": 7,
       "modification": false,
@@ -3795,7 +3795,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "9e673564-ea9b-49f3-b57a-a0c5c98ec258",
+      "_id": "20aeba63-431a-4028-811a-93269cdfabfb",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -3849,12 +3849,12 @@
       "cardimage": "https://api.swarmada.wiki/images/heavy-ion-emplacements.webp"
     },
     "high-capacity-ion-turbines": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 4 Armada",
-      "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "951cc3dd-b059-4811-b35f-6c8129e3eec7",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "1cf9f183-8934-4d12-8a3b-09c9af6350ba",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -3870,7 +3870,7 @@
       ],
       "ability": "Modification.\nThe battery armaments for your left and right hull zones are increased by 1 blue die.",
       "unique": false,
-      "points": 8,
+      "points": 6,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {
@@ -3914,7 +3914,7 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "1a2d03d9-b41a-42ea-a0f5-8ab477daf4ff",
+      "_id": "b38caff5-393e-44e5-ae8a-436ff5d7e0c2",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -3967,12 +3967,12 @@
       "cardimage": "https://api.swarmada.wiki/images/ion-cannon-batteries.webp"
     },
     "leading-shots": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "ac7a4f7c-7451-46d0-87fe-5b8e830429d6",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "7a208937-498e-4128-a697-ff902c326275",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -3986,7 +3986,7 @@
       ],
       "ability": "While attacking, you may spend 1 blue die to reroll any number of dice in your attack pool.",
       "unique": false,
-      "points": 6,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -4030,7 +4030,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "b248d233-15ae-435d-ad87-07e367765d66",
+      "_id": "4117793e-e50c-49b2-b009-85510c628690",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -4086,12 +4086,12 @@
       "cardimage": "https://api.swarmada.wiki/images/ms1-ion-cannon.webp"
     },
     "nk-7-ion-cannons": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "7f49c1fd-699f-4892-8a31-8a32a279e261",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "7db11acd-6c09-4e83-8540-15a867d1e845",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -4108,7 +4108,7 @@
       ],
       "ability": "Blue :critical: : Exhaust this card to force the defender to choose and discard 1 of its defense tokens.",
       "unique": false,
-      "points": 10,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -4144,12 +4144,12 @@
       "cardimage": "https://api.swarmada.wiki/images/nk-7-ion-cannons.webp"
     },
     "overload-pulse": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "a9c50874-3012-4544-b6e6-e1909d0213a6",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "f4636518-7d38-4dbf-8ea4-59a11f6be826",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -4163,7 +4163,7 @@
       ],
       "ability": "BLUE :crit: : Exhaust all of the defender's defense tokens.",
       "unique": false,
-      "points": 8,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -4202,12 +4202,12 @@
       "cardimage": "https://api.swarmada.wiki/images/overload-pulse.webp"
     },
     "point-defense-ion-cannons": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "870acb0b-5e63-4814-a2e2-90ccba4bd64d",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "bf8985bd-2ac8-4201-a73a-4c55f2e3f718",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -4222,7 +4222,7 @@
       ],
       "ability": "While defending at close range or distance 1, during the Spend Defense Tokens step, you may force the attacker to reroll 1 die of your choice.",
       "unique": false,
-      "points": 4,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -4265,7 +4265,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "3fd473a8-9500-4b43-906a-091f7d5ab24e",
+      "_id": "7196dfc0-921d-4348-aaa4-77e69be54da5",
       "type": "ion-cannon",
       "faction": [
         ""
@@ -4323,7 +4323,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "ba87919b-abe9-4397-be56-e7e3b6edc82b",
+      "_id": "28bf4170-1751-4cf1-a348-df4598b5058b",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -4378,7 +4378,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "672a1d7a-3ec2-43e3-a11f-5d0cadeae26d",
+      "_id": "0b05354d-e53e-44c7-a7ce-d7cbe24e5ccf",
       "type": "offensive-retro",
       "faction": [
         "separatist"
@@ -4434,7 +4434,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "c0988e55-a39e-46a4-b18c-e09d830d0c60",
+      "_id": "0efdb039-631e-4879-9b2c-d0da9da7d616",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -4490,7 +4490,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "cb983c91-bbc5-4fbd-87a8-a7ef3e44444c",
+      "_id": "a109d409-7585-4a63-b1be-2c02a9fc9692",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -4548,7 +4548,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "d0b656c2-f880-44a8-822c-3da2e2e76d6c",
+      "_id": "7650d541-4ec1-47ae-8ee2-d93da9ce47cd",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -4607,7 +4607,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "af4c0b5c-4abe-4c7b-bba0-8cb39fe9d9b7",
+      "_id": "90c84bb4-64fc-4689-8c55-4d6fc0b33531",
       "type": "offensive-retro",
       "faction": [
         "empire",
@@ -4670,7 +4670,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "b7fb7df2-b529-4117-a190-2cd439d128a8",
+      "_id": "2e486356-21db-4577-b9d0-33bf653330f6",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -4726,7 +4726,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "20f81b13-fd4b-4560-9d81-f027b6578f59",
+      "_id": "6dab3d2a-307b-4bc6-9761-f69188f8734f",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -4783,7 +4783,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "c9a838d2-fac4-4d3a-988d-b5fc6ac4a497",
+      "_id": "6d16af94-33ad-4cfa-849d-1c7110922aae",
       "type": "offensive-retro",
       "faction": [
         "republic"
@@ -4842,7 +4842,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "313f2f3b-5cd4-46cd-8dd8-d2c3844b8567",
+      "_id": "65c82806-8065-4c50-8a55-37733f864893",
       "type": "offensive-retro",
       "faction": [
         "separatist"
@@ -4902,7 +4902,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "8ec61374-a9c3-4d41-b966-90fb71744b04",
+      "_id": "9c467882-6e9a-4cd4-b3c1-3c9cfd309700",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -4959,7 +4959,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "22f3074e-307a-4808-80fe-cdaf4424bd45",
+      "_id": "b8a6efde-2292-407c-824c-3af7fecdbd8b",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -5015,7 +5015,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "94bc5860-61c6-4a5c-ba3a-b10522fd0f6f",
+      "_id": "b69d9465-9f25-47b9-86c5-017d8f0248c2",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -5071,7 +5071,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "e31c3d80-0403-4efc-9e0a-5fa4f3772516",
+      "_id": "1511600e-f9f9-4f9c-897c-0ade06519bf4",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -5122,12 +5122,12 @@
       "cardimage": "https://api.swarmada.wiki/images/quad-laser-turrets.webp"
     },
     "rapid-launch-bays": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "01ab352d-8fe9-45d8-8891-9786a98b8de0",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "e5c6a3aa-666e-416b-ba4a-e8b4850e8e26",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -5141,7 +5141,7 @@
       "unique-class": [
         ""
       ],
-      "ability": "Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card. :squadron: : For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 1. It cannot move this activation.",
+      "ability": "Before deploying fleets, you may set aside a number of friendly squadrons up to your squadron value next to your ship card. When you reveal a command, you may discard this card. If you do, place each squadron set aside with this card within distance 1-2 of you. Those squadrons cannot move during your activation.",
       "unique": false,
       "points": 6,
       "modification": false,
@@ -5179,12 +5179,12 @@
       "cardimage": "https://api.swarmada.wiki/images/rapid-launch-bays.webp"
     },
     "reserve-hangar-deck": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Rebellion in the Rim Campaign Armada",
-      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "6275914c-1204-4632-951c-ddeba8cef04f",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "26c7f92b-b053-4c11-8fb4-ed46cad9b1a9",
       "type": "offensive-retro",
       "faction": [
         ""
@@ -5199,7 +5199,7 @@
       ],
       "ability": "When a friendly non-unique squadron with swarm at distance 1-5 is destroyed, you may discard this card. If you do, you may set that squadron's hull points to \"2\" and place that squadron unengaged at distance 1 with its activation slider toggled to the activated side.",
       "unique": false,
-      "points": 3,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -5240,7 +5240,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "9f45a702-e27f-462f-bec1-56f7fee1b184",
+      "_id": "8910b3a8-bdab-46c0-859f-f7e233abdbc8",
       "type": "offensive-retro",
       "faction": [
         "republic"
@@ -5297,7 +5297,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
-      "_id": "53397a5b-12a3-48ac-b130-c825e09de861",
+      "_id": "5567f2a7-5a1f-49c5-ab6c-44a2ea236737",
       "type": "officer",
       "faction": [
         "rebel"
@@ -5354,7 +5354,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "ad6d8976-4e51-465c-b054-e31dada0b0ba",
+      "_id": "cc887a3f-280b-41dd-9518-257d2678655e",
       "type": "officer",
       "faction": [
         "republic"
@@ -5414,7 +5414,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "7595941c-8add-4598-8936-1197ba83a726",
+      "_id": "e7d25c06-5743-4ff7-9a69-258198dae373",
       "type": "officer",
       "faction": [
         "empire"
@@ -5469,7 +5469,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "d1ef9813-73ed-4b5f-a331-fb0200a41819",
+      "_id": "a39bc390-9eca-4158-851e-e62021f932ac",
       "type": "officer",
       "faction": [
         "empire"
@@ -5527,7 +5527,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "73721d9d-08db-4596-bfe3-a2ba52d717b5",
+      "_id": "1dc6dc2c-e3a1-44f9-849c-b0d75f67c56a",
       "type": "officer",
       "faction": [
         "empire"
@@ -5585,7 +5585,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "2649a516-74b8-4cf0-a5cb-7b8797ff21da",
+      "_id": "859c895f-d4a2-402c-a813-01fb5aa86bbc",
       "type": "officer",
       "faction": [
         "empire"
@@ -5643,7 +5643,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "f61186b7-a074-4a93-9ab3-f01b55f6b00e",
+      "_id": "d8e4f018-386d-43c9-88d0-388e932cf30f",
       "type": "officer",
       "faction": [
         "empire"
@@ -5701,7 +5701,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "024fba30-fe64-4b6b-8ce2-74f63172641b",
+      "_id": "4b36cdf3-cf1a-4f67-9c39-33b9f2947aa2",
       "type": "officer",
       "faction": [
         "rebel"
@@ -5760,7 +5760,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "e553231b-7d93-487c-a205-f712005557f1",
+      "_id": "5fd56a18-5aa4-44d0-b732-1227e660ce41",
       "type": "officer",
       "faction": [
         "republic"
@@ -5817,9 +5817,9 @@
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
-      "release": "Rapid Reinforcements",
-      "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "8c88ab1b-1d80-4a82-afc1-5602601cd8bf",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "fe97e145-be6b-4463-bf82-60d1c24b733a",
       "type": "officer",
       "faction": [
         "separatist"
@@ -5834,7 +5834,7 @@
       ],
       "ability": "After you perform an attack targeting a ship that has 1 or more raid tokens, if the defender suffered one or more damage, you may remove 1 raid token and 1 command token from the defender. If you do, gain a matching command token.",
       "unique": true,
-      "points": 4,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -5863,7 +5863,7 @@
         "start_amount": 0
       },
       "exhaust": {
-        "type": "",
+        "type": "recur",
         "ready_token": [
           ""
         ],
@@ -5878,7 +5878,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "2662ad47-46a1-4446-af29-b82687869ae3",
+      "_id": "8a78caa2-ad4d-477d-9203-0b52a6394755",
       "type": "officer",
       "faction": [
         "republic"
@@ -5937,7 +5937,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "fa86952a-8ae4-4de2-9221-574db64156e8",
+      "_id": "341c60f1-b6cc-454c-a3d4-bb3058e8812d",
       "type": "officer",
       "faction": [
         "empire"
@@ -5992,7 +5992,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "6d8a3459-94aa-4cae-836d-2bf0a3075f53",
+      "_id": "178293e0-022c-4311-99a4-0fe06138ab01",
       "type": "officer",
       "faction": [
         "empire"
@@ -6050,7 +6050,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "3c0e7533-4222-4a53-946c-879dd4400490",
+      "_id": "1fe835fa-bb1b-4ed3-bb93-1586ca998b08",
       "type": "officer",
       "faction": [
         "rebel"
@@ -6105,7 +6105,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "69203bad-f9a4-4bab-ae61-9b867b3c49de",
+      "_id": "08dc9607-2837-4f63-a305-2a9d94b8749e",
       "type": "officer",
       "faction": [
         ""
@@ -6163,7 +6163,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "d63e83da-c040-4453-a1a7-4d835b59fc5f",
+      "_id": "8a11b612-e36b-432c-9580-bed85d09abd3",
       "type": "officer",
       "faction": [
         "republic"
@@ -6222,7 +6222,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "ec96b370-5246-4ab1-a1ca-9f74dc5a7a8f",
+      "_id": "1fc683aa-0941-4dd2-b664-959fd7ab109c",
       "type": "officer",
       "faction": [
         "republic"
@@ -6276,12 +6276,12 @@
       "cardimage": "https://api.swarmada.wiki/images/clone-captain-zak-officer.webp"
     },
     "clone-commander-wolffe-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "e3f972a8-e55c-40bc-9f61-2ab489c95e09",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "0e029ff2-e722-4bb0-8d27-7a7a1c27f8c8",
       "type": "officer",
       "faction": [
         "republic"
@@ -6294,7 +6294,7 @@
       "unique-class": [
         "Clone Commander Wolffe"
       ],
-      "ability": ":squadron: : You may exhaust this card. If you do: Each of up to 3 squadrons that you activate without adept gain assault until the end of its activation. Each squadron that you activate with the printed assault keyword can spend a die with a :hit: or :accuracy: icon to resolve the assault effect. You can spend tokens from this card to ready it.",
+      "ability": ":squadron: : You may exhaust this card. If you do: Each of up to 3 squadrons that you activate without adept gain assault until the end of its activation. Each squadron that you activate with the *assault* keyword can spend a die with a :hit: or :accuracy: icon to resolve the assault effect. You can spend tokens from this card to ready it.",
       "unique": true,
       "points": 6,
       "modification": false,
@@ -6340,7 +6340,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "2b6895e3-ad5b-44b6-b758-ef29dd3ba1ea",
+      "_id": "c8d6aa1c-6ed9-4ef5-9e8a-0a0140dfa51e",
       "type": "officer",
       "faction": [
         "republic"
@@ -6398,7 +6398,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "ca99dc93-e3d4-4572-9fdd-e4f4fded881a",
+      "_id": "6cc7aea0-caf4-41b3-94f8-0a3ebbb5bab1",
       "type": "officer",
       "faction": [
         "empire"
@@ -6456,7 +6456,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "902a284a-fa88-4188-878f-dfc2b3e0ec6b",
+      "_id": "c886c4a9-537b-49da-af0a-f71fdfbbd4e7",
       "type": "officer",
       "faction": [
         "empire"
@@ -6514,7 +6514,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "0240438d-dd75-4bfb-86b6-0fc37f15c6b5",
+      "_id": "f3930581-f195-4a18-bfba-ace8d14f692e",
       "type": "officer",
       "faction": [
         "empire"
@@ -6572,7 +6572,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "78204a70-8c8b-417f-8d7f-f438efb51a7f",
+      "_id": "45f29904-039c-490a-bf01-d763714c4fd4",
       "type": "officer",
       "faction": [
         "empire"
@@ -6627,7 +6627,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "f81f8e76-f216-4ce0-ba08-e82659327e5a",
+      "_id": "a1d53599-2468-48b4-94c1-0a0d97bc9f5a",
       "type": "officer",
       "faction": [
         "empire"
@@ -6677,12 +6677,12 @@
       "cardimage": "https://api.swarmada.wiki/images/commander-woldar-officer.webp"
     },
     "damage-control-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "13b91bb3-403c-4454-846d-7247cb411ab0",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "0a3a9fcd-8564-41a7-8c59-06c70f868cbd",
       "type": "officer",
       "faction": [
         ""
@@ -6696,7 +6696,7 @@
       ],
       "ability": "When you resolve the :contain: defense effect, you can prevent the attacker from resolving any critical effects.",
       "unique": false,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -6735,12 +6735,12 @@
       "cardimage": "https://api.swarmada.wiki/images/damage-control-officer.webp"
     },
     "darth-vader-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Super Star Destroyer",
-      "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "f10bddfe-7cfc-4ea2-93ad-ea13148aa38f",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "87e21dfc-e469-4bc9-8197-371fc83bc767",
       "type": "officer",
       "faction": [
         "empire"
@@ -6755,7 +6755,7 @@
       ],
       "ability": "While a friendly ship at distance 1-5 attacking a ship, it may discard 1 of its :commander: or :officer: cards (other than Darth Vader) to reroll any number of dice in its attack pool.",
       "unique": true,
-      "points": 1,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -6799,7 +6799,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "c4bd6f31-4210-4d6d-b17d-b726207c7d63",
+      "_id": "7609d489-aea7-4965-8a6f-a721b44786fc",
       "type": "officer",
       "faction": [
         ""
@@ -6857,7 +6857,7 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "60e92e87-7cde-4362-80a6-83a5c99495f0",
+      "_id": "a1912f64-92f2-45f2-ab2d-65ea3bd4fa25",
       "type": "officer",
       "faction": [
         "empire"
@@ -6915,7 +6915,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "3b11d249-1a57-4277-8b2a-af379227e17b",
+      "_id": "aa942b1a-96cc-447f-a626-525cd5bd6454",
       "type": "officer",
       "faction": [
         "empire"
@@ -6974,7 +6974,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "83214a37-06fc-4c02-afeb-22307fc886ea",
+      "_id": "0dcb69ca-fabf-4a9d-bea0-ce18ef3ae650",
       "type": "officer",
       "faction": [
         "empire"
@@ -7033,7 +7033,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "b6320c8d-c42e-40c3-831c-7795f0e6eaed",
+      "_id": "07bfaf55-8a94-47f3-b713-d48eea4da99a",
       "type": "officer",
       "faction": [
         ""
@@ -7091,7 +7091,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "3262ac73-e3a3-43d1-a8c0-5314d0011cfd",
+      "_id": "0ab8905e-b67c-4225-8572-0caef8ab0173",
       "type": "officer",
       "faction": [
         ""
@@ -7149,7 +7149,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "6869c468-3671-4b1f-9e1d-598ce0560749",
+      "_id": "8834c375-971d-43b5-ab0d-8933a9cc459a",
       "type": "officer",
       "faction": [
         "rebel"
@@ -7205,7 +7205,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "663f7f02-42d4-4637-ae2a-804d73b0ac3f",
+      "_id": "44cb3ea3-4d93-4456-a3dd-173e92e29dec",
       "type": "officer",
       "faction": [
         ""
@@ -7263,7 +7263,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "2acccb3e-180a-4c75-b721-0f790966c6e5",
+      "_id": "605f4c3b-e50b-4ee8-93c4-b0ba184c88fa",
       "type": "officer",
       "faction": [
         "rebel"
@@ -7316,9 +7316,9 @@
       "author": "Atomic Mass Games",
       "alias": "AMG",
       "team": "AMG",
-      "release": "Rapid Reinforcements",
-      "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "c88b5d92-26e7-4181-909e-d5e8bfa794dc",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "848dec44-7ba7-4d86-a38b-be86195aac97",
       "type": "officer",
       "faction": [
         "empire"
@@ -7330,9 +7330,9 @@
       "unique-class": [
         "Governor Pryce"
       ],
-      "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any result..",
+      "ability": "Once per activation, while performing an attack against an enemy ship, you may spend 1 shield from the attacking hull zone to change 1 die face to any face without an :accuracy: icon.",
       "unique": true,
-      "points": 7,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -7376,7 +7376,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "9775d990-0d6e-4262-84c8-4d1a14171207",
+      "_id": "8d1f0e93-1f7c-4ba5-9dd9-507e65cd0815",
       "type": "officer",
       "faction": [
         ""
@@ -7435,7 +7435,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "05118051-94e2-4d15-883e-446764fd7145",
+      "_id": "9f8a78fa-4877-487c-800b-b464036a8f7f",
       "type": "officer",
       "faction": [
         "empire"
@@ -7491,7 +7491,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "174961e3-f57d-4d65-a30f-d1320b6a777f",
+      "_id": "c1623ef7-b3c1-41df-917d-421f47ab0b4d",
       "type": "officer",
       "faction": [
         "empire"
@@ -7546,7 +7546,7 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "7f1e5ea8-3f03-48c5-be58-62eac40670b1",
+      "_id": "5220af3c-7e51-41bc-85b6-c9a232c800e6",
       "type": "officer",
       "faction": [
         ""
@@ -7604,7 +7604,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "8a5746f5-7891-45e0-a408-1d033f91f6a0",
+      "_id": "321939d8-b18c-46b7-9d90-017d05b0588c",
       "type": "officer",
       "faction": [
         "rebel"
@@ -7663,7 +7663,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "1a61ad81-aa1c-4069-a176-75145e72d186",
+      "_id": "0ed9a529-ff30-4aff-b4e7-5de6ddd7b4e7",
       "type": "officer",
       "faction": [
         "rebel"
@@ -7722,7 +7722,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "a1f1719c-87d3-4342-957e-157a4c08d4d0",
+      "_id": "2191d09f-88ed-40e7-a563-69ef4e36f930",
       "type": "officer",
       "faction": [
         "rebel"
@@ -7781,7 +7781,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "dfd2c1a9-70c7-4c29-8f6d-75ad925a9a0e",
+      "_id": "16cb4f97-6722-41d5-bbb8-ac1dd5ce251a",
       "type": "officer",
       "faction": [
         "empire"
@@ -7840,7 +7840,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "eefded93-6f4d-4d51-93ac-11164ac9b069",
+      "_id": "b41c8bd9-4ec7-4ec8-b929-2276fffe56e6",
       "type": "officer",
       "faction": [
         "rebel"
@@ -7898,7 +7898,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "7ef25022-4635-45a7-9663-90ac357e361d",
+      "_id": "42f30ce3-9956-4eab-9003-5a2b5caa8f52",
       "type": "officer",
       "faction": [
         "empire"
@@ -7963,7 +7963,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "103eae30-2fa4-4d90-95f9-d9196e0056c7",
+      "_id": "35c1191b-3372-41a7-9b81-6c86ae8c00b9",
       "type": "officer",
       "faction": [
         ""
@@ -8022,7 +8022,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "f84c984f-fee5-4f40-ab12-1a9e5bfcbcdc",
+      "_id": "88fc09b1-396f-44f6-b5d5-afee5a620831",
       "type": "officer",
       "faction": [
         "separatist"
@@ -8082,7 +8082,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "20e712f0-873e-4a07-90bd-4696ddd87e3b",
+      "_id": "e032a8f9-4f98-4cf5-b39a-66579d4dc9d7",
       "type": "officer",
       "faction": [
         "rebel"
@@ -8138,7 +8138,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "298940bb-d1bc-4849-9969-34075eeaae4c",
+      "_id": "8559523c-a5ce-49ca-80be-f87a71abfeb5",
       "type": "officer",
       "faction": [
         "empire"
@@ -8197,7 +8197,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "b3fc8d53-0c19-43af-b396-829f07746d33",
+      "_id": "e2c0ad0c-328b-4077-a2bd-8c4b69a7de2c",
       "type": "officer",
       "faction": [
         "separatist"
@@ -8256,7 +8256,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "8ccec2ce-a5be-49bb-9bfe-6ab62fa265fc",
+      "_id": "09cc7a6a-2724-4fd4-9c7c-d50c088a22bc",
       "type": "officer",
       "faction": [
         "rebel"
@@ -8307,12 +8307,12 @@
       "cardimage": "https://api.swarmada.wiki/images/sabine-wren-officer.webp"
     },
     "san-hill-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "31352d25-5438-4d70-8ac2-bbfe14bb6df3",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "84eb073c-1c14-494c-8276-995a1eff200e",
       "type": "officer",
       "faction": [
         "separatist"
@@ -8325,7 +8325,7 @@
       "unique-class": [
         "San Hill"
       ],
-      "ability": "At the start of the Squadron Phase, you may discard any number of tokens from this card. For each token you discard in this way, 1 additional squadron at close-long range of you may be activated during each of your fleet's turns to activate squadrons this phase.",
+      "ability": "When a friendly ship at distance 1-5 resolves a :squad: command, you may discard 1 :squad: token from this card. If you do, that friendly ship may activate 1 additional squadron during that command.",
       "unique": true,
       "points": 3,
       "modification": false,
@@ -8371,7 +8371,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "f5687bcd-6799-40fc-a855-56b673edca47",
+      "_id": "cbccc81d-f466-4d63-a32a-ca0985e0f7d3",
       "type": "officer",
       "faction": [
         "separatist"
@@ -8430,7 +8430,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "e57ec898-b1e0-4175-8375-ab9675a50ea8",
+      "_id": "3d3a2103-a2b9-454a-ade9-538b74610c02",
       "type": "officer",
       "faction": [
         ""
@@ -8483,12 +8483,12 @@
       "cardimage": "https://api.swarmada.wiki/images/skilled-first-officer.webp"
     },
     "support-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "6c8f9649-f83b-4204-afcc-28b81d9d1eb8",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "01bdabaa-3bc6-4bf0-b39d-34b5ab34e828",
       "type": "officer",
       "faction": [
         ""
@@ -8502,7 +8502,7 @@
       ],
       "ability": "At the start of the Command Phase, you may discard this card to discard all of your command dials.",
       "unique": false,
-      "points": 4,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -8546,7 +8546,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "45acf499-8d06-40e6-87f1-3695a77d02d2",
+      "_id": "665c6e0c-a507-4cff-a80c-5089c940c5ac",
       "type": "officer",
       "faction": [
         "separatist"
@@ -8606,7 +8606,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "1088fd24-923a-483c-ab50-481fee87e133",
+      "_id": "9b391784-0a26-4347-977c-fac61dc618b0",
       "type": "officer",
       "faction": [
         ""
@@ -8664,7 +8664,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "b16a3dc5-6d3e-4bae-80db-ac4e76552b53",
+      "_id": "26035fbe-1473-4284-aabf-025652b03383",
       "type": "officer",
       "faction": [
         "empire"
@@ -8720,7 +8720,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "57f57aec-03ca-426b-94cb-f58add83993b",
+      "_id": "7705ae21-b7e0-4b9a-9147-9b97e8f765b6",
       "type": "officer",
       "faction": [
         "empire"
@@ -8779,7 +8779,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "fdfe6920-27f1-40a4-a19b-48f1109a1967",
+      "_id": "620e7779-ffaf-47a0-a354-6183370627bf",
       "type": "officer",
       "faction": [
         "separatist"
@@ -8837,7 +8837,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "ded8469b-82b8-4f1b-9ca7-70b7c7c1ca34",
+      "_id": "08dcb2a9-5a32-4163-b779-60df5eb39e1b",
       "type": "officer",
       "faction": [
         "separatist"
@@ -8895,7 +8895,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "99bbe7fd-e004-4c6d-a4ce-e05fffd09cf2",
+      "_id": "8c071367-defe-440f-b0c6-aa59a4e7696b",
       "type": "officer",
       "faction": [
         "rebel"
@@ -8949,12 +8949,12 @@
       "cardimage": "https://api.swarmada.wiki/images/toryn-farr-officer.webp"
     },
     "veteran-captain-officer": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "e610c448-1337-43f0-8eb8-8d4fd182cf75",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "e8655959-c894-488e-86ee-ee9f91e36496",
       "type": "officer",
       "faction": [
         ""
@@ -8968,7 +8968,7 @@
       ],
       "ability": "When you reveal a command, you may discard this card to gain 1 command token of your choice.",
       "unique": false,
-      "points": 3,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -9009,7 +9009,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "a7f3fe1b-2214-4a0b-ad20-506adff89cee",
+      "_id": "f2cbe3b3-9e35-45dd-9d12-75801b92323d",
       "type": "officer",
       "faction": [
         "rebel"
@@ -9068,7 +9068,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "07d65ae5-79e1-40c9-a11f-76712ed78f3c",
+      "_id": "8700c2d7-e7e5-4b5e-891d-ab108e69338d",
       "type": "officer",
       "faction": [
         "separatist"
@@ -9127,7 +9127,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "b45ab89e-6168-44aa-955d-904981eee829",
+      "_id": "23034815-8639-4966-a1f2-5a33ddcb48f6",
       "type": "officer",
       "faction": [
         ""
@@ -9185,7 +9185,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "babb2c41-8e56-42a3-8ee8-a150abf9fc77",
+      "_id": "ae70e9f9-ca8b-45b5-9360-bf0a943c6811",
       "type": "officer",
       "faction": [
         "rebel"
@@ -9244,7 +9244,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "5a7c55f8-7c3a-4f2e-8375-b921efd2b842",
+      "_id": "e8eee76a-a846-4bc8-ac7e-bfa53f908ac2",
       "type": "officer",
       "faction": [
         ""
@@ -9302,7 +9302,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "203e1d22-b0a0-4eab-937e-31f634fbea52",
+      "_id": "55d02b98-db3c-4119-bf52-a90ce103b495",
       "type": "officer",
       "faction": [
         "empire"
@@ -9361,7 +9361,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "e58d9a03-cab5-4b27-b238-e1697001689b",
+      "_id": "ae83880d-6731-40dc-994a-9d5a0f5efa10",
       "type": "ordnance",
       "faction": [
         ""
@@ -9420,7 +9420,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "1f1d0fe3-bf12-4bd0-8789-50eee402263a",
+      "_id": "f880b729-b38d-424f-b991-309e8f9c9afe",
       "type": "ordnance",
       "faction": [
         ""
@@ -9474,12 +9474,12 @@
       "cardimage": "https://api.swarmada.wiki/images/assault-proton-torpedoes.webp"
     },
     "expanded-launchers": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "c041790d-ea54-4c52-b154-a3ee4a7a4630",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "b49140b3-4bd9-4738-8647-676a89af52a1",
       "type": "ordnance",
       "faction": [
         ""
@@ -9494,7 +9494,7 @@
       ],
       "ability": "Modification\nThe battery armament for your front hull zone is increased by 2 black dice.",
       "unique": false,
-      "points": 13,
+      "points": 8,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {
@@ -9535,7 +9535,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "b761c5d3-387e-4549-8914-fcbff76c2a34",
+      "_id": "a3004fcd-4e6e-42a1-b8bf-754ae4840009",
       "type": "ordnance",
       "faction": [
         ""
@@ -9594,7 +9594,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "ddbfc2b9-fc8c-4bd6-ab14-897a8dd5933f",
+      "_id": "ad40cb67-f3d3-445c-b33f-a2985a3fabaf",
       "type": "ordnance",
       "faction": [
         ""
@@ -9651,7 +9651,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "f7379d20-337c-448a-bf6f-59d5ad9308fa",
+      "_id": "53ee79e2-4abb-4863-952c-1980592c9409",
       "type": "ordnance",
       "faction": [
         ""
@@ -9704,12 +9704,12 @@
       "cardimage": "https://api.swarmada.wiki/images/ordnance-pods.webp"
     },
     "rapid-reload": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "d9fa311f-3116-4022-845e-19c4f72a3350",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "471a88cd-f9a6-447f-b709-2c94fa3eafb0",
       "type": "ordnance",
       "faction": [
         ""
@@ -9723,7 +9723,7 @@
       ],
       "ability": "_Modification_. \nThe battery armaments for your left and right hull zones are increased by 1 black die.",
       "unique": false,
-      "points": 8,
+      "points": 4,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {
@@ -9764,7 +9764,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "7ecc912e-a8cb-4092-a3fe-df06b043d623",
+      "_id": "3724ccaa-8ab3-4529-81bf-831637430747",
       "type": "ordnance",
       "faction": [
         ""
@@ -9819,7 +9819,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "c390f545-3743-485a-9eaf-1f5aae9968e5",
+      "_id": "1ef3e35a-514a-4897-8930-b6b615259a06",
       "type": "super-weapon",
       "faction": [
         "rebel"
@@ -9878,7 +9878,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "3c78c2d4-3605-4e90-a4da-e9855659038a",
+      "_id": "d5ae6a1a-b4b5-449e-b2d4-91d3d6a36ed7",
       "type": "super-weapon",
       "faction": [
         "empire"
@@ -9937,7 +9937,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "b488aacb-3746-45c8-ab43-85889de1dec5",
+      "_id": "6e75bba9-05f2-43fb-924a-d93c3f93a569",
       "type": "super-weapon",
       "faction": [
         "empire"
@@ -9996,7 +9996,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "f0b27dd5-2cb6-4494-910e-e6e0ca36ce6e",
+      "_id": "c693df26-8448-44ac-931a-e0fa1790c765",
       "type": "support-team",
       "faction": [
         ""
@@ -10055,7 +10055,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "965bc28d-d357-4609-8010-98455bbb1964",
+      "_id": "9aa9ceee-afc4-46bf-88d0-bd1bbbaf9d2a",
       "type": "support-team",
       "faction": [
         "separatist"
@@ -10115,7 +10115,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "fb1ab228-8f98-49e5-bbb4-eee0dd67c8ef",
+      "_id": "b5a300c9-50e0-4fc2-8a33-959c53747253",
       "type": "support-team",
       "faction": [
         ""
@@ -10166,12 +10166,12 @@
       "cardimage": "https://api.swarmada.wiki/images/engine-techs.webp"
     },
     "engineering-team": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "24d12b3f-15ba-4bf3-bea3-458f5f118a0f",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "dd9957fc-d288-4a8a-94d8-86ba976d54c8",
       "type": "support-team",
       "faction": [
         ""
@@ -10186,7 +10186,7 @@
       ],
       "ability": ":repair: : Gain 1 additional engineering point.",
       "unique": false,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -10230,7 +10230,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "008094fc-f522-4438-bb02-32d059f4d090",
+      "_id": "8ba68094-226a-4a96-a859-f0e925e1634b",
       "type": "support-team",
       "faction": [
         ""
@@ -10286,7 +10286,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "add3193f-431f-4941-8405-ee99613b1076",
+      "_id": "c1a49853-90a6-4e89-9cc6-86722dca6963",
       "type": "support-team",
       "faction": [
         ""
@@ -10340,12 +10340,12 @@
       "cardimage": "https://api.swarmada.wiki/images/medical-team.webp"
     },
     "nav-team": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "b793a6d1-fcc3-4bf1-a8a4-b00222e39463",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "62abca8a-9124-4cc4-aad2-eb727e56ab3a",
       "type": "support-team",
       "faction": [
         ""
@@ -10355,7 +10355,7 @@
       "unique-class": [
         ""
       ],
-      "ability": ":nav: : Your :nav: tokens can either change your speed or increase 1 yaw value by 1.",
+      "ability": ":nav: If you spent a :nav: token, once during this maneuver, when you would change your speed, you may instead increase 1 yaw value by 1.",
       "unique": false,
       "points": 4,
       "modification": false,
@@ -10401,7 +10401,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM13)",
-      "_id": "3788468e-8502-42a2-b2a8-cd9a6472d9d6",
+      "_id": "0e6da66d-eb62-4256-8c1f-74e54e94fdc5",
       "type": "support-team",
       "faction": [
         ""
@@ -10458,7 +10458,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "9807e7f4-571d-4ef9-ad7b-e15a54a358fb",
+      "_id": "79ca94df-a6b4-4645-8022-51ad316c6bae",
       "type": "title",
       "faction": [
         "empire"
@@ -10511,12 +10511,12 @@
       "cardimage": "https://api.swarmada.wiki/images/centicore-title.webp"
     },
     "hand-of-justice-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "3fdbc9ce-eb6e-410f-a4ff-659794fa0bc6",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "d3b66af0-c2f8-40e7-b1cf-50287fe18a9e",
       "type": "title",
       "faction": [
         "empire"
@@ -10530,7 +10530,7 @@
       ],
       "ability": "Before you reveal a command, you may exhaust this card to choose another friendly ship at distance 1-5 and ready 1 of its defense tokens.",
       "unique": true,
-      "points": 4,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "arquitens-class-cruiser",
       "restrictions": {
@@ -10574,7 +10574,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "1ae3d5af-bf59-4369-9cc4-8635f824cc00",
+      "_id": "b945cbe9-57f9-47ba-9730-411893bb761e",
       "type": "title",
       "faction": [
         "empire"
@@ -10629,7 +10629,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "bc89af94-ead8-465e-a498-f48050ce4a5c",
+      "_id": "c358affa-f08b-4f76-a9bb-d746789b520c",
       "type": "title",
       "faction": [
         "empire"
@@ -10684,7 +10684,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "65708417-c79a-4f23-bf0d-e6377cfa9b9f",
+      "_id": "cbb5eb95-84e5-4855-af23-9c6964c16f66",
       "type": "title",
       "faction": [
         "empire"
@@ -10742,7 +10742,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-      "_id": "883df756-b86d-417c-860d-f704319ddece",
+      "_id": "8914a27d-5a15-47c2-bcdf-dc879d752a16",
       "type": "title",
       "faction": [
         "empire"
@@ -10800,7 +10800,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "e24937d2-22e3-476e-9eaa-fbb6577f2a4f",
+      "_id": "e37bf3c5-ee7a-480d-b4e7-7a92ff378813",
       "type": "title",
       "faction": [
         "empire"
@@ -10858,7 +10858,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "c4082d72-5d5c-4352-bb7f-b841f947378a",
+      "_id": "c04b600a-4f18-443b-bb9b-c1bca929693c",
       "type": "title",
       "faction": [
         "empire"
@@ -10916,7 +10916,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "410376df-ea45-44d6-9f87-93d080d10f23",
+      "_id": "7067e81e-cbcd-4b74-9de5-63e576cfb0bb",
       "type": "title",
       "faction": [
         "empire"
@@ -10974,7 +10974,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "6ae64082-ed02-495c-bb3f-192a5ea18931",
+      "_id": "c4b6c3bd-2319-4007-8c90-f12e5effeda8",
       "type": "title",
       "faction": [
         "empire"
@@ -11032,7 +11032,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "4d740201-23ff-4818-bbe7-4fd342abfbb2",
+      "_id": "20b956d9-6347-470c-aa7b-a31c23861b9b",
       "type": "title",
       "faction": [
         "empire"
@@ -11087,7 +11087,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Interdictor Expansion Pack (SWM16)",
-      "_id": "80635980-53cb-48d0-a50b-40f000dbb16d",
+      "_id": "489ca248-84fa-44fd-b266-8cce2a27824b",
       "type": "title",
       "faction": [
         "empire"
@@ -11145,7 +11145,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "9e69cf0c-f6cf-4ba8-b55b-c4de54609747",
+      "_id": "a9dfadc8-6d43-4f23-b671-ea4245d86b44",
       "type": "title",
       "faction": [
         "empire"
@@ -11203,7 +11203,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "110d3831-e862-450b-bcf8-f3eff32770ba",
+      "_id": "0da0ad6b-bcea-4c00-bc2a-4efcc98ce997",
       "type": "title",
       "faction": [
         "empire"
@@ -11261,7 +11261,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "e3e13ee4-aacd-442b-9ae2-e979ded4c655",
+      "_id": "07b685c8-b3b2-41ab-9f18-7fe52d581210",
       "type": "title",
       "faction": [
         "empire"
@@ -11319,7 +11319,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "86655fe9-cadc-41cd-9b52-3d2c08fbd1cc",
+      "_id": "1325bc38-de75-431e-8ebe-d9f0ef9e5160",
       "type": "title",
       "faction": [
         "empire"
@@ -11372,12 +11372,12 @@
       "cardimage": "https://api.swarmada.wiki/images/pursuant-title.webp"
     },
     "squall-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 6 Armada",
-      "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "bfb2306f-b996-4b9a-b08a-d4f133f3a00a",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "4b7d7ea2-4bb2-4f23-9d9d-7bde0300537f",
       "type": "title",
       "faction": [
         "empire"
@@ -11389,9 +11389,9 @@
       "unique-class": [
         "Squall"
       ],
-      "ability": "When you activate, you may choose up to 3 unengaged friendly squadrons at close-medium range. Those squadrons may move up to distance 2. If they do, they cannot end their movement engaged.",
+      "ability": "When you activate, you may choose up to 3 unengaged, friendly squadrons at close-medium range. Those squadrons may move up to distance 2. If they do, they cannot end their movement engaged.",
       "unique": true,
-      "points": 3,
+      "points": 7,
       "modification": false,
       "bound_shiptype": "quasar-fire-class-cruiser-carrier",
       "restrictions": {
@@ -11430,12 +11430,12 @@
       "cardimage": "https://api.swarmada.wiki/images/squall-title.webp"
     },
     "stronghold-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 6 Armada",
-      "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "358bd4da-36ea-442b-b9d0-5ac5072e80b9",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "b8e5eef7-3256-46d1-bee6-106a919da36c",
       "type": "title",
       "faction": [
         "empire"
@@ -11446,7 +11446,7 @@
       ],
       "ability": "While a friendly squadron with Swarm at distance 1-2 is defending, the attack is treated as obstructed.",
       "unique": true,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "quasar-fire-class-cruiser-carrier",
       "restrictions": {
@@ -11490,7 +11490,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "c4c464d8-26ae-4954-81dc-ec818fc16156",
+      "_id": "9a5f94d2-cbeb-4833-a376-cf078e8b2d28",
       "type": "title",
       "faction": [
         "empire"
@@ -11548,7 +11548,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "16a246b8-70c8-45d1-adfc-27743e0e7109",
+      "_id": "31f2f9fd-11ca-497e-ac2b-7cbe0f053811",
       "type": "title",
       "faction": [
         "empire"
@@ -11606,7 +11606,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial Raider Expansion Pack (SWM15)",
-      "_id": "ec7bbd73-5efd-4397-99d6-6626543c78ce",
+      "_id": "353f6a23-514b-4d75-8c35-d0389aa38da8",
       "type": "title",
       "faction": [
         "empire"
@@ -11661,7 +11661,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "0658469a-9714-45e7-bfb5-19af3c616b2e",
+      "_id": "a58f84a4-773b-4fd1-9979-47f7087c75ea",
       "type": "title",
       "faction": [
         "empire"
@@ -11716,7 +11716,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "0e890f54-213a-41c1-886f-f4f08d631d56",
+      "_id": "11fb29ec-fc65-40d2-84ca-1bb1554f5de1",
       "type": "title",
       "faction": [
         "empire"
@@ -11774,7 +11774,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "33d7a367-a0f2-4bee-a0df-ca40e685acd3",
+      "_id": "54876af0-52c0-4508-ae0a-f41500286855",
       "type": "title",
       "faction": [
         "empire"
@@ -11832,7 +11832,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "110b0265-64fc-4d12-aae7-fb3865407c77",
+      "_id": "e6eba59e-7d25-4a4d-acea-0db7c3428baa",
       "type": "title",
       "faction": [
         "empire"
@@ -11890,7 +11890,7 @@
       "team": "FFG",
       "release": "Super Star Destroyer",
       "expansion": "Super Star Destroyer Expansion Pack (SWM20)",
-      "_id": "11e43b2c-8135-4bd1-9adb-24940d04a0f0",
+      "_id": "32363dc2-04f3-411c-8818-51bbdf516289",
       "type": "title",
       "faction": [
         "empire"
@@ -11943,12 +11943,12 @@
       "cardimage": "https://api.swarmada.wiki/images/ravager-title.webp"
     },
     "corrupter-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Armada Wave 1",
-      "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "879272b2-4ad2-4a86-b27c-8a8bd0d97fe2",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "661ed831-6e4e-4a2e-a1a0-e281d2602a37",
       "type": "title",
       "faction": [
         "empire"
@@ -11962,7 +11962,7 @@
       ],
       "ability": ":squadron:: The speed of each squadron with BOMBER you activate is increased by 1 until the end of its activation",
       "unique": true,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "victory-star-destroyer",
       "restrictions": {
@@ -12001,12 +12001,12 @@
       "cardimage": "https://api.swarmada.wiki/images/corrupter-title.webp"
     },
     "dominator-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "47f99601-c6ee-4daf-b28d-9a632bd1d599",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "75a4454f-1ef3-4e66-a388-008554c7c2db",
       "type": "title",
       "faction": [
         "empire"
@@ -12020,7 +12020,7 @@
       ],
       "ability": "When attacking at close-medium range, you may spend up to 2 shields from any of your hull zones to add that number of blue dice to your attack pool.",
       "unique": true,
-      "points": 12,
+      "points": 7,
       "modification": false,
       "bound_shiptype": "victory-star-destroyer",
       "restrictions": {
@@ -12064,7 +12064,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "a320cfe0-51fb-449c-a432-231f80c09fc7",
+      "_id": "16c253c4-4416-41c3-b160-b7aaa4717984",
       "type": "title",
       "faction": [
         "empire"
@@ -12122,7 +12122,7 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "fc3bda29-95b9-4e0a-988c-96edea01da12",
+      "_id": "2c60fa12-ecf3-4b6d-a16f-07b3c416b890",
       "type": "title",
       "faction": [
         "empire"
@@ -12180,7 +12180,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "98a09d2e-6791-43bb-9cdf-f5e59b94f666",
+      "_id": "6b00e31c-941c-4f1d-9b55-c54b7db1d7c3",
       "type": "title",
       "faction": [
         "rebel"
@@ -12235,7 +12235,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Assault Frigate Mark II Expansion Pack SWM05",
-      "_id": "359b4290-c673-496f-90bb-cebd21416873",
+      "_id": "3f1be914-8821-48e4-aace-d9332a1dbc64",
       "type": "title",
       "faction": [
         "rebel"
@@ -12285,12 +12285,12 @@
       "cardimage": "https://api.swarmada.wiki/images/paragon-title.webp"
     },
     "dodonnas-pride-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "90600614-fa1b-468e-9af7-9203392adf8a",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "2aa74e91-a004-46aa-bf81-9cf577d12bf8",
       "type": "title",
       "faction": [
         "rebel"
@@ -12304,7 +12304,7 @@
       ],
       "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
       "unique": true,
-      "points": 6,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "cr90-corvette",
       "restrictions": {
@@ -12343,12 +12343,12 @@
       "cardimage": "https://api.swarmada.wiki/images/dodonnas-pride-title.webp"
     },
     "jainas-light-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "aed02870-b4ae-494a-8348-1110ae5e7fa1",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "be3280a7-cabb-4e5c-a76c-c4d657b58116",
       "type": "title",
       "faction": [
         "rebel"
@@ -12364,7 +12364,7 @@
       ],
       "ability": "You can ignore the effects of overlapping obstacles.\nYour attacks cannot be obstructed.",
       "unique": true,
-      "points": 2,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "cr90-corvette",
       "restrictions": {
@@ -12408,7 +12408,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "267b684b-cc7f-4017-908c-4285a363c661",
+      "_id": "5380ab79-05f3-4b08-b702-e50e1de456b6",
       "type": "title",
       "faction": [
         "rebel"
@@ -12466,7 +12466,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "CR90 Corellian Corvette Expansion Pack (SWM03)",
-      "_id": "7fc61130-a70e-46dc-a7a9-7579fb63d2fc",
+      "_id": "e5296b82-7deb-4362-85c6-cbc4c68a59d9",
       "type": "title",
       "faction": [
         "rebel"
@@ -12524,7 +12524,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "0f3939a4-07e1-40ca-a3c4-f554ce39bb05",
+      "_id": "b7b19574-7c14-4d51-b74f-08cf5f978154",
       "type": "title",
       "faction": [
         "rebel"
@@ -12582,7 +12582,7 @@
       "team": "FFG",
       "release": "Wave 3 Armada",
       "expansion": "Rebel Transports Expansion Pack (SWM19)",
-      "_id": "51db562a-7088-4e07-9f7c-f7c6957f8745",
+      "_id": "2a22ef62-c09d-44e4-9494-24879aa4525b",
       "type": "title",
       "faction": [
         "rebel"
@@ -12640,7 +12640,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "2f6efca9-eef3-4541-ba11-548b9168b5fd",
+      "_id": "cafd5d48-759d-406d-bebe-506f96c08497",
       "type": "title",
       "faction": [
         "rebel"
@@ -12698,7 +12698,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "00f9a067-e173-4869-acc3-342fea40a05e",
+      "_id": "9bb089d5-15e3-4192-86fe-77747a760a27",
       "type": "title",
       "faction": [
         "rebel"
@@ -12756,7 +12756,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "9e297d7f-948f-42bd-a328-2d4a2ef67157",
+      "_id": "79b4ca73-bd48-4817-add3-d5fc1ae16e47",
       "type": "title",
       "faction": [
         "rebel"
@@ -12809,12 +12809,12 @@
       "cardimage": "https://api.swarmada.wiki/images/task-force-organa-title.webp"
     },
     "admonition-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "b09bd23f-08d0-4444-b0a1-6db58d4dfb0d",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "84b60612-6b2c-44bd-905e-e333f0d3e057",
       "type": "title",
       "faction": [
         "rebel"
@@ -12826,9 +12826,9 @@
       "unique-class": [
         "Admonition"
       ],
-      "ability": "While defending, during the Spend Defense Tokens step, you may discard a readied defense token to cancel 1 attack die.",
+      "ability": "While defending, during the Spend Defense Tokens step, you may discard a defense token to cancel 1 attack die.",
       "unique": true,
-      "points": 6,
+      "points": 10,
       "modification": false,
       "bound_shiptype": "mc30c-frigate",
       "restrictions": {
@@ -12867,12 +12867,12 @@
       "cardimage": "https://api.swarmada.wiki/images/admonition-title.webp"
     },
     "foresight-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "8d539855-4068-4e8b-8e80-bb9734216622",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "d862e197-8ea1-4a81-bd55-dea8c5f8f401",
       "type": "title",
       "faction": [
         "rebel"
@@ -12887,7 +12887,7 @@
       ],
       "ability": "When you resolve the :evade: defense effect, you can affect 1 additional die. When you resolve the :redirect: defense effect, you can choose 1 additional adjacent hull zone to suffer damage.",
       "unique": true,
-      "points": 8,
+      "points": 10,
       "modification": false,
       "bound_shiptype": "mc30c-frigate",
       "restrictions": {
@@ -12931,7 +12931,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "de7b58a8-56e2-4e45-be27-64e00e39258d",
+      "_id": "ad7c170d-8608-4b72-aaa2-5967c47bad1d",
       "type": "title",
       "faction": [
         "rebel"
@@ -12986,7 +12986,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "99ed5c46-06cc-49ae-ba8a-daed1e68b031",
+      "_id": "cf51c575-b66a-449d-b3e4-a6d87b8ab288",
       "type": "title",
       "faction": [
         "rebel"
@@ -13041,7 +13041,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM130)",
-      "_id": "7ca1b6a2-9dad-4fdf-8d97-c541bbcda36f",
+      "_id": "799d5aef-022c-41e9-8b08-ac85bab0d574",
       "type": "title",
       "faction": [
         "rebel"
@@ -13094,12 +13094,12 @@
       "cardimage": "https://api.swarmada.wiki/images/defiance-title.webp"
     },
     "home-one-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Home One Expansion Pack (SWM130)",
-      "_id": "eceeeeb6-33e9-47a5-935d-84f10522f876",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "0272c7e9-9b1d-47f2-b450-3e7970ec9bce",
       "type": "title",
       "faction": [
         "rebel"
@@ -13114,7 +13114,7 @@
       ],
       "ability": "While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an :accuracy: icon.",
       "unique": true,
-      "points": 7,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "mc80h-cruiser",
       "restrictions": {
@@ -13158,7 +13158,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Home One Expansion Pack (SWM130)",
-      "_id": "00d7b281-2c47-4dbf-bf62-78f2b1a940d6",
+      "_id": "163755dd-0425-4750-b4fe-d243a8650f65",
       "type": "title",
       "faction": [
         "rebel"
@@ -13216,7 +13216,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "183520a2-9dbd-43b8-82fd-eda48e8ea9e9",
+      "_id": "2d6399c0-6921-48fe-a771-804b7c77221d",
       "type": "title",
       "faction": [
         "rebel"
@@ -13274,7 +13274,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "5be0896a-6957-48bc-8d2e-b85906963adf",
+      "_id": "47f15ccb-479c-4698-aaec-444a39a9b0b8",
       "type": "title",
       "faction": [
         "rebel"
@@ -13332,7 +13332,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "1bd73e3a-51d6-4475-916c-008c1620ec49",
+      "_id": "274e20f3-00db-4835-893d-79d24ca6ab8b",
       "type": "title",
       "faction": [
         "rebel"
@@ -13390,7 +13390,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Phoenix Home Expansion Pack (SWM21)",
-      "_id": "5ee55062-fc30-496b-bd93-80cec8d8dcfa",
+      "_id": "ab677967-8519-4701-bc05-bb0266ba78ea",
       "type": "title",
       "faction": [
         "rebel"
@@ -13448,7 +13448,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "d224a1f4-c740-440a-a3ac-9574455ef6c0",
+      "_id": "92f5ca68-b5c8-4a4f-acfa-869ab381ab9a",
       "type": "title",
       "faction": [
         "rebel"
@@ -13499,12 +13499,12 @@
       "cardimage": "https://api.swarmada.wiki/images/mon-calamari-exodus-fleet-title.webp"
     },
     "redemption-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 0 Armada",
-      "expansion": "Armada Core Set (SWM01)",
-      "_id": "fc1899fe-26b4-4cac-9276-6892627548b4",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "435e02e7-64df-4b34-af45-2ed9d79af105",
       "type": "title",
       "faction": [
         "rebel"
@@ -13518,7 +13518,7 @@
       ],
       "ability": "When a friendly ship at distance 1-5 resolves a :repair: command, it gains 1 additional engineering point.",
       "unique": true,
-      "points": 8,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "nebulon-b-frigate",
       "restrictions": {
@@ -13562,7 +13562,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-      "_id": "1f62b155-d0ec-4de1-b8c7-bd1663dd3f62",
+      "_id": "1bec1293-e0fd-4ebe-b42c-68bb27583f0f",
       "type": "title",
       "faction": [
         "rebel"
@@ -13620,7 +13620,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "4d5f8c63-a851-415d-8eac-3ae1e279ff89",
+      "_id": "40107324-e1bd-497b-9f57-625ed00b1695",
       "type": "title",
       "faction": [
         "rebel"
@@ -13678,7 +13678,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-      "_id": "36fabbfa-d61b-4ef9-8a3f-b6c66e33806e",
+      "_id": "e42d5db8-6f75-4e8b-872d-8b6ad0fa62b9",
       "type": "title",
       "faction": [
         "rebel"
@@ -13736,7 +13736,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "a0a597ad-66ee-4ba4-b4bc-9bd5c3485ca7",
+      "_id": "aa781d37-d3a8-4018-aced-b8b965b0ae5b",
       "type": "title",
       "faction": [
         "rebel"
@@ -13794,7 +13794,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "089b96b0-e3dc-4563-a669-9892818864ec",
+      "_id": "2674db0f-d9a4-4d98-928b-b93d65184b1b",
       "type": "title",
       "faction": [
         "rebel"
@@ -13852,7 +13852,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "0ee524c3-1a18-4809-97b1-149c4f0d20b4",
+      "_id": "7e147146-3b15-47b5-b1c8-b3fd7ba70add",
       "type": "title",
       "faction": [
         "rebel"
@@ -13910,7 +13910,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "6cbf63a7-9ae1-4b34-95e1-beef81e6922c",
+      "_id": "6d20b75f-2820-4ccb-b8a6-314aa0402614",
       "type": "title",
       "faction": [
         "republic"
@@ -13968,7 +13968,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "fd233454-0565-4189-ad9a-7322c60d364b",
+      "_id": "a7c40ae1-2a11-4769-8f28-f88b28bb9072",
       "type": "title",
       "faction": [
         "republic"
@@ -14026,7 +14026,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "062acb21-8f13-4613-a143-81d46372ad25",
+      "_id": "6a38d3fd-617a-4c17-85ca-e4f2319f2732",
       "type": "title",
       "faction": [
         "republic"
@@ -14086,7 +14086,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "a33a9446-22f5-452a-ac25-5efe0ad523c8",
+      "_id": "d19cbd57-0163-4c50-ab6c-904a6047dc83",
       "type": "title",
       "faction": [
         "republic"
@@ -14144,7 +14144,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "1f163cca-332e-4ad7-bea5-8aa218353f85",
+      "_id": "4e34ec8c-4d11-427e-a0c9-2e551e66d7d4",
       "type": "title",
       "faction": [
         "republic"
@@ -14202,7 +14202,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Pelta-class Frigate Expansion Pack (SWM40)",
-      "_id": "e45a2b6a-e8cb-48dc-9de2-0eeb28149104",
+      "_id": "d1e73e7b-ac85-4ca0-98f3-f81465c54691",
       "type": "title",
       "faction": [
         "republic"
@@ -14255,12 +14255,12 @@
       "cardimage": "https://api.swarmada.wiki/images/tb-73-title.webp"
     },
     "resolute-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "cc43f406-c9cf-4711-b289-4850cf88ef56",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "34aa3ebe-c7c5-4940-96e6-3643366d6ce5",
       "type": "title",
       "faction": [
         "republic"
@@ -14274,7 +14274,7 @@
       ],
       "ability": "You must choose at least 2 types of command tokens for this card. After you resolve a command by spending a dial, you may discard 1 matching command token from this card to gain that token.",
       "unique": true,
-      "points": 6,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "venator-star-destroyer",
       "restrictions": {
@@ -14318,7 +14318,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "52572447-5a8a-4be8-a7dd-4ce59e07ee46",
+      "_id": "b7ae561a-a20f-426e-a873-3d7807cb21f3",
       "type": "title",
       "faction": [
         "republic"
@@ -14377,7 +14377,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "ffc3092f-0c2f-4275-ba60-0ea7eb770c99",
+      "_id": "9c35f506-14b7-4a8a-8879-c06843ef950b",
       "type": "title",
       "faction": [
         "republic"
@@ -14435,7 +14435,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "86da4c92-e925-4e93-ab7d-b9e22c774fc7",
+      "_id": "032095e7-c92b-448d-8cfc-de0691d0a418",
       "type": "title",
       "faction": [
         "separatist"
@@ -14493,7 +14493,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "1d94d6b6-d56a-49bb-869b-512f73801977",
+      "_id": "1c2ec3f0-bbef-4158-9bb2-46439b91c314",
       "type": "title",
       "faction": [
         "separatist"
@@ -14552,7 +14552,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "006c3289-c491-459a-8261-cfc713fe78c7",
+      "_id": "7f42ad3b-530d-4169-adb1-e729438a8909",
       "type": "title",
       "faction": [
         "separatist"
@@ -14610,7 +14610,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "1cd66c5b-5423-4494-9df9-146aa92af51f",
+      "_id": "852d4ad1-bcbc-452d-b0a1-7b18631fdb16",
       "type": "title",
       "faction": [
         "separatist"
@@ -14670,7 +14670,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "9bdca04d-eade-4ec6-b2e2-2507d7a839b9",
+      "_id": "2c5945bc-f106-4e14-ba00-e1f46c716367",
       "type": "title",
       "faction": [
         "separatist"
@@ -14723,12 +14723,12 @@
       "cardimage": "https://api.swarmada.wiki/images/invincible-title.webp"
     },
     "invisible-hand-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "f628f1a5-ffc4-4c60-b01a-1027e5ceb7de",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "47ce50fe-1c1c-4494-935c-6993db51226a",
       "type": "title",
       "faction": [
         "separatist"
@@ -14741,9 +14741,9 @@
       "unique-class": [
         "Invisible Hand"
       ],
-      "ability": "While deploying fleets, if you are in the play area, when you would deploy a squadron with swarm, you may set that squadron aside next to your ship card instead. You may set aside up to 5 squadrons this way. :squadron: : For each squadron you would activate with this command, you may place 1 of your set-aside squadrons within distance 3. It cannot move this activation, and if it has AI, increase its AI value by 1.",
+      "ability": "While deploying fleets, if you are in the play area, when you would deploy a squadron with SWARM, you may set that squadron aside next to your ship card instead. You may set aside up to 5 squadrons this way. :squadron: : Choose any number of squadrons set aside with this card. Then place them within distance 1-3 of you. During your activation, those squadrons cannot move, and if they have AI, may increase their AI value by 1.",
       "unique": true,
-      "points": 9,
+      "points": 8,
       "modification": false,
       "bound_shiptype": "providence-class",
       "restrictions": {
@@ -14782,12 +14782,12 @@
       "cardimage": "https://api.swarmada.wiki/images/invisible-hand-title.webp"
     },
     "lucid-voice-title": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 10 Armada",
-      "expansion": "Invisible Hand Expansion Pack (SWM42)",
-      "_id": "d641482a-5b26-4578-b765-fa672a68b25f",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "96bd24ad-2d39-4062-8043-90b882bce549",
       "type": "title",
       "faction": [
         "separatist"
@@ -14802,7 +14802,7 @@
       ],
       "ability": "Treat your rear hull zone's printed battery armament as 3 red dice. The battery armament of your left and right hull zones are each increased by 1 black die and decreased by 1 blue die.",
       "unique": true,
-      "points": 8,
+      "points": 6,
       "modification": false,
       "bound_shiptype": "providence-class",
       "restrictions": {
@@ -14846,7 +14846,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "457a8542-4a9f-491d-8a60-835109eabd0d",
+      "_id": "2dfcc700-506f-40e3-b3c0-78bbc1b60368",
       "type": "title",
       "faction": [
         "separatist"
@@ -14904,7 +14904,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "30508247-48d7-44c0-85c5-11cc4da29ea3",
+      "_id": "d12efcd7-829e-4ea8-a7e1-55dff2826354",
       "type": "title",
       "faction": [
         "separatist"
@@ -14965,7 +14965,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Recusant-class Destroyer Expansion Pack (SWM43)",
-      "_id": "6238b6b6-8136-4d81-8fe3-a02200755d39",
+      "_id": "cb633353-445f-42c7-89d7-50138ef7c841",
       "type": "title",
       "faction": [
         "separatist"
@@ -15024,7 +15024,7 @@
       "team": "FFG",
       "release": "Wave 10 Armada",
       "expansion": "Venator-class Star Destroyer Expansion Pack (SWM41)",
-      "_id": "ee20fc6f-368b-44ad-849a-fa08721f5768",
+      "_id": "3637b0b2-648c-4f2a-934b-874f7549eeb3",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15078,12 +15078,12 @@
       "cardimage": "https://api.swarmada.wiki/images/dby-827-heavy-turbolasers.webp"
     },
     "dual-turbolaser-turrets": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 5 Armada",
-      "expansion": "Imperial Light Cruiser Expansion Pack (SWM22)",
-      "_id": "b1429794-9d33-4a55-89ad-6467c4fa26db",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "a8e18df0-bcef-4d41-8fb9-6bfb50de2f94",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15097,7 +15097,7 @@
       ],
       "ability": "_Modification_. \nWhile attacking you may exhaust this card to add 1 red die to your attack pool. If you do, remove 1 die from the attack pool.",
       "unique": false,
-      "points": 5,
+      "points": 4,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {
@@ -15141,7 +15141,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "4c23ddad-5bb4-4687-ad21-429a97dd56af",
+      "_id": "f9e4462e-9a3a-4857-af29-702f872ce2f3",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15199,7 +15199,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "fa96ed54-3d45-492e-b3cf-74ebe9cbd281",
+      "_id": "283c88db-a3c2-40b9-a46a-bebb217c855e",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15253,12 +15253,12 @@
       "cardimage": "https://api.swarmada.wiki/images/h9-turbolasers.webp"
     },
     "heavy-fire-zone": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 8 Armada",
-      "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "c987807f-0049-45b8-bb1a-85b780b36c70",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "934bedd1-2e00-4e08-ac85-49651625e625",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15272,7 +15272,7 @@
       ],
       "ability": "While attacking a squadron, before you gather dice, if the defender is not engaged with a friendly squadron you may replace all of the blue dice in your anti-squadron armament with red dice.",
       "unique": false,
-      "points": 4,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -15311,12 +15311,12 @@
       "cardimage": "https://api.swarmada.wiki/images/heavy-fire-zone.webp"
     },
     "heavy-turbolaser-turrets": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "6bab5d4f-e120-4b28-8754-db77b7331e6a",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "8dff463f-67e8-458a-bab6-c53c172a9886",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15331,7 +15331,7 @@
       ],
       "ability": "While attacking, the :brace: defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack.",
       "unique": false,
-      "points": 6,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -15367,12 +15367,12 @@
       "cardimage": "https://api.swarmada.wiki/images/heavy-turbolaser-turrets.webp"
     },
     "linked-turbolaser-towers": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Rebellion in the Rim Campaign Armada",
-      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "155c1e45-a0bb-477c-ab5b-d50b730f8c65",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "b87a0828-fb21-4e72-a316-ede0ce4a0763",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15384,7 +15384,7 @@
       "unique-class": [
         ""
       ],
-      "ability": "You may reroll 1 red die in your attack pool.\nWhile attacking the first squadron during your activation, you may add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.",
+      "ability": "While attacking a squadron, you may reroll 1 red die in your attack pool.\nWhile attacking a ship, if you have the bombard tag, you may reroll 1 red die in your attack pool.\nDuring your activation, while attacking the first squadron during an attack, you may exhaust this card to add 2 dice of any color to your attack pool. If you do, you cannot declare additional squadron targets for this attack.",
       "unique": false,
       "points": 7,
       "modification": false,
@@ -15430,7 +15430,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "5612428a-9ac3-4700-8ecb-2e719739dd22",
+      "_id": "eac5d995-0aaf-4caa-92be-2b200a48df74",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15486,7 +15486,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "3a568207-81a2-4f92-823c-f243b2584070",
+      "_id": "a2d03a8e-0a5b-4d17-8fc7-dd6e3599f4e6",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15542,7 +15542,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "3bf6cbe8-eb0b-4896-8a43-98ea13358a07",
+      "_id": "ee92a653-b8b0-46a3-9ad1-db04bfdbfe12",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15597,7 +15597,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "6e88ef98-6d04-4b09-b3f3-7d46c7048f3f",
+      "_id": "7c77ad38-5463-4132-8789-1e8fb3ea31a0",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15652,7 +15652,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "9dc8ee16-d534-4428-98c2-6ffc7d283846",
+      "_id": "73bdbf16-590e-4c8b-8149-0676e83dea23",
       "type": "turbolaser",
       "faction": [
         "republic",
@@ -15712,7 +15712,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "31d47aba-ce76-4823-b9a1-97d79ddd6d56",
+      "_id": "843f104c-5dee-473c-aa80-d2ad6a50aa5a",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15768,7 +15768,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Nebulon-B Frigate Expansion Pack (SWM04)",
-      "_id": "c3110d0e-8f4f-44a3-8125-9cd474496260",
+      "_id": "1edf9c95-319b-4a45-a814-3d0b7bb7c250",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15819,12 +15819,12 @@
       "cardimage": "https://api.swarmada.wiki/images/xi7-turbolasers.webp"
     },
     "xx-9-turbolasers": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 1 Armada",
-      "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
-      "_id": "45a7dedb-6bf6-4d14-b53a-db872a9b0760",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "fed0ce11-1dac-4352-a38a-4836f7b11204",
       "type": "turbolaser",
       "faction": [
         ""
@@ -15841,7 +15841,7 @@
       ],
       "ability": ":critical:: The first 2 damage cards dealt to the defender by this attack are dealt faceup.",
       "unique": false,
-      "points": 5,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -15882,7 +15882,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "e6d1301a-498a-47be-9edf-6dcac8d73e72",
+      "_id": "6dea81d4-147c-4af8-931c-85c6a3396758",
       "type": "weapons-team",
       "faction": [
         "rebel"
@@ -15937,7 +15937,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "612fb24f-71f8-4c74-b41c-b30a21db1e3d",
+      "_id": "8b4651c0-e3d9-4584-9b1e-585f76cb444f",
       "type": "weapons-team",
       "faction": [
         "republic"
@@ -15995,7 +15995,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "236f3afd-bbe2-40ea-b109-c5c47711bde3",
+      "_id": "7f5cbb99-6079-4e22-abc4-0f7e531fa6c0",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16053,7 +16053,7 @@
       "team": "FFG",
       "release": "Armada Wave 1",
       "expansion": "Victory-class Star Destroyer Expansion Pack (SWM02)",
-      "_id": "9d92bb32-4652-4d17-8eec-d34de60f30df",
+      "_id": "3010f782-17ec-4b5b-84e0-308f05db226a",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16111,7 +16111,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Onager-class Star Destroyer Expansion Pack (SWM33)",
-      "_id": "8a4df4be-9f9b-44b7-96fc-a5180c5640e3",
+      "_id": "b64ac46c-a87b-4a20-b5c2-583751294a41",
       "type": "weapons-team",
       "faction": [
         "empire"
@@ -16169,7 +16169,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "4c5bb8a5-10a0-4093-91b4-32fea9895b2d",
+      "_id": "a3015d8b-ed97-4d82-a8e4-4412ae9f35d0",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16227,7 +16227,7 @@
       "team": "FFG",
       "release": "Wave 8 Armada",
       "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "c56a0fed-2d59-4ef6-b5f4-4893ee608d3f",
+      "_id": "6b150dab-db8a-4b49-a4a6-23e4b1dfeb3e",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16285,7 +16285,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "MC30c Frigate Expansion Pack (SWM12)",
-      "_id": "5f71fdac-42a3-44b1-9128-34ce6cc93ac5",
+      "_id": "f02eeedf-29d8-4c71-8d4d-454245408e8a",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16341,7 +16341,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
-      "_id": "5a0f56a0-66a9-4f57-a501-b9e22ecfc8ca",
+      "_id": "2ed4c1f4-fa75-451d-bbb0-599b101dc544",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16397,7 +16397,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Gladiator-class Star Destroyer Expansion Pack (SWM06)",
-      "_id": "23e824d9-64bb-41cc-a2d0-b6058b28ca94",
+      "_id": "20e0fd02-1944-4a52-9e79-6d51b0a7d927",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16455,7 +16455,7 @@
       "team": "FFG",
       "release": "Wave 4 Armada",
       "expansion": "Liberty Expansion Pack (SWM17)",
-      "_id": "0709486b-ea9a-43ac-81e9-889a388b3a69",
+      "_id": "99965834-7359-4406-bad2-a2fdee2740a8",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16508,12 +16508,12 @@
       "cardimage": "https://api.swarmada.wiki/images/veteran-gunners.webp"
     },
     "weapons-battery-techs": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Rebellion in the Rim Campaign Armada",
-      "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "a0788f38-29a0-45d4-bb79-9131e01d1ade",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "d123dfa8-c587-4bcb-a490-40adf25d64f4",
       "type": "weapons-team",
       "faction": [
         ""
@@ -16528,7 +16528,7 @@
       ],
       "ability": "While attacking a ship, you may change 1 die face with a :accuracy: icon to a face with :crit: icon.",
       "unique": false,
-      "points": 5,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -16572,7 +16572,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "59ea5e13-082e-4c18-a083-3fc229e95702",
+      "_id": "623eac35-6464-477c-ac73-84ccae9716b5",
       "type": "weapons-team-offensive-retro",
       "faction": [
         ""
@@ -16630,7 +16630,7 @@
       "team": "FFG",
       "release": "Wave 6 Armada",
       "expansion": "Imperial Light Carrier Expansion Pack (SWM26)",
-      "_id": "93b7d7c4-ccef-4b32-aac3-5f9ced112ed8",
+      "_id": "e6e549cc-6722-4dfd-b328-ec6b111b8e0f",
       "type": "weapons-team-offensive-retro",
       "faction": [
         ""
@@ -16684,11 +16684,11 @@
     },
     "cham-syndulla-boarding-team": {
       "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 6 Armada",
-      "expansion": "Hammerhead Corvettes Expansion Pack (SWM27)",
-      "_id": "73174c92-990d-4162-b0f2-26bd7b9a3a1a",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "04aaaf77-ee4e-494c-9702-27701eedb9ba",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "rebel"
@@ -16700,7 +16700,7 @@
       "unique-class": [
         "Cham Syndulla"
       ],
-      "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If you do you may choose a new command for each command dial assigned to that ship.",
+      "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. If you do you may choose a new command for each command dial assigned to that ship. Then you may choose a new command dial for each of those command dials to be set to.",
       "unique": true,
       "points": 5,
       "modification": false,
@@ -16746,7 +16746,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Chimaera Expansion Pack (SWM29)",
-      "_id": "f8f2e6bd-d381-46c4-9df8-5e221cb6e48e",
+      "_id": "47d27bd9-7f85-4468-a806-766d8556050f",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "empire"
@@ -16801,7 +16801,7 @@
       "team": "FFG",
       "release": "Wave 7 Armada",
       "expansion": "Profundity Expansion Pack (SWM30)",
-      "_id": "1f9c303c-f0a4-4002-941f-c0f23d141697",
+      "_id": "6e438623-b69f-4685-a429-f2559bb11067",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "rebel"
@@ -16851,12 +16851,12 @@
       "cardimage": "https://api.swarmada.wiki/images/jyn-erso-boarding-team.webp"
     },
     "shriv-suurgav-boarding-team": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 8 Armada",
-      "expansion": "Nadiri Starhawk Expansion Pack (SWM32)",
-      "_id": "b9989c44-656f-4cfc-9843-ba1a64a014d6",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": "55c0e08b-7886-4b4f-9c9d-8104edb9ca04",
       "type": "weapons-team-offensive-retro",
       "faction": [
         "rebel"
@@ -16870,7 +16870,7 @@
       ],
       "ability": "When you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. Choose and discard 1 :weapons-team:, :support-team:, :offensive-retro:, :defensive-retro:, :ordnance:, :ion-cannon:, or :turbolaser: upgrade card equipped to that ship.",
       "unique": true,
-      "points": 6,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

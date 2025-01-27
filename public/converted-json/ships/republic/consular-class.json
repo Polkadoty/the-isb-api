@@ -56,7 +56,9 @@
           "chassis": "consular-class",
           "name": "Consular-class Armed Cruiser",
           "nicknames": [
-            "Consular", "Consular-class", "Consular Armed"
+            "Consular",
+            "Consular-class",
+            "Consular Armed"
           ],
           "faction": "republic",
           "unique": false,
@@ -132,24 +134,29 @@
           "cardimage": "https://api.swarmada.wiki/images/consular-class-armed-cruiser.webp"
         },
         "consular-class-charger-c70": {
-          "author": "Fantasy Flight Games",
-          "alias": "FFG",
-          "team": "FFG",
-          "release": "Wave 9 Armada",
-          "expansion": "Galactic Republic Fleet Starter (SWM34)",
+          "author": "Atomic Mass Games",
+          "alias": "AMG",
+          "team": "AMG",
+          "release": "AMG Final Errata",
+          "expansion": "AMG Final Errata",
           "_id": null,
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Charger c70",
           "nicknames": [
-            "Consular", "Consular-class", "Consular Charger", "Consular-class Charger", "C70", "C-70"
+            "Consular",
+            "Consular-class",
+            "Consular Charger",
+            "Consular-class Charger",
+            "C70",
+            "C-70"
           ],
           "faction": "republic",
           "unique": false,
           "traits": [
             "clone"
           ],
-          "points": 45,
+          "points": 42,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,

@@ -1,0 +1,139 @@
+{
+  "squadrons": {
+    "lancer-class-pursuit-craft": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "lancer-class-pursuit-craft",
+      "name": "Lancer-class Pursuit Craft",
+      "nicknames": [
+        "Lancers", "Lancer"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/lancer-class-pursuit-craft.webp"
+    },
+    "ketsu-onyo-lancer-class-pursuit-craft": {
+      "author": "Fantasy Flight Games",
+      "alias": "FFG",
+      "team": "FFG",
+      "release": "Wave 5 Armada",
+      "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "lancer-class-pursuit-craft",
+      "name": "Shadow Caster",
+      "nicknames": [
+        "Ketsu"
+      ],
+      "ace-name": "Ketsu Onyo",
+      "unique-class": [
+        "Ketsu Onyo",
+        "Shadow Caster"
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While an enemy squadron is at distance 1, its speed is reduced by 2 to a minimum of 1.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ketsu-onyo-lancer-class-pursuit-craft.webp"
+    }
+  }
+}

@@ -1,11 +1,11 @@
 {
   "upgrades": {
     "heavy-turbolaser-turrets": {
-      "author": "Fantasy Flight Games",
-      "alias": "FFG",
-      "team": "FFG",
-      "release": "Wave 2 Armada",
-      "expansion": "Imperial-class Star Destroyer Expansion Pack (SWM11)",
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
       "_id": null,
       "type": "turbolaser",
       "faction": [
@@ -13,14 +13,15 @@
       ],
       "name": "Heavy Turbolaser Turrets",
       "nicknames": [
-        "HTT", "HTTs"
+        "HTT",
+        "HTTs"
       ],
       "unique-class": [
         ""
       ],
       "ability": "While attacking, the :brace: defense effect cannot reduce the damage total by more than 1 unless it is the only defense token spent by the defender during the attack.",
       "unique": false,
-      "points": 6,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
