@@ -49,7 +49,8 @@ function updateJsonValues(obj, modifications, parentKey = '', filename = '') {
           let newValue = replacement.replace('{key}', parentKey || key);
           // Check if this is an AMG Final Errata card
           if (obj.expansion === 'AMG Final Errata' && key === 'cardimage') {
-            // Insert '-errata' before '.webp'
+            // Remove any existing -errata before adding it once
+            newValue = newValue.replace(/-errata\.webp$/, '.webp');
             newValue = newValue.replace('.webp', '-errata.webp');
           }
           console.log(`Updating ${key} from "${obj[key]}" to "${newValue}"`);

@@ -1,7 +1,7 @@
 {
   "ships": {
     "acclamator-assault-ship": {
-      "_id": "b2bef413-b337-4900-a209-bec4cfb18323",
+      "_id": "44be249c-fef2-417a-b3e4-e66ed9f97288",
       "type": "chassis",
       "chassis_name": "acclamator-assault-ship",
       "size": "medium",
@@ -46,7 +46,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "e49e38b5-2b57-4ef1-939d-df9e4090d560",
+          "_id": "709caa15-86d2-428f-a083-ba3c589f77a1",
           "type": "ship",
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator I-class Assault Ship",
@@ -131,7 +131,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/acclamator-i-class-assault-ship-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/acclamator-i-class-assault-ship-errata.webp"
         },
         "acclamator-ii-class-assault-ship": {
           "author": "Fantasy Flight Games",
@@ -139,7 +139,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "bd857fee-2b25-4e34-9434-00f505a276d9",
+          "_id": "9adbfff8-1799-4693-a761-a886e884c394",
           "type": "ship",
           "chassis": "acclamator-assault-ship",
           "name": "Acclamator II-class Assault Ship",
@@ -228,7 +228,7 @@
       }
     },
     "arquitens-class-cruiser": {
-      "_id": "4b1f8c56-a513-40be-8bf0-a1268f05a8a2",
+      "_id": "1349cf84-e861-48ee-96ca-50f5073b6e03",
       "type": "chassis",
       "chassis_name": "arquitens-class-cruiser",
       "size": "small",
@@ -273,7 +273,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "e8baaba2-38a2-45e2-b900-f3876663a04d",
+          "_id": "33c01b01-becc-4d88-8a99-e9f36a1ed47b",
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Light Cruiser",
@@ -350,7 +350,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-light-cruiser-errata.webp"
         },
         "arquitens-class-command-cruiser-errata": {
           "author": "Atomic Mass Games",
@@ -358,7 +358,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "07773a08-ae37-4dea-8f68-d48c76033924",
+          "_id": "d05289f6-e811-40c0-b058-4a2260150ca8",
           "type": "ship",
           "chassis": "arquitens-class-cruiser",
           "name": "Arquitens-class Command Cruiser",
@@ -436,12 +436,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-command-cruiser-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/arquitens-class-command-cruiser-errata.webp"
         }
       }
     },
     "assault-frigate-mark-ii": {
-      "_id": "c527dd44-3dc5-42d3-a7d9-a395f2daf0c8",
+      "_id": "c76348da-7162-439e-b155-8a7a7d2c8304",
       "type": "chassis",
       "chassis_name": "assault-frigate-mark-ii",
       "size": "medium",
@@ -486,7 +486,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "ddd2f463-36f5-4063-86f7-7b81065aea64",
+          "_id": "b8ba7707-e3d8-4308-bcb0-620228603be9",
           "type": "ship",
           "chassis": "assault-frigate-mark-ii",
           "name": "Assault Frigate Mark II A",
@@ -568,7 +568,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-a-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/assault-frigate-mark-ii-a-errata.webp"
         },
         "assault-frigate-mark-ii-b": {
           "author": "Fantasy Flight Games",
@@ -576,7 +576,7 @@
           "team": "FFG",
           "release": "Wave 1 Armada",
           "expansion": "Assault Frigate Mark II Expansion Pack (SWM05)",
-          "_id": "322695a4-b05b-4452-b5c9-0bda751e2c09",
+          "_id": "9a991072-8d7a-40c3-967b-55d7107e5f78",
           "type": "ship",
           "chassis": "assault-frigate-mark-ii",
           "name": "Assault Frigate Mark II B",
@@ -662,7 +662,7 @@
       }
     },
     "consular-class": {
-      "_id": "0d7ce2f6-96bb-4b8a-92f8-75fd325cbbea",
+      "_id": "098b5d5e-ec98-4269-9978-b25c9e573095",
       "type": "chassis",
       "chassis_name": "consular-class",
       "size": "small",
@@ -712,7 +712,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Galactic Republic Fleet Starter (SWM34)",
-          "_id": "d9496df1-a55b-4d08-94fc-677d4e4378ea",
+          "_id": "50487ebd-faf5-4883-9c9e-d5c7b51cbf1e",
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Armed Cruiser",
@@ -800,7 +800,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "73ab62ee-2132-4350-bf5f-5211bc8706be",
+          "_id": "ca1c90a3-b57c-49d2-a686-fd6d38429597",
           "type": "ship",
           "chassis": "consular-class",
           "name": "Consular-class Charger c70",
@@ -882,12 +882,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/consular-class-charger-c70-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/consular-class-charger-c70-errata.webp"
         }
       }
     },
     "gozanti-class-cis": {
-      "_id": "9ca91e76-481d-47be-8852-42a93acc32b6",
+      "_id": "47b7a687-2690-4580-a03f-c8c9e2ac16d0",
       "type": "chassis",
       "chassis_name": "gozanti-class",
       "size": "small",
@@ -932,7 +932,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "3473cd1a-b67c-4478-925e-5eb8d5095705",
+          "_id": "08570689-98f3-49f4-8970-cf8ee3dc49d2",
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
@@ -1013,12 +1013,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-cruisers-separatist-errata.webp"
         }
       }
     },
     "gozanti-class": {
-      "_id": "7d95eb9a-8eb1-4bac-8895-42e8d8cade1f",
+      "_id": "883c1442-b46a-433b-8216-cf284c4bdbc5",
       "type": "chassis",
       "chassis_name": "gozanti-class",
       "size": "small",
@@ -1063,7 +1063,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "459071f2-9499-4dcf-9845-333cbe8d370a",
+          "_id": "820d4456-0142-447c-9efc-f9beac7511f9",
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Assault Carriers",
@@ -1139,7 +1139,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-assault-carriers-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/gozanti-class-assault-carriers-errata.webp"
         },
         "gozanti-class-cruisers": {
           "author": "Fantasy Flight Games",
@@ -1147,7 +1147,7 @@
           "team": "FFG",
           "release": "Wave 3 Armada",
           "expansion": "Imperial Assault Carriers Expansion Pack (SWM18)",
-          "_id": "13aebe21-0f20-490a-b7b9-817c0ce98c4a",
+          "_id": "28130bb5-862a-41c1-9fca-5ee5981024dc",
           "type": "ship",
           "chassis": "gozanti-class",
           "name": "Gozanti-class Cruisers",
@@ -1228,7 +1228,7 @@
       }
     },
     "hardcell-class": {
-      "_id": "d96a6e48-7fc3-4f68-9315-26fcf849843a",
+      "_id": "683a5a8a-9b53-4257-a592-7578e7f15c10",
       "type": "chassis",
       "chassis_name": "hardcell-class",
       "size": "small",
@@ -1273,7 +1273,7 @@
           "team": "FFG",
           "release": "Wave 9 Armada",
           "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-          "_id": "34678063-4053-45e7-9b9e-30863c825eda",
+          "_id": "0d0c4a60-4e19-433a-a66a-5738f915159f",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Transport",
@@ -1362,7 +1362,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "a07d85bd-e0c2-49f1-9a6e-cb73240ac6b7",
+          "_id": "2230cc3a-7bbf-4d45-897c-086f16d88218",
           "type": "ship",
           "chassis": "hardcell-class",
           "name": "Hardcell-class Battle Refit",
@@ -1443,12 +1443,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/hardcell-class-battle-refit-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/hardcell-class-battle-refit-errata.webp"
         }
       }
     },
     "mc75-cruiser": {
-      "_id": "1f97eff0-1540-415c-a1ac-7e8cb99dc5ba",
+      "_id": "6dfcef09-8761-4fff-b4f1-5dcbc3f50f94",
       "type": "chassis",
       "chassis_name": "mc75-cruiser",
       "size": "large",
@@ -1493,7 +1493,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "bbe7246e-f5fb-414f-b18c-e0d77bf58511",
+          "_id": "7d991f5a-1708-4eb1-8677-dae8ea2a0927",
           "type": "ship",
           "chassis": "mc75-cruiser",
           "name": "MC75 Armored Cruiser",
@@ -1577,7 +1577,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser-errata.webp"
         },
         "mc75-ordnance-cruiser-errata": {
           "author": "Atomic Mass Games",
@@ -1585,7 +1585,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "afee3b3d-9b7e-4231-a921-83acb9ebfa40",
+          "_id": "b0e886c8-5456-4903-b7e0-da1ae5b2c556",
           "type": "ship",
           "chassis": "mc75-cruiser",
           "name": "MC75 Ordnance Cruiser",
@@ -1668,12 +1668,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser-errata.webp"
         }
       }
     },
     "mc80h-cruiser": {
-      "_id": "cdc74a3f-fab2-43ce-95f2-685361f1aebe",
+      "_id": "0db4e353-6ef4-46ce-b6c7-c5885df59feb",
       "type": "chassis",
       "chassis_name": "mc80h-cruiser",
       "size": "large",
@@ -1714,7 +1714,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "ef43fff2-8ef1-4cd3-8b06-ca5448467cd5",
+          "_id": "31955b0d-dec9-4efe-95df-4465ec9737da",
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Assault Cruiser",
@@ -1798,7 +1798,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser-errata.webp"
         },
         "mc80h-command-cruiser-errata": {
           "author": "Atomic Mass Games",
@@ -1806,7 +1806,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "810ae7aa-0246-41e6-aede-f5b3514c3dab",
+          "_id": "b0e7ea2b-4d94-496d-b099-e00bcfc8d20e",
           "type": "ship",
           "chassis": "mc80h-cruiser",
           "name": "MC80 Command Cruiser",
@@ -1890,12 +1890,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80h-command-cruiser-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-command-cruiser-errata.webp"
         }
       }
     },
     "providence-class": {
-      "_id": "bf155d2d-3e06-4a32-8399-6b38ae453ee8",
+      "_id": "179d251e-daf7-4181-bf79-37c3b1dd6d10",
       "type": "chassis",
       "chassis_name": "providence-class",
       "size": "large",
@@ -1940,7 +1940,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "57c9367d-0828-4d0e-b1bc-c6fdb91501fd",
+          "_id": "d6ffd934-4697-4d17-8685-34376d59a405",
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Dreadnought",
@@ -2026,7 +2026,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/providence-class-dreadnought-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/providence-class-dreadnought-errata.webp"
         },
         "providence-class-carrier-errata": {
           "author": "Atomic Mass Games",
@@ -2034,7 +2034,7 @@
           "team": "AMG",
           "release": "AMG Final Errata",
           "expansion": "AMG Final Errata",
-          "_id": "6b251e11-5af8-4557-baac-20aa5474b66c",
+          "_id": "b276dff3-16a1-4c87-b5b9-f7169f441dd5",
           "type": "ship",
           "chassis": "providence-class",
           "name": "Providence-class Carrier",
@@ -2119,12 +2119,12 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/providence-class-carrier-errata-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/providence-class-carrier-errata.webp"
         }
       }
     },
     "victory-star-destroyer": {
-      "_id": "28122072-0ca5-44a3-9666-77f62f912c35",
+      "_id": "f80439cf-7653-4cff-a485-7fb3bb14608d",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -2165,7 +2165,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "fbb5ec2d-e3c6-44d3-b3d0-30add61e149c",
+          "_id": "076e6a1c-ee2b-47e6-af13-84b8851aba5c",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-class Star Destroyer",
@@ -2254,7 +2254,7 @@
           "team": "FFG",
           "release": "Wave 0 Armada",
           "expansion": "Armada Core Set (SWM01)",
-          "_id": "eb301201-32f5-4255-bdc7-f28d542d0040",
+          "_id": "b0de7a9a-8f13-4377-9e8f-8cd3d6b47cd3",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory II-Class Star Destroyer",
@@ -2335,7 +2335,7 @@
       }
     },
     "victory-star-destroyer-gar": {
-      "_id": "0326c133-40b6-4bde-b35b-e271d5896d11",
+      "_id": "55432137-d92a-46b8-a3b4-420260b2ed53",
       "type": "chassis",
       "chassis_name": "victory-star-destroyer",
       "size": "medium",
@@ -2376,7 +2376,7 @@
           "team": "AMG",
           "release": "Rapid Reinforcements",
           "expansion": "Rapid Reinforcements I (RR1)",
-          "_id": "4687df27-ba70-46ab-8417-8ea996dc0335",
+          "_id": "01fc1f40-4125-4611-a9a1-2dae8709dea7",
           "type": "ship",
           "chassis": "victory-star-destroyer",
           "name": "Victory I-Class Star Destroyer",
