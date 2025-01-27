@@ -72,7 +72,26 @@ function cacheImagePaths(dir, cache) {
 // Cache image paths on server start
 console.log('Caching image paths...');
 cacheImagePaths(imagesPath, imageCache);
-cacheImagePaths(jpegImagesPath, jpegImageCache);
+
+// Create JPEG cache by transforming WebP paths
+for (const [filename, filepath] of imageCache.entries()) {
+  if (filename.endsWith('.webp')) {
+    const jpegFilename = filename.replace('.webp', '.jpg');
+    // Preserve the directory structure in the filepath
+    const jpegFilepath = filepath.split('/').map(part => 
+      part.endsWith('.webp') ? part.replace('.webp', '.jpg') : part
+    ).join('/');
+    
+    console.log('Adding to JPEG cache:', {
+      jpegFilename,
+      jpegFilepath,
+      originalFilename: filename,
+      originalFilepath: filepath
+    });
+    
+    jpegImageCache.set(jpegFilename, jpegFilepath);
+  }
+}
 console.log(`Cached ${imageCache.size} WebP images and ${jpegImageCache.size} JPEG images`);
 
 // Add this near the start of your server, after directory definitions

@@ -47,7 +47,12 @@
           "chassis": "mc80h-cruiser",
           "name": "MC80 Assault Cruiser",
           "nicknames": [
-            "MC80", "MC-80", "MC80H", "MC-80H", "MC80 Assault", "MC-80 Assault"
+            "MC80",
+            "MC-80",
+            "MC80H",
+            "MC-80H",
+            "MC80 Assault",
+            "MC-80 Assault"
           ],
           "faction": "rebel",
           "unique": false,
@@ -121,7 +126,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-assault-cruiser-errata-errata.webp"
         },
         "mc80h-command-cruiser-errata": {
           "author": "Atomic Mass Games",
@@ -134,7 +139,12 @@
           "chassis": "mc80h-cruiser",
           "name": "MC80 Command Cruiser",
           "nicknames": [
-            "MC80", "MC-80", "MC80H", "MC-80H", "MC80 Command", "MC-80 Command"
+            "MC80",
+            "MC-80",
+            "MC80H",
+            "MC-80H",
+            "MC80 Command",
+            "MC-80 Command"
           ],
           "faction": "rebel",
           "unique": false,
@@ -208,7 +218,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc80h-command-cruiser-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc80h-command-cruiser-errata-errata.webp"
         }
       }
     }

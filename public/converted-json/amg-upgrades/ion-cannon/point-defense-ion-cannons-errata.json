@@ -13,7 +13,8 @@
       ],
       "name": "Point Defense Ion Cannons",
       "nicknames": [
-        "PDIC", "PDICs"
+        "PDIC",
+        "PDICs"
       ],
       "unique-class": [
         ""
@@ -28,7 +29,9 @@
           ""
         ],
         "size": [
-          "small","medium","large"
+          "small",
+          "medium",
+          "large"
         ],
         "disqual_upgrades": [
           ""
@@ -53,7 +56,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/point-defense-ion-cannons-errata.webp"
+      "cardimage": "https://api.swarmada.wiki/images/point-defense-ion-cannons-errata-errata.webp"
     }
   }
 }

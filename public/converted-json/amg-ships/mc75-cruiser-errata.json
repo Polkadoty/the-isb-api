@@ -51,7 +51,10 @@
           "chassis": "mc75-cruiser",
           "name": "MC75 Armored Cruiser",
           "nicknames": [
-            "MC75", "MC-75", "MC75 Armored", "MC-75 Armored"
+            "MC75",
+            "MC-75",
+            "MC75 Armored",
+            "MC-75 Armored"
           ],
           "faction": "rebel",
           "unique": false,
@@ -127,7 +130,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc75-armored-cruiser-errata-errata.webp"
         },
         "mc75-ordnance-cruiser-errata": {
           "author": "Atomic Mass Games",
@@ -140,7 +143,10 @@
           "chassis": "mc75-cruiser",
           "name": "MC75 Ordnance Cruiser",
           "nicknames": [
-            "MC75", "MC-75", "MC75 Ordnance", "MC-75 Ordnance"
+            "MC75",
+            "MC-75",
+            "MC75 Ordnance",
+            "MC-75 Ordnance"
           ],
           "faction": "rebel",
           "unique": false,
@@ -215,7 +221,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/mc75-ordnance-cruiser-errata-errata.webp"
         }
       }
     }

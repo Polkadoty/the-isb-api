@@ -1,62 +1,63 @@
 {
-    "upgrades": {
-        "home-one-title-errata": {
-            "author": "Atomic Mass Games",
-            "alias": "AMG",
-            "team": "AMG",
-            "release": "AMG Final Errata",
-            "expansion": "AMG Final Errata",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Home One",
-            "nicknames": [
-                "Home One", "Useless"
-            ],
-            "unique-class": [
-                "Home One"
-            ],
-            "ability": "While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an :accuracy: icon.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "mc80h-cruiser",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/home-one-title-errata.webp"
-        }
+  "upgrades": {
+    "home-one-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Home One",
+      "nicknames": [
+        "Home One",
+        "Useless"
+      ],
+      "unique-class": [
+        "Home One"
+      ],
+      "ability": "While another friendly ship at distance 1-5 is attacking, it may change 1 die to a face with an :accuracy: icon.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc80h-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/home-one-title-errata-errata.webp"
     }
+  }
 }

@@ -56,7 +56,9 @@
           "chassis": "consular-class",
           "name": "Consular-class Armed Cruiser",
           "nicknames": [
-            "Consular", "Consular-class", "Consular Armed"
+            "Consular",
+            "Consular-class",
+            "Consular Armed"
           ],
           "faction": "republic",
           "unique": false,
@@ -142,7 +144,12 @@
           "chassis": "consular-class",
           "name": "Consular-class Charger c70",
           "nicknames": [
-            "Consular", "Consular-class", "Consular Charger", "Consular-class Charger", "C70", "C-70"
+            "Consular",
+            "Consular-class",
+            "Consular Charger",
+            "Consular-class Charger",
+            "C70",
+            "C-70"
           ],
           "faction": "republic",
           "unique": false,
@@ -214,7 +221,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/consular-class-charger-c70-errata.webp"
+          "cardimage": "https://api.swarmada.wiki/images/consular-class-charger-c70-errata-errata.webp"
         }
       }
     }

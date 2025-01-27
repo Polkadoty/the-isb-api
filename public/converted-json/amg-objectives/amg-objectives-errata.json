@@ -10,7 +10,8 @@
       "type": "defense",
       "name": "Jamming Barrier",
       "nicknames": [
-        "Jamming", "Jamming Barrier"
+        "Jamming",
+        "Jamming Barrier"
       ],
       "obstacles": [
         "asteroid_1",
@@ -35,7 +36,7 @@
       "command_tokens_count": 0,
       "errata": "While attacking, if neither the attacker or defender are overlapping an objective token and line of sight is traced across an objective token or the line between the two objective tokens, the attacker must choose and remove half of the dice from the attack pool, rounded down, before rolling.",
       "artwork": "[link to image]",
-      "cardimage": "https://api.swarmada.wiki/images/jamming-barrier-errata.webp"
+      "cardimage": "https://api.swarmada.wiki/images/jamming-barrier-errata-errata.webp"
     },
     "most-wanted-errata": {
       "author": "Atomic Mass Games",
@@ -47,7 +48,8 @@
       "type": "assault",
       "name": "Most Wanted",
       "nicknames": [
-        "Most Wanted", "MW"
+        "Most Wanted",
+        "MW"
       ],
       "obstacles": [
         "asteroid_1",
@@ -72,7 +74,7 @@
       "command_tokens_count": 0,
       "errata": "",
       "artwork": "[link to image]",
-      "cardimage": "https://api.swarmada.wiki/images/most-wanted-errata.webp"
+      "cardimage": "https://api.swarmada.wiki/images/most-wanted-errata-errata.webp"
     },
     "hyperspace-migration-errata": {
       "author": "Atomic Mass Games",
@@ -84,7 +86,9 @@
       "type": "navigation",
       "name": "Hyperspace Migration",
       "nicknames": [
-        "Hyperspace Migration", "HM", "Purrgil"
+        "Hyperspace Migration",
+        "HM",
+        "Purrgil"
       ],
       "obstacles": [
         "asteroid_1",
@@ -108,7 +112,7 @@
       "command_tokens_count": 0,
       "errata": "",
       "artwork": "[link to image]",
-      "cardimage": "https://api.swarmada.wiki/images/hyperspace-migration-errata.webp"
+      "cardimage": "https://api.swarmada.wiki/images/hyperspace-migration-errata-errata.webp"
     }
   }
 }

@@ -1,120 +1,122 @@
 {
-    "upgrades": {
-        "dodonnas-pride-title-errata": {
-            "author": "Atomic Mass Games",
-            "alias": "AMG",
-            "team": "AMG",
-            "release": "AMG Final Errata",
-            "expansion": "AMG Final Errata",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Dodonna's Pride",
-            "nicknames": [
-                "D Pride"
-            ],
-            "unique-class": [
-                "Dodonna's Pride"
-            ],
-            "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
-            "unique": true,
-            "points": 4,
-            "modification": false,
-            "bound_shiptype": "cr90-corvette",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/dodonnas-pride-title-errata.webp"
-        },
-        "jainas-light-title-errata": {
-            "author": "Atomic Mass Games",
-            "alias": "AMG",
-            "team": "AMG",
-            "release": "AMG Final Errata",
-            "expansion": "AMG Final Errata",
-            "_id": null,
-            "type": "title",
-            "faction": [
-                "rebel"
-            ],
-            "name": "Jaina's Light",
-            "nicknames": [
-                "Jaina's", "Jainas", "JL"
-            ],
-            "unique-class": [
-                "Jaina's Light"
-            ],
-            "ability": "You can ignore the effects of overlapping obstacles.\nYour attacks cannot be obstructed.",
-            "unique": true,
-            "points": 5,
-            "modification": false,
-            "bound_shiptype": "cr90-corvette",
-            "restrictions": {
-                "traits": [
-                    ""
-                ],
-                "size": [
-                    ""
-                ],
-                "disqual_upgrades": [
-                    ""
-                ],
-                "disable_upgrades": [
-                    ""
-                ],
-                "enable_upgrades": [
-                    ""
-                ],
-                "flagship": false
-            },
-            "start_command": {
-                "type": "",
-                "start_icon": [
-                    ""
-                ],
-                "start_amount": 0
-            },
-            "exhaust": {
-                "type": "",
-                "ready_token": [
-                    ""
-                ],
-                "ready_amount": 0
-            },
-            "artwork": "[link to image]",
-            "cardimage": "https://api.swarmada.wiki/images/jainas-light-title-errata.webp"
-        }
+  "upgrades": {
+    "dodonnas-pride-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Dodonna's Pride",
+      "nicknames": [
+        "D Pride"
+      ],
+      "unique-class": [
+        "Dodonna's Pride"
+      ],
+      "ability": "BLUE :crit: Cancel all attack dice to deal 1 faceup damage card to the defender.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/dodonnas-pride-title-errata-errata.webp"
+    },
+    "jainas-light-title-errata": {
+      "author": "Atomic Mass Games",
+      "alias": "AMG",
+      "team": "AMG",
+      "release": "AMG Final Errata",
+      "expansion": "AMG Final Errata",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Jaina's Light",
+      "nicknames": [
+        "Jaina's",
+        "Jainas",
+        "JL"
+      ],
+      "unique-class": [
+        "Jaina's Light"
+      ],
+      "ability": "You can ignore the effects of overlapping obstacles.\nYour attacks cannot be obstructed.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "cr90-corvette",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "[link to image]",
+      "cardimage": "https://api.swarmada.wiki/images/jainas-light-title-errata-errata.webp"
     }
+  }
 }

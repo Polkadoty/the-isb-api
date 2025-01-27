@@ -41,22 +41,19 @@ const modifications = yaml.load(fs.readFileSync(modificationsFile, 'utf8'));
 function updateJsonValues(obj, modifications, parentKey = '', filename = '') {
   if (typeof obj === 'object' && obj !== null) {
     for (let key in obj) {
-      if (parentKey === 'upgrades' && modifications.keyUpdate) {
-        const { pattern, replacement } = modifications.keyUpdate;
-        const newKey = replacement.replace('{filename}', filename);
-        if (new RegExp(pattern).test(key) && key !== newKey) {
-          console.log(`Updating key from "${key}" to "${newKey}"`);
-          obj[newKey] = obj[key];
-          delete obj[key];
-        }
-      }
       if (modifications[key]) {
         const { pattern, replacement } = modifications[key];
         const shouldUpdate = flags.force || (typeof obj[key] === 'string' && (obj[key] === '' || new RegExp(pattern).test(obj[key])));
         
         if (shouldUpdate) {
-          console.log(`Updating ${key} from "${obj[key]}" to "${replacement.replace('{key}', parentKey || key)}"`);
-          obj[key] = replacement.replace('{key}', parentKey || key);
+          let newValue = replacement.replace('{key}', parentKey || key);
+          // Check if this is an AMG Final Errata card
+          if (obj.expansion === 'AMG Final Errata' && key === 'cardimage') {
+            // Insert '-errata' before '.webp'
+            newValue = newValue.replace('.webp', '-errata.webp');
+          }
+          console.log(`Updating ${key} from "${obj[key]}" to "${newValue}"`);
+          obj[key] = newValue;
         }
       }
       if (typeof obj[key] === 'object') {
@@ -65,26 +62,6 @@ function updateJsonValues(obj, modifications, parentKey = '', filename = '') {
     }
   }
 }
-
-// function updateJsonValues(obj, modifications, parentKey = '', filename = '') {
-//   if (typeof obj === 'object' && obj !== null) {
-//     for (let key in obj) {
-//       if (modifications[key]) {
-//         const { pattern, replacement } = modifications[key];
-//         const shouldUpdate = flags.force || (typeof obj[key] === 'string' && new RegExp(pattern).test(obj[key]));
-        
-//         if (shouldUpdate) {
-//           const newValue = replacement.replace('{key}', filename || parentKey || key);
-//           console.log(`Updating ${key} from "${obj[key]}" to "${newValue}"`);
-//           obj[key] = newValue;
-//         }
-//       }
-//       if (typeof obj[key] === 'object') {
-//         updateJsonValues(obj[key], modifications, key, filename);
-//       }
-//     }
-//   }
-// }
 
 function unitTest(directory, testsToRun) {
   const flaggedFiles = [];
