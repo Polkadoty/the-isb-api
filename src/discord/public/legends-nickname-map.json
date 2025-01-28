@@ -53,8 +53,7 @@
     "gozanti-class-assault-carriers"
   ],
   "Gozanti-class Cruisers": [
-    "gozanti-class-cruisers",
-    "gozanti-class-cruisers-separatist"
+    "gozanti-class-cruisers"
   ],
   "Gozanti Cruiser": [
     "gozanti-class-cruisers",
@@ -264,7 +263,7 @@
   "Star Dreadnought Command": [
     "star-dreadnought-command-prototype"
   ],
-  "Venator II-Class Star Destroyer": [
+  "Venator II-class Star Destroyer {IMP}": [
     "venator-ii-class-star-destroyer-empire"
   ],
   "Venator": [
@@ -295,9 +294,8 @@
     "victory-i-class-star-destroyer",
     "victory-i-class-star-destroyer-republic"
   ],
-  "Victory II-Class Star Destroyer": [
-    "victory-ii-class-star-destroyer",
-    "victory-ii-class-star-destroyer-errata-old-legacy"
+  "Victory II-class Star Destroyer": [
+    "victory-ii-class-star-destroyer"
   ],
   "Assault Frigate Mark II A": [
     "assault-frigate-mark-ii-a",
@@ -758,7 +756,7 @@
   "Venator-II": [
     "venator-ii-class-star-destroyer"
   ],
-  "Victory I-Class Star Destroyer": [
+  "Victory I-class Star Destroyer {GAR}": [
     "victory-i-class-star-destroyer-republic"
   ],
   "Victory-class": [
@@ -823,6 +821,9 @@
   ],
   "Dummy Title": [
     "dummy-ship-title"
+  ],
+  "Gozanti-class Cruisers {CIS}": [
+    "gozanti-class-cruisers-separatist"
   ],
   "Gozanti-class": [
     "gozanti-class-cruisers-separatist"
@@ -1377,7 +1378,6 @@
     "keyan-farlander-b-wing-squadron",
     "ten-numb-b-wing-squadron",
     "dagger-squadron-b-wing-squadron",
-    "b-wing-squadron-new-republic-legends",
     "braylen-stramm-b-wing-squadron-old-legacy"
   ],
   "B-Wings": [
@@ -4798,6 +4798,9 @@
   "A-Wing Squadron {NR}": [
     "a-wing-squadron-new-republic-legends"
   ],
+  "B-Wing Squadron {NR}": [
+    "b-wing-squadron-new-republic-legends"
+  ],
   "E-wing Squadron {NR}": [
     "e-wing-squadron-new-republic-legends",
     "corran-horn-e-wing-squadron-new-republic-legends",
@@ -5387,6 +5390,9 @@
   ],
   "Interdictor-class Star Destroyer": [
     "interdictor-class-star-destroyer-old-legacy"
+  ],
+  "Victory II-Class Star Destroyer": [
+    "victory-ii-class-star-destroyer-errata-old-legacy"
   ],
   "Assault Frigate Mark IA": [
     "assault-frigate-mark-i-a-old-legacy"
