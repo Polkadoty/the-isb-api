@@ -1,0 +1,60 @@
+{
+  "upgrades": {
+    "admiral-ackbar-commander-new-republic-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "New Republic Wave 0",
+      "expansion": "New Republic Wave 0",
+      "_id": null,
+      "type": "commander",
+      "faction": "new-republic",
+      "name": "Admiral Ackbar {NR}",
+      "nicknames": [
+        "Ackbar"
+      ],
+      "unique-class": [
+        "Admiral Ackbar"
+      ],
+      "ability": "Before a friendly ship's Attack step, it may choose to attack only once this activation. If it does, it may add 2 red dice to its attack pool while attacking a ship.",
+      "unique": true,
+      "points": 38,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-ackbar-commander-new-republic-legends.webp"
+    }
+  }
+}

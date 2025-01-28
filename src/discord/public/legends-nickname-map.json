@@ -332,8 +332,7 @@
     "assault-frigate-mark-ii-b"
   ],
   "CR90 Corvette A": [
-    "cr90-corvette-a",
-    "cr90-corvette-a-new-republic-legends"
+    "cr90-corvette-a"
   ],
   "CR90": [
     "cr90-corvette-a",
@@ -1346,16 +1345,20 @@
     "arvel-crynyd-a-wing-squadron-old-legacy"
   ],
   "A-Wings": [
-    "a-wing-squadron"
+    "a-wing-squadron",
+    "a-wing-squadron-new-republic-legends"
   ],
   "A-Wing": [
-    "a-wing-squadron"
+    "a-wing-squadron",
+    "a-wing-squadron-new-republic-legends"
   ],
   "Tycho Celchu": [
-    "tycho-celchu-a-wing-squadron"
+    "tycho-celchu-a-wing-squadron",
+    "tycho-celchu-x-wing-squadron-new-republic-legends"
   ],
   "Tycho": [
-    "tycho-celchu-a-wing-squadron"
+    "tycho-celchu-a-wing-squadron",
+    "tycho-celchu-x-wing-squadron-new-republic-legends"
   ],
   "Shara Bey": [
     "shara-bey-a-wing-squadron"
@@ -1374,16 +1377,20 @@
     "keyan-farlander-b-wing-squadron",
     "ten-numb-b-wing-squadron",
     "dagger-squadron-b-wing-squadron",
+    "b-wing-squadron-new-republic-legends",
     "braylen-stramm-b-wing-squadron-old-legacy"
   ],
   "B-Wings": [
-    "b-wing-squadron"
+    "b-wing-squadron",
+    "b-wing-squadron-new-republic-legends"
   ],
   "B-Wing": [
-    "b-wing-squadron"
+    "b-wing-squadron",
+    "b-wing-squadron-new-republic-legends"
   ],
   "Bs": [
-    "b-wing-squadron"
+    "b-wing-squadron",
+    "b-wing-squadron-new-republic-legends"
   ],
   "Keyan Farlander": [
     "keyan-farlander-b-wing-squadron"
@@ -1409,17 +1416,21 @@
     "corran-horn-e-wing-squadron"
   ],
   "E-Wings": [
-    "e-wing-squadron"
+    "e-wing-squadron",
+    "e-wing-squadron-new-republic-legends"
   ],
   "E-Wing": [
-    "e-wing-squadron"
+    "e-wing-squadron",
+    "e-wing-squadron-new-republic-legends"
   ],
   "Corran Horn": [
     "corran-horn-e-wing-squadron",
+    "corran-horn-e-wing-squadron-new-republic-legends",
     "corran-horn-x-wing-squadron-old-legacy"
   ],
   "Corran": [
-    "corran-horn-e-wing-squadron"
+    "corran-horn-e-wing-squadron",
+    "corran-horn-e-wing-squadron-new-republic-legends"
   ],
   "HWK-290": [
     "hwk-290",
@@ -1545,20 +1556,27 @@
     "luke-skywalker-x-wing-squadron-errata-old-legacy"
   ],
   "X-Wings": [
-    "x-wing-squadron"
+    "x-wing-squadron",
+    "x-wing-squadron-new-republic-legends"
   ],
   "X-Wing": [
-    "x-wing-squadron"
+    "x-wing-squadron",
+    "x-wing-squadron-new-republic-legends"
   ],
   "Luke Skywalker": [
     "luke-skywalker-x-wing-squadron",
+    "luke-skywalker-e-wing-squadron-new-republic-legends",
+    "luke-skywalker-x-wing-squadron-new-republic-legends",
     "luke-skywalker-x-wing-squadron-errata-old-legacy"
   ],
   "Luke": [
-    "luke-skywalker-x-wing-squadron"
+    "luke-skywalker-x-wing-squadron",
+    "luke-skywalker-e-wing-squadron-new-republic-legends",
+    "luke-skywalker-x-wing-squadron-new-republic-legends"
   ],
   "Luke X-Wing": [
-    "luke-skywalker-x-wing-squadron"
+    "luke-skywalker-x-wing-squadron",
+    "luke-skywalker-x-wing-squadron-new-republic-legends"
   ],
   "Biggs Darklighter": [
     "biggs-darklighter-x-wing-squadron"
@@ -1574,14 +1592,18 @@
   ],
   "Wedge Antilles": [
     "wedge-antilles-x-wing-squadron",
-    "wedge-antilles-officer"
+    "wedge-antilles-officer",
+    "wedge-antilles-x-wing-squadron-new-republic-legends"
   ],
   "Wedge": [
     "wedge-antilles-x-wing-squadron",
-    "wedge-antilles-officer"
+    "wedge-antilles-officer",
+    "wedge-antilles-x-wing-squadron-new-republic-legends",
+    "wedge-antilles-commander-new-republic-legends"
   ],
   "Wedge X-Wing": [
-    "wedge-antilles-x-wing-squadron"
+    "wedge-antilles-x-wing-squadron",
+    "wedge-antilles-x-wing-squadron-new-republic-legends"
   ],
   "Rogue Squadron": [
     "rogue-squadron-x-wing-squadron"
@@ -2014,7 +2036,8 @@
     "admiral-ackbar-commander"
   ],
   "Ackbar": [
-    "admiral-ackbar-commander"
+    "admiral-ackbar-commander",
+    "admiral-ackbar-commander-new-republic-legends"
   ],
   "Admiral Konstantine": [
     "admiral-konstantine-commander"
@@ -2129,10 +2152,12 @@
     "garm-bel-iblis-commander"
   ],
   "Garm": [
-    "garm-bel-iblis-commander"
+    "garm-bel-iblis-commander",
+    "garm-bel-iblis-commander-new-republic-legends"
   ],
   "Iblis": [
-    "garm-bel-iblis-commander"
+    "garm-bel-iblis-commander",
+    "garm-bel-iblis-commander-new-republic-legends"
   ],
   "General Cracken": [
     "general-cracken-commander"
@@ -4401,7 +4426,7 @@
   "War Basestar Mk.2": [
     "war-basestar-mk2-bsg-legends"
   ],
-  "Corona Class Escort Frigate": [
+  "Corona Class Escort Frigate {NR}": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
   "Corona Class": [
@@ -4424,7 +4449,7 @@
   "Corona-Class Frigate": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
-  "Corona Class Support Frigate": [
+  "Corona Class Support Frigate {NR}": [
     "corona-class-support-frigate-new-republic-legends"
   ],
   "Corona Class Support": [
@@ -4433,10 +4458,16 @@
   "Corona-Class Support": [
     "corona-class-support-frigate-new-republic-legends"
   ],
-  "Endurance Class Fleet Carrier": [
+  "CR90 Corvette A {NR}": [
+    "cr90-corvette-a-new-republic-legends"
+  ],
+  "Endurance Class Fleet Carrier {NR}": [
     "endurance-class-fleet-carrier-new-republic-legends"
   ],
   "Endurance Class": [
+    "endurance-class-fleet-carrier-new-republic-legends"
+  ],
+  "Endurance Class Fleet Carrier": [
     "endurance-class-fleet-carrier-new-republic-legends"
   ],
   "Endurance-Class": [
@@ -4445,7 +4476,7 @@
   "Endurance-Class Fleet Carrier": [
     "endurance-class-fleet-carrier-new-republic-legends"
   ],
-  "MC90 Battle Cruiser": [
+  "MC90 Battle Cruiser {NR}": [
     "mc90-battle-cruiser-new-republic-legends"
   ],
   "MC90": [
@@ -4462,7 +4493,7 @@
   "MC-90 Battle": [
     "mc90-battle-cruiser-new-republic-legends"
   ],
-  "MC90 Command Cruiser": [
+  "MC90 Command Cruiser {NR}": [
     "mc90-command-cruiser-new-republic-legends"
   ],
   "MC90 Command": [
@@ -4471,10 +4502,13 @@
   "MC-90 Command": [
     "mc90-command-cruiser-new-republic-legends"
   ],
-  "Nebula Class Star Destroyer": [
+  "Nebula Class Star Destroyer {NR}": [
     "nebula-class-star-destroyer-new-republic-legends"
   ],
   "Nebula Class": [
+    "nebula-class-star-destroyer-new-republic-legends"
+  ],
+  "Nebula Class Star Destroyer": [
     "nebula-class-star-destroyer-new-republic-legends"
   ],
   "Nebula-Class": [
@@ -4760,6 +4794,49 @@
   ],
   "Karasabi": [
     "karsabi-alpha-class-star-wing-squadron-legends"
+  ],
+  "A-Wing Squadron {NR}": [
+    "a-wing-squadron-new-republic-legends"
+  ],
+  "E-wing Squadron {NR}": [
+    "e-wing-squadron-new-republic-legends",
+    "corran-horn-e-wing-squadron-new-republic-legends",
+    "gavin-darklighter-e-wing-squadron-new-republic-legends",
+    "luke-skywalker-e-wing-squadron-new-republic-legends"
+  ],
+  "Gavin Darklighter": [
+    "gavin-darklighter-e-wing-squadron-new-republic-legends"
+  ],
+  "Gavin": [
+    "gavin-darklighter-e-wing-squadron-new-republic-legends"
+  ],
+  "K-Wing Squadron {NR}": [
+    "k-wing-squadron-new-republic-legends",
+    "miranda-doni-k-wing-squadron-new-republic-legends"
+  ],
+  "K-Wings": [
+    "k-wing-squadron-new-republic-legends",
+    "miranda-doni-k-wing-squadron-new-republic-legends"
+  ],
+  "K-Wing": [
+    "k-wing-squadron-new-republic-legends",
+    "miranda-doni-k-wing-squadron-new-republic-legends"
+  ],
+  "Ks": [
+    "k-wing-squadron-new-republic-legends",
+    "miranda-doni-k-wing-squadron-new-republic-legends"
+  ],
+  "Miranda Doni": [
+    "miranda-doni-k-wing-squadron-new-republic-legends"
+  ],
+  "X-Wing Squadron {NR}": [
+    "x-wing-squadron-new-republic-legends",
+    "luke-skywalker-x-wing-squadron-new-republic-legends",
+    "tycho-celchu-x-wing-squadron-new-republic-legends",
+    "wedge-antilles-x-wing-squadron-new-republic-legends"
+  ],
+  "Tycho X-Wing": [
+    "tycho-celchu-x-wing-squadron-new-republic-legends"
   ],
   "AEG-77 Vigo": [
     "aeg-77-vigo-scum-legends"
@@ -5049,6 +5126,39 @@
   ],
   "UNSC Gunners": [
     "unsc-gunners-halo-legends"
+  ],
+  "Admiral Ackbar {NR}": [
+    "admiral-ackbar-commander-new-republic-legends"
+  ],
+  "Etahn A'baht {NR}": [
+    "etahn-abaht-commander-new-republic-legends"
+  ],
+  "Etahn": [
+    "etahn-abaht-commander-new-republic-legends"
+  ],
+  "Garm Bel Iblis {NR}": [
+    "garm-bel-iblis-commander-new-republic-legends"
+  ],
+  "Wedge Antilles {NR}": [
+    "wedge-antilles-commander-new-republic-legends"
+  ],
+  "Areta Bell {NR}": [
+    "areta-bell-officer-new-republic-legends"
+  ],
+  "Areta": [
+    "areta-bell-officer-new-republic-legends"
+  ],
+  "Bell": [
+    "areta-bell-officer-new-republic-legends"
+  ],
+  "Endurance {NR}": [
+    "endurance-title-new-republic-legends"
+  ],
+  "Endurance": [
+    "endurance-title-new-republic-legends"
+  ],
+  "Endurance Title": [
+    "endurance-title-new-republic-legends"
   ],
   "AT-TE Assault Brigade": [
     "at-te-assault-brigade"

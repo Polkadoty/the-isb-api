@@ -1,0 +1,57 @@
+{
+  "upgrades": {
+    "garm-bel-iblis-commander-new-republic-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "New Republic Wave 0",
+      "expansion": "New Republic Wave 0",
+      "_id": null,
+      "type": "commander",
+      "faction": "new-republic",
+      "name": "Garm Bel Iblis {NR}",
+      "nicknames": [
+        "Garm", "Iblis"
+      ],
+      "unique-class": [
+        "Garm Bel Iblis"
+      ],
+      "ability": "After deploying fleets, place 2 non-consecutive round tokens on this card. During each round matching 1 of those tokens, when a friendly ship activates, it may gain 1 additional command dial of your choice.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/garm-bel-iblis-commander-new-republic-legends.webp"
+    }
+  }
+}
