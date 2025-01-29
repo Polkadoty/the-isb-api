@@ -582,9 +582,8 @@
   "Nebulon-B Support": [
     "nebulon-b-support-refit"
   ],
-  "Providence-class Carrier": [
-    "providence-class-carrier-rebel",
-    "providence-class-carrier"
+  "Providence-class Carrier {REB}": [
+    "providence-class-carrier-rebel"
   ],
   "Providence": [
     "providence-class-carrier-rebel",
@@ -907,6 +906,9 @@
     "providence-class-dreadnought",
     "dreadnaught-class-heavy-cruiser-republic-legends",
     "dreadnaught-class-judicial-cruiser-republic-legends"
+  ],
+  "Providence-class Carrier": [
+    "providence-class-carrier"
   ],
   "Carrier": [
     "providence-class-carrier"
@@ -4116,7 +4118,8 @@
     "solar-corona"
   ],
   "Corona": [
-    "solar-corona"
+    "solar-corona",
+    "corona-class-support-frigate-new-republic-legends"
   ],
   "Advanced Gunnery": [
     "advanced-gunnery",
@@ -4426,17 +4429,17 @@
   "War Basestar Mk.2": [
     "war-basestar-mk2-bsg-legends"
   ],
-  "Corona Class Escort Frigate {NR}": [
+  "Corona-class Escort Frigate {NR}": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
-  "Corona Class": [
+  "Corona-class": [
     "corona-class-escort-frigate-new-republic-legends",
     "corona-class-support-frigate-new-republic-legends"
   ],
-  "Corona Class Escort": [
+  "Corona-class Escort": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
-  "Corona Class Frigate": [
+  "Corona-class Frigate": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
   "Corona-Class": [
@@ -4449,10 +4452,10 @@
   "Corona-Class Frigate": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
-  "Corona Class Support Frigate {NR}": [
+  "Corona-class Support Frigate {NR}": [
     "corona-class-support-frigate-new-republic-legends"
   ],
-  "Corona Class Support": [
+  "Corona-class Support": [
     "corona-class-support-frigate-new-republic-legends"
   ],
   "Corona-Class Support": [
@@ -4461,13 +4464,13 @@
   "CR90 Corvette A {NR}": [
     "cr90-corvette-a-new-republic-legends"
   ],
-  "Endurance Class Fleet Carrier {NR}": [
+  "Endurance-class Fleet Carrier {NR}": [
     "endurance-class-fleet-carrier-new-republic-legends"
   ],
-  "Endurance Class": [
+  "Endurance-class": [
     "endurance-class-fleet-carrier-new-republic-legends"
   ],
-  "Endurance Class Fleet Carrier": [
+  "Endurance-class Fleet Carrier": [
     "endurance-class-fleet-carrier-new-republic-legends"
   ],
   "Endurance-Class": [
@@ -4475,6 +4478,10 @@
   ],
   "Endurance-Class Fleet Carrier": [
     "endurance-class-fleet-carrier-new-republic-legends"
+  ],
+  "Endurance": [
+    "endurance-class-fleet-carrier-new-republic-legends",
+    "endurance-title-new-republic-legends"
   ],
   "MC90 Battle Cruiser {NR}": [
     "mc90-battle-cruiser-new-republic-legends"
@@ -4502,19 +4509,22 @@
   "MC-90 Command": [
     "mc90-command-cruiser-new-republic-legends"
   ],
-  "Nebula Class Star Destroyer {NR}": [
+  "Nebula-class Star Destroyer {NR}": [
     "nebula-class-star-destroyer-new-republic-legends"
   ],
-  "Nebula Class": [
+  "Nebula-class": [
     "nebula-class-star-destroyer-new-republic-legends"
   ],
-  "Nebula Class Star Destroyer": [
+  "Nebula-class Star Destroyer": [
     "nebula-class-star-destroyer-new-republic-legends"
   ],
   "Nebula-Class": [
     "nebula-class-star-destroyer-new-republic-legends"
   ],
   "Nebula-Class Star Destroyer": [
+    "nebula-class-star-destroyer-new-republic-legends"
+  ],
+  "Nebula": [
     "nebula-class-star-destroyer-new-republic-legends"
   ],
   "Dreadnaught-class Heavy Cruiser": [
@@ -5155,9 +5165,6 @@
     "areta-bell-officer-new-republic-legends"
   ],
   "Endurance {NR}": [
-    "endurance-title-new-republic-legends"
-  ],
-  "Endurance": [
     "endurance-title-new-republic-legends"
   ],
   "Endurance Title": [
