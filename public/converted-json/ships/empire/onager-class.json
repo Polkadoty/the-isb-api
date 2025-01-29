@@ -49,7 +49,7 @@
           "_id": null,
           "type": "ship",
           "chassis": "onager-class",
-          "name": "Onager-Class Star Destroyer",
+          "name": "Onager-class Star Destroyer",
           "nicknames": [
             "Onager", "Onager Star Destroyer"
           ],
@@ -135,14 +135,13 @@
           "_id": null,
           "type": "ship",
           "chassis": "onager-class",
-          "name": "Onager-Class Testbed",
+          "name": "Onager-class Testbed",
           "nicknames": [
             "Onager Testbed", "Testbed", "Onager"
           ],
           "faction": "empire",
           "unique": false,
           "traits": [
-            "star-destroyer"
           ],
           "points": 116,
           "tokens": {
