@@ -1,8 +1,8 @@
 import express from 'express';
-import { getAliases } from '../controllers/updateController.js';
+import { getUpdates } from '../controllers/updateController.js';
 
 const router = express.Router();
 
-router.get('/update', getAliases);
+router.get('/', getUpdates);
 
 export default router; 
