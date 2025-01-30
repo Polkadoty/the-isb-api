@@ -1,8 +1,8 @@
-import express from 'express';
-import { getUpdates } from '../controllers/updateController.js';
+// import express from 'express';
+// import { getUpdates } from '../controllers/updateController.js';
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get('/', getUpdates);
+// router.get('/', getUpdates);
 
-export default router; 
+// export default router; 

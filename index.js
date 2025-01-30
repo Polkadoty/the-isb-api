@@ -22,7 +22,7 @@ import arcRoutes from './routes/arcRoutes.js';
 import errataKeysRoutes from './routes/errataKeysRoutes.js';
 import expansionRoutes from './routes/expansionRoutes.js';
 import releaseRoutes from './routes/releaseRoutes.js';
-import updateRoutes from './routes/updateRoutes.js';
+// import updateRoutes from './routes/updateRoutes.js';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
@@ -108,7 +108,7 @@ app.use('/arc', arcRoutes);
 app.use('/errata-keys', errataKeysRoutes);
 app.use('/expansions', expansionRoutes);
 app.use('/releases', releaseRoutes);
-app.use('/updates', updateRoutes);
+// app.use('/updates', updateRoutes);
 // app.use('/amg', amgRoutes);
 
 // Image server middleware
