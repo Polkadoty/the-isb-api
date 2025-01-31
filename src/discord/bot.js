@@ -94,12 +94,16 @@ function hasErrata(cardKey) {
   return false;
 }
 
-// Add this function to handle image path generation
-function getImagePath(cardKey) {
-  if (hasErrata(cardKey)) {
-    return `${cardKey}-errata`;
-  }
-  return cardKey;
+// Add this helper function near the top with other helpers
+function normalizeErrataPath(cardId) {
+  // Remove any duplicate -errata suffixes
+  return cardId.replace(/-errata(-.*)?-errata/, '-errata');
+}
+
+// Update the getImagePath function
+function getImagePath(cardId) {
+  if (!cardId) return '';
+  return normalizeErrataPath(cardId.toLowerCase().replace(/\s+/g, '-'));
 }
 
 // Add these lines after the other imports:
