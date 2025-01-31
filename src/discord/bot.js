@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults } from './dice-utils.js';
 import { createClient } from '@supabase/supabase-js';
-import errataKeys from './public/errata-keys.json';
+import errataKeys from './public/errata-keys.json' assert { type: 'json' };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -75,17 +75,21 @@ function filterDummyCards(matches) {
 
 // Add this helper function before the messageCreate event handler
 function hasErrata(cardKey) {
+  // Remove any existing -errata suffix for checking
+  const baseKey = cardKey.replace(/-errata(-.*)?$/, '');
+  
   // Check all categories in errata keys
   for (const category of Object.values(errataKeys)) {
     // Look for exact match with -errata
-    const exactMatch = category.find(key => key === `${cardKey}-errata`);
-    if (exactMatch) return true;
+    const exactMatch = category.find(key => {
+      // Remove any source suffixes (like -arc or -old-legacy)
+      const cleanKey = key.replace(/-errata(-.*)?$/, '');
+      return cleanKey === baseKey;
+    });
     
-    // For ships, also check if the model has errata
-    if (cardKey.startsWith('model-')) {
-      const shipKey = cardKey.replace('model-', '');
-      const hasShipErrata = category.some(key => key === `${shipKey}-errata`);
-      if (hasShipErrata) return true;
+    if (exactMatch) {
+      // If the match has a source suffix, only return true if it's the base -errata
+      return !exactMatch.match(/-errata-.*$/);
     }
   }
   return false;
