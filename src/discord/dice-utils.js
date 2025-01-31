@@ -233,13 +233,25 @@ function parseEmojiRerolls(content) {
 }
 
 function parseEmbedResults(description) {
+  console.log('Parsing embed description:', description);
+  
   // Get the first line which contains the dice results
-  const resultLine = description.split('\n')[0];
+  const lines = description.split('\n');
+  console.log('Split lines:', lines);
+  
+  // Find the line that contains the Initial Roll results
+  const initialRollIndex = lines.findIndex(line => line.includes('Initial Roll'));
+  console.log('Initial Roll line index:', initialRollIndex);
+  
+  // Get the next line which should contain the dice emojis
+  const resultLine = initialRollIndex >= 0 ? lines[initialRollIndex + 2] : '';
+  console.log('Result line:', resultLine);
   
   const results = [];
   
   // Match all emoji patterns like <:reddbl:1260990898443911229>
   const emojiMatches = resultLine.match(/<:\w+:\d+>/g) || [];
+  console.log('Emoji matches:', emojiMatches);
   
   // Create reverse mapping from emoji ID to dice info
   const emojiToDice = {};
@@ -248,6 +260,7 @@ function parseEmbedResults(description) {
       emojiToDice[emojiId] = { color, face };
     });
   });
+  console.log('Emoji to dice mapping:', emojiToDice);
 
   // Convert emojis back to dice results
   emojiMatches.forEach(emoji => {
@@ -260,7 +273,8 @@ function parseEmbedResults(description) {
       });
     }
   });
-
+  
+  console.log('Final parsed results:', results);
   return results;
 }
 

@@ -499,13 +499,19 @@ client.on('messageCreate', async message => {
   if (message.reference && message.content.toLowerCase().startsWith('!defense')) {
     try {
       const repliedMessage = await message.channel.messages.fetch(message.reference.messageId);
+      console.log('Reply to message:', repliedMessage.content);
+      console.log('Reply to embed:', repliedMessage.embeds[0]);
       
       // Verify this is a reply to a bot dice roll message
       if (repliedMessage.author.id === client.user.id && 
           repliedMessage.embeds[0]?.title === '🎲 Dice Roll Results') {
         
         // Get original roll results from embed
-        const originalResults = parseEmbedResults(repliedMessage.embeds[0].description);
+        const embedDescription = repliedMessage.embeds[0].description;
+        console.log('Embed description:', embedDescription);
+        
+        const originalResults = parseEmbedResults(embedDescription);
+        console.log('Parsed original results:', originalResults);
         
         // Parse text-based rerolls from the reply
         const rerollArgs = message.content.slice(9).trim().split(' ');
