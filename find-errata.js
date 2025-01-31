@@ -102,4 +102,10 @@ Object.keys(result).forEach(key => {
 fs.writeFileSync(
   path.join(__dirname, 'public/errata-keys.json'),
   JSON.stringify(result, null, 2)
+);
+
+// Add after writing the main errata-keys.json file
+fs.writeFileSync(
+  path.join(__dirname, 'src/discord/public/errata-keys.json'),
+  JSON.stringify(result, null, 2)
 ); 

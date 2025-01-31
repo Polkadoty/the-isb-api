@@ -5,6 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults } from './dice-utils.js';
 import { createClient } from '@supabase/supabase-js';
+import errataKeys from './public/errata-keys.json';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -70,6 +71,32 @@ function isDummyCard(cardName) {
 function filterDummyCards(matches) {
   if (!matches) return null;
   return matches.filter(match => !match.includes('dummy'));
+}
+
+// Add this helper function before the messageCreate event handler
+function hasErrata(cardKey) {
+  // Check all categories in errata keys
+  for (const category of Object.values(errataKeys)) {
+    // Look for exact match with -errata
+    const exactMatch = category.find(key => key === `${cardKey}-errata`);
+    if (exactMatch) return true;
+    
+    // For ships, also check if the model has errata
+    if (cardKey.startsWith('model-')) {
+      const shipKey = cardKey.replace('model-', '');
+      const hasShipErrata = category.some(key => key === `${shipKey}-errata`);
+      if (hasShipErrata) return true;
+    }
+  }
+  return false;
+}
+
+// Add this function to handle image path generation
+function getImagePath(cardKey) {
+  if (hasErrata(cardKey)) {
+    return `${cardKey}-errata`;
+  }
+  return cardKey;
 }
 
 client.on('messageCreate', async message => {
@@ -225,13 +252,13 @@ client.on('messageCreate', async message => {
         ...matches1.slice(0, 10).map((match, index) => 
           new EmbedBuilder()
             .setTitle(index === 0 ? `Comparing: ${card1.trim()} vs ${card2.trim()}` : undefined)
-            .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+            .setImage(`https://api.swarmada.wiki/images/${getImagePath(match)}.webp`)
             .setFooter({ text: `${card1.trim()} (${index + 1}/${Math.min(matches1.length, 10)})` })
         ),
         // Second card's matches (up to 10)
         ...matches2.slice(0, 10).map((match, index) => 
           new EmbedBuilder()
-            .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+            .setImage(`https://api.swarmada.wiki/images/${getImagePath(match)}.webp`)
             .setFooter({ text: `${card2.trim()} (${index + 1}/${Math.min(matches2.length, 10)})` })
         )
       ];
@@ -282,7 +309,7 @@ client.on('messageCreate', async message => {
         // Create embeds for the single match
         const embeds = matches.map((match, index) => 
           new EmbedBuilder()
-            .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+            .setImage(`https://api.swarmada.wiki/images/${getImagePath(match)}.webp`)
             .setFooter({ text: `${index + 1}/${matches.length}` })
         );
         embeds[0].setTitle(`Card Result for "${suggestions[0]}"`);
@@ -296,7 +323,7 @@ client.on('messageCreate', async message => {
     // Create an array of embeds for all matches (up to 10 - Discord's limit)
     const embeds = matches.slice(0, 10).map((match, index) => 
       new EmbedBuilder()
-        .setImage(`https://api.swarmada.wiki/images/${match}.webp`)
+        .setImage(`https://api.swarmada.wiki/images/${getImagePath(match)}.webp`)
         .setFooter({ text: `${index + 1}/${Math.min(matches.length, 10)}` })
     );
 
@@ -377,7 +404,7 @@ function formatFleetEmbed(fleetData, fleetId) {
         const cardId = findCardInNicknameMaps(commander, currentFaction);
         embed.addFields({ 
           name: 'Commander', 
-          value: `[${commander}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})`, 
+          value: `[${commander}](https://api.swarmada.wiki/images/${getImagePath(cardId)}.webp) (${points})`, 
           inline: true 
         });
       }
@@ -386,7 +413,7 @@ function formatFleetEmbed(fleetData, fleetId) {
       const cardId = findCardInNicknameMaps(objective, currentFaction);
       currentSection = 'Objectives';
       if (!currentField.name) currentField.name = 'Objectives';
-      currentField.value += `[${objective}](https://api.swarmada.wiki/images/${cardId}.webp)\n`;
+      currentField.value += `[${objective}](https://api.swarmada.wiki/images/${getImagePath(cardId)}.webp)\n`;
     } else if (line.match(/^[A-Za-z].*\(\d+\)$/) || line === 'Squadrons:') {
       if (currentField.name) {
         embed.addFields(currentField);
@@ -400,14 +427,14 @@ function formatFleetEmbed(fleetData, fleetId) {
         const points = line.match(/\((\d+)\)/)?.[1] || '';
         const cardId = findCardInNicknameMaps(shipName, currentFaction);
         currentField.name = `**${shipName} (${points})**`;
-        currentField.value = `[View Ship Card](https://api.swarmada.wiki/images/${cardId}.webp)\n`;
+        currentField.value = `[View Ship Card](https://api.swarmada.wiki/images/${getImagePath(cardId)}.webp)\n`;
       }
     } else if (line.startsWith('•')) {
       const upgrade = line.replace('• ', '');
       const name = upgrade.split('(')[0].trim();
       const points = upgrade.match(/\((\d+)\)/)?.[1] || '';
       const cardId = findCardInNicknameMaps(name, currentFaction);
-      currentField.value += `• [${name}](https://api.swarmada.wiki/images/${cardId}.webp) (${points})\n`;
+      currentField.value += `• [${name}](https://api.swarmada.wiki/images/${getImagePath(cardId)}.webp) (${points})\n`;
     }
   }
 

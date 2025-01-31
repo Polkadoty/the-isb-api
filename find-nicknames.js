@@ -55,7 +55,7 @@ const armadaDirectories = {
   // 'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
 };
 
-// Create two maps
+// Create three maps
 const legacyNicknameMap = {};
 const legendsNicknameMap = {};
 const armadaNicknameMap = {};
