@@ -355,5 +355,6 @@ export {
   parseEmbedResults,
   calculatePeakDamage,
   parseDefenseRerolls,
-  formatGroup
+  formatGroup,
+  DICE_FACES
 }; 
