@@ -29,22 +29,33 @@ const DICE_FACES = {
 
 function parseDicePool(args) {
   const counts = { red: 0, blue: 0, black: 0 };
+  const rerolls = { red: 0, blue: 0, black: 0 };
   let valid = true;
-  let rerolls = { red: 0, blue: 0, black: 0 };
+  
+  // Find the index of -reroll flag
+  const rerollIndex = args.findIndex(arg => arg.toLowerCase() === '-reroll');
+  
+  // If we have a reroll flag, split the args into initial and reroll pools
+  const initialPool = rerollIndex === -1 ? args : args.slice(0, rerollIndex);
+  const rerollPool = rerollIndex === -1 ? [] : args.slice(rerollIndex + 1);
 
-  args.forEach(arg => {
-    const rerollMatch = arg.match(/^-reroll(\d*)(red|blue|black)?$/i);
-    if (rerollMatch) {
-      const count = rerollMatch[1] ? parseInt(rerollMatch[1]) : 1;
-      const color = (rerollMatch[2] || 'black').toLowerCase();
-      rerolls[color] = count;
+  // Parse initial pool
+  initialPool.forEach(arg => {
+    const match = arg.match(/(\d+)(red|blue|black)/i);
+    if (match) {
+      counts[match[2].toLowerCase()] += parseInt(match[1]);
     } else {
-      const match = arg.match(/(\d+)(red|blue|black)/i);
-      if (match) {
-        counts[match[2].toLowerCase()] += parseInt(match[1]);
-      } else {
-        valid = false;
-      }
+      valid = false;
+    }
+  });
+
+  // Parse reroll pool
+  rerollPool.forEach(arg => {
+    const match = arg.match(/(\d+)(red|blue|black)/i);
+    if (match) {
+      rerolls[match[2].toLowerCase()] += parseInt(match[1]);
+    } else {
+      valid = false;
     }
   });
 
@@ -179,3 +190,68 @@ function formatRollResults(results) {
 }
 
 export { parseDicePool, rollDice, calculateStats, formatRollResults }; 
+
+function parseEmojiRerolls(content) {
+  const rerolls = { red: 0, blue: 0, black: 0 };
+  
+  // Map emoji IDs to dice colors and faces
+  const emojiMap = {
+    'reddbl': 'red',
+    'redacc': 'red',
+    'redhit': 'red',
+    'redcrit': 'red',
+    'redblank': 'red',
+    'blueacc': 'blue',
+    'bluehit': 'blue',
+    'bluecrit': 'blue',
+    'blackhitcrit': 'black',
+    'blackhit': 'black',
+    'blackblank': 'black'
+  };
+
+  // Extract emoji IDs from the content
+  const emojiMatches = content.match(/:(\w+):/g) || [];
+  
+  // Count rerolls for each color
+  emojiMatches.forEach(emoji => {
+    const emojiId = emoji.replace(/:/g, '');
+    const color = emojiMap[emojiId];
+    if (color) {
+      rerolls[color]++;
+    }
+  });
+
+  return rerolls;
+}
+
+function parseEmbedResults(description) {
+  // Get the first line which contains the dice results
+  const resultLine = description.split('\n')[0];
+  
+  const results = [];
+  
+  // Match all emoji patterns like <:reddbl:1260990898443911229>
+  const emojiMatches = resultLine.match(/<:\w+:\d+>/g) || [];
+  
+  // Create reverse mapping from emoji ID to dice info
+  const emojiToDice = {};
+  Object.entries(DICE_FACES).forEach(([color, data]) => {
+    Object.entries(data.emojis).forEach(([face, emojiId]) => {
+      emojiToDice[emojiId] = { color, face };
+    });
+  });
+
+  // Convert emojis back to dice results
+  emojiMatches.forEach(emoji => {
+    const diceInfo = emojiToDice[emoji];
+    if (diceInfo) {
+      results.push({
+        color: diceInfo.color,
+        face: diceInfo.face,
+        emoji: emoji
+      });
+    }
+  });
+
+  return results;
+}

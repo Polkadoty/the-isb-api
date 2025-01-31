@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { parseDicePool, rollDice, calculateStats, formatRollResults } from './dice-utils.js';
+import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults } from './dice-utils.js';
 import { createClient } from '@supabase/supabase-js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -399,6 +399,73 @@ client.on('messageCreate', async message => {
       ].join('\n'));
 
     message.reply({ embeds: [embed] });
+  }
+
+  // Check if this is a reply to a dice roll
+  if (message.reference && message.content.toLowerCase().startsWith('!dice')) {
+    try {
+      const repliedMessage = await message.channel.messages.fetch(message.reference.messageId);
+      
+      // Verify this is a reply to a bot dice roll message
+      if (repliedMessage.author.id === client.user.id && 
+          repliedMessage.embeds[0]?.title === '🎲 Dice Roll Results') {
+        
+        // Get original roll results from embed
+        const originalResults = parseEmbedResults(repliedMessage.embeds[0].description);
+        
+        // Parse emoji-based rerolls from the reply
+        const emojiMatches = message.content.match(/<:\w+:\d+>/g) || [];
+        
+        // Count how many of each die face we want to reroll
+        const rerollCounts = {};
+        emojiMatches.forEach(emoji => {
+          rerollCounts[emoji] = (rerollCounts[emoji] || 0) + 1;
+        });
+
+        // Find matching dice in original results to reroll
+        const rerollsByColor = { red: 0, blue: 0, black: 0 };
+        const remainingResults = [...originalResults];
+        
+        Object.entries(rerollCounts).forEach(([emoji, count]) => {
+          for (let i = 0; i < count; i++) {
+            const dieIndex = remainingResults.findIndex(die => die.emoji === emoji);
+            if (dieIndex !== -1) {
+              rerollsByColor[remainingResults[dieIndex].color]++;
+              remainingResults.splice(dieIndex, 1);
+            }
+          }
+        });
+
+        // Perform rerolls
+        const rerollResults = rollDice(rerollsByColor);
+        
+        // Combine remaining original dice with rerolls
+        const finalResults = {
+          initial: remainingResults,
+          rerolls: rerollResults.initial
+        };
+
+        // Create new embed with results
+        const stats = calculateStats(rerollsByColor);
+        const embed = new EmbedBuilder()
+          .setTitle('🎲 Reroll Results')
+          .setDescription([
+            formatRollResults(finalResults),
+            '\n',
+            '## 📊 Statistics',
+            '▫️ Average Damage (with crits): ' + stats.averageDamage.toFixed(2),
+            '▫️ Average Damage (no crits): ' + stats.averageDamageNoCrits.toFixed(2),
+            '▫️ Accuracy Chance: ' + (stats.accuracyChance * 100).toFixed(1) + '%',
+            '▫️ Critical Chance: ' + (stats.criticalChance * 100).toFixed(1) + '%',
+            '▫️ Average Accuracy Count: ' + stats.averageAccuracies.toFixed(2)
+          ].join('\n'));
+
+        message.reply({ embeds: [embed] });
+      }
+    } catch (error) {
+      console.error('Error handling dice reroll:', error);
+      return message.reply('Error processing reroll request.');
+    }
   }
 });
 
