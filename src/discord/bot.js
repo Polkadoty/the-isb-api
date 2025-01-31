@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults } from './dice-utils.js';
+import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage } from './dice-utils.js';
 import { createClient } from '@supabase/supabase-js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -391,6 +391,12 @@ client.on('messageCreate', async message => {
         formatRollResults(rollResults),
         '\n',
         '## 📊 Statistics',
+        '## Peak Damage',
+        '▫️ Maximum Damage (with crits): ' + calculatePeakDamage(dicePool.counts).maxDamage,
+        '▫️ Maximum Damage (no crits): ' + calculatePeakDamage(dicePool.counts).maxDamageNoCrits,
+        '▫️ Maximum Damage with Accuracy (with crits): ' + calculatePeakDamage(dicePool.counts).maxDamageWithAcc,
+        '▫️ Maximum Damage with Accuracy (no crits): ' + calculatePeakDamage(dicePool.counts).maxDamageWithAccNoCrits,
+        '\n## Average Results',
         '▫️ Average Damage (with crits): ' + stats.averageDamage.toFixed(2),
         '▫️ Average Damage (no crits): ' + stats.averageDamageNoCrits.toFixed(2),
         '▫️ Accuracy Chance: ' + (stats.accuracyChance * 100).toFixed(1) + '%',

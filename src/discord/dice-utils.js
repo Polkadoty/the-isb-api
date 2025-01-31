@@ -190,32 +190,33 @@ function formatRollResults(results) {
 }
 
 function parseEmojiRerolls(content) {
-  const rerolls = { red: 0, blue: 0, black: 0 };
+  const rerolls = [];
   
-  // Map emoji IDs to dice colors and faces
-  const emojiMap = {
-    'reddbl': 'red',
-    'redacc': 'red',
-    'redhit': 'red',
-    'redcrit': 'red',
-    'redblank': 'red',
-    'blueacc': 'blue',
-    'bluehit': 'blue',
-    'bluecrit': 'blue',
-    'blackhitcrit': 'black',
-    'blackhit': 'black',
-    'blackblank': 'black'
+  // Map text identifiers to dice info
+  const diceMap = {
+    'red-double': { color: 'red', face: 'double' },
+    'red-accuracy': { color: 'red', face: 'accuracy' },
+    'red-hit': { color: 'red', face: 'hit' },
+    'red-crit': { color: 'red', face: 'crit' },
+    'red-blank': { color: 'red', face: 'blank' },
+    'blue-accuracy': { color: 'blue', face: 'accuracy' },
+    'blue-hit': { color: 'blue', face: 'hit' },
+    'blue-crit': { color: 'blue', face: 'crit' },
+    'black-hitcrit': { color: 'black', face: 'hitcrit' },
+    'black-hit': { color: 'black', face: 'hit' },
+    'black-blank': { color: 'black', face: 'blank' }
   };
 
-  // Extract emoji IDs from the content
-  const emojiMatches = content.match(/:(\w+):/g) || [];
+  // Extract dice identifiers from content
+  const diceIdentifiers = content.toLowerCase().split(' ').filter(word => diceMap[word]);
   
-  // Count rerolls for each color
-  emojiMatches.forEach(emoji => {
-    const emojiId = emoji.replace(/:/g, '');
-    const color = emojiMap[emojiId];
-    if (color) {
-      rerolls[color]++;
+  // Convert to dice results
+  diceIdentifiers.forEach(id => {
+    if (diceMap[id]) {
+      rerolls.push({
+        color: diceMap[id].color,
+        face: diceMap[id].face
+      });
     }
   });
 
@@ -254,11 +255,53 @@ function parseEmbedResults(description) {
   return results;
 }
 
+function calculatePeakDamage(counts) {
+  const peaks = {
+    maxDamage: 0,
+    maxDamageNoCrits: 0,
+    maxDamageWithAcc: 0,
+    maxDamageWithAccNoCrits: 0
+  };
+
+  // Calculate max damage without accuracy considerations
+  if (counts.red > 0) {
+    peaks.maxDamageNoCrits += counts.red * 2; // All doubles
+    peaks.maxDamage += counts.red * 2; // All doubles (same as no crits for red)
+  }
+
+  if (counts.blue > 0) {
+    peaks.maxDamageNoCrits += counts.blue * 1; // All hits
+    peaks.maxDamage += counts.blue * 1; // All crits
+  }
+
+  if (counts.black > 0) {
+    peaks.maxDamageNoCrits += counts.black * 1; // All hits
+    peaks.maxDamage += counts.black * 2; // All hitcrits
+  }
+
+  // Copy values for accuracy calculations
+  peaks.maxDamageWithAccNoCrits = peaks.maxDamageNoCrits;
+  peaks.maxDamageWithAcc = peaks.maxDamage;
+
+  // Subtract damage for one accuracy, prioritizing blue dice
+  if (counts.blue > 0) {
+    peaks.maxDamageWithAccNoCrits -= 1; // Remove one hit
+    peaks.maxDamageWithAcc -= 1; // Remove one crit
+  } else if (counts.red > 0) {
+    peaks.maxDamageWithAccNoCrits -= 2; // Remove one double
+    peaks.maxDamageWithAcc -= 2; // Remove one double
+  }
+  // We don't use black dice for accuracy as they don't have accuracy faces
+
+  return peaks;
+}
+
 export { 
   parseDicePool, 
   rollDice, 
   calculateStats, 
   formatRollResults, 
   parseEmojiRerolls,
-  parseEmbedResults 
+  parseEmbedResults,
+  calculatePeakDamage 
 }; 
