@@ -184,10 +184,10 @@ function formatRollResults(results) {
     // Defense roll format
     return [
       '### 🎲 Original Pool',
-      formatGroup(results.initial),
+      '# ' + formatGroup(results.initial),
       '',
       '### 🎲 Final Pool',
-      formatGroup(results.finalPool)
+      '# ' + formatGroup(results.finalPool)
     ].join('\n');
   } else {
     // Attack roll format
