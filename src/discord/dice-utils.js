@@ -167,19 +167,19 @@ function calculateStats(counts) {
   return stats;
 }
 
+function formatGroup(diceResults) {
+  const groupedResults = diceResults.reduce((acc, result) => {
+    if (!acc[result.color]) acc[result.color] = [];
+    acc[result.color].push(result.emoji);
+    return acc;
+  }, {});
+
+  return Object.entries(groupedResults)
+    .map(([, emojis]) => emojis.join(' '))
+    .join(' ');
+}
+
 function formatRollResults(results) {
-  const formatGroup = (diceResults) => {
-    const groupedResults = diceResults.reduce((acc, result) => {
-      if (!acc[result.color]) acc[result.color] = [];
-      acc[result.color].push(result.emoji);
-      return acc;
-    }, {});
-
-    return Object.entries(groupedResults)
-      .map(([, emojis]) => emojis.join(' '))
-      .join(' ');
-  };
-
   if (results.finalPool) {
     // Defense roll format
     return [

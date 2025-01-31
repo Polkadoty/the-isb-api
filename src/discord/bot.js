@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls } from './dice-utils.js';
+import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls, formatGroup } from './dice-utils.js';
 import { createClient } from '@supabase/supabase-js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -220,11 +220,18 @@ client.on('messageCreate', async message => {
         { 
           name: '🎲 Dice Rolling',
           value: [
-            '`!dice [quantity][color]`',
+            '`!dice [quantity][color] [-reroll quantity][color]`',
             'Roll Armada dice and get detailed statistics.',
-            '**Example:** `!dice 2red 2blue 1black`',
-            '**Available colors:** red, blue, black',
-            '**Stats include:** Average damage, accuracy chance, crit chance, and more!'
+            '**Examples:**',
+            '• Initial roll: `!dice 2red 2blue 1black`',
+            '• Attack reroll: `!dice 2red 1blue 1black -reroll 2red`',
+            '• Defense reroll: Reply with `!defense red-double blue-hit`',
+            '\n**Available colors:** red, blue, black',
+            '\n**Valid dice faces for defense:**',
+            '• Red: double, accuracy, hit, crit, blank',
+            '• Blue: accuracy, hit, crit',
+            '• Black: hitcrit, hit, blank',
+            '\n**Stats include:** Peak damage, average damage, accuracy chance, crit chance, and more!'
           ].join('\n')
         },
         {
@@ -379,7 +386,21 @@ client.on('messageCreate', async message => {
     const dicePool = parseDicePool(args);
     
     if (!dicePool.valid) {
-      return message.reply('Please provide a valid dice pool. Example: `!dice 2red 2blue -reroll 2red`');
+      const embed = new EmbedBuilder()
+        .setTitle('❌ Invalid Dice Pool')
+        .setDescription([
+          'The dice pool format is invalid. Please use the following format:',
+          '\n**For initial rolls with rerolls:**',
+          '`!dice [quantity]red [quantity]blue [quantity]black -reroll [quantity]red`',
+          'Example: `!dice 2red 1blue 1black -reroll 2red`',
+          '\n**For defense rerolls:**',
+          'Reply to a roll with: `!defense [color]-[face] [color]-[face]...`',
+          'Example: `!defense red-double blue-hit`',
+          '\nUse `!help` for more detailed information about dice rolling.'
+        ].join('\n'))
+        .setColor('#ff0000');
+
+      return message.reply({ embeds: [embed] });
     }
 
     const rollResults = rollDice(dicePool.counts, dicePool.rerolls);
