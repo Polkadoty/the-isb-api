@@ -448,7 +448,8 @@ client.on('messageCreate', async message => {
         // Combine remaining original dice with rerolls
         const finalResults = {
           initial: remainingResults,
-          rerolls: rerollResults.initial
+          rerolls: rerollResults.initial,
+          finalPool: [...remainingResults, ...rerollResults.initial]
         };
 
         // Create new embed with results
@@ -515,13 +516,17 @@ client.on('messageCreate', async message => {
         // Combine remaining original dice with rerolls
         const finalResults = {
           initial: remainingResults,
-          rerolls: rerollResults
+          rerolls: rerollResults,
+          finalPool: [...remainingResults, ...rerollResults]
         };
 
         // Create new embed with results
         const embed = new EmbedBuilder()
           .setTitle('🛡️ Defense Reroll Results')
-          .setDescription(formatRollResults(finalResults));
+          .setDescription([
+            '### 🎲 Original Pool\n #' + formatGroup(originalResults),
+            '\n### 🎲 Final Pool\n #' + formatGroup(finalResults.finalPool)
+          ].join('\n'));
 
         message.reply({ embeds: [embed] });
       }

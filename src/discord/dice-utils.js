@@ -180,13 +180,22 @@ function formatRollResults(results) {
       .join(' ');
   };
 
-  let output = ['### 🎲 Initial Roll\n #', formatGroup(results.initial)];
-  
-  if (results.rerolls.length > 0) {
-    output.push('\n### 🎯 Reroll Results\n #', formatGroup(results.rerolls));
+  if (results.finalPool) {
+    // Defense roll format
+    return [
+      '### 🎲 Original Pool\n #' + formatGroup(results.initial),
+      '\n### 🎲 Final Pool\n #' + formatGroup(results.finalPool)
+    ].join('\n');
+  } else {
+    // Attack roll format
+    let output = ['### 🎲 Initial Roll\n #', formatGroup(results.initial)];
+    
+    if (results.rerolls.length > 0) {
+      output.push('\n### 🎯 Reroll Results\n #', formatGroup(results.rerolls));
+    }
+    
+    return output.join('\n');
   }
-
-  return output.join('\n');
 }
 
 function parseEmojiRerolls(content) {
