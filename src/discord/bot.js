@@ -108,7 +108,25 @@ function normalizeErrataPath(cardId) {
 // Update the getImagePath function
 function getImagePath(cardId) {
   if (!cardId) return '';
-  return normalizeErrataPath(cardId.toLowerCase().replace(/\s+/g, '-'));
+  
+  // Normalize the card ID first
+  const normalizedId = cardId.toLowerCase().replace(/\s+/g, '-');
+  
+  // Check if this card has errata
+  const shouldAppendErrata = Object.values(errataKeys).some(category => 
+    category.some(errataKey => {
+      // Remove any existing errata suffix for comparison
+      const baseErrataKey = errataKey.replace(/-errata(-.*)?$/, '');
+      return baseErrataKey === normalizedId;
+    })
+  );
+
+  // If it has errata, append -errata before any existing suffixes
+  if (shouldAppendErrata && !normalizedId.includes('-errata')) {
+    return `${normalizedId}-errata`;
+  }
+
+  return normalizeErrataPath(normalizedId);
 }
 
 // Add these lines after the other imports:
