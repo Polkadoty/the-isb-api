@@ -23,52 +23,63 @@ const directories = {
   'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
   'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
   'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
-  'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
-  'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
-  'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
-  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
 };
 
 function findErrataKeys(directory) {
   const files = fs.readdirSync(directory);
-
+  
   files.forEach(file => {
     const filePath = path.join(directory, file);
     const stat = fs.statSync(filePath);
 
     if (stat.isDirectory()) {
-      findErrataKeys(filePath); // Recursively process subdirectories
+      findErrataKeys(filePath);
     } else if (file.endsWith('.json')) {
       try {
         const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         
-        // For each top-level key in the JSON file (ships, squadrons, etc.)
         Object.entries(data).forEach(([category, content]) => {
-          // Initialize the category array if it doesn't exist
           if (!result[category]) {
             result[category] = [];
           }
           
           if (typeof content === 'object') {
-            // For ships, we need to look deeper into the structure
             if (category === 'ships') {
               // Look through each chassis
               Object.entries(content).forEach(([chassisName, chassis]) => {
                 if (chassis.models) {
-                  // Check if any model names contain '-errata'
-                  const hasErrataModel = Object.keys(chassis.models).some(key => key.includes('-errata'));
-                  // If there's an errata model, add the chassis name
-                  if (hasErrataModel && !result[category].includes(chassisName)) {
-                    result[category].push(chassisName);
-                  }
+                  Object.entries(chassis.models).forEach(([modelKey, model]) => {
+                    // Check for AMG Final Errata release
+                    if (model.release === 'AMG Final Errata') {
+                      if (!result.shipmodels) {
+                        result.shipmodels = [];
+                      }
+                      const errataKey = `${modelKey}-errata`;
+                      if (!result.shipmodels.includes(errataKey)) {
+                        result.shipmodels.push(errataKey);
+                      }
+                    }
+                    // Also check for existing -errata in key
+                    if (modelKey.includes('-errata')) {
+                      if (!result.shipmodels) {
+                        result.shipmodels = [];
+                      }
+                      if (!result.shipmodels.includes(modelKey)) {
+                        result.shipmodels.push(modelKey);
+                      }
+                    }
+                  });
                 }
               });
             } else {
-              // For other categories, keep the existing behavior
-              const errataKeys = Object.keys(content).filter(key => key.includes('-errata'));
-              errataKeys.forEach(key => {
-                if (!result[category].includes(key)) {
-                  result[category].push(key);
+              // For other categories (squadrons, upgrades, etc.)
+              Object.entries(content).forEach(([key, item]) => {
+                // Check both conditions: -errata in key OR AMG Final Errata release
+                if (key.includes('-errata') || (item && item.release === 'AMG Final Errata')) {
+                  const errataKey = key.includes('-errata') ? key : `${key}-errata`;
+                  if (!result[category].includes(errataKey)) {
+                    result[category].push(errataKey);
+                  }
                 }
               });
             }

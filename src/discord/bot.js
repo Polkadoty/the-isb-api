@@ -5,7 +5,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults } from './dice-utils.js';
 import { createClient } from '@supabase/supabase-js';
-import errataKeys from './public/errata-keys.json' assert { type: 'json' };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -102,6 +101,11 @@ function getImagePath(cardKey) {
   }
   return cardKey;
 }
+
+// Add these lines after the other imports:
+const errataKeys = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'public/errata-keys.json'), 'utf8')
+);
 
 client.on('messageCreate', async message => {
   // Ignore bot messages
