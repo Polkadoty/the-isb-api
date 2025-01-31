@@ -189,8 +189,6 @@ function formatRollResults(results) {
   return output.join('\n');
 }
 
-export { parseDicePool, rollDice, calculateStats, formatRollResults }; 
-
 function parseEmojiRerolls(content) {
   const rerolls = { red: 0, blue: 0, black: 0 };
   
@@ -255,3 +253,12 @@ function parseEmbedResults(description) {
 
   return results;
 }
+
+export { 
+  parseDicePool, 
+  rollDice, 
+  calculateStats, 
+  formatRollResults, 
+  parseEmojiRerolls,
+  parseEmbedResults 
+}; 
