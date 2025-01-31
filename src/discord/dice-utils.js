@@ -340,5 +340,6 @@ export {
   parseEmojiRerolls,
   parseEmbedResults,
   calculatePeakDamage,
-  parseDefenseRerolls
+  parseDefenseRerolls,
+  formatGroup
 }; 
