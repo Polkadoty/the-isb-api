@@ -550,12 +550,10 @@ client.on('messageCreate', async message => {
         // Create new embed with results
         const embed = new EmbedBuilder()
           .setTitle('🛡️ Defense Reroll Results')
-          .setDescription([
-            formatRollResults({
-              initial: originalResults,
-              finalPool: finalResults.finalPool
-            })
-          ].join('\n'));
+          .setDescription(formatRollResults({
+            initial: originalResults,
+            finalPool: finalResults.finalPool
+          }));
 
         message.reply({ embeds: [embed] });
       }
