@@ -96,8 +96,13 @@ function hasErrata(cardKey) {
 
 // Add this helper function near the top with other helpers
 function normalizeErrataPath(cardId) {
-  // Remove any duplicate -errata suffixes
-  return cardId.replace(/-errata(-.*)?-errata/, '-errata');
+  // If there's a source suffix (-arc, -old-legacy), preserve it
+  const match = cardId.match(/-errata(-(?:arc|old-legacy))?-errata$/);
+  if (match) {
+    // Replace the duplicate -errata with a single one, preserving any source suffix
+    return cardId.replace(/-errata(-(?:arc|old-legacy))?-errata$/, `-errata${match[1] || ''}`);
+  }
+  return cardId;
 }
 
 // Update the getImagePath function
