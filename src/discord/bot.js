@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage } from './dice-utils.js';
+import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls } from './dice-utils.js';
 import { createClient } from '@supabase/supabase-js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -379,7 +379,7 @@ client.on('messageCreate', async message => {
     const dicePool = parseDicePool(args);
     
     if (!dicePool.valid) {
-      return message.reply('Please provide a valid dice pool. Example: `!dice 2red 2blue [-reroll2red]`');
+      return message.reply('Please provide a valid dice pool. Example: `!dice 2red 2blue -reroll 2red`');
     }
 
     const rollResults = rollDice(dicePool.counts, dicePool.rerolls);
@@ -471,6 +471,63 @@ client.on('messageCreate', async message => {
     } catch (error) {
       console.error('Error handling dice reroll:', error);
       return message.reply('Error processing reroll request.');
+    }
+  }
+
+  if (message.reference && message.content.toLowerCase().startsWith('!defense')) {
+    try {
+      const repliedMessage = await message.channel.messages.fetch(message.reference.messageId);
+      
+      // Verify this is a reply to a bot dice roll message
+      if (repliedMessage.author.id === client.user.id && 
+          repliedMessage.embeds[0]?.title === '🎲 Dice Roll Results') {
+        
+        // Get original roll results from embed
+        const originalResults = parseEmbedResults(repliedMessage.embeds[0].description);
+        
+        // Parse text-based rerolls from the reply
+        const rerollArgs = message.content.slice(9).trim().split(' ');
+        const rerolls = parseDefenseRerolls(rerollArgs);
+        
+        // Find matching dice in original results to reroll
+        const remainingResults = [...originalResults];
+        const rerollResults = [];
+        
+        rerolls.forEach(reroll => {
+          const dieIndex = remainingResults.findIndex(die => 
+            die.color === reroll.color && die.face === reroll.face
+          );
+          
+          if (dieIndex !== -1) {
+            const die = remainingResults[dieIndex];
+            remainingResults.splice(dieIndex, 1);
+            
+            // Roll new die of same color
+            const newFace = DICE_FACES[die.color].faces[Math.floor(Math.random() * 8)];
+            rerollResults.push({
+              color: die.color,
+              face: newFace,
+              emoji: DICE_FACES[die.color].emojis[newFace]
+            });
+          }
+        });
+
+        // Combine remaining original dice with rerolls
+        const finalResults = {
+          initial: remainingResults,
+          rerolls: rerollResults
+        };
+
+        // Create new embed with results
+        const embed = new EmbedBuilder()
+          .setTitle('🛡️ Defense Reroll Results')
+          .setDescription(formatRollResults(finalResults));
+
+        message.reply({ embeds: [embed] });
+      }
+    } catch (error) {
+      console.error('Error handling defense reroll:', error);
+      return message.reply('Error processing defense reroll request.');
     }
   }
 });

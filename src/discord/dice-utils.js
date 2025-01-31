@@ -296,6 +296,33 @@ function calculatePeakDamage(counts) {
   return peaks;
 }
 
+function parseDefenseRerolls(args) {
+  const rerolls = [];
+  
+  // Map text identifiers to dice info
+  const diceMap = {
+    'red-double': { color: 'red', face: 'double' },
+    'red-accuracy': { color: 'red', face: 'accuracy' },
+    'red-hit': { color: 'red', face: 'hit' },
+    'red-crit': { color: 'red', face: 'crit' },
+    'red-blank': { color: 'red', face: 'blank' },
+    'blue-accuracy': { color: 'blue', face: 'accuracy' },
+    'blue-hit': { color: 'blue', face: 'hit' },
+    'blue-crit': { color: 'blue', face: 'crit' },
+    'black-hitcrit': { color: 'black', face: 'hitcrit' },
+    'black-hit': { color: 'black', face: 'hit' },
+    'black-blank': { color: 'black', face: 'blank' }
+  };
+
+  args.forEach(arg => {
+    if (diceMap[arg.toLowerCase()]) {
+      rerolls.push(diceMap[arg.toLowerCase()]);
+    }
+  });
+
+  return rerolls;
+}
+
 export { 
   parseDicePool, 
   rollDice, 
@@ -303,5 +330,6 @@ export {
   formatRollResults, 
   parseEmojiRerolls,
   parseEmbedResults,
-  calculatePeakDamage 
+  calculatePeakDamage,
+  parseDefenseRerolls
 }; 
