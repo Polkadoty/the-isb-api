@@ -1,0 +1,217 @@
+{
+  "ships": {
+    "mc40a-legends": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "mc40a-legends",
+      "size": "medium",
+      "hull": 6,
+      "speed": {
+
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "mc40a-escort-carrier-legends": {
+          "author": [
+            "Armada Legends"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Armada Legends",
+          "expansion": "Armada Legends",
+          "_id": null,
+          "type": "ship",
+          "chassis": "mc40a-legends",
+          "name": "MC40a Escort Carrier",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 70,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "offensive-retro",
+            "offensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              3,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              1,
+              2,
+              0
+            ],
+            "right": [
+              1,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc40a-escort-carrier-legends.webp"
+        },
+        "mc40a-light-cruiser-legends": {
+          "author": [
+            "Armada Legends"
+          ],
+          "alias": "Legends",
+          "team": "Armada Legends",
+          "release": "Armada Legends",
+          "expansion": "Armada Legends",
+          "_id": null,
+          "type": "ship",
+          "chassis": "mc40a-legends",
+          "name": "MC40a Light Cruiser",
+          "faction": "rebel",
+          "unique": false,
+          "traits": [
+            "MC"
+          ],
+          "points": 70,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 1,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "defensive-retro",
+            "ion-cannon",
+            "ordnance",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              0,
+              3,
+              2
+            ],
+            "rear": [
+              0,
+              1,
+              1
+            ],
+            "left": [
+              2,
+              0,
+              1
+            ],
+            "right": [
+              2,
+              0,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends.webp"
+        }
+      }
+    }
+  }
+}
