@@ -4,13 +4,20 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls, formatGroup, DICE_FACES } from './dice-utils.js';
-const keywordResponses = JSON.parse(fs.readFileSync(path.join(__dirname, 'public/keywords.json'), 'utf8'));
-import { createClient } from '@supabase/supabase-js';
 
+// Immediately define __filename and __dirname so that they are available for use in the file.
+// This fixes the "Cannot access '__dirname' before initialization" error.
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+import { createClient } from '@supabase/supabase-js';
+
 dotenv.config();
+
+// Load the keyword responses from the JSON file now that __dirname is defined.
+const keywordResponses = JSON.parse(
+  fs.readFileSync(path.join(__dirname, 'public/keywords.json'), 'utf8')
+);
 
 // Load the nickname mappings
 const legacyNicknameMap = JSON.parse(
@@ -130,7 +137,7 @@ function getImagePath(cardId) {
   return normalizeErrataPath(normalizedId);
 }
 
-// Add these lines after the other imports:
+// Load errata keys after defining getImagePath
 const errataKeys = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'public/errata-keys.json'), 'utf8')
 );
@@ -500,8 +507,6 @@ client.on('messageCreate', async message => {
   if (message.reference && message.content.toLowerCase().startsWith('!defense')) {
     try {
       const repliedMessage = await message.channel.messages.fetch(message.reference.messageId);
-      // console.log('Reply to message:', repliedMessage.content);
-      // console.log('Reply to embed:', repliedMessage.embeds[0]);
       
       // Verify this is a reply to a bot dice roll message
       if (repliedMessage.author.id === client.user.id && 
@@ -509,17 +514,13 @@ client.on('messageCreate', async message => {
         
         // Get original roll results from embed
         const embedDescription = repliedMessage.embeds[0].description;
-        // console.log('Embed description:', embedDescription);
-        
         const originalResults = parseEmbedResults(embedDescription);
-        // console.log('Parsed original results:', originalResults);
         
         // Parse text-based rerolls from the reply
         const rerollArgs = message.content.slice(9).trim().split(' ');
         const rerolls = parseDefenseRerolls(rerollArgs);
         
         // Find matching dice in original results to reroll
-
         const remainingResults = [...originalResults];
         const rerollResults = [];
         
@@ -544,7 +545,7 @@ client.on('messageCreate', async message => {
 
         // Combine remaining original dice with rerolls
         const finalResults = {
-          initial: remainingResults,
+          initial: originalResults,
           rerolls: rerollResults,
           finalPool: [...remainingResults, ...rerollResults]
         };
@@ -573,7 +574,9 @@ client.on('messageCreate', async message => {
     
     // Perform a case-insensitive search for the keyword
     const lowerInput = input.toLowerCase();
-    const foundKey = Object.keys(keywordResponses).find(key => key.toLowerCase() === lowerInput);
+    const foundKey = Object.keys(keywordResponses).find(
+      key => key.toLowerCase() === lowerInput
+    );
 
     if (foundKey) {
       const outputText = keywordResponses[foundKey];
