@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls, formatGroup, DICE_FACES } from './dice-utils.js';
+const keywordResponses = JSON.parse(fs.readFileSync(path.join(__dirname, 'public/keywords.json'), 'utf8'));
 import { createClient } from '@supabase/supabase-js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -561,6 +562,24 @@ client.on('messageCreate', async message => {
     } catch (error) {
       console.error('Error handling defense reroll:', error);
       return message.reply('Error processing defense reroll request.');
+    }
+  }
+
+  if (message.content.toLowerCase().startsWith('!keyword')) {
+    const input = message.content.slice('!keyword'.length).trim();
+    if (!input) {
+      return message.reply('Please provide a keyword. Example: `!keyword Assault`');
+    }
+    
+    // Perform a case-insensitive search for the keyword
+    const lowerInput = input.toLowerCase();
+    const foundKey = Object.keys(keywordResponses).find(key => key.toLowerCase() === lowerInput);
+
+    if (foundKey) {
+      const outputText = keywordResponses[foundKey];
+      return message.reply(outputText);
+    } else {
+      return message.reply(`No information found for keyword "${input}".`);
     }
   }
 });

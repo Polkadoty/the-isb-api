@@ -1,0 +1,137 @@
+{
+    "squadrons": {
+        "hmp-droid-gunship-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 0 Beta",
+            "expansion": "Legacy Wave 0 Beta",
+            "_id": null,
+
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "hmp-droid-gunship-legacy",
+            "name": "HMP Droid Gunship",
+            "ace-name": "",
+
+            "unique-class": [
+                ""
+            ],
+            "irregular": true,
+            "hull": 4,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    1,
+                    2
+                ],
+                "anti-ship": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": true,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 16,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/hmp-droid-gunship-legacy.webp"
+        },
+
+        "dgs-047-hmp-droid-gunship-legacy": {
+            "author": "Armada Legacy",
+            "alias": "Legacy",
+            "team": "Armada Legacy",
+            "release": "Legacy Wave 0 Beta",
+            "expansion": "Legacy Wave 0 Beta",
+
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "hmp-droid-gunship-legacy",
+            "name": "HMP Droid Gunship",
+            "ace-name": "DGS-047",
+
+            "unique-class": [
+                "DGS-047"
+            ],
+            "irregular": true,
+            "hull": 4,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    2,
+                    2
+                ],
+                "anti-ship": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 1,
+                "assault": true,
+                "bomber": true,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": 0,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "Before you attack the first squadron in your activation, you may remove dice from your attack pool and place them on this card. After the Resolve Damage step, you may make an additional attack against a squadron using dice on this card as your attack pool.",
+            "unique": true,
+            "ace": true,
+            "points": 23,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/dgs-047-hmp-droid-gunship-legacy.webp"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+  "upgrades": {
+    "octuple-turbolasers-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "February 2025 Development Cycle",
+      "expansion": "MC40 Dev Cycle",
+      "_id": null,
+      "type": "turbolaser",
+      "faction": [
+        "empire"
+      ],
+      "name": "Octuple Turbolasers",
+      "nicknames": [
+        "Octuples"
+      ],
+
+      "unique-class": [
+        ""
+      ],
+      "ability": "_Modification_. *Cymoon Only*\nWhile attacking a ship you may exhaust this card to add 2 red dice to your attack pool. If you do, choose and cancel 1 attack die.\nYou cannot equip other :turbolaser: upgrades.",
+      "unique": false,
+      "points": 10,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "cymoon"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          "turbolaser"
+        ],
+        "disable_upgrades": [
+          "turbolaser"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/octuple-turbolasers-legends.webp"
+    }
+  }
+}

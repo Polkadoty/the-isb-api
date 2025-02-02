@@ -6,7 +6,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "aee32c7d-cbb9-4347-9b7b-5469764b4198",
+      "_id": "e4b6b612-5c6a-4b7b-8b62-04330a8b4f84",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "g9-rigger-class-freighter-legacy",
@@ -78,7 +78,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "6ec4804d-23f9-4b24-95d1-011d0ee3342d",
+      "_id": "9cdc55cc-24a6-4b85-bdf1-d645a98de0f8",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "g9-rigger-class-freighter-legacy",
@@ -145,13 +145,269 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight-legacy.webp"
     },
+    "hmp-droid-gunship-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 0 Beta",
+      "expansion": "Legacy Wave 0 Beta",
+      "_id": "c066a500-f303-46db-9b36-9600ba8bf192",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "hmp-droid-gunship-legacy",
+      "name": "HMP Droid Gunship",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hmp-droid-gunship-legacy.webp"
+    },
+    "dgs-047-hmp-droid-gunship-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 0 Beta",
+      "expansion": "Legacy Wave 0 Beta",
+      "_id": "b3dbd273-d178-424b-9241-8be004d23275",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "hmp-droid-gunship-legacy",
+      "name": "HMP Droid Gunship",
+      "ace-name": "DGS-047",
+      "unique-class": [
+        "DGS-047"
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": true,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "Before you attack the first squadron in your activation, you may remove dice from your attack pool and place them on this card. After the Resolve Damage step, you may make an additional attack against a squadron using dice on this card as your attack pool.",
+      "unique": true,
+      "ace": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dgs-047-hmp-droid-gunship-legacy.webp"
+    },
+    "laat-i-gunship-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 0 Beta",
+      "expansion": "Legacy Wave 0 Beta",
+      "_id": "a22bb808-eaba-4edf-a216-8b31e49e1453",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "laat-i-gunship-legacy",
+      "name": "LAAT/i Gunship",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          2
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": false,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/laat-i-gunship-legacy.webp"
+    },
+    "hawk-laat-i-gunship-legacy": {
+      "author": "Armada Legacy",
+      "alias": "Legacy",
+      "team": "Armada Legacy",
+      "release": "Legacy Wave 0 Beta",
+      "expansion": "Legacy Wave 0 Beta",
+      "_id": "92509837-8ac2-440b-abfb-55f29a61af4d",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "laat-i-gunship-legacy",
+      "name": "LAAT/i Gunship",
+      "ace-name": "Hawk",
+      "unique-class": [
+        "Hawk"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          2
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": false,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While a friendly non-unique squadron is attacking a squadron at distance 1 of you, you may spend 1 defense token. If you do, it may reroll a die or change a die to a face with a :hit: icon.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hawk-laat-i-gunship-legacy.webp"
+    },
     "nu-class-transport-shuttle-legacy": {
       "author": "Armada Legacy Team",
       "alias": "Legacy",
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "dee7250c-01d8-45f1-8460-bb48ae9412c9",
+      "_id": "b603372c-2872-43b9-9ab6-465256212411",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "nu-class-transport-shuttle-legacy",
@@ -221,7 +477,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "a75af8c8-5043-4dc8-bcc0-0cbbb8d936d4",
+      "_id": "691913d0-4648-4acc-8618-d78055e4e2bd",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "nu-class-transport-shuttle-legacy",
@@ -291,7 +547,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "abb82490-aab7-4220-8bbe-baed7452013a",
+      "_id": "256408e9-1ca3-4cc4-82cd-899475c1eebd",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "sheathipede-class-shuttle-legacy",
@@ -360,7 +616,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "67c23012-8bb1-47ea-b566-fc7e05ac4892",
+      "_id": "17336cdb-11ba-4d25-8e20-08aa2a8ca2c4",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "sheathipede-class-shuttle-legacy",
@@ -430,7 +686,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "2cbce767-00c2-46be-8c30-43c52c0bfb84",
+      "_id": "a3e0a98d-5ae2-4d2b-98b3-1add7c373884",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "star-courier-legacy",
@@ -499,7 +755,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "57d0bbf1-2304-45fe-a118-6ee262bcc1c8",
+      "_id": "7f720d92-f568-4529-b1cd-61a9ba3693cf",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "star-courier-legacy",
