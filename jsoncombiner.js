@@ -19,15 +19,15 @@ const directories = {
   'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
   'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
   'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
-  'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
-  'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
-  'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
-  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
+  // 'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
+  // 'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
+  // 'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
+  // 'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
   'damage': path.join(__dirname, 'public/converted-json/damage'),
-  'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
-  'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
-  'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
-  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
+  // 'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
+  // 'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
+  // 'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
+  // 'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
 };
 
 function updateIdsAndCombine(directory, outputFileName) {

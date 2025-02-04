@@ -13,29 +13,29 @@
       ],
       "name": "Octuple Turbolasers",
       "nicknames": [
-        "Octuples"
+        "Octuples", "Octuple"
       ],
 
       "unique-class": [
         ""
       ],
-      "ability": "_Modification_. *Cymoon Only*\nWhile attacking a ship you may exhaust this card to add 2 red dice to your attack pool. If you do, choose and cancel 1 attack die.\nYou cannot equip other :turbolaser: upgrades.",
+      "ability": "*Star Destroyer Only*\nWhile performing a non-IGNITION attack against a ship, during the Spend Defense Tokens step, if a die would be removed from the attack pool, reroll that die instead.",
       "unique": false,
-      "points": 10,
+      "points": 5,
       "modification": true,
       "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "cymoon"
+          "star-destroyer"
         ],
         "size": [
           ""
         ],
         "disqual_upgrades": [
-          "turbolaser"
+          ""
         ],
         "disable_upgrades": [
-          "turbolaser"
+          ""
         ],
         "flagship": false
       },

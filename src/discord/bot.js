@@ -233,12 +233,11 @@ client.on('messageCreate', async message => {
             '**Examples:**',
             '• Initial roll: `!dice 2red 2blue 1black`',
             '• Attack reroll: `!dice 2red 1blue 1black -reroll 2red`',
-            '• Defense reroll: Reply with `!defense red-double blue-hit`',
-            '\n**Available colors:** red, blue, black',
+            '• Defense reroll: Reply with `!defense red-double blue-hit` to reroll those dice.',
             '\n**Valid dice faces for defense:**',
             '• Red: double, accuracy, hit, crit, blank',
             '• Blue: accuracy, hit, crit',
-            '• Black: hitcrit, hit, blank',
+            '• Black: hit-crit, hit, blank',
             '\n**Stats include:** Peak damage, average damage, accuracy chance, crit chance, and more!'
           ].join('\n')
         },
@@ -250,6 +249,15 @@ client.on('messageCreate', async message => {
             '**Basic search:** `!holo Vader`',
             '**Card comparison:** `!holo Vader -compare Thrawn`',
             'Shows all matching cards for the first term and compares with the second!'
+          ].join('\n')
+        },
+        {
+          name: '📖 Keyword Search',
+          value: [
+            '`!keyword [term]`',
+            'Look up game terms and keywords.',
+            '**Example:** `!keyword Assault`',
+            'Shows the official rules text and any relevant clarifications.'
           ].join('\n')
         },
         {
