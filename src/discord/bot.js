@@ -120,6 +120,11 @@ function getImagePath(cardId) {
   // Normalize the card ID first
   const normalizedId = cardId.toLowerCase().replace(/\s+/g, '-');
   
+  // If it's already an old-legacy errata card, don't modify the path
+  if (normalizedId.includes('-errata-old-legacy')) {
+    return normalizedId;
+  }
+  
   // Check if this card has errata
   const shouldAppendErrata = Object.values(errataKeys).some(category => 
     category.some(errataKey => {
