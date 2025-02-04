@@ -65,7 +65,7 @@
             "artwork": "",
             "cardimage": "https://api.swarmada.wiki/images/laat-i-gunship-legacy.webp"
         },
-        "hawk-laat-i-gunship-legacy": {
+        "five-seven-laat-i-gunship-legacy": {
             "author": "Armada Legacy",
             "alias": "Legacy",
             "team": "Armada Legacy",
@@ -77,10 +77,11 @@
             "faction": "republic",
             "squadron_type": "laat-i-gunship-legacy",
             "name": "LAAT/i Gunship",
-            "ace-name": "Hawk",
+            "ace-name": "Five-Seven",
             "unique-class": [
-                "Hawk"
+                "Five-Seven"
             ],
+
 
             "irregular": true,
             "hull": 6,
@@ -130,8 +131,7 @@
             "points": 22,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/hawk-laat-i-gunship-legacy.webp"
-
+            "cardimage": "https://api.swarmada.wiki/images/five-seven-laat-i-gunship-legacy.webp"
         }
     }
 }

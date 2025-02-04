@@ -7,13 +7,11 @@
             "release": "Legacy Wave 0 Beta",
             "expansion": "Legacy Wave 0 Beta",
             "_id": null,
-
             "type": "squadron",
             "faction": "separatist",
             "squadron_type": "hmp-droid-gunship-legacy",
             "name": "HMP Droid Gunship",
             "ace-name": "",
-
             "unique-class": [
                 ""
             ],
@@ -73,14 +71,12 @@
             "team": "Armada Legacy",
             "release": "Legacy Wave 0 Beta",
             "expansion": "Legacy Wave 0 Beta",
-
             "_id": null,
             "type": "squadron",
             "faction": "separatist",
             "squadron_type": "hmp-droid-gunship-legacy",
             "name": "HMP Droid Gunship",
             "ace-name": "DGS-047",
-
             "unique-class": [
                 "DGS-047"
             ],
@@ -128,7 +124,7 @@
             "ability": "Before you attack the first squadron in your activation, you may remove dice from your attack pool and place them on this card. After the Resolve Damage step, you may make an additional attack against a squadron using dice on this card as your attack pool.",
             "unique": true,
             "ace": true,
-            "points": 23,
+            "points": 22,
             "silhouette": "",
             "artwork": "",
             "cardimage": "https://api.swarmada.wiki/images/dgs-047-hmp-droid-gunship-legacy.webp"
