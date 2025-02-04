@@ -19,10 +19,10 @@ const directories = {
   'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
   'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
   'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
-  'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
-  'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
-  'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
-  'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
+  // 'arc-upgrades': path.join(__dirname, 'public/converted-json/arc-upgrades'),
+  // 'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
+  // 'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
+  // 'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
 };
 
 function findErrataKeys(directory) {
