@@ -61,6 +61,14 @@ const KEYWORD_RESPONSES = {
   'tragedy': {
     reaction: '😢',
     gifUrl: 'https://media1.giphy.com/media/l3diT8stVH9qImalO/giphy.gif?cid=6c09b9525fdxdlzp64duce6cahijwny0yfn1nc546o905q5v&ep=v1_gifs_search&rid=giphy.gif&ct=g'
+  },
+  'agent of chaos': {
+    reaction: '🤖',
+    gifUrl: 'https://tenor.com/bXSo8.gif'
+  },
+  'causing chaos': {
+    reaction: '👋',
+    gifUrl: 'https://tenor.com/bfhWT.gif'
   }
   // Add more keywords and responses as needed, for example:
   // 'hello': {
