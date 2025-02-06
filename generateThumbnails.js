@@ -128,10 +128,10 @@ async function generateImageLinks() {
     // 'arc-ships': path.join(__dirname, 'public/converted-json/arc-ships'),
     // 'arc-squadrons': path.join(__dirname, 'public/converted-json/arc-squadrons'),
     // 'arc-objectives': path.join(__dirname, 'public/converted-json/arc-objectives'),
-    // 'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
-    // 'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
-    // 'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
-    // 'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
+    'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
+    'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
+    'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
+    'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
   };
 
   Object.entries(directories).forEach(([dirKey, dirPath]) => {
