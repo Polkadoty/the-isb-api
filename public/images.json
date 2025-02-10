@@ -3386,13 +3386,13 @@
   "mc40a-escort-carrier-legends": {
     "fullsize": "https://api.swarmada.wiki/images/mc40a-escort-carrier-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/mc40a-escort-carrier-legends.webp",
-    "blurhash": "LACQJbQkrV?woJIVR*i_8w%hxvR5",
+    "blurhash": "LACQJbQkrV?wocIVR*i_8w%gxvR5",
     "baseToken": "https://api.swarmada.wiki/images/mc40a-escort-carrier-legends-base.webp"
   },
   "mc40a-light-cruiser-legends": {
     "fullsize": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/mc40a-light-cruiser-legends.webp",
-    "blurhash": "LACQJaQkrV?woIIoR*i^4T%hxvR5",
+    "blurhash": "LACQJaQlrV?wobIVR*i^8w%hxvR5",
     "baseToken": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends-base.webp"
   },
   "dreadnaught-class-heavy-cruiser-republic-legends": {
@@ -3713,6 +3713,12 @@
     "blurhash": "L4JHQ^0L00~V009GYQ5700%N_2NH",
     "baseToken": "https://api.swarmada.wiki/images/aeg-77-vigo-scum-legends-base.webp"
   },
+  "consigliere-aeg-77-vigo-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/consigliere-aeg-77-vigo-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/consigliere-aeg-77-vigo-scum-legends.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/consigliere-aeg-77-vigo-scum-legends-base.webp"
+  },
   "boba-fett-slave-i-scum-legends": {
     "fullsize": "https://api.swarmada.wiki/images/boba-fett-slave-i-scum-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/boba-fett-slave-i-scum-legends.webp",
@@ -3737,11 +3743,23 @@
     "blurhash": "L8LDxv80HX-5002e.9DiJ6?wt9Ri",
     "baseToken": "https://api.swarmada.wiki/images/kihraxz-fighter-squadron-scum-legends-base.webp"
   },
+  "captain-jostero-kihraxz-fighter-squadron-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/captain-jostero-kihraxz-fighter-squadron-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/captain-jostero-kihraxz-fighter-squadron-scum-legends.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/captain-jostero-kihraxz-fighter-squadron-scum-legends-base.webp"
+  },
   "rihkxyrk-assault-squadron-scum-legends": {
     "fullsize": "https://api.swarmada.wiki/images/rihkxyrk-assault-squadron-scum-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/rihkxyrk-assault-squadron-scum-legends.webp",
     "blurhash": "LIK-UsIp=txb0a9a_MM~-@V_?aof",
     "baseToken": "https://api.swarmada.wiki/images/rihkxyrk-assault-squadron-scum-legends-base.webp"
+  },
+  "talonbane-cobra-rihkxyrk-assault-squadron-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/talonbane-cobra-rihkxyrk-assault-squadron-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/talonbane-cobra-rihkxyrk-assault-squadron-scum-legends.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/talonbane-cobra-rihkxyrk-assault-squadron-scum-legends-base.webp"
   },
   "ugly-squadrons-scum-legends": {
     "fullsize": "https://api.swarmada.wiki/images/ugly-squadrons-scum-legends.webp",
@@ -4301,6 +4319,114 @@
     "blurhash": "LDJRU1r;00x[00Di_NNa00t7ShIo",
     "baseToken": "https://api.swarmada.wiki/images/general-romodi-officer-base.webp"
   },
+  "darth-maul-commander-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/darth-maul-commander-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/darth-maul-commander-scum-legends.webp",
+    "blurhash": "LBKBdq?a00%g00IA~qRm9*R%adIU",
+    "baseToken": "https://api.swarmada.wiki/images/darth-maul-commander-scum-legends-base.webp"
+  },
+  "hondo-ohnaka-commander-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/hondo-ohnaka-commander-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/hondo-ohnaka-commander-scum-legends.webp",
+    "blurhash": "LBKdxf_300-;4TRP~Wnj+Wi_t7My",
+    "baseToken": "https://api.swarmada.wiki/images/hondo-ohnaka-commander-scum-legends-base.webp"
+  },
+  "prince-xizor-commander-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/prince-xizor-commander-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/prince-xizor-commander-scum-legends.webp",
+    "blurhash": "LCI#_o?a00%M00IA~qRk00WAnjM{",
+    "baseToken": "https://api.swarmada.wiki/images/prince-xizor-commander-scum-legends-base.webp"
+  },
+  "smugglers-cache-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/smugglers-cache-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/smugglers-cache-scum-legends.webp",
+    "blurhash": "LDJ*n:.900%N00D%~pRO00M{t7V@",
+    "baseToken": "https://api.swarmada.wiki/images/smugglers-cache-scum-legends-base.webp"
+  },
+  "boarding-grapplers-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/boarding-grapplers-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/boarding-grapplers-scum-legends.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/boarding-grapplers-scum-legends-base.webp"
+  },
+  "jiro-officer-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/jiro-officer-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/jiro-officer-scum-legends.webp",
+    "blurhash": "LDJkZK-;00%L00IU~qWV00RktRM|",
+    "baseToken": "https://api.swarmada.wiki/images/jiro-officer-scum-legends-base.webp"
+  },
+  "savage-oppress-officer-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/savage-oppress-officer-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/savage-oppress-officer-scum-legends.webp",
+    "blurhash": "LDLNe~-;00?G00IU~qxt8wIpNKWU",
+    "baseToken": "https://api.swarmada.wiki/images/savage-oppress-officer-scum-legends-base.webp"
+  },
+  "ziton-moj-officer-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/ziton-moj-officer-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/ziton-moj-officer-scum-legends.webp",
+    "blurhash": "LDI=AB?a00%200M{~qWB00RjozM|",
+    "baseToken": "https://api.swarmada.wiki/images/ziton-moj-officer-scum-legends-base.webp"
+  },
+  "pirate-crew-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/pirate-crew-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/pirate-crew-scum-legends.webp",
+    "blurhash": "LBJa};_N00%h00IA?bMx00RjIWIU",
+    "baseToken": "https://api.swarmada.wiki/images/pirate-crew-scum-legends-base.webp"
+  },
+  "vanity-price-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/vanity-price-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/vanity-price-title-scum-legends.webp",
+    "blurhash": "LDI=DL-;00%M00M{~qRk00R+X9M|",
+    "baseToken": "https://api.swarmada.wiki/images/vanity-price-title-scum-legends-base.webp"
+  },
+  "wild-karrde-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/wild-karrde-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/wild-karrde-title-scum-legends.webp",
+    "blurhash": "LDJ*ky?a00xt00M{~qNG00M|o#Rk",
+    "baseToken": "https://api.swarmada.wiki/images/wild-karrde-title-scum-legends-base.webp"
+  },
+  "flatline-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/flatline-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/flatline-title-scum-legends.webp",
+    "blurhash": "LDJRT}?a00%200RP~qM|00Rko#Rj",
+    "baseToken": "https://api.swarmada.wiki/images/flatline-title-scum-legends-base.webp"
+  },
+  "poison-moon-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/poison-moon-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/poison-moon-title-scum-legends.webp",
+    "blurhash": "LDJ8Ih%f00xu00IU~qM|00M|bcNG",
+    "baseToken": "https://api.swarmada.wiki/images/poison-moon-title-scum-legends-base.webp"
+  },
+  "charybdis-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/charybdis-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/charybdis-title-scum-legends.webp",
+    "blurhash": "LDJRT}?a00x[00M{~qM|00WBg3NG",
+    "baseToken": "https://api.swarmada.wiki/images/charybdis-title-scum-legends-base.webp"
+  },
+  "savrip-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/savrip-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/savrip-title-scum-legends.webp",
+    "blurhash": "LCJH:Y=_00-=00I9~qSi00VrozOF",
+    "baseToken": "https://api.swarmada.wiki/images/savrip-title-scum-legends-base.webp"
+  },
+  "redhawk-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/redhawk-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/redhawk-title-scum-legends.webp",
+    "blurhash": "LEJt||-:00%L00IU~qR*00NGtRRk",
+    "baseToken": "https://api.swarmada.wiki/images/redhawk-title-scum-legends-base.webp"
+  },
+  "omzes-incredible-traveling-starport-title-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/omzes-incredible-traveling-starport-title-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/omzes-incredible-traveling-starport-title-scum-legends.webp",
+    "blurhash": "LDL;dD_200~p02Rj_N-p4;IUIoae",
+    "baseToken": "https://api.swarmada.wiki/images/omzes-incredible-traveling-starport-title-scum-legends-base.webp"
+  },
+  "tibanna-disruptors-scum-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/tibanna-disruptors-scum-legends.webp",
+    "blurhash": "LCJ8Lp.700%100IV~qRk00a#W?M|",
+    "baseToken": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-legends-base.webp"
+  },
   "ion-pulse-emitter-legends": {
     "fullsize": "https://api.swarmada.wiki/images/ion-pulse-emitter-legends.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/ion-pulse-emitter-legends.webp",
@@ -4318,6 +4444,18 @@
     "thumbnail": "https://api.swarmada.wiki/thumbnails/kyber-beam-cannon-legends.webp",
     "blurhash": "LGMivY}[00tRL#$hyDIp4TIoS5J7",
     "baseToken": "https://api.swarmada.wiki/images/kyber-beam-cannon-legends-base.webp"
+  },
+  "condor-title-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/condor-title-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/condor-title-legends.webp",
+    "blurhash": "LBJa_$?b00%200IU~qM{00RjkWR+",
+    "baseToken": "https://api.swarmada.wiki/images/condor-title-legends-base.webp"
+  },
+  "shadow-title-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/shadow-title-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/shadow-title-legends.webp",
+    "blurhash": "LBJu12?b00-p00M{_4M{00ofS6IV",
+    "baseToken": "https://api.swarmada.wiki/images/shadow-title-legends-base.webp"
   },
   "rebel-one-title": {
     "fullsize": "https://api.swarmada.wiki/images/rebel-one-title.webp",
@@ -4361,11 +4499,11 @@
     "blurhash": "LEOePE^k00^P_ORP_Nrr*KNaOsNH",
     "baseToken": "https://api.swarmada.wiki/images/malevolence-title-legends-base.webp"
   },
-  "octuple-turbolasers-legends": {
-    "fullsize": "https://api.swarmada.wiki/images/octuple-turbolasers-legends.webp",
-    "thumbnail": "https://api.swarmada.wiki/thumbnails/octuple-turbolasers-legends.webp",
-    "blurhash": "LLKUTL~p4Txa00%L_2af9FWBWERk",
-    "baseToken": "https://api.swarmada.wiki/images/octuple-turbolasers-legends-base.webp"
+  "precision-turbolaser-turrets-legends": {
+    "fullsize": "https://api.swarmada.wiki/images/precision-turbolaser-turrets-legends.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/precision-turbolaser-turrets-legends.webp",
+    "blurhash": "L9LNxuIT00_10000_4%K00WGIXSd",
+    "baseToken": "https://api.swarmada.wiki/images/precision-turbolaser-turrets-legends-base.webp"
   },
   "g9-rigger-class-freighter-legacy": {
     "fullsize": "https://api.swarmada.wiki/images/g9-rigger-class-freighter-legacy.webp",

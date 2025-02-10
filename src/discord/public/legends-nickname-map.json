@@ -1006,7 +1006,8 @@
   "Hondo Ohnaka": [
     "hondo-ohnaka-slave-i",
     "hondo-ohnaka-officer",
-    "hondo-ohnaka-slave-i-scum-legends"
+    "hondo-ohnaka-slave-i-scum-legends",
+    "hondo-ohnaka-commander-scum-legends"
   ],
   "Hondo": [
     "hondo-ohnaka-slave-i",
@@ -4827,40 +4828,61 @@
     "tycho-celchu-x-wing-squadron-new-republic-legends"
   ],
   "AEG-77 Vigo": [
-    "aeg-77-vigo-scum-legends"
+    "aeg-77-vigo-scum-legends",
+    "consigliere-aeg-77-vigo-scum-legends"
   ],
   "AEG-77": [
-    "aeg-77-vigo-scum-legends"
+    "aeg-77-vigo-scum-legends",
+    "consigliere-aeg-77-vigo-scum-legends"
   ],
   "AEG77": [
-    "aeg-77-vigo-scum-legends"
+    "aeg-77-vigo-scum-legends",
+    "consigliere-aeg-77-vigo-scum-legends"
   ],
   "AEG77 Vigo": [
-    "aeg-77-vigo-scum-legends"
+    "aeg-77-vigo-scum-legends",
+    "consigliere-aeg-77-vigo-scum-legends"
   ],
   "Vigo": [
-    "aeg-77-vigo-scum-legends"
+    "aeg-77-vigo-scum-legends",
+    "consigliere-aeg-77-vigo-scum-legends"
   ],
   "AEG": [
-    "aeg-77-vigo-scum-legends"
+    "aeg-77-vigo-scum-legends",
+    "consigliere-aeg-77-vigo-scum-legends"
+  ],
+  "Consigliere": [
+    "consigliere-aeg-77-vigo-scum-legends"
   ],
   "Kihraxz Fighter Squadron": [
-    "kihraxz-fighter-squadron-scum-legends"
+    "kihraxz-fighter-squadron-scum-legends",
+    "captain-jostero-kihraxz-fighter-squadron-scum-legends"
   ],
   "Kihraxz": [
-    "kihraxz-fighter-squadron-scum-legends"
+    "kihraxz-fighter-squadron-scum-legends",
+    "captain-jostero-kihraxz-fighter-squadron-scum-legends"
   ],
   "Kihraxz Fighter": [
-    "kihraxz-fighter-squadron-scum-legends"
+    "kihraxz-fighter-squadron-scum-legends",
+    "captain-jostero-kihraxz-fighter-squadron-scum-legends"
+  ],
+  "Captain Jostero": [
+    "captain-jostero-kihraxz-fighter-squadron-scum-legends"
   ],
   "Rihkxyrk Assault Squadron": [
-    "rihkxyrk-assault-squadron-scum-legends"
+    "rihkxyrk-assault-squadron-scum-legends",
+    "talonbane-cobra-rihkxyrk-assault-squadron-scum-legends"
   ],
   "Rihkxyrk": [
-    "rihkxyrk-assault-squadron-scum-legends"
+    "rihkxyrk-assault-squadron-scum-legends",
+    "talonbane-cobra-rihkxyrk-assault-squadron-scum-legends"
   ],
   "Rihkxyrk Assault": [
-    "rihkxyrk-assault-squadron-scum-legends"
+    "rihkxyrk-assault-squadron-scum-legends",
+    "talonbane-cobra-rihkxyrk-assault-squadron-scum-legends"
+  ],
+  "Talonbane Cobra": [
+    "talonbane-cobra-rihkxyrk-assault-squadron-scum-legends"
   ],
   "Ugly Squadrons": [
     "ugly-squadrons-scum-legends"
@@ -5160,6 +5182,151 @@
   "Flak Officer": [
     "general-romodi-officer"
   ],
+  "Darth Maul {Scum}": [
+    "darth-maul-commander-scum-legends"
+  ],
+  "Darth Maul": [
+    "darth-maul-commander-scum-legends",
+    "darth-maul-scimitar-legacy"
+  ],
+  "Hondo Ohnaka {Scum}": [
+    "hondo-ohnaka-commander-scum-legends"
+  ],
+  "Prince Xizor {Scum}": [
+    "prince-xizor-commander-scum-legends"
+  ],
+  "Prince Xizor": [
+    "prince-xizor-commander-scum-legends"
+  ],
+  "Smugglers Cache {Scum}": [
+    "smugglers-cache-scum-legends"
+  ],
+  "Smugglers Cache": [
+    "smugglers-cache-scum-legends"
+  ],
+  "SC": [
+    "smugglers-cache-scum-legends"
+  ],
+  "Boarding Grapplers {Scum}": [
+    "boarding-grapplers-scum-legends"
+  ],
+  "Boarding Grapplers": [
+    "boarding-grapplers-scum-legends"
+  ],
+  "BG": [
+    "boarding-grapplers-scum-legends"
+  ],
+  "Jiro {Scum}": [
+    "jiro-officer-scum-legends"
+  ],
+  "Jiro": [
+    "jiro-officer-scum-legends"
+  ],
+  "Savage Oppress {Scum}": [
+    "savage-oppress-officer-scum-legends"
+  ],
+  "Savage Oppress": [
+    "savage-oppress-officer-scum-legends"
+  ],
+  "Ziton Moj {Scum}": [
+    "ziton-moj-officer-scum-legends"
+  ],
+  "Ziton Moj": [
+    "ziton-moj-officer-scum-legends"
+  ],
+  "Pirate Crew {Scum}": [
+    "pirate-crew-scum-legends"
+  ],
+  "Pirate Crew": [
+    "pirate-crew-scum-legends"
+  ],
+  "PC": [
+    "pirate-crew-scum-legends"
+  ],
+  "Vanity Price {Scum}": [
+    "vanity-price-title-scum-legends"
+  ],
+  "Vanity Price": [
+    "vanity-price-title-scum-legends"
+  ],
+  "Vanity": [
+    "vanity-price-title-scum-legends"
+  ],
+  "Wild Karrde {Scum}": [
+    "wild-karrde-title-scum-legends"
+  ],
+  "Wild Karrde": [
+    "wild-karrde-title-scum-legends"
+  ],
+  "Wild": [
+    "wild-karrde-title-scum-legends"
+  ],
+  "Flatline {Scum}": [
+    "flatline-title-scum-legends"
+  ],
+  "Flatline": [
+    "flatline-title-scum-legends"
+  ],
+  "Flat": [
+    "flatline-title-scum-legends"
+  ],
+  "Poison Moon {Scum}": [
+    "poison-moon-title-scum-legends"
+  ],
+  "Poison Moon": [
+    "poison-moon-title-scum-legends"
+  ],
+  "Poison": [
+    "poison-moon-title-scum-legends"
+  ],
+  "Charybdis {Scum}": [
+    "charybdis-title-scum-legends"
+  ],
+  "Charybdis": [
+    "charybdis-title-scum-legends"
+  ],
+  "Chary": [
+    "charybdis-title-scum-legends"
+  ],
+  "Savrip {Scum}": [
+    "savrip-title-scum-legends"
+  ],
+  "Savrip": [
+    "savrip-title-scum-legends"
+  ],
+  "Sav": [
+    "savrip-title-scum-legends"
+  ],
+  "Redhawk {Scum}": [
+    "redhawk-title-scum-legends"
+  ],
+  "Redhawk": [
+    "redhawk-title-scum-legends"
+  ],
+  "Red": [
+    "redhawk-title-scum-legends"
+  ],
+  "Omze's Incredible Traveling Starport {Scum}": [
+    "omzes-incredible-traveling-starport-title-scum-legends"
+  ],
+  "Omze's Incredible Traveling Starport": [
+    "omzes-incredible-traveling-starport-title-scum-legends"
+  ],
+  "Omze's Starport": [
+    "omzes-incredible-traveling-starport-title-scum-legends"
+  ],
+  "Omze's": [
+    "omzes-incredible-traveling-starport-title-scum-legends"
+  ],
+  "Tibanna Disruptors": [
+    "tibanna-disruptors-scum-legends"
+  ],
+  "Tibanna": [
+    "tibanna-disruptors-scum-legends"
+  ],
+  "TD": [
+    "tibanna-disruptors-scum-legends"
+  ],
   "Ion Pulse Emitter": [
     "ion-pulse-emitter-legends"
   ],
@@ -5187,6 +5354,12 @@
   "Beam Cannon": [
     "kyber-beam-cannon-legends"
   ],
+  "Condor": [
+    "condor-title-legends"
+  ],
+  "Shadow": [
+    "shadow-title-legends"
+  ],
   "Rendili Defender": [
     "rendili-defender-title-legends"
   ],
@@ -5211,14 +5384,17 @@
   "Devastation": [
     "devastation-title-legends"
   ],
-  "Octuple Turbolasers": [
-    "octuple-turbolasers-legends"
+  "Precision Turbolaser Turrets": [
+    "precision-turbolaser-turrets-legends"
   ],
-  "Octuples": [
-    "octuple-turbolasers-legends"
+  "Precision Turrets": [
+    "precision-turbolaser-turrets-legends"
   ],
-  "Octuple": [
-    "octuple-turbolasers-legends"
+  "Precision": [
+    "precision-turbolaser-turrets-legends"
+  ],
+  "PTT": [
+    "precision-turbolaser-turrets-legends"
   ],
   "G9 Rigger-class Freighter": [
     "g9-rigger-class-freighter-legacy"
@@ -5280,9 +5456,6 @@
     "star-courier-legacy"
   ],
   "Scimitar": [
-    "darth-maul-scimitar-legacy"
-  ],
-  "Darth Maul": [
     "darth-maul-scimitar-legacy"
   ],
   "Darth Maul Scimitar": [

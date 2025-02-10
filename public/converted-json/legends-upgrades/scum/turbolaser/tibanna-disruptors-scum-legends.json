@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "tibanna-disruptors-scum-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "turbolaser",
+      "faction": [
+        "scum"
+      ],
+      "name": "Tibanna Disruptors",
+      "nicknames": [
+        "Tibanna Disruptors", "Tibanna", "TD"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-legends.webp"
+    }
+  }
+}

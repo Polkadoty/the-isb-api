@@ -70,6 +70,77 @@
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/kihraxz-fighter-squadron-scum-legends.webp"
+    },
+    "captain-jostero-kihraxz-fighter-squadron-scum-legends": {
+      "author": [
+        "Armada Legends"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "kihraxz-fighter-squadron-scum-legends",
+      "name": "Kihraxz Fighter Squadron",
+      "nicknames": [
+        "Kihraxz Fighter Squadron",
+        "Kihraxz",
+        "Kihraxz Fighter",
+        "Captain Jostero"
+      ],
+      "ace-name": "Captain Jostero",
+      "unique-class": [
+        "Captain Jostero"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/captain-jostero-kihraxz-fighter-squadron-scum-legends.webp"
     }
   }
 }

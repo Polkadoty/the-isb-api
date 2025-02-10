@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "prince-xizor-commander-scum-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "scum"
+      ],
+      "name": "Prince Xizor {Scum}",
+      "nicknames": [
+        "Prince Xizor"
+      ],
+      "unique-class": [
+        "Prince Xizor"
+      ],
+      "ability": "Before a friendly ship would be dealt 1 or more damage cards, you may deal 1 of those damage cards to another friendly ship at distance 1-4 of the defender.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/prince-xizor-commander-scum-legends.webp"
+    }
+  }
+}

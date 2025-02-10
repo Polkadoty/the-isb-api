@@ -1,35 +1,37 @@
 {
   "upgrades": {
-    "octuple-turbolasers-legends": {
+    "boarding-grapplers-scum-legends": {
       "author": "Armada Legends",
       "alias": "Legends",
       "team": "Legends",
-      "release": "February 2025 Development Cycle",
-      "expansion": "MC40 Dev Cycle",
+      "release": "Armada Legends Scum and Villainy Wave 1",
+      "expansion": "Armada Legends",
       "_id": null,
-      "type": "turbolaser",
+      "type": "offensive-retro",
       "faction": [
-        "empire"
+        "scum"
       ],
-      "name": "Octuple Turbolasers",
+      "name": "Boarding Grapplers {Scum}",
       "nicknames": [
-        "Octuples", "Octuple"
+        "Boarding Grapplers", "BG"
       ],
-
       "unique-class": [
         ""
       ],
-      "ability": "*Star Destroyer Only*\nWhile performing a non-IGNITION attack against a ship, during the Spend Defense Tokens step, if a die would be removed from the attack pool, reroll that die instead.",
+      "ability": "*Pirate only.*\nAny :weapons-team-offensive-retro: upgrade you equip may be used at close-medium range.\nGain 1 :offensive-retro: icon in your upgrade bar.",
       "unique": false,
-      "points": 5,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
         "traits": [
-          "star-destroyer"
+          ""
         ],
         "size": [
           ""
+        ],
+        "enable_upgrades": [
+          "offensive-retro"
         ],
         "disqual_upgrades": [
           ""
@@ -44,7 +46,7 @@
         "start_icon": [
           ""
         ],
-        "start_amount": 0
+        "start_amount": 1
       },
       "exhaust": {
         "type": "",
@@ -54,7 +56,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/octuple-turbolasers-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/boarding-grapplers-scum-legends.webp"
     }
   }
 }

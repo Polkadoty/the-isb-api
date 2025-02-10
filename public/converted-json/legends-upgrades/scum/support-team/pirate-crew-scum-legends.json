@@ -1,0 +1,60 @@
+{
+  "upgrades": {
+    "pirate-crew-scum-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "support-team",
+      "faction": [
+        "scum"
+      ],
+      "name": "Pirate Crew {Scum}",
+      "nicknames": [
+        "Pirate Crew", "PC"
+      ],
+
+      "unique-class": [
+        ""
+      ],
+      "ability": "*Pirate only.*\n When a friendly ship at distance 1-5 gains a command token, you may exhaust this card to gain 1 command token matching the one on this card.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "pirate"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/pirate-crew-scum-legends.webp"
+    }
+  }
+}

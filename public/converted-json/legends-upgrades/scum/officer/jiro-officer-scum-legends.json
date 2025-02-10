@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "jiro-officer-scum-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "scum"
+      ],
+      "name": "Jiro {Scum}",
+      "nicknames": [
+        "Jiro"
+      ],
+      "unique-class": [
+        "Jiro"
+      ],
+      "ability": "*Pirate only.*\nWhen you activate, a friendly ship at distance 1-5 may discard 1 of its :commander: or :officer: cards (other than Jiro) to recover 1 of your discarded defense tokens.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "pirate"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/jiro-officer-scum-legends.webp"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "darth-maul-commander-scum-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "scum"
+      ],
+      "name": "Darth Maul {Scum}",
+      "nicknames": [
+        "Darth Maul"
+      ],
+      "unique-class": [
+        "Darth Maul"
+      ],
+      "ability": "While a friendly ship is attacking, it may spend 1 of its defense tokens. If it does, it may spend a matching defense token on the defender.",
+      "unique": true,
+      "points": 25,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/darth-maul-commander-scum-legends.webp"
+    }
+  }
+}
