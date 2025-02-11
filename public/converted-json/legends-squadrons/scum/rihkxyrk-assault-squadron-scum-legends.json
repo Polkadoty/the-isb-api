@@ -137,7 +137,8 @@
         "swarm": false
       },
       "ability": "After rolling your attack pool, you may reroll 1 black die with a face with no icons.",
-      "unique": false,
+      "unique": true,
+      "ace": true,
       "points": 15,
       "silhouette": "",
       "artwork": "",
