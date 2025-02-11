@@ -61,7 +61,7 @@
                       "squadron": 1,
                       "engineer": 2
                   },
-                  "upgrades": ["officer", "weapons-team", "offensive-retro", "ion-cannon", "title"],
+                  "upgrades": ["officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "title"],
                   "armament": {
                       "asa": [0, 0, 1],
                       "front": [0, 3, 0],

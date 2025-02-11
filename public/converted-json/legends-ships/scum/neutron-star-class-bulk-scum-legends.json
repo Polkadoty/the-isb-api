@@ -61,7 +61,7 @@
                       "squadron": 3,
                       "engineer": 4
                   },
-                  "upgrades": ["commander", "officer", "fleet-command", "fleet-support", "weapons-team", "defensive-retro", "offensive-retro", "turbolaser","title"],
+                  "upgrades": ["commander", "officer", "fleet-command", "fleet-support", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "turbolaser","title"],
                   "armament": {
                       "asa": [0, 1, 0],
                       "front": [2, 1, 0],
@@ -105,7 +105,7 @@
                       "squadron": 2,
                       "engineer": 4
                   },
-                  "upgrades": ["commander", "officer", "weapons-team", "defensive-retro", "defensive-retro", "offensive-retro", "turbolaser","title"],
+                  "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "defensive-retro",  "turbolaser","title"],
                   "armament": {
                       "asa": [0, 2, 0],
                       "front": [2, 2, 0],
