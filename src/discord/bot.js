@@ -209,9 +209,8 @@ client.on('messageCreate', async message => {
       const fleetData = fleet.fleet_data;
       const embed = await formatFleetEmbed(fleetData, fleetId);
 
-      // Delete original message and send embed
-      await message.delete();
-      const response = await message.channel.send({ embeds: [embed] });
+      // Send embed as a reply to the original message
+      const response = await message.reply({ embeds: [embed] });
 
       // Add reaction to indicate clickable elements
       await response.react('🔍');
