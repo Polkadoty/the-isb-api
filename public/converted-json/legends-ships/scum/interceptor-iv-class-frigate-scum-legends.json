@@ -46,7 +46,7 @@
                   ],
                   "faction": "scum",
                   "unique": false,
-                  "traits": [],
+                  "traits": ["scum", "zann"],
                   "points": 65,
                   "tokens": {
                       "def_scatter": 0,
@@ -90,7 +90,7 @@
                   ],
                   "faction": "scum",
                   "unique": false,
-                  "traits": [],
+                  "traits": ["scum", "pirate"],
                   "points": 62,
                   "tokens": {
                       "def_scatter": 0,
