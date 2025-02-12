@@ -22,7 +22,7 @@ import imageLinksRoutes from './routes/imageLinksRoutes.js';
 import errataKeysRoutes from './routes/errataKeysRoutes.js';
 import expansionRoutes from './routes/expansionRoutes.js';
 import releaseRoutes from './routes/releaseRoutes.js';
-// import updateRoutes from './routes/updateRoutes.js';
+import updateRoutes from './routes/updateRoutes.js';
 import path from 'path';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
