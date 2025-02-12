@@ -109,7 +109,7 @@
       ],
       "ace-name": "Lieutenant Karsabi",
       "unique-class": [
-        "Lieutenant Karsabi", "Karasabi", "Lieutenant Karasabi"
+        "Lieutenant Karsabi", "Karasabi", "Lieutenant Karasabi", "LT"
       ],
       "irregular": false,
       "hull": 5,
@@ -154,7 +154,7 @@
       },
       "ability": "While attacking a ship, if there is at least 1 friendly unengaged squadron with BOMBER within distance 1 of you, you may add a red die to your attack pool.",
       "unique": true,
-      "points": 21,
+      "points": 20,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/karsabi-alpha-class-star-wing-squadron-legends.webp"

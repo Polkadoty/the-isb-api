@@ -1,29 +1,29 @@
 {
   "ships": {
-    "mc40a-legends": {
+    "lancer-class-frigate-legends": {
       "_id": null,
       "type": "chassis",
-      "chassis_name": "mc40a-legends",
-      "size": "medium",
-      "hull": 6,
+      "chassis_name": "lancer-class-frigate-legends",
+      "size": "small",
+      "hull": 4,
       "speed": {
-
         "1": [
-          2
+          1
         ],
         "2": [
           1,
           1
         ],
         "3": [
-          1,
           0,
+          1,
           1
         ],
-        "4": []
+        "4": [
+        ]
       },
       "shields": {
-        "front": 4,
+        "front": 2,
         "rear": 2,
         "left": 2,
         "right": 2,
@@ -38,27 +38,28 @@
         "centerangle": 0,
         "rearangle": 0
       },
-      "silhouette": "",
-      "blueprint": "",
+      "silhouette": "[]",
+      "blueprint": "[]",
       "models": {
-        "mc40a-escort-carrier-legends": {
-          "author": [
-            "Armada Legends"
-          ],
+        "lancer-class-escort-frigate-legends": {
+          "author": "Armada Legends",
           "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends",
-          "expansion": "Armada Legends",
+          "team": "Legends",
+          "release": "Armada Legends March 2025 Dev Cycle",
+          "expansion": "Imperial Lancer Expansion Pack (LEG05)",
           "_id": null,
           "type": "ship",
-          "chassis": "mc40a-legends",
-          "name": "MC40a Escort Carrier",
-          "faction": "rebel",
+          "chassis": "lancer-class-frigate-legends",
+          "name": "Lancer Class Escort Frigate",
+          "nicknames": [
+            "Lancer", "Lancer Class", "Lancer Class Frigate"
+          ],
+          "faction": "empire",
           "unique": false,
           "traits": [
-            "MC"
+            "bombard"
           ],
-          "points": 68,
+          "points": 45,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,
@@ -68,33 +69,31 @@
             "def_salvo": 0
           },
           "values": {
-            "command": 3,
-            "squadron": 2,
-            "engineer": 4
+            "command": 1,
+            "squadron": 1,
+            "engineer": 3
           },
           "upgrades": [
             "commander",
             "officer",
-            "support-team",
-            "fleet-support",
             "offensive-retro",
             "offensive-retro",
-            "ion-cannon",
+            "turbolaser",
             "title"
           ],
           "armament": {
             "asa": [
-              0,
+              1,
               1,
               0
             ],
             "front": [
-              2,
-              3,
+              0,
+              1,
               0
             ],
             "rear": [
-              1,
+              0,
               1,
               0
             ],
@@ -104,8 +103,8 @@
               0
             ],
             "right": [
-              1,
               2,
+              1,
               0
             ],
             "left_aux": [
@@ -125,46 +124,46 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc40a-escort-carrier-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/lancer-class-escort-frigate-legends.webp"
         },
-        "mc40a-light-cruiser-legends": {
-          "author": [
-            "Armada Legends"
-          ],
+        "lancer-class-light-frigate-legends": {
+          "author": "Armada Legends",
           "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends",
-          "expansion": "Armada Legends",
+          "team": "Legends",
+          "release": "Armada Legends March 2025 Dev Cycle",
+          "expansion": "Imperial Lancer Expansion Pack (LEG05)",
           "_id": null,
           "type": "ship",
-          "chassis": "mc40a-legends",
-          "name": "MC40a Light Cruiser",
-          "faction": "rebel",
+          "chassis": "lancer-class-frigate-legends",
+          "name": "Lancer Class Light Frigate",
+          "nicknames": [
+            "Lancer", "Lancer Class", "Lancer Class Light"
+          ],
+          "faction": "empire",
           "unique": false,
           "traits": [
-            "MC"
+            "bombard"
           ],
-          "points": 70,
+          "points": 45,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,
             "def_brace": 1,
-            "def_redirect": 2,
+            "def_redirect": 1,
             "def_contain": 0,
             "def_salvo": 0
           },
           "values": {
-            "command": 3,
+            "command": 1,
             "squadron": 1,
-            "engineer": 4
+            "engineer": 3
           },
           "upgrades": [
             "commander",
             "officer",
-            "weapons-team",
-            "defensive-retro",
-            "ion-cannon",
+            "offensive-retro",
             "ordnance",
+            "turbolaser",
             "title"
           ],
           "armament": {
@@ -175,22 +174,22 @@
             ],
             "front": [
               0,
-              3,
-              2
+              1,
+              0
             ],
             "rear": [
-              0,
               1,
-              1
+              0,
+              0
             ],
             "left": [
-              2,
               0,
+              2,
               1
             ],
             "right": [
-              2,
               0,
+              2,
               1
             ],
             "left_aux": [
@@ -210,7 +209,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/mc40a-light-cruiser-legends.webp"
+          "cardimage": "https://api.swarmada.wiki/images/lancer-class-light-frigate-legends.webp"
         }
       }
     }

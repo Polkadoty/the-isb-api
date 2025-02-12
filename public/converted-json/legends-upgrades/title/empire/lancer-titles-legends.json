@@ -1,6 +1,6 @@
 {
   "upgrades": {
-    "condor-title-legends": {
+    "blue-hawk-title-legends": {
       "author": [
         "Armada Legends"
       ],
@@ -11,17 +11,17 @@
       "_id": null,
       "type": "title",
       "faction": [
-        "rebel"
+        "empire"
       ],
-      "name": "Condor",
+      "name": "Blue Hawk",
       "unique-class": [
-        "Condor"
+        "Blue Hawk"
       ],
-      "ability": ":squadron:: Squadrons you activate that have only 1 die in their battery armament may add 1 red die to their attack pool when attacking a ship.",
+      "ability": "Treat your rear hull zone's printed battery armament as 2 blue dice.\nYou gain 1 :weapons-team: icon in your upgrade bar.",
       "unique": true,
-      "points": 8,
+      "points": 2,
       "modification": false,
-      "bound_shiptype": "mc40a-legends",
+      "bound_shiptype": "lancer-class-frigate-legends",
       "restrictions": {
         "traits": [
           ""
@@ -36,7 +36,7 @@
           ""
         ],
         "enable_upgrades": [
-          ""
+          "weapons-team"
         ],
         "flagship": false
       },
@@ -55,11 +55,11 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/condor-title-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/blue-hawk-title-legends.webp"
     },
-    "shadow-title-legends": {
+    "furious-title-legends": {
       "author": [
-        "Skyhammer"
+        "Armada Legends"
       ],
       "alias": "Legends",
       "team": "Armada Legends",
@@ -68,18 +68,17 @@
       "_id": null,
       "type": "title",
       "faction": [
-        "rebel"
+        "empire"
       ],
-      "name": "Shadow",
+      "name": "Furious",
       "unique-class": [
-        "Shadow"
+        "Furious"
       ],
-
-      "ability": "While a friendly ship is defending from a ship, if the attack line of sight is traced through you, the attacker must remove 1 additional die from their attack pool.",
+      "ability": "While attacking a squadron, each of your :crit: icons add 1 damage to the damage total.",
       "unique": true,
-      "points": 3,
+      "points": 6,
       "modification": false,
-      "bound_shiptype": "mc40a-legends",
+      "bound_shiptype": "lancer-class-frigate-legends",
       "restrictions": {
         "traits": [
           ""
@@ -113,7 +112,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/shadow-title-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/furious-title-legends.webp"
     }
   }
 }

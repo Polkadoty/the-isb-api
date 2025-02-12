@@ -223,11 +223,11 @@ client.on('messageCreate', async message => {
   // Get the appropriate nickname map based on server ID
   const nicknameMap = message.guild?.id === LEGACY_SERVER_ID 
     ? legacyNicknameMap 
-    : message.guild?.id === LEGENDS_SERVER_ID
+    : message.guild?.id === LEGENDS_SERVER_ID || message.guild?.id === UK_SERVER_ID
       ? legendsNicknameMap
       : message.guild?.id === TEXAS_SERVER_ID
         ? legacyNicknameMap
-        : message.guild?.id === ARMADA_SERVER_ID || message.guild?.id === UK_SERVER_ID
+        : message.guild?.id === ARMADA_SERVER_ID 
           ? armadaNicknameMap
           : legendsNicknameMap; // default to legends for any other server
 

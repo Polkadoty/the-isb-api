@@ -183,6 +183,7 @@
     "adamant-frigate-bsg-legends",
     "talon-carrier-bsg-legends",
     "talon-frigate-bsg-legends",
+    "lancer-class-light-frigate-legends",
     "mc40a-light-cruiser-legends",
     "halcyon-light-halo-legends"
   ],
@@ -2086,6 +2087,8 @@
     "munificent-class-comms-frigate",
     "adamant-frigate-bsg-legends",
     "talon-frigate-bsg-legends",
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends",
     "corona-class-escort-frigate-new-republic-legends",
     "corona-class-support-frigate-new-republic-legends",
     "interceptor-iv-class-attack-frigate-scum-legends",
@@ -3183,6 +3186,7 @@
   ],
   "Escort": [
     "nebulon-b-escort-frigate",
+    "lancer-class-escort-frigate-legends",
     "corona-class-escort-frigate-new-republic-legends",
     "mc40a-escort-carrier-legends",
     "stalwart-escort-halo-legends",
@@ -3190,12 +3194,14 @@
   ],
   "Escort Frigate": [
     "nebulon-b-escort-frigate",
+    "lancer-class-escort-frigate-legends",
     "corona-class-escort-frigate-new-republic-legends",
     "stalwart-escort-halo-legends",
     "stalwart-light-halo-legends"
   ],
   "Escort-Frigate": [
     "nebulon-b-escort-frigate",
+    "lancer-class-escort-frigate-legends",
     "corona-class-escort-frigate-new-republic-legends",
     "stalwart-escort-halo-legends",
     "stalwart-light-halo-legends"
@@ -6821,7 +6827,8 @@
     "kanan-jarrus-hwk-290"
   ],
   "Hawk": [
-    "hwk-290"
+    "hwk-290",
+    "blue-hawk-title-legends"
   ],
   "Hawks": [
     "hwk-290"
@@ -6882,7 +6889,9 @@
     "lancer-class-pursuit-craft"
   ],
   "Lancer": [
-    "lancer-class-pursuit-craft"
+    "lancer-class-pursuit-craft",
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends"
   ],
   "Lancer class": [
     "lancer-class-pursuit-craft"
@@ -7599,6 +7608,8 @@
   "LC": [
     "lando-calrissian-millennium-falcon",
     "lando-calrissian-officer",
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends",
     "lucinda-cain-commander-bsg-legends",
     "logistics-coordinator-officer-halo-legends"
   ],
@@ -7834,6 +7845,27 @@
     "arc-170-starfighter-squadron"
   ],
   "170s": [
+    "arc-170-starfighter-squadron"
+  ],
+  "ARC-170 Squadron": [
+    "arc-170-starfighter-squadron"
+  ],
+  "ARC 170 Squadron": [
+    "arc-170-starfighter-squadron"
+  ],
+  "ARC-170-Squadron": [
+    "arc-170-starfighter-squadron"
+  ],
+  "170 Squadron": [
+    "arc-170-starfighter-squadron"
+  ],
+  "170-Squadron": [
+    "arc-170-starfighter-squadron"
+  ],
+  "A1S": [
+    "arc-170-starfighter-squadron"
+  ],
+  "ARC-170 Starfighter": [
     "arc-170-starfighter-squadron"
   ],
   "Odd Ball": [
@@ -8301,6 +8333,9 @@
     "plo-koon-delta-7-aethersprite-squadron"
   ],
   "Deltakin": [
+    "anakin-skywalker-delta-7-aethersprite-squadron"
+  ],
+  "Splashakin": [
     "anakin-skywalker-delta-7-aethersprite-squadron"
   ],
   "V-19 Torrent Squadron": [
@@ -9464,7 +9499,8 @@
   "Blue": [
     "grand-admiral-thrawn-commander",
     "superheavy-composite-beam-turbolasers",
-    "roman-blue-title-halo-legends"
+    "roman-blue-title-halo-legends",
+    "blue-hawk-title-legends"
   ],
   "Man": [
     "grand-admiral-thrawn-commander"
@@ -12839,7 +12875,8 @@
     "bright-hope-title"
   ],
   "BH": [
-    "bright-hope-title"
+    "bright-hope-title",
+    "blue-hawk-title-legends"
   ],
   "Quantum Storm": [
     "quantum-storm-title"
@@ -15187,11 +15224,13 @@
   ],
   "Light Frigate": [
     "adamant-frigate-bsg-legends",
-    "talon-frigate-bsg-legends"
+    "talon-frigate-bsg-legends",
+    "lancer-class-light-frigate-legends"
   ],
   "Light-Frigate": [
     "adamant-frigate-bsg-legends",
-    "talon-frigate-bsg-legends"
+    "talon-frigate-bsg-legends",
+    "lancer-class-light-frigate-legends"
   ],
   "ACLF": [
     "adamant-frigate-bsg-legends"
@@ -15803,6 +15842,102 @@
   "Mk.2": [
     "war-basestar-mk2-bsg-legends"
   ],
+  "Lancer Class Escort Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer-Class-Escort-Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer Class": [
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer-Class": [
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer Class Escort": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer-Class-Escort": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Class": [
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends",
+    "corona-class-support-frigate-new-republic-legends",
+    "endurance-class-fleet-carrier-new-republic-legends",
+    "nebula-class-star-destroyer-new-republic-legends",
+    "neutron-star-class-bulk-carrier-scum-legends",
+    "neutron-star-class-bulk-cruiser-scum-legends",
+    "alpha-class-star-wing-squadron-legends",
+    "karsabi-alpha-class-star-wing-squadron-legends"
+  ],
+  "Class Escort": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends"
+  ],
+  "Class-Escort": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends"
+  ],
+  "Class Escort Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Class-Escort-Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "LCEF": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer Class Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer-Class-Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Class Frigate": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends"
+  ],
+  "Class-Frigate": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends"
+  ],
+  "LCF": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer Class Light Frigate": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer-Class-Light-Frigate": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer Class Light": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer-Class-Light": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Class Light": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Class-Light": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Class Light Frigate": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Class-Light-Frigate": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "LCLF": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "LCL": [
+    "lancer-class-light-frigate-legends"
+  ],
   "Corona-class Escort Frigate {NR}": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
@@ -15934,16 +16069,6 @@
     "corona-class-escort-frigate-new-republic-legends",
     "corona-class-support-frigate-new-republic-legends"
   ],
-  "Class": [
-    "corona-class-escort-frigate-new-republic-legends",
-    "corona-class-support-frigate-new-republic-legends",
-    "endurance-class-fleet-carrier-new-republic-legends",
-    "nebula-class-star-destroyer-new-republic-legends",
-    "neutron-star-class-bulk-carrier-scum-legends",
-    "neutron-star-class-bulk-cruiser-scum-legends",
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends"
-  ],
   "Corona-Class Escort": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
@@ -15953,12 +16078,6 @@
   "Corona-Class-Escort": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
-  "Class Escort": [
-    "corona-class-escort-frigate-new-republic-legends"
-  ],
-  "Class-Escort": [
-    "corona-class-escort-frigate-new-republic-legends"
-  ],
   "Corona-Class Frigate": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
@@ -15966,12 +16085,6 @@
     "corona-class-escort-frigate-new-republic-legends"
   ],
   "Corona-Class-Frigate": [
-    "corona-class-escort-frigate-new-republic-legends"
-  ],
-  "Class Frigate": [
-    "corona-class-escort-frigate-new-republic-legends"
-  ],
-  "Class-Frigate": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
   "Corona-class Support Frigate {NR}": [
@@ -20356,6 +20469,15 @@
   ],
   "KBC": [
     "kyber-beam-cannon-legends"
+  ],
+  "Blue Hawk": [
+    "blue-hawk-title-legends"
+  ],
+  "Blue-Hawk": [
+    "blue-hawk-title-legends"
+  ],
+  "Furious": [
+    "furious-title-legends"
   ],
   "Condor": [
     "condor-title-legends"
