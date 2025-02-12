@@ -130,6 +130,8 @@
     "ccs-class-battle-cruiser-halo-legends",
     "sdv-class-assault-corvette-halo-legends",
     "sdv-class-heavy-corvette-halo-legends",
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends",
     "corona-class-escort-frigate-new-republic-legends",
     "corona-class-support-frigate-new-republic-legends",
     "endurance-class-fleet-carrier-new-republic-legends",
@@ -158,6 +160,7 @@
     "recusant-class-light-destroyer",
     "adamant-carrier-bsg-legends",
     "adamant-frigate-bsg-legends",
+    "lancer-class-light-frigate-legends",
     "halcyon-light-halo-legends"
   ],
   "class-Light": [
@@ -165,6 +168,7 @@
     "recusant-class-light-destroyer",
     "adamant-carrier-bsg-legends",
     "adamant-frigate-bsg-legends",
+    "lancer-class-light-frigate-legends",
     "halcyon-light-halo-legends"
   ],
   "class Light Cruiser": [
@@ -6894,10 +6898,14 @@
     "lancer-class-light-frigate-legends"
   ],
   "Lancer class": [
-    "lancer-class-pursuit-craft"
+    "lancer-class-pursuit-craft",
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends"
   ],
   "Lancer-class": [
-    "lancer-class-pursuit-craft"
+    "lancer-class-pursuit-craft",
+    "lancer-class-escort-frigate-legends",
+    "lancer-class-light-frigate-legends"
   ],
   "Lancer class Pursuit": [
     "lancer-class-pursuit-craft"
@@ -15217,10 +15225,12 @@
     "adamant-frigate-bsg-legends"
   ],
   "class Light Frigate": [
-    "adamant-frigate-bsg-legends"
+    "adamant-frigate-bsg-legends",
+    "lancer-class-light-frigate-legends"
   ],
   "class-Light-Frigate": [
-    "adamant-frigate-bsg-legends"
+    "adamant-frigate-bsg-legends",
+    "lancer-class-light-frigate-legends"
   ],
   "Light Frigate": [
     "adamant-frigate-bsg-legends",
@@ -15842,10 +15852,46 @@
   "Mk.2": [
     "war-basestar-mk2-bsg-legends"
   ],
-  "Lancer Class Escort Frigate": [
+  "Lancer-class Escort Frigate": [
     "lancer-class-escort-frigate-legends"
   ],
-  "Lancer-Class-Escort-Frigate": [
+  "Lancer class Escort Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer-class-Escort-Frigate": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer class Escort": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "Lancer-class-Escort": [
+    "lancer-class-escort-frigate-legends"
+  ],
+  "class Escort": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends",
+    "stalwart-escort-halo-legends",
+    "stalwart-light-halo-legends"
+  ],
+  "class-Escort": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends",
+    "stalwart-escort-halo-legends",
+    "stalwart-light-halo-legends"
+  ],
+  "class Escort Frigate": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends",
+    "stalwart-escort-halo-legends",
+    "stalwart-light-halo-legends"
+  ],
+  "class-Escort-Frigate": [
+    "lancer-class-escort-frigate-legends",
+    "corona-class-escort-frigate-new-republic-legends",
+    "stalwart-escort-halo-legends",
+    "stalwart-light-halo-legends"
+  ],
+  "LCEF": [
     "lancer-class-escort-frigate-legends"
   ],
   "Lancer Class": [
@@ -15855,12 +15901,6 @@
   "Lancer-Class": [
     "lancer-class-escort-frigate-legends",
     "lancer-class-light-frigate-legends"
-  ],
-  "Lancer Class Escort": [
-    "lancer-class-escort-frigate-legends"
-  ],
-  "Lancer-Class-Escort": [
-    "lancer-class-escort-frigate-legends"
   ],
   "Class": [
     "lancer-class-escort-frigate-legends",
@@ -15873,23 +15913,6 @@
     "neutron-star-class-bulk-cruiser-scum-legends",
     "alpha-class-star-wing-squadron-legends",
     "karsabi-alpha-class-star-wing-squadron-legends"
-  ],
-  "Class Escort": [
-    "lancer-class-escort-frigate-legends",
-    "corona-class-escort-frigate-new-republic-legends"
-  ],
-  "Class-Escort": [
-    "lancer-class-escort-frigate-legends",
-    "corona-class-escort-frigate-new-republic-legends"
-  ],
-  "Class Escort Frigate": [
-    "lancer-class-escort-frigate-legends"
-  ],
-  "Class-Escort-Frigate": [
-    "lancer-class-escort-frigate-legends"
-  ],
-  "LCEF": [
-    "lancer-class-escort-frigate-legends"
   ],
   "Lancer Class Frigate": [
     "lancer-class-escort-frigate-legends"
@@ -15908,10 +15931,22 @@
   "LCF": [
     "lancer-class-escort-frigate-legends"
   ],
-  "Lancer Class Light Frigate": [
+  "Lancer-class Light Frigate": [
     "lancer-class-light-frigate-legends"
   ],
-  "Lancer-Class-Light-Frigate": [
+  "Lancer class Light Frigate": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer-class-Light-Frigate": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer class Light": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "Lancer-class-Light": [
+    "lancer-class-light-frigate-legends"
+  ],
+  "LCLF": [
     "lancer-class-light-frigate-legends"
   ],
   "Lancer Class Light": [
@@ -15924,15 +15959,6 @@
     "lancer-class-light-frigate-legends"
   ],
   "Class-Light": [
-    "lancer-class-light-frigate-legends"
-  ],
-  "Class Light Frigate": [
-    "lancer-class-light-frigate-legends"
-  ],
-  "Class-Light-Frigate": [
-    "lancer-class-light-frigate-legends"
-  ],
-  "LCLF": [
     "lancer-class-light-frigate-legends"
   ],
   "LCL": [
@@ -15966,26 +15992,6 @@
   ],
   "Corona-class-Escort-Frigate": [
     "corona-class-escort-frigate-new-republic-legends"
-  ],
-  "class Escort": [
-    "corona-class-escort-frigate-new-republic-legends",
-    "stalwart-escort-halo-legends",
-    "stalwart-light-halo-legends"
-  ],
-  "class-Escort": [
-    "corona-class-escort-frigate-new-republic-legends",
-    "stalwart-escort-halo-legends",
-    "stalwart-light-halo-legends"
-  ],
-  "class Escort Frigate": [
-    "corona-class-escort-frigate-new-republic-legends",
-    "stalwart-escort-halo-legends",
-    "stalwart-light-halo-legends"
-  ],
-  "class-Escort-Frigate": [
-    "corona-class-escort-frigate-new-republic-legends",
-    "stalwart-escort-halo-legends",
-    "stalwart-light-halo-legends"
   ],
   "class Escort Frigate {NR}": [
     "corona-class-escort-frigate-new-republic-legends"
@@ -16076,6 +16082,12 @@
     "corona-class-escort-frigate-new-republic-legends"
   ],
   "Corona-Class-Escort": [
+    "corona-class-escort-frigate-new-republic-legends"
+  ],
+  "Class Escort": [
+    "corona-class-escort-frigate-new-republic-legends"
+  ],
+  "Class-Escort": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
   "Corona-Class Frigate": [
