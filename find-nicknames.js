@@ -60,6 +60,41 @@ const legacyNicknameMap = {};
 const legendsNicknameMap = {};
 const armadaNicknameMap = {};
 
+function generateNicknames(originalName) {
+  const nicknames = new Set();
+  
+  // Add original name
+  nicknames.add(originalName);
+  
+  // Handle hyphenated and space-separated versions
+  const nameWithSpaces = originalName.replace(/-/g, ' ');
+  const nameWithHyphens = originalName.replace(/\s+/g, '-');
+  nicknames.add(nameWithSpaces);
+  nicknames.add(nameWithHyphens);
+  
+  // Split into parts and generate combinations
+  const parts = nameWithSpaces.split(/[\s-]+/);
+  
+  // Generate all possible consecutive combinations
+  for (let i = 0; i < parts.length; i++) {
+    for (let j = i + 1; j <= parts.length; j++) {
+      const combination = parts.slice(i, j).join(' ');
+      if (combination.length > 2) { // Avoid single-letter combinations
+        nicknames.add(combination);
+        nicknames.add(combination.replace(/\s+/g, '-'));
+      }
+    }
+  }
+  
+  // Generate abbreviation (first letter of each word)
+  const abbreviation = parts.map(part => part[0].toUpperCase()).join('');
+  if (abbreviation.length > 1) {
+    nicknames.add(abbreviation);
+  }
+  
+  return Array.from(nicknames);
+}
+
 function processNicknames(directory, nicknameMap) {
   const files = fs.readdirSync(directory);
 
@@ -81,11 +116,13 @@ function processNicknames(directory, nicknameMap) {
               const nicknames = new Set();
               
               if (modelData.name) {
-                nicknames.add(modelData.name);
+                generateNicknames(modelData.name).forEach(n => nicknames.add(n));
               }
               
               if (Array.isArray(modelData.nicknames)) {
-                modelData.nicknames.forEach(nickname => nicknames.add(nickname));
+                modelData.nicknames.forEach(nickname => {
+                  generateNicknames(nickname).forEach(n => nicknames.add(n));
+                });
               }
 
               nicknames.forEach(nickname => {
@@ -102,15 +139,17 @@ function processNicknames(directory, nicknameMap) {
             const nicknames = new Set();
             
             if (itemData.name) {
-              nicknames.add(itemData.name);
+              generateNicknames(itemData.name).forEach(n => nicknames.add(n));
             }
             
             if (itemData['ace-name']) {
-              nicknames.add(itemData['ace-name']);
+              generateNicknames(itemData['ace-name']).forEach(n => nicknames.add(n));
             }
             
             if (Array.isArray(itemData.nicknames)) {
-              itemData.nicknames.forEach(nickname => nicknames.add(nickname));
+              itemData.nicknames.forEach(nickname => {
+                generateNicknames(nickname).forEach(n => nicknames.add(n));
+              });
             }
             
             nicknames.forEach(nickname => {
