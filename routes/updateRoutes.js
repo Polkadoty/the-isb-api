@@ -1,8 +1,19 @@
-// import express from 'express';
-// import { getUpdates } from '../controllers/updateController.js';
+import express from 'express';
+import { getUpdates } from '../controllers/updateController.js';
+import { validateUpdateFile } from '../utils/validateUpdates.js';
 
-// const router = express.Router();
+const router = express.Router();
 
-// router.get('/', getUpdates);
+// Get all updates
+router.get('/', getUpdates);
 
-// export default router; 
+// Check update file status
+router.get('/status', async (req, res) => {
+  const isValid = await validateUpdateFile();
+  res.json({
+    status: isValid ? 'valid' : 'invalid',
+    timestamp: new Date().toISOString()
+  });
+});
+
+export default router; 

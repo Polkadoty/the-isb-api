@@ -108,7 +108,7 @@ app.use('/image-links', imageLinksRoutes);
 app.use('/errata-keys', errataKeysRoutes);
 app.use('/expansions', expansionRoutes);
 app.use('/releases', releaseRoutes);
-// app.use('/updates', updateRoutes);
+app.use('/updates', updateRoutes);
 // app.use('/amg', amgRoutes);
 
 // Image server middleware
