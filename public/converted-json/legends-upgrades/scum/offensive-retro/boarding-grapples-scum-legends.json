@@ -1,6 +1,6 @@
 {
   "upgrades": {
-    "boarding-grapplers-scum-legends": {
+    "boarding-grapples-scum-legends": {
       "author": "Armada Legends",
       "alias": "Legends",
       "team": "Legends",
@@ -11,9 +11,10 @@
       "faction": [
         "scum"
       ],
-      "name": "Boarding Grapplers {Scum}",
+      "name": "Boarding Grapples {Scum}",
       "nicknames": [
-        "Boarding Grapplers", "BG"
+        "Boarding Grapples",
+        "BG"
       ],
       "unique-class": [
         ""
@@ -56,7 +57,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/boarding-grapplers-scum-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/boarding-grapples-scum-legends.webp"
     }
   }
 }

@@ -86,10 +86,16 @@ function generateNicknames(originalName) {
     }
   }
   
-  // Generate abbreviation (first letter of each word)
-  const abbreviation = parts.map(part => part[0].toUpperCase()).join('');
-  if (abbreviation.length > 1) {
-    nicknames.add(abbreviation);
+  // Generate abbreviation only if there are 3 or more distinct words
+  // First clean the parts by removing any non-alphanumeric characters
+  const cleanParts = parts.map(part => part.replace(/[^a-zA-Z0-9]/g, ''))
+                         .filter(part => part.length > 0); // Remove empty parts
+  
+  if (cleanParts.length >= 3) {
+    const abbreviation = cleanParts.map(part => part[0].toUpperCase()).join('');
+    if (abbreviation.length > 1) {
+      nicknames.add(abbreviation);
+    }
   }
   
   return Array.from(nicknames);
@@ -110,9 +116,21 @@ function processNicknames(directory, nicknameMap) {
         const topLevelKey = Object.keys(data)[0];
 
         Object.entries(data[topLevelKey]).forEach(([itemKey, itemData]) => {
+          // Skip if the faction is from Halo or BSG
+          if (itemData.faction && 
+              ['unsc', 'covenant', 'cylon', 'colonial'].includes(itemData.faction.toLowerCase())) {
+            return;
+          }
+
           if (topLevelKey === 'ships') {
             // Handle ships which have models
             Object.entries(itemData.models).forEach(([modelKey, modelData]) => {
+              // Skip if the model's faction is from Halo or BSG
+              if (modelData.faction && 
+                  ['unsc', 'covenant', 'cylon', 'colonial'].includes(modelData.faction.toLowerCase())) {
+                return;
+              }
+
               const nicknames = new Set();
               
               if (modelData.name) {
@@ -138,12 +156,12 @@ function processNicknames(directory, nicknameMap) {
             // Handle other types (squadrons, upgrades, objectives)
             const nicknames = new Set();
             
-            if (itemData.name) {
-              generateNicknames(itemData.name).forEach(n => nicknames.add(n));
-            }
-            
             if (itemData['ace-name']) {
+              // For squadrons with ace names, only generate nicknames from the ace name
               generateNicknames(itemData['ace-name']).forEach(n => nicknames.add(n));
+            } else if (itemData.name) {
+              // For non-ace squadrons and other types, generate nicknames from the name
+              generateNicknames(itemData.name).forEach(n => nicknames.add(n));
             }
             
             if (Array.isArray(itemData.nicknames)) {
