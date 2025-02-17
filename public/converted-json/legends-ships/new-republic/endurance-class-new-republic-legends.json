@@ -15,9 +15,6 @@
           1
         ],
         "3": [
-          0,
-          1,
-          1
         ],
         "4": []
       },
@@ -55,8 +52,10 @@
           ],
           "faction": "new-republic",
           "unique": false,
-          "traits": [],
-          "points": 95,
+          "traits": [
+            "new-class", "bombard"
+          ],
+          "points": 90,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -73,9 +72,11 @@
           "upgrades": [
             "commander",
             "officer",
+            "support-team",
             "weapons-team",
-            "fleet-command",
             "offensive-retro",
+            "weapons-team-offensive-retro",
+            "fleet-command",
             "turbolaser",
             "title"
           ],

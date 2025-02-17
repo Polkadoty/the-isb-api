@@ -54,8 +54,10 @@
           ],
           "faction": "new-republic",
           "unique": false,
-          "traits": [],
-          "points": 120,
+          "traits": [
+            "bombard"
+          ],
+          "points": 114,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,
@@ -143,8 +145,10 @@
           ],
           "faction": "new-republic",
           "unique": false,
-          "traits": [],
-          "points": 115,
+          "traits": [
+            "comms"
+          ],
+          "points": 107,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 0,

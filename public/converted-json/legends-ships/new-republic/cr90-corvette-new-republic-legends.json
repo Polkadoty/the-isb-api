@@ -60,8 +60,10 @@
           ],
           "faction": "new-republic",
           "unique": false,
-          "traits": [],
-          "points": 45,
+          "traits": [
+            "senate"
+          ],
+          "points": 46,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 2,

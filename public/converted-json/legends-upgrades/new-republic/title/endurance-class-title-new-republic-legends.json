@@ -55,6 +55,62 @@
             },
             "artwork": "",
             "cardimage": "https://api.swarmada.wiki/images/endurance-title-new-republic-legends.webp"
+        },
+        "intrepid-title-new-republic-legends": {
+            "author": "Armada Legends",
+            "alias": "Legends",
+            "team": "Legends",
+            "release": "New Republic Wave 0",
+            "expansion": "New Republic Wave 0",
+            "_id": null,
+            "type": "title",
+            "faction": "new-republic",
+            "name": "Intrepid {NR}",
+            "nicknames": [
+                "Intrepid", "Intrepid Title"
+            ],
+            "unique-class": [
+                "Intrepid"
+            ],
+            "ability": "When attacking a squadron, each of your unspent :accuracy: icons add 1 damage to the damage total.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "endurance-class-new-republic-legends",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "token",
+                "start_icon": [
+                    "nav", "repair"
+                ],
+                "start_amount": 5
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/intrepid-title-new-republic-legends.webp"
         }
     }
 }

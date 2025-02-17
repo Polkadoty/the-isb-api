@@ -1,0 +1,57 @@
+{
+  "upgrades": {
+    "talon-karrde-officer-new-republic-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "New Republic Wave 0",
+      "expansion": "New Republic Wave 0",
+      "_id": null,
+      "type": "officer",
+      "faction": "new-republic",
+      "name": "Talon Karrde {NR}",
+      "nicknames": [
+        "Talon"
+      ],
+      "unique-class": [
+        "Talon Karrde"
+      ],
+      "ability": "When you reveal a command, you may discard one command token from this card to discard a matching command token from an enemy ship at distance 1-3.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/talon-karrde-officer-new-republic-legends.webp"
+    }
+  }
+}

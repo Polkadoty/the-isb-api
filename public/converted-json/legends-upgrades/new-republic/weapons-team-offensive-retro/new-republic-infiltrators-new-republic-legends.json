@@ -1,0 +1,63 @@
+{
+  "upgrades": {
+    "new-republic-infiltrators-new-republic-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "New Republic Wave 0",
+      "expansion": "New Republic Wave 0",
+      "_id": null,
+      "type": "weapons-team-offensive-retro",
+      "faction": [
+        "new-republic"
+      ],
+      "name": "New Republic Infiltrators {NR}",
+      "nicknames": [
+        "New Republic Infiltrators",
+        "Infiltrators"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*New Republic only.*\nWhen you reveal a command, you may discard a :squadron: dial or token and this card to choose 1 enemy ship at close range. That ship must discard its command dial without resolving a command during its next activation.",
+      "unique": false,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/new-republic-infiltrators-new-republic-legends.webp"
+    }
+  }
+}

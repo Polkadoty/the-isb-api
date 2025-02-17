@@ -121,7 +121,7 @@
         "heavy": false,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 4,
@@ -131,7 +131,7 @@
       "ability": "Once per round, after you perform an attack, you may spend a defense token to perform an additional attack against the same target using an anti-squadron armament of 2 blue dice.",
       "unique": true,
       "ace": true,
-      "points": 24,
+      "points": 22,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/corran-horn-e-wing-squadron-new-republic-legends.webp"
@@ -199,7 +199,7 @@
       "ability": "After an enemy squadron at distance 1-2 of you suffers damage, you may spend a readied defense token. If you do, the defender suffers 1 damage.",
       "unique": true,
       "ace": true,
-      "points": 22,
+      "points": 21,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/gavin-darklighter-e-wing-squadron-new-republic-legends.webp"
@@ -264,10 +264,10 @@
         "strategic": false,
         "swarm": false
       },
-      "ability": "Once per activation, while attacking, you may spend a die with an :accuracy: icon to add one die of any color to the attack pool.",
+      "ability": "While attacking, you may spend a die with an :accuracy: icon to add one die of any color to the attack pool.",
       "unique": true,
       "ace": true,
-      "points": 25,
+      "points": 23,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/luke-skywalker-e-wing-squadron-new-republic-legends.webp"

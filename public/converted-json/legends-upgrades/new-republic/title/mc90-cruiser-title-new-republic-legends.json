@@ -1,0 +1,60 @@
+{
+    "upgrades": {
+        "galactic-voyager-title-new-republic-legends": {
+            "author": "Armada Legends",
+            "alias": "Legends",
+            "team": "Legends",
+            "release": "New Republic Wave 0",
+            "expansion": "New Republic Wave 0",
+            "_id": null,
+            "type": "title",
+            "faction": "new-republic",
+            "name": "Galactic Voyager {NR}",
+            "nicknames": [
+                "Galactic Voyager", "Galactic Voyager Title"
+            ],
+            "unique-class": [
+                "Galactic Voyager"
+            ],
+            "ability": "After the Reveal Command Dial step, you may choose up to 2 friendly ships at distance 1-5. Each chosen ship discards 1 command token. For each token discarded this way, that ship may gain 1 command token of your choice.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "mc90-cruiser-new-republic-legends",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/galactic-voyager-title-new-republic-legends.webp"
+        }
+    }
+}

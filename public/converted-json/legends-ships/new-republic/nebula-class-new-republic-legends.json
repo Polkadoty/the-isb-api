@@ -59,7 +59,9 @@
           ],
           "faction": "new-republic",
           "unique": false,
-          "traits": [],
+          "traits": [
+            "new-class", "bombard"
+          ],
           "points": 105,
           "tokens": {
             "def_scatter": 0,
@@ -79,6 +81,7 @@
             "officer",
             "weapons-team",
             "offensive-retro",
+            "weapons-team-offensive-retro",
             "turbolaser",
             "turbolaser",
             "title"

@@ -1,0 +1,57 @@
+{
+  "upgrades": {
+    "cilghal-officer-new-republic-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "New Republic Wave 0",
+      "expansion": "New Republic Wave 0",
+      "_id": null,
+      "type": "officer",
+      "faction": "new-republic",
+      "name": "Cilghal {NR}",
+      "nicknames": [
+        "Cilghal"
+      ],
+      "unique-class": [
+        "Cilghal"
+      ],
+      "ability": "At the beginning of the Ship Phase, you may spend 1 :redirect: token to move up to 2 shields from 1 of your hull zones to another hull zones. If you do, the number of shields in that hull zone cannot exceed '6.' You cannot recover shields while any hull zone is greater than its maximum shield value.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cilghal-officer-new-republic-legends.webp"
+    }
+  }
+}

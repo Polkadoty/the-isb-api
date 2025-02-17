@@ -18,7 +18,7 @@
       ],
       "ability": "While a friendly ship resolves a :squadron: command, if it spent a :squadron: token, each squadron it activates may increase its speed by 1 to a maximum of 5 until the end of its activation.\nFriendly squadrons without ESCORT gain GRIT while at distance 1 of friendly squadrons with ESCORT.",
       "unique": true,
-      "points": 30,
+      "points": 26,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {

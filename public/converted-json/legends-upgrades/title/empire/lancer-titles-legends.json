@@ -74,9 +74,9 @@
       "unique-class": [
         "Furious"
       ],
-      "ability": "While attacking a squadron, each of your :crit: icons add 1 damage to the damage total.",
+      "ability": "While attacking a squadron, each of your unspent :accuracy: icons add 1 damage to the damage total.",
       "unique": true,
-      "points": 6,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "lancer-class-frigate-legends",
       "restrictions": {
