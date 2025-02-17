@@ -16,7 +16,7 @@
             "unique-class": [
                 "Brilliant"
             ],
-            "ability": "While defending, you may exhaust this card and a readied defense token to resolve the :evade: defense effect instead of that token's effect.",
+            "ability": "While defending, you may exhaust a readied defense token to resolve the :evade: defense effect instead of that token's effect.",
             "unique": true,
             "points": 5,
             "modification": false,
@@ -74,7 +74,7 @@
             ],
             "ability": "When attacking a squadron, each of your unspent :accuracy: icons add 1 damage to the damage total.",
             "unique": true,
-            "points": 6,
+            "points": 3,
             "modification": false,
             "bound_shiptype": "nebula-class-new-republic-legends",
             "restrictions": {
