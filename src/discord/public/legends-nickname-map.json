@@ -1479,8 +1479,7 @@
   ],
   "Lancer": [
     "lancer-class-pursuit-craft",
-    "lancer-class-escort-frigate-legends",
-    "lancer-class-light-frigate-legends"
+    "lancer-class-escort-frigate-legends"
   ],
   "Shadow Caster": [
     "ketsu-onyo-lancer-class-pursuit-craft"
@@ -2254,11 +2253,13 @@
   ],
   "Leia Organa": [
     "leia-organa-commander",
-    "leia-organa-officer"
+    "leia-organa-officer",
+    "leia-organa-solo-officer-new-republic-legends"
   ],
   "Leia": [
     "leia-organa-commander",
-    "leia-organa-officer"
+    "leia-organa-officer",
+    "leia-organa-solo-officer-new-republic-legends"
   ],
   "Luminara": [
     "luminara-unduli-commander"
@@ -4424,17 +4425,10 @@
     "lancer-class-escort-frigate-legends"
   ],
   "Lancer Class": [
-    "lancer-class-escort-frigate-legends",
-    "lancer-class-light-frigate-legends"
+    "lancer-class-escort-frigate-legends"
   ],
   "Lancer Class Frigate": [
     "lancer-class-escort-frigate-legends"
-  ],
-  "Lancer-class Light Frigate": [
-    "lancer-class-light-frigate-legends"
-  ],
-  "Lancer Class Light": [
-    "lancer-class-light-frigate-legends"
   ],
   "Corona-class Escort Frigate {NR}": [
     "corona-class-escort-frigate-new-republic-legends"
@@ -5238,6 +5232,18 @@
   "Wedge Antilles {NR}": [
     "wedge-antilles-commander-new-republic-legends"
   ],
+  "Nova Flare {NR}": [
+    "nova-flare-new-republic-legends"
+  ],
+  "Nova Flare": [
+    "nova-flare-new-republic-legends"
+  ],
+  "NF": [
+    "nova-flare-new-republic-legends"
+  ],
+  "NOVA": [
+    "nova-flare-new-republic-legends"
+  ],
   "Slam Refits {NR}": [
     "slam-refits-new-republic-legends"
   ],
@@ -5276,6 +5282,15 @@
   ],
   "Brand": [
     "commodore-turk-brand-officer-new-republic-legends"
+  ],
+  "Leia Organa Solo {NR}": [
+    "leia-organa-solo-officer-new-republic-legends"
+  ],
+  "Leia Organa Solo": [
+    "leia-organa-solo-officer-new-republic-legends"
+  ],
+  "Leia Solo": [
+    "leia-organa-solo-officer-new-republic-legends"
   ],
   "Talon Karrde {NR}": [
     "talon-karrde-officer-new-republic-legends"
@@ -5532,6 +5547,9 @@
   ],
   "Furious": [
     "furious-title-legends"
+  ],
+  "Pulsar": [
+    "pulsar-title-legends"
   ],
   "Condor": [
     "condor-title-legends"

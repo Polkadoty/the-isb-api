@@ -1,0 +1,57 @@
+{
+  "upgrades": {
+    "new-republic-wing-commander-officer-new-republic-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "New Republic Wave 0",
+      "expansion": "New Republic Wave 0",
+      "_id": null,
+      "type": "officer",
+      "faction": "new-republic",
+      "name": "New Republic Wing Commander {NR}",
+      "nicknames": [
+        "New Republic Wing Commander"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While a friendly squadron at distance 1-2 is attacking a squadron, it may reroll 1 blue die.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/new-republic-wing-commander-officer-new-republic-legends.webp"
+    }
+  }
+}

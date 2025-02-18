@@ -76,6 +76,7 @@
             "commander",
             "officer",
             "support-team",
+            "fleet-command",
             "offensive-retro",
             "turbolaser",
             "title"
@@ -143,7 +144,7 @@
           "traits": [
             "comms", "transport"
           ],
-          "points": 50,
+          "points": 46,
           "tokens": {
             "def_scatter": 0,
             "def_evade": 1,

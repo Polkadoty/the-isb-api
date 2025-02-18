@@ -1,0 +1,57 @@
+{
+  "upgrades": {
+    "nova-flare-new-republic-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "New Republic Wave 0",
+      "expansion": "New Republic Wave 0",
+      "_id": null,
+      "type": "fleet-command",
+      "faction": "new-republic",
+      "name": "Nova Flare {NR}",
+      "nicknames": [
+        "Nova Flare", "NF", "NOVA"
+      ],
+      "unique-class": [
+        "Nova Flare"
+      ],
+      "ability": "At the start of each Ship Phase, you may discard this card or spend a :confire: token. If you do, until the end of the round, while a friendly ship or squadron with BOMBER is attacking a ship, if the defending hull zone has 1 or more shields, it may reroll 1 die.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nova-flare-new-republic-legends.webp"
+    }
+  }
+}

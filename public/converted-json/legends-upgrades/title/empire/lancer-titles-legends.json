@@ -113,6 +113,63 @@
       },
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/furious-title-legends.webp"
+    },
+    "pulsar-title-legends": {
+      "author": [
+        "Armada Legends"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Pulsar",
+      "unique-class": [
+        "Pulsar"
+      ],
+      "ability": "You gain 1 :ordnance: upgrade in your upgrade bar. You may only equip one :offensive-retro: upgrade.\nAt the end of the Squadron Phase, you may attack 1 enemy squadron at distance 1 with your printed anti-squadron armament. You cannot add dice to this attack.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "lancer-class-frigate-legends",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          "offensive-retro"
+        ],
+        "enable_upgrades": [
+          "ordnance", "offensive-retro"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/pulsar-title-legends.webp"
     }
   }
 }
