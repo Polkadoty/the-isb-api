@@ -1,24 +1,24 @@
 {
   "upgrades": {
-    "new-republic-wing-commander-officer-new-republic-legends": {
+    "general-cracken-commander-new-republic-legends": {
       "author": "Armada Legends",
       "alias": "Legends",
       "team": "Legends",
       "release": "New Republic Wave 0",
       "expansion": "New Republic Wave 0",
       "_id": null,
-      "type": "officer",
+      "type": "commander",
       "faction": "new-republic",
-      "name": "New Republic Wing Commander {NR}",
+      "name": "General Cracken {NR}",
       "nicknames": [
-        "New Republic Wing Commander"
+        "General", "Cracken"
       ],
       "unique-class": [
-        ""
+        "General Cracken"
       ],
-      "ability": "While a friendly squadron at distance 1-2 is attacking a squadron, it may reroll 1 blue die.",
+      "ability": "When a friendly ship at distance 1-5 is declared the target of an attack by an enemy ship, it may spend a readied defense token to obstruct that attack.",
       "unique": true,
-      "points": 4,
+      "points": 24,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -32,6 +32,9 @@
           ""
         ],
         "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -51,7 +54,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/new-republic-wing-commander-officer-new-republic-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/general-cracken-commander-new-republic-legends.webp"
     }
   }
 }

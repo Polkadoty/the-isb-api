@@ -47,7 +47,7 @@
                 "start_amount": 0
             },
             "exhaust": {
-                "type": "recur",
+                "type": "",
                 "ready_token": [
                     ""
                 ],
@@ -55,6 +55,62 @@
             },
             "artwork": "",
             "cardimage": "https://api.swarmada.wiki/images/galactic-voyager-title-new-republic-legends.webp"
+        },
+        "defiance-title-new-republic-legends": {
+            "author": "Armada Legends",
+            "alias": "Legends",
+            "team": "Legends",
+            "release": "New Republic Wave 0",
+            "expansion": "New Republic Wave 0",
+            "_id": null,
+            "type": "title",
+            "faction": "new-republic",
+            "name": "Defiance {NR}",
+            "nicknames": [
+                "Defiance", "Defiance Title"
+            ],
+            "unique-class": [
+                "Defiance"
+            ],
+            "ability": "While attacking a ship that has already activated this round, add 1 die of any color to the attack pool.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "mc90-cruiser-new-republic-legends",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/defiance-title-new-republic-legends.webp"
         }
     }
 }
