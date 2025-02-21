@@ -18,7 +18,7 @@
       ],
       "ability": "*Non-small ship only*. ",
       "unique": true,
-      "points": 6,
+      "points": 5,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -26,7 +26,8 @@
           ""
         ],
         "size": [
-          ""
+          "medium",
+          "large"
         ],
         "disqual_upgrades": [
           ""
