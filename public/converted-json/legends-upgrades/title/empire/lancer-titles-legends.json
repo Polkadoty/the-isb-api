@@ -147,10 +147,13 @@
           ""
         ],
         "disable_upgrades": [
-          "offensive-retro"
+          ""
         ],
         "enable_upgrades": [
-          "ordnance", "offensive-retro"
+          "ordnance"
+        ],
+        "grey_upgrades": [
+          "offensive-retro"
         ],
         "flagship": false
       },
