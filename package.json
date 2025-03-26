@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build-data": "node start.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",
