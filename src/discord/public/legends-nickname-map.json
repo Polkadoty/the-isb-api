@@ -87,6 +87,12 @@
     "imperial-star-destroyer-cymoon-refit",
     "imperial-star-destroyer-kuat-refit"
   ],
+  "ISD1": [
+    "imperial-i-class-star-destroyer"
+  ],
+  "ISD 1": [
+    "imperial-i-class-star-destroyer"
+  ],
   "Imperial II-class Star Destroyer": [
     "imperial-ii-class-star-destroyer"
   ],
@@ -94,6 +100,12 @@
     "imperial-ii-class-star-destroyer"
   ],
   "Imperial II": [
+    "imperial-ii-class-star-destroyer"
+  ],
+  "ISD2": [
+    "imperial-ii-class-star-destroyer"
+  ],
+  "ISD 2": [
     "imperial-ii-class-star-destroyer"
   ],
   "Imperial Star Destroyer Cymoon 1 Refit": [
@@ -297,7 +309,35 @@
     "victory-i-class-star-destroyer",
     "victory-i-class-star-destroyer-republic"
   ],
+  "VSD1": [
+    "victory-i-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "VSD 1": [
+    "victory-i-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
+  "VSD": [
+    "victory-i-class-star-destroyer",
+    "victory-ii-class-star-destroyer",
+    "victory-i-class-star-destroyer-republic"
+  ],
   "Victory II-class Star Destroyer": [
+    "victory-ii-class-star-destroyer"
+  ],
+  "Victory 2": [
+    "victory-ii-class-star-destroyer"
+  ],
+  "Victory II": [
+    "victory-ii-class-star-destroyer"
+  ],
+  "Victory II-class": [
+    "victory-ii-class-star-destroyer"
+  ],
+  "VSD2": [
+    "victory-ii-class-star-destroyer"
+  ],
+  "VSD 2": [
     "victory-ii-class-star-destroyer"
   ],
   "Assault Frigate Mark II A": [
@@ -582,6 +622,10 @@
     "nebulon-b-escort-frigate",
     "nebulon-b-support-refit"
   ],
+  "Nebulon": [
+    "nebulon-b-escort-frigate",
+    "nebulon-b-support-refit"
+  ],
   "Nebulon-B Support Refit": [
     "nebulon-b-support-refit"
   ],
@@ -722,6 +766,13 @@
   "GAR Pelta": [
     "pelta-class-medical-frigate",
     "pelta-class-transport-frigate"
+  ],
+  "Quad": [
+    "pelta-class-medical-frigate",
+    "pelta-class-transport-frigate",
+    "quad-laser-turrets",
+    "quad-battery-turrets",
+    "quad-turbolaser-cannons"
   ],
   "Pelta-class Transport Frigate": [
     "pelta-class-transport-frigate"
@@ -1991,6 +2042,9 @@
   "Hyena Bombers": [
     "hyena-droid-bomber-squadron"
   ],
+  "Hyena": [
+    "hyena-droid-bomber-squadron"
+  ],
   "Baktoid Prototypes": [
     "baktoid-hyena-droid-bomber-squadron"
   ],
@@ -2798,6 +2852,9 @@
     "quad-laser-turrets"
   ],
   "Quads": [
+    "quad-laser-turrets"
+  ],
+  "Quad Laser": [
     "quad-laser-turrets"
   ],
   "Rapid Launch Bays": [
@@ -3859,6 +3916,9 @@
   "QBTs": [
     "quad-battery-turrets"
   ],
+  "Quad Battery": [
+    "quad-battery-turrets"
+  ],
   "Quad Turbolaser Cannons": [
     "quad-turbolaser-cannons"
   ],
@@ -3866,6 +3926,9 @@
     "quad-turbolaser-cannons"
   ],
   "QTCs": [
+    "quad-turbolaser-cannons"
+  ],
+  "Quad Turbolaser": [
     "quad-turbolaser-cannons"
   ],
   "Slaved Turrets": [
@@ -4586,6 +4649,10 @@
   ],
   "Armed": [
     "action-vi-armed-transports-scum-legends"
+  ],
+  "Action-vi": [
+    "action-vi-armed-transports-scum-legends",
+    "action-vi-bulk-transports-scum-legends"
   ],
   "Action VI Bulk Transports {Scum}": [
     "action-vi-bulk-transports-scum-legends"

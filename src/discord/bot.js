@@ -62,6 +62,10 @@ const KEYWORD_RESPONSES = {
     reaction: '😢',
     gifUrl: 'https://media1.giphy.com/media/l3diT8stVH9qImalO/giphy.gif?cid=6c09b9525fdxdlzp64duce6cahijwny0yfn1nc546o905q5v&ep=v1_gifs_search&rid=giphy.gif&ct=g'
   },
+  'hello there': {
+    reaction: '👋',
+    gifUrl: 'https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW43dWJvOHVpbm5lamphNmpmcmwyMDZ4a3BoeDdrdG9hd2x1dGY4cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7JC7bCJJGj44aBwB8p/giphy.gif'
+  },
   // 'agent of chaos': {
   //   reaction: '🤖',
   //   gifUrl: 'https://tenor.com/bXSo8.gif'
