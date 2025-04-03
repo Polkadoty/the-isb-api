@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "depa-billaba-officer-legends": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends April 2025 Dev Cycle",
+      "expansion": "Porax-38 Starfighter (LEG06)",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "republic"
+      ],
+      "name": "Depa Billaba",
+      "nicknames": [
+        "Depa Billaba"
+      ],
+      "unique-class": [
+        "Depa Billaba"
+      ],
+      "ability": "While attacking an enemy ship, you may reroll 1 die for each exhausted defense token you have.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/depa-billaba-officer-legends.webp"
+    }
+  }
+}
