@@ -2199,10 +2199,12 @@
     "commander-sato-commander"
   ],
   "Count Dooku": [
-    "count-dooku-commander"
+    "count-dooku-commander",
+    "count-dooku-scimitar-legacy"
   ],
   "Dooku": [
-    "count-dooku-commander"
+    "count-dooku-commander",
+    "count-dooku-scimitar-legacy"
   ],
   "Vader": [
     "darth-vader-commander",
@@ -5722,7 +5724,8 @@
   ],
   "G9": [
     "g9-rigger-class-freighter-legacy",
-    "anakin-skywalker-twilight-legacy"
+    "anakin-skywalker-twilight-legacy",
+    "r2-d2-twilight-legacy"
   ],
   "Republic Freighter": [
     "g9-rigger-class-freighter-legacy"
@@ -5735,19 +5738,29 @@
   ],
   "Twilight": [
     "g9-rigger-class-freighter-legacy",
-    "anakin-skywalker-twilight-legacy"
+    "anakin-skywalker-twilight-legacy",
+    "r2-d2-twilight-legacy"
   ],
   "Anakin Skywalker Twilight": [
     "anakin-skywalker-twilight-legacy"
   ],
   "G9 Twilight": [
-    "anakin-skywalker-twilight-legacy"
+    "anakin-skywalker-twilight-legacy",
+    "r2-d2-twilight-legacy"
   ],
   "GAR Twilight": [
-    "anakin-skywalker-twilight-legacy"
+    "anakin-skywalker-twilight-legacy",
+    "r2-d2-twilight-legacy"
   ],
   "Riggerkin": [
-    "anakin-skywalker-twilight-legacy"
+    "anakin-skywalker-twilight-legacy",
+    "r2-d2-twilight-legacy"
+  ],
+  "R2-D2": [
+    "r2-d2-twilight-legacy"
+  ],
+  "R2-D2 Twilight": [
+    "r2-d2-twilight-legacy"
   ],
   "HMP Droid Gunship": [
     "hmp-droid-gunship-legacy",
@@ -5768,7 +5781,8 @@
   ],
   "Sith Infiltrator": [
     "star-courier-legacy",
-    "darth-maul-scimitar-legacy"
+    "darth-maul-scimitar-legacy",
+    "count-dooku-scimitar-legacy"
   ],
   "Courier": [
     "star-courier-legacy"
@@ -5777,7 +5791,8 @@
     "star-courier-legacy"
   ],
   "Scimitar": [
-    "darth-maul-scimitar-legacy"
+    "darth-maul-scimitar-legacy",
+    "count-dooku-scimitar-legacy"
   ],
   "Darth Maul Scimitar": [
     "darth-maul-scimitar-legacy"
@@ -5787,6 +5802,12 @@
   ],
   "Maul Scimitar": [
     "darth-maul-scimitar-legacy"
+  ],
+  "Count Dooku Scimitar": [
+    "count-dooku-scimitar-legacy"
+  ],
+  "Dooku Scimitar": [
+    "count-dooku-scimitar-legacy"
   ],
   "Daultay Dofine": [
     "daultay-dofine-commander-legacy"

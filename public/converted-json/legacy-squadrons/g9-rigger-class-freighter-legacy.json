@@ -61,7 +61,7 @@
       },
       "ability": "",
       "unique": false,
-      "points": 15,
+      "points": 14,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/g9-rigger-class-freighter-legacy.webp"
@@ -132,6 +132,73 @@
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight-legacy.webp"
+    },
+    "r2-d2-twilight-legacy": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": null,
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "g9-rigger-class-freighter-legacy",
+      "name": "Twilight",
+      "nicknames": [
+        "R2-D2 Twilight", "R2-D2", "Twilight", "G9 Twilight", "G9", "GAR Twilight", "Riggerkin"
+      ],
+      "ace-name": "R2-D2",
+      "unique-class": [
+        "Twilight",
+        "R2-D2"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate you may suffer 1 damage. If you do you gain ROGUE and GRIT until the end of our activation",
+      "unique": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/r2-d2-twilight-legacy.webp"
     }
   }
 }

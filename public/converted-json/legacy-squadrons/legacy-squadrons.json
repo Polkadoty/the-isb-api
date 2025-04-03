@@ -6,7 +6,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "413de5a7-f1c2-4d6c-8209-a40126d157b0",
+      "_id": "68d9e226-ab7c-4164-8157-73c688aec767",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "g9-rigger-class-freighter-legacy",
@@ -67,7 +67,7 @@
       },
       "ability": "",
       "unique": false,
-      "points": 15,
+      "points": 14,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/g9-rigger-class-freighter-legacy.webp"
@@ -78,7 +78,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "f07f7eeb-2f3e-4385-b812-8c1fae20d86a",
+      "_id": "f712386b-e7f6-441e-95e1-61ed2be0c49c",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "g9-rigger-class-freighter-legacy",
@@ -145,13 +145,86 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/anakin-skywalker-twilight-legacy.webp"
     },
+    "r2-d2-twilight-legacy": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "5f2c5b68-2e10-4889-9336-e18be856d0aa",
+      "type": "squadron",
+      "faction": "republic",
+      "squadron_type": "g9-rigger-class-freighter-legacy",
+      "name": "Twilight",
+      "nicknames": [
+        "R2-D2 Twilight",
+        "R2-D2",
+        "Twilight",
+        "G9 Twilight",
+        "G9",
+        "GAR Twilight",
+        "Riggerkin"
+      ],
+      "ace-name": "R2-D2",
+      "unique-class": [
+        "Twilight",
+        "R2-D2"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          1
+        ],
+        "anti-ship": [
+          1,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate you may suffer 1 damage. If you do you gain ROGUE and GRIT until the end of our activation",
+      "unique": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/r2-d2-twilight-legacy.webp"
+    },
     "hmp-droid-gunship-legacy": {
       "author": "Armada Legacy",
       "alias": "Legacy",
       "team": "Armada Legacy",
       "release": "Legacy Wave 0 Beta",
       "expansion": "Legacy Wave 0 Beta",
-      "_id": "1abf38ed-c123-4830-ab47-721bc876c922",
+      "_id": "df7b8254-6de9-4cba-a3cf-476a515f991a",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "hmp-droid-gunship-legacy",
@@ -161,7 +234,7 @@
         ""
       ],
       "irregular": true,
-      "hull": 4,
+      "hull": 5,
       "speed": 3,
       "tokens": {
         "def_scatter": 0,
@@ -204,7 +277,7 @@
       "ability": "",
       "unique": false,
       "ace": false,
-      "points": 15,
+      "points": 14,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/hmp-droid-gunship-legacy.webp"
@@ -215,7 +288,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 0 Beta",
       "expansion": "Legacy Wave 0 Beta",
-      "_id": "fb58198e-97e4-4d00-ab61-193ea3e987f0",
+      "_id": "4c9aa776-a675-43a4-b535-8d34c6ef6a32",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "hmp-droid-gunship-legacy",
@@ -225,7 +298,7 @@
         "DGS-047"
       ],
       "irregular": true,
-      "hull": 4,
+      "hull": 5,
       "speed": 3,
       "tokens": {
         "def_scatter": 0,
@@ -268,7 +341,7 @@
       "ability": "Before you attack the first squadron in your activation, you may remove dice from your attack pool and place them on this card. After the Resolve Damage step, you may make an additional attack against a squadron using dice on this card as your attack pool.",
       "unique": true,
       "ace": true,
-      "points": 22,
+      "points": 20,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/dgs-047-hmp-droid-gunship-legacy.webp"
@@ -279,7 +352,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 0 Beta",
       "expansion": "Legacy Wave 0 Beta",
-      "_id": "f9dae78d-655d-493d-91cb-8d0275324fa0",
+      "_id": "35443d2c-031e-4ab0-b955-ad86b2ca128f",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "laat-i-gunship-legacy",
@@ -299,8 +372,8 @@
       "armament": {
         "anti-squadron": [
           0,
-          1,
-          2
+          2,
+          1
         ],
         "anti-ship": [
           0,
@@ -343,7 +416,7 @@
       "team": "Armada Legacy",
       "release": "Legacy Wave 0 Beta",
       "expansion": "Legacy Wave 0 Beta",
-      "_id": "f757c9fa-094e-46f1-b745-9bbc91827f08",
+      "_id": "05fe00b2-ead4-4179-a8de-701196c59de5",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "laat-i-gunship-legacy",
@@ -396,7 +469,7 @@
       "ability": "While a friendly non-unique squadron is attacking a squadron at distance 1 of you, you may spend 1 defense token. If you do, it may reroll a die or change a die to a face with a :hit: icon.",
       "unique": true,
       "ace": true,
-      "points": 22,
+      "points": 21,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/five-seven-laat-i-gunship-legacy.webp"
@@ -407,7 +480,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "458a6ba9-d466-4516-a19d-918e5a4986ce",
+      "_id": "24741440-c075-4fbf-bc36-6cbc93e8a378",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "star-courier-legacy",
@@ -476,7 +549,7 @@
       "team": "Legacy",
       "release": "Wave 0 Legacy",
       "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
-      "_id": "9ba4ad3c-3c55-419a-af86-12546b2f8892",
+      "_id": "7b190027-5501-4c30-9b42-000ec282ea5a",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "star-courier-legacy",
@@ -537,10 +610,82 @@
       },
       "ability": "If you are engaged with at least 2 enemy squadrons, gain ADEPT 1. For each additional squadron you are engaged with, increase your ADEPT value by 1.",
       "unique": true,
-      "points": 25,
+      "points": 24,
       "silhouette": "",
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/darth-maul-scimitar-legacy.webp"
+    },
+    "count-dooku-scimitar-legacy": {
+      "author": "Armada Legacy Team",
+      "alias": "Legacy",
+      "team": "Legacy",
+      "release": "Wave 0 Legacy",
+      "expansion": "Armada Legacy Wave 0: Opening Salvo (ALW0)",
+      "_id": "470deab3-9fa1-4e4f-a812-ff173ec1fced",
+      "type": "squadron",
+      "faction": "separatist",
+      "squadron_type": "star-courier-legacy",
+      "name": "Scimitar",
+      "nicknames": [
+        "Count Dooku Scimitar",
+        "Count Dooku",
+        "Scimitar",
+        "Sith Infiltrator",
+        "Dooku",
+        "Dooku Scimitar"
+      ],
+      "ace-name": "Count Dooku",
+      "unique-class": [
+        "Count Dooku",
+        "Scimitar"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 2,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While a friendly squadron without AI at range 1-2 is attacking a squadron, it may suffer 1 damage. If it does, it may reroll 1 die. If that squadron has screen, it may instead reroll up to 2 dice.",
+      "unique": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/count-dooku-scimitar-legacy.webp"
     }
   }
 }
