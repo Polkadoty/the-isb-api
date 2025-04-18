@@ -1,0 +1,22 @@
+2025-04-18 00:45:33,286 - INFO - Starting cleanup of armada_fleets_merged.db with max points 425
+2025-04-18 00:45:33,286 - INFO - Creating backup of database at armada_fleets_merged.db.backup
+2025-04-18 00:45:33,289 - INFO - Backup created successfully
+2025-04-18 00:45:33,290 - INFO - Total records in database: 5908
+2025-04-18 00:45:33,293 - INFO - Records to be deleted (points > 425): 485
+2025-04-18 00:45:33,297 - INFO - Before cleanup - Min points: 375, Max points: 4865, Avg points: 421.81
+2025-04-18 00:45:33,301 - INFO - Faction distribution before cleanup:
+2025-04-18 00:45:33,301 - INFO -   Imperial: 2105
+2025-04-18 00:45:33,301 - INFO -   Rebel: 2186
+2025-04-18 00:45:33,301 - INFO -   Republic: 728
+2025-04-18 00:45:33,302 - INFO -   Separatist: 889
+2025-04-18 00:45:33,302 - INFO - Deleting fleets with points > 425...
+2025-04-18 00:45:33,311 - INFO - Deletion complete. Records remaining: 5423
+2025-04-18 00:45:33,314 - INFO - After cleanup - Min points: 375, Max points: 424, Avg points: 396.83
+2025-04-18 00:45:33,318 - INFO - Faction distribution after cleanup:
+2025-04-18 00:45:33,318 - INFO -   Imperial: 1878
+2025-04-18 00:45:33,318 - INFO -   Rebel: 1992
+2025-04-18 00:45:33,318 - INFO -   Republic: 693
+2025-04-18 00:45:33,318 - INFO -   Separatist: 860
+2025-04-18 00:45:33,319 - INFO - Running VACUUM to optimize database size...
+2025-04-18 00:45:33,356 - INFO - Database cleanup completed successfully
+2025-04-18 00:45:33,356 - INFO - Cleanup completed successfully
