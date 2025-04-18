@@ -97,7 +97,10 @@
                 "enable_upgrades": [
                     "fleet-command"
                 ],
-                "flagship": false
+                "flagship": false,
+                "disqualify_if": {
+                    "has_upgrade_type": ["fleet-command"]
+                }
             },
             "start_command": {
                 "type": "",
