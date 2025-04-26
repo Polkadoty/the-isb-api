@@ -103,9 +103,11 @@ export function closePoll(mainMsgId) {
  * @param {object} client - Discord client
  * @param {string} mainMsgId
  * @param {object} channel - Discord channel
- * @returns {Promise<{scores: Array<{score:number, voters:number}>, voters: object}>}
+ * @param {string} botUserId - The bot's user ID (to exclude its own reactions)
+ * @param {boolean} returnDuplicates - If true, also return a list of duplicate reactions for removal
+ * @returns {Promise<{scores: Array<{score:number, voters:number}>, voters: object, duplicates?: Array<{userId, optionIdx, rank}>}>}
  */
-export async function tallyVotes(client, mainMsgId, channel) {
+export async function tallyVotes(client, mainMsgId, channel, botUserId = null, returnDuplicates = false) {
   const poll = polls[mainMsgId];
   if (!poll) return null;
   const { optionMsgIds, options } = poll;
@@ -113,6 +115,7 @@ export async function tallyVotes(client, mainMsgId, channel) {
   const userRanks = {};
   // optionIdx -> { userId: rank }
   const optionRanks = options.map(() => ({}));
+  const duplicates = [];
 
   for (let i = 0; i < optionMsgIds.length; i++) {
     const msg = await channel.messages.fetch(optionMsgIds[i]);
@@ -123,9 +126,13 @@ export async function tallyVotes(client, mainMsgId, channel) {
       const users = await reaction.users.fetch();
       users.forEach(user => {
         if (user.bot) return;
+        if (botUserId && user.id === botUserId) return;
         // Only allow one rank per option per user
         if (!optionRanks[i][user.id]) {
           optionRanks[i][user.id] = rank;
+        } else {
+          // Should never happen, but if it does, mark as duplicate
+          if (returnDuplicates) duplicates.push({ userId: user.id, optionIdx: i, rank });
         }
       });
     }
@@ -138,8 +145,9 @@ export async function tallyVotes(client, mainMsgId, channel) {
     });
   });
   // Enforce: each user can only use each rank once across all options
-  // If a user uses the same rank for multiple options, only the first is counted
+  // If a user uses the same rank for multiple options, only the first is counted, others are duplicates
   const validUserRanks = {};
+  const seenDuplicates = [];
   Object.entries(userRanks).forEach(([userId, ranks]) => {
     const usedRanks = new Set();
     validUserRanks[userId] = {};
@@ -147,12 +155,14 @@ export async function tallyVotes(client, mainMsgId, channel) {
       if (!usedRanks.has(rank) && rank >= 1 && rank <= options.length) {
         validUserRanks[userId][optionIdx] = rank;
         usedRanks.add(rank);
+      } else {
+        if (returnDuplicates) seenDuplicates.push({ userId, optionIdx: parseInt(optionIdx), rank });
       }
     });
   });
   // Calculate Borda scores
   const scores = options.map(() => ({ score: 0, voters: 0 }));
-  Object.values(validUserRanks).forEach(ranks => {
+  Object.entries(validUserRanks).forEach(([userId, ranks]) => {
     Object.entries(ranks).forEach(([optionIdx, rank]) => {
       const idx = parseInt(optionIdx);
       scores[idx].score += options.length - rank + 1;
@@ -161,6 +171,9 @@ export async function tallyVotes(client, mainMsgId, channel) {
   });
   poll.scores = scores;
   poll.voters = validUserRanks;
+  if (returnDuplicates) {
+    return { scores, voters: validUserRanks, duplicates: duplicates.concat(seenDuplicates) };
+  }
   return { scores, voters: validUserRanks };
 }
 

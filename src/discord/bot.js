@@ -880,7 +880,18 @@ client.on('messageReactionAdd', async (reaction, user) => {
     setPollDirty(pollId);
     // Tally and update main poll embed (debug, but scheduler will also update)
     console.log(`[PollDebug] Tallying votes for poll ${pollId}`);
-    const { scores } = await tallyVotes(client, pollId, message.channel);
+    const botUserId = client.user.id;
+    const { scores, duplicates } = await tallyVotes(client, pollId, message.channel, botUserId, true);
+    // Remove duplicate reactions for this user
+    for (const dup of duplicates) {
+      if (dup.userId === user.id) {
+        try {
+          const optMsg = await message.channel.messages.fetch(poll.optionMsgIds[dup.optionIdx]);
+          const dupReaction = optMsg.reactions.cache.get(RANK_EMOJIS[dup.rank - 1]);
+          if (dupReaction) await dupReaction.users.remove(user.id);
+        } catch (e) { /* ignore */ }
+      }
+    }
     const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
     try {
       const mainMsg = await message.channel.messages.fetch(pollId);
@@ -906,7 +917,18 @@ client.on('messageReactionRemove', async (reaction, user) => {
     setPollDirty(pollId);
     // Tally and update main poll embed (debug, but scheduler will also update)
     console.log(`[PollDebug] Tallying votes for poll ${pollId}`);
-    const { scores } = await tallyVotes(client, pollId, message.channel);
+    const botUserId = client.user.id;
+    const { scores, duplicates } = await tallyVotes(client, pollId, message.channel, botUserId, true);
+    // Remove duplicate reactions for this user
+    for (const dup of duplicates) {
+      if (dup.userId === user.id) {
+        try {
+          const optMsg = await message.channel.messages.fetch(poll.optionMsgIds[dup.optionIdx]);
+          const dupReaction = optMsg.reactions.cache.get(RANK_EMOJIS[dup.rank - 1]);
+          if (dupReaction) await dupReaction.users.remove(user.id);
+        } catch (e) { /* ignore */ }
+      }
+    }
     const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
     try {
       const mainMsg = await message.channel.messages.fetch(pollId);
@@ -928,7 +950,8 @@ setInterval(async () => {
       console.log(`[PollDebug] Scheduled update for poll ${pollId}`);
       const channel = await client.channels.fetch(poll.channelId);
       if (!channel) continue;
-      const { scores } = await tallyVotes(client, pollId, channel);
+      const botUserId = client.user.id;
+      const { scores } = await tallyVotes(client, pollId, channel, botUserId, false);
       const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
       const mainMsg = await channel.messages.fetch(pollId);
       await mainMsg.edit({ embeds: [updatedEmbed] });
