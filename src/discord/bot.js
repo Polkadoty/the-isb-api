@@ -919,11 +919,11 @@ client.on('messageReactionRemove', async (reaction, user) => {
   }
 });
 
-// Scheduled poll update every 60 seconds
+// Scheduled poll update every 120 seconds
 setInterval(async () => {
   for (const pollId in __getAllPolls()) {
     const poll = getPoll(pollId);
-    if (!poll || poll.closed || !isPollDirty(pollId)) continue;
+    if (!poll || poll.closed) continue;
     try {
       console.log(`[PollDebug] Scheduled update for poll ${pollId}`);
       const channel = await client.channels.fetch(poll.channelId);
@@ -938,6 +938,6 @@ setInterval(async () => {
       console.error(`[PollDebug] Scheduled update failed for poll ${pollId}:`, e);
     }
   }
-}, 60 * 1000);
+}, 120 * 1000);
 
 client.login(process.env.DISCORD_TOKEN);
