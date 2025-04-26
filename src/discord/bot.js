@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls, formatGroup, DICE_FACES } from './dice-utils.js';
+import { createPollEmbed, registerPoll, votePoll, resultsEmbed } from './poll-embeds.js';
 
 // Immediately define __filename and __dirname so that they are available for use in the file.
 // This fixes the "Cannot access '__dirname' before initialization" error.
@@ -411,6 +412,74 @@ client.on('messageCreate', async message => {
     if (matches.length > 10) {
       message.channel.send(`...and ${matches.length - 10} more results.`);
     }
+  }
+
+  // Ranked Choice Poll: !poll "Question?" Option1; Option2; Option3
+  if (message.content.toLowerCase().startsWith('!poll')) {
+    // Example: !poll "Best Star Wars movie?" A New Hope; Empire Strikes Back; Return of the Jedi
+    const pollMatch = message.content.match(/^!poll\s+"([^"]+)"\s+(.+)/i);
+    if (!pollMatch) {
+      return message.reply('Usage: !poll "Question?" Option1; Option2; Option3');
+    }
+    const [, question, optionsStr] = pollMatch;
+    const options = optionsStr.split(';').map(opt => opt.trim()).filter(Boolean);
+    if (options.length < 2) {
+      return message.reply('Please provide at least two options, separated by semicolons.');
+    }
+    const embed = createPollEmbed(question, options);
+    const pollMsg = await message.reply({ embeds: [embed] });
+    registerPoll(pollMsg.id, question, options);
+    return;
+  }
+
+  // Vote in a poll: !vote 2 1 3 (where numbers are ranks for each option)
+  if (message.content.toLowerCase().startsWith('!vote')) {
+    // Must be a reply to a poll message
+    if (!message.reference) {
+      return message.reply('Reply to the poll message to vote.');
+    }
+    const repliedMessage = await message.channel.messages.fetch(message.reference.messageId);
+    // Check if the replied message is a poll embed
+    if (!repliedMessage.embeds[0] || repliedMessage.embeds[0].title !== '📊 Ranked Choice Poll') {
+      return message.reply('You must reply to a poll embed to vote.');
+    }
+    const pollId = repliedMessage.id;
+    const args = message.content.slice('!vote'.length).trim().split(/\s+/);
+    const rankings = args.map(Number);
+    if (rankings.some(isNaN)) {
+      return message.reply('Please provide a rank for each option, e.g. !vote 2 1 3');
+    }
+    const error = votePoll(pollId, message.author.id, rankings);
+    if (error) {
+      return message.reply(error);
+    }
+    // Optionally, show updated results
+    const results = resultsEmbed(pollId);
+    if (results) {
+      await message.reply({ embeds: [results] });
+    } else {
+      await message.reply('Vote recorded!');
+    }
+    return;
+  }
+
+  // Show poll results: !results (must reply to poll message)
+  if (message.content.toLowerCase().startsWith('!results')) {
+    if (!message.reference) {
+      return message.reply('Reply to the poll message to show results.');
+    }
+    const repliedMessage = await message.channel.messages.fetch(message.reference.messageId);
+    if (!repliedMessage.embeds[0] || repliedMessage.embeds[0].title !== '📊 Ranked Choice Poll') {
+      return message.reply('You must reply to a poll embed to show results.');
+    }
+    const pollId = repliedMessage.id;
+    const results = resultsEmbed(pollId);
+    if (results) {
+      await message.reply({ embeds: [results] });
+    } else {
+      await message.reply('No results yet.');
+    }
+    return;
   }
 
   if (message.content.toLowerCase().startsWith('!dice')) {
