@@ -51,14 +51,16 @@ export function createMainPollEmbed(question, options, scores = null, closed = f
 }
 
 /**
- * Create an option embed for voting.
+ * Create an option embed for voting, with optional image.
  */
-export function createOptionEmbed(option, index, total) {
-  return new EmbedBuilder()
+export function createOptionEmbed(option, index, total, imageUrl = null) {
+  const embed = new EmbedBuilder()
     .setTitle(`Option ${index + 1}`)
     .setDescription(option)
     .setColor('#00b0f4')
     .setFooter({ text: `React with your rank for this option (1️⃣ = best, ${RANK_EMOJIS[total-1]} = worst)` });
+  if (imageUrl) embed.setImage(imageUrl);
+  return embed;
 }
 
 /**
@@ -67,8 +69,10 @@ export function createOptionEmbed(option, index, total) {
  * @param {string} question
  * @param {string[]} options
  * @param {string[]} optionMsgIds
+ * @param {string} creatorId
+ * @param {string[]} optionImages
  */
-export function registerPoll(mainMsgId, question, options, optionMsgIds) {
+export function registerPoll(mainMsgId, question, options, optionMsgIds, creatorId, optionImages) {
   polls[mainMsgId] = {
     question,
     options,
@@ -77,6 +81,8 @@ export function registerPoll(mainMsgId, question, options, optionMsgIds) {
     closed: false,
     scores: options.map(() => ({ score: 0, voters: 0 })),
     voters: {}, // userId: { [optionIdx]: rank }
+    creatorId,
+    optionImages: optionImages || []
   };
 }
 
@@ -160,4 +166,15 @@ export async function tallyVotes(client, mainMsgId, channel) {
  */
 export function getPoll(mainMsgId) {
   return polls[mainMsgId];
+}
+
+export function __getAllPolls() {
+  return polls;
+}
+
+/**
+ * Remove a poll from memory.
+ */
+export function removePoll(mainMsgId) {
+  delete polls[mainMsgId];
 } 

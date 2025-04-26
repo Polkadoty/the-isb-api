@@ -416,15 +416,28 @@ client.on('messageCreate', async message => {
 
   // Ranked Choice Poll: !poll "Question?" Option1; Option2; Option3
   if (message.content.toLowerCase().startsWith('!poll')) {
-    // Example: !poll "Best Star Wars movie?" A New Hope; Empire Strikes Back; Return of the Jedi
+    // Example: !poll "Best Star Wars movie?" X-Wing https://img.link/xwing.jpg; TIE Fighter https://img.link/tie.jpg
     const pollMatch = message.content.match(/^!poll\s+"([^"]+)"\s+(.+)/i);
     if (!pollMatch) {
-      return message.reply('Usage: !poll "Question?" Option1; Option2; Option3');
+      return message.reply('Usage: !poll "Question?" Option1 [image_url]; Option2 [image_url]; ...');
     }
     const [, question, optionsStr] = pollMatch;
-    const options = optionsStr.split(';').map(opt => opt.trim()).filter(Boolean);
-    if (options.length < 2 || options.length > RANK_EMOJIS.length) {
+    const optionsRaw = optionsStr.split(';').map(opt => opt.trim()).filter(Boolean);
+    if (optionsRaw.length < 2 || optionsRaw.length > RANK_EMOJIS.length) {
       return message.reply(`Please provide between 2 and ${RANK_EMOJIS.length} options, separated by semicolons.`);
+    }
+    // Parse options and images
+    const options = [];
+    const optionImages = [];
+    for (const raw of optionsRaw) {
+      const urlMatch = raw.match(/(https?:\/\/\S+)/);
+      if (urlMatch) {
+        options.push(raw.replace(urlMatch[1], '').trim());
+        optionImages.push(urlMatch[1]);
+      } else {
+        options.push(raw);
+        optionImages.push(null);
+      }
     }
     // Post main poll embed
     const mainEmbed = createMainPollEmbed(question, options);
@@ -432,25 +445,48 @@ client.on('messageCreate', async message => {
     // Post option embeds and add emoji reactions
     const optionMsgIds = [];
     for (let i = 0; i < options.length; i++) {
-      const optEmbed = createOptionEmbed(options[i], i, options.length);
+      const optEmbed = createOptionEmbed(options[i], i, options.length, optionImages[i]);
       const optMsg = await message.channel.send({ embeds: [optEmbed] });
       optionMsgIds.push(optMsg.id);
-      // Add emoji reactions for 1-N
       for (let j = 0; j < options.length; j++) {
         await optMsg.react(RANK_EMOJIS[j]);
       }
     }
-    // Register poll
-    registerPoll(pollMsg.id, question, options, optionMsgIds);
-    // Schedule poll expiration
+    // Register poll with creator and images
+    registerPoll(pollMsg.id, question, options, optionMsgIds, message.author.id, optionImages);
     setTimeout(async () => {
       closePoll(pollMsg.id);
-      // Tally and update main embed with final results
       const poll = getPoll(pollMsg.id);
       const { scores } = await tallyVotes(client, pollMsg.id, message.channel);
       const closedEmbed = createMainPollEmbed(question, options, scores, true);
       await pollMsg.edit({ embeds: [closedEmbed] });
-    }, 24 * 60 * 60 * 1000); // 24 hours
+    }, 24 * 60 * 60 * 1000);
+    return;
+  }
+
+  // Remove a poll: !removepoll (must reply to main poll embed, only creator can use)
+  if (message.content.toLowerCase().startsWith('!removepoll')) {
+    if (!message.reference) {
+      return message.reply('Reply to the main poll message to remove the poll.');
+    }
+    const repliedMessage = await message.channel.messages.fetch(message.reference.messageId);
+    const pollId = repliedMessage.id;
+    const poll = getPoll(pollId);
+    if (!poll) {
+      return message.reply('Poll not found or already removed.');
+    }
+    if (poll.creatorId !== message.author.id) {
+      return message.reply('Only the poll creator can remove this poll.');
+    }
+    // Delete all option messages
+    for (const optMsgId of poll.optionMsgIds) {
+      try { await message.channel.messages.delete(optMsgId); } catch (e) { /* ignore */ }
+    }
+    // Delete main poll message
+    try { await message.channel.messages.delete(pollId); } catch (e) { /* ignore */ }
+    // Remove from memory
+    require('./poll-embeds.js').removePoll(pollId);
+    await message.reply('Poll and all related messages have been removed.');
     return;
   }
 
@@ -796,6 +832,76 @@ function findCardInNicknameMaps(cardName, faction = '') {
   
   // Default to the card name if no matches found
   return cardName.toLowerCase().replace(/\s+/g, '-');
+}
+
+// Real-time poll update and duplicate rank enforcement
+client.on('messageReactionAdd', async (reaction, user) => {
+  if (user.bot) return;
+  const message = reaction.message;
+  for (const pollId in getPollsAll()) {
+    const poll = getPoll(pollId);
+    if (!poll || poll.closed) continue;
+    const optionIdx = poll.optionMsgIds.indexOf(message.id);
+    if (optionIdx === -1) continue;
+    const rank = RANK_EMOJIS.indexOf(reaction.emoji.name);
+    if (rank === -1) return;
+    // Track which options had reactions removed
+    const removedOptions = [];
+    for (let i = 0; i < poll.optionMsgIds.length; i++) {
+      if (i === optionIdx) continue;
+      try {
+        const optMsg = await message.channel.messages.fetch(poll.optionMsgIds[i]);
+        const otherReaction = optMsg.reactions.cache.get(RANK_EMOJIS[rank]);
+        if (otherReaction) {
+          const users = await otherReaction.users.fetch();
+          if (users.has(user.id)) {
+            await otherReaction.users.remove(user.id);
+            removedOptions.push(i + 1); // Option number (1-based)
+          }
+        }
+      } catch (e) { /* ignore */ }
+    }
+    // DM the user if any reactions were removed
+    if (removedOptions.length > 0) {
+      try {
+        const dm = await user.createDM();
+        await dm.send(
+          `You can only use each rank emoji once per poll. Your ${reaction.emoji.name} reaction was removed from option(s): ${removedOptions.map(n => `#${n}`).join(', ')}.\nPlease fix your votes so each rank is only used once across all options.`
+        );
+      } catch (e) { /* ignore DM errors */ }
+    }
+    // Tally and update main poll embed
+    const { scores } = await tallyVotes(client, pollId, message.channel);
+    const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
+    const mainMsg = await message.channel.messages.fetch(pollId);
+    await mainMsg.edit({ embeds: [updatedEmbed] });
+    break;
+  }
+});
+
+client.on('messageReactionRemove', async (reaction, user) => {
+  if (user.bot) return;
+  const message = reaction.message;
+  for (const pollId in getPollsAll()) {
+    const poll = getPoll(pollId);
+    if (!poll || poll.closed) continue;
+    if (!poll.optionMsgIds.includes(message.id)) continue;
+    // Only handle rank emojis
+    if (!RANK_EMOJIS.includes(reaction.emoji.name)) return;
+    // Tally and update main poll embed
+    const { scores } = await tallyVotes(client, pollId, message.channel);
+    const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
+    const mainMsg = await message.channel.messages.fetch(pollId);
+    await mainMsg.edit({ embeds: [updatedEmbed] });
+    break;
+  }
+});
+
+// Helper to get all polls
+function getPollsAll() {
+  // Expose all poll IDs for event handlers
+  const { getPoll } = require('./poll-embeds.js');
+  return require('./poll-embeds.js').__getAllPolls ? require('./poll-embeds.js').__getAllPolls() : {};
 }
 
 client.login(process.env.DISCORD_TOKEN);
