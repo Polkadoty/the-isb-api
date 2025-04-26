@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls, formatGroup, DICE_FACES } from './dice-utils.js';
-import { createMainPollEmbed, createOptionEmbed, registerPoll, tallyVotes, closePoll, getPoll, RANK_EMOJIS } from './poll-embeds.js';
+import { createMainPollEmbed, createOptionEmbed, registerPoll, tallyVotes, closePoll, getPoll, RANK_EMOJIS, __getAllPolls } from './poll-embeds.js';
 
 // Immediately define __filename and __dirname so that they are available for use in the file.
 // This fixes the "Cannot access '__dirname' before initialization" error.
@@ -419,7 +419,7 @@ client.on('messageCreate', async message => {
     // Example: !poll "Best Star Wars movie?" X-Wing https://img.link/xwing.jpg; TIE Fighter https://img.link/tie.jpg
     const pollMatch = message.content.match(/^!poll\s+"([^"]+)"\s+(.+)/i);
     if (!pollMatch) {
-      return message.reply('Usage: !poll "Question?" Option1 [image_url]; Option2 [image_url]; ...');
+      return message.reply('Usage: !poll "Question?" Option1 [image_url]; Option2 [image_url]; ...\nRecommended image size: 400-600px wide, 16:9 or 4:3 aspect ratio. Supported formats: jpg, png, webp, gif.');
     }
     const [, question, optionsStr] = pollMatch;
     const optionsRaw = optionsStr.split(';').map(opt => opt.trim()).filter(Boolean);
@@ -454,6 +454,12 @@ client.on('messageCreate', async message => {
     }
     // Register poll with creator and images
     registerPoll(pollMsg.id, question, options, optionMsgIds, message.author.id, optionImages);
+    // Delete the original poll request message to keep the channel clean
+    try { await message.delete(); }
+    catch (e) {
+      console.warn('Could not delete original poll request message:', e);
+      try { await message.channel.send('I do not have permission to delete the original poll command message.'); } catch (e2) { /* ignore */ }
+    }
     setTimeout(async () => {
       closePoll(pollMsg.id);
       const poll = getPoll(pollMsg.id);
@@ -838,7 +844,8 @@ function findCardInNicknameMaps(cardName, faction = '') {
 client.on('messageReactionAdd', async (reaction, user) => {
   if (user.bot) return;
   const message = reaction.message;
-  for (const pollId in getPollsAll()) {
+  console.log(`[PollDebug] Reaction add: user=${user.id} emoji=${reaction.emoji.name} message=${message.id}`);
+  for (const pollId in __getAllPolls()) {
     const poll = getPoll(pollId);
     if (!poll || poll.closed) continue;
     const optionIdx = poll.optionMsgIds.indexOf(message.id);
@@ -861,7 +868,6 @@ client.on('messageReactionAdd', async (reaction, user) => {
         }
       } catch (e) { /* ignore */ }
     }
-    // DM the user if any reactions were removed
     if (removedOptions.length > 0) {
       try {
         const dm = await user.createDM();
@@ -871,10 +877,16 @@ client.on('messageReactionAdd', async (reaction, user) => {
       } catch (e) { /* ignore DM errors */ }
     }
     // Tally and update main poll embed
+    console.log(`[PollDebug] Tallying votes for poll ${pollId}`);
     const { scores } = await tallyVotes(client, pollId, message.channel);
     const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
-    const mainMsg = await message.channel.messages.fetch(pollId);
-    await mainMsg.edit({ embeds: [updatedEmbed] });
+    try {
+      const mainMsg = await message.channel.messages.fetch(pollId);
+      await mainMsg.edit({ embeds: [updatedEmbed] });
+      console.log(`[PollDebug] Updated main poll embed for poll ${pollId}`);
+    } catch (e) {
+      console.error(`[PollDebug] Failed to update main poll embed for poll ${pollId}:`, e);
+    }
     break;
   }
 });
@@ -882,26 +894,25 @@ client.on('messageReactionAdd', async (reaction, user) => {
 client.on('messageReactionRemove', async (reaction, user) => {
   if (user.bot) return;
   const message = reaction.message;
-  for (const pollId in getPollsAll()) {
+  console.log(`[PollDebug] Reaction remove: user=${user.id} emoji=${reaction.emoji.name} message=${message.id}`);
+  for (const pollId in __getAllPolls()) {
     const poll = getPoll(pollId);
     if (!poll || poll.closed) continue;
     if (!poll.optionMsgIds.includes(message.id)) continue;
-    // Only handle rank emojis
     if (!RANK_EMOJIS.includes(reaction.emoji.name)) return;
     // Tally and update main poll embed
+    console.log(`[PollDebug] Tallying votes for poll ${pollId}`);
     const { scores } = await tallyVotes(client, pollId, message.channel);
     const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
-    const mainMsg = await message.channel.messages.fetch(pollId);
-    await mainMsg.edit({ embeds: [updatedEmbed] });
+    try {
+      const mainMsg = await message.channel.messages.fetch(pollId);
+      await mainMsg.edit({ embeds: [updatedEmbed] });
+      console.log(`[PollDebug] Updated main poll embed for poll ${pollId}`);
+    } catch (e) {
+      console.error(`[PollDebug] Failed to update main poll embed for poll ${pollId}:`, e);
+    }
     break;
   }
 });
-
-// Helper to get all polls
-function getPollsAll() {
-  // Expose all poll IDs for event handlers
-  const { getPoll } = require('./poll-embeds.js');
-  return require('./poll-embeds.js').__getAllPolls ? require('./poll-embeds.js').__getAllPolls() : {};
-}
 
 client.login(process.env.DISCORD_TOKEN);
