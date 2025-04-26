@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { parseDicePool, rollDice, calculateStats, formatRollResults, parseEmojiRerolls, parseEmbedResults, calculatePeakDamage, parseDefenseRerolls, formatGroup, DICE_FACES } from './dice-utils.js';
-import { createMainPollEmbed, createOptionEmbed, registerPoll, tallyVotes, closePoll, getPoll, RANK_EMOJIS, __getAllPolls } from './poll-embeds.js';
+import { createMainPollEmbed, createOptionEmbed, registerPoll, tallyVotes, closePoll, getPoll, RANK_EMOJIS, __getAllPolls, setPollDirty, clearPollDirty, isPollDirty } from './poll-embeds.js';
 
 // Immediately define __filename and __dirname so that they are available for use in the file.
 // This fixes the "Cannot access '__dirname' before initialization" error.
@@ -876,7 +876,9 @@ client.on('messageReactionAdd', async (reaction, user) => {
         );
       } catch (e) { /* ignore DM errors */ }
     }
-    // Tally and update main poll embed
+    // Mark poll as dirty for scheduled update
+    setPollDirty(pollId);
+    // Tally and update main poll embed (debug, but scheduler will also update)
     console.log(`[PollDebug] Tallying votes for poll ${pollId}`);
     const { scores } = await tallyVotes(client, pollId, message.channel);
     const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
@@ -900,7 +902,9 @@ client.on('messageReactionRemove', async (reaction, user) => {
     if (!poll || poll.closed) continue;
     if (!poll.optionMsgIds.includes(message.id)) continue;
     if (!RANK_EMOJIS.includes(reaction.emoji.name)) return;
-    // Tally and update main poll embed
+    // Mark poll as dirty for scheduled update
+    setPollDirty(pollId);
+    // Tally and update main poll embed (debug, but scheduler will also update)
     console.log(`[PollDebug] Tallying votes for poll ${pollId}`);
     const { scores } = await tallyVotes(client, pollId, message.channel);
     const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
@@ -914,5 +918,26 @@ client.on('messageReactionRemove', async (reaction, user) => {
     break;
   }
 });
+
+// Scheduled poll update every 60 seconds
+setInterval(async () => {
+  for (const pollId in __getAllPolls()) {
+    const poll = getPoll(pollId);
+    if (!poll || poll.closed || !isPollDirty(pollId)) continue;
+    try {
+      console.log(`[PollDebug] Scheduled update for poll ${pollId}`);
+      const channel = await client.channels.fetch(poll.optionMsgIds[0] ? (await client.channels.fetch((await client.channels.fetch(poll.optionMsgIds[0])).channelId)) : null);
+      if (!channel) continue;
+      const { scores } = await tallyVotes(client, pollId, channel);
+      const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
+      const mainMsg = await channel.messages.fetch(pollId);
+      await mainMsg.edit({ embeds: [updatedEmbed] });
+      clearPollDirty(pollId);
+      console.log(`[PollDebug] Scheduled poll embed updated for poll ${pollId}`);
+    } catch (e) {
+      console.error(`[PollDebug] Scheduled update failed for poll ${pollId}:`, e);
+    }
+  }
+}, 60 * 1000);
 
 client.login(process.env.DISCORD_TOKEN);

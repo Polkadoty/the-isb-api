@@ -82,7 +82,8 @@ export function registerPoll(mainMsgId, question, options, optionMsgIds, creator
     scores: options.map(() => ({ score: 0, voters: 0 })),
     voters: {}, // userId: { [optionIdx]: rank }
     creatorId,
-    optionImages: optionImages || []
+    optionImages: optionImages || [],
+    dirty: true
   };
 }
 
@@ -177,4 +178,16 @@ export function __getAllPolls() {
  */
 export function removePoll(mainMsgId) {
   delete polls[mainMsgId];
+}
+
+export function setPollDirty(mainMsgId) {
+  if (polls[mainMsgId]) polls[mainMsgId].dirty = true;
+}
+
+export function clearPollDirty(mainMsgId) {
+  if (polls[mainMsgId]) polls[mainMsgId].dirty = false;
+}
+
+export function isPollDirty(mainMsgId) {
+  return polls[mainMsgId] && polls[mainMsgId].dirty;
 } 
