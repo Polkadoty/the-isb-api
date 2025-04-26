@@ -452,8 +452,8 @@ client.on('messageCreate', async message => {
         await optMsg.react(RANK_EMOJIS[j]);
       }
     }
-    // Register poll with creator and images
-    registerPoll(pollMsg.id, question, options, optionMsgIds, message.author.id, optionImages);
+    // Register poll with creator and images and channelId
+    registerPoll(pollMsg.id, question, options, optionMsgIds, message.author.id, optionImages, message.channel.id);
     // Delete the original poll request message to keep the channel clean
     try { await message.delete(); }
     catch (e) {
@@ -926,7 +926,7 @@ setInterval(async () => {
     if (!poll || poll.closed || !isPollDirty(pollId)) continue;
     try {
       console.log(`[PollDebug] Scheduled update for poll ${pollId}`);
-      const channel = await client.channels.fetch(poll.optionMsgIds[0] ? (await client.channels.fetch((await client.channels.fetch(poll.optionMsgIds[0])).channelId)) : null);
+      const channel = await client.channels.fetch(poll.channelId);
       if (!channel) continue;
       const { scores } = await tallyVotes(client, pollId, channel);
       const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);

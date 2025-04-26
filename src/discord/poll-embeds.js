@@ -71,8 +71,9 @@ export function createOptionEmbed(option, index, total, imageUrl = null) {
  * @param {string[]} optionMsgIds
  * @param {string} creatorId
  * @param {string[]} optionImages
+ * @param {string} channelId
  */
-export function registerPoll(mainMsgId, question, options, optionMsgIds, creatorId, optionImages) {
+export function registerPoll(mainMsgId, question, options, optionMsgIds, creatorId, optionImages, channelId) {
   polls[mainMsgId] = {
     question,
     options,
@@ -83,7 +84,8 @@ export function registerPoll(mainMsgId, question, options, optionMsgIds, creator
     voters: {}, // userId: { [optionIdx]: rank }
     creatorId,
     optionImages: optionImages || [],
-    dirty: true
+    dirty: true,
+    channelId
   };
 }
 
