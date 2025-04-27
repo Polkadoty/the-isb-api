@@ -960,7 +960,7 @@ client.on('messageReactionRemove', async (reaction, user) => {
   }
 });
 
-// Scheduled poll update every 120 seconds
+// Scheduled poll update every 30 seconds
 setInterval(async () => {
   for (const pollId in __getAllPolls()) {
     const poll = getPoll(pollId);
@@ -980,7 +980,7 @@ setInterval(async () => {
       console.error(`[PollDebug] Scheduled update failed for poll ${pollId}:`, e);
     }
   }
-}, 120 * 1000);
+}, 30 * 1000);
 
 // Helper to parse duration strings like '1h 4m 5s' into milliseconds
 function parseDuration(str) {
