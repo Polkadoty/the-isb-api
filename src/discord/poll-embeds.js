@@ -72,20 +72,24 @@ export function createOptionEmbed(option, index, total, imageUrl = null) {
  * @param {string} creatorId
  * @param {string[]} optionImages
  * @param {string} channelId
+ * @param {number} durationMs - Duration of the poll in milliseconds
+ * @param {number} startedAt - Timestamp when the poll started
  */
-export function registerPoll(mainMsgId, question, options, optionMsgIds, creatorId, optionImages, channelId) {
+export function registerPoll(mainMsgId, question, options, optionMsgIds, creatorId, optionImages, channelId, durationMs = 24 * 60 * 60 * 1000, startedAt = Date.now()) {
   polls[mainMsgId] = {
     question,
     options,
     optionMsgIds,
-    createdAt: Date.now(),
+    createdAt: startedAt,
     closed: false,
     scores: options.map(() => ({ score: 0, voters: 0 })),
     voters: {}, // userId: { [optionIdx]: rank }
     creatorId,
     optionImages: optionImages || [],
     dirty: true,
-    channelId
+    channelId,
+    durationMs,
+    startedAt
   };
 }
 

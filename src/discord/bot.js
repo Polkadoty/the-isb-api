@@ -467,7 +467,17 @@ client.on('messageCreate', async message => {
       }
     }
     // Register poll with creator and images and channelId
-    registerPoll(pollMsg.id, question, options, optionMsgIds, message.author.id, optionImages, message.channel.id);
+    registerPoll(
+      pollMsg.id,
+      question,
+      options,
+      optionMsgIds,
+      message.author.id,
+      optionImages,
+      message.channel.id,
+      customDuration || 24 * 60 * 60 * 1000,
+      Date.now()
+    );
     // Delete the original poll request message to keep the channel clean
     try { await message.delete(); }
     catch (e) {
@@ -971,7 +981,12 @@ setInterval(async () => {
       if (!channel) continue;
       const botUserId = client.user.id;
       const { scores } = await tallyVotes(client, pollId, channel, botUserId, false);
-      const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false);
+      // Calculate time left
+      const now = Date.now();
+      const endTime = (poll.startedAt || poll.createdAt) + (poll.durationMs || 24 * 60 * 60 * 1000);
+      const msLeft = Math.max(0, endTime - now);
+      const timeLeftText = msLeft > 0 ? formatDuration(msLeft) : '0s';
+      const updatedEmbed = createMainPollEmbed(poll.question, poll.options, scores, false, timeLeftText);
       const mainMsg = await channel.messages.fetch(pollId);
       await mainMsg.edit({ embeds: [updatedEmbed] });
       clearPollDirty(pollId);
@@ -981,6 +996,14 @@ setInterval(async () => {
     }
   }
 }, 30 * 1000);
+
+// Helper to format ms as 'xh ym zs'
+function formatDuration(ms) {
+  const h = Math.floor(ms / 3600000);
+  const m = Math.floor((ms % 3600000) / 60000);
+  const s = Math.floor((ms % 60000) / 1000);
+  return `${h > 0 ? h + 'h ' : ''}${m > 0 ? m + 'm ' : ''}${s}s`;
+}
 
 // Helper to parse duration strings like '1h 4m 5s' into milliseconds
 function parseDuration(str) {
