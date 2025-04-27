@@ -416,10 +416,19 @@ client.on('messageCreate', async message => {
 
   // Ranked Choice Poll: !poll "Question?" Option1; Option2; Option3
   if (message.content.toLowerCase().startsWith('!poll')) {
-    // Example: !poll "Best Star Wars movie?" X-Wing https://img.link/xwing.jpg; TIE Fighter https://img.link/tie.jpg
-    const pollMatch = message.content.match(/^!poll\s+"([^"]+)"\s+(.+)/i);
+    // Example: !poll "Best Star Wars movie?" X-Wing https://img.link/xwing.jpg; TIE Fighter https://img.link/tie.jpg --time 1h 4m 5s
+    // Extract --time flag and value if present
+    let pollText = message.content;
+    let customDuration = null;
+    let timeMatch = pollText.match(/--time\s+([\dhms\s]+)/i);
+    if (timeMatch) {
+      customDuration = parseDuration(timeMatch[1]);
+      // Remove the --time ... part from the pollText for normal parsing
+      pollText = pollText.replace(/--time\s+[\dhms\s]+/i, '').trim();
+    }
+    const pollMatch = pollText.match(/^!poll\s+"([^"]+)"\s+(.+)/i);
     if (!pollMatch) {
-      return message.reply('Usage: !poll "Question?" Option1 [image_url]; Option2 [image_url]; ...\nRecommended image size: 400-600px wide, 16:9 or 4:3 aspect ratio. Supported formats: jpg, png, webp, gif.');
+      return message.reply('Usage: !poll "Question?" Option1 [image_url]; Option2 [image_url]; ... [--time 1h 4m 5s]\nRecommended image size: 400-600px wide, 16:9 or 4:3 aspect ratio. Supported formats: jpg, png, webp, gif.');
     }
     const [, question, optionsStr] = pollMatch;
     const optionsRaw = optionsStr.split(';').map(opt => opt.trim()).filter(Boolean);
@@ -440,7 +449,12 @@ client.on('messageCreate', async message => {
       }
     }
     // Post main poll embed
-    const mainEmbed = createMainPollEmbed(question, options);
+    const timeLeftText = customDuration ?
+      (customDuration >= 60*60*1000 ? `${Math.floor(customDuration/3600000)}h ` : '') +
+      (customDuration >= 60*1000 ? `${Math.floor((customDuration%3600000)/60000)}m ` : '') +
+      `${Math.floor((customDuration%60000)/1000)}s`
+      : null;
+    const mainEmbed = createMainPollEmbed(question, options, null, false, timeLeftText);
     const pollMsg = await message.reply({ embeds: [mainEmbed] });
     // Post option embeds and add emoji reactions
     const optionMsgIds = [];
@@ -464,9 +478,14 @@ client.on('messageCreate', async message => {
       closePoll(pollMsg.id);
       const poll = getPoll(pollMsg.id);
       const { scores } = await tallyVotes(client, pollMsg.id, message.channel);
+      // Delete all option messages
+      for (const optMsgId of poll.optionMsgIds) {
+        try { await message.channel.messages.delete(optMsgId); } catch (e) { /* ignore */ }
+      }
+      // Update the main poll embed to show 'Poll closed' in the footer
       const closedEmbed = createMainPollEmbed(question, options, scores, true);
       await pollMsg.edit({ embeds: [closedEmbed] });
-    }, 24 * 60 * 60 * 1000);
+    }, customDuration || 24 * 60 * 60 * 1000);
     return;
   }
 
@@ -962,5 +981,22 @@ setInterval(async () => {
     }
   }
 }, 120 * 1000);
+
+// Helper to parse duration strings like '1h 4m 5s' into milliseconds
+function parseDuration(str) {
+  let total = 0;
+  const regex = /(\d+)\s*h|h|(\d+)\s*m|m|(\d+)\s*s|s/gi;
+  let match;
+  // Accepts e.g. '1h 4m 5s', '90m', '45s', etc.
+  const parts = str.match(/\d+\s*[hms]/gi);
+  if (!parts) return null;
+  for (const part of parts) {
+    const value = parseInt(part);
+    if (part.includes('h')) total += value * 60 * 60 * 1000;
+    else if (part.includes('m')) total += value * 60 * 1000;
+    else if (part.includes('s')) total += value * 1000;
+  }
+  return total > 0 ? total : null;
+}
 
 client.login(process.env.DISCORD_TOKEN);
