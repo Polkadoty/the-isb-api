@@ -81,8 +81,6 @@
             "unique-class": [
                 "Five-Seven"
             ],
-
-
             "irregular": true,
             "hull": 6,
             "speed": 3,
@@ -128,6 +126,7 @@
             "ability": "While a friendly non-unique squadron is attacking a squadron at distance 1 of you, you may spend 1 defense token. If you do, it may reroll a die or change a die to a face with a :hit: icon.",
             "unique": true,
             "ace": true,
+            "unique_limit": 1,
             "points": 21,
             "silhouette": "",
             "artwork": "",

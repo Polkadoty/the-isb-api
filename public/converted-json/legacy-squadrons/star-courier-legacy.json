@@ -128,6 +128,8 @@
       },
       "ability": "If you are engaged with at least 2 enemy squadrons, gain ADEPT 1. For each additional squadron you are engaged with, increase your ADEPT value by 1.",
       "unique": true,
+      "ace": true,
+      "unique_limit": 1,
       "points": 24,
       "silhouette": "",
       "artwork": "",
@@ -143,14 +145,14 @@
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "star-courier-legacy",
-      "name": "Scimitar",
+      "name": "Sith Infiltrator",
       "nicknames": [
         "Count Dooku Scimitar", "Count Dooku", "Scimitar", "Sith Infiltrator", "Dooku", "Dooku Scimitar"
       ],
       "ace-name": "Count Dooku",
       "unique-class": [
         "Count Dooku",
-        "Scimitar"
+        "Sith Infiltrator"
       ],
       "irregular": true,
       "hull": 7,
@@ -195,6 +197,8 @@
       },
       "ability": "While a friendly squadron without AI at range 1-2 is attacking a squadron, it may suffer 1 damage. If it does, it may reroll 1 die. If that squadron has screen, it may instead reroll up to 2 dice.",
       "unique": true,
+      "ace": true,
+      "unique_limit": 1,
       "points": 23,
       "silhouette": "",
       "artwork": "",

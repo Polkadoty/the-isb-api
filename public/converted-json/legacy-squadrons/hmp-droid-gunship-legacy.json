@@ -124,6 +124,7 @@
             "ability": "Before you attack the first squadron in your activation, you may remove dice from your attack pool and place them on this card. After the Resolve Damage step, you may make an additional attack against a squadron using dice on this card as your attack pool.",
             "unique": true,
             "ace": true,
+            "unique_limit": 1,
             "points": 20,
             "silhouette": "",
             "artwork": "",
