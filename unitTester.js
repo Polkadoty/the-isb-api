@@ -11,9 +11,9 @@ const directories = {
   squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
   upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
   objectives: path.join(__dirname, 'public/converted-json/objectives'),
-  'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
-  'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
-  'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
+  'legends-ships': path.join(__dirname, 'public/converted-json/old-legends-ships'),
+  'legends-squadrons': path.join(__dirname, 'public/converted-json/old-legends-squadrons'),
+  'legends-upgrades': path.join(__dirname, 'public/converted-json/old-legends-upgrades'),
   'legacy-ships': path.join(__dirname, 'public/converted-json/legacy-ships'),
   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
@@ -27,7 +27,10 @@ const directories = {
   'amg-upgrades': path.join(__dirname, 'public/converted-json/amg-upgrades'),
   'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
   'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
-  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives')
+  'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives'),
+  'nexus-squadrons': path.join(__dirname, 'public/converted-json/nexus-squadrons'),
+  'nexus-ships': path.join(__dirname, 'public/converted-json/nexus-ships'),
+  'nexus-upgrades': path.join(__dirname, 'public/converted-json/nexus-upgrades'),
 };
 
 // Load tests from YAML file
@@ -173,7 +176,10 @@ function parseArgs() {
     'amg-upgrades': args.includes('-amg-upgrades'),
     'amg-ships': args.includes('-amg-ships'),
     'amg-squadrons': args.includes('-amg-squadrons'),
-    'amg-objectives': args.includes('-amg-objectives')
+    'amg-objectives': args.includes('-amg-objectives'),
+    'nexus-squadrons': args.includes('-nexus-squadrons'),
+    'nexus-ships': args.includes('-nexus-ships'),
+    'nexus-upgrades': args.includes('-nexus-upgrades')
   };
 
   if (flags.all) {

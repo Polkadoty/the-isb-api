@@ -26,9 +26,9 @@ const legendsDirectories = {
   squadrons: path.join(__dirname, 'public/converted-json/squadrons'),
   upgrades: path.join(__dirname, 'public/converted-json/upgrades'),
   objectives: path.join(__dirname, 'public/converted-json/objectives'),
-  'legends-ships': path.join(__dirname, 'public/converted-json/legends-ships'),
-  'legends-squadrons': path.join(__dirname, 'public/converted-json/legends-squadrons'),
-  'legends-upgrades': path.join(__dirname, 'public/converted-json/legends-upgrades'),
+  'legends-ships': path.join(__dirname, 'public/converted-json/old-legends-ships'),
+  'legends-squadrons': path.join(__dirname, 'public/converted-json/old-legends-squadrons'),
+  'legends-upgrades': path.join(__dirname, 'public/converted-json/old-legends-upgrades'),
   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
   // 'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
@@ -42,6 +42,9 @@ const legendsDirectories = {
   // 'amg-ships': path.join(__dirname, 'public/converted-json/amg-ships'),
   // 'amg-squadrons': path.join(__dirname, 'public/converted-json/amg-squadrons'),
   // 'amg-objectives': path.join(__dirname, 'public/converted-json/amg-objectives'),
+  'nexus-squadrons': path.join(__dirname, 'public/converted-json/nexus-squadrons'),
+  'nexus-ships': path.join(__dirname, 'public/converted-json/nexus-ships'),
+  'nexus-upgrades': path.join(__dirname, 'public/converted-json/nexus-upgrades'),
 };
 
 const armadaDirectories = {

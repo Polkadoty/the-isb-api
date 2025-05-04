@@ -1,0 +1,325 @@
+{
+  "squadrons": {
+    "cx-dagger-vessel-legends": {
+      "author": "ForestEXE",
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "442a7516-c791-4458-b5a4-5b8bb7aac6ea",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "cx-dagger-vessel-legends",
+      "name": "CX Dagger Vessel",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel-legends.webp"
+    },
+    "cx2-cx-dagger-vessel-legends": {
+      "author": "ForestEXE",
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "b0866e17-a4fc-4e92-aa3b-2613e9fe7b4d",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "cx-dagger-vessel-legends",
+      "name": "CX Dagger Vessel",
+      "ace-name": "CX-2",
+      "unique-class": [
+        "CX-2"
+      ],
+      "irregular": true,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When attacking a squadron, if you are at distance 1 of only one enemy squadron and no other squadrons, you may change 1 die to any face not already in the attack pool.",
+      "unique": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel-legends.webp"
+    },
+    "tie-punisher-squadron-legends": {
+      "author": [
+        "Cpt Qirk"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "3da11de5-bde6-4f5e-a47a-606219ee5a8d",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-punisher-squadron-legends",
+      "name": "TIE Punisher Squadron",
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 15,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tie-punisher-squadron-legends.webp"
+    },
+    "deathrain-tie-punisher-squadron-legends": {
+      "author": [
+        "Cpt Qirk"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "d2851e7d-3609-4032-afb1-413483373fde",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-punisher-squadron-legends",
+      "name": "TIE Punisher Squadron",
+      "ace-name": "Deathrain",
+      "unique-class": [
+        "Deathrain"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After your activation, you may suffer 2 damage to drop 1 proximity mine at range 1.",
+      "unique": true,
+      "points": 25,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/deathrain-tie-punisher-squadron-legends.webp"
+    },
+    "redline-tie-punisher-squadron-legends": {
+      "author": [
+        "Cpt Qirk"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": "8414e0c4-016e-4dfe-a772-bab35e943894",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-punisher-squadron-legends",
+      "name": "TIE Punisher Squadron",
+      "ace-name": "Redline",
+      "unique-class": [
+        "Redline"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 2,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          2
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While you perform an attack against a ship, you may reroll any of your attack dice.",
+      "unique": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/redline-tie-punisher-squadron-legends.webp"
+    }
+  }
+}
