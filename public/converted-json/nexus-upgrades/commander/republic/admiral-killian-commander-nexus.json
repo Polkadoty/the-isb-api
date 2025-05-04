@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "admiral-killian-commander-nexus": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends May 2025 Development Cycle",
+      "expansion": "Armada Legends V-Wing Expansion",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Admiral Killian",
+      "nicknames": [
+        "Killian", "Killi", "Admiral Killian"
+      ],
+      "unique-class": [
+        "Admiral Killian"
+      ],
+      "ability": "While a friendly ship is perfoming a non-**ignition**, non-`salvo` attack against a ship, before it gathers dice, it may replace 1 die in its battery armament with a red die.\nIf that ship has the *Bombard* tag, it may replace up to 2 dice instead.",
+      "unique": true,
+      "points": 28,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-killian-commander-nexus.webp"
+    }
+  }
+}

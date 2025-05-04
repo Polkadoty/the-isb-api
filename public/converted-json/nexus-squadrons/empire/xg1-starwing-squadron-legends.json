@@ -1,0 +1,248 @@
+{
+  "squadrons": {
+    "alpha-class-star-wing-squadron-legends": {
+      "author": [
+        "Arslanxelan",
+        "Snowhammer",
+        "SpaceNavy",
+        "Doty",
+        "MZ1705",
+        "Pluisjen",
+        "Formynder",
+        "TwoShotOtter",
+        "Trogdor"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "alpha-class-star-wing-squadron-legends",
+      "name": "Alpha-class Star Wing Squadron",
+      "nicknames": [
+        "Alpha-class Star Wing Squadron",
+        "Alpha-class Star Wing",
+        "Alpha-class Star Wing Squadron Legends",
+        "Xg1 Star Wing Squadron", "XG-1", "XG1", "Alpha class", "Alpha Class"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          2,
+          0,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/alpha-class-star-wing-squadron-legends.webp"
+    },
+    "karsabi-alpha-class-star-wing-squadron-legends": {
+      "author": [
+        "Arslanxelan",
+        "Snowhammer",
+        "SpaceNavy",
+        "Doty",
+        "MZ1705",
+        "Pluisjen",
+        "Formynder",
+        "TwoShotOtter",
+        "Trogdor"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "alpha-class-star-wing-squadron-legends",
+      "name": "Alpha-class Star Wing Squadron",
+      "nicknames": [
+        "Alpha-class Star Wing Squadron",
+        "Alpha-class Star Wing",
+        "Alpha-class Star Wing Squadron Legends",
+        "Xg1 Star Wing Squadron", "XG-1", "XG1", "Alpha class", "Alpha Class",
+        "Karasabi", "Lieutenant Karsabi", "Karasabi", "Lieutenant Karasabi", "LT"
+      ],
+      "ace-name": "Lieutenant Karsabi",
+      "unique-class": [
+        "Lieutenant Karsabi" 
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a ship, if there is at least 1 friendly unengaged squadron with BOMBER within distance 1 of you, you may add a red die to your attack pool.",
+      "unique": true,
+      "ace": true,
+      "unique_limit": 1,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/karsabi-alpha-class-star-wing-squadron-legends.webp"
+    },
+    "rho-squadron-alpha-class-star-wing-squadron-legends": {
+      "author": [
+        "Arslanxelan",
+        "Snowhammer",
+        "SpaceNavy",
+        "Doty",
+        "MZ1705",
+        "Pluisjen",
+        "Formynder",
+        "TwoShotOtter",
+        "Trogdor"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "alpha-class-star-wing-squadron-legends",
+      "name": "Alpha-class Star Wing Squadron",
+      "nicknames": [
+        "Alpha-class Star Wing Squadron",
+        "Alpha-class Star Wing",
+        "Alpha-class Star Wing Squadron Legends",
+        "Xg1 Star Wing Squadron", "XG-1", "XG1", "Alpha class", "Alpha Class", "Alpha",
+        "Rho Squadron", "Rho"
+      ],
+      "ace-name": "Rho Squadron",
+      "unique-class": [
+        "Rho Squadron", "Rho"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          2,
+          1,
+          0
+        ],
+        "anti-ship": [
+          1,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": true,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking a ship, if there is at least 1 friendly unengaged squadron with BOMBER within distance 1 of you, you may add a red die to your attack pool.",
+      "unique": true,
+      "ace": true,
+      "unique_limit": 1,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/karsabi-alpha-class-star-wing-squadron-legends.webp"
+    }
+  }
+}
