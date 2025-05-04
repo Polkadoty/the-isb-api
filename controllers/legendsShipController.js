@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 export const getAllLegendsShips = async (req, res, next) => {
   console.log('Attempting to read legends ships.json');
-  const filePath = path.join(__dirname, '../public/converted-json/legends-ships/legends-ships.json');
+  const filePath = path.join(__dirname, '../public/converted-json/old-legends-ships/legends-ships.json');
   console.log('File path:', filePath);
   try {
     const data = await fs.readFile(filePath, 'utf8');
@@ -26,7 +26,7 @@ export const getAllLegendsShips = async (req, res, next) => {
 export const getLegendsShipById = async (req, res, next) => {
   const shipId = req.params.id;
   console.log(`Attempting to get legends ship with ID: ${shipId}`);
-  const filePath = path.join(__dirname, `../public/converted-json/legends-ships/${shipId}.json`);
+  const filePath = path.join(__dirname, `../public/converted-json/old-legends-ships/${shipId}.json`);
   console.log(`File path for legends ship ${shipId}: ${filePath}`);
   try {
     const data = await fs.readFile(filePath, 'utf8');
@@ -39,7 +39,7 @@ export const getLegendsShipById = async (req, res, next) => {
 };
 
 export const searchLegendsShips = async (req, res, next) => {
-  const filePath = path.join(__dirname, '../public/converted-json/legends-ships/legends-ships.json');
+  const filePath = path.join(__dirname, '../public/converted-json/old-legends-ships/legends-ships.json');
   console.log('Attempting to read legends-ships.json for search');
   try {
     const data = await fs.readFile(filePath, 'utf8');

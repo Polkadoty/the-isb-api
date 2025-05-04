@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 export const getAllLegendsUpgrades = async (req, res, next) => {
   console.log('Attempting to read legends upgrades.json');
-  const filePath = path.join(__dirname, '../public/converted-json/legends-upgrades/legends-upgrades.json');
+  const filePath = path.join(__dirname, '../public/converted-json/old-legends-upgrades/legends-upgrades.json');
   console.log('File path:', filePath);
   try {
     const data = await fs.readFile(filePath, 'utf8');
@@ -26,7 +26,7 @@ export const getAllLegendsUpgrades = async (req, res, next) => {
 export const getLegendsUpgradeById = async (req, res, next) => {
   const upgradeId = req.params.id;
   console.log(`Attempting to get legends upgrade with ID: ${upgradeId}`);
-  const filePath = path.join(__dirname, `../public/converted-json/legends-upgrades/${upgradeId}.json`);
+  const filePath = path.join(__dirname, `../public/converted-json/old-legends-upgrades/${upgradeId}.json`);
   console.log(`File path for legends upgrade ${upgradeId}: ${filePath}`);
   try {
     const data = await fs.readFile(filePath, 'utf8');
@@ -39,7 +39,7 @@ export const getLegendsUpgradeById = async (req, res, next) => {
 };
 
 export const searchLegendsUpgrades = async (req, res, next) => {
-  const filePath = path.join(__dirname, '../public/converted-json/legends-upgrades/legends-upgrades.json');
+  const filePath = path.join(__dirname, '../public/converted-json/old-legends-upgrades/legends-upgrades.json');
   console.log('Attempting to read legends upgrades.json for search');
   try {
     const data = await fs.readFile(filePath, 'utf8');
