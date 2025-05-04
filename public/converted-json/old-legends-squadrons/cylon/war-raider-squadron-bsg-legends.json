@@ -1,25 +1,26 @@
 {
   "squadrons": {
-    "tie-punisher-squadron-legends": {
+    "war-raider-squadron-bsg-legends": {
       "author": [
-        "Cpt Qirk"
+        "TacticalFox27",
+        "SpaceNavy"
       ],
       "alias": "Legends",
       "team": "Armada Legends",
-      "release": "Armada Legends",
-      "expansion": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
       "_id": null,
       "type": "squadron",
-      "faction": "empire",
-      "squadron_type": "tie-punisher-squadron-legends",
-      "name": "TIE Punisher Squadron",
+      "faction": "cylon",
+      "squadron_type": "war-raider-squadron",
+      "name": "War Raider Squadron",
       "ace-name": "",
       "unique-class": [
         ""
       ],
       "irregular": false,
-      "hull": 6,
-      "speed": 2,
+      "hull": 4,
+      "speed": 4,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 0,
@@ -27,28 +28,28 @@
       },
       "armament": {
         "anti-squadron": [
-          0,
-          0,
-          1
+          1,
+          1,
+          0
         ],
         "anti-ship": [
           0,
-          0,
-          2
+          1,
+          0
         ]
       },
       "abilities": {
         "adept": 0,
         "ai-battery": 0,
-        "ai-antisquadron": 0,
+        "ai-antisquadron": 1,
         "assault": false,
-        "bomber": true,
+        "bomber": false,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
         "escort": false,
         "grit": false,
-        "heavy": true,
+        "heavy": false,
         "intel": false,
         "relay": 0,
         "rogue": false,
@@ -56,129 +57,66 @@
         "screen": false,
         "snipe": 0,
         "strategic": false,
-        "swarm": false
+        "swarm": true
       },
       "ability": "",
       "unique": false,
-      "points": 15,
+      "ace": false,
+      "points": 10,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tie-punisher-squadron-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/war-raider-squadron-bsg-legends.webp"
     },
-    "deathrain-tie-punisher-squadron-legends": {
+    "war-raider-silverfish-bsg-legends": {
       "author": [
-        "Cpt Qirk"
+        "TacticalFox27",
+        "SpaceNavy"
       ],
       "alias": "Legends",
       "team": "Armada Legends",
-      "release": "Armada Legends",
-      "expansion": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
       "_id": null,
       "type": "squadron",
-      "faction": "empire",
-      "squadron_type": "tie-punisher-squadron-legends",
-      "name": "TIE Punisher Squadron",
-      "ace-name": "Deathrain",
+      "faction": "cylon",
+      "squadron_type": "war-raider-squadron",
+      "name": "War Raider Squadron",
+      "ace-name": "Silverfish",
       "unique-class": [
-        "Deathrain"
+        "Silverfish"
       ],
       "irregular": false,
-      "hull": 6,
-      "speed": 2,
+      "hull": 4,
+      "speed": 4,
       "tokens": {
         "def_scatter": 0,
         "def_evade": 0,
-        "def_brace": 2
+        "def_brace": 0
       },
       "armament": {
         "anti-squadron": [
-          0,
-          0,
-          1
+          1,
+          1,
+          0
         ],
         "anti-ship": [
-          0,
-          0,
-          2
-        ]
-      },
-      "abilities": {
-        "adept": 0,
-        "ai-battery": 0,
-        "ai-antisquadron": 0,
-        "assault": false,
-        "bomber": true,
-        "cloak": false,
-        "counter": 0,
-        "dodge": 0,
-        "escort": false,
-        "grit": true,
-        "heavy": true,
-        "intel": false,
-        "relay": 0,
-        "rogue": false,
-        "scout": false,
-        "screen": false,
-        "snipe": 0,
-        "strategic": false,
-        "swarm": false
-      },
-      "ability": "After your activation, you may suffer 2 damage to drop 1 proximity mine at range 1.",
-      "unique": true,
-      "points": 25,
-      "silhouette": "",
-      "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/deathrain-tie-punisher-squadron-legends.webp"
-    },
-    "redline-tie-punisher-squadron-legends": {
-      "author": [
-        "Cpt Qirk"
-      ],
-      "alias": "Legends",
-      "team": "Armada Legends",
-      "release": "Armada Legends",
-      "expansion": "Armada Legends",
-      "_id": null,
-      "type": "squadron",
-      "faction": "empire",
-      "squadron_type": "tie-punisher-squadron-legends",
-      "name": "TIE Punisher Squadron",
-      "ace-name": "Redline",
-      "unique-class": [
-        "Redline"
-      ],
-      "irregular": false,
-      "hull": 6,
-      "speed": 2,
-      "tokens": {
-        "def_scatter": 0,
-        "def_evade": 0,
-        "def_brace": 2
-      },
-      "armament": {
-        "anti-squadron": [
           0,
           1,
-          1
-        ],
-        "anti-ship": [
-          0,
-          0,
-          2
+          0
         ]
       },
       "abilities": {
         "adept": 0,
         "ai-battery": 0,
-        "ai-antisquadron": 0,
+        "ai-antisquadron": 1,
         "assault": false,
-        "bomber": true,
+        "bomber": false,
         "cloak": false,
         "counter": 0,
         "dodge": 0,
         "escort": false,
-        "grit": true,
-        "heavy": true,
+        "grit": false,
+        "heavy": false,
         "intel": false,
         "relay": 0,
         "rogue": false,
@@ -186,14 +124,82 @@
         "screen": false,
         "snipe": 0,
         "strategic": false,
-        "swarm": false
+        "swarm": true
       },
-      "ability": "While you perform an attack against a ship, you may reroll any of your attack dice.",
+      "ability": "placeholder",
       "unique": true,
-      "points": 22,
+      "ace": true,
+      "points": 16,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/redline-tie-punisher-squadron-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/war-raider-silverfish-bsg-legends.webp"
+    },
+    "war-raider-delta84-bsg-legends": {
+      "author": [
+        "TacticalFox27",
+        "SpaceNavy"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "BSG Armada Legends Wave 1",
+      "expansion": "BSG Starter Set",
+      "_id": null,
+      "type": "squadron",
+      "faction": "cylon",
+      "squadron_type": "war-raider-squadron",
+      "name": "War Raider Squadron",
+      "ace-name": "Delta-84",
+      "unique-class": [
+        "Delta-84"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          1,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 1,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "placeholder",
+      "unique": true,
+      "ace": true,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/war-raider-delta84-bsg-legends.webp"
     }
   }
 }

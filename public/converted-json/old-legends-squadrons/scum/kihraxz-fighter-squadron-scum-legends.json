@@ -1,22 +1,30 @@
 {
   "squadrons": {
-    "cx-dagger-vessel-legends": {
-      "author": "ForestEXE",
+    "kihraxz-fighter-squadron-scum-legends": {
+      "author": [
+        "Armada Legends"
+      ],
       "alias": "Legends",
       "team": "Armada Legends",
-      "release": "Armada Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
       "expansion": "Armada Legends",
       "_id": null,
       "type": "squadron",
-      "faction": "empire",
-      "squadron_type": "cx-dagger-vessel-legends",
-      "name": "CX Dagger Vessel",
+      "faction": "scum",
+      "squadron_type": "kihraxz-fighter-squadron-scum-legends",
+      "name": "Kihraxz Fighter Squadron {Scum}",
+      "nicknames": [
+        "Kihraxz Fighter Squadron",
+        "Kihraxz",
+        "Kihraxz Fighter",
+        "Kihraxz Fighter Squadron"
+      ],
       "ace-name": "",
       "unique-class": [
         ""
       ],
-      "irregular": true,
-      "hull": 5,
+      "irregular": false,
+      "hull": 4,
       "speed": 4,
       "tokens": {
         "def_scatter": 0,
@@ -25,8 +33,8 @@
       },
       "armament": {
         "anti-squadron": [
-          2,
-          1,
+          0,
+          3,
           0
         ],
         "anti-ship": [
@@ -41,15 +49,15 @@
         "ai-antisquadron": 0,
         "assault": false,
         "bomber": false,
-        "cloak": true,
+        "cloak": false,
         "counter": 0,
         "dodge": 0,
-        "escort": false,
+        "escort": true,
         "grit": false,
         "heavy": false,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
         "screen": false,
         "snipe": 0,
@@ -58,28 +66,36 @@
       },
       "ability": "",
       "unique": false,
-      "points": 15,
+      "points": 12,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/cx-dagger-vessel-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/kihraxz-fighter-squadron-scum-legends.webp"
     },
-    "cx2-cx-dagger-vessel-legends": {
-      "author": "ForestEXE",
+    "captain-jostero-kihraxz-fighter-squadron-scum-legends": {
+      "author": [
+        "Armada Legends"
+      ],
       "alias": "Legends",
       "team": "Armada Legends",
-      "release": "Armada Legends",
+      "release": "Armada Legends Scum and Villainy Wave 1",
       "expansion": "Armada Legends",
       "_id": null,
       "type": "squadron",
-      "faction": "empire",
-      "squadron_type": "cx-dagger-vessel-legends",
-      "name": "CX Dagger Vessel",
-      "ace-name": "CX-2",
-      "unique-class": [
-        "CX-2"
+      "faction": "scum",
+      "squadron_type": "kihraxz-fighter-squadron-scum-legends",
+      "name": "Kihraxz Fighter Squadron {Scum}",
+      "nicknames": [
+        "Kihraxz Fighter Squadron",
+        "Kihraxz",
+        "Kihraxz Fighter",
+        "Captain Jostero"
       ],
-      "irregular": true,
-      "hull": 5,
+      "ace-name": "Captain Jostero",
+      "unique-class": [
+        "Captain Jostero"
+      ],
+      "irregular": false,
+      "hull": 4,
       "speed": 4,
       "tokens": {
         "def_scatter": 0,
@@ -88,14 +104,14 @@
       },
       "armament": {
         "anti-squadron": [
+          0,
           2,
-          1,
-          0
+          1
         ],
         "anti-ship": [
           0,
-          1,
-          0
+          0,
+          1
         ]
       },
       "abilities": {
@@ -104,27 +120,28 @@
         "ai-antisquadron": 0,
         "assault": false,
         "bomber": false,
-        "cloak": true,
+        "cloak": false,
         "counter": 0,
         "dodge": 0,
-        "escort": false,
+        "escort": true,
         "grit": false,
         "heavy": false,
         "intel": false,
         "relay": 0,
-        "rogue": true,
+        "rogue": false,
         "scout": false,
-        "screen": false,
+        "screen": true,
         "snipe": 0,
         "strategic": false,
         "swarm": false
       },
-      "ability": "When attacking a squadron, if you are at distance 1 of only one enemy squadron and no other squadrons, you may change 1 die to any face not already in the attack pool.",
+      "ability": "",
       "unique": true,
-      "points": 24,
+      "ace": true,
+      "points": 15,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/cx2-cx-dagger-vessel-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/captain-jostero-kihraxz-fighter-squadron-scum-legends.webp"
     }
   }
 }

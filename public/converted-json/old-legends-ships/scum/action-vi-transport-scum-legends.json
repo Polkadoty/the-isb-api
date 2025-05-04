@@ -1,0 +1,125 @@
+{
+  "ships": {
+      "action-vi-transport-scum-legends": {
+          "_id": null,
+          "type": "chassis",
+          "chassis_name": "action-vi-transport-scum-legends",
+          "size": "small",
+          "hull": 3,
+          "speed": {
+              "1": [2],
+              "2": [1, 1],
+              "3": [0, 1, 1],
+              "4": []
+          },
+          "shields": {
+              "front": 1,
+              "rear": 1,
+              "left": 1,
+              "right": 1,
+              "left_aux": 0,
+              "right_aux": 0
+          },
+          "hull_zones": {
+              "frontoffset": 0,
+              "centeroffset": 0,
+              "rearoffset": 0,
+              "frontangle": 0,
+              "centerangle": 0,
+              "rearangle": 0
+          },
+          "silhouette": "",
+          "blueprint": "",
+          "models": {
+              "action-vi-armed-transports-scum-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends Scum and Villainy Wave 1",
+                  "expansion": "Action VI Transport Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "action-vi-transport-scum-legends",
+                  "name": "Action VI Armed Transports {Scum}",
+                  "nicknames": [
+                    "Action VI Armed Transports", "Armed Transports", "Action VI", "Transports", "Armed", "Action-vi"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["scum", "pirate"],
+                  "points": 26,
+                  "tokens": {
+                      "def_scatter": 1,
+                      "def_evade": 1,
+                      "def_brace": 0,
+                      "def_redirect": 0,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 1,
+                      "squadron": 1,
+                      "engineer": 2
+                  },
+                  "upgrades": ["officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "ion-cannon", "title"],
+                  "armament": {
+                      "asa": [0, 0, 1],
+                      "front": [0, 3, 0],
+                      "rear": [0, 0, 0],
+                      "left": [0, 0, 0],
+                      "right": [0, 0, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/action-vi-armed-transports-scum-legends.webp"
+              },
+              "action-vi-bulk-transports-scum-legends": {
+                  "author": "Armada Legends",
+                  "alias": "Legends",
+                  "team": "Armada Legends",
+                  "release": "Armada Legends Scum and Villainy Wave 1",
+                  "expansion": "Action VI Transport Expansion",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "action-vi-transport-scum-legends",
+                  "name": "Action VI Bulk Transports {Scum}",
+                  "nicknames": [
+                    "Action VI Bulk Transports", "Bulk Transports", "Action VI", "Transports", "Bulk", "Action-vi"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["scum", "smuggle"],
+                  "points": 21,
+                  "tokens": {
+                      "def_scatter": 1,
+                      "def_evade": 1,
+                      "def_brace": 0,
+                      "def_redirect": 0,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 1,
+                      "squadron": 1,
+                      "engineer": 1
+                  },
+                  "upgrades": ["officer", "fleet-support", "support-team", "offensive-retro", "title"],
+                  "armament": {
+                      "asa": [0, 0, 1],
+                      "front": [0, 0, 0],
+                      "rear": [0, 0, 0],
+                      "left": [0, 0, 0],
+                      "right": [0, 0, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/action-vi-bulk-transports-scum-legends.webp"
+              }
+          }
+      }
+  }
+}

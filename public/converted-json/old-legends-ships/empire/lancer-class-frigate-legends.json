@@ -1,0 +1,132 @@
+{
+  "ships": {
+    "lancer-class-frigate-legends": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "lancer-class-frigate-legends",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": [
+        ]
+      },
+      "shields": {
+        "front": 2,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[]",
+      "blueprint": "[]",
+      "models": {
+        "lancer-class-escort-frigate-legends": {
+          "author": "Armada Legends",
+          "alias": "Legends",
+          "team": "Legends",
+          "release": "Armada Legends March 2025 Dev Cycle",
+          "expansion": "Imperial Lancer Expansion Pack (LEG05)",
+          "_id": null,
+          "type": "ship",
+          "chassis": "lancer-class-frigate-legends",
+          "name": "Lancer-class Escort Frigate",
+          "nicknames": [
+            "Lancer", "Lancer Class", "Lancer Class Frigate"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "bombard"
+          ],
+          "points": 45,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "offensive-retro",
+            "offensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              1,
+              2,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/lancer-class-escort-frigate-legends.webp"
+        }
+      }
+    }
+  }
+}

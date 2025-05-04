@@ -2,7 +2,7 @@
   "upgrades": {
     "condor-title-legends": {
       "author": [
-        "Skyhammer"
+        "Armada Legends"
       ],
       "alias": "Legends",
       "team": "Armada Legends",
@@ -17,11 +17,11 @@
       "unique-class": [
         "Condor"
       ],
-      "ability": "While this ship activates any number of squadrons, you may discard this card, if you do all squadrons activated by this ship with Bomber gain the following Critical Effect until the end of their activation:\n:crit:: add 1 red die set to :accuracy:.\nIf a squadron activated by this ship does not have Bomber it instead gains Bomber until the end of it's activation.",
+      "ability": ":squadron:: Squadrons you activate that have only 1 die in their battery armament may add 1 red die to their attack pool when attacking a ship.",
       "unique": true,
-      "points": 12,
+      "points": 8,
       "modification": false,
-      "bound_shiptype": "mc40a-light-legends",
+      "bound_shiptype": "mc40a-legends",
       "restrictions": {
         "traits": [
           ""
@@ -57,63 +57,6 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/condor-title-legends.webp"
     },
-    "lulsla-title-legends": {
-      "author": [
-        "Skyhammer"
-      ],
-      "alias": "Legends",
-      "team": "Armada Legends",
-      "release": "Armada Legends",
-      "expansion": "Armada Legends",
-      "_id": null,
-      "type": "title",
-      "faction": [
-        "rebel"
-      ],
-      "name": "Lulsla",
-      "unique-class": [
-        "Lulsla"
-      ],
-      "ability": "At the start of the Ship Phase, you may discard this card to place 2 Proximity Mine tokens in the play area at distance 2-3 of this ship and beyond distance 3 of enemy ships.",
-      "unique": true,
-      "points": 8,
-      "modification": false,
-      "bound_shiptype": "mc40a-light-legends",
-      "restrictions": {
-        "traits": [
-          ""
-        ],
-        "size": [
-          ""
-        ],
-        "disqual_upgrades": [
-          ""
-        ],
-        "disable_upgrades": [
-          ""
-        ],
-        "enable_upgrades": [
-          ""
-        ],
-        "flagship": false
-      },
-      "start_command": {
-        "type": "",
-        "start_icon": [
-          ""
-        ],
-        "start_amount": 0
-      },
-      "exhaust": {
-        "type": "",
-        "ready_token": [
-          ""
-        ],
-        "ready_amount": 0
-      },
-      "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/lulsla-title-legends.webp"
-    },
     "shadow-title-legends": {
       "author": [
         "Skyhammer"
@@ -131,11 +74,12 @@
       "unique-class": [
         "Shadow"
       ],
-      "ability": "While this ship is obstructing line of sight from an attacker to a friendly defending ship, before rolling dice, you may exhaust this card; if you do, the attacker must remove 1 die from the attack pool.",
+
+      "ability": "While a friendly ship is defending from a ship, if the attack line of sight is traced through you, the attacker must remove 1 additional die from their attack pool.",
       "unique": true,
-      "points": 7,
+      "points": 3,
       "modification": false,
-      "bound_shiptype": "mc40a-light-legends",
+      "bound_shiptype": "mc40a-legends",
       "restrictions": {
         "traits": [
           ""
