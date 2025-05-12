@@ -23,7 +23,7 @@ export const getAllNexusShips = async (req, res, next) => {
   }
 };
 
-export const getLegendsShipById = async (req, res, next) => {
+export const getNexusShipById = async (req, res, next) => {
   const shipId = req.params.id;
   console.log(`Attempting to get nexus ship with ID: ${shipId}`);
   const filePath = path.join(__dirname, `../public/converted-json/nexus-ships/${shipId}.json`);

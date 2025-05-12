@@ -1,7 +1,136 @@
 {
   "ships": {
+    "lancer-class-frigate-legends": {
+      "_id": "291930f9-1fef-40db-9339-549c9f465ada",
+      "type": "chassis",
+      "chassis_name": "lancer-class-frigate-legends",
+      "size": "small",
+      "hull": 4,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 2,
+        "rear": 2,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "[]",
+      "blueprint": "[]",
+      "models": {
+        "lancer-class-escort-frigate-legends": {
+          "author": "Armada Legends",
+          "alias": "Legends",
+          "team": "Legends",
+          "release": "Armada Legends March 2025 Dev Cycle",
+          "expansion": "Imperial Lancer Expansion Pack (LEG05)",
+          "_id": "1a2a7f71-01d6-4f7e-b5ce-762b13282b90",
+          "type": "ship",
+          "chassis": "lancer-class-frigate-legends",
+          "name": "Lancer-class Escort Frigate",
+          "nicknames": [
+            "Lancer",
+            "Lancer Class",
+            "Lancer Class Frigate"
+          ],
+          "faction": "empire",
+          "unique": false,
+          "traits": [
+            "bombard"
+          ],
+          "points": 45,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "offensive-retro",
+            "offensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              1,
+              0
+            ],
+            "front": [
+              0,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              1,
+              2,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/lancer-class-escort-frigate-legends.webp"
+        }
+      }
+    },
     "adamant-class-frigate-bsg-legends": {
-      "_id": "de5c8800-70a7-43c9-9277-ffdb4f84fa6a",
+      "_id": "ddee7701-5885-4797-8589-f53b3e2b09af",
       "type": "chassis",
       "chassis_name": "adamant-class-frigate",
       "size": "medium",
@@ -49,7 +178,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "52abb50e-c351-4d27-8bcb-6367baf05ccd",
+          "_id": "a96aa424-e499-40cf-a207-2e42b865815f",
           "type": "ship",
           "chassis": "adamant-class-frigate",
           "name": "Adamant-class Light Carrier",
@@ -134,7 +263,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "88f6bad8-bce0-413d-8524-ab87c85c3811",
+          "_id": "9d375854-7e6c-48d9-9fda-c685b70af96f",
           "type": "ship",
           "chassis": "adamant-class-frigate",
           "name": "Adamant-class Light Frigate",
@@ -212,7 +341,7 @@
       }
     },
     "jupiter-class-battlestar-bsg-legends": {
-      "_id": "88490a1c-7444-464f-962a-f4e7af390858",
+      "_id": "2d34b850-e978-4bf6-9fc9-37e4bc624632",
       "type": "chassis",
       "chassis_name": "jupiter-class-battlestar",
       "size": "large",
@@ -260,7 +389,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "cb610e74-d4d1-4bb4-acc3-8108a6e444fe",
+          "_id": "f424dfde-9788-4c1b-aee2-381805627774",
           "type": "ship",
           "chassis": "jupiter-class-battlestar",
           "name": "Jupiter-class Battlestar Mark I",
@@ -349,7 +478,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "415d8357-4c87-4e25-b3b1-60617f888973",
+          "_id": "0f646bb3-07fd-4e4f-ba3a-2324412654ae",
           "type": "ship",
           "chassis": "jupiter-class-battlestar",
           "name": "Jupiter-class Battlestar Mark II",
@@ -432,7 +561,7 @@
       }
     },
     "manticore-class-corvette-bsg-legends": {
-      "_id": "a684a143-a712-4290-b612-fbd179555103",
+      "_id": "ca475b57-d433-418d-b14d-5d39f953cb86",
       "type": "chassis",
       "chassis_name": "manticore-class-corvette",
       "size": "small",
@@ -480,7 +609,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "e347d34d-9026-4e5e-b148-a2ff8eb5469a",
+          "_id": "f10c625b-5436-4b7c-844f-243510b2fa87",
           "type": "ship",
           "chassis": "manticore-class-corvette",
           "name": "Manticore-class Attack Corvette",
@@ -562,7 +691,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "ce7ec1e7-c9f2-42e1-b260-052622b39872",
+          "_id": "b8cc9a52-3c9b-4b37-9620-4d3168dfdd33",
           "type": "ship",
           "chassis": "manticore-class-corvette",
           "name": "Manticore-class Patrol Corvette",
@@ -639,7 +768,7 @@
       }
     },
     "minotaur-class-cruiser-bsg-legends": {
-      "_id": "e2a1a307-3f1c-46b0-a3ac-89a8ca38640a",
+      "_id": "f2fa10f6-ce5c-4e01-a1d4-b29b71ceea38",
       "type": "chassis",
       "chassis_name": "minotaur-class-cruiser",
       "size": "medium",
@@ -687,7 +816,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "bff5e47f-b65d-4b40-89e2-c5d76943a96a",
+          "_id": "51ad728a-87dd-4c31-9a03-0f64acabcadc",
           "type": "ship",
           "chassis": "minotaur-class-cruiser",
           "name": "Minotaur-class Heavy Assault Cruiser",
@@ -770,7 +899,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "6843d44d-dd5e-4ee1-8f47-5af9fc077830",
+          "_id": "98e49a16-c067-4d11-974a-9d1457874e1d",
           "type": "ship",
           "chassis": "minotaur-class-cruiser",
           "name": "Minotaur-class Heavy Command Cruiser",
@@ -847,7 +976,7 @@
       }
     },
     "ccs-class-cruiser-halo-legends": {
-      "_id": "65e30dc1-0a58-454b-9a11-0d378134fe4e",
+      "_id": "fc1a919c-aedd-441e-917a-8adf7a0aac44",
       "type": "chassis",
       "chassis_name": "ccs-class",
       "size": "large",
@@ -896,7 +1025,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "a30d0ac7-87f1-4f34-9be9-48ac6c341665",
+          "_id": "485bff6d-e8ae-41e3-a389-f9eaf30a1053",
           "type": "ship",
           "chassis": "ccs-class",
           "name": "CCS-class Command Cruiser",
@@ -984,7 +1113,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "4b3be85c-dfa0-48a2-85a8-13f4e0ba0ee6",
+          "_id": "600e49b0-0d75-41c0-94a7-bf1581c24c40",
           "type": "ship",
           "chassis": "ccs-class",
           "name": "CCS-class Battle Cruiser",
@@ -1066,7 +1195,7 @@
       }
     },
     "sdv-class-corvette-halo-legends": {
-      "_id": "7e024da4-a7be-4107-a856-f9eabad501e0",
+      "_id": "79f0fabf-3d61-4add-a744-ac23330e4065",
       "type": "chassis",
       "chassis_name": "sdv-class",
       "size": "medium",
@@ -1115,7 +1244,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "09d9b4bf-ced3-438e-bc70-6cc4b003b530",
+          "_id": "47d1345e-d9d0-4236-8722-ad2dd88dc57a",
           "type": "ship",
           "chassis": "sdv-class",
           "name": "SDV-class Assault Corvette",
@@ -1203,7 +1332,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "619a0b9f-e179-46b5-8ca3-5665724cb02b",
+          "_id": "a72cbfa0-ebee-4ae9-a69b-14b56872fa61",
           "type": "ship",
           "chassis": "sdv-class",
           "name": "SDV-class Heavy Corvette",
@@ -1283,7 +1412,7 @@
       }
     },
     "arachne-cruiser-bsg-legends": {
-      "_id": "9005255b-98f6-41ef-bceb-cc7861b82827",
+      "_id": "14168e8f-1789-4c89-8eed-50538fa2832e",
       "type": "chassis",
       "chassis_name": "arachne-cruiser",
       "size": "medium",
@@ -1331,7 +1460,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "fe6fa3be-8ecc-4a6a-8591-9e4653969db6",
+          "_id": "981ab2e9-0a0a-4ad6-8008-b64cab1c6d0d",
           "type": "ship",
           "chassis": "arachne-cruiser",
           "name": "Arachne Carrier Cruiser",
@@ -1418,7 +1547,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "793ce22c-79de-4d35-9a42-ce3f2c131105",
+          "_id": "ec1f87e6-db44-4182-bb30-378a5609333d",
           "type": "ship",
           "chassis": "arachne-cruiser",
           "name": "Arachne Missile Cruiser",
@@ -1498,7 +1627,7 @@
       }
     },
     "nemesis-corvette-bsg-legends": {
-      "_id": "2335108b-0779-460f-b6aa-1efcf3f7bfc8",
+      "_id": "67b56005-0a86-4bc7-9167-d06ee3d13352",
       "type": "chassis",
       "chassis_name": "nemesis-corvette",
       "size": "small",
@@ -1551,7 +1680,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "fabcf297-fb23-44ca-9975-f3a17c4ca70b",
+          "_id": "abd3bda1-245d-4060-bb5f-0cabbce64df8",
           "type": "ship",
           "chassis": "nemesis-corvette",
           "name": "Nemesis Attack Corvette",
@@ -1636,7 +1765,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "56dfa9be-3f63-4515-8015-11d8cb3b8e48",
+          "_id": "5a1ca03d-c824-44c0-a5c5-d1b72a549769",
           "type": "ship",
           "chassis": "nemesis-corvette",
           "name": "Nemesis Tech Corvette",
@@ -1715,7 +1844,7 @@
       }
     },
     "talon-frigate-bsg-legends": {
-      "_id": "f61eeee5-5d17-44df-898c-c0d048c0b062",
+      "_id": "2bfe7b47-1bf3-481b-ac5d-223c73680f15",
       "type": "chassis",
       "chassis_name": "talon-frigate",
       "size": "small",
@@ -1763,7 +1892,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "8882854d-4887-479d-a207-39e463908a7d",
+          "_id": "9c6c256a-434e-4671-a101-439f76920fbd",
           "type": "ship",
           "chassis": "talon-frigate",
           "name": "Talon Light Carrier",
@@ -1849,7 +1978,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "09188b60-a8d0-4719-911a-49b104c6c14c",
+          "_id": "f918d733-c761-4ecb-8766-ad305d56de51",
           "type": "ship",
           "chassis": "talon-frigate",
           "name": "Talon Light Frigate",
@@ -1928,7 +2057,7 @@
       }
     },
     "war-basestar-bsg-legends": {
-      "_id": "702bb666-0372-4e84-837f-9e2944313b8d",
+      "_id": "e658a5e1-ca4c-4db5-b692-f9fc0b71ba50",
       "type": "chassis",
       "chassis_name": "war-basestar",
       "size": "large",
@@ -1972,7 +2101,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "9601a66f-9a40-4e26-b59e-5f198f820fa1",
+          "_id": "29a58dcb-9284-4d53-adce-9979a3e9d02d",
           "type": "ship",
           "chassis": "war-basestar",
           "name": "War Basestar Mk.1",
@@ -2059,7 +2188,7 @@
           "team": "Armada Legends",
           "release": "BSG Armada Legends",
           "expansion": "BSG Starter Set",
-          "_id": "0ecb8cb9-cf44-4f10-9530-558bde8f91a5",
+          "_id": "d06608ee-0216-48e2-8336-bb4b46beb2d4",
           "type": "ship",
           "chassis": "war-basestar",
           "name": "War Basestar Mk.2",
@@ -2140,137 +2269,8 @@
         }
       }
     },
-    "lancer-class-frigate-legends": {
-      "_id": "a97d51ae-ec9b-4b58-943c-34609744c8c5",
-      "type": "chassis",
-      "chassis_name": "lancer-class-frigate-legends",
-      "size": "small",
-      "hull": 4,
-      "speed": {
-        "1": [
-          1
-        ],
-        "2": [
-          1,
-          1
-        ],
-        "3": [
-          0,
-          1,
-          1
-        ],
-        "4": []
-      },
-      "shields": {
-        "front": 2,
-        "rear": 2,
-        "left": 2,
-        "right": 2,
-        "left_aux": 0,
-        "right_aux": 0
-      },
-      "hull_zones": {
-        "frontoffset": 0,
-        "centeroffset": 0,
-        "rearoffset": 0,
-        "frontangle": 0,
-        "centerangle": 0,
-        "rearangle": 0
-      },
-      "silhouette": "[]",
-      "blueprint": "[]",
-      "models": {
-        "lancer-class-escort-frigate-legends": {
-          "author": "Armada Legends",
-          "alias": "Legends",
-          "team": "Legends",
-          "release": "Armada Legends March 2025 Dev Cycle",
-          "expansion": "Imperial Lancer Expansion Pack (LEG05)",
-          "_id": "bc2cb6f8-9bf6-4aa5-9c5a-c4c488fb1365",
-          "type": "ship",
-          "chassis": "lancer-class-frigate-legends",
-          "name": "Lancer-class Escort Frigate",
-          "nicknames": [
-            "Lancer",
-            "Lancer Class",
-            "Lancer Class Frigate"
-          ],
-          "faction": "empire",
-          "unique": false,
-          "traits": [
-            "bombard"
-          ],
-          "points": 45,
-          "tokens": {
-            "def_scatter": 0,
-            "def_evade": 1,
-            "def_brace": 1,
-            "def_redirect": 1,
-            "def_contain": 0,
-            "def_salvo": 0
-          },
-          "values": {
-            "command": 1,
-            "squadron": 1,
-            "engineer": 3
-          },
-          "upgrades": [
-            "commander",
-            "officer",
-            "offensive-retro",
-            "offensive-retro",
-            "turbolaser",
-            "title"
-          ],
-          "armament": {
-            "asa": [
-              1,
-              1,
-              0
-            ],
-            "front": [
-              0,
-              1,
-              0
-            ],
-            "rear": [
-              0,
-              1,
-              0
-            ],
-            "left": [
-              1,
-              2,
-              0
-            ],
-            "right": [
-              2,
-              1,
-              0
-            ],
-            "left_aux": [
-              0,
-              0,
-              0
-            ],
-            "right_aux": [
-              0,
-              0,
-              0
-            ],
-            "special": [
-              0,
-              0,
-              0
-            ]
-          },
-          "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/lancer-class-escort-frigate-legends.webp"
-        }
-      }
-    },
     "corona-class-frigate-new-republic-legends": {
-      "_id": "495df8ff-bfe8-4ed6-88da-763374b33b6f",
+      "_id": "c44bdbf5-bb5c-4e00-8ac0-ae056575cb23",
       "type": "chassis",
       "chassis_name": "corona-class-frigate-new-republic-legends",
       "size": "small",
@@ -2315,7 +2315,7 @@
           "team": "Legends",
           "release": "New Republic Wave 0",
           "expansion": "New Republic Wave 0",
-          "_id": "aa017f71-c458-42fd-ba91-503411e1a083",
+          "_id": "27490e89-1e46-4ca2-999d-31af008ec45c",
           "type": "ship",
           "chassis": "corona-class-frigate-new-republic-legends",
           "name": "Corona-class Escort Frigate {NR}",
@@ -2407,7 +2407,7 @@
           "team": "Legends",
           "release": "New Republic Wave 0",
           "expansion": "New Republic Wave 0",
-          "_id": "6239fd42-57f2-46b4-97a9-fcb788e78162",
+          "_id": "92834f9e-3612-485e-b338-345cca2cb4fc",
           "type": "ship",
           "chassis": "corona-class-frigate-new-republic-legends",
           "name": "Corona-class Support Frigate {NR}",
@@ -2494,7 +2494,7 @@
       }
     },
     "cr90-corvette-new-republic-legends": {
-      "_id": "56d9cb5c-8372-4d47-a9be-ea8467325ef6",
+      "_id": "85171d37-1957-4a51-abb5-df51528855dd",
       "type": "chassis",
       "chassis_name": "cr90-corvette-new-republic-legends",
       "size": "small",
@@ -2544,7 +2544,7 @@
           "team": "Legends",
           "release": "New Republic Wave 0",
           "expansion": "New Republic Wave 0",
-          "_id": "cdb1a654-7866-422c-8f5b-81dd6fa96fda",
+          "_id": "801baa28-d43a-4222-898b-1cf709e38104",
           "type": "ship",
           "chassis": "cr90-corvette-new-republic-legends",
           "name": "CR90 Corvette A {NR}",
@@ -2630,7 +2630,7 @@
       }
     },
     "endurance-class-new-republic-legends": {
-      "_id": "771c4ffc-8d32-4cfe-b1ae-0f91726e461c",
+      "_id": "cb065dbc-842f-4de4-9e42-62af31dd2d05",
       "type": "chassis",
       "chassis_name": "endurance-class-new-republic-legends",
       "size": "large",
@@ -2671,7 +2671,7 @@
           "team": "Legends",
           "release": "New Republic Wave 0",
           "expansion": "New Republic Wave 0",
-          "_id": "a6a19408-3e6b-432f-bc96-eef4f787eeef",
+          "_id": "d098ce9a-050a-4f7a-9ebe-5e31a10cf6ae",
           "type": "ship",
           "chassis": "endurance-class-new-republic-legends",
           "name": "Endurance-class Fleet Carrier {NR}",
@@ -2761,7 +2761,7 @@
       }
     },
     "mc90-cruiser-new-republic-legends": {
-      "_id": "ed033ed4-b3f4-4be8-beb2-9fa8938ed7a3",
+      "_id": "52ccaef6-6c7e-4901-b9e9-0203a1a54b37",
       "type": "chassis",
       "chassis_name": "mc90-cruiser-new-republic-legends",
       "size": "large",
@@ -2802,7 +2802,7 @@
           "team": "Legends",
           "release": "New Republic Wave 0",
           "expansion": "New Republic Wave 0",
-          "_id": "fce5e435-b4e1-4dcb-bf24-40325ba1f7ff",
+          "_id": "ebe9e8eb-12b6-4df1-ae9d-186889d5120c",
           "type": "ship",
           "chassis": "mc90-cruiser-new-republic-legends",
           "name": "MC90 Battle Cruiser {NR}",
@@ -2893,7 +2893,7 @@
           "team": "Legends",
           "release": "New Republic Wave 0",
           "expansion": "New Republic Wave 0",
-          "_id": "9f286363-b5fc-4440-aaab-a95a9ca29c02",
+          "_id": "b7036b9b-d648-4202-9b0e-7ef33d35e2ca",
           "type": "ship",
           "chassis": "mc90-cruiser-new-republic-legends",
           "name": "MC90 Command Cruiser {NR}",
@@ -2980,7 +2980,7 @@
       }
     },
     "nebula-class-new-republic-legends": {
-      "_id": "6d6654e6-23c2-4f68-89b6-82a663127f01",
+      "_id": "50db8b76-f27c-4e78-8613-a5ebf9a4a953",
       "type": "chassis",
       "chassis_name": "nebula-class-new-republic-legends",
       "size": "large",
@@ -3025,7 +3025,7 @@
           "team": "Legends",
           "release": "New Republic Wave 0",
           "expansion": "New Republic Wave 0",
-          "_id": "c76d2ba5-e04d-4b77-b7e6-1aa5d3c4e4ae",
+          "_id": "6e071393-00e7-40d2-8579-5cf073997f21",
           "type": "ship",
           "chassis": "nebula-class-new-republic-legends",
           "name": "Nebula-class Star Destroyer {NR}",
@@ -3114,7 +3114,7 @@
       }
     },
     "mc40a-legends": {
-      "_id": "31ff2123-2689-470c-9716-79e025e3eb9d",
+      "_id": "3cccd545-3dba-4cc7-ae08-f0e532e4937e",
       "type": "chassis",
       "chassis_name": "mc40a-legends",
       "size": "medium",
@@ -3161,7 +3161,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "db10532d-4694-4020-aa85-a4e8eebbbadc",
+          "_id": "deff1ad6-8724-4e42-a3b5-ac8f8d5487ba",
           "type": "ship",
           "chassis": "mc40a-legends",
           "name": "MC40a Escort Carrier",
@@ -3247,7 +3247,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends",
           "expansion": "Armada Legends",
-          "_id": "e2f4ff07-0647-40a8-bf46-d65297c3e259",
+          "_id": "d0b963bf-0b8f-4e0e-8326-4a53f098d78e",
           "type": "ship",
           "chassis": "mc40a-legends",
           "name": "MC40a Light Cruiser",
@@ -3327,7 +3327,7 @@
       }
     },
     "dreadnaught-class-republic-legends": {
-      "_id": "b4a3b309-398e-4a85-85e4-7f581ec1329a",
+      "_id": "91d96ef4-bbbc-4b7d-9851-f57be48f598b",
       "type": "chassis",
       "chassis_name": "dreadnaught-class-republic-legends",
       "size": "medium",
@@ -3368,7 +3368,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends December 2024 Dev Cycle",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "d67a410c-c9a8-431c-a391-f4aee40aa099",
+          "_id": "80a46de9-a5e7-40ed-a720-69a99a5da18a",
           "type": "ship",
           "chassis": "dreadnaught-class-republic-legends",
           "name": "Dreadnaught-class Heavy Cruiser",
@@ -3459,7 +3459,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends December 2024 Dev Cycle",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "c524cbab-8484-420c-991c-8763d5df6396",
+          "_id": "e451bf8a-b113-4390-aef1-c5421d00b089",
           "type": "ship",
           "chassis": "dreadnaught-class-republic-legends",
           "name": "Dreadnaught-class Judicial Cruiser",
@@ -3547,7 +3547,7 @@
       }
     },
     "action-vi-transport-scum-legends": {
-      "_id": "0050ae13-132b-4540-8fa1-f8b50ad98f26",
+      "_id": "428ae2ec-80fa-475a-9b2c-8c665bdf717b",
       "type": "chassis",
       "chassis_name": "action-vi-transport-scum-legends",
       "size": "small",
@@ -3592,7 +3592,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Action VI Transport Expansion",
-          "_id": "66166b54-10ca-4d94-be1c-524a0930adf7",
+          "_id": "4c5122c3-9090-4b4f-b6f1-9c909b66144e",
           "type": "ship",
           "chassis": "action-vi-transport-scum-legends",
           "name": "Action VI Armed Transports {Scum}",
@@ -3683,7 +3683,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Action VI Transport Expansion",
-          "_id": "383a79d3-49b5-4098-a303-1db2ee125a17",
+          "_id": "16af13a9-9546-4559-875f-26301d09fdb2",
           "type": "ship",
           "chassis": "action-vi-transport-scum-legends",
           "name": "Action VI Bulk Transports {Scum}",
@@ -3770,7 +3770,7 @@
       }
     },
     "interceptor-iv-class-frigate-scum-legends": {
-      "_id": "ca4b4610-8f73-4131-9fab-7a47966f1d2a",
+      "_id": "313a7728-f0a9-490c-a979-27060f3bc232",
       "type": "chassis",
       "chassis_name": "interceptor-iv-class-frigate-scum-legends",
       "size": "small",
@@ -3815,7 +3815,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Interceptor IV Class Frigate Expansion",
-          "_id": "b548e8dd-2914-4beb-ae43-90cf68812e32",
+          "_id": "c5eae6e2-07ef-4ff4-918b-6b713523f55a",
           "type": "ship",
           "chassis": "interceptor-iv-class-frigate-scum-legends",
           "name": "Interceptor IV-class Attack Frigate {Scum}",
@@ -3907,7 +3907,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Interceptor IV Class Frigate Expansion",
-          "_id": "426bd379-037c-49b5-af1b-c12035ffe1dd",
+          "_id": "b8dff0f5-58d7-4299-a72b-d8ac8e6f242a",
           "type": "ship",
           "chassis": "interceptor-iv-class-frigate-scum-legends",
           "name": "Interceptor IV-class Missile Frigate {Scum}",
@@ -3997,7 +3997,7 @@
       }
     },
     "marauder-class-corvette-scum-legends": {
-      "_id": "5fb5d74b-bd25-490a-a282-7d4542e5e467",
+      "_id": "c8c07979-8521-4843-8c6c-5b6937152a8d",
       "type": "chassis",
       "chassis_name": "marauder-class-corvette-scum-legends",
       "size": "small",
@@ -4042,7 +4042,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Marauder Heavy Cruiser Expansion",
-          "_id": "17eb5dd5-833a-47d9-b27c-c5feb7498854",
+          "_id": "ac0619ef-e5f4-413e-83f8-8bcbaf07b5aa",
           "type": "ship",
           "chassis": "marauder-class-corvette-scum-legends",
           "name": "Marauder Artillery Corvette {Scum}",
@@ -4135,7 +4135,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Marauder Heavy Cruiser Expansion",
-          "_id": "538d237d-d080-4049-b1e2-a989ae4253ad",
+          "_id": "26416551-5fbc-4de7-8489-19ba121dc3bb",
           "type": "ship",
           "chassis": "marauder-class-corvette-scum-legends",
           "name": "Marauder Picket Corvette {Scum}",
@@ -4225,7 +4225,7 @@
       }
     },
     "neutron-star-class-bulk-scum-legends": {
-      "_id": "3585ecd7-7dca-4262-a7e6-af6a50a5bd3c",
+      "_id": "b17ac0e9-0244-4b0e-8486-3dd7f311733f",
       "type": "chassis",
       "chassis_name": "neutron-star-class-bulk-scum-legends",
       "size": "medium",
@@ -4270,7 +4270,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Neutron Star Class Bulk Expansion",
-          "_id": "638b8251-9354-4eea-9f7d-2e921ca97096",
+          "_id": "f491e0a2-89d5-4995-9975-6c5436c726f4",
           "type": "ship",
           "chassis": "neutron-star-class-bulk-scum-legends",
           "name": "Neutron Star-class Bulk Carrier {Scum}",
@@ -4364,7 +4364,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends Scum and Villainy Wave 1",
           "expansion": "Neutron Star Class Bulk Expansion",
-          "_id": "24471010-364c-41ff-8b81-01f3bbbeda82",
+          "_id": "8db19f2f-4f24-4520-bc53-1d3ec03d616b",
           "type": "ship",
           "chassis": "neutron-star-class-bulk-scum-legends",
           "name": "Neutron Star-class Bulk Cruiser {Scum}",
@@ -4454,7 +4454,7 @@
       }
     },
     "subjugator-class-legends": {
-      "_id": "3b542bb7-c48d-4a9b-847f-cd3adc60a767",
+      "_id": "427c6955-e640-47d1-9f13-f356536b0efc",
       "type": "chassis",
       "chassis_name": "subjugator-class-legends",
       "size": "280-huge",
@@ -4497,7 +4497,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends November 2024 Dev Cycle",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "a6127eb0-7660-4eed-940f-22a0b66833ce",
+          "_id": "8dc8a94e-5e8b-4b33-bbce-e172c53f48a9",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Prototype",
@@ -4592,7 +4592,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends November 2024 Dev Cycle",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "f4324e35-93e6-46e4-b057-c30b0cfeb573",
+          "_id": "2e078850-53a4-490b-a266-62b1750dc213",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Testbed",
@@ -4687,7 +4687,7 @@
           "team": "Armada Legends",
           "release": "Armada Legends November 2024 Dev Cycle",
           "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "aa6e1cd9-8611-43f0-8206-2b32e6db8a72",
+          "_id": "0ad14aa8-0187-4a37-b9ba-2ced46a8e7f5",
           "type": "ship",
           "chassis": "subjugator-class-legends",
           "name": "Subjugator-class Heavy Cruiser",
@@ -4778,7 +4778,7 @@
       }
     },
     "halcyon-class-cruiser-halo-legends": {
-      "_id": "b767453f-787f-40db-8b9f-91a9953a159a",
+      "_id": "34d8c722-8f02-4028-bac2-917ac0643f20",
       "type": "chassis",
       "chassis_name": "halcyon-class",
       "size": "medium",
@@ -4827,7 +4827,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "97620876-3747-4b00-ad31-7f71049e1dfb",
+          "_id": "b9a06bfe-bb13-444a-87cb-06ba267cd2e1",
           "type": "ship",
           "chassis": "halcyon-class",
           "name": "Halcyon-class Battle Refit",
@@ -4915,7 +4915,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "f42ad444-9d4d-4328-a59b-a32b8b2aa335",
+          "_id": "eb661282-a112-493c-b8b8-beb8245f17b2",
           "type": "ship",
           "chassis": "halcyon-class",
           "name": "Halcyon-class Light Cruiser",
@@ -4997,7 +4997,7 @@
       }
     },
     "paris-class-frigate-halo-legends": {
-      "_id": "fdafa52f-1c42-42c7-b5e0-01dd94a06d74",
+      "_id": "0f151c5b-7718-4a45-af0b-217c9d2d3800",
       "type": "chassis",
       "chassis_name": "paris-class",
       "size": "small",
@@ -5046,7 +5046,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "2d8574a1-0e22-4ed0-a55c-724a1849d328",
+          "_id": "8f6e6371-fe6a-4291-a7f2-f3ab54ae187a",
           "type": "ship",
           "chassis": "paris-class",
           "name": "Paris-class Heavy Frigate",
@@ -5133,7 +5133,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "a73369bc-5c0f-4d23-9906-9f912b838ab2",
+          "_id": "cc52a064-12fc-4ec0-8db3-3c26410b30bd",
           "type": "ship",
           "chassis": "paris-class",
           "name": "Paris-class Missile Frigate",
@@ -5213,7 +5213,7 @@
       }
     },
     "stalwart-class-frigate-halo-legends": {
-      "_id": "84e79778-b8b8-4d4b-8ae5-7893b7174e6e",
+      "_id": "13845e00-1e94-48cd-8800-16509d746c4b",
       "type": "chassis",
       "chassis_name": "stalwart-class",
       "size": "small",
@@ -5262,7 +5262,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "26a6a6a8-bc8c-45f9-a132-5055bbdcf218",
+          "_id": "9a6f2929-4880-4f8e-a086-1dbad2ad37a2",
           "type": "ship",
           "chassis": "stalwart-class",
           "name": "Stalwart-class Escort Frigate",
@@ -5349,7 +5349,7 @@
           "team": "Armada Legends",
           "release": "Halo Armada Legends Wave 1",
           "expansion": "Halo Starter Set",
-          "_id": "d3f81d2e-1696-4ae1-b23c-75835ee7eeed",
+          "_id": "a05732e0-f6bf-49aa-a44b-e0e620a627c7",
           "type": "ship",
           "chassis": "stalwart-class",
           "name": "Stalwart-class Escort Frigate",
