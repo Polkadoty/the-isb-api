@@ -1,30 +1,20 @@
 {
   "squadrons": {
-    "alpha-class-star-wing-squadron-legends": {
-      "author": [
-        "Arslanxelan",
-        "Snowhammer",
-        "SpaceNavy",
-        "Doty",
-        "MZ1705",
-        "Pluisjen",
-        "Formynder",
-        "TwoShotOtter",
-        "Trogdor"
-      ],
+    "alpha-class-star-wing-squadron-nexus": {
+      "author": "Armada Nexus",
       "alias": "Legends",
-      "team": "Armada Legends",
-      "release": "Armada Legends",
-      "expansion": "Armada Legends",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus",
+      "expansion": "Armada Nexus",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "alpha-class-star-wing-squadron-legends",
+      "squadron_type": "alpha-class-star-wing-squadron-nexus",
       "name": "Alpha-class Star Wing Squadron",
       "nicknames": [
         "Alpha-class Star Wing Squadron",
         "Alpha-class Star Wing",
-        "Alpha-class Star Wing Squadron Legends",
+        "Alpha-class Star Wing Squadron",
         "Xg1 Star Wing Squadron",
         "XG-1",
         "XG1",
@@ -82,28 +72,18 @@
       "points": 14,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/alpha-class-star-wing-squadron-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/alpha-class-star-wing-squadron-nexus.webp"
     },
-    "karsabi-alpha-class-star-wing-squadron-legends": {
-      "author": [
-        "Arslanxelan",
-        "Snowhammer",
-        "SpaceNavy",
-        "Doty",
-        "MZ1705",
-        "Pluisjen",
-        "Formynder",
-        "TwoShotOtter",
-        "Trogdor"
-      ],
+    "karsabi-alpha-class-star-wing-squadron-nexus": {
+      "author": "Armada Nexus",
       "alias": "Legends",
-      "team": "Armada Legends",
-      "release": "Armada Legends",
-      "expansion": "Armada Legends",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus",
+      "expansion": "Armada Nexus",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "alpha-class-star-wing-squadron-legends",
+      "squadron_type": "alpha-class-star-wing-squadron-nexus",
       "name": "Alpha-class Star Wing Squadron",
       "nicknames": [
         "Alpha-class Star Wing Squadron",
@@ -172,33 +152,23 @@
       "points": 19,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/karsabi-alpha-class-star-wing-squadron-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/karsabi-alpha-class-star-wing-squadron-nexus.webp"
     },
-    "rho-squadron-alpha-class-star-wing-squadron-legends": {
-      "author": [
-        "Arslanxelan",
-        "Snowhammer",
-        "SpaceNavy",
-        "Doty",
-        "MZ1705",
-        "Pluisjen",
-        "Formynder",
-        "TwoShotOtter",
-        "Trogdor"
-      ],
+    "rho-squadron-alpha-class-star-wing-squadron-nexus": {
+      "author": "Armada Nexus",
       "alias": "Legends",
-      "team": "Armada Legends",
-      "release": "Armada Legends",
-      "expansion": "Armada Legends",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus",
+      "expansion": "Armada Nexus",
       "_id": null,
       "type": "squadron",
       "faction": "empire",
-      "squadron_type": "alpha-class-star-wing-squadron-legends",
+      "squadron_type": "alpha-class-star-wing-squadron-nexus",
       "name": "Alpha-class Star Wing Squadron",
       "nicknames": [
         "Alpha-class Star Wing Squadron",
         "Alpha-class Star Wing",
-        "Alpha-class Star Wing Squadron Legends",
+        "Alpha-class Star Wing Squadron",
         "Xg1 Star Wing Squadron",
         "XG-1",
         "XG1",
@@ -210,8 +180,7 @@
       ],
       "ace-name": "Rho Squadron",
       "unique-class": [
-        "Rho Squadron",
-        "Rho"
+        "Rho Squadron"
       ],
       "irregular": false,
       "hull": 5,
@@ -258,10 +227,10 @@
       "unique": true,
       "ace": true,
       "unique_limit": 1,
-      "points": 20,
+      "points": 17,
       "silhouette": "",
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/rho-squadron-alpha-class-star-wing-squadron-legends.webp"
+      "cardimage": "https://api.swarmada.wiki/images/rho-squadron-alpha-class-star-wing-squadron-nexus.webp"
     }
   }
 }

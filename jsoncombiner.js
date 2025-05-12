@@ -119,6 +119,9 @@ function parseArgs() {
     'old-legacy-ships': args.includes('-old-legacy-ships'),
     'old-legacy-squadrons': args.includes('-old-legacy-squadrons'),
     'old-legacy-upgrades': args.includes('-old-legacy-upgrades'),
+    'nexus-ships': args.includes('-nexus-ships'),
+    'nexus-squadrons': args.includes('-nexus-squadrons'),
+    'nexus-upgrades': args.includes('-nexus-upgrades'),
     // 'arc-upgrades': args.includes('-arc-upgrades'),
     // 'arc-ships': args.includes('-arc-ships'),
     // 'arc-squadrons': args.includes('-arc-squadrons'),
@@ -149,5 +152,5 @@ Object.entries(directories).forEach(([key, directory]) => {
 
 // If no flags are provided, inform the user
 if (!Object.values(flags).some(Boolean)) {
-  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades, -arc-upgrades, -arc-ships, -arc-squadrons, -arc-objectives');
+  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades, -arc-upgrades, -arc-ships, -arc-squadrons, -arc-objectives, -nexus-ships, -nexus-squadrons, -nexus-upgrades');
 }

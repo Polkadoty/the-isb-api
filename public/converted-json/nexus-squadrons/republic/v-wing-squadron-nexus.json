@@ -1,23 +1,26 @@
 {
     "squadrons": {
-        "porax-38-starfighter-legends": {
-            "author": "Armada Legends",
-            "alias": "Legends",
-            "team": "Armada Legends",
-            "release": "Armada Legends April 2025 Dev Cycle",
-            "expansion": "Porax-38 Starfighter (LEG06)",
+        "v-wing-squadron-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Nexus May Development Cycle",
+            "expansion": "V-Wing Squadron Expansion",
             "_id": null,
             "type": "squadron",
-            "faction": "separatist",
-            "squadron_type": "porax-38-starfighter-legends",
-            "name": "Porax-38 Starfighter",
+            "faction": "republic",
+            "squadron_type": "v-wing-squadron-nexus",
+            "name": "V-Wing Squadron",
+            "nicknames": [
+                "V-Wing", "V-Wing Squadron", "V Wing", "V Wing Squadron", "V Wings", "V-Wings"
+            ],
             "ace-name": "",
             "unique-class": [
                 ""
             ],
             "irregular": false,
-            "hull": 5,
-            "speed": 3,
+            "hull": 3,
+            "speed": 5,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
@@ -28,73 +31,6 @@
                     0,
                     3,
                     0
-                ],
-                "anti-ship": [
-                    0,
-                    1,
-                    0
-                ]
-            },
-            "abilities": {
-                "adept": 0,
-                "ai-battery": 1,
-                "ai-antisquadron": 1,
-                "assault": false,
-                "bomber": false,
-                "cloak": false,
-                "counter": 0,
-                "dodge": 0,
-                "escort": false,
-                "grit": false,
-                "heavy": false,
-                "intel": false,
-                "relay": 0,
-                "rogue": false,
-                "scout": false,
-                "screen": false,
-                "snipe": 0,
-                "strategic": false,
-                "swarm": false
-            },
-            "ability": "",
-            "unique": false,
-            "ace": false,
-            "points": 13,
-            "silhouette": "",
-            "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/porax-38-starfighter-legends.webp"
-        },
-        "cad-bane-xanadu-blood-legends": {
-            "author": "Armada Legends",
-            "alias": "Legends",
-            "team": "Armada Legends",
-            "release": "Armada Legends April 2025 Dev Cycle",
-            "expansion": "Porax-38 Starfighter (LEG06)",
-            "_id": null,
-            "type": "squadron",
-            "faction": "separatist",
-            "squadron_type": "porax-38-starfighter-legends",
-            "name": "Xanadu Blood",
-            "nicknames": [
-                "Cad Bane"
-            ],
-            "ace-name": "Cad Bane",
-            "unique-class": [
-                "Cad Bane", "Xanadu Blood"
-            ],
-            "irregular": false,
-            "hull": 5,
-            "speed": 4,
-            "tokens": {
-                "def_scatter": 0,
-                "def_evade": 0,
-                "def_brace": 2
-            },
-            "armament": {
-                "anti-squadron": [
-                    0,
-                    3,
-                    1
                 ],
                 "anti-ship": [
                     0,
@@ -108,51 +44,50 @@
                 "ai-antisquadron": 0,
                 "assault": false,
                 "bomber": false,
-                "cloak": true,
+                "cloak": false,
                 "counter": 2,
                 "dodge": 0,
                 "escort": false,
                 "grit": false,
                 "heavy": false,
                 "intel": false,
-                "relay": 0,
-                "rogue": true,
+                "relay": false,
+                "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
-            "ability": "When a squadron at distance 1-2 is destroyed, you may move up to distance 1, even if you are engaged.",
-            "unique": true,
-            "ace": true,
-            "unique_limit": 1,
-            "points": 21,
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 9,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/cad-bane-xanadu-blood-legends.webp"
+            "cardimage": "https://api.swarmada.wiki/images/v-wing-squadron-nexus.webp"
         },
-        "ig-100-magnaguards-porax-38-starfighter-legends": {
-            "author": "Armada Legends",
-            "alias": "Legends",
-            "team": "Armada Legends",
-            "release": "Armada Legends April 2025 Dev Cycle",
-            "expansion": "Porax-38 Starfighter (LEG06)",
+        "shadow-squadron-v-wing-squadron-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Nexus May Development Cycle",
+            "expansion": "V-Wing Squadron Expansion",
             "_id": null,
             "type": "squadron",
-            "faction": "separatist",
-            "squadron_type": "porax-38-starfighter-legends",
-            "name": "IG-100 Magnaguards",
+            "faction": "republic",
+            "squadron_type": "v-wing-squadron-legends",
+            "name": "V-Wing Squadron",
             "nicknames": [
-                "Magnaguards", "IG-100"
+                "V-Wing", "Shadow Squadron", "Shadow"
             ],
-            "ace-name": "IG-100 Magnaguards",
+            "ace-name": "Shadow Squadron",
             "unique-class": [
-                "IG-100 Magnaguards"
+                "Shadow Squadron"
             ],
             "irregular": false,
-            "hull": 5,
-            "speed": 3,
+            "hull": 3,
+            "speed": 5,
             "tokens": {
                 "def_scatter": 0,
                 "def_evade": 0,
@@ -161,8 +96,8 @@
             "armament": {
                 "anti-squadron": [
                     0,
-                    2,
-                    1
+                    3,
+                    0
                 ],
                 "anti-ship": [
                     0,
@@ -172,33 +107,102 @@
             },
             "abilities": {
                 "adept": 0,
-                "ai-battery": 1,
-                "ai-antisquadron": 1,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
                 "assault": false,
-                "bomber": false,
+                "bomber": true,
                 "cloak": false,
-                "counter": 0,
+                "counter": false,
                 "dodge": 0,
                 "escort": false,
-                "grit": true,
+                "grit": false,
                 "heavy": false,
                 "intel": false,
-                "relay": 0,
+                "relay": false,
                 "rogue": false,
                 "scout": false,
                 "screen": false,
                 "snipe": 0,
                 "strategic": false,
-                "swarm": false
+                "swarm": true
             },
             "ability": "",
             "unique": true,
             "ace": false,
-            "unique_limit": 2,
-            "points": 16,
+            "unique_limit": 1,
+            "points": 10,
             "silhouette": "",
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/ig-100-magnaguards-porax-38-starfighter-legends.webp"
+            "cardimage": "https://api.swarmada.wiki/images/shadow-squadron-v-wing-squadron-nexus.webp"
+        },
+        "klick-v-wing-squadron-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Nexus May Development Cycle",
+            "expansion": "V-Wing Squadron Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "v-wing-squadron-nexus",
+            "name": "V-Wing Squadron",
+            "nicknames": [
+                "V-Wing", "V-Wing Squadron", "Klick"
+            ],
+            "ace-name": "Klick",
+            "unique-class": [
+                "Klick"
+            ],
+            "irregular": false,
+            "hull": 3,
+            "speed": 5,
+            "tokens": {
+                "def_scatter": 1,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    3,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 2,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": false,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "When you perform an attack with COUNTER against a unique squadron, increase your COUNTER by 1.",
+            "unique": true,
+            "ace": true,
+            "unique_limit": 1,
+            "points": 14,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/klick-v-wing-squadron-nexus.webp"
         }
+
     }
 }
