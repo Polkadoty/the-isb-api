@@ -1,0 +1,126 @@
+{
+    "upgrades": {
+        "rendili-defender-title-nexus": {
+            "author": [
+                "Armada Legends"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends December 2024 Dev Cycle",
+            "expansion": "Armada Legends Dreadnaught Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "republic"
+            ],
+            "name": "Rendili Defender",
+            "nicknames": [
+                "Rendili Defender",
+                "Rendili"
+            ],
+            "unique-class": [
+                "Rendili Defender"
+            ],
+            "ability": "placeholder",
+            "unique": true,
+            "points": 1,
+            "modification": false,
+            "bound_shiptype": "dreadnaught-class-republic-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    "turbolaser"
+                ],
+                "enable_upgrades": [
+                    "ion-cannon"
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/rendili-defender-title-nexus.webp"
+        },
+        "katana-fleet-title-nexus": {
+            "author": [
+                "Armada Legends"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends December 2024 Dev Cycle",
+            "expansion": "Armada Legends Dreadnaught Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "republic"
+            ],
+            "name": "Katana Fleet",
+            "nicknames": [
+                "Katana Fleet",
+                "Katana"
+            ],
+            "unique-class": [
+                ""
+            ],
+            "ability": "placeholder",
+            "unique": false,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "dreadnaught-class-republic-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/katana-fleet-title-nexus.webp"
+        }
+    }
+}

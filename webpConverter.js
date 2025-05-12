@@ -15,35 +15,40 @@ if (!fs.existsSync(outputFolder)) {
   fs.mkdirSync(outputFolder, { recursive: true });
 }
 
-function processFile(filePath) {
+function processFile(filePath, relativePath) {
   return new Promise((resolve, reject) => {
-    const outputPath = path.join(outputFolder, `${path.parse(filePath).name}.webp`); // Directly place in outputFolder
-    const command = `squoosh-cli --webp '{"quality":75}' "${filePath}" -d "${outputFolder}"`; // Use outputFolder directly
+    const outputDir = path.join(outputFolder, path.dirname(relativePath));
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+    const outputPath = path.join(outputDir, `${path.parse(filePath).name}.webp`);
+    const command = `squoosh-cli --webp '{"quality":75}' "${filePath}" -d "${outputDir}"`;
 
     exec(command, (error, stdout, stderr) => {
       if (error) {
         console.error(`Error processing ${filePath}:`, error);
         reject(error);
       } else {
-        console.log(`Converted ${filePath} to WebP`);
+        console.log(`Converted ${filePath} to WebP at ${outputPath}`);
         resolve();
       }
     });
   });
 }
 
-async function processDirectory(dir) {
+async function processDirectory(dir, baseDir = inputFolder) {
   const files = fs.readdirSync(dir);
   const promises = [];
 
   for (const file of files) {
     const filePath = path.join(dir, file);
     const stat = fs.statSync(filePath);
+    const relativePath = path.relative(baseDir, filePath);
 
     if (stat.isDirectory()) {
-      promises.push(processDirectory(filePath));
+      promises.push(processDirectory(filePath, baseDir));
     } else {
-      promises.push(processFile(filePath));
+      promises.push(processFile(filePath, relativePath));
     }
   }
 

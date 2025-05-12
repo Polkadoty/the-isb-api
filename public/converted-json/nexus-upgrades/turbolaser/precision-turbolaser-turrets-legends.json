@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "precision-turbolaser-turrets-nexus": {
+      "author": "Armada Legends",
+      "alias": "Legends",
+      "team": "Legends",
+      "release": "February 2025 Development Cycle",
+      "expansion": "MC40 Dev Cycle",
+      "_id": null,
+      "type": "turbolaser",
+      "faction": [
+        "empire"
+      ],
+      "name": "Precision Turbolaser Turrets",
+      "nicknames": [
+        "Precision Turrets", "Precision", "PTT"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "While performing a non-IGNITION attack against a ship, during the Spend Defense Tokens step, if a die would be removed from the attack pool, the defender must choose to keep or reroll that die instead.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/precision-turbolaser-turrets-nexus.webp"
+    }
+  }
+}

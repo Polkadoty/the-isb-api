@@ -175,7 +175,7 @@
   ],
   "Testbed": [
     "onager-class-testbed",
-    "subjugator-class-testbed-legends"
+    "subjugator-class-testbed-nexus"
   ],
   "Quasar Fire I-class Cruiser-Carrier": [
     "quasar-fire-i-class-cruiser-carrier"
@@ -963,8 +963,8 @@
   ],
   "Dreadnought": [
     "providence-class-dreadnought",
-    "dreadnaught-class-heavy-cruiser-republic-legends",
-    "dreadnaught-class-judicial-cruiser-republic-legends"
+    "dreadnaught-class-heavy-cruiser-republic-nexus",
+    "dreadnaught-class-judicial-cruiser-republic-nexus"
   ],
   "Providence-class Carrier": [
     "providence-class-carrier"
@@ -1537,7 +1537,7 @@
   ],
   "Lancer": [
     "lancer-class-pursuit-craft",
-    "lancer-class-escort-frigate-legends"
+    "lancer-class-escort-frigate-nexus"
   ],
   "Shadow Caster": [
     "ketsu-onyo-lancer-class-pursuit-craft"
@@ -2272,7 +2272,7 @@
   ],
   "General Romodi": [
     "general-romodi-commander",
-    "general-romodi-officer-legends"
+    "general-romodi-officer-nexus"
   ],
   "Romodi": [
     "general-romodi-commander"
@@ -4496,15 +4496,6 @@
   "War Basestar Mk.2": [
     "war-basestar-mk2-bsg-legends"
   ],
-  "Lancer-class Escort Frigate": [
-    "lancer-class-escort-frigate-legends"
-  ],
-  "Lancer Class": [
-    "lancer-class-escort-frigate-legends"
-  ],
-  "Lancer Class Frigate": [
-    "lancer-class-escort-frigate-legends"
-  ],
   "Corona-class Escort Frigate {NR}": [
     "corona-class-escort-frigate-new-republic-legends"
   ],
@@ -4602,35 +4593,6 @@
   ],
   "Nebula": [
     "nebula-class-star-destroyer-new-republic-legends"
-  ],
-  "MC40a Escort Carrier": [
-    "mc40a-escort-carrier-legends"
-  ],
-  "MC40a Light Cruiser": [
-    "mc40a-light-cruiser-legends"
-  ],
-  "Dreadnaught-class Heavy Cruiser": [
-    "dreadnaught-class-heavy-cruiser-republic-legends"
-  ],
-  "Heavy Cruiser": [
-    "dreadnaught-class-heavy-cruiser-republic-legends",
-    "subjugator-class-heavy-cruiser-legends"
-  ],
-  "Dreadnaught": [
-    "dreadnaught-class-heavy-cruiser-republic-legends",
-    "dreadnaught-class-judicial-cruiser-republic-legends"
-  ],
-  "Dreadnaught Heavy Cruiser": [
-    "dreadnaught-class-heavy-cruiser-republic-legends"
-  ],
-  "Dreadnaught-class Judicial Cruiser": [
-    "dreadnaught-class-judicial-cruiser-republic-legends"
-  ],
-  "Judicial Cruiser": [
-    "dreadnaught-class-judicial-cruiser-republic-legends"
-  ],
-  "Dreadnaught Judicial Cruiser": [
-    "dreadnaught-class-judicial-cruiser-republic-legends"
   ],
   "Action VI Armed Transports {Scum}": [
     "action-vi-armed-transports-scum-legends"
@@ -4762,37 +4724,6 @@
   "Neutron Star Class Bulk Cruiser": [
     "neutron-star-class-bulk-cruiser-scum-legends"
   ],
-  "Subjugator-class Prototype": [
-    "subjugator-class-prototype-legends"
-  ],
-  "Subjugator Prototype": [
-    "subjugator-class-prototype-legends"
-  ],
-  "Prototype": [
-    "subjugator-class-prototype-legends"
-  ],
-  "Subjugator": [
-    "subjugator-class-prototype-legends",
-    "subjugator-class-testbed-legends",
-    "subjugator-class-heavy-cruiser-legends",
-    "subjugator-title-legends"
-  ],
-  "Subjugator-class Testbed": [
-    "subjugator-class-testbed-legends"
-  ],
-  "Subjugator Testbed": [
-    "subjugator-class-testbed-legends"
-  ],
-  "Subjugator-class Heavy Cruiser": [
-    "subjugator-class-heavy-cruiser-legends"
-  ],
-  "Subjugator Heavy Cruiser": [
-    "subjugator-class-heavy-cruiser-legends"
-  ],
-  "Malevolence": [
-    "subjugator-class-heavy-cruiser-legends",
-    "malevolence-title-legends"
-  ],
   "Halcyon-class Battle Refit": [
     "halcyon-battle-halo-legends"
   ],
@@ -4877,96 +4808,6 @@
   "E-47": [
     "wardriver-e47-bsg-legends"
   ],
-  "Alpha-class Star Wing Squadron": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "alpha-class-star-wing-squadron-nexus",
-    "karsabi-alpha-class-star-wing-squadron-nexus",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Alpha-class Star Wing": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "alpha-class-star-wing-squadron-nexus",
-    "karsabi-alpha-class-star-wing-squadron-nexus",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Alpha-class Star Wing Squadron Legends": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Xg1 Star Wing Squadron": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "alpha-class-star-wing-squadron-nexus",
-    "karsabi-alpha-class-star-wing-squadron-nexus",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "XG-1": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "alpha-class-star-wing-squadron-nexus",
-    "karsabi-alpha-class-star-wing-squadron-nexus",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "XG1": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "alpha-class-star-wing-squadron-nexus",
-    "karsabi-alpha-class-star-wing-squadron-nexus",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Alpha class": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "alpha-class-star-wing-squadron-nexus",
-    "karsabi-alpha-class-star-wing-squadron-nexus",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Alpha Class": [
-    "alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "alpha-class-star-wing-squadron-nexus",
-    "karsabi-alpha-class-star-wing-squadron-nexus",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Lieutenant Karsabi": [
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Karasabi": [
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Lieutenant Karasabi": [
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-nexus"
-  ],
-  "LT": [
-    "karsabi-alpha-class-star-wing-squadron-legends",
-    "karsabi-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Rho Squadron": [
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Alpha": [
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
-  "Rho": [
-    "rho-squadron-alpha-class-star-wing-squadron-legends",
-    "rho-squadron-alpha-class-star-wing-squadron-nexus"
-  ],
   "A-Wing Squadron {NR}": [
     "a-wing-squadron-new-republic-legends",
     "pash-cracken-a-wing-squadron-new-republic-legends"
@@ -5020,51 +4861,6 @@
   ],
   "Tycho X-Wing": [
     "tycho-celchu-x-wing-squadron-new-republic-legends"
-  ],
-  "V-Wing Squadron": [
-    "v-wing-squadron-legends",
-    "shadow-squadron-v-wing-squadron-legends",
-    "klick-v-wing-squadron-legends",
-    "v-wing-squadron-nexus",
-    "shadow-squadron-v-wing-squadron-nexus",
-    "klick-v-wing-squadron-nexus"
-  ],
-  "V-Wing": [
-    "v-wing-squadron-legends",
-    "shadow-squadron-v-wing-squadron-legends",
-    "klick-v-wing-squadron-legends",
-    "v-wing-squadron-nexus",
-    "shadow-squadron-v-wing-squadron-nexus",
-    "klick-v-wing-squadron-nexus"
-  ],
-  "V Wing": [
-    "v-wing-squadron-legends",
-    "v-wing-squadron-nexus"
-  ],
-  "V Wing Squadron": [
-    "v-wing-squadron-legends",
-    "v-wing-squadron-nexus"
-  ],
-  "V Wings": [
-    "v-wing-squadron-legends",
-    "v-wing-squadron-nexus"
-  ],
-  "V-Wings": [
-    "v-wing-squadron-legends",
-    "v-wing-squadron-nexus"
-  ],
-  "Shadow Squadron": [
-    "shadow-squadron-v-wing-squadron-legends",
-    "shadow-squadron-v-wing-squadron-nexus"
-  ],
-  "Shadow": [
-    "shadow-squadron-v-wing-squadron-legends",
-    "shadow-title-legends",
-    "shadow-squadron-v-wing-squadron-nexus"
-  ],
-  "Klick": [
-    "klick-v-wing-squadron-legends",
-    "klick-v-wing-squadron-nexus"
   ],
   "AEG-77 Vigo {Scum}": [
     "aeg-77-vigo-scum-legends",
@@ -5159,24 +4955,6 @@
   ],
   "Hound's Tooth {Scum}": [
     "bossk-hounds-tooth-scum-legends"
-  ],
-  "Porax-38 Starfighter": [
-    "porax-38-starfighter-legends"
-  ],
-  "Xanadu Blood": [
-    "cad-bane-xanadu-blood-legends"
-  ],
-  "Cad Bane": [
-    "cad-bane-xanadu-blood-legends"
-  ],
-  "IG-100 Magnaguards": [
-    "ig-100-magnaguards-porax-38-starfighter-legends"
-  ],
-  "Magnaguards": [
-    "ig-100-magnaguards-porax-38-starfighter-legends"
-  ],
-  "IG-100": [
-    "ig-100-magnaguards-porax-38-starfighter-legends"
   ],
   "Longsword Bomber Squadron": [
     "longsword-bomber-squadron-halo-legends",
@@ -5587,21 +5365,6 @@
   "Infiltrators": [
     "new-republic-infiltrators-new-republic-legends"
   ],
-  "Depa Billaba": [
-    "depa-billaba-officer-legends"
-  ],
-  "Flak Officer": [
-    "general-romodi-officer-legends"
-  ],
-  "Admiral Killian": [
-    "admiral-killian-commander-nexus"
-  ],
-  "Killian": [
-    "admiral-killian-commander-nexus"
-  ],
-  "Killi": [
-    "admiral-killian-commander-nexus"
-  ],
   "Darth Maul {Scum}": [
     "darth-maul-commander-scum-legends"
   ],
@@ -5747,81 +5510,6 @@
   "TD": [
     "tibanna-disruptors-scum-legends"
   ],
-  "Ion Pulse Emitter": [
-    "ion-pulse-emitter-legends"
-  ],
-  "IPE": [
-    "ion-pulse-emitter-legends"
-  ],
-  "Pulse Emitter": [
-    "ion-pulse-emitter-legends"
-  ],
-  "Ionic Plasma Rotors": [
-    "ionic-plasma-rotors-legends"
-  ],
-  "IPR": [
-    "ionic-plasma-rotors-legends"
-  ],
-  "Plasma Rotors": [
-    "ionic-plasma-rotors-legends"
-  ],
-  "Kyber Beam Cannon": [
-    "kyber-beam-cannon-legends"
-  ],
-  "KBC": [
-    "kyber-beam-cannon-legends"
-  ],
-  "Beam Cannon": [
-    "kyber-beam-cannon-legends"
-  ],
-  "Blue Hawk": [
-    "blue-hawk-title-legends"
-  ],
-  "Furious": [
-    "furious-title-legends"
-  ],
-  "Pulsar": [
-    "pulsar-title-legends"
-  ],
-  "Condor": [
-    "condor-title-legends"
-  ],
-  "Rendili Defender": [
-    "rendili-defender-title-legends"
-  ],
-  "Rendili": [
-    "rendili-defender-title-legends"
-  ],
-  "Katana Fleet 1": [
-    "katana-fleet-title-legends"
-  ],
-  "Katana Fleet": [
-    "katana-fleet-title-legends"
-  ],
-  "Katana": [
-    "katana-fleet-title-legends"
-  ],
-  "Judicial Fleet": [
-    "judicial-fleet-title-legends"
-  ],
-  "Judicial": [
-    "judicial-fleet-title-legends"
-  ],
-  "Devastation": [
-    "devastation-title-legends"
-  ],
-  "Precision Turbolaser Turrets": [
-    "precision-turbolaser-turrets-legends"
-  ],
-  "Precision Turrets": [
-    "precision-turbolaser-turrets-legends"
-  ],
-  "Precision": [
-    "precision-turbolaser-turrets-legends"
-  ],
-  "PTT": [
-    "precision-turbolaser-turrets-legends"
-  ],
   "G9 Rigger-class Freighter": [
     "g9-rigger-class-freighter-legacy"
   ],
@@ -5941,5 +5629,270 @@
   ],
   "Ki Adi": [
     "ki-adi-mundi-commander-legacy"
+  ],
+  "Alpha-class Star Wing Squadron": [
+    "alpha-class-star-wing-squadron-nexus",
+    "karsabi-alpha-class-star-wing-squadron-nexus",
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Alpha-class Star Wing": [
+    "alpha-class-star-wing-squadron-nexus",
+    "karsabi-alpha-class-star-wing-squadron-nexus",
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Xg1 Star Wing Squadron": [
+    "alpha-class-star-wing-squadron-nexus",
+    "karsabi-alpha-class-star-wing-squadron-nexus",
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "XG-1": [
+    "alpha-class-star-wing-squadron-nexus",
+    "karsabi-alpha-class-star-wing-squadron-nexus",
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "XG1": [
+    "alpha-class-star-wing-squadron-nexus",
+    "karsabi-alpha-class-star-wing-squadron-nexus",
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Alpha class": [
+    "alpha-class-star-wing-squadron-nexus",
+    "karsabi-alpha-class-star-wing-squadron-nexus",
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Alpha Class": [
+    "alpha-class-star-wing-squadron-nexus",
+    "karsabi-alpha-class-star-wing-squadron-nexus",
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Lieutenant Karsabi": [
+    "karsabi-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Alpha-class Star Wing Squadron Legends": [
+    "karsabi-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Karasabi": [
+    "karsabi-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Lieutenant Karasabi": [
+    "karsabi-alpha-class-star-wing-squadron-nexus"
+  ],
+  "LT": [
+    "karsabi-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Rho Squadron": [
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Alpha": [
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "Rho": [
+    "rho-squadron-alpha-class-star-wing-squadron-nexus"
+  ],
+  "V-Wing Squadron": [
+    "v-wing-squadron-nexus",
+    "shadow-squadron-v-wing-squadron-nexus",
+    "klick-v-wing-squadron-nexus"
+  ],
+  "V-Wing": [
+    "v-wing-squadron-nexus",
+    "shadow-squadron-v-wing-squadron-nexus",
+    "klick-v-wing-squadron-nexus"
+  ],
+  "V Wing": [
+    "v-wing-squadron-nexus"
+  ],
+  "V Wing Squadron": [
+    "v-wing-squadron-nexus"
+  ],
+  "V Wings": [
+    "v-wing-squadron-nexus"
+  ],
+  "V-Wings": [
+    "v-wing-squadron-nexus"
+  ],
+  "Shadow Squadron": [
+    "shadow-squadron-v-wing-squadron-nexus"
+  ],
+  "Shadow": [
+    "shadow-squadron-v-wing-squadron-nexus",
+    "shadow-title-nexus"
+  ],
+  "Klick": [
+    "klick-v-wing-squadron-nexus"
+  ],
+  "Porax-38 Starfighter": [
+    "porax-38-starfighter-nexus"
+  ],
+  "Xanadu Blood": [
+    "cad-bane-xanadu-blood-nexus"
+  ],
+  "Cad Bane": [
+    "cad-bane-xanadu-blood-nexus"
+  ],
+  "IG-100 Magnaguards": [
+    "ig-100-magnaguards-porax-38-starfighter-nexus"
+  ],
+  "Magnaguards": [
+    "ig-100-magnaguards-porax-38-starfighter-nexus"
+  ],
+  "IG-100": [
+    "ig-100-magnaguards-porax-38-starfighter-nexus"
+  ],
+  "Lancer-class Escort Frigate": [
+    "lancer-class-escort-frigate-nexus"
+  ],
+  "Lancer Class": [
+    "lancer-class-escort-frigate-nexus"
+  ],
+  "Lancer Class Frigate": [
+    "lancer-class-escort-frigate-nexus"
+  ],
+  "MC40a Escort Carrier": [
+    "mc40a-escort-carrier-nexus"
+  ],
+  "MC40a Light Cruiser": [
+    "mc40a-light-cruiser-nexus"
+  ],
+  "Dreadnaught-class Heavy Cruiser": [
+    "dreadnaught-class-heavy-cruiser-republic-nexus"
+  ],
+  "Heavy Cruiser": [
+    "dreadnaught-class-heavy-cruiser-republic-nexus",
+    "subjugator-class-heavy-cruiser-nexus"
+  ],
+  "Dreadnaught": [
+    "dreadnaught-class-heavy-cruiser-republic-nexus",
+    "dreadnaught-class-judicial-cruiser-republic-nexus"
+  ],
+  "Dreadnaught Heavy Cruiser": [
+    "dreadnaught-class-heavy-cruiser-republic-nexus"
+  ],
+  "Dreadnaught-class Judicial Cruiser": [
+    "dreadnaught-class-judicial-cruiser-republic-nexus"
+  ],
+  "Judicial Cruiser": [
+    "dreadnaught-class-judicial-cruiser-republic-nexus"
+  ],
+  "Dreadnaught Judicial Cruiser": [
+    "dreadnaught-class-judicial-cruiser-republic-nexus"
+  ],
+  "Subjugator-class Prototype": [
+    "subjugator-class-prototype-nexus"
+  ],
+  "Subjugator Prototype": [
+    "subjugator-class-prototype-nexus"
+  ],
+  "Prototype": [
+    "subjugator-class-prototype-nexus"
+  ],
+  "Subjugator": [
+    "subjugator-class-prototype-nexus",
+    "subjugator-class-testbed-nexus",
+    "subjugator-class-heavy-cruiser-nexus",
+    "subjugator-title-nexus"
+  ],
+  "Subjugator-class Testbed": [
+    "subjugator-class-testbed-nexus"
+  ],
+  "Subjugator Testbed": [
+    "subjugator-class-testbed-nexus"
+  ],
+  "Subjugator-class Heavy Cruiser": [
+    "subjugator-class-heavy-cruiser-nexus"
+  ],
+  "Subjugator Heavy Cruiser": [
+    "subjugator-class-heavy-cruiser-nexus"
+  ],
+  "Malevolence": [
+    "subjugator-class-heavy-cruiser-nexus",
+    "malevolence-title-nexus"
+  ],
+  "Admiral Kilian": [
+    "admiral-killian-commander-nexus"
+  ],
+  "Kilian": [
+    "admiral-killian-commander-nexus"
+  ],
+  "Kili": [
+    "admiral-killian-commander-nexus"
+  ],
+  "Depa Billaba": [
+    "depa-billaba-officer-nexus"
+  ],
+  "Flak Officer": [
+    "general-romodi-officer-nexus"
+  ],
+  "Ion Pulse Emitter": [
+    "ion-pulse-emitter-nexus"
+  ],
+  "IPE": [
+    "ion-pulse-emitter-nexus"
+  ],
+  "Pulse Emitter": [
+    "ion-pulse-emitter-nexus"
+  ],
+  "Ionic Plasma Rotors": [
+    "ionic-plasma-rotors-nexus"
+  ],
+  "IPR": [
+    "ionic-plasma-rotors-nexus"
+  ],
+  "Plasma Rotors": [
+    "ionic-plasma-rotors-nexus"
+  ],
+  "Kyber Beam Cannon": [
+    "kyber-beam-cannon-nexus"
+  ],
+  "KBC": [
+    "kyber-beam-cannon-nexus"
+  ],
+  "Beam Cannon": [
+    "kyber-beam-cannon-nexus"
+  ],
+  "Blue Hawk": [
+    "blue-hawk-title-nexus"
+  ],
+  "Furious": [
+    "furious-title-nexus"
+  ],
+  "Pulsar": [
+    "pulsar-title-nexus"
+  ],
+  "Condor": [
+    "condor-title-nexus"
+  ],
+  "Rendili Defender": [
+    "rendili-defender-title-nexus"
+  ],
+  "Rendili": [
+    "rendili-defender-title-nexus"
+  ],
+  "Katana Fleet": [
+    "katana-fleet-title-nexus"
+  ],
+  "Katana": [
+    "katana-fleet-title-nexus"
+  ],
+  "Judicial Fleet": [
+    "judicial-fleet-title-nexus"
+  ],
+  "Judicial": [
+    "judicial-fleet-title-nexus"
+  ],
+  "Devastation": [
+    "devastation-title-nexus"
+  ],
+  "Precision Turbolaser Turrets": [
+    "precision-turbolaser-turrets-nexus"
+  ],
+  "Precision Turrets": [
+    "precision-turbolaser-turrets-nexus"
+  ],
+  "Precision": [
+    "precision-turbolaser-turrets-nexus"
+  ],
+  "PTT": [
+    "precision-turbolaser-turrets-nexus"
   ]
 }

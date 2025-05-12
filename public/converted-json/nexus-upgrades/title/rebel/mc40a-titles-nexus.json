@@ -1,0 +1,119 @@
+{
+  "upgrades": {
+    "condor-title-nexus": {
+      "author": [
+        "Armada Legends"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Condor",
+      "unique-class": [
+        "Condor"
+      ],
+      "ability": ":squadron:: Each squadron you activate, up to your squadron value, that has only 1 die in its battery armament may add 1 red die to its attack pool when attacking a ship.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "mc40a-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/condor-title-nexus.webp"
+    },
+    "shadow-title-nexus": {
+      "author": [
+        "Skyhammer"
+      ],
+      "alias": "Legends",
+      "team": "Armada Legends",
+      "release": "Armada Legends",
+      "expansion": "Armada Legends",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Shadow",
+      "unique-class": [
+        "Shadow"
+      ],
+
+      "ability": "While a friendly ship at distance 1-2 is the target of an attack at long or extreme range, the attack is treated as obstructed.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc40a-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/shadow-title-nexus.webp"
+    }
+  }
+}

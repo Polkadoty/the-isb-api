@@ -1,0 +1,184 @@
+{
+    "upgrades": {
+        "devastation-title-nexus": {
+            "author": [
+                "Armada Legends"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends November 2024 Dev Cycle",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Devastation",
+            "nicknames": [
+                "Devastation"
+            ],
+            "unique-class": [
+                "Devastation"
+            ],
+            "ability": "Beam only.\nWhen you would discard a :super-weapon: card on the equipped ship, you may discard this card instead.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "subjugator-class-nexus",
+            "restrictions": {
+                "traits": [
+                    "beam"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/devastation-title-nexus.webp"
+        },
+        "subjugator-title-nexus": {
+            "author": [
+                "Armada Legends"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends November 2024 Dev Cycle",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Subjugator",
+            "nicknames": [
+                "Subjugator"
+            ],
+            "unique-class": [
+                "Subjugator"
+            ],
+            "ability": "After you deploy, you must replace 1 of your defense tokens with a :redirect: defense token.\nWhen you resolve the :redirect: effect, you may redirect damage to 1 of your auxiliary hull zones, even if it is not adjacent to the defending hull zone.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "subjugator-class-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/subjugator-title-nexus.webp"
+        },
+        "malevolence-title-nexus": {
+            "author": [
+                "Armada Legends"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends November 2024 Dev Cycle",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Malevolence",
+            "nicknames": [
+                "Malevolence"
+            ],
+            "unique-class": [
+                "Malevolence"
+            ],
+            "ability": "Ion only.\nIgnition,:crit:: Cancel all attack dice and reduce the defender's speed to 0, then discard this card.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "subjugator-class-nexus",
+            "restrictions": {
+                "traits": [
+                    "ion"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/malevolence-title-nexus.webp"
+        }
+    }
+}

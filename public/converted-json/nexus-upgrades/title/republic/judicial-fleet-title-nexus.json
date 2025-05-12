@@ -1,0 +1,65 @@
+{
+    "upgrades": {
+        "judicial-fleet-title-nexus": {
+            "author": [
+                "Armada Legends"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends December 2024 Dev Cycle",
+            "expansion": "Armada Legends Dreadnaught Expansion",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "republic"
+            ],
+            "name": "Judicial Fleet",
+            "nicknames": [
+                "Judicial Fleet",
+                "Judicial"
+            ],
+            "unique-class": [
+                ""
+            ],
+            "ability": "placeholder",
+            "unique": false,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "",
+            "restrictions": {
+                "traits": [
+                    "senate"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": [
+                    "any"
+                ],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/judicial-fleet-title-nexus.webp"
+        }
+    }
+}

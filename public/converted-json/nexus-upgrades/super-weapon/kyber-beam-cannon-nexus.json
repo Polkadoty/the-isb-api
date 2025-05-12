@@ -1,0 +1,64 @@
+{
+    "upgrades": {
+        "kyber-beam-cannon-nexus": {
+            "author": [
+                "Armada Legends"
+            ],
+            "alias": "Legends",
+            "team": "Armada Legends",
+            "release": "Armada Legends November 2024 Dev Cycle",
+            "expansion": "Armada Legends Subjugator Expansion",
+            "_id": null,
+            "type": "super-weapon",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Kyber Beam Cannon",
+            "nicknames": [
+                "Kyber Beam Cannon", "KBC", "Beam Cannon"
+            ],
+            "unique-class": [
+                ""
+            ],
+            "ability": "Modification. \"Beam\" only.\nIgnition [Long]\nTreat your special battery dice pool as 9 black dice. You cannot add a non-black die to this attack.\nWhile performing an ignition attack, all damage cards are dealt faceup. After you perform an ignition attack, discard this card.",
+            "unique": false,
+            "points": 5,
+            "modification": true,
+            "bound_shiptype": "subjugator-class-nexus",
+            "restrictions": {
+                "traits": [
+                    "beam"
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "nonrecur",
+                "ready_token": [
+                    "confire"
+                ],
+                "ready_amount": 1
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/kyber-beam-cannon-nexus.webp"
+        }
+    }
+}
