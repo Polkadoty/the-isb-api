@@ -711,6 +711,7 @@ function convertTournamentFleets() {
   logToFile(`[CSV DATA] Parsed ${dataRecordsAsArrays.length} data records as arrays.`);
 
   const outputRows = [];
+  let numericalIdCounter = 1; // Initialize counter
 
   for (const rowArray of dataRecordsAsArrays) {
     // Create an object view of the row for convenience for other parts of the code
@@ -784,7 +785,7 @@ function convertTournamentFleets() {
       old_legacy: '',
       arc: '',
       shared: '',
-      numerical_id: ''
+      numerical_id: numericalIdCounter++ // Assign and increment counter
     });
   }
 
