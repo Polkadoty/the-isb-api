@@ -8,7 +8,27 @@ if (!inputFolder) {
   process.exit(1);
 }
 
-const outputFolder = path.join(path.dirname(inputFolder), 'jpeg-' + path.basename(inputFolder));
+// Check if input folder exists
+if (!fs.existsSync(inputFolder)) {
+  console.error(`Error: Input folder '${inputFolder}' not found.`);
+  process.exit(1);
+}
+
+const parentDirOfInput = path.dirname(inputFolder);
+const resolvedParentDirOfInput = path.resolve(parentDirOfInput);
+const fileSystemRoot = path.parse(resolvedParentDirOfInput).root;
+
+let baseOutputDir;
+if (resolvedParentDirOfInput === fileSystemRoot) {
+  // If inputFolder's parent is the filesystem root (e.g. inputFolder was '/images'),
+  // create the output directory in the current working directory.
+  baseOutputDir = '.';
+} else {
+  // Otherwise, create it in the inputFolder's parent directory.
+  // Use the original parentDirOfInput, which could be relative or absolute.
+  baseOutputDir = parentDirOfInput;
+}
+const outputFolder = path.join(baseOutputDir, 'jpeg-' + path.basename(inputFolder));
 
 // Create output folder if it doesn't exist
 if (!fs.existsSync(outputFolder)) {

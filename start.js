@@ -13,7 +13,7 @@ const commands = [
   { cmd: 'node', args: ['generateThumbnails.js'] },
   { cmd: 'node', args: ['find-errata.js'] },
   { cmd: 'node', args: ['find-nicknames.js'] },
-  { cmd: 'node', args: ['webpToJpegConverter.js', path.resolve('C:/GitHub/the-isb-api/images')] }
+  { cmd: 'node', args: ['webpToJpegConverter.js', path.resolve(__dirname, '/images')] }
 ];
 
 // Run commands in sequence
