@@ -1,8 +1,23 @@
 const fs = require('fs');
 const path = require('path');
 
-const CSV_PATH = path.join(__dirname, 'converted-fleets.csv');
+// Script will be called with: node process-ship-data.cjs <input_csv_filename>
+const inputFile = process.argv[2];
+
+if (!inputFile) {
+    console.error("Usage: node process-ship-data.cjs <input_csv_filename>");
+    console.error("Example: node process-ship-data.cjs converted-fleets.csv");
+    process.exit(1);
+}
+
+const CSV_PATH = path.join(__dirname, inputFile);
+// Derive a source tag from the input filename (e.g., "converted-fleets" from "converted-fleets.csv")
+const sourceTag = path.basename(inputFile, '.csv');
+
+console.log(`Processing data for source: ${sourceTag} from file: ${inputFile}`);
+
 const OUTPUT_RAW_BUILDS_PATH = path.join(__dirname, 'raw_ship_builds.json');
+const OUTPUT_RAW_BUILDS_CSV_PATH = path.join(__dirname, 'raw_ship_builds.csv');
 
 function parseCSV(filePath) {
     const fileContent = fs.readFileSync(filePath, 'utf-8');
@@ -30,10 +45,15 @@ function parseCSV(filePath) {
     const headerLine = fileContent.substring(0, headerEndPos).trim();
     const headerFields = headerLine.split(',');
     const fleetDataIndex = headerFields.indexOf('fleet_data');
+    const factionIndex = headerFields.indexOf('faction');
 
     if (fleetDataIndex === -1) {
         console.error(`Could not find 'fleet_data' column in CSV header. Header found: "${headerLine}"`);
         return [];
+    }
+    if (factionIndex === -1) {
+        console.error(`Could not find 'faction' column in CSV header. Header found: "${headerLine}"`);
+        return []; // Or handle differently if faction is optional
     }
 
     let currentField = '';
@@ -61,13 +81,23 @@ function parseCSV(filePath) {
         } else if (char === '\r' && nextChar === '\n' && !inQuotes) {
             currentRow.push(currentField);
             currentField = '';
-            if (currentRow.length > fleetDataIndex) outputRecords.push(currentRow[fleetDataIndex]);
+            if (currentRow.length > Math.max(fleetDataIndex, factionIndex)) {
+                 outputRecords.push({
+                    fleetDataString: currentRow[fleetDataIndex],
+                    factionString: currentRow[factionIndex]
+                });
+            }
             currentRow = [];
             i++;
         } else if (char === '\n' && !inQuotes) {
             currentRow.push(currentField);
             currentField = '';
-            if (currentRow.length > fleetDataIndex) outputRecords.push(currentRow[fleetDataIndex]);
+            if (currentRow.length > Math.max(fleetDataIndex, factionIndex)) {
+                outputRecords.push({
+                    fleetDataString: currentRow[fleetDataIndex],
+                    factionString: currentRow[factionIndex]
+                });
+            }
             currentRow = [];
         } else {
             currentField += char;
@@ -76,7 +106,12 @@ function parseCSV(filePath) {
 
     if (currentField || currentRow.length > 0) {
         currentRow.push(currentField);
-        if (currentRow.length > fleetDataIndex) outputRecords.push(currentRow[fleetDataIndex]);
+        if (currentRow.length > Math.max(fleetDataIndex, factionIndex)) {
+            outputRecords.push({
+                fleetDataString: currentRow[fleetDataIndex],
+                factionString: currentRow[factionIndex]
+            });
+        }
     }
     
     return outputRecords;
@@ -161,25 +196,43 @@ function extractShipBuilds(fleetDataString) {
 }
 
 function main() {
-    console.log('Starting ship data processing...');
-    const fleetDataEntries = parseCSV(CSV_PATH);
-    const allShipBuilds = [];
+    console.log(`Starting data processing for ${sourceTag}...`);
+    
+    // Construct dynamic output paths
+    const OUTPUT_RAW_BUILDS_PATH = path.join(__dirname, `raw_ship_builds_${sourceTag}.json`);
+    const OUTPUT_RAW_BUILDS_CSV_PATH = path.join(__dirname, `raw_ship_builds_${sourceTag}.csv`);
+    const OUTPUT_AGGREGATED_FREQUENCIES_PATH = path.join(__dirname, `ship_upgrade_frequencies_${sourceTag}.json`);
+    const OUTPUT_FREQUENCIES_CSV_PATH = path.join(__dirname, `ship_upgrade_frequencies_${sourceTag}.csv`);
+    const SQUADRON_JSON_PATH = path.join(__dirname, `squadron_faction_counts_${sourceTag}.json`);
+    const SQUADRON_CSV_PATH = path.join(__dirname, `squadron_faction_counts_${sourceTag}.csv`);
 
-    if (!fleetDataEntries || fleetDataEntries.length === 0) {
+    const fleetEntries = parseCSV(CSV_PATH);
+    const allShipBuilds = [];
+    const allFleetSquadrons = []; // To store { faction, squadrons: [name, name, ...] }
+
+    if (!fleetEntries || fleetEntries.length === 0) {
         console.log('No fleet data found or error in CSV parsing.');
         return;
     }
     
-    console.log(`Found ${fleetDataEntries.length} fleet data entries to process.`);
+    console.log(`Found ${fleetEntries.length} fleet entries to process.`);
 
-    for (const fleetData of fleetDataEntries) {
-        const builds = extractShipBuilds(fleetData);
-        allShipBuilds.push(...builds);
+    for (const entry of fleetEntries) { // Modified loop
+        const fleetData = entry.fleetDataString;
+        const faction = entry.factionString;
+
+        const shipBuilds = extractShipBuilds(fleetData);
+        allShipBuilds.push(...shipBuilds);
+
+        const squadrons = extractSquadronsFromFleetData(fleetData); // New function to be created
+        if (squadrons.length > 0) {
+            allFleetSquadrons.push({ faction, squadrons });
+        }
     }
 
     console.log(`Extracted ${allShipBuilds.length} total ship builds.`);
 
-    if (allShipBuilds.length === 0 && fleetDataEntries.length > 0) {
+    if (allShipBuilds.length === 0 && fleetEntries.length > 0) {
         console.warn("Fleet data was parsed, but no ship builds were extracted. Check fleet_data content and extractShipBuilds logic.");
     }
 
@@ -188,11 +241,13 @@ function main() {
 
     // Generate and save raw builds CSV
     const rawBuildsCsvString = generateRawBuildsCSV(allShipBuilds);
-    const OUTPUT_RAW_BUILDS_CSV_PATH = path.join(__dirname, 'raw_ship_builds.csv');
     fs.writeFileSync(OUTPUT_RAW_BUILDS_CSV_PATH, rawBuildsCsvString, 'utf-8');
     console.log(`Raw ship builds CSV saved to ${OUTPUT_RAW_BUILDS_CSV_PATH}`);
 
-    aggregateUpgradeFrequencies(allShipBuilds);
+    aggregateUpgradeFrequencies(allShipBuilds, OUTPUT_AGGREGATED_FREQUENCIES_PATH, OUTPUT_FREQUENCIES_CSV_PATH);
+
+    // Process and save squadron data
+    processAndSaveSquadronData(allFleetSquadrons, SQUADRON_JSON_PATH, SQUADRON_CSV_PATH);
 }
 
 function generateRawBuildsCSV(allShipBuilds) {
@@ -216,14 +271,13 @@ function generateRawBuildsCSV(allShipBuilds) {
     return csvRows.join('\n');
 }
 
-function aggregateUpgradeFrequencies(allShipBuilds) {
-    const OUTPUT_AGGREGATED_PATH = path.join(__dirname, 'ship_upgrade_frequencies.json');
+function aggregateUpgradeFrequencies(allShipBuilds, outputJsonPath, outputCsvPath) {
     const shipUpgradeCounts = {};
 
     if (allShipBuilds.length === 0) {
         console.warn("No ship builds to aggregate. Skipping frequency generation.");
-        fs.writeFileSync(OUTPUT_AGGREGATED_PATH, JSON.stringify(shipUpgradeCounts, null, 2), 'utf-8');
-        console.log(`Empty aggregated ship upgrade frequencies saved to ${OUTPUT_AGGREGATED_PATH}`);
+        fs.writeFileSync(outputJsonPath, JSON.stringify(shipUpgradeCounts, null, 2), 'utf-8');
+        console.log(`Empty aggregated ship upgrade frequencies saved to ${outputJsonPath}`);
         return;
     }
 
@@ -243,14 +297,13 @@ function aggregateUpgradeFrequencies(allShipBuilds) {
         } 
     }
 
-    fs.writeFileSync(OUTPUT_AGGREGATED_PATH, JSON.stringify(shipUpgradeCounts, null, 2), 'utf-8');
-    console.log(`Aggregated ship upgrade frequencies saved to ${OUTPUT_AGGREGATED_PATH}`);
+    fs.writeFileSync(outputJsonPath, JSON.stringify(shipUpgradeCounts, null, 2), 'utf-8');
+    console.log(`Aggregated ship upgrade frequencies saved to ${outputJsonPath}`);
 
     // Generate and save frequencies CSV
     const frequenciesCsvString = generateFrequenciesCSV(shipUpgradeCounts);
-    const OUTPUT_FREQUENCIES_CSV_PATH = path.join(__dirname, 'ship_upgrade_frequencies.csv');
-    fs.writeFileSync(OUTPUT_FREQUENCIES_CSV_PATH, frequenciesCsvString, 'utf-8');
-    console.log(`Aggregated ship upgrade frequencies CSV saved to ${OUTPUT_FREQUENCIES_CSV_PATH}`);
+    fs.writeFileSync(outputCsvPath, frequenciesCsvString, 'utf-8');
+    console.log(`Aggregated ship upgrade frequencies CSV saved to ${outputCsvPath}`);
 }
 
 function generateFrequenciesCSV(shipUpgradeCounts) {
@@ -265,6 +318,105 @@ function generateFrequenciesCSV(shipUpgradeCounts) {
             const UName = upgradeName.includes(',') ? `"${upgradeName}"` : upgradeName;
             const frequency = upgrades[upgradeName];
             csvRows.push(`${SName},${UName},${frequency}`);
+        }
+    }
+    return csvRows.join('\n');
+}
+
+function extractSquadronsFromFleetData(fleetDataString) {
+    const extractedSquads = [];
+    if (!fleetDataString) return extractedSquads;
+
+    const lines = fleetDataString.split(/\r\n|\n|\r/);
+    let inSquadronSection = false;
+
+    for (const line of lines) {
+        const trimmedLine = line.trim();
+
+        if (trimmedLine.toLowerCase().startsWith('squadrons:')) {
+            inSquadronSection = true;
+            continue;
+        }
+
+        if (trimmedLine.startsWith('Total Points:') || 
+            (trimmedLine.includes('(') && trimmedLine.includes(')') && !trimmedLine.startsWith('•')) || // Heuristic for a new ship line
+            trimmedLine.startsWith('Faction:') || trimmedLine.startsWith('Commander:') || 
+            trimmedLine.startsWith('Assault:') || trimmedLine.startsWith('Defense:') || trimmedLine.startsWith('Navigation:')) {
+            if(inSquadronSection) { // If we encounter a new section after squadrons, stop squadron processing for this fleet data
+                inSquadronSection = false;
+            }
+        }
+        
+        if (inSquadronSection && trimmedLine.startsWith('• ')) {
+            let squadronName = trimmedLine.substring(2).trim();
+            let count = 1;
+            const match = squadronName.match(/^(\d+)\s*x\s*(.+)$/i); // Matches "N x Squadron Name"
+            if (match) {
+                count = parseInt(match[1], 10);
+                squadronName = match[2].trim();
+            }
+            for (let i = 0; i < count; i++) {
+                extractedSquads.push(squadronName);
+            }
+        } else if (inSquadronSection && !trimmedLine) { // Empty line might signify end of squadrons before points
+            // This can be ambiguous. For now, an empty line ends the squadron section if one was active.
+            // To be more robust, one might need to check if subsequent lines are also not squadrons.
+           // inSquadronSection = false; // Let's not do this for now, rely on other terminators
+        }
+        
+        // If we hit total points for the ship, or a new ship, squadron section also ends
+        if (trimmedLine.startsWith('= ') && trimmedLine.endsWith(' Points')) {
+             if(inSquadronSection) { // If we encounter ship points sum, implies end of current ship's upgrades/squadrons for that card (though squadrons are usually listed once per fleet)
+                // This might not be the right place to turn off inSquadronSection globally for the fleet_data,
+                // as squadrons are listed after all ships usually.
+             }
+        }
+    }
+    return extractedSquads;
+}
+
+function processAndSaveSquadronData(allFleetSquadrons, outputJsonPath, outputCsvPath) {
+    if (!allFleetSquadrons || allFleetSquadrons.length === 0) {
+        console.log("No squadron data to process.");
+        fs.writeFileSync(outputJsonPath, JSON.stringify({}, null, 2), 'utf-8');
+        fs.writeFileSync(outputCsvPath, "faction,squadron_name,total_count\n", 'utf-8');
+        console.log(`Empty squadron count files written to ${outputJsonPath} and ${outputCsvPath}`);
+        return;
+    }
+
+    const aggregatedSquadrons = {}; // { faction: { squadronName: count, ... }, ... }
+
+    for (const fleet of allFleetSquadrons) {
+        const faction = fleet.faction;
+        if (!aggregatedSquadrons[faction]) {
+            aggregatedSquadrons[faction] = {};
+        }
+        for (const squadronName of fleet.squadrons) {
+            aggregatedSquadrons[faction][squadronName] = (aggregatedSquadrons[faction][squadronName] || 0) + 1;
+        }
+    }
+
+    fs.writeFileSync(outputJsonPath, JSON.stringify(aggregatedSquadrons, null, 2), 'utf-8');
+    console.log(`Aggregated squadron counts (JSON) saved to ${outputJsonPath}`);
+
+    // Generate and save squadron CSV
+    const squadronCsvString = generateSquadronFactionCSV(aggregatedSquadrons);
+    fs.writeFileSync(outputCsvPath, squadronCsvString, 'utf-8');
+    console.log(`Aggregated squadron counts (CSV) saved to ${outputCsvPath}`);
+}
+
+function generateSquadronFactionCSV(aggregatedSquadrons) {
+    if (Object.keys(aggregatedSquadrons).length === 0) {
+        return 'faction,squadron_name,total_count\n';
+    }
+    const csvRows = ['faction,squadron_name,total_count'];
+    for (const faction in aggregatedSquadrons) {
+        const squadrons = aggregatedSquadrons[faction];
+        const fName = faction.includes(',') ? `"${faction}"` : faction;
+        for (const squadronName in squadrons) {
+            const sName = squadronName.includes(',') ? `"${squadronName}"` : squadronName;
+            const totalCount = squadrons[squadronName];
+            csvRows.push(`${fName},${sName},${totalCount}`);
         }
     }
     return csvRows.join('\n');
