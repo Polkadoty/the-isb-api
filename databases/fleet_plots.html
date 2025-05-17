@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fleet Data Plots</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <style>
+    canvas { max-width: 600px; margin: 2rem auto; display: block; }
+    .chart-title { text-align: center; font-family: sans-serif; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h2 class="chart-title">Faction Distribution</h2>
+  <canvas id="factionChart"></canvas>
+
+  <h2 class="chart-title">Squadron Points Distribution</h2>
+  <canvas id="squadronChart"></canvas>
+
+  <h2 class="chart-title">Empire Commander Distribution</h2>
+  <canvas id="empireChart"></canvas>
+
+  <h2 class="chart-title">Rebel Commander Distribution</h2>
+  <canvas id="rebelChart"></canvas>
+
+  <h2 class="chart-title">Republic Commander Distribution</h2>
+  <canvas id="republicChart"></canvas>
+
+  <h2 class="chart-title">Separatist Commander Distribution</h2>
+  <canvas id="separatistChart"></canvas>
+
+<script>
+const factionColors = {
+  Empire: 'gray',
+  Rebel: 'red',
+  Republic: 'blue',
+  Separatist: 'gold'
+};
+const ignoreCmd = {
+  Empire: ['Admiral Yularen'],
+  Rebel: ['Grand Admiral Thrawn']
+};
+
+// helper: bin squadron points 0–9,10–19,…,130–134
+function binLabel(i, bins) {
+  const start = bins[i];
+  const end = bins[i+1] - 1;
+  // last bin ends at bins[bins.length-1]
+  return i === bins.length-2
+    ? `${start}-${bins[bins.length-1]}`
+    : `${start}-${end}`;
+}
+
+// Add file input element
+const fileInput = document.createElement('input');
+fileInput.type = 'file';
+fileInput.accept = '.csv';
+fileInput.style.margin = '1rem';
+document.body.insertBefore(fileInput, document.querySelector('canvas'));
+
+// Handle file selection
+fileInput.addEventListener('change', e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  
+  Papa.parse(file, {
+    header: true,
+    complete: results => {
+      const data = results.data;
+
+      // 1) Faction distribution  
+      const factionCounts = {};
+    data.forEach(r => factionCounts[r.faction] = (factionCounts[r.faction]||0)+1);
+    new Chart(document.getElementById('factionChart').getContext('2d'), {
+      type: 'bar',
+      data: {
+        labels: Object.keys(factionCounts),
+        datasets: [{
+          label: '# Fleets',
+          data: Object.values(factionCounts),
+          backgroundColor: Object.keys(factionCounts).map(f=>factionColors[f]),
+          borderColor: '#000',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+
+    // 2) Squadron-points histogram
+    const extractSquad = txt => {
+      const m = /Squadrons:[^=]*=\s*(\d+)\s*Points/.exec(txt||'');
+      return m ? +m[1] : 0;
+    };
+    const squadPts = data.map(r=> extractSquad(r.fleet_data));
+    const bins = Array.from({length: 14}, (_,i)=> i*10).concat(134);
+    const binCounts = Array(bins.length-1).fill(0);
+    squadPts.forEach(p=>{
+      for(let i=0;i<bins.length-1;i++){
+        if (i===bins.length-2
+            ? p>=bins[i] && p<=bins[i+1]
+            : p>=bins[i] && p<bins[i+1]) {
+          binCounts[i]++;
+          break;
+        }
+      }
+    });
+    new Chart(document.getElementById('squadronChart').getContext('2d'), {
+      type: 'bar',
+      data: {
+        labels: bins.slice(0,-1).map((_,i)=> binLabel(i,bins)),
+        datasets: [{
+          label: 'Frequency',
+          data: binCounts,
+          backgroundColor: 'orange',
+          borderColor: '#000',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+
+    // 3) Commander distributions per faction
+    ['Empire','Rebel','Republic','Separatist'].forEach(faction => {
+      let subset = data.filter(r=> r.faction===faction);
+      if (ignoreCmd[faction]) {
+        subset = subset.filter(r=> !ignoreCmd[faction].includes(r.commander));
+      }
+      const total = subset.length;
+      const counts = {};
+      subset.forEach(r=> counts[r.commander] = (counts[r.commander]||0)+1);
+      // sort descending
+      const entries = Object.entries(counts)
+        .sort((a,b)=> b[1]-a[1]);
+      const labels = entries.map(e=>e[0]);
+      const perc = entries.map(e=> (e[1]/total*100).toFixed(1));
+      new Chart(document.getElementById(faction.toLowerCase()+'Chart')
+                  .getContext('2d'), {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{
+            label: `% within ${faction}`,
+            data: perc,
+            backgroundColor: factionColors[faction],
+            borderColor: '#000',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: { beginAtZero: true, title: { display: true, text: '% of Fleets' } },
+            x: { ticks: { autoSkip: false, maxRotation: 45, minRotation: 45 } }
+          }
+        }
+      });
+    });
+
+  }
+});
+});
+</script>
+</body>
+</html>

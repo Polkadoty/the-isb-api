@@ -6,7 +6,7 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "b576593b-7fde-4b01-b766-8871e35636a1",
+      "_id": "372f0279-4726-45a4-b0f2-a82c14adf40c",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "aggressor-assault-fighter",
@@ -15,7 +15,8 @@
         "Aggressor",
         "Aggressors",
         "AAF",
-        "AAFs"
+        "AAFs",
+        "Aggressor Assault Fighter"
       ],
       "ace-name": "",
       "unique-class": [
@@ -76,14 +77,17 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "5066cb2c-e836-4b2f-89fe-899198cb456e",
+      "_id": "63367479-ddc0-414c-a232-bedf35e44887",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "aggressor-assault-fighter",
       "name": "IG-2000",
       "nicknames": [
         "IG-2000",
-        "IG-88"
+        "IG-88",
+        "IG-88 Assault Fighter",
+        "IG-88 Assault Fighter (IG-2000)",
+        "IG-2000 (IG-88)"
       ],
       "ace-name": "IG-88",
       "unique-class": [
@@ -145,14 +149,18 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "2ea6cbca-cd78-40af-bc39-c9627e1657f0",
+      "_id": "f66a6391-77d5-4c76-874c-523ad4bd06e0",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "aggressor-assault-fighter",
       "name": "IG-2000B",
       "nicknames": [
         "IG-2000B",
-        "IG-88B"
+        "IG-88B",
+        "IG-88B Assault Fighter",
+        "IG-88B Assault Fighter (IG-2000B)",
+        "IG-2000B (IG-88B)",
+        "IG-2000 (IG-88B)"
       ],
       "ace-name": "IG-88B",
       "unique-class": [
@@ -214,7 +222,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "a508b857-1991-41c1-871f-ef1db1b4c362",
+      "_id": "7f649c76-64a6-4343-b5f5-e3ac8c86013c",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
@@ -283,14 +291,15 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "14431d6e-8ca1-4e2b-b3b5-dfa9588f5417",
+      "_id": "021968db-b6fc-4dd1-9646-498cfb2f5d20",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
       "name": "Slave I",
       "nicknames": [
         "Slave I",
-        "Boba Fett"
+        "Boba Fett",
+        "Slave I (Boba Fett)"
       ],
       "ace-name": "Boba Fett",
       "unique-class": [
@@ -352,7 +361,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "2e0b2892-9cd4-4386-916c-c9cb43171d9f",
+      "_id": "ba0b64e2-bc83-4cfe-be69-520521d05670",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "firespray-31",
@@ -360,7 +369,8 @@
       "nicknames": [
         "Slave I",
         "Hondo",
-        "Hondo Firespray"
+        "Hondo Firespray",
+        "Slave I (Hondo Ohnaka)"
       ],
       "ace-name": "Hondo Ohnaka",
       "unique-class": [
@@ -422,7 +432,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "ec1dc4b6-9817-4c39-89c5-3edb5f3cdd4f",
+      "_id": "dd1871e6-f386-4403-8cf1-5699484bbb07",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "jumpmaster-5000",
@@ -431,7 +441,8 @@
         "Jumper",
         "Jumper 5000",
         "JumpMaster",
-        "JumpMasters"
+        "JumpMasters",
+        "JumpMaster 5000"
       ],
       "ace-name": "",
       "unique-class": [
@@ -492,14 +503,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "d2624afc-88d0-432d-be01-5a157086c2b0",
+      "_id": "275f4684-98fd-4a79-8ee7-bc5163495fdf",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "jumpmaster-5000",
       "name": "Punishing One",
       "nicknames": [
         "Dengar",
-        "Dengar JumpMaster"
+        "Dengar JumpMaster",
+        "Dengar Punishing One",
+        "Punishing One (Dengar)"
       ],
       "ace-name": "Dengar",
       "unique-class": [
@@ -561,14 +574,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "929ac70a-bb7b-48d8-8993-3de55c16f0ac",
+      "_id": "e2a74a6f-ef2a-4135-9af9-ec3df4057413",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "jumpmaster-5000",
       "name": "JumpMaster 5000",
       "nicknames": [
         "Tel Trevura",
-        "Tel"
+        "Tel",
+        "Tel Trevura JumpMaster",
+        "JumpMaster 5000 (Tel Trevura)"
       ],
       "ace-name": "Tel Trevura",
       "unique-class": [
@@ -629,7 +644,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
-      "_id": "c7723af3-a962-4daa-b927-1d7fd5cad2de",
+      "_id": "00f26b2b-2c82-4b78-a543-9ce6f033eca7",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "lambda-class-shuttle",
@@ -697,14 +712,15 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "15b9f8af-5642-436a-9147-5ab077565a96",
+      "_id": "c4049ba7-70d7-45ca-990b-1715e168e08e",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "lambda-class-shuttle",
       "name": "Lambda-class Shuttle",
       "nicknames": [
         "Jendon",
-        "CJ"
+        "CJ",
+        "Lambda-class Shuttle (Colonel Jendon)"
       ],
       "ace-name": "Colonel Jendon",
       "unique-class": [
@@ -765,14 +781,15 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "ba0f389e-567f-40ea-9d04-12f6626a5d5c",
+      "_id": "538ad890-af12-4465-8d5d-6ff14f91a573",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "mandalorian-gauntlet-fighter",
       "name": "Mandalorian Gauntlet Fighter",
       "nicknames": [
         "Gauntlet",
-        "Gauntlets"
+        "Gauntlets",
+        "Mandalorian Gauntlet"
       ],
       "ace-name": "",
       "unique-class": [
@@ -833,7 +850,7 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "36728e38-6cec-416d-b35f-fa38aa64dca7",
+      "_id": "b31a99e8-1d73-4af0-88b3-8184ea670961",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "mandalorian-gauntlet-fighter",
@@ -841,7 +858,9 @@
       "nicknames": [
         "Gar",
         "Gar Saxon",
-        "GS"
+        "GS",
+        "Mandalorian Gauntlet (Gar Saxon)",
+        "Mandalorian Gauntlet Fighter (Gar Saxon)"
       ],
       "ace-name": "Gar Saxon",
       "unique-class": [
@@ -902,14 +921,15 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "eac77332-35ec-4beb-90f0-f11af4c59683",
+      "_id": "aa69e4b6-ba09-4cc7-8ffc-5a34afbe1db2",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "mandalorian-gauntlet-fighter",
       "name": "Mandalorian Gauntlet Fighter",
       "nicknames": [
         "Fenn",
-        "Fenn Rau"
+        "Fenn Rau",
+        "Mandalorian Gauntlet (Fenn Rau)"
       ],
       "ace-name": "Fenn Rau",
       "unique-class": [
@@ -970,7 +990,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
-      "_id": "95e6db2d-5659-4be6-8587-86b664f769a2",
+      "_id": "bb98d799-7ae3-4d45-9d0e-e028e8e7085c",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-advanced-squadron",
@@ -978,7 +998,8 @@
       "nicknames": [
         "TIE Adv",
         "TIE Advs",
-        "Advanced"
+        "Advanced",
+        "TIE Advanced"
       ],
       "ace-name": "",
       "unique-class": [
@@ -1039,7 +1060,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
-      "_id": "f288fb31-ed2c-470e-b349-a75924ce634d",
+      "_id": "93231d5c-fb2e-4c65-9d19-642f93067f58",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-advanced-squadron",
@@ -1047,7 +1068,11 @@
       "nicknames": [
         "Vader Advanced",
         "Vader Adv",
-        "Vader Advs"
+        "Vader Advs",
+        "Darth Vader Advanced",
+        "Darth Vader Adv",
+        "Darth Vader Advs",
+        "TIE Advanced (Darth Vader)"
       ],
       "ace-name": "Darth Vader",
       "unique-class": [
@@ -1108,14 +1133,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "3c109ebc-d8b4-4233-b8e0-3a81e54e8e8d",
+      "_id": "73bb4430-e234-4135-b870-501262a35b28",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-advanced-squadron",
       "name": "TIE Advanced Squadron",
       "nicknames": [
         "Zertik",
-        "Zertik Strom"
+        "Zertik Strom",
+        "TIE Advanced (Zertik Strom)"
       ],
       "ace-name": "Zertik Strom",
       "unique-class": [
@@ -1176,14 +1202,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "a0341c12-1c2f-46cf-946c-397fa6a69992",
+      "_id": "739c021c-5f59-4a4e-a5e6-40e595e566a1",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-advanced-squadron",
       "name": "TIE Advanced Squadron",
       "nicknames": [
         "Tempest",
-        "Tempest Squadron"
+        "Tempest Squadron",
+        "TIE Advanced (Tempest Squadron)"
       ],
       "ace-name": "Tempest Squadron",
       "unique-class": [
@@ -1244,7 +1271,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
-      "_id": "3a789a12-9fd9-47fe-8e2e-70c0c41a1fc9",
+      "_id": "00c3b500-fb60-42de-bcc2-bc269d6dee8b",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-bomber-squadron",
@@ -1314,14 +1341,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
-      "_id": "2aef0b54-84d2-4557-8cd3-178f06dc4806",
+      "_id": "1387dc82-4b90-4a1c-87ce-a318e15697a7",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-bomber-squadron",
       "name": "TIE Bomber Squadron",
       "nicknames": [
         "Major Rhymer",
-        "Rhymer"
+        "Rhymer",
+        "TIE Bomber (Major Rhymer)"
       ],
       "ace-name": "Major Rhymer",
       "unique-class": [
@@ -1382,14 +1410,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "47122ed5-378c-4c54-b5cf-8ed6a3de81fa",
+      "_id": "1662c1c3-684d-4d64-bc0f-6866c6df97ae",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-bomber-squadron",
       "name": "TIE Bomber Squadron",
       "nicknames": [
         "Captain Jonus",
-        "Jonus"
+        "Jonus",
+        "TIE Bomber (Captain Jonus)"
       ],
       "ace-name": "Captain Jonus",
       "unique-class": [
@@ -1450,14 +1479,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "b49b7b19-a974-46d9-bc8b-c464a0d7389f",
+      "_id": "a3b74c24-4200-4a40-87db-53c79e9dbeb8",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-bomber-squadron",
       "name": "TIE Bomber Squadron",
       "nicknames": [
         "Gamma",
-        "Gamma Squadron"
+        "Gamma Squadron",
+        "TIE Bomber (Gamma Squadron)"
       ],
       "ace-name": "Gamma Squadron",
       "unique-class": [
@@ -1518,7 +1548,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
-      "_id": "f3ca0afb-0a19-4a8b-84bc-e2294df215ce",
+      "_id": "9aeb9644-5727-4493-bc9d-b2b80f6a3516",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-defender-squadron",
@@ -1589,14 +1619,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
-      "_id": "bb7b2dfb-d538-4632-9e8f-a1aee1b35a04",
+      "_id": "cbff151a-e1b2-4898-a143-f1cfc68e5905",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-defender-squadron",
       "name": "TIE Defender Squadron",
       "nicknames": [
         "Maarek",
-        "Maarek Stele"
+        "Maarek Stele",
+        "TIE Defender (Maarek Stele)"
       ],
       "ace-name": "Maarek Stele",
       "unique-class": [
@@ -1657,13 +1688,14 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements I (RR1)",
-      "_id": "c5fa31e3-62f1-49f6-bef5-af97a5f38cea",
+      "_id": "80b97dde-67ef-42a4-ad88-605740f64713",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-defender-squadron",
       "name": "TIE Defender Squadron",
       "nicknames": [
-        "Vader Defender"
+        "Vader Defender",
+        "TIE Defender (Darth Vader)"
       ],
       "ace-name": "Darth Vader",
       "unique-class": [
@@ -1724,7 +1756,7 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "8fc53743-21cf-4c09-9ca1-f387b3c931ae",
+      "_id": "d01aa737-0692-4906-a700-1fdbdcff08f8",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter-squadron",
@@ -1793,13 +1825,14 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "1551047e-51bf-472a-a99d-fc6c491eef9f",
+      "_id": "edac70f2-e15b-4b01-a51d-ca09bb69f6c4",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter-squadron",
       "name": "TIE Fighter Squadron",
       "nicknames": [
-        "Howlrunner"
+        "Howlrunner",
+        "TIE Fighter (Howlrunner)"
       ],
       "ace-name": "Howlrunner",
       "unique-class": [
@@ -1860,13 +1893,14 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
-      "_id": "6dca3f0b-1ce0-46a2-9a83-bc29388d1a0a",
+      "_id": "871c6060-ab06-480a-8e50-dbae6de9c57f",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter-squadron",
       "name": "TIE Fighter Squadron",
       "nicknames": [
-        "Mauler"
+        "Mauler",
+        "TIE Fighter (Mauler Mithel)"
       ],
       "ace-name": "Mauler Mithel",
       "unique-class": [
@@ -1927,13 +1961,14 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "9f2a20be-9136-452b-bfd7-dd5972ae7837",
+      "_id": "587835f4-7a54-454f-8554-eccb42fe27fb",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter-squadron",
       "name": "TIE Fighter Squadron",
       "nicknames": [
-        "Valen"
+        "Valen",
+        "TIE Fighter (Valen Rudor)"
       ],
       "ace-name": "Valen Rudor",
       "unique-class": [
@@ -1994,13 +2029,14 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "fd86e927-6af6-4273-a394-dc2543b23f4a",
+      "_id": "7113d392-3da9-46ea-a542-30e0e0e70f37",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-fighter-squadron",
       "name": "TIE Fighter Squadron",
       "nicknames": [
-        "Black Squadron"
+        "Black Squadron",
+        "TIE Fighter (Black Squadron)"
       ],
       "ace-name": "Black Squadron",
       "unique-class": [
@@ -2061,7 +2097,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
-      "_id": "81b6f3d7-c788-43cc-be4e-274e3326e59f",
+      "_id": "59b0ae59-4bae-4518-abf6-20320010c915",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-interceptor-squadron",
@@ -2130,14 +2166,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Imperial Fighter Squadrons Expansion Pack (SWM08)",
-      "_id": "b05ddc70-d4e1-4d33-9989-432c62b4be77",
+      "_id": "fcd03f93-2abe-4b43-b361-9724eed67bf5",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-interceptor-squadron",
       "name": "TIE Interceptor Squadron",
       "nicknames": [
         "Soontir",
-        "Hero of the Empire"
+        "Hero of the Empire",
+        "TIE Interceptor (Soontir Fel)"
       ],
       "ace-name": "Soontir Fel",
       "unique-class": [
@@ -2198,14 +2235,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "256c84c9-e96c-4d3f-8ed5-0f805a98eefa",
+      "_id": "ec8bb304-549c-48b4-82bf-c410efb74045",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-interceptor-squadron",
       "name": "TIE Interceptor Squadron",
       "nicknames": [
         "Ciena",
-        "Ciena Ree"
+        "Ciena Ree",
+        "TIE Interceptor (Ciena Ree)"
       ],
       "ace-name": "Ciena Ree",
       "unique-class": [
@@ -2266,14 +2304,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "fd46f5b5-c37a-4d73-80a9-e98ee06cd875",
+      "_id": "c69e548b-66c9-4867-927b-0e2e72e085c6",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-interceptor-squadron",
       "name": "TIE Interceptor Squadron",
       "nicknames": [
         "Saber",
-        "Saber Squadron"
+        "Saber Squadron",
+        "TIE Interceptor (Saber Squadron)"
       ],
       "ace-name": "Saber Squadron",
       "unique-class": [
@@ -2334,14 +2373,15 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "ed1682a5-bc07-4494-aa0b-336899b6d7bf",
+      "_id": "8bd01e51-7e15-4259-9be9-2dd65bcbde50",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-interceptor-squadron",
       "name": "TIE Interceptor Squadron",
       "nicknames": [
         "Vult",
-        "Vult Skerris"
+        "Vult Skerris",
+        "TIE Interceptor (Vult Skerris)"
       ],
       "ace-name": "Vult Skerris",
       "unique-class": [
@@ -2402,14 +2442,16 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
-      "_id": "f32e2d47-16b2-4643-85d4-615136a89a89",
+      "_id": "fb749496-9b8e-4da5-b071-1a5f83b7d897",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-phantom-squadron",
       "name": "TIE Phantom Squadron",
       "nicknames": [
         "Phantom",
-        "Phantoms"
+        "Phantoms",
+        "TIE Phantom",
+        "TIE Phantom Squadron"
       ],
       "ace-name": "",
       "unique-class": [
@@ -2470,13 +2512,16 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "735c8821-bc6e-4fa4-8bee-f228ba1335b9",
+      "_id": "dfc9a280-02d7-42e0-bf05-8e9e5f4e6f98",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "tie-phantom-squadron",
       "name": "TIE Phantom Squadron",
       "nicknames": [
-        "Whisper"
+        "Whisper",
+        "Whisper Phantom",
+        "Whisper Phantom Squadron",
+        "TIE Phantom (Whisper)"
       ],
       "ace-name": "Whisper",
       "unique-class": [
@@ -2537,7 +2582,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
-      "_id": "c222d42a-0ce5-4a89-bf34-197c11a50321",
+      "_id": "4ed59fdc-08d2-4352-9325-b14630eefc2c",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "vt-49-decimator",
@@ -2606,14 +2651,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Imperial Fighter Squadrons II Expansion Pack (SWM24)",
-      "_id": "64d72657-12b3-4b4e-a759-c46def0a8474",
+      "_id": "13153198-4365-43b6-9423-8f6a4291d4bd",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "vt-49-decimator",
       "name": "VT-49 Decimator",
       "nicknames": [
         "Morna",
-        "Morna Kee"
+        "Morna Kee",
+        "VT-49 Decimator (Morna Kee)"
       ],
       "ace-name": "Morna Kee",
       "unique-class": [
@@ -2674,7 +2720,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "2c92b937-141e-469a-bbd1-b6737475ab41",
+      "_id": "88f6d42e-74dc-4003-8d0e-a807508aa80e",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "yv-666",
@@ -2742,14 +2788,16 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "1c8d4776-789b-471a-9ea6-e44e0b7e4b9f",
+      "_id": "720d9ea4-35e4-4d83-ae99-f19e74b70d86",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "yv-666",
       "name": "Hound's Tooth",
       "nicknames": [
         "Bossk",
-        "Hounds Tooth"
+        "Hounds Tooth",
+        "Hounds Tooth (Bossk)",
+        "Hound's Tooth (Bossk)"
       ],
       "ace-name": "Bossk",
       "unique-class": [
@@ -2811,14 +2859,15 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "be14d17a-c2d9-4acf-a245-69720aebb772",
+      "_id": "ce2db346-2b4a-4c9b-8e00-6ae1646ea646",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "yv-666",
       "name": "YV-666",
       "nicknames": [
         "Moralo",
-        "Moralo YV"
+        "Moralo YV",
+        "YV-666 (Moralo Eval)"
       ],
       "ace-name": "Moralo Eval",
       "unique-class": [
@@ -2879,14 +2928,14 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-      "_id": "6fe590f9-94bd-4320-a471-227b9d540908",
+      "_id": "150feebf-d37c-4ed2-9e0a-9db9c4e22fd1",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "a-wing-squadron",
-      "name": "A-Wing Squadron",
+      "name": "A-wing Squadron",
       "nicknames": [
-        "A-Wings",
-        "A-Wing"
+        "A-wings",
+        "A-wing"
       ],
       "ace-name": "",
       "unique-class": [
@@ -2947,13 +2996,14 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-      "_id": "0281300b-b80e-4651-b379-f3d2f86216cb",
+      "_id": "4e296298-2f25-4aad-915e-f741dbc84bb3",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "a-wing-squadron",
-      "name": "A-Wing Squadron",
+      "name": "A-wing Squadron",
       "nicknames": [
-        "Tycho"
+        "Tycho",
+        "A-wing (Tycho Celchu)"
       ],
       "ace-name": "Tycho Celchu",
       "unique-class": [
@@ -3014,13 +3064,14 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "5a18bbb9-d2c8-4a8a-bc2e-3d8015b7885e",
+      "_id": "3cc59b64-3c53-4e33-97a1-4c4082a77eee",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "a-wing-squadron",
-      "name": "A-Wing Squadron",
+      "name": "A-wing Squadron",
       "nicknames": [
-        "Shara"
+        "Shara",
+        "A-wing (Shara Bey)"
       ],
       "ace-name": "Shara Bey",
       "unique-class": [
@@ -3081,13 +3132,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "cf767398-c1c1-41c6-8d5f-6bec0f7caa34",
+      "_id": "d5fb2f0a-89be-49cf-bf32-8044a01008f1",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "a-wing-squadron",
-      "name": "A-Wing Squadron",
+      "name": "A-wing Squadron",
       "nicknames": [
-        "Green"
+        "Green",
+        "Green Squadron",
+        "A-wing (Green Squadron)"
       ],
       "ace-name": "Green Squadron",
       "unique-class": [
@@ -3148,7 +3201,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-      "_id": "987edb7a-d275-4a85-ad96-1cae3e4b78da",
+      "_id": "134b2e8f-a521-489d-acd5-dcc1345521b4",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "b-wing-squadron",
@@ -3156,7 +3209,8 @@
       "nicknames": [
         "B-Wings",
         "B-Wing",
-        "Bs"
+        "Bs",
+        "B-wing"
       ],
       "ace-name": "",
       "unique-class": [
@@ -3217,14 +3271,15 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "839651ea-b2b7-4a91-b750-487ab1ff0dd2",
+      "_id": "431a6eba-816c-4a62-929b-270413360bf4",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "b-wing-squadron",
       "name": "B-Wing Squadron",
       "nicknames": [
         "Keyan",
-        "Keyan Farlander"
+        "Keyan Farlander",
+        "B-wing (Keyan Farlander)"
       ],
       "ace-name": "Keyan Farlander",
       "unique-class": [
@@ -3285,14 +3340,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "62bc95b6-9204-4c08-b75a-8ac7778b0ce6",
+      "_id": "af1847c2-864f-499a-b942-dba6dad9a40e",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "b-wing-squadron",
       "name": "B-Wing Squadron",
       "nicknames": [
         "Ten",
-        "Ten Numb"
+        "Ten Numb",
+        "B-wing (Ten Numb)"
       ],
       "ace-name": "Ten Numb",
       "unique-class": [
@@ -3353,14 +3409,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "8541a01c-956e-428d-8b0e-4e9ebee8ebd9",
+      "_id": "0225522d-ab16-493b-b312-7fe8d50e655f",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "b-wing-squadron",
       "name": "B-Wing Squadron",
       "nicknames": [
         "Dagger",
-        "Dagger Squadron"
+        "Dagger Squadron",
+        "B-wing (Dagger Squadron)"
       ],
       "ace-name": "Dagger Squadron",
       "unique-class": [
@@ -3421,14 +3478,15 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "5a97d194-1ef6-4107-a0b6-463e9f3b353b",
+      "_id": "723a2612-4352-48bc-bfa5-b9bcff14aeba",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "e-wing-squadron",
       "name": "E-wing Squadron",
       "nicknames": [
         "E-Wings",
-        "E-Wing"
+        "E-Wing",
+        "E-wing"
       ],
       "ace-name": "",
       "unique-class": [
@@ -3489,14 +3547,15 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
-      "_id": "5afdae47-e2f6-4a2f-af23-deef908c18dd",
+      "_id": "42d03566-3e29-4fa4-9c3e-2e443de64f75",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "e-wing-squadron",
       "name": "E-wing Squadron",
       "nicknames": [
         "Corran Horn",
-        "Corran"
+        "Corran",
+        "E-wing (Corran Horn)"
       ],
       "ace-name": "Corran Horn",
       "unique-class": [
@@ -3557,7 +3616,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "4be5c27e-bd55-43b2-afd7-d861b32432e1",
+      "_id": "f64aaa30-45a4-4088-ba4d-dc5d51af283e",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "hwk-290",
@@ -3628,13 +3687,14 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "2bd0e1f7-9bc1-4a14-bf0c-2a9c364cf5a7",
+      "_id": "bcc08389-e357-4c02-91fe-57e753888926",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "hwk-290",
       "name": "Moldy Crow",
       "nicknames": [
-        "Jan"
+        "Jan",
+        "Moldy Crow (Jan Ors)"
       ],
       "ace-name": "Jan Ors",
       "unique-class": [
@@ -3696,13 +3756,16 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "d5c228cf-0bbc-4d30-a148-3ab1175ed4ed",
+      "_id": "db3d1bd9-4650-4986-9945-bc892eedd896",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "hwk-290",
       "name": "HWK-290",
       "nicknames": [
-        "Kanan"
+        "Kanan",
+        "Kanan Jarrus",
+        "Kanan Jarrus (HWK-290)",
+        "HWK-290 (Kanan Jarrus)"
       ],
       "ace-name": "Kanan Jarrus",
       "unique-class": [
@@ -3763,7 +3826,7 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "475028cf-3adf-4e91-9fd6-e8e5ef55c421",
+      "_id": "81ce18ab-0a01-47c3-b089-4d82708477e6",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "lancer-class-pursuit-craft",
@@ -3831,13 +3894,14 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
-      "_id": "3e830d1c-4639-4feb-a72d-7a1d706b2562",
+      "_id": "a50301c1-e1ea-41b0-b6c7-92ed38141c4f",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "lancer-class-pursuit-craft",
       "name": "Shadow Caster",
       "nicknames": [
-        "Ketsu"
+        "Ketsu",
+        "Shadow Caster (Ketsu Onyo)"
       ],
       "ace-name": "Ketsu Onyo",
       "unique-class": [
@@ -3899,7 +3963,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "c08e056f-d21c-4c0d-b76f-27ba8cff43ce",
+      "_id": "f30ee0fc-4147-4c96-abc8-d00de53fd103",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "scurrg-h-6-bomber",
@@ -3970,14 +4034,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "1846b306-85d9-4339-87a5-a1e7c868f410",
+      "_id": "47f15214-c87e-431d-a408-c1912009bf3c",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "scurrg-h-6-bomber",
       "name": "Havoc",
       "nicknames": [
         "Nym",
-        "Nym Havoc"
+        "Nym Havoc",
+        "Havoc (Nym)"
       ],
       "ace-name": "Nym",
       "unique-class": [
@@ -4039,13 +4104,20 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "2ee41282-bde3-4304-bff5-22a6eb76f3dd",
+      "_id": "0c9ed66d-40ea-4cf9-9a29-b6f1120cd1c9",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "scurrg-h-6-bomber",
       "name": "Scurrg H-6 Bomber",
       "nicknames": [
-        "Malee"
+        "Malee",
+        "Malee Hurra",
+        "Malee Scurrg",
+        "Malee Scurrgs",
+        "Malee H6s",
+        "Malee H6",
+        "Malee H-6",
+        "Scurrg H-6 Bomber (Malee Hurra)"
       ],
       "ace-name": "Malee Hurra",
       "unique-class": [
@@ -4106,7 +4178,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
-      "_id": "29eea275-044d-4965-869e-e6fefe2008f8",
+      "_id": "2c41f181-64c8-45df-ae27-f89f1a2f8a02",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "vcx-100-freighter",
@@ -4115,7 +4187,8 @@
         "Freighter",
         "VCX",
         "VCX-100",
-        "VCXs"
+        "VCXs",
+        "VCX-100 Freighter"
       ],
       "ace-name": "",
       "unique-class": [
@@ -4176,14 +4249,18 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
-      "_id": "3e5c8113-5258-4243-8f78-950a45b7e5a8",
+      "_id": "25d21b44-b0c1-401c-adbc-c1d0f98ff424",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "vcx-100-freighter",
       "name": "Ghost",
       "nicknames": [
         "Hera",
-        "Hera VCX"
+        "Hera VCX",
+        "Hera VCX-100",
+        "Hera VCX-100 Freighter",
+        "Hera VCX-100 Ghost",
+        "Ghost (Hera Syndulla)"
       ],
       "ace-name": "Hera Syndulla",
       "unique-class": [
@@ -4245,14 +4322,16 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "d1867cc8-d927-4cc0-9941-af86a2bf4589",
+      "_id": "8769d241-9e72-45a4-9d25-2c107afcf3f6",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
-      "name": "X-Wing Squadron",
+      "name": "X-wing Squadron",
       "nicknames": [
         "X-Wings",
-        "X-Wing"
+        "X-Wing",
+        "X-wing",
+        "X-wing Squadron"
       ],
       "ace-name": "",
       "unique-class": [
@@ -4313,14 +4392,15 @@
       "team": "FFG",
       "release": "Wave 0 Armada",
       "expansion": "Armada Core Set (SWM01)",
-      "_id": "d453c7ca-dc79-4449-aa07-6394994368d5",
+      "_id": "094cbec8-8208-4294-a959-fe007190aa4c",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
-      "name": "X-Wing Squadron",
+      "name": "X-wing Squadron",
       "nicknames": [
         "Luke",
-        "Luke X-Wing"
+        "Luke X-Wing",
+        "X-wing (Luke Skywalker)"
       ],
       "ace-name": "Luke Skywalker",
       "unique-class": [
@@ -4381,14 +4461,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "5f4af3fb-97c2-4664-9757-52e15d27a850",
+      "_id": "9743d227-943d-44e4-80b4-f26ccf93bc9a",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
-      "name": "X-Wing Squadron",
+      "name": "X-wing Squadron",
       "nicknames": [
         "Biggs",
-        "Biggs X-Wing"
+        "Biggs X-Wing",
+        "X-wing (Biggs Darklighter)"
       ],
       "ace-name": "Biggs Darklighter",
       "unique-class": [
@@ -4449,14 +4530,16 @@
       "team": "AMG",
       "release": "Rapid Reinforcements I",
       "expansion": "Rapid Reinforcements I",
-      "_id": "2cd87514-2f1d-4815-b4d4-b63ef91c6596",
+      "_id": "68df3cd6-456e-4811-99d6-db9e7647e47c",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
-      "name": "X-Wing Squadron",
+      "name": "X-wing Squadron",
       "nicknames": [
         "Hera",
-        "Hera X-Wing"
+        "Hera X-wing",
+        "X-wing (Hera Syndulla)",
+        "X-wing (Hera Syndula)"
       ],
       "ace-name": "Hera Syndulla",
       "unique-class": [
@@ -4517,14 +4600,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-      "_id": "c7b82bf4-e49d-4a37-8069-25eb3ca2edcd",
+      "_id": "3d013088-ae99-44d4-915b-9a26a6844d66",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
-      "name": "X-Wing Squadron",
+      "name": "X-wing Squadron",
       "nicknames": [
         "Wedge",
-        "Wedge X-Wing"
+        "Wedge X-wing",
+        "X-wing (Wedge Antilles)"
       ],
       "ace-name": "Wedge Antilles",
       "unique-class": [
@@ -4585,14 +4669,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "ed153cc6-7bd6-4500-8443-c22e855321b3",
+      "_id": "9b6f6d24-d51a-461c-9bf0-37809196b5a5",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "x-wing-squadron",
-      "name": "X-Wing Squadron",
+      "name": "X-wing Squadron",
       "nicknames": [
         "Rogue",
-        "Rogue X-Wing"
+        "Rogue X-wing",
+        "X-wing (Rogue Squadron)"
       ],
       "ace-name": "Rogue Squadron",
       "unique-class": [
@@ -4653,7 +4738,7 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-      "_id": "c9c06e55-3f41-4e61-805d-a41fdcb8aadf",
+      "_id": "2e65d59f-0020-4cd4-a200-b09a9e62158a",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "y-wing-squadron",
@@ -4661,7 +4746,8 @@
       "nicknames": [
         "Y-Wings",
         "Y-Wing",
-        "Ys"
+        "Ys",
+        "Y-wing"
       ],
       "ace-name": "",
       "unique-class": [
@@ -4722,14 +4808,15 @@
       "team": "FFG",
       "release": "Wave 1 Armada",
       "expansion": "Rebel Fighter Squadrons Expansion Pack (SWM07)",
-      "_id": "532694d5-f1e9-4766-b889-f4345f8a8b64",
+      "_id": "1fbd9c6d-a3d6-4348-a1d9-cecfd04cac90",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "y-wing-squadron",
       "name": "Y-Wing Squadron",
       "nicknames": [
         "Dutch",
-        "Dutch Y-Wing"
+        "Dutch Y-Wing",
+        "Y-wing (Dutch Vander)"
       ],
       "ace-name": "Dutch Vander",
       "unique-class": [
@@ -4790,14 +4877,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "660ad40a-5c15-4306-ba2f-df44214a27a0",
+      "_id": "7002ecc3-54e1-4392-85d0-ae67a4b6dc36",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "y-wing-squadron",
       "name": "Y-Wing Squadron",
       "nicknames": [
         "Norra",
-        "Norra Y-Wing"
+        "Norra Y-Wing",
+        "Y-wing (Norra Wexley)"
       ],
       "ace-name": "Norra Wexley",
       "unique-class": [
@@ -4858,13 +4946,15 @@
       "team": "FFG",
       "release": "Corellian Conflict Campaign Armada",
       "expansion": "The Corellian Conflict - Campaign Expansion (SWM25)",
-      "_id": "f94c88ee-6201-4874-9df5-1a1b8b9b42c5",
+      "_id": "870b436c-d65d-4c5b-b16f-28b4f0d8d89b",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "y-wing-squadron",
       "name": "Y-Wing Squadron",
       "nicknames": [
-        "Gold"
+        "Gold",
+        "Gold Squadron",
+        "Y-wing (Gold Squadron)"
       ],
       "ace-name": "Gold Squadron",
       "unique-class": [
@@ -4925,7 +5015,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "a59a0a5c-6907-4c75-8abe-184caec17cec",
+      "_id": "9dc6fb29-afbd-4670-a99b-67344c9e68c7",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "yt-1300",
@@ -4994,7 +5084,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "2c9a43cd-d471-4811-a729-4e18600f7bfb",
+      "_id": "0966a132-162f-4976-86b5-d4145e660a04",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "yt-1300",
@@ -5003,7 +5093,8 @@
         "Falcon",
         "Han",
         "Solo",
-        "Shoots First"
+        "Shoots First",
+        "Millennium Falcon (Han Solo)"
       ],
       "ace-name": "Han Solo",
       "unique-class": [
@@ -5065,7 +5156,7 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "94d9dee2-75b7-411d-a9a0-d8c5021daf57",
+      "_id": "36ed213b-2fbd-4880-8fdb-f163cea90492",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "yt-1300",
@@ -5073,7 +5164,8 @@
       "nicknames": [
         "Falcon",
         "Lando",
-        "Calrissian"
+        "Calrissian",
+        "Millennium Falcon (Lando Calrissian)"
       ],
       "ace-name": "Lando Calrissian",
       "unique-class": [
@@ -5135,7 +5227,7 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "d5f4d3d2-24b0-462a-97a2-64991e051557",
+      "_id": "71f6479c-ed8a-4d5b-b8e9-8659127678d1",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "yt-2400",
@@ -5144,7 +5236,8 @@
         "YTs",
         "YT",
         "2400s",
-        "2400"
+        "2400",
+        "YT-2400"
       ],
       "ace-name": "",
       "unique-class": [
@@ -5205,14 +5298,15 @@
       "team": "FFG",
       "release": "Wave 2 Armada",
       "expansion": "Rogues and Villains Expansion Pack (SWM14)",
-      "_id": "3fc00f90-aefd-4344-ad4d-1a03da6d7286",
+      "_id": "4e9f5134-161b-46cb-8b81-ab8eb444d4b4",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "yt-2400",
       "name": "Outrider",
       "nicknames": [
         "Outrider",
-        "Dash"
+        "Dash",
+        "Outrider (Dash Rendar)"
       ],
       "ace-name": "Dash Rendar",
       "unique-class": [
@@ -5274,7 +5368,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "cea5cc94-b0a6-405b-9a5a-5e4963fa20d8",
+      "_id": "ea3c105e-753d-4390-b90e-bbb9c59a8d29",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "yt-2400",
@@ -5282,7 +5376,9 @@
       "nicknames": [
         "Mart",
         "Mattin",
-        "Sato"
+        "Sato",
+        "Sato's Hammer",
+        "Sato's Hammer (Mart Mattin)"
       ],
       "ace-name": "Mart Mattin",
       "unique-class": [
@@ -5344,7 +5440,7 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
-      "_id": "ec628385-ec74-41f9-ac0e-de2521df22f4",
+      "_id": "9a6e93ef-cb3c-4058-9854-de85b53c0f63",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "z-95-headhunter-squadron",
@@ -5353,7 +5449,8 @@
         "Z-95s",
         "Z-95",
         "Headhunters",
-        "Headhunter"
+        "Headhunter",
+        "Z-95"
       ],
       "ace-name": "",
       "unique-class": [
@@ -5414,13 +5511,17 @@
       "team": "FFG",
       "release": "Wave 5 Armada",
       "expansion": "Rebel Fighter Squadrons II Expansion Pack (SWM23)",
-      "_id": "32f7aa2a-8f17-437d-bf55-775bb4264988",
+      "_id": "15e866ef-d1ef-4efa-85e6-d6100860e22f",
       "type": "squadron",
       "faction": "rebel",
       "squadron_type": "z-95-headhunter-squadron",
       "name": "Z-95 Headhunter Squadron",
       "nicknames": [
-        "Blount"
+        "Blount",
+        "Lieutenant Blount",
+        "Lieutenant Blount (Z-95 Headhunter Squadron)",
+        "Z-95 Headhunter (Lieutenant Blount)",
+        "Z-95 (Lieutenant Blount)"
       ],
       "ace-name": "Lieutenant Blount",
       "unique-class": [
@@ -5481,7 +5582,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
-      "_id": "af3ed1fc-f33f-4365-b855-f7feab4c1254",
+      "_id": "3834e3e5-d2b0-450f-939b-267b179be052",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "arc-170-starfighter-squadron",
@@ -5491,7 +5592,8 @@
         "Arcs",
         "170s",
         "ARC-170 Squadron",
-        "ARC-170 Starfighter"
+        "ARC-170 Starfighter",
+        "ARC-170"
       ],
       "ace-name": "",
       "unique-class": [
@@ -5552,14 +5654,16 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "a37db0e9-130a-4765-9a37-986fc5c99357",
+      "_id": "c3ea1e9e-9da2-4a0d-8270-78a33bbc0083",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "arc-170-starfighter-squadron",
       "name": "ARC-170 Starfighter Squadron",
       "nicknames": [
         "Odd Ball",
-        "Odd ARC"
+        "Odd ARC",
+        "ARC-170 (Odd Ball)",
+        "ARC-170 (Oddball)"
       ],
       "ace-name": "Odd Ball",
       "unique-class": [
@@ -5620,7 +5724,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
-      "_id": "1000be0f-0ba4-42f9-b4a6-6d1fe22b9336",
+      "_id": "4c613cc4-dfdb-4cf8-9c07-7553deeafb88",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "btl-b-y-wing-squadron",
@@ -5630,7 +5734,9 @@
         "BTLs",
         "Y-wings",
         "GAR-Ys",
-        "BTL-Bs"
+        "BTL-Bs",
+        "BTL-B",
+        "BTL-B Y-wing"
       ],
       "ace-name": "",
       "unique-class": [
@@ -5691,7 +5797,7 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "9e5be1d8-ab23-4052-bd50-032001daf9dc",
+      "_id": "bd632948-ef74-426c-bff3-52c8003cdbdb",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "btl-b-y-wing-squadron",
@@ -5699,7 +5805,9 @@
       "nicknames": [
         "Y-wingakin",
         "Y-wing Anakin",
-        "Anakin Y-wing"
+        "Anakin Y-wing",
+        "Anakin BTL-B Y-wing",
+        "BTL-B Y-wing (Anakin Skywalker)"
       ],
       "ace-name": "Anakin Skywalker",
       "unique-class": [
@@ -5760,13 +5868,15 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "2f89c077-a7ab-46cf-8af1-e26a1b33fc1c",
+      "_id": "ca2c413c-57be-4539-8b00-447d0b417847",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "btl-b-y-wing-squadron",
       "name": "BTL-B Y-wing Squadron",
       "nicknames": [
-        "Matchstick"
+        "Matchstick",
+        "Matchstick BTL-B Y-wing",
+        "BTL-B Y-wing (Matchstick)"
       ],
       "ace-name": "Matchstick",
       "unique-class": [
@@ -5827,14 +5937,16 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
-      "_id": "f88b4ff6-d232-42da-9a63-da7676d1a7ae",
+      "_id": "2257d574-61c6-4df5-a8d0-7bfe03e86fd1",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "delta-7-aethersprite-squadron",
       "name": "Delta-7 Aethersprite Squadron",
       "nicknames": [
         "Delta",
-        "Deltas"
+        "Deltas",
+        "Delta-7 Aethersprite",
+        "Delta-7"
       ],
       "ace-name": "",
       "unique-class": [
@@ -5895,13 +6007,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
-      "_id": "febc357e-3e65-4e8d-abe6-0728b4510d12",
+      "_id": "b7e7cb7c-4c7b-4f23-8ab9-4d535bcb4934",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "delta-7-aethersprite-squadron",
       "name": "Delta-7 Aethersprite Squadron",
       "nicknames": [
-        "Deltasoka"
+        "Deltasoka",
+        "Delta-7 Aethersprite (Ahsoka Tano)",
+        "Delta-7 (Ahsoka Tano)"
       ],
       "ace-name": "Ahsoka Tano",
       "unique-class": [
@@ -5962,13 +6076,15 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "ec5b9209-26dd-4182-b8ff-a48b9e42d8ad",
+      "_id": "2a07ef33-d8db-41d0-a10b-6f63e815e692",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "delta-7-aethersprite-squadron",
       "name": "Delta-7 Aethersprite Squadron",
       "nicknames": [
-        "Deltakit"
+        "Deltakit",
+        "Delta-7 Aethersprite (Kit Fisto)",
+        "Delta-7 (Kit Fisto)"
       ],
       "ace-name": "Kit Fisto",
       "unique-class": [
@@ -6029,13 +6145,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
-      "_id": "914ee5ff-2657-4673-8e39-ef7a5b23fcc0",
+      "_id": "1eb215c7-b769-4ef0-a575-9ed7cd30e57a",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "delta-7-aethersprite-squadron",
       "name": "Delta-7 Aethersprite Squadron",
       "nicknames": [
-        "Deltaluminara"
+        "Deltaluminara",
+        "Delta-7 Aethersprite (Luminara Unduli)",
+        "Delta-7 (Luminara Unduli)"
       ],
       "ace-name": "Luminara Unduli",
       "unique-class": [
@@ -6096,13 +6214,15 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
-      "_id": "4b34bdef-6727-4eb3-8b8b-3215f955f14e",
+      "_id": "5f593b71-a899-4dc8-9882-dee40bbcb87b",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "delta-7-aethersprite-squadron",
       "name": "Delta-7 Aethersprite Squadron",
       "nicknames": [
-        "Deltaplo"
+        "Deltaplo",
+        "Delta-7 Aethersprite (Plo Koon)",
+        "Delta-7 (Plo Koon)"
       ],
       "ace-name": "Plo Koon",
       "unique-class": [
@@ -6163,14 +6283,16 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements I (RR1)",
-      "_id": "b405e8f0-534f-4be1-94b7-07b13efe366f",
+      "_id": "6268c165-ea14-4dab-bcb3-e088322928bf",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "delta-7-aethersprite-squadron",
       "name": "Delta-7 Aethersprite Squadron",
       "nicknames": [
         "Deltakin",
-        "Splashakin"
+        "Splashakin",
+        "Delta-7 Aethersprite (Anakin Skywalker)",
+        "Delta-7 (Anakin Skywalker)"
       ],
       "ace-name": "Anakin Skywalker",
       "unique-class": [
@@ -6231,7 +6353,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "e5b97ca2-4eb9-42fa-950d-4f8ebbe6cff5",
+      "_id": "6eca709e-8125-4411-84a0-1bd0dac4f0b7",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "v-19-torrent-squadron",
@@ -6300,13 +6422,14 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Galactic Republic Fleet Starter (SWM34)",
-      "_id": "373136e0-608d-429b-896c-546ec51fb1d5",
+      "_id": "60bd3777-de46-4840-bfe8-a27d97a817ed",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "v-19-torrent-squadron",
       "name": "V-19 Torrent Squadron",
       "nicknames": [
-        "Axe"
+        "Axe",
+        "V-19 (Axe)"
       ],
       "ace-name": "Axe",
       "unique-class": [
@@ -6367,13 +6490,14 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Republic Fighter Squadrons Expansion Pack (SWM36)",
-      "_id": "d95a298b-459a-4cbf-8aa4-42ec2aaecd1c",
+      "_id": "96ffbd6f-5a6b-4f6b-b700-51b50c236977",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "v-19-torrent-squadron",
       "name": "V-19 Torrent Squadron",
       "nicknames": [
-        "Kickback"
+        "Kickback",
+        "V-19 (Kickback)"
       ],
       "ace-name": "Kickback",
       "unique-class": [
@@ -6434,7 +6558,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-      "_id": "ae38bd19-c6c2-4ada-ba74-f6457a34ad3b",
+      "_id": "5f45705f-a289-4be6-856d-bf456d1cda40",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "belbullab-22-squadron",
@@ -6443,7 +6567,9 @@
         "Belbullab-22",
         "Belbullabs",
         "22s",
-        "Belbs"
+        "Belbs",
+        "Bellyrubs",
+        "Belbullab-22"
       ],
       "ace-name": "",
       "unique-class": [
@@ -6504,7 +6630,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-      "_id": "5531cc7e-9547-4fef-bc73-2835841acca2",
+      "_id": "1dafda5a-c7ad-4617-991d-01e230274d3a",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "belbullab-22-squadron",
@@ -6513,7 +6639,12 @@
         "General Grievous",
         "GG Squad",
         "Grievous Squadron",
-        "Grievous Squad"
+        "Grievous Squad",
+        "Grievous Belbullab-22",
+        "Grievous Belbullabs",
+        "Grievous Belbs",
+        "Grievous Belbullab-22",
+        "Belbullab-22 (General Grievous)"
       ],
       "ace-name": "General Grievous",
       "unique-class": [
@@ -6574,7 +6705,7 @@
       "team": "AMG",
       "release": "Rapid Reinforcements",
       "expansion": "Rapid Reinforcements II (RR2)",
-      "_id": "476ebc21-640e-4d3e-a0e0-079b7dfad993",
+      "_id": "9c34d421-a61f-4bd8-8dd2-43a859ee4ee6",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "belbullab-22-squadron",
@@ -6582,7 +6713,12 @@
       "nicknames": [
         "Wat Squad",
         "Wat",
-        "Wat Tambor"
+        "Wat Tambor",
+        "Wat Belbullab-22",
+        "Wat Belbullabs",
+        "Wat Belbs",
+        "Wat Belbullab-22",
+        "Belbullab-22 (Wat Tambor)"
       ],
       "ace-name": "Wat Tambor",
       "unique-class": [
@@ -6643,7 +6779,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-      "_id": "6807b168-f6d3-43e3-8d53-b7457aff7cd5",
+      "_id": "0d8d3062-445f-49ec-be09-d548cda64b4c",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "droid-tri-fighter-squadron",
@@ -6652,7 +6788,9 @@
         "Droid Tri-Fighters",
         "Tri-Fighters",
         "Tris",
-        "Trifighters"
+        "Trifighters",
+        "Droid Tri-Fighter",
+        "Droid Tri-Fighters"
       ],
       "ace-name": "",
       "unique-class": [
@@ -6713,7 +6851,7 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "4774dac1-f409-4098-9f8b-0b6f3925fecd",
+      "_id": "83f32127-e3f9-4618-a357-cd3476c71bdf",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "droid-tri-fighter-squadron",
@@ -6721,7 +6859,8 @@
       "nicknames": [
         "Phlac-Arphocc",
         "Phlac",
-        "Phlac Arphocc Prototypes"
+        "Phlac Arphocc Prototypes",
+        "Droid Tri-Fighter (Phlac-Arphocc)"
       ],
       "ace-name": "Phlac-Arphocc Prototypes",
       "unique-class": [
@@ -6782,7 +6921,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-      "_id": "a249f078-0fca-4d71-b2c3-e1fd60c59cd2",
+      "_id": "cfb9c2fb-d2c7-4e43-a7db-073c61a6a3cd",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "droid-tri-fighter-squadron",
@@ -6790,7 +6929,8 @@
       "nicknames": [
         "DIS-T81",
         "T81s",
-        "DIS"
+        "DIS",
+        "Droid Tri-Fighter (DIS-T81)"
       ],
       "ace-name": "DIS-T81",
       "unique-class": [
@@ -6851,14 +6991,16 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "90e22eac-c4d6-4b26-86ce-f900377f8eec",
+      "_id": "7ef2c488-c149-47e3-be5b-20d0e101a394",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "firespray-31",
       "name": "Slave I",
       "nicknames": [
         "Slave I",
-        "Jango Fett"
+        "Jango Fett",
+        "Modified Firespray-31 (Jango Fett)",
+        "Modified Firespray-31"
       ],
       "ace-name": "Jango Fett",
       "unique-class": [
@@ -6920,7 +7062,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-      "_id": "9e837839-a4c6-45c9-a934-4c4ffbe30f0b",
+      "_id": "67e3c372-e080-4d06-b2f8-58b512622b58",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "hyena-droid-bomber-squadron",
@@ -6929,7 +7071,11 @@
         "Hyenas",
         "Hyena Squadron",
         "Hyena Bombers",
-        "Hyena"
+        "Hyena",
+        "Hyena Bomber",
+        "Hyena-class Droid Bomber",
+        "Hyena-class Droid Bombers",
+        "Hyena-class Droid Bomber Squadron"
       ],
       "ace-name": "",
       "unique-class": [
@@ -6990,7 +7136,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-      "_id": "bd7bcd60-a08a-4fa9-8749-5bdd6f21f16a",
+      "_id": "c86d25fa-5190-44bc-8366-8c1c9a65e238",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "hyena-droid-bomber-squadron",
@@ -6998,7 +7144,13 @@
       "nicknames": [
         "Baktoid Prototypes",
         "Baktoid",
-        "Baktoids"
+        "Baktoids",
+        "Baktoid Hyena",
+        "Baktoid Hyenas",
+        "Baktoid Hyena-class Droid Bomber",
+        "Baktoid Hyena-class Droid Bombers",
+        "Baktoid Hyena-class Droid Bomber Squadron",
+        "Hyena Bomber (Baktoid-Prototype)"
       ],
       "ace-name": "Baktoid Prototypes",
       "unique-class": [
@@ -7059,14 +7211,20 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Fighter Squadrons Expansion Pack (SWM37)",
-      "_id": "87037bd7-424e-4ba7-a3f2-a8c4091d84c9",
+      "_id": "6c61828f-096f-487f-8ee2-eba7a19d8d48",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "hyena-droid-bomber-squadron",
       "name": "Hyena-class Droid Bomber Squadron",
       "nicknames": [
         "DBS-404",
-        "DBS"
+        "DBS",
+        "DBS-404 Hyena",
+        "DBS-404 Hyenas",
+        "DBS-404 Hyena-class Droid Bomber",
+        "DBS-404 Hyena-class Droid Bombers",
+        "DBS-404 Hyena-class Droid Bomber Squadron",
+        "Hyena Bomber (DBS-404)"
       ],
       "ace-name": "DBS-404",
       "unique-class": [
@@ -7127,7 +7285,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "0ea3a504-1f1c-4afe-840e-9b842ca637b3",
+      "_id": "2275c17b-ff96-456b-854b-1d5f4b7ee5ce",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "vulture-droid-squadron",
@@ -7137,7 +7295,8 @@
         "Vulture Squadron",
         "Vulture",
         "Vulture Droid",
-        "Vulture Droids"
+        "Vulture Droids",
+        "Vulture Fighter"
       ],
       "ace-name": "",
       "unique-class": [
@@ -7198,7 +7357,7 @@
       "team": "FFG",
       "release": "Wave 9 Armada",
       "expansion": "Separatist Alliance Fleet Starter (SWM35)",
-      "_id": "ba207bbb-017b-4cf2-96a0-eec7c32e40e1",
+      "_id": "4b665356-d54d-4151-930a-27190c864099",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "vulture-droid-squadron",
@@ -7206,7 +7365,8 @@
       "nicknames": [
         "Haor Chall",
         "Haor Challs",
-        "Haor Chall Prototypes"
+        "Haor Chall Prototypes",
+        "Vulture Fighter (Haor Chall)"
       ],
       "ace-name": "Haor Chall Prototypes",
       "unique-class": [
@@ -7267,14 +7427,15 @@
       "team": "AMG",
       "release": "AMG Final Errata",
       "expansion": "AMG Final Errata",
-      "_id": "a758cbc2-7af4-40ff-b92e-72f8a17a1381",
+      "_id": "942c8fc1-2968-49d6-836b-bfeb7b311647",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "vulture-droid-squadron",
       "name": "Vulture-class Droid Fighter Squadron",
       "nicknames": [
         "DFS-311",
-        "DFS"
+        "DFS",
+        "Vulture Fighter (DFS-311)"
       ],
       "ace-name": "DFS-311",
       "unique-class": [
@@ -7335,7 +7496,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "1c68acad-d09a-4124-81ae-661fa5700222",
+      "_id": "8fc5b581-8180-4a0e-93b7-e0b85a64565e",
       "type": "squadron",
       "faction": "sandbox",
       "squadron_type": "armed-station",
@@ -7401,7 +7562,7 @@
       "team": "FFG",
       "release": "Rebellion in the Rim Campaign Armada",
       "expansion": "Rebellion in the Rim - Campaign Expansion (SWM31)",
-      "_id": "d7343603-683c-4c0b-93b3-32a24073ad21",
+      "_id": "8ad605c5-18e1-42d1-a1d4-b18b49d5b30f",
       "type": "squadron",
       "faction": "sandbox",
       "squadron_type": "unarmed-station",
