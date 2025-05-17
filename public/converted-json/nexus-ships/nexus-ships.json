@@ -1,7 +1,7 @@
 {
   "ships": {
     "lancer-class-frigate-nexus": {
-      "_id": "bf21bf68-4871-4dca-9a37-f10d0110a2be",
+      "_id": "39c6b973-e9c2-4493-842e-083c43e4b9c7",
       "type": "chassis",
       "chassis_name": "lancer-class-frigate-nexus",
       "size": "small",
@@ -41,12 +41,12 @@
       "blueprint": "[]",
       "models": {
         "lancer-class-escort-frigate-nexus": {
-          "author": "Armada Legends",
-          "alias": "Legends",
-          "team": "Legends",
-          "release": "Armada Legends March 2025 Dev Cycle",
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Nexus",
+          "release": "Nexus March Development Cycle",
           "expansion": "Imperial Lancer Expansion Pack (LEG05)",
-          "_id": "57c76b9e-8dee-4bc1-80e4-fbfc8e1d474f",
+          "_id": "a30ff447-32cd-4043-8305-ad14d3fb902f",
           "type": "ship",
           "chassis": "lancer-class-frigate-nexus",
           "name": "Lancer-class Escort Frigate",
@@ -130,7 +130,7 @@
       }
     },
     "mc40a-nexus": {
-      "_id": "ff03bdf9-f797-4bc9-9375-6ef9c50e168a",
+      "_id": "8091a9b5-cbc6-42ed-bf68-48b9cdc09a2e",
       "type": "chassis",
       "chassis_name": "mc40a-nexus",
       "size": "medium",
@@ -171,13 +171,13 @@
       "models": {
         "mc40a-escort-carrier-nexus": {
           "author": [
-            "Armada Legends"
+            "Armada Nexus"
           ],
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends",
-          "expansion": "Armada Legends",
-          "_id": "d589c174-ae1c-428e-88cb-28ab5ad8f2a8",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus",
+          "expansion": "Armada Nexus",
+          "_id": "04754574-88e0-4b06-a0bd-853086a250db",
           "type": "ship",
           "chassis": "mc40a-nexus",
           "name": "MC40a Escort Carrier",
@@ -257,13 +257,13 @@
         },
         "mc40a-light-cruiser-nexus": {
           "author": [
-            "Armada Legends"
+            "Armada Nexus"
           ],
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends",
-          "expansion": "Armada Legends",
-          "_id": "a3b6d0ca-2163-4a77-b1dc-ec35f212982b",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Nexus March Development Cycle",
+          "expansion": "Armada Nexus",
+          "_id": "2b858a1b-93f7-4a48-a758-0c15be61c17d",
           "type": "ship",
           "chassis": "mc40a-nexus",
           "name": "MC40a Light Cruiser",
@@ -343,7 +343,7 @@
       }
     },
     "dreadnaught-class-republic-nexus": {
-      "_id": "a0502837-9dd0-4813-bfca-346ba397a8e8",
+      "_id": "9cd4747c-81f7-4166-a3b3-97fe118f8211",
       "type": "chassis",
       "chassis_name": "dreadnaught-class-republic-nexus",
       "size": "medium",
@@ -379,12 +379,12 @@
       "blueprint": "",
       "models": {
         "dreadnaught-class-heavy-cruiser-republic-nexus": {
-          "author": "Armada Legends",
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends December 2024 Dev Cycle",
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus December 2024 Dev Cycle",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "29ebf0af-eeb3-44c3-96b4-6c00995431c7",
+          "_id": "98a6a672-ae02-4de2-8e3c-4f396239872d",
           "type": "ship",
           "chassis": "dreadnaught-class-republic-nexus",
           "name": "Dreadnaught-class Heavy Cruiser",
@@ -470,12 +470,12 @@
           "cardimage": "https://api.swarmada.wiki/images/dreadnaught-class-heavy-cruiser-republic-nexus.webp"
         },
         "dreadnaught-class-judicial-cruiser-republic-nexus": {
-          "author": "Armada Legends",
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends December 2024 Dev Cycle",
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus December 2024 Dev Cycle",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "c626124d-a2f7-4720-a958-a937ce90f117",
+          "_id": "af4d8a14-3f06-4f8a-962b-888893a996c1",
           "type": "ship",
           "chassis": "dreadnaught-class-republic-nexus",
           "name": "Dreadnaught-class Judicial Cruiser",
@@ -563,7 +563,7 @@
       }
     },
     "subjugator-class-nexus": {
-      "_id": "03ce82b8-de34-420f-8b34-4738e000400c",
+      "_id": "4b8f1d16-7695-4228-adf9-f3040ad3c286",
       "type": "chassis",
       "chassis_name": "subjugator-class-nexus",
       "size": "280-huge",
@@ -600,13 +600,13 @@
       "models": {
         "subjugator-class-prototype-nexus": {
           "author": [
-            "Armada Legends"
+            "Armada Nexus"
           ],
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends November 2024 Dev Cycle",
-          "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "d99e7c3b-aaaa-41c9-aeff-67307e238e21",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus November 2024 Dev Cycle",
+          "expansion": "Armada Nexus Subjugator Expansion",
+          "_id": "302e6b4c-0da2-4c46-9884-4a52d9789bce",
           "type": "ship",
           "chassis": "subjugator-class-nexus",
           "name": "Subjugator-class Prototype",
@@ -695,13 +695,13 @@
         },
         "subjugator-class-testbed-nexus": {
           "author": [
-            "Armada Legends"
+            "Armada Nexus"
           ],
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends November 2024 Dev Cycle",
-          "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "52348936-f61e-4e7f-a04f-dd6fb0c2033a",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus November 2024 Dev Cycle",
+          "expansion": "Armada Nexus Subjugator Expansion",
+          "_id": "3f459c4f-5868-4368-8c9b-38daa898320b",
           "type": "ship",
           "chassis": "subjugator-class-nexus",
           "name": "Subjugator-class Testbed",
@@ -791,13 +791,13 @@
         },
         "subjugator-class-heavy-cruiser-nexus": {
           "author": [
-            "Armada Legends"
+            "Armada Nexus"
           ],
-          "alias": "Legends",
-          "team": "Armada Legends",
-          "release": "Armada Legends November 2024 Dev Cycle",
-          "expansion": "Armada Legends Subjugator Expansion",
-          "_id": "4d5f5393-1afd-4ff5-9cdf-24d670e9cc4d",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus November 2024 Dev Cycle",
+          "expansion": "Armada Nexus Subjugator Expansion",
+          "_id": "f15eec4e-aa04-4c2c-b272-59e238179cbe",
           "type": "ship",
           "chassis": "subjugator-class-nexus",
           "name": "Subjugator-class Heavy Cruiser",
