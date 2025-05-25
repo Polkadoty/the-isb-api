@@ -6,7 +6,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "0f34fc8e-a6b0-4417-bd6e-8034a2474f90",
+      "_id": "409253b9-e163-4c9e-95ca-6818d4189e89",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "alpha-class-star-wing-squadron-nexus",
@@ -80,7 +80,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "f12b8702-665d-4193-9b1c-5ada4e3a0486",
+      "_id": "bc79c12c-22b2-4c13-9dd6-601a569f95cf",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "alpha-class-star-wing-squadron-nexus",
@@ -160,7 +160,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "01fa7f54-fe98-465b-9b69-1b697a398416",
+      "_id": "333a244b-cb2a-49c8-a693-98e4e817b8fa",
       "type": "squadron",
       "faction": "empire",
       "squadron_type": "alpha-class-star-wing-squadron-nexus",
@@ -238,7 +238,7 @@
       "team": "Armada Nexus",
       "release": "Nexus May Development Cycle",
       "expansion": "V-Wing Squadron Expansion",
-      "_id": "33da25cf-eaa8-4f83-a179-af3dc7d85aef",
+      "_id": "cf175d7d-9e71-482a-9a15-54c73861212c",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "v-wing-squadron-nexus",
@@ -310,7 +310,7 @@
       "team": "Armada Nexus",
       "release": "Nexus May Development Cycle",
       "expansion": "V-Wing Squadron Expansion",
-      "_id": "8a2dc11a-9a25-4acb-b405-51ee7df43f66",
+      "_id": "10c5faef-c5f5-4908-a77b-0e90a43629d0",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "v-wing-squadron-legends",
@@ -380,7 +380,7 @@
       "team": "Armada Nexus",
       "release": "Nexus May Development Cycle",
       "expansion": "V-Wing Squadron Expansion",
-      "_id": "68a0c7d7-c232-436f-a080-003bcdf19cf9",
+      "_id": "4a5a081b-9a44-4940-b517-bc6bafc5190f",
       "type": "squadron",
       "faction": "republic",
       "squadron_type": "v-wing-squadron-nexus",
@@ -444,13 +444,1019 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/klick-v-wing-squadron-nexus.webp"
     },
+    "aeg-77-vigo-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "9ab52c89-7222-4899-a6af-06cb743e6dcd",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "aeg-77-vigo-scum-nexus",
+      "name": "AEG-77 Vigo {Scum}",
+      "nicknames": [
+        "AEG-77 Vigo",
+        "AEG-77",
+        "AEG77",
+        "AEG77 Vigo",
+        "Vigo",
+        "AEG"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 8,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          3
+        ],
+        "anti-ship": [
+          1,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/aeg-77-vigo-scum-nexus.webp"
+    },
+    "consigliere-aeg-77-vigo-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "dfd33ddb-9174-407d-9495-705f9c6422ad",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "aeg-77-vigo-scum-nexus",
+      "name": "AEG-77 Vigo {Scum}",
+      "nicknames": [
+        "AEG-77 Vigo",
+        "AEG-77",
+        "AEG77",
+        "AEG77 Vigo",
+        "Vigo",
+        "AEG",
+        "Consigliere"
+      ],
+      "ace-name": "Consigliere",
+      "unique-class": [
+        "Consigliere"
+      ],
+      "irregular": true,
+      "hull": 8,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          1,
+          3
+        ],
+        "anti-ship": [
+          1,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you are activated, recover 1 hull.",
+      "unique": true,
+      "ace": true,
+      "points": 26,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/consigliere-aeg-77-vigo-scum-nexus.webp"
+    },
+    "halcyon-aeg-77-vigo-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "c8899352-bc43-4fb2-ae35-a0cbb18433fc",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "aeg-77-vigo-scum-nexus",
+      "name": "AEG-77 Vigo {Scum}",
+      "nicknames": [
+        "AEG-77 Vigo",
+        "AEG-77",
+        "AEG77",
+        "AEG77 Vigo",
+        "Vigo",
+        "AEG",
+        "Halcyon"
+      ],
+      "ace-name": "Halcyon",
+      "unique-class": [
+        "Halcyon"
+      ],
+      "irregular": true,
+      "hull": 8,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/halcyon-aeg-77-vigo-scum-nexus.webp"
+    },
+    "boba-fett-slave-i-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "b3624523-2418-4494-a595-9d3aeb4dd01d",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "firespray-31",
+      "name": "Slave I {Scum}",
+      "nicknames": [
+        "Slave I",
+        "Boba Fett"
+      ],
+      "ace-name": "Boba Fett",
+      "unique-class": [
+        "Slave I",
+        "Boba Fett"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When you activate, choose 1 enemy ship or squadron at distance 1. That ship or squadron suffers 1 damage.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/boba-fett-slave-i-scum-nexus.webp"
+    },
+    "hondo-ohnaka-slave-i-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "729cdb4e-e82d-4492-8b18-e3fc1cea5fe1",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "firespray-31",
+      "name": "Slave I {Scum}",
+      "nicknames": [
+        "Slave I",
+        "Hondo",
+        "Hondo Firespray"
+      ],
+      "ace-name": "Hondo Ohnaka",
+      "unique-class": [
+        "Slave I",
+        "Hondo Ohnaka"
+      ],
+      "irregular": true,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "During your activation, instead of attacking, you may toggle the activation slider of 1 squadron at distance 1 to the activated side. If it was already activated, you may place it anywhere at distance 1 of you.",
+      "unique": true,
+      "ace": true,
+      "points": 24,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hondo-ohnaka-slave-i-scum-nexus.webp"
+    },
+    "dengar-punishing-one-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "da595ed4-ab0b-4367-8ece-b10be5ca9dc4",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "jumpmaster-5000",
+      "name": "Punishing One {Scum}",
+      "nicknames": [
+        "Dengar",
+        "Dengar JumpMaster"
+      ],
+      "ace-name": "Dengar",
+      "unique-class": [
+        "Dengar",
+        "Punishing One"
+      ],
+      "irregular": true,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "While another friendly squadron is at distance 1-2, it has COUNTER 1 or increases its COUNTER value by 1.",
+      "unique": true,
+      "ace": true,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dengar-punishing-one-scum-nexus.webp"
+    },
+    "kihraxz-fighter-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "5fa4242c-5f08-4ac7-b4bb-2150a659709e",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "kihraxz-fighter-squadron-scum-nexus",
+      "name": "Kihraxz Fighter Squadron {Scum}",
+      "nicknames": [
+        "Kihraxz Fighter Squadron",
+        "Kihraxz",
+        "Kihraxz Fighter",
+        "Kihraxz Fighter Squadron"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 11,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kihraxz-fighter-squadron-scum-nexus.webp"
+    },
+    "captain-jostero-kihraxz-fighter-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "54236593-77e6-48b6-9c41-d2ad58477935",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "kihraxz-fighter-squadron-scum-nexus",
+      "name": "Kihraxz Fighter Squadron {Scum}",
+      "nicknames": [
+        "Kihraxz Fighter Squadron",
+        "Kihraxz",
+        "Kihraxz Fighter",
+        "Captain Jostero"
+      ],
+      "ace-name": "Captain Jostero",
+      "unique-class": [
+        "Captain Jostero"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 1,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": true,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/captain-jostero-kihraxz-fighter-squadron-scum-nexus.webp"
+    },
+    "vaksai-kihraxz-fighter-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "d0371b44-8aa8-40cf-ba65-7ce1a220ab9b",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "kihraxz-fighter-squadron-scum-nexus",
+      "name": "Kihraxz Fighter Squadron {Scum}",
+      "nicknames": [
+        "Kihraxz Fighter Squadron",
+        "Kihraxz",
+        "Kihraxz Fighter",
+        "Vaksai"
+      ],
+      "ace-name": "Vaksai",
+      "unique-class": [
+        "Vaksai"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 1,
+        "dodge": 1,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 13,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/vaksai-kihraxz-fighter-squadron-scum-nexus.webp"
+    },
+    "rihkxyrk-assault-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "6f28ee9a-2703-4bb3-939e-767b37b6fdef",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "rihkxyrk-assault-squadron-scum-nexus",
+      "name": "Rihkxyrk Assault Squadron {Scum}",
+      "nicknames": [
+        "Rihkxyrk Assault Squadron",
+        "Rihkxyrk",
+        "Rihkxyrk Assault",
+        "Rihkxyrk Assault Squadron"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rihkxyrk-assault-squadron-scum-nexus.webp"
+    },
+    "talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "77612692-6079-496e-b8ca-04f64e960b9d",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "rihkxyrk-assault-squadron-scum-nexus",
+      "name": "Rihkxyrk Assault Squadron {Scum}",
+      "nicknames": [
+        "Rihkxyrk Assault Squadron",
+        "Rihkxyrk",
+        "Rihkxyrk Assault",
+        "Rihkxyrk Assault Squadron",
+        "Talonbane Cobra"
+      ],
+      "ace-name": "Talonbane Cobra",
+      "unique-class": [
+        "Talonbane Cobra"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After rolling your attack pool, you may reroll 1 black die with a face with no icons.",
+      "unique": true,
+      "ace": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus.webp"
+    },
+    "blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "cdba0e82-98ee-4482-9fee-984af5ee4b02",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "rihkxyrk-assault-squadron-scum-nexus",
+      "name": "Rihkxyrk Assault Squadron {Scum}",
+      "nicknames": [
+        "Rihkxyrk Assault Squadron",
+        "Rihkxyrk",
+        "Rihkxyrk Assault",
+        "Rihkxyrk Assault Squadron",
+        "Blood Razor Gang"
+      ],
+      "ace-name": "Blood Razor Gang",
+      "unique-class": [
+        "Blood Razor Gang"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus.webp"
+    },
+    "ugly-squadrons-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "468f8cd6-55dc-4670-90d9-e3cf3b53d6f2",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "ugly-squadrons-scum-nexus",
+      "name": "Ugly Squadrons {Scum}",
+      "nicknames": [
+        "Ugly Squadrons",
+        "Ugly",
+        "Ugly Squadron",
+        "Uglies"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        "Ugly Squadrons"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": true,
+      "unique_limit": 2,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ugly-squadrons-scum-nexus.webp"
+    },
+    "bossk-hounds-tooth-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "3c48ab49-5a36-4d65-8586-5e2dd3c0903d",
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "yv-666",
+      "name": "Hound's Tooth {Scum}",
+      "nicknames": [
+        "Bossk",
+        "Hounds Tooth"
+      ],
+      "ace-name": "Bossk",
+      "unique-class": [
+        "Hound's Tooth",
+        "Bossk"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          4
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the :accuracy: icon to your attack pool.",
+      "unique": true,
+      "ace": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/bossk-hounds-tooth-scum-nexus.webp"
+    },
     "porax-38-starfighter-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
       "release": "Armada Nexus April 2025 Dev Cycle",
       "expansion": "Porax-38 Starfighter (LEG06)",
-      "_id": "03aaf194-5435-4cf5-b561-796b07d7ea1d",
+      "_id": "20be186d-d772-4f6e-9ab5-ef0682622e6a",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "porax-38-starfighter-nexus",
@@ -514,7 +1520,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus April 2025 Dev Cycle",
       "expansion": "Porax-38 Starfighter (LEG06)",
-      "_id": "91bb1123-310e-4fa2-913d-fef3c99621fb",
+      "_id": "e8a28993-eb27-433e-b9cf-f2e4a27efef4",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "porax-38-starfighter-nexus",
@@ -583,7 +1589,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus April 2025 Dev Cycle",
       "expansion": "Porax-38 Starfighter (LEG06)",
-      "_id": "9aa75bc8-10b9-49d9-83c8-67fe687f1a3b",
+      "_id": "d35a170e-f4e5-466b-b61d-f0f57ab8a3c5",
       "type": "squadron",
       "faction": "separatist",
       "squadron_type": "porax-38-starfighter-nexus",

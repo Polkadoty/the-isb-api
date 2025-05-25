@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "savage-oppress-officer-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "scum"
+      ],
+      "name": "Savage Oppress {Scum}",
+      "nicknames": [
+        "Savage Oppress"
+      ],
+      "unique-class": [
+        "Savage Oppress"
+      ],
+      "ability": "While attacking, if at least 1 of your defense tokens is exhausted or discarded, you may add 1 die of any color to the attack.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/savage-oppress-officer-scum-nexus.webp"
+    }
+  }
+}

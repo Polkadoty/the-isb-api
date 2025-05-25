@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "hondo-ohnaka-commander-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "scum"
+      ],
+      "name": "Hondo Ohnaka {Scum}",
+      "nicknames": [
+        "Hondo Ohnaka"
+      ],
+      "unique-class": [
+        "Hondo Ohnaka"
+      ],
+      "ability": "Before an enemy ship at distance 1-5 of a friendly ship would gain a command token, you may exhaust this card to assign it to that friendly ship instead.\nAt the start of the Ship Phase, you may exhaust this card to discard any number of command tokens from friendly ships and assign that number of matching raid tokens to enemy ship at distance 1-5.",
+      "unique": true,
+      "points": 22,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hondo-ohnaka-commander-scum-nexus.webp"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "ships": {
     "lancer-class-frigate-nexus": {
-      "_id": "39c6b973-e9c2-4493-842e-083c43e4b9c7",
+      "_id": "b96f90f5-e38e-4556-9f10-007882b494e6",
       "type": "chassis",
       "chassis_name": "lancer-class-frigate-nexus",
       "size": "small",
@@ -46,7 +46,7 @@
           "team": "Nexus",
           "release": "Nexus March Development Cycle",
           "expansion": "Imperial Lancer Expansion Pack (LEG05)",
-          "_id": "a30ff447-32cd-4043-8305-ad14d3fb902f",
+          "_id": "2e9bcd88-7595-4ac0-8ae3-5f946f0106ef",
           "type": "ship",
           "chassis": "lancer-class-frigate-nexus",
           "name": "Lancer-class Escort Frigate",
@@ -130,7 +130,7 @@
       }
     },
     "mc40a-nexus": {
-      "_id": "8091a9b5-cbc6-42ed-bf68-48b9cdc09a2e",
+      "_id": "8fa0431c-011a-40f5-8ac3-e312f7a4b4ea",
       "type": "chassis",
       "chassis_name": "mc40a-nexus",
       "size": "medium",
@@ -177,7 +177,7 @@
           "team": "Armada Nexus",
           "release": "Armada Nexus",
           "expansion": "Armada Nexus",
-          "_id": "04754574-88e0-4b06-a0bd-853086a250db",
+          "_id": "ad34af52-9dd8-46e1-b117-7415af8e92e3",
           "type": "ship",
           "chassis": "mc40a-nexus",
           "name": "MC40a Escort Carrier",
@@ -263,7 +263,7 @@
           "team": "Armada Nexus",
           "release": "Nexus March Development Cycle",
           "expansion": "Armada Nexus",
-          "_id": "2b858a1b-93f7-4a48-a758-0c15be61c17d",
+          "_id": "e9122835-3430-41b5-b72d-cc97d37b5815",
           "type": "ship",
           "chassis": "mc40a-nexus",
           "name": "MC40a Light Cruiser",
@@ -343,7 +343,7 @@
       }
     },
     "dreadnaught-class-republic-nexus": {
-      "_id": "9cd4747c-81f7-4166-a3b3-97fe118f8211",
+      "_id": "c52d37dd-e0bf-4d00-a292-aaea8f820d80",
       "type": "chassis",
       "chassis_name": "dreadnaught-class-republic-nexus",
       "size": "medium",
@@ -384,7 +384,7 @@
           "team": "Armada Nexus",
           "release": "Armada Nexus December 2024 Dev Cycle",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "98a6a672-ae02-4de2-8e3c-4f396239872d",
+          "_id": "399dcdde-c091-4012-bf19-4daca30ade00",
           "type": "ship",
           "chassis": "dreadnaught-class-republic-nexus",
           "name": "Dreadnaught-class Heavy Cruiser",
@@ -475,7 +475,7 @@
           "team": "Armada Nexus",
           "release": "Armada Nexus December 2024 Dev Cycle",
           "expansion": "Dreadnaught Heavy Cruiser Expansion",
-          "_id": "af4d8a14-3f06-4f8a-962b-888893a996c1",
+          "_id": "8b16f757-d63a-48bb-b5ee-6f9b998c5d68",
           "type": "ship",
           "chassis": "dreadnaught-class-republic-nexus",
           "name": "Dreadnaught-class Judicial Cruiser",
@@ -562,8 +562,915 @@
         }
       }
     },
+    "action-vi-transport-scum-nexus": {
+      "_id": "474fd9c8-a580-46b3-8cda-47b7a04300d3",
+      "type": "chassis",
+      "chassis_name": "action-vi-transport-scum-nexus",
+      "size": "small",
+      "hull": 3,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 1,
+        "rear": 1,
+        "left": 1,
+        "right": 1,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "action-vi-armed-transports-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Action VI Transport Expansion",
+          "_id": "590c500e-c78c-4812-85f5-32fc6d22c993",
+          "type": "ship",
+          "chassis": "action-vi-transport-scum-nexus",
+          "name": "Action VI Armed Transports {Scum}",
+          "nicknames": [
+            "Action VI Armed Transports",
+            "Armed Transports",
+            "Action VI",
+            "Transports",
+            "Armed",
+            "Action-vi"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "pirate"
+          ],
+          "points": 26,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 1,
+            "engineer": 2
+          },
+          "upgrades": [
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              3,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/action-vi-armed-transports-scum-nexus.webp"
+        },
+        "action-vi-bulk-transports-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Action VI Transport Expansion",
+          "_id": "032d9420-105a-46be-9458-c149ea509de1",
+          "type": "ship",
+          "chassis": "action-vi-transport-scum-nexus",
+          "name": "Action VI Bulk Transports {Scum}",
+          "nicknames": [
+            "Action VI Bulk Transports",
+            "Bulk Transports",
+            "Action VI",
+            "Transports",
+            "Bulk",
+            "Action-vi"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "pirate"
+          ],
+          "points": 21,
+          "tokens": {
+            "def_scatter": 1,
+            "def_evade": 1,
+            "def_brace": 0,
+            "def_redirect": 0,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 1,
+            "squadron": 2,
+            "engineer": 1
+          },
+          "upgrades": [
+            "officer",
+            "fleet-support",
+            "support-team",
+            "offensive-retro",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              0,
+              0
+            ],
+            "rear": [
+              0,
+              0,
+              0
+            ],
+            "left": [
+              0,
+              0,
+              0
+            ],
+            "right": [
+              0,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/action-vi-bulk-transports-scum-nexus.webp"
+        }
+      }
+    },
+    "interceptor-iv-class-frigate-scum-nexus": {
+      "_id": "255cc000-17c0-4e51-aca3-456136c61aec",
+      "type": "chassis",
+      "chassis_name": "interceptor-iv-class-frigate-scum-nexus",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "interceptor-iv-class-attack-frigate-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Interceptor IV Class Frigate Expansion",
+          "_id": "52ae4df3-4b57-432a-9c2e-ca11583ce942",
+          "type": "ship",
+          "chassis": "interceptor-iv-class-frigate-scum-nexus",
+          "name": "Interceptor IV-class Attack Frigate {Scum}",
+          "nicknames": [
+            "Interceptor IV-class Attack Frigate",
+            "Attack Frigate",
+            "Interceptor IV",
+            "Interceptor",
+            "Interceptor 4"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "zann"
+          ],
+          "points": 65,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "weapons-team",
+            "ordnance",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              0,
+              0
+            ],
+            "front": [
+              1,
+              1,
+              1
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              1
+            ],
+            "right": [
+              1,
+              1,
+              1
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/interceptor-iv-class-attack-frigate-scum-nexus.webp"
+        },
+        "interceptor-iv-class-missile-frigate-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Interceptor IV Class Frigate Expansion",
+          "_id": "22a4a86b-a896-4681-a94a-b02183bd7a4c",
+          "type": "ship",
+          "chassis": "interceptor-iv-class-frigate-scum-nexus",
+          "name": "Interceptor IV-class Missile Frigate {Scum}",
+          "nicknames": [
+            "Interceptor IV-class Missile Frigate",
+            "Missile Frigate",
+            "Interceptor IV",
+            "Interceptor",
+            "Interceptor 4"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "pirate"
+          ],
+          "points": 62,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "ordnance",
+            "ion-cannon",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              0,
+              1
+            ],
+            "front": [
+              0,
+              1,
+              2
+            ],
+            "rear": [
+              0,
+              0,
+              1
+            ],
+            "left": [
+              0,
+              1,
+              2
+            ],
+            "right": [
+              0,
+              1,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/interceptor-iv-class-missile-frigate-scum-nexus.webp"
+        }
+      }
+    },
+    "marauder-class-corvette-scum-nexus": {
+      "_id": "284f2505-263f-4d5e-86ed-a7544aad0bd3",
+      "type": "chassis",
+      "chassis_name": "marauder-class-corvette-scum-nexus",
+      "size": "small",
+      "hull": 5,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          1,
+          0,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "marauder-artillery-corvette-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Marauder Heavy Cruiser Expansion",
+          "_id": "dc95b7fd-9790-41f1-bd31-2a1c07ec50b6",
+          "type": "ship",
+          "chassis": "marauder-class-corvette-scum-nexus",
+          "name": "Marauder Artillery Corvette {Scum}",
+          "nicknames": [
+            "Marauder Artillery Corvette",
+            "Artillery Corvette",
+            "Marauder",
+            "Marauder Corvette",
+            "Artillery"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "bombard"
+          ],
+          "points": 60,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 2,
+            "squadron": 1,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "turbolaser",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              1,
+              0,
+              0
+            ],
+            "front": [
+              3,
+              0,
+              0
+            ],
+            "rear": [
+              1,
+              0,
+              0
+            ],
+            "left": [
+              2,
+              0,
+              0
+            ],
+            "right": [
+              2,
+              0,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/marauder-artillery-corvette-scum-nexus.webp"
+        },
+        "marauder-picket-corvette-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Marauder Heavy Cruiser Expansion",
+          "_id": "5efab7a0-ab4a-4d0f-a24c-a6ee57728762",
+          "type": "ship",
+          "chassis": "marauder-class-corvette-scum-nexus",
+          "name": "Marauder Picket Corvette {Scum}",
+          "nicknames": [
+            "Marauder Picket Corvette",
+            "Picket Corvette",
+            "Marauder",
+            "Marauder Corvette",
+            "Picket"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "pirate"
+          ],
+          "points": 55,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 1,
+            "def_brace": 1,
+            "def_redirect": 1,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 2,
+            "squadron": 2,
+            "engineer": 3
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              0,
+              1,
+              0
+            ],
+            "left": [
+              1,
+              1,
+              0
+            ],
+            "right": [
+              1,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/marauder-picket-corvette-scum-nexus.webp"
+        }
+      }
+    },
+    "neutron-star-class-bulk-scum-nexus": {
+      "_id": "2fd3ad8b-4525-4505-a8a5-44ffee5378f5",
+      "type": "chassis",
+      "chassis_name": "neutron-star-class-bulk-scum-nexus",
+      "size": "medium",
+      "hull": 7,
+      "speed": {
+        "1": [
+          2
+        ],
+        "2": [
+          1,
+          0
+        ],
+        "3": [
+          1,
+          0,
+          2
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 3,
+        "rear": 1,
+        "left": 2,
+        "right": 2,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "neutron-star-class-bulk-carrier-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Neutron Star Class Bulk Expansion",
+          "_id": "931141e0-4ff8-42fd-ac16-f3acc4effcc6",
+          "type": "ship",
+          "chassis": "neutron-star-class-bulk-scum-nexus",
+          "name": "Neutron Star-class Bulk Carrier {Scum}",
+          "nicknames": [
+            "Neutron Star-class Bulk Carrier",
+            "Bulk Carrier",
+            "Neutron Star",
+            "Neutron Star Class",
+            "Neutron Star Class Bulk Carrier"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "transport"
+          ],
+          "points": 77,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "fleet-command",
+            "fleet-support",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              1,
+              0
+            ],
+            "rear": [
+              1,
+              1,
+              0
+            ],
+            "left": [
+              2,
+              1,
+              0
+            ],
+            "right": [
+              2,
+              1,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/neutron-star-class-bulk-carrier-scum-nexus.webp"
+        },
+        "neutron-star-class-bulk-cruiser-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 1",
+          "expansion": "Neutron Star Class Bulk Expansion",
+          "_id": "6d6b8c2e-dce2-4262-abb1-70f518afaf8e",
+          "type": "ship",
+          "chassis": "neutron-star-class-bulk-scum-nexus",
+          "name": "Neutron Star-class Bulk Cruiser {Scum}",
+          "nicknames": [
+            "Neutron Star-class Bulk Cruiser",
+            "Bulk Cruiser",
+            "Neutron Star",
+            "Neutron Star Class",
+            "Neutron Star Class Bulk Cruiser"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "scum",
+            "bombard"
+          ],
+          "points": 79,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 2,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 0
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "defensive-retro",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              2,
+              0
+            ],
+            "front": [
+              2,
+              2,
+              0
+            ],
+            "rear": [
+              1,
+              2,
+              0
+            ],
+            "left": [
+              2,
+              2,
+              0
+            ],
+            "right": [
+              2,
+              2,
+              0
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/neutron-star-class-bulk-cruiser-scum-nexus.webp"
+        }
+      }
+    },
     "subjugator-class-nexus": {
-      "_id": "4b8f1d16-7695-4228-adf9-f3040ad3c286",
+      "_id": "8a95b2c1-1a24-4616-9623-811e5502b9a4",
       "type": "chassis",
       "chassis_name": "subjugator-class-nexus",
       "size": "280-huge",
@@ -606,7 +1513,7 @@
           "team": "Armada Nexus",
           "release": "Armada Nexus November 2024 Dev Cycle",
           "expansion": "Armada Nexus Subjugator Expansion",
-          "_id": "302e6b4c-0da2-4c46-9884-4a52d9789bce",
+          "_id": "23a8e63e-abc7-4b3c-9201-88689635bd74",
           "type": "ship",
           "chassis": "subjugator-class-nexus",
           "name": "Subjugator-class Prototype",
@@ -701,7 +1608,7 @@
           "team": "Armada Nexus",
           "release": "Armada Nexus November 2024 Dev Cycle",
           "expansion": "Armada Nexus Subjugator Expansion",
-          "_id": "3f459c4f-5868-4368-8c9b-38daa898320b",
+          "_id": "aad9bece-3de0-401b-a129-6f26e70a49f1",
           "type": "ship",
           "chassis": "subjugator-class-nexus",
           "name": "Subjugator-class Testbed",
@@ -797,7 +1704,7 @@
           "team": "Armada Nexus",
           "release": "Armada Nexus November 2024 Dev Cycle",
           "expansion": "Armada Nexus Subjugator Expansion",
-          "_id": "f15eec4e-aa04-4c2c-b272-59e238179cbe",
+          "_id": "3d06a269-dfb3-4cf7-8f54-994a9ec67c65",
           "type": "ship",
           "chassis": "subjugator-class-nexus",
           "name": "Subjugator-class Heavy Cruiser",

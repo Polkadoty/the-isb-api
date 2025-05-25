@@ -74,7 +74,7 @@
   "onager-class-star-destroyer": {
     "fullsize": "https://api.swarmada.wiki/images/onager-class-star-destroyer.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/onager-class-star-destroyer.webp",
-    "blurhash": "L8B;5,DNDh_N%fR-M{IU8w?ct8D%",
+    "blurhash": "L8B;5,DNDh_4%fR-M{IU8w?ct8D%",
     "baseToken": "https://api.swarmada.wiki/images/onager-class-star-destroyer-base.webp"
   },
   "onager-class-testbed": {
@@ -116,7 +116,7 @@
   "executor-ii-class-star-dreadnought": {
     "fullsize": "https://api.swarmada.wiki/images/executor-ii-class-star-dreadnought.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/executor-ii-class-star-dreadnought.webp",
-    "blurhash": "L6AT~6s600Nyic?wMxH?00WZ?bxu",
+    "blurhash": "L6AKdes600Nyic?wMxH?00WZ?bxu",
     "baseToken": "https://api.swarmada.wiki/images/executor-ii-class-star-dreadnought-base.webp"
   },
   "star-dreadnought-assault-prototype": {
@@ -860,7 +860,7 @@
   "x-wing-squadron": {
     "fullsize": "https://api.swarmada.wiki/images/x-wing-squadron.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/x-wing-squadron.webp",
-    "blurhash": "LKL:[owID%$*UbR5%gVs}qi{o~ad",
+    "blurhash": "LKL:[ov~D%$*UbR5%gVs}qi{o~ad",
     "baseToken": "https://api.swarmada.wiki/images/x-wing-squadron-base.webp"
   },
   "luke-skywalker-x-wing-squadron": {
@@ -1166,7 +1166,7 @@
   "admiral-piett-commander": {
     "fullsize": "https://api.swarmada.wiki/images/admiral-piett-commander.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/admiral-piett-commander.webp",
-    "blurhash": "LDIYIM?v00%g00IU_NRj00RjtRMy",
+    "blurhash": "LDIOwu?v00%g00IU_NRj00RjtRMy",
     "baseToken": "https://api.swarmada.wiki/images/admiral-piett-commander-base.webp"
   },
   "admiral-raddus-commander": {
@@ -1286,7 +1286,7 @@
   "general-romodi-commander": {
     "fullsize": "https://api.swarmada.wiki/images/general-romodi-commander.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/general-romodi-commander.webp",
-    "blurhash": "LKI#}s?w00xu00X9.8V[00WVt7WA",
+    "blurhash": "LKI#}s?w00xu00X9.8V[00WWt7WA",
     "baseToken": "https://api.swarmada.wiki/images/general-romodi-commander-base.webp"
   },
   "general-tagge-commander": {
@@ -1574,7 +1574,7 @@
   "point-defense-ion-cannons": {
     "fullsize": "https://api.swarmada.wiki/images/point-defense-ion-cannons.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/point-defense-ion-cannons.webp",
-    "blurhash": "LEI}t:-:00%200RP~qRk00Rj%MRj",
+    "blurhash": "LEI}t:-:00%200RP~qRk00Rj%MRk",
     "baseToken": "https://api.swarmada.wiki/images/point-defense-ion-cannons-base.webp"
   },
   "sw-7-ion-batteries": {
@@ -2954,13 +2954,13 @@
   "independent-station": {
     "fullsize": "https://api.swarmada.wiki/images/independent-station.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/independent-station.webp",
-    "blurhash": "LCK-^6b^00_N0_Rj-pIU00R%-qf6",
+    "blurhash": "LCK-|Db^00_N0_NG-pIU00R%-qf6",
     "baseToken": "https://api.swarmada.wiki/images/independent-station-base.webp"
   },
   "nebula-outskirts": {
     "fullsize": "https://api.swarmada.wiki/images/nebula-outskirts.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/nebula-outskirts.webp",
-    "blurhash": "LAMtv[%f00~q00IU?IIU00NG?IoM",
+    "blurhash": "LAMkFQ%f00~q00IU?IIU00NG?IoM",
     "baseToken": "https://api.swarmada.wiki/images/nebula-outskirts-base.webp"
   },
   "capture-the-vip": {
@@ -3164,7 +3164,7 @@
   "steal-supplies": {
     "fullsize": "https://api.swarmada.wiki/images/steal-supplies.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/steal-supplies.webp",
-    "blurhash": "L9KeQ0XQ00~q0vR,%3D%00Rj-qs;",
+    "blurhash": "L9KeQ0XQ00~q0vR-%3D%00Rj-qt7",
     "baseToken": "https://api.swarmada.wiki/images/steal-supplies-base.webp"
   },
   "volatile-cargo": {
@@ -3251,6 +3251,54 @@
     "blurhash": "LADA10DNVW.TwGNeI;VrHX%htSMx",
     "baseToken": "https://api.swarmada.wiki/images/dreadnaught-class-judicial-cruiser-republic-nexus-base.webp"
   },
+  "action-vi-armed-transports-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/action-vi-armed-transports-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/action-vi-armed-transports-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/action-vi-armed-transports-scum-nexus-base.webp"
+  },
+  "action-vi-bulk-transports-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/action-vi-bulk-transports-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/action-vi-bulk-transports-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/action-vi-bulk-transports-scum-nexus-base.webp"
+  },
+  "interceptor-iv-class-attack-frigate-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/interceptor-iv-class-attack-frigate-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/interceptor-iv-class-attack-frigate-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/interceptor-iv-class-attack-frigate-scum-nexus-base.webp"
+  },
+  "interceptor-iv-class-missile-frigate-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/interceptor-iv-class-missile-frigate-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/interceptor-iv-class-missile-frigate-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/interceptor-iv-class-missile-frigate-scum-nexus-base.webp"
+  },
+  "marauder-artillery-corvette-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/marauder-artillery-corvette-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/marauder-artillery-corvette-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/marauder-artillery-corvette-scum-nexus-base.webp"
+  },
+  "marauder-picket-corvette-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/marauder-picket-corvette-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/marauder-picket-corvette-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/marauder-picket-corvette-scum-nexus-base.webp"
+  },
+  "neutron-star-class-bulk-carrier-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/neutron-star-class-bulk-carrier-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/neutron-star-class-bulk-carrier-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/neutron-star-class-bulk-carrier-scum-nexus-base.webp"
+  },
+  "neutron-star-class-bulk-cruiser-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/neutron-star-class-bulk-cruiser-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/neutron-star-class-bulk-cruiser-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/neutron-star-class-bulk-cruiser-scum-nexus-base.webp"
+  },
   "subjugator-class-prototype-nexus": {
     "fullsize": "https://api.swarmada.wiki/images/subjugator-class-prototype-nexus.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/subjugator-class-prototype-nexus.webp",
@@ -3266,7 +3314,7 @@
   "subjugator-class-heavy-cruiser-nexus": {
     "fullsize": "https://api.swarmada.wiki/images/subjugator-class-heavy-cruiser-nexus.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/subjugator-class-heavy-cruiser-nexus.webp",
-    "blurhash": "L5BDym-gDiE3Mw?dD$R600My.8.8",
+    "blurhash": "L5BDym-gDiE3Mw?dD$R600M{.8.8",
     "baseToken": "https://api.swarmada.wiki/images/subjugator-class-heavy-cruiser-nexus-base.webp"
   },
   "alpha-class-star-wing-squadron-nexus": {
@@ -3305,6 +3353,90 @@
     "blurhash": "L4Ja_=:|00~q00iFxv0000=b_3IU",
     "baseToken": "https://api.swarmada.wiki/images/klick-v-wing-squadron-nexus-base.webp"
   },
+  "aeg-77-vigo-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/aeg-77-vigo-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/aeg-77-vigo-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/aeg-77-vigo-scum-nexus-base.webp"
+  },
+  "consigliere-aeg-77-vigo-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/consigliere-aeg-77-vigo-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/consigliere-aeg-77-vigo-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/consigliere-aeg-77-vigo-scum-nexus-base.webp"
+  },
+  "halcyon-aeg-77-vigo-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/halcyon-aeg-77-vigo-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/halcyon-aeg-77-vigo-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/halcyon-aeg-77-vigo-scum-nexus-base.webp"
+  },
+  "boba-fett-slave-i-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/boba-fett-slave-i-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/boba-fett-slave-i-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/boba-fett-slave-i-scum-nexus-base.webp"
+  },
+  "hondo-ohnaka-slave-i-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/hondo-ohnaka-slave-i-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/hondo-ohnaka-slave-i-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/hondo-ohnaka-slave-i-scum-nexus-base.webp"
+  },
+  "dengar-punishing-one-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/dengar-punishing-one-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/dengar-punishing-one-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/dengar-punishing-one-scum-nexus-base.webp"
+  },
+  "kihraxz-fighter-squadron-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/kihraxz-fighter-squadron-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/kihraxz-fighter-squadron-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/kihraxz-fighter-squadron-scum-nexus-base.webp"
+  },
+  "captain-jostero-kihraxz-fighter-squadron-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/captain-jostero-kihraxz-fighter-squadron-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/captain-jostero-kihraxz-fighter-squadron-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/captain-jostero-kihraxz-fighter-squadron-scum-nexus-base.webp"
+  },
+  "vaksai-kihraxz-fighter-squadron-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/vaksai-kihraxz-fighter-squadron-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/vaksai-kihraxz-fighter-squadron-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/vaksai-kihraxz-fighter-squadron-scum-nexus-base.webp"
+  },
+  "rihkxyrk-assault-squadron-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/rihkxyrk-assault-squadron-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/rihkxyrk-assault-squadron-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/rihkxyrk-assault-squadron-scum-nexus-base.webp"
+  },
+  "talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus-base.webp"
+  },
+  "blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus-base.webp"
+  },
+  "ugly-squadrons-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/ugly-squadrons-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/ugly-squadrons-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/ugly-squadrons-scum-nexus-base.webp"
+  },
+  "bossk-hounds-tooth-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/bossk-hounds-tooth-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/bossk-hounds-tooth-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/bossk-hounds-tooth-scum-nexus-base.webp"
+  },
   "porax-38-starfighter-nexus": {
     "fullsize": "https://api.swarmada.wiki/images/porax-38-starfighter-nexus.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/porax-38-starfighter-nexus.webp",
@@ -3314,7 +3446,7 @@
   "cad-bane-xanadu-blood-nexus": {
     "fullsize": "https://api.swarmada.wiki/images/cad-bane-xanadu-blood-nexus.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/cad-bane-xanadu-blood-nexus.webp",
-    "blurhash": "L9JbBb-o9G~X00$%~WRQ01WB.8R*",
+    "blurhash": "L9JbBb-o9G~X00$%_3RQ01WB.8R*",
     "baseToken": "https://api.swarmada.wiki/images/cad-bane-xanadu-blood-nexus-base.webp"
   },
   "ig-100-magnaguards-porax-38-starfighter-nexus": {
@@ -3326,7 +3458,7 @@
   "admiral-kilian-commander-nexus": {
     "fullsize": "https://api.swarmada.wiki/images/admiral-kilian-commander-nexus.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/admiral-kilian-commander-nexus.webp",
-    "blurhash": "LAI5xp_N00xY00Ip~qR500NHxuR5",
+    "blurhash": "LAI5xp_N00xX00Ip~qR500NHxuR5",
     "baseToken": "https://api.swarmada.wiki/images/admiral-kilian-commander-nexus-base.webp"
   },
   "depa-billaba-officer-nexus": {
@@ -3340,6 +3472,114 @@
     "thumbnail": "https://api.swarmada.wiki/thumbnails/general-romodi-officer-nexus.webp",
     "blurhash": "LEJu16xB00%M00Di_NX800Rjx]Io",
     "baseToken": "https://api.swarmada.wiki/images/general-romodi-officer-nexus-base.webp"
+  },
+  "darth-maul-commander-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/darth-maul-commander-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/darth-maul-commander-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/darth-maul-commander-scum-nexus-base.webp"
+  },
+  "hondo-ohnaka-commander-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/hondo-ohnaka-commander-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/hondo-ohnaka-commander-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/hondo-ohnaka-commander-scum-nexus-base.webp"
+  },
+  "prince-xizor-commander-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/prince-xizor-commander-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/prince-xizor-commander-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/prince-xizor-commander-scum-nexus-base.webp"
+  },
+  "smugglers-cache-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/smugglers-cache-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/smugglers-cache-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/smugglers-cache-scum-nexus-base.webp"
+  },
+  "boarding-grapples-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/boarding-grapples-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/boarding-grapples-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/boarding-grapples-scum-nexus-base.webp"
+  },
+  "jiro-officer-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/jiro-officer-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/jiro-officer-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/jiro-officer-scum-nexus-base.webp"
+  },
+  "savage-oppress-officer-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/savage-oppress-officer-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/savage-oppress-officer-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/savage-oppress-officer-scum-nexus-base.webp"
+  },
+  "ziton-moj-officer-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/ziton-moj-officer-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/ziton-moj-officer-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/ziton-moj-officer-scum-nexus-base.webp"
+  },
+  "pirate-crew-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/pirate-crew-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/pirate-crew-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/pirate-crew-scum-nexus-base.webp"
+  },
+  "vanity-price-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/vanity-price-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/vanity-price-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/vanity-price-title-scum-nexus-base.webp"
+  },
+  "wild-karrde-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/wild-karrde-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/wild-karrde-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/wild-karrde-title-scum-nexus-base.webp"
+  },
+  "flatline-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/flatline-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/flatline-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/flatline-title-scum-nexus-base.webp"
+  },
+  "poison-moon-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/poison-moon-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/poison-moon-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/poison-moon-title-scum-nexus-base.webp"
+  },
+  "charybdis-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/charybdis-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/charybdis-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/charybdis-title-scum-nexus-base.webp"
+  },
+  "savrip-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/savrip-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/savrip-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/savrip-title-scum-nexus-base.webp"
+  },
+  "redhawk-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/redhawk-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/redhawk-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/redhawk-title-scum-nexus-base.webp"
+  },
+  "omzes-incredible-traveling-starport-title-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/omzes-incredible-traveling-starport-title-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/omzes-incredible-traveling-starport-title-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/omzes-incredible-traveling-starport-title-scum-nexus-base.webp"
+  },
+  "tibanna-disruptors-scum-nexus": {
+    "fullsize": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp",
+    "thumbnail": "https://api.swarmada.wiki/thumbnails/tibanna-disruptors-scum-nexus.webp",
+    "blurhash": null,
+    "baseToken": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus-base.webp"
   },
   "ion-pulse-emitter-nexus": {
     "fullsize": "https://api.swarmada.wiki/images/ion-pulse-emitter-nexus.webp",
@@ -4256,7 +4496,7 @@
   "point-defense-ion-cannons-errata": {
     "fullsize": "https://api.swarmada.wiki/images/point-defense-ion-cannons-errata.webp",
     "thumbnail": "https://api.swarmada.wiki/thumbnails/point-defense-ion-cannons-errata.webp",
-    "blurhash": "LDI#iV?H00%L00RP~qRk00Rjx]Rj",
+    "blurhash": "LDI#iV?H00%200RP~qRk00Rjx]Rj",
     "baseToken": "https://api.swarmada.wiki/images/point-defense-ion-cannons-errata-base.webp"
   },
   "rapid-launch-bays-errata": {

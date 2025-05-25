@@ -1,0 +1,120 @@
+{
+    "upgrades": {
+        "charybdis-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 1",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Charybdis {Scum}",
+            "nicknames": [
+                "Charybdis", "Chary"
+            ],
+            "unique-class": [
+                "Charybdis"
+            ],
+            "ability": "The printed shield values of your front, left, and right hull zones are increased by 1.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "marauder-class-corvette-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/charybdis-title-scum-nexus.webp"
+        },
+        "savrip-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 1",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Savrip {Scum}",
+            "nicknames": [
+                "Savrip", "Sav"
+            ],
+            "unique-class": [
+                "Savrip"
+            ],
+            "ability": "While attacking, if your speed is 0 or 1 and this is your first attack during your activation, you may add 2 dice of any color to your attack pool.\nIf you do, you cannot attack again during this activation.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "marauder-class-corvette-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/savrip-title-scum-nexus.webp"
+        }
+    }
+}

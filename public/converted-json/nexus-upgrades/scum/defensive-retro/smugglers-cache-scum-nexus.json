@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "smugglers-cache-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "defensive-retro",
+      "faction": [
+        "scum"
+      ],
+      "name": "Smugglers Cache {Scum}",
+      "nicknames": [
+        "Smugglers Cache", "SC"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "You may spend or discard command dials from this card as if they were matching command tokens assigned to your ship.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/smugglers-cache-scum-nexus.webp"
+    }
+  }
+}

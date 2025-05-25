@@ -1,0 +1,120 @@
+{
+    "upgrades": {
+        "vanity-price-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 1",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Vanity Price {Scum}",
+            "nicknames": [
+                "Vanity Price", "Vanity"
+            ],
+            "unique-class": [
+                "Vanity Price"
+            ],
+            "ability": "Your printed anti-squadron armament is increased by 1 black die.\nWhile attacking a squadron, you may spend 1 die with a :crit: icon to toggle it's activation slider to the activated side.",
+            "unique": true,
+            "points": 6,
+            "modification": false,
+            "bound_shiptype": "action-vi-transport-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/vanity-price-title-scum-nexus.webp"
+        },
+        "wild-karrde-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 1",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Wild Karrde {Scum}",
+            "nicknames": [
+                "Wild Karrde", "Wild"
+            ],
+            "unique-class": [
+                "Wild Karrde"
+            ],
+            "ability": "Your printed battery armament for your front hull zone is increased by 1 blue die.",
+            "unique": true,
+            "points": 5,
+            "modification": false,
+            "bound_shiptype": "action-vi-transport-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/wild-karrde-title-scum-nexus.webp"
+        }
+    }
+}

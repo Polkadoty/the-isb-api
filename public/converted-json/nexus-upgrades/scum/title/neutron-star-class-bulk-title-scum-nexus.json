@@ -1,0 +1,123 @@
+{
+    "upgrades": {
+        "redhawk-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 1",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Redhawk {Scum}",
+            "nicknames": [
+                "Redhawk", "Red"
+            ],
+            "unique-class": [
+                "Redhawk"
+            ],
+            "ability": "You gain 1 :turbolaser: icon in your upgrade bar.\nYou lose 1 :defensive-retro: icon in your upgrade bar.",
+            "unique": true,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "neutron-star-class-bulk-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "grey_upgrades": [
+                    "defensive-retro"
+                ],
+                "enable_upgrades": [
+                    "turbolaser"
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/redhawk-title-scum-nexus.webp"
+        },
+        "omzes-incredible-traveling-starport-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 1",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Omze's Incredible Traveling Starport {Scum}",
+            "nicknames": [
+                "Omze's Incredible Traveling Starport", "Omze's Starport", "Omze's"
+            ],
+            "unique-class": [
+                "Omze's Incredible Traveling Starport", "Omze's Starport", "Omze's", "Omze", "Starport", "Incredible Starport", "Incredible"
+            ],
+            "ability": "You can be assigned any number of command tokens of any types.\nWhen a friendly ship at distance 1-5 reveals a command dial, it may discard 1 command token assigned to you to gain a matching command token.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "neutron-star-class-bulk-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/omzes-incredible-traveling-starport-title-scum-nexus.webp"
+        }
+    }
+}

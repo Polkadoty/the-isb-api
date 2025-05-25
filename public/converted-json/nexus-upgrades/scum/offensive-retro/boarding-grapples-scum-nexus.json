@@ -1,0 +1,63 @@
+{
+  "upgrades": {
+    "boarding-grapples-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "offensive-retro",
+      "faction": [
+        "scum"
+      ],
+      "name": "Boarding Grapples {Scum}",
+      "nicknames": [
+        "Boarding Grapples",
+        "BG"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*Pirate only.*\nAny :weapons-team-offensive-retro: upgrade you equip may be used at close-medium range.\nGain 1 :offensive-retro: icon in your upgrade bar.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "pirate"
+        ],
+        "size": [
+          ""
+        ],
+        "enable_upgrades": [
+          "offensive-retro"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/boarding-grapples-scum-nexus.webp"
+    }
+  }
+}

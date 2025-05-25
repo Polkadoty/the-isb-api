@@ -6,7 +6,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus May 2025 Development Cycle",
       "expansion": "Armada Nexus V-Wing Expansion",
-      "_id": "305e2f56-eff3-4eba-849c-b8e52a52955b",
+      "_id": "f46cdfa9-1724-4e3f-9886-9f8cf2d61cf7",
       "type": "commander",
       "faction": [
         "republic"
@@ -66,7 +66,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus April 2025 Dev Cycle",
       "expansion": "Porax-38 Starfighter (LEG06)",
-      "_id": "68fad55a-3bde-4a7a-aa0f-331139668fd4",
+      "_id": "5afc6636-a86a-42aa-83db-ee50144805f0",
       "type": "officer",
       "faction": [
         "republic"
@@ -124,7 +124,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus December 2024 Dev Cycle",
       "expansion": "December 2024 Upgrade Expansion",
-      "_id": "6f7cfb55-07f5-4184-9725-22f68068ff2f",
+      "_id": "31202da5-5517-48f4-b2f6-4470313037e2",
       "type": "officer",
       "faction": [
         "empire"
@@ -179,6 +179,1064 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/general-romodi-officer-nexus.webp"
     },
+    "darth-maul-commander-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "1130c4e5-cbd6-4e33-b3d9-d6d4cad93786",
+      "type": "commander",
+      "faction": [
+        "scum"
+      ],
+      "name": "Darth Maul {Scum}",
+      "nicknames": [
+        "Darth Maul"
+      ],
+      "unique-class": [
+        "Darth Maul"
+      ],
+      "ability": "While a friendly ship is attacking, it may spend 1 of its defense tokens. If it does, it may exhaust a matching defense token on the defender.",
+      "unique": true,
+      "points": 25,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/darth-maul-commander-scum-nexus.webp"
+    },
+    "hondo-ohnaka-commander-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "78c245ca-6ab7-49fa-b672-fe9c42502eb1",
+      "type": "commander",
+      "faction": [
+        "scum"
+      ],
+      "name": "Hondo Ohnaka {Scum}",
+      "nicknames": [
+        "Hondo Ohnaka"
+      ],
+      "unique-class": [
+        "Hondo Ohnaka"
+      ],
+      "ability": "Before an enemy ship at distance 1-5 of a friendly ship would gain a command token, you may exhaust this card to assign it to that friendly ship instead.\nAt the start of the Ship Phase, you may exhaust this card to discard any number of command tokens from friendly ships and assign that number of matching raid tokens to enemy ship at distance 1-5.",
+      "unique": true,
+      "points": 22,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/hondo-ohnaka-commander-scum-nexus.webp"
+    },
+    "prince-xizor-commander-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "2549c783-6eb9-4671-8c1f-14aa9d2c8cfd",
+      "type": "commander",
+      "faction": [
+        "scum"
+      ],
+      "name": "Prince Xizor {Scum}",
+      "nicknames": [
+        "Prince Xizor"
+      ],
+      "unique-class": [
+        "Prince Xizor"
+      ],
+      "ability": "While defending, before a friendly ship would be dealt 1 or more damage cards, you may deal 1 of those damage cards to another friendly ship at distance 1-4 of the defender.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/prince-xizor-commander-scum-nexus.webp"
+    },
+    "smugglers-cache-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "16d11377-3b06-4d8f-8c10-994a45a3624b",
+      "type": "defensive-retro",
+      "faction": [
+        "scum"
+      ],
+      "name": "Smugglers Cache {Scum}",
+      "nicknames": [
+        "Smugglers Cache",
+        "SC"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "You may spend or discard command dials from this card as if they were matching command tokens assigned to your ship.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/smugglers-cache-scum-nexus.webp"
+    },
+    "boarding-grapples-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "22f61800-7bab-4ce3-a6ea-686fad2a9158",
+      "type": "offensive-retro",
+      "faction": [
+        "scum"
+      ],
+      "name": "Boarding Grapples {Scum}",
+      "nicknames": [
+        "Boarding Grapples",
+        "BG"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*Pirate only.*\nAny :weapons-team-offensive-retro: upgrade you equip may be used at close-medium range.\nGain 1 :offensive-retro: icon in your upgrade bar.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "pirate"
+        ],
+        "size": [
+          ""
+        ],
+        "enable_upgrades": [
+          "offensive-retro"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/boarding-grapples-scum-nexus.webp"
+    },
+    "jiro-officer-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "1bebe2ae-2bac-4b57-aa9b-c1aac09dab5a",
+      "type": "officer",
+      "faction": [
+        "scum"
+      ],
+      "name": "Jiro {Scum}",
+      "nicknames": [
+        "Jiro"
+      ],
+      "unique-class": [
+        "Jiro"
+      ],
+      "ability": "*Pirate only.*\nWhen you activate, a friendly ship at distance 1-5 may discard 1 of its :commander: or :officer: cards (other than Jiro) to recover 1 of your discarded defense tokens.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "pirate"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/jiro-officer-scum-nexus.webp"
+    },
+    "savage-oppress-officer-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "daa14221-90c4-46b7-ae35-882e2a687c26",
+      "type": "officer",
+      "faction": [
+        "scum"
+      ],
+      "name": "Savage Oppress {Scum}",
+      "nicknames": [
+        "Savage Oppress"
+      ],
+      "unique-class": [
+        "Savage Oppress"
+      ],
+      "ability": "While attacking, if at least 1 of your defense tokens is exhausted or discarded, you may add 1 die of any color to the attack.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/savage-oppress-officer-scum-nexus.webp"
+    },
+    "ziton-moj-officer-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "9d5bd69f-b2e3-4e55-9fa0-3f77cd37e0a4",
+      "type": "officer",
+      "faction": [
+        "scum"
+      ],
+      "name": "Ziton Moj {Scum}",
+      "nicknames": [
+        "Ziton Moj"
+      ],
+      "unique-class": [
+        "Ziton Moj"
+      ],
+      "ability": "When you would be dealt a facedown damage card, you may choose for it to be faceup. If you do, flip 1 damage card facedown on another friendly ship at distance 1-4. If it is their only damage card, discard it.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ziton-moj-officer-scum-nexus.webp"
+    },
+    "pirate-crew-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "aac04023-9990-4d15-9e4f-dfc0352391fc",
+      "type": "support-team",
+      "faction": [
+        "scum"
+      ],
+      "name": "Pirate Crew {Scum}",
+      "nicknames": [
+        "Pirate Crew",
+        "PC"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*Pirate only.*\n When a friendly ship at distance 1-5 gains a command token, you may exhaust this card to gain 1 command token matching the one on this card.",
+      "unique": false,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "pirate"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 1
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/pirate-crew-scum-nexus.webp"
+    },
+    "vanity-price-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "9fe65c4f-6c94-4a32-8f43-f8d27a3eefc8",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Vanity Price {Scum}",
+      "nicknames": [
+        "Vanity Price",
+        "Vanity"
+      ],
+      "unique-class": [
+        "Vanity Price"
+      ],
+      "ability": "Your printed anti-squadron armament is increased by 1 black die.\nWhile attacking a squadron, you may spend 1 die with a :crit: icon to toggle it's activation slider to the activated side.",
+      "unique": true,
+      "points": 6,
+      "modification": false,
+      "bound_shiptype": "action-vi-transport-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/vanity-price-title-scum-nexus.webp"
+    },
+    "wild-karrde-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "ba581997-9a6b-4f64-964b-9160ce585469",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Wild Karrde {Scum}",
+      "nicknames": [
+        "Wild Karrde",
+        "Wild"
+      ],
+      "unique-class": [
+        "Wild Karrde"
+      ],
+      "ability": "Your printed battery armament for your front hull zone is increased by 1 blue die.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "action-vi-transport-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/wild-karrde-title-scum-nexus.webp"
+    },
+    "flatline-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "0960ce4b-06c3-40c0-b4e0-1533b4437378",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Flatline {Scum}",
+      "nicknames": [
+        "Flatline",
+        "Flat"
+      ],
+      "unique-class": [
+        "Flatline"
+      ],
+      "ability": "Treat your printed battery armament in your rear hull zone as 1 blue and 1 black die.\nAfter you deploy, gain 1 :salvo: defense token.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "interceptor-iv-class-frigate-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/flatline-title-scum-nexus.webp"
+    },
+    "poison-moon-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "e94577c6-09b2-4101-ae29-aff66b1c4f09",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Poison Moon {Scum}",
+      "nicknames": [
+        "Poison Moon",
+        "Poison"
+      ],
+      "unique-class": [
+        "Poison Moon"
+      ],
+      "ability": "When you reveal a command dial, you may discard this card. If you do, until the end of the round, black dice in your battery armament may be used at medium range and blue dice in your battery armament may be used at long range.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "interceptor-iv-class-frigate-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/poison-moon-title-scum-nexus.webp"
+    },
+    "charybdis-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "b6f0b552-e300-40c0-a2f3-da1da7e505b0",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Charybdis {Scum}",
+      "nicknames": [
+        "Charybdis",
+        "Chary"
+      ],
+      "unique-class": [
+        "Charybdis"
+      ],
+      "ability": "The printed shield values of your front, left, and right hull zones are increased by 1.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "marauder-class-corvette-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/charybdis-title-scum-nexus.webp"
+    },
+    "savrip-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "90aea875-9a2d-4eb8-b28b-07245611cc0a",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Savrip {Scum}",
+      "nicknames": [
+        "Savrip",
+        "Sav"
+      ],
+      "unique-class": [
+        "Savrip"
+      ],
+      "ability": "While attacking, if your speed is 0 or 1 and this is your first attack during your activation, you may add 2 dice of any color to your attack pool.\nIf you do, you cannot attack again during this activation.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "marauder-class-corvette-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/savrip-title-scum-nexus.webp"
+    },
+    "redhawk-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "58b1796f-7807-49eb-865a-52c16ad8844f",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Redhawk {Scum}",
+      "nicknames": [
+        "Redhawk",
+        "Red"
+      ],
+      "unique-class": [
+        "Redhawk"
+      ],
+      "ability": "You gain 1 :turbolaser: icon in your upgrade bar.\nYou lose 1 :defensive-retro: icon in your upgrade bar.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "neutron-star-class-bulk-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "grey_upgrades": [
+          "defensive-retro"
+        ],
+        "enable_upgrades": [
+          "turbolaser"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/redhawk-title-scum-nexus.webp"
+    },
+    "omzes-incredible-traveling-starport-title-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "cb8cb7e3-8175-4b75-9886-c50317e50527",
+      "type": "title",
+      "faction": [
+        "scum"
+      ],
+      "name": "Omze's Incredible Traveling Starport {Scum}",
+      "nicknames": [
+        "Omze's Incredible Traveling Starport",
+        "Omze's Starport",
+        "Omze's"
+      ],
+      "unique-class": [
+        "Omze's Incredible Traveling Starport",
+        "Omze's Starport",
+        "Omze's",
+        "Omze",
+        "Starport",
+        "Incredible Starport",
+        "Incredible"
+      ],
+      "ability": "You can be assigned any number of command tokens of any types.\nWhen a friendly ship at distance 1-5 reveals a command dial, it may discard 1 command token assigned to you to gain a matching command token.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "neutron-star-class-bulk-scum-nexus",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/omzes-incredible-traveling-starport-title-scum-nexus.webp"
+    },
+    "tibanna-disruptors-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": "a6e5dd84-9e3a-47a4-9088-221683f2eb89",
+      "type": "turbolaser",
+      "faction": [
+        "scum"
+      ],
+      "name": "Tibanna Disruptors",
+      "nicknames": [
+        "Tibanna Disruptors",
+        "Tibanna",
+        "TD"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+    },
     "ion-pulse-emitter-nexus": {
       "author": [
         "Armada Nexus"
@@ -187,7 +1245,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus November 2024 Dev Cycle",
       "expansion": "Armada Nexus Subjugator Expansion",
-      "_id": "3ef3f54e-71c9-4c2d-aac5-106a9fb89d9b",
+      "_id": "4c7c4fbf-6d43-4495-933d-625ea20bd9a7",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -249,7 +1307,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus November 2024 Dev Cycle",
       "expansion": "Armada Nexus Subjugator Expansion",
-      "_id": "e3588bd3-f7b3-43a2-a5ce-b72b2974c1b6",
+      "_id": "dcd732c8-b251-4d39-bf0e-0cbe5888a00a",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -311,7 +1369,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus November 2024 Dev Cycle",
       "expansion": "Armada Nexus Subjugator Expansion",
-      "_id": "abcd6b95-1354-4641-b7c6-0cc83f9a4c36",
+      "_id": "74ff54b4-86bf-42f2-94c1-2ddbb581b0a9",
       "type": "super-weapon",
       "faction": [
         "separatist"
@@ -373,7 +1431,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "73ef7aad-8829-4b5f-9bc3-79a1ce6f1e99",
+      "_id": "69da871a-4538-441b-afb4-b5f2320919c1",
       "type": "title",
       "faction": [
         "empire"
@@ -430,7 +1488,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "83f54d99-9af8-4cae-a3d8-293e16bcdf49",
+      "_id": "aa4ef491-8cb5-4239-960a-de6ed9d46a07",
       "type": "title",
       "faction": [
         "empire"
@@ -487,7 +1545,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "b903f5e4-8e36-441e-a1f4-ec5d57e4175a",
+      "_id": "b97f4686-6397-4e6e-8548-4e5fb05e76d8",
       "type": "title",
       "faction": [
         "empire"
@@ -547,7 +1605,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "e7c1595b-8da0-42a0-803d-44db165c1f03",
+      "_id": "994c534a-c817-479c-a855-b7e99e3c5674",
       "type": "title",
       "faction": [
         "rebel"
@@ -604,7 +1662,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus",
       "expansion": "Armada Nexus",
-      "_id": "5022e09b-45eb-4ba2-a8d9-3ccf04b94607",
+      "_id": "2a2e8a5d-f614-4298-a027-cfda54c2e381",
       "type": "title",
       "faction": [
         "rebel"
@@ -661,7 +1719,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus December 2024 Dev Cycle",
       "expansion": "Armada Nexus Dreadnaught Expansion",
-      "_id": "b0cfd8cb-d820-4475-8933-86cc30816919",
+      "_id": "aea95a76-cf10-4cfd-b98d-b8e1c2bceda6",
       "type": "title",
       "faction": [
         "republic"
@@ -722,7 +1780,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus December 2024 Dev Cycle",
       "expansion": "Armada Nexus Dreadnaught Expansion",
-      "_id": "a7cca939-2602-451b-953e-de5f31beade7",
+      "_id": "4d88c9b4-d7fe-4bc7-affc-cda29bff07bd",
       "type": "title",
       "faction": [
         "republic"
@@ -783,7 +1841,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus December 2024 Dev Cycle",
       "expansion": "Armada Nexus Dreadnaught Expansion",
-      "_id": "cf271b6d-19d8-4f88-a985-e51fea4692b8",
+      "_id": "41a05263-12dc-4d75-a6d4-2c177ec72bdf",
       "type": "title",
       "faction": [
         "republic"
@@ -844,7 +1902,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus November 2024 Dev Cycle",
       "expansion": "Armada Nexus Subjugator Expansion",
-      "_id": "f769b8ce-64a9-4f0a-9bb2-2e0cda73159a",
+      "_id": "0cbb92ad-c1b8-4232-8e04-088a9c283d58",
       "type": "title",
       "faction": [
         "separatist"
@@ -904,7 +1962,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus November 2024 Dev Cycle",
       "expansion": "Armada Nexus Subjugator Expansion",
-      "_id": "9327df90-aaaf-4db4-a254-a52a37e21bd5",
+      "_id": "87580813-bcf8-4ff3-9de6-13ccedb83fd7",
       "type": "title",
       "faction": [
         "separatist"
@@ -964,7 +2022,7 @@
       "team": "Armada Nexus",
       "release": "Armada Nexus November 2024 Dev Cycle",
       "expansion": "Armada Nexus Subjugator Expansion",
-      "_id": "30df4c91-c49c-460a-b672-2cc93824ddb3",
+      "_id": "12c5dec8-3e4e-4fad-9f4b-c2a8ae4d3557",
       "type": "title",
       "faction": [
         "separatist"
@@ -1022,7 +2080,7 @@
       "team": "Armada Nexus",
       "release": "February 2025 Development Cycle",
       "expansion": "MC40 Dev Cycle",
-      "_id": "a71bd3e7-9ed9-4a9b-964c-d0f421ecc343",
+      "_id": "5113cab6-edb7-4234-b6b7-45c29c72fd51",
       "type": "turbolaser",
       "faction": [
         "empire"

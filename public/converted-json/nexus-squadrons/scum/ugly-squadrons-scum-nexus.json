@@ -1,0 +1,77 @@
+{
+  "squadrons": {
+    "ugly-squadrons-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "ugly-squadrons-scum-nexus",
+      "name": "Ugly Squadrons {Scum}",
+      "nicknames": [
+        "Ugly Squadrons",
+        "Ugly",
+        "Ugly Squadron",
+        "Uglies"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        "Ugly Squadrons"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": true,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": true,
+      "unique_limit": 2,
+      "ace": true,
+      "points": 19,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ugly-squadrons-scum-nexus.webp"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "squadrons": {
+    "bossk-hounds-tooth-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "yv-666",
+      "name": "Hound's Tooth {Scum}",
+      "nicknames": [
+        "Bossk",
+        "Hounds Tooth"
+      ],
+      "ace-name": "Bossk",
+      "unique-class": [
+        "Hound's Tooth",
+        "Bossk"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          4
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, if you have 6 or fewer hull points remaining, you may add 1 blue die set to the :accuracy: icon to your attack pool.",
+      "unique": true,
+      "ace": true,
+      "points": 23,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/bossk-hounds-tooth-scum-nexus.webp"
+    }
+  }
+}

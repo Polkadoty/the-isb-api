@@ -1,0 +1,221 @@
+{
+  "squadrons": {
+    "rihkxyrk-assault-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "rihkxyrk-assault-squadron-scum-nexus",
+      "name": "Rihkxyrk Assault Squadron {Scum}",
+      "nicknames": [
+        "Rihkxyrk Assault Squadron",
+        "Rihkxyrk",
+        "Rihkxyrk Assault",
+        "Rihkxyrk Assault Squadron"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          2,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 12,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rihkxyrk-assault-squadron-scum-nexus.webp"
+    },
+    "talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "rihkxyrk-assault-squadron-scum-nexus",
+      "name": "Rihkxyrk Assault Squadron {Scum}",
+      "nicknames": [
+        "Rihkxyrk Assault Squadron",
+        "Rihkxyrk",
+        "Rihkxyrk Assault",
+        "Rihkxyrk Assault Squadron",
+        "Talonbane Cobra"
+      ],
+      "ace-name": "Talonbane Cobra",
+      "unique-class": [
+        "Talonbane Cobra"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "After rolling your attack pool, you may reroll 1 black die with a face with no icons.",
+      "unique": true,
+      "ace": true,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus.webp"
+    },
+    "blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "rihkxyrk-assault-squadron-scum-nexus",
+      "name": "Rihkxyrk Assault Squadron {Scum}",
+      "nicknames": [
+        "Rihkxyrk Assault Squadron",
+        "Rihkxyrk",
+        "Rihkxyrk Assault",
+        "Rihkxyrk Assault Squadron",
+        "Blood Razor Gang"
+      ],
+      "ace-name": "Blood Razor Gang",
+      "unique-class": [
+        "Blood Razor Gang"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": true,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": true,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus.webp"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "ziton-moj-officer-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "officer",
+      "faction": [
+        "scum"
+      ],
+      "name": "Ziton Moj {Scum}",
+      "nicknames": [
+        "Ziton Moj"
+      ],
+      "unique-class": [
+        "Ziton Moj"
+      ],
+      "ability": "When you would be dealt a facedown damage card, you may choose for it to be faceup. If you do, flip 1 damage card facedown on another friendly ship at distance 1-4. If it is their only damage card, discard it.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/ziton-moj-officer-scum-nexus.webp"
+    }
+  }
+}
