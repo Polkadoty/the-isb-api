@@ -46,7 +46,7 @@
                   ],
                   "faction": "scum",
                   "unique": false,
-                  "traits": ["scum", "pirate"],
+                  "traits": ["scum", "pirate", "flotilla"],
                   "points": 26,
                   "tokens": {
                       "def_scatter": 1,
@@ -90,7 +90,7 @@
                   ],
                   "faction": "scum",
                   "unique": false,
-                  "traits": ["scum", "pirate"],
+                  "traits": ["scum", "pirate", "flotilla"],
                   "points": 21,
                   "tokens": {
                       "def_scatter": 1,

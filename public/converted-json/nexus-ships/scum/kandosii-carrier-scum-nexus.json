@@ -1,0 +1,125 @@
+{
+  "ships": {
+      "kandosii-carrier-scum-nexus": {
+          "_id": null,
+          "type": "chassis",
+          "chassis_name": "kandosii-carrier-scum-nexus",
+          "size": "large",
+          "hull": 10,
+          "speed": {
+              "1": [1],
+              "2": [1, 0],
+              "3": [1, 0, 1],
+              "4": []
+          },
+          "shields": {
+              "front": 3,
+              "rear": 3,
+              "left": 3,
+              "right": 3,
+              "left_aux": 0,
+              "right_aux": 0
+          },
+          "hull_zones": {
+              "frontoffset": 0,
+              "centeroffset": 0,
+              "rearoffset": 0,
+              "frontangle": 0,
+              "centerangle": 0,
+              "rearangle": 0
+          },
+          "silhouette": "",
+          "blueprint": "",
+          "models": {
+              "kandosii-carrier-scum-nexus": {
+                  "author": "Armada Nexus",
+                  "alias": "Nexus",
+                  "team": "Armada Nexus",
+                  "release": "Armada Nexus Scum and Villainy Wave 2",
+                  "expansion": "Armada Nexus",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "kandosii-carrier-scum-nexus",
+                  "name": "Kandosii-type Carrier {Scum}",
+                  "nicknames": [
+                    "Kandosii Carrier", "Kandosii", "Kandosii Carriers", "Kandosii Carriers"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["mandalorian", "transport"],
+                  "points": 93,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 0,
+                      "def_brace": 2,
+                      "def_redirect": 1,
+                      "def_contain": 1,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 3,
+                      "squadron": 4,
+                      "engineer": 3
+                  },
+                  "upgrades": ["commander", "officer", "officer", "weapons-team", "offensive-retro", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "ion-cannon", "title"],
+                  "armament": {
+                      "asa": [0, 1, 1],
+                      "front": [2, 4, 0],
+                      "rear": [1, 1, 0],
+                      "left": [1, 2, 0],
+                      "right": [1, 2, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/kandosii-carrier-scum-nexus.webp"
+              },
+              "kandosii-battlecarrier-scum-nexus": {
+                  "author": "Armada Nexus",
+                  "alias": "Nexus",
+                  "team": "Armada Nexus",
+                  "release": "Armada Nexus Scum and Villainy Wave 2",
+                  "expansion": "Armada Nexus",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "kandosii-carrier-scum-nexus",
+                  "name": "Kandosii-type Battlecarrier {Scum}",
+                  "nicknames": [
+                    "Kandosii Battle Carrier", "Kandosii Battle Carrier", "Kandosii Battle Carriers", "Kandosii Battlecarrier"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["mandalorian", "pirate"],
+                  "points": 98,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 0,
+                      "def_brace": 2,
+                      "def_redirect": 1,
+                      "def_contain": 1,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 3,
+                      "squadron": 4,
+                      "engineer": 3
+                  },
+                  "upgrades": ["commander", "officer", "weapons-team", "offensive-retro", "weapons-team-offensive-retro", "defensive-retro", "ordnance", "ordnance", "turbolaser", "title" ],
+                  "armament": {
+                      "asa": [0, 1, 0],
+                      "front": [2, 2, 3],
+                      "rear": [1, 1, 1],
+                      "left": [1, 1, 2],
+                      "right": [1, 1, 2],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/kandosii-battlecarrier-scum-nexus.webp"
+              }
+          }
+      }
+  }
+}

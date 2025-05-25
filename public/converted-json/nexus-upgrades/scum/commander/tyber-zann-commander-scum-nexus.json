@@ -1,0 +1,64 @@
+{
+  "upgrades": {
+    "tyber-zann-commander-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "commander",
+      "faction": [
+        "scum"
+      ],
+      "name": "Tyber Zann {Scum}",
+      "nicknames": [
+        "Tyber Zann", 
+        "Tyber Zann {Scum}", 
+        "Zann"
+      ],
+      "unique-class": [
+        "Tyber Zann"
+      ],
+      "ability": "At the start of each Ship Phase, you may reveal and discard 1 command token from this card. If you do, until the end of the round, when a friendly ship resolves a matching command, it may gain 1 command token of its choice. When an enemy ship resolves a matching command, it gains 1 raid token of its choice.",
+      "unique": true,
+      "points": 30,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "token",
+        "start_icon": [
+          "any"
+        ],
+        "start_amount": 4
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tyber-zann-commander-scum-nexus.webp"
+    }
+  }
+}

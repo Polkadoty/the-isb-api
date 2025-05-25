@@ -1,0 +1,234 @@
+{
+  "ships": {
+    "keldabe-cruiser-scum-nexus": {
+      "_id": null,
+      "type": "chassis",
+      "chassis_name": "keldabe-cruiser-scum-nexus",
+      "size": "large",
+      "hull": 9,
+      "speed": {
+        "1": [
+          1
+        ],
+        "2": [
+          1,
+          1
+        ],
+        "3": [
+          0,
+          1,
+          1
+        ],
+        "4": []
+      },
+      "shields": {
+        "front": 4,
+        "rear": 2,
+        "left": 3,
+        "right": 3,
+        "left_aux": 0,
+        "right_aux": 0
+      },
+      "hull_zones": {
+        "frontoffset": 0,
+        "centeroffset": 0,
+        "rearoffset": 0,
+        "frontangle": 0,
+        "centerangle": 0,
+        "rearangle": 0
+      },
+      "silhouette": "",
+      "blueprint": "",
+      "models": {
+        "keldabe-cruiser-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 2",
+          "expansion": "Armada Nexus",
+          "_id": null,
+          "type": "ship",
+          "chassis": "keldabe-cruiser-scum-nexus",
+          "name": "Keldabe-class Cruiser {Scum}",
+          "nicknames": [
+            "Keldabe Cruiser",
+            "Keldabe",
+            "Keldabe Cruisers",
+            "Keldabe Cruisers"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "mandalorian",
+            "pirate"
+          ],
+          "points": 112,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 2,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "support-team",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "ordnance",
+            "ion-cannon",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              1
+            ],
+            "front": [
+              2,
+              2,
+              2
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              1,
+              2,
+              2
+            ],
+            "right": [
+              1,
+              2,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/keldabe-cruiser-scum-nexus.webp"
+        },
+        "keldabe-battleship-scum-nexus": {
+          "author": "Armada Nexus",
+          "alias": "Nexus",
+          "team": "Armada Nexus",
+          "release": "Armada Nexus Scum and Villainy Wave 2",
+          "expansion": "Armada Nexus",
+          "_id": null,
+          "type": "ship",
+          "chassis": "keldabe-cruiser-scum-nexus",
+          "name": "Keldabe-class Battleship {Scum}",
+          "nicknames": [
+            "Keldabe Battleship",
+            "Keldabe",
+            "Keldabe Battleships",
+            "Keldabe Battleship"
+          ],
+          "faction": "scum",
+          "unique": false,
+          "traits": [
+            "mandalorian",
+            "zann",
+            "pirate"
+          ],
+          "points": 115,
+          "tokens": {
+            "def_scatter": 0,
+            "def_evade": 0,
+            "def_brace": 1,
+            "def_redirect": 2,
+            "def_contain": 0,
+            "def_salvo": 1
+          },
+          "values": {
+            "command": 3,
+            "squadron": 3,
+            "engineer": 4
+          },
+          "upgrades": [
+            "commander",
+            "officer",
+            "weapons-team",
+            "weapons-team",
+            "offensive-retro",
+            "weapons-team-offensive-retro",
+            "defensive-retro",
+            "ion-cannon",
+            "ordnance",
+            "turbolaser",
+            "title"
+          ],
+          "armament": {
+            "asa": [
+              0,
+              1,
+              0
+            ],
+            "front": [
+              2,
+              2,
+              3
+            ],
+            "rear": [
+              1,
+              1,
+              1
+            ],
+            "left": [
+              1,
+              1,
+              2
+            ],
+            "right": [
+              1,
+              1,
+              2
+            ],
+            "left_aux": [
+              0,
+              0,
+              0
+            ],
+            "right_aux": [
+              0,
+              0,
+              0
+            ],
+            "special": [
+              0,
+              0,
+              0
+            ]
+          },
+          "artwork": "",
+          "cardimage": "https://api.swarmada.wiki/images/keldabe-battleship-scum-nexus.webp"
+        }
+      }
+    }
+  }
+}

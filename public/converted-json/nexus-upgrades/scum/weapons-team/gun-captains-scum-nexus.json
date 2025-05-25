@@ -1,26 +1,26 @@
 {
   "upgrades": {
-    "tibanna-disruptors-scum-nexus": {
+    "gun-captains-scum-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
-      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
       "expansion": "Armada Nexus",
       "_id": null,
-      "type": "turbolaser",
+      "type": "weapons-team",
       "faction": [
         "scum"
       ],
-      "name": "Tibanna Disruptors {Scum}",
+      "name": "Gun Captains {Scum}",
       "nicknames": [
-        "Tibanna Disruptors", "Tibanna", "TD"
+        "Gun Captains", "Gun Captains {Scum}", "Gun Captains {Scum}", "Gun Captains"
       ],
       "unique-class": [
         ""
       ],
-      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
+      "ability": "While attacking, you may reroll 1 die for each readied defense token on the defender.",
       "unique": false,
-      "points": 5,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -53,7 +53,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+      "cardimage": "https://api.swarmada.wiki/images/gun-captains-scum-nexus.webp"
     }
   }
 }

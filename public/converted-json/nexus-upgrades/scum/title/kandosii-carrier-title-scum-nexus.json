@@ -1,0 +1,120 @@
+{
+    "upgrades": {
+        "gratua-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 2",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Gratua {Scum}",
+            "nicknames": [
+                "Gratua", "Gratua {Scum}", "Gratuas", "Gratuas"
+            ],
+            "unique-class": [
+                "Gratua"
+            ],
+            "ability": "After you deploy, gain 1 :contain: token.\n While defending, you may spend a :contain: token to resolve the :redirect: defense effect. You cannot resolve the :redirect: defense effect more than once per attack.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "kandosii-carrier-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/gratua-title-scum-nexus.webp"
+        },
+        "parjai-iv-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 2",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Parjai IV {Scum}",
+            "nicknames": [
+                "Parjai IV", "Parjai"
+            ],
+            "unique-class": [
+                "Parjai IV"
+            ],
+            "ability": ":squadron: : After a squadron you activate destroys an enemy ship or squadron, that squadron recovers 1 hull point.\nAfter you destroy an enemy ship, you may discard one of your facedown damage cards.",
+            "unique": true,
+            "points": 7,
+            "modification": false,
+            "bound_shiptype": "kandosii-carrier-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/parjai-iv-title-scum-nexus.webp"
+        }
+    }
+}

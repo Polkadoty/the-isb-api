@@ -1246,16 +1246,22 @@
   "Mandalorian Gauntlet Fighter": [
     "mandalorian-gauntlet-fighter",
     "gar-saxon-mandalorian-gauntlet-fighter",
-    "fenn-rau-mandalorian-gauntlet-fighter"
+    "fenn-rau-mandalorian-gauntlet-fighter",
+    "mandalorian-gauntlet-fighter-scum-nexus",
+    "death-watch-mandalorian-gauntlet-fighter",
+    "bo-katan-kryze-mandalorian-gauntlet-fighter-scum-nexus"
   ],
   "Gauntlet": [
-    "mandalorian-gauntlet-fighter"
+    "mandalorian-gauntlet-fighter",
+    "mandalorian-gauntlet-fighter-scum-nexus"
   ],
   "Gauntlets": [
-    "mandalorian-gauntlet-fighter"
+    "mandalorian-gauntlet-fighter",
+    "mandalorian-gauntlet-fighter-scum-nexus"
   ],
   "Mandalorian Gauntlet": [
-    "mandalorian-gauntlet-fighter"
+    "mandalorian-gauntlet-fighter",
+    "mandalorian-gauntlet-fighter-scum-nexus"
   ],
   "Gar Saxon": [
     "gar-saxon-mandalorian-gauntlet-fighter"
@@ -5991,6 +5997,37 @@
     "boba-fett-slave-i-scum-nexus",
     "hondo-ohnaka-slave-i-scum-nexus"
   ],
+  "GAT-12 Skipray Blastboat": [
+    "gat-12-skipray-blastboat-scum-nexus",
+    "gat-12p-gat-12-skipray-blastboat-scum-nexus",
+    "miktiss-gat-12-skipray-blastboat-scum-nexus"
+  ],
+  "GAT-12": [
+    "gat-12-skipray-blastboat-scum-nexus",
+    "gat-12p-gat-12-skipray-blastboat-scum-nexus",
+    "miktiss-gat-12-skipray-blastboat-scum-nexus"
+  ],
+  "Skipray Blastboat": [
+    "gat-12-skipray-blastboat-scum-nexus",
+    "gat-12p-gat-12-skipray-blastboat-scum-nexus",
+    "miktiss-gat-12-skipray-blastboat-scum-nexus"
+  ],
+  "Skipray": [
+    "gat-12-skipray-blastboat-scum-nexus",
+    "gat-12p-gat-12-skipray-blastboat-scum-nexus",
+    "miktiss-gat-12-skipray-blastboat-scum-nexus"
+  ],
+  "Blastboat": [
+    "gat-12-skipray-blastboat-scum-nexus",
+    "gat-12p-gat-12-skipray-blastboat-scum-nexus",
+    "miktiss-gat-12-skipray-blastboat-scum-nexus"
+  ],
+  "GAT-12P": [
+    "gat-12p-gat-12-skipray-blastboat-scum-nexus"
+  ],
+  "Miktiss": [
+    "miktiss-gat-12-skipray-blastboat-scum-nexus"
+  ],
   "Punishing One {Scum}": [
     "dengar-punishing-one-scum-nexus"
   ],
@@ -6020,6 +6057,19 @@
   "Vaksai": [
     "vaksai-kihraxz-fighter-squadron-scum-nexus"
   ],
+  "Death Watch": [
+    "death-watch-mandalorian-gauntlet-fighter",
+    "pre-vizsla-commander-scum-nexus"
+  ],
+  "Bo-Katan Kryze": [
+    "bo-katan-kryze-mandalorian-gauntlet-fighter-scum-nexus"
+  ],
+  "Bo-Katan": [
+    "bo-katan-kryze-mandalorian-gauntlet-fighter-scum-nexus"
+  ],
+  "Mandalorian Gauntlet (Bo-Katan Kryze)": [
+    "bo-katan-kryze-mandalorian-gauntlet-fighter-scum-nexus"
+  ],
   "Rihkxyrk Assault Squadron {Scum}": [
     "rihkxyrk-assault-squadron-scum-nexus",
     "talonbane-cobra-rihkxyrk-assault-squadron-scum-nexus",
@@ -6045,6 +6095,81 @@
   ],
   "Blood Razor Gang": [
     "blood-razor-gang-rihkxyrk-assault-squadron-scum-nexus"
+  ],
+  "ST-70 Assault Ship": [
+    "st-70-assault-ship-scum-nexus"
+  ],
+  "ST-70": [
+    "st-70-assault-ship-scum-nexus"
+  ],
+  "Razor Crest": [
+    "the-mandalorian-razor-crest-scum-nexus"
+  ],
+  "Razor Crest Assault Ship": [
+    "the-mandalorian-razor-crest-scum-nexus"
+  ],
+  "StarViper Squadron {Scum}": [
+    "starviper-squadron-scum-nexus"
+  ],
+  "Starviper Squadron": [
+    "starviper-squadron-scum-nexus",
+    "black-sun-assassin-starviper-squadron-scum-nexus"
+  ],
+  "Starviper": [
+    "starviper-squadron-scum-nexus",
+    "black-sun-assassin-starviper-squadron-scum-nexus"
+  ],
+  "Starviper Fighter": [
+    "starviper-squadron-scum-nexus",
+    "black-sun-assassin-starviper-squadron-scum-nexus"
+  ],
+  "Starviper Fighter Squadron": [
+    "starviper-squadron-scum-nexus",
+    "black-sun-assassin-starviper-squadron-scum-nexus"
+  ],
+  "Twilek Dancer {Scum}": [
+    "tyber-zann-twilek-dancer-scum-nexus"
+  ],
+  "Tyber Zann": [
+    "tyber-zann-twilek-dancer-scum-nexus",
+    "tyber-zann-commander-scum-nexus"
+  ],
+  "Twilek Dancer": [
+    "tyber-zann-twilek-dancer-scum-nexus"
+  ],
+  "Twilek": [
+    "tyber-zann-twilek-dancer-scum-nexus"
+  ],
+  "Twilek Dancer Squadron": [
+    "tyber-zann-twilek-dancer-scum-nexus"
+  ],
+  "Twilek Dancer Fighter": [
+    "tyber-zann-twilek-dancer-scum-nexus"
+  ],
+  "Zann": [
+    "tyber-zann-twilek-dancer-scum-nexus",
+    "tyber-zann-commander-scum-nexus"
+  ],
+  "Virago {Scum}": [
+    "guri-virago-scum-nexus"
+  ],
+  "Guri": [
+    "guri-virago-scum-nexus"
+  ],
+  "Virago": [
+    "guri-virago-scum-nexus"
+  ],
+  "Virago Squadron": [
+    "guri-virago-scum-nexus"
+  ],
+  "Virago Fighter": [
+    "guri-virago-scum-nexus"
+  ],
+  "Black Sun Assassin {Scum}": [
+    "black-sun-assassin-starviper-squadron-scum-nexus"
+  ],
+  "Black Sun Assassin": [
+    "black-sun-assassin-starviper-squadron-scum-nexus"
   ],
   "Ugly Squadrons {Scum}": [
     "ugly-squadrons-scum-nexus"
@@ -6156,6 +6281,30 @@
   "Bulk": [
     "action-vi-bulk-transports-scum-nexus"
   ],
+  "Crusader-class Flak Corvette {Scum}": [
+    "crusader-class-flak-corvette-scum-nexus"
+  ],
+  "Crusader-class Flak Corvette": [
+    "crusader-class-flak-corvette-scum-nexus"
+  ],
+  "Crusader-class": [
+    "crusader-class-flak-corvette-scum-nexus",
+    "crusader-class-support-corvette-scum-nexus"
+  ],
+  "Crusader-class Corvettes": [
+    "crusader-class-flak-corvette-scum-nexus",
+    "crusader-class-support-corvette-scum-nexus"
+  ],
+  "Crusader-class Corvette": [
+    "crusader-class-flak-corvette-scum-nexus",
+    "crusader-class-support-corvette-scum-nexus"
+  ],
+  "Crusader-class Support Corvette {Scum}": [
+    "crusader-class-support-corvette-scum-nexus"
+  ],
+  "Crusader-class Support Corvette": [
+    "crusader-class-support-corvette-scum-nexus"
+  ],
   "Interceptor IV-class Attack Frigate {Scum}": [
     "interceptor-iv-class-attack-frigate-scum-nexus"
   ],
@@ -6185,6 +6334,52 @@
   ],
   "Missile Frigate": [
     "interceptor-iv-class-missile-frigate-scum-nexus"
+  ],
+  "Kandosii-type Carrier {Scum}": [
+    "kandosii-carrier-scum-nexus"
+  ],
+  "Kandosii Carrier": [
+    "kandosii-carrier-scum-nexus"
+  ],
+  "Kandosii": [
+    "kandosii-carrier-scum-nexus"
+  ],
+  "Kandosii Carriers": [
+    "kandosii-carrier-scum-nexus"
+  ],
+  "Kandosii-type Battlecarrier {Scum}": [
+    "kandosii-battlecarrier-scum-nexus"
+  ],
+  "Kandosii Battle Carrier": [
+    "kandosii-battlecarrier-scum-nexus"
+  ],
+  "Kandosii Battle Carriers": [
+    "kandosii-battlecarrier-scum-nexus"
+  ],
+  "Kandosii Battlecarrier": [
+    "kandosii-battlecarrier-scum-nexus"
+  ],
+  "Keldabe-class Cruiser {Scum}": [
+    "keldabe-cruiser-scum-nexus"
+  ],
+  "Keldabe Cruiser": [
+    "keldabe-cruiser-scum-nexus"
+  ],
+  "Keldabe": [
+    "keldabe-cruiser-scum-nexus",
+    "keldabe-battleship-scum-nexus"
+  ],
+  "Keldabe Cruisers": [
+    "keldabe-cruiser-scum-nexus"
+  ],
+  "Keldabe-class Battleship {Scum}": [
+    "keldabe-battleship-scum-nexus"
+  ],
+  "Keldabe Battleship": [
+    "keldabe-battleship-scum-nexus"
+  ],
+  "Keldabe Battleships": [
+    "keldabe-battleship-scum-nexus"
   ],
   "Marauder Artillery Corvette {Scum}": [
     "marauder-artillery-corvette-scum-nexus"
@@ -6302,13 +6497,34 @@
   "Hondo Ohnaka {Scum}": [
     "hondo-ohnaka-commander-scum-nexus"
   ],
+  "Jerid Sykes {Scum}": [
+    "jerid-sykes-commander-scum-nexus"
+  ],
+  "Jerid Sykes": [
+    "jerid-sykes-commander-scum-nexus"
+  ],
+  "Sykes": [
+    "jerid-sykes-commander-scum-nexus"
+  ],
+  "Pre Vizsla {Scum}": [
+    "pre-vizsla-commander-scum-nexus"
+  ],
+  "Pre Vizsla": [
+    "pre-vizsla-commander-scum-nexus"
+  ],
+  "Vizsla": [
+    "pre-vizsla-commander-scum-nexus"
+  ],
   "Prince Xizor {Scum}": [
     "prince-xizor-commander-scum-nexus"
   ],
   "Prince Xizor": [
     "prince-xizor-commander-scum-nexus"
   ],
-  "Smugglers Cache {Scum}": [
+  "Tyber Zann {Scum}": [
+    "tyber-zann-commander-scum-nexus"
+  ],
+  "Smuggler's Cache {Scum}": [
     "smugglers-cache-scum-nexus"
   ],
   "Smugglers Cache": [
@@ -6316,6 +6532,27 @@
   ],
   "SC": [
     "smugglers-cache-scum-nexus"
+  ],
+  "The Big Score {Scum}": [
+    "the-big-score-scum-nexus"
+  ],
+  "The Big Score": [
+    "the-big-score-scum-nexus"
+  ],
+  "Big Score": [
+    "the-big-score-scum-nexus"
+  ],
+  "TBS": [
+    "the-big-score-scum-nexus"
+  ],
+  "Ambush {Scum}": [
+    "ambush-scum-nexus"
+  ],
+  "Ambush": [
+    "ambush-scum-nexus"
+  ],
+  "Ambushes": [
+    "ambush-scum-nexus"
   ],
   "Boarding Grapples {Scum}": [
     "boarding-grapples-scum-nexus"
@@ -6325,6 +6562,15 @@
   ],
   "BG": [
     "boarding-grapples-scum-nexus"
+  ],
+  "Shield Leecher {Scum}": [
+    "shield-leecher-scum-nexus"
+  ],
+  "Shield Leecher": [
+    "shield-leecher-scum-nexus"
+  ],
+  "Shield Leechers": [
+    "shield-leecher-scum-nexus"
   ],
   "Jiro {Scum}": [
     "jiro-officer-scum-nexus"
@@ -6338,11 +6584,50 @@
   "Savage Oppress": [
     "savage-oppress-officer-scum-nexus"
   ],
+  "Silri {Scum}": [
+    "silri-officer-scum-nexus"
+  ],
+  "Silri": [
+    "silri-officer-scum-nexus"
+  ],
+  "Urai Fen {Scum}": [
+    "urai-fen-officer-scum-nexus"
+  ],
+  "Urai Fen": [
+    "urai-fen-officer-scum-nexus"
+  ],
+  "Urai": [
+    "urai-fen-officer-scum-nexus"
+  ],
   "Ziton Moj {Scum}": [
     "ziton-moj-officer-scum-nexus"
   ],
   "Ziton Moj": [
     "ziton-moj-officer-scum-nexus"
+  ],
+  "Super-Heavy Concussion Missiles {Scum}": [
+    "super-heavy-concussion-missiles-scum-nexus"
+  ],
+  "SHCM": [
+    "super-heavy-concussion-missiles-scum-nexus"
+  ],
+  "SHCMs": [
+    "super-heavy-concussion-missiles-scum-nexus"
+  ],
+  "SHCMs {Scum}": [
+    "super-heavy-concussion-missiles-scum-nexus"
+  ],
+  "SHCM {Scum}": [
+    "super-heavy-concussion-missiles-scum-nexus"
+  ],
+  "Super Heavy Concussion Missiles": [
+    "super-heavy-concussion-missiles-scum-nexus"
+  ],
+  "Super Heavy": [
+    "super-heavy-concussion-missiles-scum-nexus"
+  ],
+  "Concussion Missiles": [
+    "super-heavy-concussion-missiles-scum-nexus"
   ],
   "Pirate Crew {Scum}": [
     "pirate-crew-scum-nexus"
@@ -6371,6 +6656,24 @@
   "Wild": [
     "wild-karrde-title-scum-nexus"
   ],
+  "Di'Kut {Scum}": [
+    "dikut-title-scum-nexus"
+  ],
+  "Di'Kut": [
+    "dikut-title-scum-nexus"
+  ],
+  "Di'Kuts": [
+    "dikut-title-scum-nexus"
+  ],
+  "A'Den {Scum}": [
+    "aden-title-scum-nexus"
+  ],
+  "A'Den": [
+    "aden-title-scum-nexus"
+  ],
+  "A'Dens": [
+    "aden-title-scum-nexus"
+  ],
   "Flatline {Scum}": [
     "flatline-title-scum-nexus"
   ],
@@ -6388,6 +6691,39 @@
   ],
   "Poison": [
     "poison-moon-title-scum-nexus"
+  ],
+  "Gratua {Scum}": [
+    "gratua-title-scum-nexus"
+  ],
+  "Gratua": [
+    "gratua-title-scum-nexus"
+  ],
+  "Gratuas": [
+    "gratua-title-scum-nexus"
+  ],
+  "Parjai IV {Scum}": [
+    "parjai-iv-title-scum-nexus"
+  ],
+  "Parjai IV": [
+    "parjai-iv-title-scum-nexus"
+  ],
+  "Parjai": [
+    "parjai-iv-title-scum-nexus"
+  ],
+  "Anvil {Scum}": [
+    "anvil-title-scum-nexus"
+  ],
+  "Anvil": [
+    "anvil-title-scum-nexus"
+  ],
+  "Anvils": [
+    "anvil-title-scum-nexus"
+  ],
+  "End of Days {Scum}": [
+    "end-of-days-title-scum-nexus"
+  ],
+  "End of Days": [
+    "end-of-days-title-scum-nexus"
   ],
   "Charybdis {Scum}": [
     "charybdis-title-scum-nexus"
@@ -6428,6 +6764,9 @@
   "Omze's": [
     "omzes-incredible-traveling-starport-title-scum-nexus"
   ],
+  "Tibanna Disruptors {Scum}": [
+    "tibanna-disruptors-scum-nexus"
+  ],
   "Tibanna Disruptors": [
     "tibanna-disruptors-scum-nexus"
   ],
@@ -6436,6 +6775,12 @@
   ],
   "TD": [
     "tibanna-disruptors-scum-nexus"
+  ],
+  "Gun Captains {Scum}": [
+    "gun-captains-scum-nexus"
+  ],
+  "Gun Captains": [
+    "gun-captains-scum-nexus"
   ],
   "Ion Pulse Emitter": [
     "ion-pulse-emitter-nexus"

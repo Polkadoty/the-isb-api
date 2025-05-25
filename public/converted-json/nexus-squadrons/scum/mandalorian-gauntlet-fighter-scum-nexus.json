@@ -1,0 +1,209 @@
+{
+  "squadrons": {
+    "mandalorian-gauntlet-fighter-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "nicknames": [
+        "Gauntlet",
+        "Gauntlets",
+        "Mandalorian Gauntlet"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          0,
+          2,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "ace": false,
+      "points": 18,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/mandalorian-gauntlet-fighter-scum-nexus.webp"
+    },
+    "death-watch-mandalorian-gauntlet-fighter": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "nicknames": [
+        "Death Watch"
+      ],
+      "ace-name": "Death Watch",
+      "unique-class": [
+        "Death Watch"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          3,
+          0
+        ],
+        "anti-ship": [
+          0,
+          1,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 20,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/death-watch-mandalorian-gauntlet-fighter.webp"
+    },
+    "bo-katan-kryze-mandalorian-gauntlet-fighter-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "mandalorian-gauntlet-fighter",
+      "name": "Mandalorian Gauntlet Fighter",
+      "nicknames": [
+        "Bo-Katan",
+        "Bo-Katan Kryze",
+        "Mandalorian Gauntlet (Bo-Katan Kryze)"
+      ],
+      "ace-name": "Bo-Katan Kryze",
+      "unique-class": [
+        "Bo-Katan Kryze"
+      ],
+      "irregular": true,
+      "hull": 7,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          1
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": true,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": true,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "While attacking, if you are touching the defender's base, you may reroll up to 2 dice.",
+      "unique": true,
+      "ace": true,
+      "points": 21,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/bo-katan-kryze-mandalorian-gauntlet-fighter-scum-nexus.webp"
+    }
+  }
+}

@@ -1,26 +1,26 @@
 {
   "upgrades": {
-    "tibanna-disruptors-scum-nexus": {
+    "ambush-scum-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
-      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
       "expansion": "Armada Nexus",
       "_id": null,
-      "type": "turbolaser",
+      "type": "offensive-retro",
       "faction": [
         "scum"
       ],
-      "name": "Tibanna Disruptors {Scum}",
+      "name": "Ambush {Scum}",
       "nicknames": [
-        "Tibanna Disruptors", "Tibanna", "TD"
+        "Ambush", "Ambush {Scum}", "Ambushes", "Ambushes"
       ],
       "unique-class": [
         ""
       ],
-      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
+      "ability": "While deploying fleets, you may deploy a number of your friendly squadrons up to your squadron value within distance 1 of obstacles. Squadrons must be placed beyond distance 1-5 of all enemy ships and squadrons, and beyond distance 1-5 of the opponent's board edge.",
       "unique": false,
-      "points": 5,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -53,7 +53,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+      "cardimage": "https://api.swarmada.wiki/images/ambush-scum-nexus.webp"
     }
   }
 }

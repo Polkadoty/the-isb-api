@@ -1,0 +1,59 @@
+{
+  "upgrades": {
+    "super-heavy-concussion-missiles-scum-nexus": {
+      "author": "Armada Nexus",
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "ordnance",
+      "faction": [
+        "scum"
+      ],
+      "name": "Super-Heavy Concussion Missiles {Scum}",
+      "nicknames": [
+        "SHCM", "SHCMs", "SHCMs {Scum}", "SHCM {Scum}", "Super Heavy Concussion Missiles", "Super Heavy", "Concussion Missiles"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*Modification* *Mandalorian only.* *Non-small ship only.*\n**Ignition[Medium]**\nYour printed squadron value is reduced by 2 to a minimum of 1. Each of your front, left, or right arcs is also a special firing arc. You have a special black battery armament of 4 black dice. After you place your targeting token, exhaust this card. While this card is exhausted, you cannot place targeting tokens.",
+      "unique": false,
+      "points": 6,
+      "modification": true,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "mandalorian"
+        ],
+        "size": [
+          "medium", "large", "huge", "280-huge"
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "non-recur",
+        "ready_token": [
+          "con-fire"
+        ],
+        "ready_amount": 1
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/super-heavy-concussion-missiles-scum-nexus.webp"
+    }
+  }
+}

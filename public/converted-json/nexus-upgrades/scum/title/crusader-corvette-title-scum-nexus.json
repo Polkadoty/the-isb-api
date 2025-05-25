@@ -1,0 +1,120 @@
+{
+    "upgrades": {
+        "dikut-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 2",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "Di'Kut {Scum}",
+            "nicknames": [
+                "Di'Kut", "Di'Kut {Scum}", "Di'Kuts", "Di'Kuts"
+            ],
+            "unique-class": [
+                "Di'Kut"
+            ],
+            "ability": "After you resolve a command dial, you may exhaust this card to gain a token matching that command dial.",
+            "unique": true,
+            "points": 4,
+            "modification": false,
+            "bound_shiptype": "crusader-corvette-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/dikut-title-scum-nexus.webp"
+        },
+        "aden-title-scum-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus Scum and Villainy Wave 2",
+            "expansion": "Armada Nexus",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "scum"
+            ],
+            "name": "A'Den {Scum}",
+            "nicknames": [
+                "A'Den", "A'Den {Scum}", "A'Dens", "A'Dens"
+            ],
+            "unique-class": [
+                "A'Den"
+            ],
+            "ability": "Your squadron value is increased by 1. You cannot equip :ioncannon: upgrades.",
+            "unique": true,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "crusader-corvette-scum-nexus",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    "ion-cannon"
+                ],
+                "disable_upgrades": [
+                    "ion-cannon"
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/aden-title-scum-nexus.webp"
+        }
+    }
+}

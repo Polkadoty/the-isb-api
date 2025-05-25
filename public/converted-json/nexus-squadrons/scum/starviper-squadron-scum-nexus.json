@@ -1,0 +1,292 @@
+{
+  "squadrons": {
+    "starviper-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "starviper-squadron-scum-nexus",
+      "name": "StarViper Squadron {Scum}",
+      "nicknames": [
+        "Starviper Squadron",
+        "Starviper",
+        "Starviper Fighter",
+        "Starviper Fighter Squadron"
+      ],
+      "ace-name": "",
+      "unique-class": [
+        ""
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": false,
+      "points": 14,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/starviper-squadron-scum-nexus.webp"
+    },
+    "tyber-zann-twilek-dancer-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "starviper-squadron-scum-nexus",
+      "name": "Twilek Dancer {Scum}",
+      "nicknames": [
+        "Twilek Dancer",
+        "Twilek",
+        "Twilek Dancer Squadron",
+        "Twilek Dancer Fighter", "Zann"
+      ],
+      "ace-name": "Tyber Zann",
+      "unique-class": [
+        "Tyber Zann"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 1,
+        "def_brace": 1
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 2,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "When activated by a squadron command, you may place 1 proximity mine at distance 1 of you. If you do, you may not move or attack this activation. This mine must be placed beyond distance 1-2 of enemy ships.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/tyber-zann-twilek-dancer-scum-nexus.webp"
+    },
+    "guri-virago-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "starviper-squadron-scum-nexus",
+      "name": "Virago {Scum}",
+      "nicknames": [
+        "Virago",
+        "Virago Squadron",
+        "Virago Squadron",
+        "Virago Fighter", "Guri"
+      ],
+      "ace-name": "Guri",
+      "unique-class": [
+        "Guri"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 2
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "At the start of the squadron phase, you may activate as if activated by a :squadron: command. While at distance 1 of only 1 enemy squadron, you gain **Adept 2**.",
+      "unique": true,
+      "ace": true,
+      "points": 22,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/guri-virago-scum-nexus.webp"
+    },
+    "black-sun-assassin-starviper-squadron-scum-nexus": {
+      "author": [
+        "Armada Nexus"
+      ],
+      "alias": "Nexus",
+      "team": "Armada Nexus",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
+      "expansion": "Armada Nexus",
+      "_id": null,
+      "type": "squadron",
+      "faction": "scum",
+      "squadron_type": "starviper-squadron-scum-nexus",
+      "name": "Black Sun Assassin {Scum}",
+      "nicknames": [
+        "Black Sun Assassin",
+        "Starviper Squadron",
+        "Starviper",
+        "Starviper Fighter",
+        "Starviper Fighter Squadron"
+      ],
+      "ace-name": "Black Sun Assassin",
+      "unique-class": [
+        "Black Sun Assassin"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 4,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/black-sun-assassin-starviper-squadron-scum-nexus.webp"
+    }
+  }
+}

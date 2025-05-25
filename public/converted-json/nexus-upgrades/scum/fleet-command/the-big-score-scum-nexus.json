@@ -1,26 +1,26 @@
 {
   "upgrades": {
-    "tibanna-disruptors-scum-nexus": {
+    "the-big-score-scum-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
-      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
       "expansion": "Armada Nexus",
       "_id": null,
-      "type": "turbolaser",
+      "type": "fleet-command",
       "faction": [
         "scum"
       ],
-      "name": "Tibanna Disruptors {Scum}",
+      "name": "The Big Score {Scum}",
       "nicknames": [
-        "Tibanna Disruptors", "Tibanna", "TD"
+        "The Big Score", "The Big Score {Scum}", "The Big Score {Scum}", "The Big Score", "Big Score", "TBS"
       ],
       "unique-class": [
-        ""
+        "The Big Score"
       ],
-      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
-      "unique": false,
-      "points": 5,
+      "ability": "While defending, after rolling dice, if there are two or more dice in the attack pool, the attacker must choose and cancel 1 die with a :hit: or :crit: icon on its face, if able.\nWhen an enemy ship at close range reveals a command, it may discard a :squadron: dial or token to discard this card and deal you two face-down damage cards.",
+      "unique": true,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -53,7 +53,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+      "cardimage": "https://api.swarmada.wiki/images/the-big-score-scum-nexus.webp"
     }
   }
 }

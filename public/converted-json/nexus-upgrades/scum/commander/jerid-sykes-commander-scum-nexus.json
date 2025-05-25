@@ -1,26 +1,28 @@
 {
   "upgrades": {
-    "tibanna-disruptors-scum-nexus": {
+    "jerid-sykes-commander-scum-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
-      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
       "expansion": "Armada Nexus",
       "_id": null,
-      "type": "turbolaser",
+      "type": "commander",
       "faction": [
         "scum"
       ],
-      "name": "Tibanna Disruptors {Scum}",
+      "name": "Jerid Sykes {Scum}",
       "nicknames": [
-        "Tibanna Disruptors", "Tibanna", "TD"
+        "Jerid Sykes", 
+        "Jerid Sykes {Scum}", 
+        "Sykes"
       ],
       "unique-class": [
-        ""
+        "Jerid Sykes"
       ],
-      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
-      "unique": false,
-      "points": 5,
+      "ability": "When a friendly squadron begins its activation at distance 1-2 of a friendly ship, it gains **Rogue** until the end of its activation.",
+      "unique": true,
+      "points": 28,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -34,6 +36,9 @@
           ""
         ],
         "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -53,7 +58,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+      "cardimage": "https://api.swarmada.wiki/images/jerid-sykes-commander-scum-nexus.webp"
     }
   }
 }

@@ -1,26 +1,29 @@
 {
   "upgrades": {
-    "tibanna-disruptors-scum-nexus": {
+    "pre-vizsla-commander-scum-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
-      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
       "expansion": "Armada Nexus",
       "_id": null,
-      "type": "turbolaser",
+      "type": "commander",
       "faction": [
         "scum"
       ],
-      "name": "Tibanna Disruptors {Scum}",
+      "name": "Pre Vizsla {Scum}",
       "nicknames": [
-        "Tibanna Disruptors", "Tibanna", "TD"
+        "Pre Vizsla", 
+        "Pre Vizsla {Scum}", 
+        "Death Watch", 
+        "Vizsla"
       ],
       "unique-class": [
-        ""
+        "Pre Vizsla"
       ],
-      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
-      "unique": false,
-      "points": 5,
+      "ability": "While attacking a ship, a friendly ship may add 1 die of any color to its attack pool. If it does, choose and cancel 1 die.\nIf that ship has the tag *Mandalorian*, do not cancel any dice instead.",
+      "unique": true,
+      "points": 34,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -34,6 +37,9 @@
           ""
         ],
         "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -53,7 +59,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+      "cardimage": "https://api.swarmada.wiki/images/pre-vizsla-commander-scum-nexus.webp"
     }
   }
 }

@@ -1,0 +1,125 @@
+{
+  "ships": {
+      "crusader-class-corvette-scum-nexus": {
+          "_id": null,
+          "type": "chassis",
+          "chassis_name": "crusader-class-corvette-scum-nexus",
+          "size": "small",
+          "hull": 4,
+          "speed": {
+              "1": [2],
+              "2": [1, 2],
+              "3": [2, 1, 1],
+              "4": [2, 0, 1, 1]
+          },
+          "shields": {
+              "front": 2,
+              "rear": 1,
+              "left": 2,
+              "right": 2,
+              "left_aux": 0,
+              "right_aux": 0
+          },
+          "hull_zones": {
+              "frontoffset": 0,
+              "centeroffset": 0,
+              "rearoffset": 0,
+              "frontangle": 0,
+              "centerangle": 0,
+              "rearangle": 0
+          },
+          "silhouette": "",
+          "blueprint": "",
+          "models": {
+              "crusader-class-flak-corvette-scum-nexus": {
+                  "author": "Armada Nexus",
+                  "alias": "Nexus",
+                  "team": "Armada Nexus",
+                  "release": "Armada Nexus Scum and Villainy Wave 2",
+                  "expansion": "Armada Nexus",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "crusader-class-corvette-scum-nexus",
+                  "name": "Crusader-class Flak Corvette {Scum}",
+                  "nicknames": [
+                    "Crusader-class Flak Corvette", "Crusader-class", "Crusader-class Corvettes", "Crusader-class Corvette"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["mandalorian", "zann"],
+                  "points": 43,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 2,
+                      "def_brace": 0,
+                      "def_redirect": 1,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 1,
+                      "squadron": 2,
+                      "engineer": 2
+                  },
+                  "upgrades": ["commander", "officer", "support-team", "defensive-retro", "offensive-retro", "turbolaser","title"],
+                  "armament": {
+                      "asa": [0, 2, 0],
+                      "front": [1, 2, 0],
+                      "rear": [0, 1, 0],
+                      "left": [0, 2, 0],
+                      "right": [0, 2, 0],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/crusader-class-flak-corvette-scum-nexus.webp"
+              },
+              "crusader-class-support-corvette-scum-nexus": {
+                  "author": "Armada Nexus",
+                  "alias": "Nexus",
+                  "team": "Armada Nexus",
+                  "release": "Armada Nexus Scum and Villainy Wave 2",
+                  "expansion": "Armada Nexus",
+                  "_id": null,
+                  "type": "ship",
+                  "chassis": "crusader-class-corvette-scum-nexus",
+                  "name": "Crusader-class Support Corvette {Scum}",
+                  "nicknames": [
+                    "Crusader-class Support Corvette", "Crusader-class", "Crusader-class Corvettes", "Crusader-class Corvette"
+                  ],
+                  "faction": "scum",
+                  "unique": false,
+                  "traits": ["mandalorian", "zann"],
+                  "points": 42,
+                  "tokens": {
+                      "def_scatter": 0,
+                      "def_evade": 2,
+                      "def_brace": 0,
+                      "def_redirect": 1,
+                      "def_contain": 0,
+                      "def_salvo": 0
+                  },
+                  "values": {
+                      "command": 1,
+                      "squadron": 2,
+                      "engineer": 2
+                  },
+                  "upgrades": ["commander","officer", "support-team", "fleet-support", "offensive-retro", "ion-cannon", "title"],
+                  "armament": {
+                      "asa": [0, 1, 1],
+                      "front": [0, 2, 1],
+                      "rear": [0, 1, 0],
+                      "left": [0, 1, 1],
+                      "right": [0, 1, 1],
+                      "left_aux": [0, 0, 0],
+                      "right_aux": [0, 0, 0],
+                      "special": [0, 0, 0]
+                  },
+                  "artwork": "",
+                  "cardimage": "https://api.swarmada.wiki/images/crusader-class-support-corvette-scum-nexus.webp"
+              }
+          }
+      }
+  }
+}

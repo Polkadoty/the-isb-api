@@ -1,26 +1,28 @@
 {
   "upgrades": {
-    "tibanna-disruptors-scum-nexus": {
+    "urai-fen-officer-scum-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
-      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
       "expansion": "Armada Nexus",
       "_id": null,
-      "type": "turbolaser",
+      "type": "officer",
       "faction": [
         "scum"
       ],
-      "name": "Tibanna Disruptors {Scum}",
+      "name": "Urai Fen {Scum}",
       "nicknames": [
-        "Tibanna Disruptors", "Tibanna", "TD"
+        "Urai Fen", 
+        "Urai Fen {Scum}", 
+        "Urai"
       ],
       "unique-class": [
-        ""
+        "Urai Fen"
       ],
-      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
-      "unique": false,
-      "points": 5,
+      "ability": "When a friendly squadron at distance 1-5 would suffer damage other than from an attack, you may discard a token from this card to reduce the damage total by 1.",
+      "unique": true,
+      "points": 3,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -34,6 +36,9 @@
           ""
         ],
         "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -53,7 +58,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+      "cardimage": "https://api.swarmada.wiki/images/urai-fen-officer-scum-nexus.webp"
     }
   }
 }

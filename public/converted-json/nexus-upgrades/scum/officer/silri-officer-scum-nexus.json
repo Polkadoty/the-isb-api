@@ -1,26 +1,28 @@
 {
   "upgrades": {
-    "tibanna-disruptors-scum-nexus": {
+    "silri-officer-scum-nexus": {
       "author": "Armada Nexus",
       "alias": "Nexus",
       "team": "Armada Nexus",
-      "release": "Armada Nexus Scum and Villainy Wave 1",
+      "release": "Armada Nexus Scum and Villainy Wave 2",
       "expansion": "Armada Nexus",
       "_id": null,
-      "type": "turbolaser",
+      "type": "officer",
       "faction": [
         "scum"
       ],
-      "name": "Tibanna Disruptors {Scum}",
+      "name": "Silri {Scum}",
       "nicknames": [
-        "Tibanna Disruptors", "Tibanna", "TD"
+        "Silri", 
+        "Silri {Scum}", 
+        "Silri"
       ],
       "unique-class": [
-        ""
+        "Silri"
       ],
-      "ability": "**RED :crit:**: Look at the top 2 damage cards of the defender's damage deck. Deal 1 of them faceup to the defender and discard the other. Then suffer 2 damage.",
-      "unique": false,
-      "points": 5,
+      "ability": "After a ship at distance 1-5 gains a raid token, you may exhaust this card. If you do, that ship gains 1 additional raid token of its choice.",
+      "unique": true,
+      "points": 2,
       "modification": false,
       "bound_shiptype": "",
       "restrictions": {
@@ -34,6 +36,9 @@
           ""
         ],
         "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
           ""
         ],
         "flagship": false
@@ -53,7 +58,7 @@
         "ready_amount": 0
       },
       "artwork": "",
-      "cardimage": "https://api.swarmada.wiki/images/tibanna-disruptors-scum-nexus.webp"
+      "cardimage": "https://api.swarmada.wiki/images/silri-officer-scum-nexus.webp"
     }
   }
 }
