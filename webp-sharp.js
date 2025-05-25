@@ -1,6 +1,6 @@
-import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
+import sharp from 'sharp';
 
 const inputFolder = process.argv[2];
 const outputFolder = process.argv[3];
@@ -15,30 +15,25 @@ if (!fs.existsSync(outputFolder)) {
   fs.mkdirSync(outputFolder, { recursive: true });
 }
 
-function processFile(filePath, relativePath) {
-  return new Promise((resolve, reject) => {
-    const outputDir = path.join(outputFolder, path.dirname(relativePath));
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
-    }
-    const outputPath = path.join(outputDir, `${path.parse(filePath).name}.webp`);
-    const command = `squoosh-cli --webp quality=75 "${filePath}" -d "${outputDir}"`;
+async function processFile(filePath, relativePath) {
+  const outputDir = path.join(outputFolder, path.dirname(relativePath));
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+  const outputPath = path.join(outputDir, `${path.parse(filePath).name}.webp`);
 
-    exec(command, (error, stdout, stderr) => {
-      if (error) {
-        console.error(`Error processing ${filePath}:`, error);
-        reject(error);
-      } else {
-        console.log(`Converted ${filePath} to WebP at ${outputPath}`);
-        resolve();
-      }
-    });
-  });
+  try {
+    await sharp(filePath)
+      .webp({ quality: 75 })
+      .toFile(outputPath);
+    console.log(`Converted ${filePath} to WebP at ${outputPath}`);
+  } catch (error) {
+    console.error(`Error processing ${filePath}:`, error);
+  }
 }
 
 async function processDirectory(dir, baseDir = inputFolder) {
   const files = fs.readdirSync(dir);
-  const promises = [];
 
   for (const file of files) {
     const filePath = path.join(dir, file);
@@ -46,13 +41,11 @@ async function processDirectory(dir, baseDir = inputFolder) {
     const relativePath = path.relative(baseDir, filePath);
 
     if (stat.isDirectory()) {
-      promises.push(processDirectory(filePath, baseDir));
+      await processDirectory(filePath, baseDir);
     } else {
-      promises.push(processFile(filePath, relativePath));
+      await processFile(filePath, relativePath);
     }
   }
-
-  await Promise.all(promises);
 }
 
 // Function to remove empty directories
@@ -86,4 +79,4 @@ function removeEmptyDirectories(dir) {
   } catch (error) {
     console.error('An error occurred:', error);
   }
-})();
+})(); 

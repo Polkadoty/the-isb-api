@@ -10,6 +10,7 @@
     "build-data": "node start.js"
   },
   "dependencies": {
+    "@squoosh/cli": "^0.7.1",
     "@supabase/supabase-js": "^2.47.10",
     "blurhash": "^2.0.5",
     "compression": "^1.7.5",
