@@ -1,0 +1,133 @@
+{
+    "squadrons": {
+        "sheathipede-class-shuttle-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus June 2025 Dev Cycle",
+            "expansion": "Sheathipede Class Shuttle Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "sheathipede-class-shuttle-nexus",
+            "name": "Sheathipede Class Shuttle",
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": false,
+            "hull": 5,
+            "speed": 2,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 2,
+                "rogue": false,
+                "scout": false,
+                "screen": true,
+                "snipe": 0,
+                "strategic": true,
+                "swarm": false
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 15,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/sheathipede-class-shuttle-nexus.webp"
+        },
+        "kalani-sheathipede-class-shuttle-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Armada Nexus June 2025 Dev Cycle",
+            "expansion": "Sheathipede Class Shuttle Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "separatist",
+            "squadron_type": "sheathipede-class-shuttle-nexus",
+            "name": "Sheathipede Class Shuttle",
+            "ace-name": "Kalani",
+            "unique-class": [
+                "Kalani"
+            ],
+            "irregular": false,
+            "hull": 5,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 2
+            },
+            "armament": {
+                "anti-squadron": [
+                    0,
+                    1,
+                    1
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": false,
+                "intel": false,
+                "relay": 2,
+                "rogue": false,
+                "scout": false,
+                "screen": true,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": false
+            },
+            "ability": "At the start of the Squadron Phase, you may move up to distance 3 and toggle your activation slider to the activated side. If you do, the first 4 non-unique squadrons with **AI** that you activate at distance 1-2 of this squadron gain **Rogue** this phase.",
+            "unique": true,
+            "ace": true,
+            "unique_limit": 1,
+            "points": 24,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/kalani-sheathipede-class-shuttle-nexus.webp"
+        }
+    }
+}

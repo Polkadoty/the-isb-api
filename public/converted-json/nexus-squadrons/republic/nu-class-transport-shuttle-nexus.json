@@ -1,0 +1,140 @@
+{
+    "squadrons": {
+        "nu-class-transport-shuttle-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Nexus June Development Cycle",
+            "expansion": "Nu-Class Transport Shuttle Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "nu-class-transport-shuttle-nexus",
+            "name": "Nu-Class Transport Shuttle",
+            "nicknames": [
+                "Nu-Class", "Nu-Class Transport Shuttle", "Nu-Class Transport Shuttles", "Nu-Class Transport Shuttles Nexus", "Nu-Class Transport Shuttles Nexus Squadron", "Nu-Class Transport Shuttles Nexus Squadrons"
+            ],
+            "ace-name": "",
+            "unique-class": [
+                ""
+            ],
+            "irregular": false,
+            "hull": 7,
+            "speed": 2,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 0
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    1,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": false,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": false,
+                "heavy": true,
+                "intel": false,
+                "relay": true,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": true,
+                "swarm": true
+            },
+            "ability": "",
+            "unique": false,
+            "ace": false,
+            "points": 15,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/nu-class-transport-shuttle-nexus.webp"
+        },
+        "delta-squad-nu-class-transport-shuttle-nexus": {
+            "author": "Armada Nexus",
+            "alias": "Nexus",
+            "team": "Armada Nexus",
+            "release": "Nexus June Development Cycle",
+            "expansion": "Nu-Class Transport Shuttle Expansion",
+            "_id": null,
+            "type": "squadron",
+            "faction": "republic",
+            "squadron_type": "nu-class-transport-shuttle-nexus",
+            "name": "Nu-Class Transport Shuttle",
+            "nicknames": [
+                "Nu-Class", "Nu-Class Transport Shuttle", "Nu-Class Transport Shuttles", "Nu-Class Transport Shuttles Nexus", "Nu-Class Transport Shuttles Nexus Squadron", "Nu-Class Transport Shuttles Nexus Squadrons"
+            ],
+            "ace-name": "Delta Squad",
+            "unique-class": [
+                "Delta Squad"
+            ],
+            "irregular": false,
+            "hull": 7,
+            "speed": 3,
+            "tokens": {
+                "def_scatter": 0,
+                "def_evade": 0,
+                "def_brace": 1
+            },
+            "armament": {
+                "anti-squadron": [
+                    1,
+                    2,
+                    0
+                ],
+                "anti-ship": [
+                    0,
+                    2,
+                    0
+                ]
+            },
+            "abilities": {
+                "adept": 0,
+                "ai-battery": 0,
+                "ai-antisquadron": 0,
+                "assault": true,
+                "bomber": false,
+                "cloak": false,
+                "counter": 0,
+                "dodge": 0,
+                "escort": false,
+                "grit": true,
+                "heavy": true,
+                "intel": false,
+                "relay": false,
+                "rogue": false,
+                "scout": false,
+                "screen": false,
+                "snipe": 0,
+                "strategic": false,
+                "swarm": true
+            },
+            "ability": "When you assign a raid token, you may discard 1 matching command token from the defender. You are not prevented from attacking ships while engaged with 2 or fewer squadrons.",
+            "unique": true,
+            "ace": true,
+            "unique_limit": 1,
+            "points": 23,
+            "silhouette": "",
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/delta-squad-nu-class-transport-shuttle-nexus.webp"
+        }
+
+    }
+}

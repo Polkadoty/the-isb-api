@@ -24,7 +24,11 @@ async function processFile(filePath, relativePath) {
 
   try {
     await sharp(filePath)
-      .webp({ quality: 75 })
+      .webp({ 
+        quality: 85,
+        effort: 6,
+        smartSubsample: true
+      })
       .toFile(outputPath);
     console.log(`Converted ${filePath} to WebP at ${outputPath}`);
   } catch (error) {
