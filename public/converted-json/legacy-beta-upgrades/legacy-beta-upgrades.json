@@ -1,0 +1,932 @@
+{
+  "upgrades": {
+    "admiral-coburn-commander-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "e0fc9058-fd08-450c-9829-4b0de50e160d",
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Admiral Coburn",
+      "nicknames": [
+        "Coburn",
+        "Coburn Admiral",
+        "Admiral Coburn"
+      ],
+      "unique-class": [
+        "Admiral Coburn"
+      ],
+      "ability": "During the Determine Course step, if a friendly ship does not resolve a nav command this round and is at distance 1-2 of an enemy ship, an obstacle, or both, it may increase 1 yaw value by 1.",
+      "unique": true,
+      "points": 23,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/admiral-coburn-commander-legacy-beta.webp"
+    },
+    "poggle-the-lesser-commander-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "0b941d7b-d82f-4bbd-b6c3-9bdce7cb5899",
+      "type": "commander",
+      "faction": [
+        "republic"
+      ],
+      "name": "Poggle the Lesser",
+      "nicknames": [
+        "Poggle",
+        "Poggle the Lesser"
+      ],
+      "unique-class": [
+        "Poggle the Lesser"
+      ],
+      "ability": "During the Spend Defense Tokens step, friendly non-flotilla ships may choose 1 non-:scatter: defense token on another friendly ship at distance 1-3. If they do, and that token is not one of the defender's printed defense tokens, the defender may spend any defense token to instead resolve the effect of the chosen defense token.",
+      "unique": true,
+      "points": 32,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/poggle-the-lesser-commander-legacy-beta.webp"
+    },
+    "stellar-rise-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "1e4f9a8a-b8b0-4bbe-b437-96ce0dc73620",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Stellar Rise",
+      "nicknames": [
+        "Stellar Rise"
+      ],
+      "unique-class": [
+        "Stellar Rise"
+      ],
+      "ability": "You meet the requirement of 'Star Destroyer'. \nYou may not ready upgrade cards.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "enable_traits": [
+          "star-destroyer"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/stellar-rise-title-legacy-beta.webp"
+    },
+    "surrogator-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "e4f1e907-2c7f-42be-9e5b-8f17b1208468",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Surrogator",
+      "nicknames": [
+        "Surrogator"
+      ],
+      "unique-class": [
+        "Surrogator"
+      ],
+      "ability": "During your activation, you may exhaust this card and choose 1 enemy ship at close-medium range. If you do, that ship gains 1 raid token of your choice. If it already has a raid token, you may instead discard it. If you do, a number of friendly squadrons up to your squadron value at distance 1 of the chosen ship may move up to distance 1.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/surrogator-title-legacy-beta.webp"
+    },
+    "task-force-kenobi-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "a74394f3-c481-4490-9e85-87da0dc248f5",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Task Force Kenobi",
+      "nicknames": [
+        "Task Force Kenobi"
+      ],
+      "unique-class": [
+        "Task Force Kenobi"
+      ],
+      "ability": "When you are defending from an attack, during the Spend Defense Tokens step, you may choose and exhaust another copy of this card on another friendly ship at distance 1-X. If you do, gain 1 :redirect: token. At the end of the attack, discard 1 :redirect: token.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/task-force-kenobi-title-legacy-beta.webp"
+    },
+    "baktoid-combat-vessel-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "901b8af5-6c18-4aff-8f7f-22845ea22c8c",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Baktoid Combat Vessel",
+      "nicknames": [
+        "Baktoid Combat Vessel"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*Droid only.*\nAt the end of your activation, you may choose and exhaust another copy of this card on a friendly ship at distance 1-3. If you do, that ship may refresh one of its 'Droid' upgrade cards.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "droid"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/baktoid-combat-vessel-title-legacy-beta.webp"
+    },
+    "insatiable-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "106cccb8-6c11-4b4f-98d1-50b46fdf779d",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Insatiable",
+      "nicknames": [
+        "Insatiable"
+      ],
+      "unique-class": [
+        "Insatiable"
+      ],
+      "ability": ":squadron:: While a squadron you activate uses **AI:Battery**, you may suffer 1 damage to add a die of any color to the attack pool instead of a color already in the attack pool.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "gozanti-class-cis",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/insatiable-title-legacy-beta.webp"
+    },
+    "corsair-of-liberty-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "21e8c646-772a-42cf-a009-bb50e2af0ba9",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Corsair of Liberty",
+      "nicknames": [
+        "Corsair of Liberty"
+      ],
+      "unique-class": [
+        "Corsair of Liberty"
+      ],
+      "ability": "You gain 1 :support-team: icon in your upgrade bar.\nWhen a ship overlaps you, you may exhaust this card and suffer 1 damage instead of suffering a damage card. If you do, you must execute a speed 1 maneuver with yaw of '-'.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "gozanti-class-cis",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/corsair-of-liberty-title-legacy-beta.webp"
+    },
+    "battle-cruiser-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "46bf1d7c-c021-4f9b-8f95-a6817dcee7dc",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Battle Cruiser",
+      "nicknames": [
+        "Battle Cruiser"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*'Combat Refit only.'*\nYou gain 1 :turbolaser: icon in your upgrade bar.\nAfter you deploy, you may replace 1 of your defense tokens with a :salvo: token.",
+      "unique": false,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "interdictor-cruiser",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/battle-cruiser-title-legacy-beta.webp"
+    },
+    "nautilian-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "a0741a2f-fbd6-4018-9b2b-080f6e9dd76b",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Nautilian",
+      "nicknames": [
+        "Nautilian"
+      ],
+      "unique-class": [
+        "Nautilian"
+      ],
+      "ability": "Gain 1 :fleet-command: icon in your upgrade bar.\nWhen a friendly ship is choosing another copy of its non-unique :title: upgrade to exhaust, it may treat this card as if it were a copy of its :title: upgrade.\nWhen you activate, you may ready this card.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc80h-cruiser",
+      "restrictions": {
+        "traits": [
+          "command-cruiser"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nautilian-title-legacy-beta.webp"
+    },
+    "open-circle-fleet-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "172c5202-e900-4484-8aa2-b2ae548bf8ca",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Open Circle Fleet",
+      "nicknames": [
+        "Open Circle Fleet"
+      ],
+      "unique-class": [
+        ""
+      ],
+      "ability": "*Clone only.*\nWhile performing a maneuver, you may choose and exhaust a copy of this card on another friendly ship at distance 1-4 to increase 1 yaw value by 1.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "",
+      "restrictions": {
+        "traits": [
+          "clone"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/open-circle-fleet-title-legacy-beta.webp"
+    },
+    "kolivex-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "7c0de7e9-d191-4a00-9e9c-f22db0f4e815",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Kolivex",
+      "nicknames": [
+        "Kolivex"
+      ],
+      "unique-class": [
+        "Kolivex"
+      ],
+      "ability": "Your squadron value is increased by 1. You may not equip :ion-cannon: upgrades.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "pinnance-class-cruiser-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          "ion-cannon"
+        ],
+        "disable_upgrades": [
+          "ion-cannon"
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kolivex-title-legacy-beta.webp"
+    },
+    "petranaki-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "375d1d52-f97e-4853-b219-8ac9df7381ed",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Petranaki",
+      "nicknames": [
+        "Petranaki"
+      ],
+      "unique-class": [
+        "Petranaki"
+      ],
+      "ability": "This card begins the game exhausted.\nYour command value is increased by 1.\nBefore you reveal a command you may exhaust this card. If you do, discard your top command dial.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "pinnance-class-cruiser-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "non-recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/petranaki-title-legacy-beta.webp"
+    },
+    "rebel-one-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "550f57bf-2d77-41a5-a4a3-f21142b128a6",
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Rebel One",
+      "nicknames": [
+        "Rebel One"
+      ],
+      "unique-class": [
+        "Rebel One"
+      ],
+      "ability": "You may discard a :weapons-team: or :support-team: upgrade card equipped to this ship to spend a defense token an opponent targeted with an :accuracy:.\n:crit: You may discard this card. For each :crit: icon in your attack pool, you suffer 1 damage. Then an enemy ship at distance 1 suffers 1 damage for each :crit: icon.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "providence-class-rebel",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rebel-one-title-legacy-beta.webp"
+    },
+    "intrepid-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "8ccb239e-9b11-4022-8fc5-7ddf1ee5206b",
+      "type": "title",
+      "faction": [
+        "empire"
+      ],
+      "name": "Intrepid",
+      "nicknames": [
+        "Intrepid"
+      ],
+      "unique-class": [
+        "Intrepid"
+      ],
+      "ability": "*Modification*\nWhile attacking a ship, you may exhaust this card. If you do, you may discard up to 2 command tokens to add that number of blue dice to your attack pool.",
+      "unique": true,
+      "points": 7,
+      "modification": true,
+      "bound_shiptype": "venator-star-destroyer-empire",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/intrepid-title-legacy-beta.webp"
+    },
+    "arlionne-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "5970b3ac-17cb-4c62-b729-664cddb979d3",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Arlionne",
+      "nicknames": [
+        "Arlionne"
+      ],
+      "unique-class": [
+        "Arlionne"
+      ],
+      "ability": "**Red :crit:**: You may exhaust this card. If you do, the defender suffers 1 damage for each of your exhausted defense tokens.\nYou can resolve this critical effect during a :salvo: attack.",
+      "unique": true,
+      "points": 7,
+      "modification": false,
+      "bound_shiptype": "victory-star-destroyer-gar",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/arlionne-title-legacy-beta.webp"
+    }
+  }
+}

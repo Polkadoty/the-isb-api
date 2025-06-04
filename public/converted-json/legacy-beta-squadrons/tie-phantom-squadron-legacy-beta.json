@@ -1,0 +1,74 @@
+{
+  "squadrons": {
+    "shadow-squadron-tie-phantom-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-phantom-squadron",
+      "name": "TIE Phantom Squadron",
+      "nicknames": [
+        "Phantom",
+        "Phantoms",
+        "TIE Phantom",
+        "TIE Phantom Squadron"
+      ],
+      "ace-name": "Shadow Squadron",
+      "unique-class": [
+        "Shadow Squadron"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          3,
+          0
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/shadow-squadron-tie-phantom-squadron-legacy-beta.webp"
+    }
+  }
+}

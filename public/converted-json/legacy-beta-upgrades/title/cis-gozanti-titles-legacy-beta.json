@@ -1,0 +1,120 @@
+{
+    "upgrades": {
+        "insatiable-title-legacy-beta": {
+            "author": "Armada Legacy Beta",
+            "alias": "LegacyBeta",
+            "team": "Legacy Beta",
+            "release": "Legacy Beta",
+            "expansion": "Legacy Beta",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Insatiable",
+            "nicknames": [
+                "Insatiable"
+            ],
+            "unique-class": [
+                "Insatiable"
+            ],
+            "ability": ":squadron:: While a squadron you activate uses **AI:Battery**, you may suffer 1 damage to add a die of any color to the attack pool instead of a color already in the attack pool.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "gozanti-class-cis",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/insatiable-title-legacy-beta.webp"
+        },
+        "corsair-of-liberty-title-legacy-beta": {
+            "author": "Armada Legacy Beta",
+            "alias": "LegacyBeta",
+            "team": "Legacy Beta",
+            "release": "Legacy Beta",
+            "expansion": "Legacy Beta",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "separatist"
+            ],
+            "name": "Corsair of Liberty",
+            "nicknames": [
+                "Corsair of Liberty"
+            ],
+            "unique-class": [
+                "Corsair of Liberty"
+            ],
+            "ability": "You gain 1 :support-team: icon in your upgrade bar.\nWhen a ship overlaps you, you may exhaust this card and suffer 1 damage instead of suffering a damage card. If you do, you must execute a speed 1 maneuver with yaw of '-'.",
+            "unique": true,
+            "points": 3,
+            "modification": false,
+            "bound_shiptype": "gozanti-class-cis",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/corsair-of-liberty-title-legacy-beta.webp"
+        }
+    }
+}

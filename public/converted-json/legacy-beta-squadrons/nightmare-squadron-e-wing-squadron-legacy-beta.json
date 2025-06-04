@@ -1,0 +1,71 @@
+{
+  "squadrons": {
+    "nightmare-squadron-e-wing-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "e-wing-squadron",
+      "name": "E-wing Squadron",
+      "nicknames": [
+        "E-wings", "E-wing", "E-wing Squadron", "Nightmare Squadron"
+      ],
+      "ace-name": "Nightmare Squadron",
+      "unique-class": [
+        "Nightmare Squadron"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 3,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nightmare-squadron-e-wing-squadron-legacy-beta.webp"
+    }
+  }
+}

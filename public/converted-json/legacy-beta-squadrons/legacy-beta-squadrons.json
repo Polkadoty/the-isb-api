@@ -1,0 +1,286 @@
+{
+  "squadrons": {
+    "bandit-squadron-z-95-headhunter-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "2c83803a-16d2-4194-a510-3528712f12ae",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "z-95-headhunter-squadron",
+      "name": "Z-95 Headhunter Squadron",
+      "nicknames": [
+        "Z-95s",
+        "Z-95",
+        "Headhunters",
+        "Headhunter",
+        "Z-95",
+        "Bandit Squadron"
+      ],
+      "ace-name": "Bandit Squadron",
+      "unique-class": [
+        "Bandit Squadron"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          3
+        ],
+        "anti-ship": [
+          0,
+          0,
+          3
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 9,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/bandit-squadron-z-95-headhunter-squadron-legacy-beta.webp"
+    },
+    "nightmare-squadron-e-wing-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "6b8d0e51-f54d-498b-91e3-c0c3aa888c99",
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "e-wing-squadron",
+      "name": "E-wing Squadron",
+      "nicknames": [
+        "E-wings",
+        "E-wing",
+        "E-wing Squadron",
+        "Nightmare Squadron"
+      ],
+      "ace-name": "Nightmare Squadron",
+      "unique-class": [
+        "Nightmare Squadron"
+      ],
+      "irregular": false,
+      "hull": 5,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          4,
+          0
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 1,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 3,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nightmare-squadron-e-wing-squadron-legacy-beta.webp"
+    },
+    "dark-squadron-tie-defender-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "0dc73fbd-8c40-4919-aaf3-f22f9a99b5c6",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-defender-squadron",
+      "name": "TIE Defender Squadron",
+      "nicknames": [
+        "Defender",
+        "Defenders",
+        "TIE Defender",
+        "TIE Defender Squadron"
+      ],
+      "ace-name": "Dark Squadron",
+      "unique-class": [
+        "Dark Squadron"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dark-squadron-tie-defender-squadron-legacy-beta.webp"
+    },
+    "shadow-squadron-tie-phantom-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "aeedbd41-7edd-4226-82eb-6b8d392c07a8",
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-phantom-squadron",
+      "name": "TIE Phantom Squadron",
+      "nicknames": [
+        "Phantom",
+        "Phantoms",
+        "TIE Phantom",
+        "TIE Phantom Squadron"
+      ],
+      "ace-name": "Shadow Squadron",
+      "unique-class": [
+        "Shadow Squadron"
+      ],
+      "irregular": false,
+      "hull": 4,
+      "speed": 4,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          1,
+          3,
+          0
+        ],
+        "anti-ship": [
+          1,
+          1,
+          0
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": true,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": true,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 16,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/shadow-squadron-tie-phantom-squadron-legacy-beta.webp"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "nautilian-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Nautilian",
+      "nicknames": [
+        "Nautilian"
+      ],
+      "unique-class": [
+        "Nautilian"
+      ],
+      "ability": "Gain 1 :fleet-command: icon in your upgrade bar.\nWhen a friendly ship is choosing another copy of its non-unique :title: upgrade to exhaust, it may treat this card as if it were a copy of its :title: upgrade.\nWhen you activate, you may ready this card.",
+      "unique": true,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "mc80h-cruiser",
+      "restrictions": {
+        "traits": [
+          "command-cruiser"
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": true
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/nautilian-title-legacy-beta.webp"
+    }
+  }
+}

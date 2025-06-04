@@ -1,0 +1,181 @@
+{
+  "upgrades": {
+    "stellar-rise-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Stellar Rise",
+      "nicknames": [
+        "Stellar Rise"
+      ],
+      "unique-class": [
+        "Stellar Rise"
+      ],
+      "ability": "You meet the requirement of 'Star Destroyer'. \nYou may not ready upgrade cards.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "enable_traits": [
+          "star-destroyer"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/stellar-rise-title-legacy-beta.webp"
+    },
+    "surrogator-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Surrogator",
+      "nicknames": [
+        "Surrogator"
+      ],
+      "unique-class": [
+        "Surrogator"
+      ],
+      "ability": "During your activation, you may exhaust this card and choose 1 enemy ship at close-medium range. If you do, that ship gains 1 raid token of your choice. If it already has a raid token, you may instead discard it. If you do, a number of friendly squadrons up to your squadron value at distance 1 of the chosen ship may move up to distance 1.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/surrogator-title-legacy-beta.webp"
+    },
+    "task-force-kenobi-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Task Force Kenobi",
+      "nicknames": [
+        "Task Force Kenobi"
+      ],
+      "unique-class": [
+        "Task Force Kenobi"
+      ],
+      "ability": "When you are defending from an attack, during the Spend Defense Tokens step, you may choose and exhaust another copy of this card on another friendly ship at distance 1-X. If you do, gain 1 :redirect: token. At the end of the attack, discard 1 :redirect: token.",
+      "unique": false,
+      "points": 5,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/task-force-kenobi-title-legacy-beta.webp"
+    }
+  }
+}

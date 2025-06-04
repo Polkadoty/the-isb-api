@@ -1,0 +1,120 @@
+{
+  "upgrades": {
+    "kolivex-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Kolivex",
+      "nicknames": [
+        "Kolivex"
+      ],
+      "unique-class": [
+        "Kolivex"
+      ],
+      "ability": "Your squadron value is increased by 1. You may not equip :ion-cannon: upgrades.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "pinnance-class-cruiser-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          "ion-cannon"
+        ],
+        "disable_upgrades": [
+          "ion-cannon"
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kolivex-title-legacy-beta.webp"
+    },
+    "petranaki-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Petranaki",
+      "nicknames": [
+        "Petranaki"
+      ],
+      "unique-class": [
+        "Petranaki"
+      ],
+      "ability": "This card begins the game exhausted.\nYour command value is increased by 1.\nBefore you reveal a command you may exhaust this card. If you do, discard your top command dial.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "pinnance-class-cruiser-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "non-recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/petranaki-title-legacy-beta.webp"
+    }
+  }
+}

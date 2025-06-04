@@ -1,0 +1,74 @@
+{
+  "squadrons": {
+    "dark-squadron-tie-defender-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "squadron",
+      "faction": "empire",
+      "squadron_type": "tie-defender-squadron",
+      "name": "TIE Defender Squadron",
+      "nicknames": [
+        "Defender",
+        "Defenders",
+        "TIE Defender",
+        "TIE Defender Squadron"
+      ],
+      "ace-name": "Dark Squadron",
+      "unique-class": [
+        "Dark Squadron"
+      ],
+      "irregular": false,
+      "hull": 6,
+      "speed": 5,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          2,
+          2
+        ],
+        "anti-ship": [
+          0,
+          0,
+          1
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": false,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": true,
+        "heavy": false,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": true
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 17,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/dark-squadron-tie-defender-squadron-legacy-beta.webp"
+    }
+  }
+}

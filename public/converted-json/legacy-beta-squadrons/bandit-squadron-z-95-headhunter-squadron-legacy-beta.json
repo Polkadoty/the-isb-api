@@ -1,0 +1,71 @@
+{
+  "squadrons": {
+    "bandit-squadron-z-95-headhunter-squadron-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "squadron",
+      "faction": "rebel",
+      "squadron_type": "z-95-headhunter-squadron",
+      "name": "Z-95 Headhunter Squadron",
+      "nicknames": [
+        "Z-95s", "Z-95", "Headhunters", "Headhunter", "Z-95", "Bandit Squadron"
+      ],
+      "ace-name": "Bandit Squadron",
+      "unique-class": [
+        "Bandit Squadron"
+      ],
+      "irregular": false,
+      "hull": 3,
+      "speed": 3,
+      "tokens": {
+        "def_scatter": 0,
+        "def_evade": 0,
+        "def_brace": 0
+      },
+      "armament": {
+        "anti-squadron": [
+          0,
+          0,
+          3
+        ],
+        "anti-ship": [
+          0,
+          0,
+          3
+        ]
+      },
+      "abilities": {
+        "adept": 0,
+        "ai-battery": 0,
+        "ai-antisquadron": 0,
+        "assault": 0,
+        "bomber": false,
+        "cloak": false,
+        "counter": 0,
+        "dodge": 0,
+        "escort": false,
+        "grit": false,
+        "heavy": true,
+        "intel": false,
+        "relay": 0,
+        "rogue": false,
+        "scout": false,
+        "screen": false,
+        "snipe": 0,
+        "strategic": false,
+        "swarm": false
+      },
+      "ability": "",
+      "unique": true,
+      "ace": false,
+      "points": 9,
+      "silhouette": "",
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/bandit-squadron-z-95-headhunter-squadron-legacy-beta.webp"
+    }
+  }
+}

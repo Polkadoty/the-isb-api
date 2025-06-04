@@ -16,6 +16,9 @@ const directories = {
   'legends-upgrades': path.join(__dirname, 'public/converted-json/old-legends-upgrades'),
   'legacy-squadrons': path.join(__dirname, 'public/converted-json/legacy-squadrons'),
   'legacy-upgrades': path.join(__dirname, 'public/converted-json/legacy-upgrades'),
+  'legacy-beta-ships': path.join(__dirname, 'public/converted-json/legacy-beta-ships'),
+  'legacy-beta-squadrons': path.join(__dirname, 'public/converted-json/legacy-beta-squadrons'),
+  'legacy-beta-upgrades': path.join(__dirname, 'public/converted-json/legacy-beta-upgrades'),
   'old-legacy-ships': path.join(__dirname, 'public/converted-json/old-legacy-ships'),
   'old-legacy-squadrons': path.join(__dirname, 'public/converted-json/old-legacy-squadrons'),
   'old-legacy-upgrades': path.join(__dirname, 'public/converted-json/old-legacy-upgrades'),
@@ -113,6 +116,9 @@ function parseArgs() {
     'legacy-ships': args.includes('-legacy-ships'),
     'legacy-squadrons': args.includes('-legacy-squadrons'),
     'legacy-upgrades': args.includes('-legacy-upgrades'),
+    'legacy-beta-ships': args.includes('-legacy-beta-ships'),
+    'legacy-beta-squadrons': args.includes('-legacy-beta-squadrons'),
+    'legacy-beta-upgrades': args.includes('-legacy-beta-upgrades'),
     'legends-ships': args.includes('-legends-ships'),
     'legends-squadrons': args.includes('-legends-squadrons'),
     'legends-upgrades': args.includes('-legends-upgrades'),
@@ -152,5 +158,5 @@ Object.entries(directories).forEach(([key, directory]) => {
 
 // If no flags are provided, inform the user
 if (!Object.values(flags).some(Boolean)) {
-  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades, -arc-upgrades, -arc-ships, -arc-squadrons, -arc-objectives, -nexus-ships, -nexus-squadrons, -nexus-upgrades');
+  console.log('Please provide at least one flag: -all, -ships, -squadrons, -upgrades, -objectives, -legends-ships, -legends-squadrons, -legends-upgrades, -legacy-ships, -legacy-squadrons, -legacy-upgrades, -legacy-beta-ships, -legacy-beta-squadrons, -legacy-beta-upgrades, -old-legacy-ships, -old-legacy-squadrons, -old-legacy-upgrades, -arc-upgrades, -arc-ships, -arc-squadrons, -arc-objectives, -nexus-ships, -nexus-squadrons, -nexus-upgrades');
 }

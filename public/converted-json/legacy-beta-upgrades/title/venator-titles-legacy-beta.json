@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "intrepid-title-legacy-beta": {
+            "author": "Armada Legacy Beta",
+            "alias": "LegacyBeta",
+            "team": "Legacy Beta",
+            "release": "Legacy Beta",
+            "expansion": "Legacy Beta",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Intrepid",
+            "nicknames": [
+                "Intrepid"
+            ],
+            "unique-class": [
+                "Intrepid"
+            ],
+            "ability": "*Modification*\nWhile attacking a ship, you may exhaust this card. If you do, you may discard up to 2 command tokens to add that number of blue dice to your attack pool.",
+            "unique": true,
+            "points": 7,
+            "modification": true,
+            "bound_shiptype": "venator-star-destroyer-empire",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "recur",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/intrepid-title-legacy-beta.webp"
+        }
+    }
+}

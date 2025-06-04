@@ -1,0 +1,62 @@
+{
+    "upgrades": {
+        "battle-cruiser-title-legacy-beta": {
+            "author": "Armada Legacy Beta",
+            "alias": "LegacyBeta",
+            "team": "Legacy Beta",
+            "release": "Legacy Beta",
+            "expansion": "Legacy Beta",
+            "_id": null,
+            "type": "title",
+            "faction": [
+                "empire"
+            ],
+            "name": "Battle Cruiser",
+            "nicknames": [
+                "Battle Cruiser"
+            ],
+            "unique-class": [
+                ""
+            ],
+            "ability": "*'Combat Refit only.'*\nYou gain 1 :turbolaser: icon in your upgrade bar.\nAfter you deploy, you may replace 1 of your defense tokens with a :salvo: token.",
+            "unique": false,
+            "points": 2,
+            "modification": false,
+            "bound_shiptype": "interdictor-cruiser",
+            "restrictions": {
+                "traits": [
+                    ""
+                ],
+                "size": [
+                    ""
+                ],
+                "disqual_upgrades": [
+                    ""
+                ],
+                "disable_upgrades": [
+                    ""
+                ],
+                "enable_upgrades": [
+                    ""
+                ],
+                "flagship": false
+            },
+            "start_command": {
+                "type": "",
+                "start_icon": [
+                    ""
+                ],
+                "start_amount": 0
+            },
+            "exhaust": {
+                "type": "",
+                "ready_token": [
+                    ""
+                ],
+                "ready_amount": 0
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/battle-cruiser-title-legacy-beta.webp"
+        }
+    }
+}

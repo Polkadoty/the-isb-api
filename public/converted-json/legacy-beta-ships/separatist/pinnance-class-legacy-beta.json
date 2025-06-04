@@ -1,0 +1,221 @@
+{
+    "ships": {
+      "pinnance-class-legacy-beta": {
+        "_id": null,
+        "type": "chassis",
+        "chassis_name": "pinnance-class-legacy-beta",
+        "size": "small",
+        "hull": 5,
+        "speed": {
+          "1": [
+            2
+          ],
+          "2": [
+            2,
+            0
+          ],
+          "3": [
+            0,
+            2,
+            1
+          ],
+          "4": [
+            0,
+            2,
+            0,
+            1
+          ]
+        },
+        "shields": {
+          "front": 2,
+          "rear": 2,
+          "left": 2,
+          "right": 2,
+          "left_aux": 0,
+          "right_aux": 0
+        },
+        "hull_zones": {
+          "frontoffset": 0,
+          "centeroffset": 0,
+          "rearoffset": 0,
+          "frontangle": 0,
+          "centerangle": 0,
+          "rearangle": 0
+        },
+        "silhouette": "",
+        "blueprint": "",
+        "models": {
+          "pinnance-class-corsair-legacy-beta": {
+            "author": "Armada Legacy Beta",
+            "alias": "LegacyBeta",
+            "team": "Legacy Beta",
+            "release": "Legacy Beta",
+            "expansion": "Legacy Beta",
+            "_id": null,
+            "type": "ship",
+            "chassis": "pinnance-class-legacy-beta",
+            "name": "Pinnance-class Corsair",
+            "nicknames": [
+              "Pinnance",
+              "Pinnance Corsair"
+            ],
+            "faction": "separatist",
+            "unique": false,
+            "traits": [
+              ""
+            ],
+            "points": 41,
+            "tokens": {
+              "def_scatter": 0,
+              "def_evade": 1,
+              "def_brace": 0,
+              "def_redirect": 1,
+              "def_contain": 0,
+              "def_salvo": 1
+            },
+            "values": {
+              "command": 1,
+              "squadron": 1,
+              "engineer": 2
+            },
+            "upgrades": [
+              "commander",
+              "officer",
+              "defensive-retro",
+              "ordnance",
+              "title"
+            ],
+            "armament": {
+              "asa": [
+                0,
+                2,
+                0
+              ],
+              "front": [
+                0,
+                1,
+                1
+              ],
+              "rear": [
+                0,
+                1,
+                1
+              ],
+              "left": [
+                0,
+                2,
+                1
+              ],
+              "right": [
+                0,
+                2,
+                1
+              ],
+              "left_aux": [
+                0,
+                0,
+                0
+              ],
+              "right_aux": [
+                0,
+                0,
+                0
+              ],
+              "special": [
+                0,
+                0,
+                0
+              ]
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/pinnance-class-corsair-legacy-beta.webp"
+          },
+          "pinnance-class-corvette-legacy-beta": {
+            "author": "Armada Legacy Beta",
+            "alias": "LegacyBeta",
+            "team": "Legacy Beta",
+            "release": "Legacy Beta",
+            "expansion": "Legacy Beta",
+            "_id": null,
+            "type": "ship",
+            "chassis": "pinnance-class-legacy-beta",
+            "name": "Pinnance-class Corvette",
+            "nicknames": [
+              "Pinnance",
+              "Pinnance Corvette"
+            ],
+            "faction": "separatist",
+            "unique": false,
+            "traits": [
+              ""
+            ],
+            "points": 44,
+            "tokens": {
+              "def_scatter": 0,
+              "def_evade": 1,
+              "def_brace": 0,
+              "def_redirect": 1,
+              "def_contain": 0,
+              "def_salvo": 1
+            },
+            "values": {
+              "command": 1,
+              "squadron": 2,
+              "engineer": 2
+            },
+            "upgrades": [
+              "commander",
+              "officer",
+              "ion-cannon",
+              "turbolaser",
+              "title"
+            ],
+            "armament": {
+              "asa": [
+                1,
+                0,
+                0
+              ],
+              "front": [
+                1,
+                1,
+                0
+              ],
+              "rear": [
+                0,
+                2,
+                0
+              ],
+              "left": [
+                0,
+                3,
+                0
+              ],
+              "right": [
+                0,
+                3,
+                0
+              ],
+              "left_aux": [
+                0,
+                0,
+                0
+              ],
+              "right_aux": [
+                0,
+                0,
+                0
+              ],
+              "special": [
+                0,
+                0,
+                0
+              ]
+            },
+            "artwork": "",
+            "cardimage": "https://api.swarmada.wiki/images/pinnance-class-corvette-legacy-beta.webp"
+          }
+        }
+      }
+    }
+  }

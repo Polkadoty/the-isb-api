@@ -1,0 +1,62 @@
+{
+  "upgrades": {
+    "rebel-one-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": null,
+      "type": "title",
+      "faction": [
+        "rebel"
+      ],
+      "name": "Rebel One",
+      "nicknames": [
+        "Rebel One"
+      ],
+      "unique-class": [
+        "Rebel One"
+      ],
+      "ability": "You may discard a :weapons-team: or :support-team: upgrade card equipped to this ship to spend a defense token an opponent targeted with an :accuracy:.\n:crit: You may discard this card. For each :crit: icon in your attack pool, you suffer 1 damage. Then an enemy ship at distance 1 suffers 1 damage for each :crit: icon.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "providence-class-rebel",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/rebel-one-title-legacy-beta.webp"
+    }
+  }
+}
