@@ -1,7 +1,7 @@
 {
   "ships": {
     "arquitens-class-cruiser-republic-legacy-beta": {
-      "_id": "10b6db5f-8406-4d53-bcc3-9cea14a4a212",
+      "_id": "f9db381f-6d39-4e40-b4c8-50d71d291f40",
       "type": "chassis",
       "chassis_name": "arquitens-class-cruiser-republic-legacy-beta",
       "size": "small",
@@ -46,7 +46,7 @@
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "a35543d9-7d7a-4fcf-8ccf-9e842fd170a7",
+          "_id": "d26627da-6743-4440-b49c-78ffd5d90501",
           "type": "ship",
           "chassis": "arquitens-class-cruiser-republic-legacy-beta",
           "name": "Arquitens-class Assault Cruiser",
@@ -59,7 +59,7 @@
           "faction": "republic",
           "unique": false,
           "traits": [
-            ""
+            "clone"
           ],
           "points": 55,
           "tokens": {
@@ -134,7 +134,7 @@
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "5b884fb4-d336-46d8-9316-1c3fa7f7bbb0",
+          "_id": "99d628b5-837b-46c1-9254-e695f0b768e3",
           "type": "ship",
           "chassis": "arquitens-class-cruiser-republic-legacy-beta",
           "name": "Arquitens-class Escort Cruiser",
@@ -146,7 +146,7 @@
           "faction": "republic",
           "unique": false,
           "traits": [
-            ""
+            "clone"
           ],
           "points": 60,
           "tokens": {
@@ -217,7 +217,7 @@
       }
     },
     "pinnance-class-legacy-beta": {
-      "_id": "cf385e27-666c-4d28-8402-6fb2e5547430",
+      "_id": "6cab498a-ab51-4760-887f-9ae9f318933f",
       "type": "chassis",
       "chassis_name": "pinnance-class-legacy-beta",
       "size": "small",
@@ -267,7 +267,7 @@
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "365db0b1-9e99-49d2-a391-62ba221b3399",
+          "_id": "37c79849-5975-41ff-bcc3-9a9cb4308faf",
           "type": "ship",
           "chassis": "pinnance-class-legacy-beta",
           "name": "Pinnance-class Corsair",
@@ -352,7 +352,7 @@
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "2349c0b9-98f1-4f48-ba3d-7aeb0aa30ede",
+          "_id": "4e825a25-507b-4a09-b60a-a391341fe27a",
           "type": "ship",
           "chassis": "pinnance-class-legacy-beta",
           "name": "Pinnance-class Corvette",
