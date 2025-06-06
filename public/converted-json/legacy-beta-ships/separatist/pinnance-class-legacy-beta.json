@@ -1,9 +1,9 @@
 {
     "ships": {
-      "pinnance-class-legacy-beta": {
+      "pinnace-class-legacy-beta": {
         "_id": null,
         "type": "chassis",
-        "chassis_name": "pinnance-class-legacy-beta",
+        "chassis_name": "pinnace-class-legacy-beta",
         "size": "small",
         "hull": 5,
         "speed": {
@@ -45,7 +45,7 @@
         "silhouette": "",
         "blueprint": "",
         "models": {
-          "pinnance-class-corsair-legacy-beta": {
+          "pinnace-class-corsair-legacy-beta": {
             "author": "Armada Legacy Beta",
             "alias": "LegacyBeta",
             "team": "Legacy Beta",
@@ -53,11 +53,11 @@
             "expansion": "Legacy Beta",
             "_id": null,
             "type": "ship",
-            "chassis": "pinnance-class-legacy-beta",
-            "name": "Pinnance-class Corsair",
+            "chassis": "pinnace-class-legacy-beta",
+            "name": "Pinnace-class Corsair",
             "nicknames": [
-              "Pinnance",
-              "Pinnance Corsair"
+              "Pinnace",
+              "Pinnace Corsair"
             ],
             "faction": "separatist",
             "unique": false,
@@ -128,9 +128,9 @@
               ]
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/pinnance-class-corsair-legacy-beta.webp"
+            "cardimage": "https://api.swarmada.wiki/images/pinnace-class-corsair-legacy-beta.webp"
           },
-          "pinnance-class-corvette-legacy-beta": {
+          "pinnace-class-corvette-legacy-beta": {
             "author": "Armada Legacy Beta",
             "alias": "LegacyBeta",
             "team": "Legacy Beta",
@@ -138,11 +138,11 @@
             "expansion": "Legacy Beta",
             "_id": null,
             "type": "ship",
-            "chassis": "pinnance-class-legacy-beta",
-            "name": "Pinnance-class Corvette",
+            "chassis": "pinnace-class-legacy-beta",
+            "name": "Pinnace-class Corvette",
             "nicknames": [
-              "Pinnance",
-              "Pinnance Corvette"
+              "Pinnace",
+              "Pinnace Corvette"
             ],
             "faction": "separatist",
             "unique": false,
@@ -213,7 +213,7 @@
               ]
             },
             "artwork": "",
-            "cardimage": "https://api.swarmada.wiki/images/pinnance-class-corvette-legacy-beta.webp"
+            "cardimage": "https://api.swarmada.wiki/images/pinnace-class-corvette-legacy-beta.webp"
           }
         }
       }
