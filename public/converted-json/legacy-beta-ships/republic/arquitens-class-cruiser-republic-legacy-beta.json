@@ -61,7 +61,7 @@
             "traits": [
               "clone"
             ],
-            "points": 55,
+            "points": 52,
             "tokens": {
               "def_scatter": 0,
               "def_evade": 2,
@@ -80,6 +80,7 @@
               "officer",
               "weapons-team",
               "offensive-retro",
+              "weapons-team-offensive-retro",
               "ordnance",
               "title"
             ],
@@ -146,9 +147,9 @@
             "faction": "republic",
             "unique": false,
             "traits": [
-              "clone"
+              "clone", "bombard"
             ],
-            "points": 60,
+            "points": 55,
             "tokens": {
               "def_scatter": 0,
               "def_evade": 2,
@@ -166,6 +167,7 @@
               "commander",
               "officer",
               "support-team",
+              "turbolaser",
               "turbolaser",
               "title"
             ],
