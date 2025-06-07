@@ -1,7 +1,7 @@
 {
   "ships": {
     "arquitens-class-cruiser-republic-legacy-beta": {
-      "_id": "f9db381f-6d39-4e40-b4c8-50d71d291f40",
+      "_id": "2b8086dc-9454-442c-8821-a5c82665925c",
       "type": "chassis",
       "chassis_name": "arquitens-class-cruiser-republic-legacy-beta",
       "size": "small",
@@ -46,7 +46,7 @@
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "d26627da-6743-4440-b49c-78ffd5d90501",
+          "_id": "0ea57bbc-0267-45d3-b0f8-9c14195d0a21",
           "type": "ship",
           "chassis": "arquitens-class-cruiser-republic-legacy-beta",
           "name": "Arquitens-class Assault Cruiser",
@@ -80,6 +80,7 @@
             "officer",
             "weapons-team",
             "offensive-retro",
+            "weapons-team-offensive-retro",
             "ordnance",
             "title"
           ],
@@ -134,7 +135,7 @@
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "99d628b5-837b-46c1-9254-e695f0b768e3",
+          "_id": "d746265f-37d0-4f11-ab1f-fbd141ae489f",
           "type": "ship",
           "chassis": "arquitens-class-cruiser-republic-legacy-beta",
           "name": "Arquitens-class Escort Cruiser",
@@ -216,10 +217,10 @@
         }
       }
     },
-    "pinnance-class-legacy-beta": {
-      "_id": "6cab498a-ab51-4760-887f-9ae9f318933f",
+    "pinnace-class-legacy-beta": {
+      "_id": "f3529062-bf7e-4813-b792-17f504c20f4a",
       "type": "chassis",
-      "chassis_name": "pinnance-class-legacy-beta",
+      "chassis_name": "pinnace-class-legacy-beta",
       "size": "small",
       "hull": 5,
       "speed": {
@@ -261,19 +262,19 @@
       "silhouette": "",
       "blueprint": "",
       "models": {
-        "pinnance-class-corsair-legacy-beta": {
+        "pinnace-class-corsair-legacy-beta": {
           "author": "Armada Legacy Beta",
           "alias": "LegacyBeta",
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "37c79849-5975-41ff-bcc3-9a9cb4308faf",
+          "_id": "fd654857-5533-478b-bc61-d463b3c79957",
           "type": "ship",
-          "chassis": "pinnance-class-legacy-beta",
-          "name": "Pinnance-class Corsair",
+          "chassis": "pinnace-class-legacy-beta",
+          "name": "Pinnace-class Corsair",
           "nicknames": [
-            "Pinnance",
-            "Pinnance Corsair"
+            "Pinnace",
+            "Pinnace Corsair"
           ],
           "faction": "separatist",
           "unique": false,
@@ -344,21 +345,21 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/pinnance-class-corsair-legacy-beta.webp"
+          "cardimage": "https://api.swarmada.wiki/images/pinnace-class-corsair-legacy-beta.webp"
         },
-        "pinnance-class-corvette-legacy-beta": {
+        "pinnace-class-corvette-legacy-beta": {
           "author": "Armada Legacy Beta",
           "alias": "LegacyBeta",
           "team": "Legacy Beta",
           "release": "Legacy Beta",
           "expansion": "Legacy Beta",
-          "_id": "4e825a25-507b-4a09-b60a-a391341fe27a",
+          "_id": "7329b58e-b87d-4bc1-b321-cf6b133c9f47",
           "type": "ship",
-          "chassis": "pinnance-class-legacy-beta",
-          "name": "Pinnance-class Corvette",
+          "chassis": "pinnace-class-legacy-beta",
+          "name": "Pinnace-class Corvette",
           "nicknames": [
-            "Pinnance",
-            "Pinnance Corvette"
+            "Pinnace",
+            "Pinnace Corvette"
           ],
           "faction": "separatist",
           "unique": false,
@@ -429,7 +430,7 @@
             ]
           },
           "artwork": "",
-          "cardimage": "https://api.swarmada.wiki/images/pinnance-class-corvette-legacy-beta.webp"
+          "cardimage": "https://api.swarmada.wiki/images/pinnace-class-corvette-legacy-beta.webp"
         }
       }
     }
