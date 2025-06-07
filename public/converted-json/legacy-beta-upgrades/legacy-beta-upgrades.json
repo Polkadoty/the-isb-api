@@ -6,7 +6,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "471bd301-1ab5-4908-a8ca-823c946e6de7",
+      "_id": "fc657da3-6a85-4b4e-963e-ca2e20630afa",
       "type": "commander",
       "faction": [
         "republic"
@@ -66,7 +66,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "4094adc9-be9a-498d-a7e5-daffd8d24d3e",
+      "_id": "87c9a7c0-0831-428f-93ff-5e12c20965f4",
       "type": "commander",
       "faction": [
         "separatist"
@@ -119,13 +119,132 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/poggle-the-lesser-commander-legacy-beta.webp"
     },
+    "stellar-rise-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "9111059f-aeea-424f-9e26-30c253a5308b",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Stellar Rise",
+      "nicknames": [
+        "Stellar Rise"
+      ],
+      "unique-class": [
+        "Stellar Rise"
+      ],
+      "ability": "Your printed squadron value is treated as 3. You cannot spend :squad: dials to resolve the :squad: command.",
+      "unique": true,
+      "points": 4,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "enable_traits": [
+          "star-destroyer"
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/stellar-rise-title-legacy-beta.webp"
+    },
+    "surrogator-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "4321167c-f38b-457a-b369-148cf212ca6b",
+      "type": "title",
+      "faction": [
+        "republic"
+      ],
+      "name": "Surrogator",
+      "nicknames": [
+        "Surrogator"
+      ],
+      "unique-class": [
+        "Surrogator"
+      ],
+      "ability": "During your activation, you may exhaust this card and choose 1 enemy ship at close-medium range. If you do, that ship gains 1 raid token of your choice. If it already has a raid token, you may instead discard it. If you do, a number of friendly squadrons up to your squadron value at distance 1 of the chosen ship may move up to distance 1.",
+      "unique": true,
+      "points": 8,
+      "modification": false,
+      "bound_shiptype": "arquitens-class-cruiser-republic-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/surrogator-title-legacy-beta.webp"
+    },
     "baktoid-combat-vessel-title-legacy-beta": {
       "author": "Armada Legacy Beta",
       "alias": "LegacyBeta",
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "6598a206-981f-4ef0-a07e-704e8f5d77fe",
+      "_id": "f02efbfc-e57c-4edc-a620-799b23660d62",
       "type": "title",
       "faction": [
         "separatist"
@@ -180,7 +299,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "fb643700-6e19-4d09-bcfc-b1f5793906f7",
+      "_id": "762bf37f-2126-4054-9064-d717cafa4a66",
       "type": "title",
       "faction": [
         "separatist"
@@ -238,7 +357,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "bfb6dd2b-ac76-43c9-9d51-e9fed34003d8",
+      "_id": "62e6a9f8-0db6-46a9-9dce-bc8d58fd3d7d",
       "type": "title",
       "faction": [
         "separatist"
@@ -296,7 +415,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "f5a47aa6-8322-487d-8252-fd11bb548695",
+      "_id": "40e40075-17aa-4662-a91d-d99e5d2b867c",
       "type": "title",
       "faction": [
         "empire"
@@ -354,7 +473,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "d32f4675-1998-4424-8c8a-67c9a4f57ae9",
+      "_id": "3b491135-ff21-4db4-942d-08ab4a99d5fa",
       "type": "title",
       "faction": [
         "rebel"
@@ -412,7 +531,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "c704bc08-77e8-4d65-9201-972e9d0afc25",
+      "_id": "d61e3cb2-33f3-42c0-8d6b-1cf51272a2e1",
       "type": "title",
       "faction": [
         "republic"
@@ -461,13 +580,129 @@
       "artwork": "",
       "cardimage": "https://api.swarmada.wiki/images/open-circle-fleet-title-legacy-beta.webp"
     },
+    "kolivex-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "e69b9a75-9027-4864-8807-e6695521823b",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Kolivex",
+      "nicknames": [
+        "Kolivex"
+      ],
+      "unique-class": [
+        "Kolivex"
+      ],
+      "ability": "Your squadron value is increased by 1. You may not equip :ion-cannon: upgrades.",
+      "unique": true,
+      "points": 2,
+      "modification": false,
+      "bound_shiptype": "pinnace-class-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          "ion-cannon"
+        ],
+        "disable_upgrades": [
+          "ion-cannon"
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/kolivex-title-legacy-beta.webp"
+    },
+    "petranaki-title-legacy-beta": {
+      "author": "Armada Legacy Beta",
+      "alias": "LegacyBeta",
+      "team": "Legacy Beta",
+      "release": "Legacy Beta",
+      "expansion": "Legacy Beta",
+      "_id": "d202521c-a523-4a67-856f-c1d4223656f1",
+      "type": "title",
+      "faction": [
+        "separatist"
+      ],
+      "name": "Petranaki",
+      "nicknames": [
+        "Petranaki"
+      ],
+      "unique-class": [
+        "Petranaki"
+      ],
+      "ability": "This card begins the game exhausted.\nYour command value is increased by 1.\nBefore you reveal a command you may exhaust this card. If you do, discard your top command dial.",
+      "unique": true,
+      "points": 3,
+      "modification": false,
+      "bound_shiptype": "pinnace-class-legacy-beta",
+      "restrictions": {
+        "traits": [
+          ""
+        ],
+        "size": [
+          ""
+        ],
+        "disqual_upgrades": [
+          ""
+        ],
+        "disable_upgrades": [
+          ""
+        ],
+        "enable_upgrades": [
+          ""
+        ],
+        "flagship": false
+      },
+      "start_command": {
+        "type": "",
+        "start_icon": [
+          ""
+        ],
+        "start_amount": 0
+      },
+      "exhaust": {
+        "type": "non-recur",
+        "ready_token": [
+          ""
+        ],
+        "ready_amount": 0
+      },
+      "artwork": "",
+      "cardimage": "https://api.swarmada.wiki/images/petranaki-title-legacy-beta.webp"
+    },
     "rebel-one-title-legacy-beta": {
       "author": "Armada Legacy Beta",
       "alias": "LegacyBeta",
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "d8ec51a4-1c90-413d-9190-6b4b59aa6915",
+      "_id": "491cbb68-3012-43a6-8588-c6d67781b582",
       "type": "title",
       "faction": [
         "rebel"
@@ -525,7 +760,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "dd7ac2dd-56a6-4362-a3ea-fb57c4217c4a",
+      "_id": "9e50373a-fc3a-477a-80f1-556f775e341e",
       "type": "title",
       "faction": [
         "empire"
@@ -583,7 +818,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "0edb7065-7ef8-4923-bd11-a8518465780c",
+      "_id": "4698f441-8e87-4683-8a8b-69d46f7ba0e2",
       "type": "title",
       "faction": [
         "republic"
