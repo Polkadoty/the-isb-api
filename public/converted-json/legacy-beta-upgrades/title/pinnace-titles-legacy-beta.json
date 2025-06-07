@@ -20,7 +20,7 @@
       ],
       "ability": "Your squadron value is increased by 1. You may not equip :ion-cannon: upgrades.",
       "unique": true,
-      "points": 2,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "pinnace-class-legacy-beta",
       "restrictions": {
@@ -31,10 +31,10 @@
           ""
         ],
         "disqual_upgrades": [
-          "ion-cannon"
+          ""
         ],
         "disable_upgrades": [
-          "ion-cannon"
+          ""
         ],
         "enable_upgrades": [
           ""

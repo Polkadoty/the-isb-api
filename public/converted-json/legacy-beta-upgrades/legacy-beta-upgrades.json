@@ -6,7 +6,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "fc657da3-6a85-4b4e-963e-ca2e20630afa",
+      "_id": "a18f88d1-8d0b-4d07-8a21-3b61fd4fda78",
       "type": "commander",
       "faction": [
         "republic"
@@ -66,7 +66,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "87c9a7c0-0831-428f-93ff-5e12c20965f4",
+      "_id": "0a547513-b3af-498f-84cd-0d9f75cfa7ea",
       "type": "commander",
       "faction": [
         "separatist"
@@ -125,7 +125,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "9111059f-aeea-424f-9e26-30c253a5308b",
+      "_id": "39d71b71-f595-464c-b2a0-f4ffc0b2b763",
       "type": "title",
       "faction": [
         "republic"
@@ -186,7 +186,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "4321167c-f38b-457a-b369-148cf212ca6b",
+      "_id": "e6cef90f-6cee-4fa8-b00d-4009416f660f",
       "type": "title",
       "faction": [
         "republic"
@@ -244,7 +244,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "f02efbfc-e57c-4edc-a620-799b23660d62",
+      "_id": "81d18299-54b9-4a41-9308-1b0f73730b37",
       "type": "title",
       "faction": [
         "separatist"
@@ -299,7 +299,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "762bf37f-2126-4054-9064-d717cafa4a66",
+      "_id": "b082cf67-4b96-4b6c-ba38-7e792d840716",
       "type": "title",
       "faction": [
         "separatist"
@@ -357,7 +357,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "62e6a9f8-0db6-46a9-9dce-bc8d58fd3d7d",
+      "_id": "6e918662-47f6-43ed-b169-67907bdb2730",
       "type": "title",
       "faction": [
         "separatist"
@@ -415,7 +415,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "40e40075-17aa-4662-a91d-d99e5d2b867c",
+      "_id": "d4f95138-49fb-4a13-8b61-bbbfbed2b4a9",
       "type": "title",
       "faction": [
         "empire"
@@ -473,7 +473,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "3b491135-ff21-4db4-942d-08ab4a99d5fa",
+      "_id": "f4a8ffad-4690-43c7-8ba0-cf513664e400",
       "type": "title",
       "faction": [
         "rebel"
@@ -531,7 +531,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "d61e3cb2-33f3-42c0-8d6b-1cf51272a2e1",
+      "_id": "afc8c19f-01bf-463c-9a29-a1e73ce5b1ce",
       "type": "title",
       "faction": [
         "republic"
@@ -586,7 +586,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "e69b9a75-9027-4864-8807-e6695521823b",
+      "_id": "0fdd62b4-4f6d-4142-a78d-4cadf8253583",
       "type": "title",
       "faction": [
         "separatist"
@@ -600,7 +600,7 @@
       ],
       "ability": "Your squadron value is increased by 1. You may not equip :ion-cannon: upgrades.",
       "unique": true,
-      "points": 2,
+      "points": 4,
       "modification": false,
       "bound_shiptype": "pinnace-class-legacy-beta",
       "restrictions": {
@@ -611,10 +611,10 @@
           ""
         ],
         "disqual_upgrades": [
-          "ion-cannon"
+          ""
         ],
         "disable_upgrades": [
-          "ion-cannon"
+          ""
         ],
         "enable_upgrades": [
           ""
@@ -644,7 +644,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "d202521c-a523-4a67-856f-c1d4223656f1",
+      "_id": "dec8836a-1a51-4f04-b610-6fb581cc9b66",
       "type": "title",
       "faction": [
         "separatist"
@@ -702,7 +702,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "491cbb68-3012-43a6-8588-c6d67781b582",
+      "_id": "3efb16fa-ecd3-40e2-84ff-058b9057a733",
       "type": "title",
       "faction": [
         "rebel"
@@ -760,7 +760,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "9e50373a-fc3a-477a-80f1-556f775e341e",
+      "_id": "6bf58f48-e1f0-4d59-b14a-dffea1d97681",
       "type": "title",
       "faction": [
         "empire"
@@ -818,7 +818,7 @@
       "team": "Legacy Beta",
       "release": "Legacy Beta",
       "expansion": "Legacy Beta",
-      "_id": "4698f441-8e87-4683-8a8b-69d46f7ba0e2",
+      "_id": "de837509-a936-4ec6-b815-f6f575e4d465",
       "type": "title",
       "faction": [
         "republic"
