@@ -163,7 +163,9 @@ function extractShipBuilds(fleetDataString) {
                 // If no (points) are found, it also remains included.
 
                 if (includeUpgrade) {
-                    currentUpgrades.push(fullUpgradeString);
+                    // Use Star Forge alias for the upgrade
+                    const starForgeAlias = getStarForgeAlias(fullUpgradeString, 'ship_upgrade');
+                    currentUpgrades.push(starForgeAlias);
                 }
             }
         } else if (trimmedLine.startsWith('= ') && trimmedLine.endsWith(' Points')) {
@@ -177,7 +179,8 @@ function extractShipBuilds(fleetDataString) {
                 builds.push({ ship_name: currentShipName, upgrades: currentUpgrades });
             }
             if (trimmedLine.includes('(') && trimmedLine.includes(')') && !trimmedLine.startsWith('•')) {
-                 currentShipName = trimmedLine;
+                 // Use Star Forge alias for the ship name
+                 currentShipName = getStarForgeAlias(trimmedLine, 'ship');
                  currentUpgrades = [];
             } else {
                 if (currentShipName) {
@@ -356,7 +359,9 @@ function extractSquadronsFromFleetData(fleetDataString) {
                 squadronName = match[2].trim();
             }
             for (let i = 0; i < count; i++) {
-                extractedSquads.push(squadronName);
+                // Use Star Forge alias for the squadron name
+                const starForgeAlias = getStarForgeAlias(squadronName, 'squadron');
+                extractedSquads.push(starForgeAlias);
             }
         } else if (inSquadronSection && !trimmedLine) { // Empty line might signify end of squadrons before points
             // This can be ambiguous. For now, an empty line ends the squadron section if one was active.
