@@ -21,7 +21,7 @@
             "ability": "*Modification*\nWhile attacking a ship, you may exhaust this card. If you do, you may discard up to 2 command tokens to add that number of blue dice to your attack pool.",
             "unique": true,
             "points": 7,
-            "modification": true,
+            "modification": false,
             "bound_shiptype": "venator-star-destroyer-empire",
             "restrictions": {
                 "traits": [

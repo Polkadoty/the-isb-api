@@ -139,32 +139,44 @@ function getStarForgeAlias(name, context = 'unknown') {
 }
 
 // Function to update fleet data with Star Forge aliases
-function updateFleetDataAliases(fleetData) {
+function updateFleetDataAliases(fleetData, debug = false) {
   if (!fleetData) return fleetData;
 
   const lines = fleetData.split(/\r\n|\n|\r/);
   const updatedLines = [];
   let aliasCount = 0;
 
-  for (const line of lines) {
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
     const trimmedLine = line.trim();
+    let updatedLine = line;
+    let wasUpdated = false;
 
     if (trimmedLine.startsWith('Commander:')) {
       const commanderMatch = trimmedLine.match(/^Commander:\s*(.+?)(\s*\(\d+\))?$/);
       if (commanderMatch) {
         const commanderName = commanderMatch[1].trim();
         const starForgeAlias = getStarForgeAlias(commanderName, 'commander');
-        if (starForgeAlias !== commanderName) aliasCount++;
-        updatedLines.push(line.replace(commanderName, starForgeAlias.replace(/\s*\(\d+\)$/, '')));
-      } else {
-        updatedLines.push(line);
+        if (starForgeAlias !== commanderName) {
+          const cleanAlias = starForgeAlias.replace(/\s*\(\d+\)$/, '');
+          updatedLine = line.replace(commanderName, cleanAlias);
+          aliasCount++;
+          wasUpdated = true;
+          if (debug) console.log(`  Commander: "${commanderName}" → "${cleanAlias}"`);
+        }
       }
     } else if (trimmedLine.startsWith('• ')) {
-      // This is an upgrade
+      // This is an upgrade - be more careful with replacement
+      const bulletAndSpaces = line.match(/^(\s*•\s*)/)[0]; // Preserve original spacing
       const upgradeName = trimmedLine.substring(2).trim();
       const starForgeAlias = getStarForgeAlias(upgradeName, 'ship_upgrade');
-      if (starForgeAlias !== upgradeName) aliasCount++;
-      updatedLines.push(line.replace(upgradeName, starForgeAlias));
+      
+      if (starForgeAlias !== upgradeName && !starForgeAlias.startsWith('match not found')) {
+        updatedLine = bulletAndSpaces + starForgeAlias;
+        aliasCount++;
+        wasUpdated = true;
+        if (debug) console.log(`  Upgrade: "${upgradeName}" → "${starForgeAlias}"`);
+      }
     } else if (trimmedLine.includes('(') && trimmedLine.includes(')') && 
                !trimmedLine.startsWith('Faction:') && 
                !trimmedLine.startsWith('Commander:') &&
@@ -177,11 +189,26 @@ function updateFleetDataAliases(fleetData) {
                !trimmedLine.startsWith('= ')) {
       // This is likely a ship name
       const starForgeAlias = getStarForgeAlias(trimmedLine, 'ship');
-      if (starForgeAlias !== trimmedLine) aliasCount++;
-      updatedLines.push(line.replace(trimmedLine, starForgeAlias));
-    } else {
-      updatedLines.push(line);
+      if (starForgeAlias !== trimmedLine && !starForgeAlias.startsWith('match not found')) {
+        // Preserve original line indentation
+        const leadingSpaces = line.match(/^\s*/)[0];
+        updatedLine = leadingSpaces + starForgeAlias;
+        aliasCount++;
+        wasUpdated = true;
+        if (debug) console.log(`  Ship: "${trimmedLine}" → "${starForgeAlias}"`);
+      }
     }
+
+    updatedLines.push(updatedLine);
+    
+    // Show first few updates for debugging
+    if (debug && wasUpdated && aliasCount <= 5) {
+      console.log(`    Line ${i + 1}: ${wasUpdated ? 'UPDATED' : 'unchanged'}`);
+    }
+  }
+
+  if (debug && aliasCount > 0) {
+    console.log(`  Total aliases updated in this fleet: ${aliasCount}`);
   }
 
   return updatedLines.join('\n');
@@ -203,6 +230,8 @@ function updateFleetAliases(inputFile, outputFile) {
   const progressInterval = Math.max(1, Math.floor(records.length / 20)); // Update every 5%
 
   let totalAliasUpdates = 0;
+  let debugMode = process.argv.includes('--debug');
+  
   const updatedRecords = records.map((record, index) => {
     // Progress logging
     if (index % progressInterval === 0 || index === records.length - 1) {
@@ -214,10 +243,22 @@ function updateFleetAliases(inputFile, outputFile) {
 
     if (record.fleet_data) {
       const originalData = record.fleet_data;
-      record.fleet_data = updateFleetDataAliases(record.fleet_data);
+      // Enable debug for first few records if debug mode
+      const shouldDebug = debugMode && (index < 3 || totalAliasUpdates < 5);
+      if (shouldDebug) {
+        console.log(`\n🔍 Debugging Fleet ${index + 1}:`);
+      }
+      
+      record.fleet_data = updateFleetDataAliases(record.fleet_data, shouldDebug);
+      
       // Count changes (simple check)
       if (record.fleet_data !== originalData) {
         totalAliasUpdates++;
+        if (shouldDebug) {
+          console.log(`✅ Fleet ${index + 1} had aliases updated\n`);
+        }
+      } else if (shouldDebug) {
+        console.log(`ℹ️ Fleet ${index + 1} had no alias changes\n`);
       }
     }
     return record;
@@ -239,10 +280,19 @@ const inputFile = process.argv[2];
 const outputFile = process.argv[3];
 
 if (!inputFile || !outputFile) {
-  console.error("Usage: node alias-updater.cjs <input_csv> <output_csv>");
+  console.error("Usage: node alias-updater.cjs <input_csv> <output_csv> [--debug]");
   console.error("Example: node alias-updater.cjs converted-fleets.csv updated-fleets.csv");
+  console.error("Example: node alias-updater.cjs converted-fleets.csv updated-fleets.csv --debug");
   process.exit(1);
 }
+
+// Test the alias lookup with a few known items
+console.log("🧪 Testing alias lookup:");
+console.log(`  "ISD 2" (ship) → "${getStarForgeAlias('ISD 2', 'ship')}"`);
+console.log(`  "Expert Shield Tech" (upgrade) → "${getStarForgeAlias('Expert Shield Tech', 'ship_upgrade')}"`);
+console.log(`  "Moff Jerjerrod" (commander) → "${getStarForgeAlias('Moff Jerjerrod', 'commander')}"`);
+console.log(`  "TIE Fighter Squadron" (squadron) → "${getStarForgeAlias('TIE Fighter Squadron', 'squadron')}"`);
+console.log("");
 
 const inputPath = path.join(__dirname, inputFile);
 const outputPath = path.join(__dirname, outputFile);
